@@ -322,14 +322,21 @@ def main() -> int:
     print(f"Wrote {len(kanji):>4} kanji to data/n4_kanji_whitelist.json")
 
     readings = extract_kanji_readings(kanji_md)
-    (data_dir / "n4_kanji_readings.json").write_text(
-        json.dumps(readings, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    print(
-        f"Wrote {len(readings):>4} kanji readings to "
-        "data/n4_kanji_readings.json"
-    )
+    # MERGE-PRESERVE (2026-07-20, item 42): n4_kanji_readings.json also carries hand-authored
+    # fields the build does not own (`primary_kind`, `secondary_readings`, `tier`). Refresh only
+    # on/kun/primary from the source and keep the rest.
+    rpath = data_dir / "n4_kanji_readings.json"
+    READ_OWNED = {"on", "kun", "primary"}
+    prev_r = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
+    merged_r = dict(prev_r)  # keep any extra glyphs/fields
+    for g, rd in readings.items():
+        m = dict(prev_r.get(g, {}))
+        for k in READ_OWNED:
+            if k in rd:
+                m[k] = rd[k]
+        merged_r[g] = m
+    rpath.write_text(json.dumps(merged_r, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {len(merged_r):>4} kanji readings to data/n4_kanji_readings.json (merge-preserving)")
 
     vocab = extract_vocab(vocab_md)
     (data_dir / "n4_vocab_whitelist.json").write_text(
@@ -346,11 +353,35 @@ def main() -> int:
     print(f"Wrote {len(corpus):>4} structured vocab entries to data/vocab.json")
 
     kanji_corpus = extract_kanji_corpus(kanji_md)
-    (data_dir / "kanji.json").write_text(
-        json.dumps({"entries": kanji_corpus}, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    print(f"Wrote {len(kanji_corpus):>4} kanji corpus entries to data/kanji.json")
+    # MERGE-PRESERVE (2026-07-20, item 42): data/kanji.json carries fields the build does NOT
+    # own - hand-authored `examples`, `notes`, `primary_kind`, `secondary_readings`, the flags
+    # (`mnemonic_not_etymology`, `origin_disputed`), `deck_order_rank`, `recognition_priority`,
+    # `stroke_order_svg`, plus `_meta.history`. Regenerating from kanji_n4.md must refresh ONLY
+    # the build-owned reading/meaning fields and keep the rest, or a rebuild silently destroys
+    # authored content (this happened once - see OPEN_ISSUES). Never revert to a naive overwrite.
+    kpath = data_dir / "kanji.json"
+    BUILD_OWNED = {"glyph", "on", "kun", "primary_reading", "primary_kind", "meanings"}
+    prev_meta, prev = None, {}
+    if kpath.exists():
+        _p = json.loads(kpath.read_text(encoding="utf-8"))
+        prev_meta = _p.get("_meta")
+        prev = {e["glyph"]: e for e in _p.get("entries", [])}
+    merged = []
+    for entry in kanji_corpus:
+        old = prev.get(entry.get("glyph"))
+        if old:
+            m = dict(old)                       # keep every hand-authored field
+            for k in BUILD_OWNED:
+                if k in entry:
+                    m[k] = entry[k]             # refresh only build-owned fields from the source
+            merged.append(m)
+        else:
+            merged.append(entry)
+    payload = {"entries": merged}
+    if prev_meta is not None:
+        payload = {"_meta": prev_meta, "entries": merged}
+    kpath.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {len(merged):>4} kanji corpus entries to data/kanji.json (merge-preserving)")
     return 0
 
 

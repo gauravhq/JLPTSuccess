@@ -81,7 +81,7 @@ function renderDetail(container, entry, entries) {
       </div>
       ${entry.examples?.length ? `
         <section class="kanji-examples">
-          <h3>Example usage (N5)</h3>
+          <h3>Example usage</h3>
           <table class="kanji-examples-table">
             <tbody>
               ${entry.examples.map(ex => `

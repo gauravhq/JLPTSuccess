@@ -15,11 +15,12 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **同**  (tier: core_n4)
   - on: ドウ
   - kun: おな(じ)
-  - primary: ドウ  (kind: on)
-  - meanings: same, agree, equal
+  - primary: おな(じ)  (kind: kun)
+  - meanings: same, identical, agree
 
 - **事**  (tier: core_n4)
   - on: ジ
+  - secondary_on: ズ
   - kun: こと
   - primary: ジ  (kind: on)
   - meanings: matter, thing, fact, business
@@ -34,7 +35,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ハツ、ホツ
   - kun: (none)
   - primary: ハツ  (kind: on)
-  - meanings: departure, discharge, emit, start
+  - meanings: departure, start, emit, discharge
 
 - **者**  (tier: core_n4)
   - on: シャ
@@ -50,15 +51,16 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **業**  (tier: core_n4)
   - on: ギョウ
+  - secondary_on: ゴウ
   - kun: わざ
   - primary: ギョウ  (kind: on)
-  - meanings: business, vocation, arts, performance
+  - meanings: business, industry, vocation, arts
 
 - **方**  (tier: core_n4)
   - on: ホウ
   - kun: かた
   - primary: ホウ  (kind: on)
-  - meanings: direction, person, alternative
+  - meanings: direction, way, person (polite)
 
 - **場**  (tier: core_n4)
   - on: ジョウ
@@ -68,7 +70,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **開**  (tier: core_n4)
   - on: カイ
-  - kun: ひら(く)、あ(ける)
+  - kun: ひら(く)、あ(ける)、あ(く)
   - primary: カイ  (kind: on)
   - meanings: open, unfold, unseal
 
@@ -76,13 +78,13 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: モン
   - kun: と(う)
   - primary: モン  (kind: on)
-  - meanings: question, ask, problem
+  - meanings: question, to ask, problem
 
 - **代**  (tier: core_n4)
   - on: ダイ
   - kun: か(わり)
   - primary: ダイ  (kind: on)
-  - meanings: substitute, change, convert, replace
+  - meanings: substitute, change, generation, age
 
 - **明**  (tier: core_n4)
   - on: メイ、ミョウ
@@ -92,7 +94,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **動**  (tier: core_n4)
   - on: ドウ
-  - kun: うご(く)
+  - kun: うご(く)、うご(かす)
   - primary: ドウ  (kind: on)
   - meanings: move, motion, change
 
@@ -104,24 +106,27 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **通**  (tier: core_n4)
   - on: ツウ
+  - secondary_on: ツ
   - kun: とお(る)、かよ(う)
   - primary: ツウ  (kind: on)
-  - meanings: traffic, pass through, avenue, commute
+  - meanings: pass through, traffic, commute, common
 
 - **理**  (tier: core_n4)
   - on: リ
   - kun: (none)
   - primary: リ  (kind: on)
-  - meanings: logic, arrangement, reason, justice, truth
+  - meanings: logic, reason, principle, arrangement
 
 - **体**  (tier: core_n4)
   - on: タイ
+  - secondary_on: テイ
   - kun: からだ
   - primary: タイ  (kind: on)
-  - meanings: body, substance, object, reality
+  - meanings: body, form, substance
 
 - **主**  (tier: core_n4)
   - on: シュ
+  - secondary_on: ス
   - kun: ぬし、おも
   - primary: シュ  (kind: on)
   - meanings: lord, chief, master, main thing, principal
@@ -142,13 +147,13 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: フ、ブ
   - kun: (none)
   - primary: フ  (kind: on)
-  - meanings: negative, non-, bad
+  - meanings: not, non-, negative
 
 - **作**  (tier: core_n4)
   - on: サク、サ
   - kun: つく(る)
   - primary: サク  (kind: on)
-  - meanings: make, production, prepare, build
+  - meanings: make, create, production
 
 - **用**  (tier: core_n4)
   - on: ヨウ
@@ -157,14 +162,15 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: utilize, business, service, use, employ
 
 - **度**  (tier: core_n4)
-  - on: ド、タク
-  - kun: たび、た(い)
-  - primary: たび  (kind: kun)
+  - on: ド
+  - secondary_on: タク、ト
+  - kun: たび
+  - primary: ド  (kind: on)
   - meanings: degrees, occurrence, time, counter
 
 - **強**  (tier: core_n4)
   - on: キョウ、ゴウ
-  - kun: つよ(い)
+  - kun: つよ(い)、つよ(まる)、つよ(める)、し(いる)
   - primary: つよ(い)  (kind: kun)
   - meanings: strong
 
@@ -172,12 +178,12 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: コウ
   - kun: (none)
   - primary: コウ  (kind: on)
-  - meanings: public, prince, official, governmental
+  - meanings: public, official, governmental
 
 - **持**  (tier: core_n4)
   - on: ジ
   - kun: も(つ)
-  - primary: ジ  (kind: on)
+  - primary: も(つ)  (kind: kun)
   - meanings: hold, have
 
 - **野**  (tier: core_n4)
@@ -190,12 +196,12 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: イ
   - kun: もっ(て)
   - primary: イ  (kind: on)
-  - meanings: by means of, because, in view of
+  - meanings: by means of, from, since
 
 - **思**  (tier: core_n4)
   - on: シ
   - kun: おも(う)
-  - primary: シ  (kind: on)
+  - primary: おも(う)  (kind: kun)
   - meanings: think
 
 - **家**  (tier: core_n4)
@@ -226,12 +232,12 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: イン
   - kun: (none)
   - primary: イン  (kind: on)
-  - meanings: institution, temple, mansion, school
+  - meanings: institution, hospital, temple
 
 - **心**  (tier: core_n4)
   - on: シン
   - kun: こころ
-  - primary: シン  (kind: on)
+  - primary: こころ  (kind: kun)
   - meanings: heart, mind, spirit
 
 - **界**  (tier: core_n4)
@@ -261,6 +267,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **重**  (tier: core_n4)
   - on: ジュウ、チョウ
   - kun: おも(い)、かさ(ねる)
+  - secondary_kun: え
   - primary: おも(い)  (kind: kun)
   - meanings: heavy, important, esteem, respect
 
@@ -278,9 +285,9 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **画**  (tier: core_n4)
   - on: ガ、カク
-  - kun: かく(する)
+  - kun: (none)
   - primary: ガ  (kind: on)
-  - meanings: brush-stroke, picture
+  - meanings: picture, drawing, plan, stroke
 
 - **海**  (tier: core_n4)
   - on: カイ
@@ -290,7 +297,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **売**  (tier: core_n4)
   - on: バイ
-  - kun: う(る)
+  - kun: う(る)、う(れる)
   - primary: バイ  (kind: on)
   - meanings: sell
 
@@ -298,7 +305,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: チ
   - kun: し(る)
   - primary: チ  (kind: on)
-  - meanings: know, wisdom
+  - meanings: know, knowledge, wisdom
 
 - **集**  (tier: core_n4)
   - on: シュウ
@@ -350,15 +357,15 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **始**  (tier: core_n4)
   - on: シ
-  - kun: はじ(める)
+  - kun: はじ(める)、はじ(まる)
   - primary: シ  (kind: on)
   - meanings: commence, begin
 
 - **朝**  (tier: core_n4)
   - on: チョウ
   - kun: あさ
-  - primary: チョウ  (kind: on)
-  - meanings: morning
+  - primary: あさ  (kind: kun)
+  - meanings: morning, dynasty
 
 - **運**  (tier: core_n4)
   - on: ウン
@@ -368,19 +375,20 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **終**  (tier: core_n4)
   - on: シュウ
-  - kun: お(わる)
+  - kun: お(わる)、お(える)
   - primary: シュウ  (kind: on)
   - meanings: end, finish
 
 - **台**  (tier: core_n4)
   - on: ダイ、タイ
-  - kun: うてな
+  - kun: (none)
+  - secondary_kun: うてな
   - primary: ダイ  (kind: on)
   - meanings: pedestal, a stand, counter for machines
 
 - **広**  (tier: core_n4)
   - on: コウ
-  - kun: ひろ(い)
+  - kun: ひろ(い)、ひろ(がる)、ひろ(げる)、ひろ(まる)、ひろ(める)
   - primary: ひろ(い)  (kind: kun)
   - meanings: wide, broad, spacious
 
@@ -394,19 +402,19 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ム、ブ
   - kun: な(い)
   - primary: な(い)  (kind: kun)
-  - meanings: nothingness, none, ain't, nothing, nil, not
+  - meanings: none, without, nothing, lack
 
 - **真**  (tier: core_n4)
   - on: シン
   - kun: ま、まこと
   - primary: シン  (kind: on)
-  - meanings: true, reality, Buddhist sect
+  - meanings: true, real, reality
 
 - **有**  (tier: core_n4)
   - on: ユウ、ウ
   - kun: あ(る)
   - primary: ユウ  (kind: on)
-  - meanings: possess, have, exist, happen
+  - meanings: have, possess, exist
 
 - **少**  (tier: core_n4)
   - on: ショウ
@@ -417,14 +425,14 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **町**  (tier: core_n4)
   - on: チョウ
   - kun: まち
-  - primary: チョウ  (kind: on)
+  - primary: まち  (kind: kun)
   - meanings: town, village, block, street
 
 - **料**  (tier: core_n4)
   - on: リョウ
   - kun: (none)
   - primary: リョウ  (kind: on)
-  - meanings: fee, materials
+  - meanings: fee, charge, materials
 
 - **工**  (tier: core_n4)
   - on: コウ、ク、グ
@@ -434,7 +442,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **建**  (tier: core_n4)
   - on: ケン、コン
-  - kun: た(てる)
+  - kun: た(てる)、た(つ)
   - primary: ケン  (kind: on)
   - meanings: build
 
@@ -446,7 +454,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **止**  (tier: core_n4)
   - on: シ
-  - kun: と(まる)、とど(まる)、や(める)、よ(す)
+  - kun: と(まる)、と(める)、とど(まる)、や(める)、や(む)、よ(す)
   - primary: シ  (kind: on)
   - meanings: stop, halt
 
@@ -488,25 +496,29 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **起**  (tier: core_n4)
   - on: キ
-  - kun: お(きる)、おこ(す)
+  - kun: お(きる)、おこ(す)、お(こる)
   - primary: キ  (kind: on)
   - meanings: wake up, get up; rouse
 
 - **着**  (tier: core_n4)
   - on: チャク
-  - kun: き(る)、つ(く)
+  - secondary_on: ジャク
+  - kun: き(る)、き(せる)、つ(く)、つ(ける)
   - primary: チャク  (kind: on)
   - meanings: arrive, wear, counter for clothing
 
 - **病**  (tier: core_n4)
   - on: ビョウ
-  - kun: や(む)
+  - secondary_on: ヘイ
+  - kun: や(む)、やまい
   - primary: ビョウ  (kind: on)
   - meanings: ill, sick
 
 - **質**  (tier: core_n4)
-  - on: シツ、シチ
-  - kun: たち、ただ(す)
+  - on: シツ
+  - secondary_on: シチ、チ
+  - kun: (none)
+  - secondary_kun: たち、ただ(す)
   - primary: シツ  (kind: on)
   - meanings: substance, quality, matter, temperament
 
@@ -554,9 +566,10 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **験**  (tier: core_n4)
   - on: ケン
+  - secondary_on: ゲン
   - kun: (none)
   - primary: ケン  (kind: on)
-  - meanings: verification, effect, testing
+  - meanings: test, examination, verification, effect
 
 - **英**  (tier: core_n4)
   - on: エイ
@@ -572,7 +585,8 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **仕**  (tier: core_n4)
   - on: シ
-  - kun: (none)
+  - secondary_on: ジ
+  - kun: つか(える)
   - primary: シ  (kind: on)
   - meanings: attend, doing, official, serve
 
@@ -580,13 +594,13 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: キョ、コ
   - kun: さ(る)
   - primary: キョ  (kind: on)
-  - meanings: gone, past, quit, leave, elapse, eliminate
+  - meanings: leave, go away, past
 
 - **味**  (tier: core_n4)
   - on: ミ
   - kun: あじ
   - primary: ミ  (kind: on)
-  - meanings: flavor, taste
+  - meanings: flavor, taste, meaning
 
 - **写**  (tier: core_n4)
   - on: シャ
@@ -597,6 +611,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **字**  (tier: core_n4)
   - on: ジ
   - kun: (none)
+  - secondary_kun: あざ
   - primary: ジ  (kind: on)
   - meanings: character, letter, word
 
@@ -614,21 +629,22 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **音**  (tier: core_n4)
   - on: オン
+  - secondary_on: イン
   - kun: おと、ね
-  - primary: オン  (kind: on)
+  - primary: おと  (kind: kun)
   - meanings: sound, noise
 
 - **注**  (tier: core_n4)
   - on: チュウ
   - kun: そそ(ぐ)、さ(す)、つ(ぐ)
   - primary: チュウ  (kind: on)
-  - meanings: pour, irrigate, shed (tears), flow into, concentrate on
+  - meanings: pour, inject, attention, note
 
 - **帰**  (tier: core_n4)
   - on: キ
   - kun: かえ(る)、かえ(す)
   - primary: キ  (kind: on)
-  - meanings: homecoming, arrive at, lead to, result in
+  - meanings: return, homecoming, arrive at
 
 - **歌**  (tier: core_n4)
   - on: カ
@@ -638,6 +654,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **悪**  (tier: core_n4)
   - on: アク
+  - secondary_on: オ
   - kun: わる(い)
   - primary: わる(い)  (kind: kun)
   - meanings: bad, evil, wrong
@@ -646,18 +663,19 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ズ、ト
   - kun: はか(る)
   - primary: ズ  (kind: on)
-  - meanings: map, drawing, plan, extraordinary
+  - meanings: map, diagram, plan, drawing
 
 - **室**  (tier: core_n4)
   - on: シツ
   - kun: むろ
   - primary: シツ  (kind: on)
-  - meanings: room, apartment, chamber, greenhouse, cellar
+  - meanings: room, chamber, apartment
 
 - **歩**  (tier: core_n4)
-  - on: ホ、ブ
+  - on: ホ
+  - secondary_on: ブ、フ
   - kun: ある(く)、あゆ(む)
-  - primary: ホ  (kind: on)
+  - primary: ある(く)  (kind: kun)
   - meanings: walk, counter for steps
 
 - **風**  (tier: core_n4)
@@ -669,7 +687,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **紙**  (tier: core_n4)
   - on: シ
   - kun: かみ
-  - primary: シ  (kind: on)
+  - primary: かみ  (kind: kun)
   - meanings: paper
 
 - **黒**  (tier: core_n4)
@@ -681,7 +699,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **春**  (tier: core_n4)
   - on: シュン
   - kun: はる
-  - primary: シュン  (kind: on)
+  - primary: はる  (kind: kun)
   - meanings: spring
 
 - **赤**  (tier: core_n4)
@@ -698,7 +716,8 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **館**  (tier: core_n4)
   - on: カン
-  - kun: やかた
+  - kun: (none)
+  - secondary_kun: やかた
   - primary: カン  (kind: on)
   - meanings: building, mansion, large building, palace
 
@@ -723,13 +742,13 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **秋**  (tier: core_n4)
   - on: シュウ
   - kun: あき
-  - primary: シュウ  (kind: on)
+  - primary: あき  (kind: kun)
   - meanings: autumn, fall
 
 - **夏**  (tier: core_n4)
   - on: カ、ゲ
   - kun: なつ
-  - primary: カ  (kind: on)
+  - primary: なつ  (kind: kun)
   - meanings: summer
 
 - **習**  (tier: core_n4)
@@ -790,7 +809,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: チョウ
   - kun: とり
   - primary: チョウ  (kind: on)
-  - meanings: bird, chicken
+  - meanings: bird
 
 - **飯**  (tier: core_n4)
   - on: ハン
@@ -800,20 +819,21 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **勉**  (tier: core_n4)
   - on: ベン
-  - kun: つと(める)
+  - kun: (none)
+  - secondary_kun: つと(める)
   - primary: ベン  (kind: on)
-  - meanings: exertion, endeavor, effort
+  - meanings: effort, diligence, exertion
 
 - **冬**  (tier: core_n4)
   - on: トウ
   - kun: ふゆ
-  - primary: トウ  (kind: on)
+  - primary: ふゆ  (kind: kun)
   - meanings: winter
 
 - **昼**  (tier: core_n4)
   - on: チュウ
   - kun: ひる
-  - primary: チュウ  (kind: on)
+  - primary: ひる  (kind: kun)
   - meanings: daytime, noon
 
 - **茶**  (tier: core_n4)
@@ -825,48 +845,48 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **弟**  (tier: core_n4)
   - on: テイ、ダイ、デ
   - kun: おとうと
-  - primary: テイ  (kind: on)
+  - primary: おとうと  (kind: kun)
   - meanings: younger brother
 
 - **牛**  (tier: core_n4)
   - on: ギュウ
   - kun: うし
-  - primary: ギュウ  (kind: on)
+  - primary: うし  (kind: kun)
   - meanings: cow
 
 - **魚**  (tier: core_n4)
   - on: ギョ
-  - kun: うお、さかな
-  - primary: ギョ  (kind: on)
+  - kun: さかな、うお
+  - primary: さかな  (kind: kun)
   - meanings: fish
 
 - **兄**  (tier: core_n4)
   - on: キョウ、ケイ
   - kun: あに
-  - primary: キョウ  (kind: on)
+  - primary: あに  (kind: kun)
   - meanings: elder brother
 
 - **犬**  (tier: core_n4)
   - on: ケン
   - kun: いぬ
-  - primary: ケン  (kind: on)
+  - primary: いぬ  (kind: kun)
   - meanings: dog
 
 - **妹**  (tier: core_n4)
   - on: マイ
   - kun: いもうと
-  - primary: マイ  (kind: on)
+  - primary: いもうと  (kind: kun)
   - meanings: younger sister
 
 - **姉**  (tier: core_n4)
   - on: シ
   - kun: あね
-  - primary: シ  (kind: on)
+  - primary: あね  (kind: kun)
   - meanings: elder sister
 
 - **漢**  (tier: core_n4)
   - on: カン
   - kun: (none)
   - primary: カン  (kind: on)
-  - meanings: China
+  - meanings: Han, Chinese, Chinese-related
 

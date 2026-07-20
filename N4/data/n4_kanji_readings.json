@@ -1101,8 +1101,8 @@
     "kun": [
       "おな(じ)"
     ],
-    "primary": "ドウ",
-    "primary_kind": "on",
+    "primary": "おな(じ)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "事": {
@@ -1114,7 +1114,13 @@
     ],
     "primary": "ジ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ズ"
+      ],
+      "kun": []
+    }
   },
   "自": {
     "on": [
@@ -1168,7 +1174,13 @@
     ],
     "primary": "ギョウ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ゴウ"
+      ],
+      "kun": []
+    }
   },
   "方": {
     "on": [
@@ -1198,7 +1210,8 @@
     ],
     "kun": [
       "ひら(く)",
-      "あ(ける)"
+      "あ(ける)",
+      "あ(く)"
     ],
     "primary": "カイ",
     "primary_kind": "on",
@@ -1217,10 +1230,14 @@
   },
   "代": {
     "on": [
-      "ダイ"
+      "ダイ",
+      "タイ"
     ],
     "kun": [
-      "か(わり)"
+      "か(わり)",
+      "か(わる)",
+      "よ",
+      "しろ"
     ],
     "primary": "ダイ",
     "primary_kind": "on",
@@ -1232,7 +1249,13 @@
       "ミョウ"
     ],
     "kun": [
-      "あか(るい)"
+      "あか(るい)",
+      "あ(かり)",
+      "あ(く)",
+      "あ(くる)",
+      "あ(ける)",
+      "あ(かす)",
+      "あき(らか)"
     ],
     "primary": "メイ",
     "primary_kind": "on",
@@ -1243,7 +1266,8 @@
       "ドウ"
     ],
     "kun": [
-      "うご(く)"
+      "うご(く)",
+      "うご(かす)"
     ],
     "primary": "ドウ",
     "primary_kind": "on",
@@ -1272,7 +1296,13 @@
     ],
     "primary": "ツウ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ツ"
+      ],
+      "kun": []
+    }
   },
   "理": {
     "on": [
@@ -1292,7 +1322,13 @@
     ],
     "primary": "タイ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "テイ"
+      ],
+      "kun": []
+    }
   },
   "主": {
     "on": [
@@ -1304,7 +1340,13 @@
     ],
     "primary": "シュ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ス"
+      ],
+      "kun": []
+    }
   },
   "題": {
     "on": [
@@ -1359,16 +1401,21 @@
   },
   "度": {
     "on": [
-      "ド",
-      "タク"
+      "ド"
     ],
     "kun": [
-      "たび",
-      "た(い)"
+      "たび"
     ],
-    "primary": "たび",
-    "primary_kind": "kun",
-    "tier": "core_n4"
+    "primary": "ド",
+    "primary_kind": "on",
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "タク",
+        "ト"
+      ],
+      "kun": []
+    }
   },
   "強": {
     "on": [
@@ -1376,7 +1423,10 @@
       "ゴウ"
     ],
     "kun": [
-      "つよ(い)"
+      "つよ(い)",
+      "つよ(まる)",
+      "つよ(める)",
+      "し(いる)"
     ],
     "primary": "つよ(い)",
     "primary_kind": "kun",
@@ -1386,7 +1436,9 @@
     "on": [
       "コウ"
     ],
-    "kun": [],
+    "kun": [
+      "おおやけ"
+    ],
     "primary": "コウ",
     "primary_kind": "on",
     "tier": "core_n4"
@@ -1398,8 +1450,8 @@
     "kun": [
       "も(つ)"
     ],
-    "primary": "ジ",
-    "primary_kind": "on",
+    "primary": "も(つ)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "野": {
@@ -1431,13 +1483,14 @@
     "kun": [
       "おも(う)"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "おも(う)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "家": {
     "on": [
-      "カ"
+      "カ",
+      "ケ"
     ],
     "kun": [
       "いえ",
@@ -1500,8 +1553,8 @@
     "kun": [
       "こころ"
     ],
-    "primary": "シン",
-    "primary_kind": "on",
+    "primary": "こころ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "界": {
@@ -1560,7 +1613,13 @@
     ],
     "primary": "おも(い)",
     "primary_kind": "kun",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [],
+      "kun": [
+        "え"
+      ]
+    }
   },
   "近": {
     "on": [
@@ -1589,9 +1648,7 @@
       "ガ",
       "カク"
     ],
-    "kun": [
-      "かく(する)"
-    ],
+    "kun": [],
     "primary": "ガ",
     "primary_kind": "on",
     "tier": "core_n4"
@@ -1612,7 +1669,8 @@
       "バイ"
     ],
     "kun": [
-      "う(る)"
+      "う(る)",
+      "う(れる)"
     ],
     "primary": "バイ",
     "primary_kind": "on",
@@ -1634,7 +1692,9 @@
       "シュウ"
     ],
     "kun": [
-      "あつ(める)"
+      "あつ(まる)",
+      "あつ(める)",
+      "つど(う)"
     ],
     "primary": "シュウ",
     "primary_kind": "on",
@@ -1722,7 +1782,8 @@
       "シ"
     ],
     "kun": [
-      "はじ(める)"
+      "はじ(める)",
+      "はじ(まる)"
     ],
     "primary": "シ",
     "primary_kind": "on",
@@ -1735,8 +1796,8 @@
     "kun": [
       "あさ"
     ],
-    "primary": "チョウ",
-    "primary_kind": "on",
+    "primary": "あさ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "運": {
@@ -1755,7 +1816,8 @@
       "シュウ"
     ],
     "kun": [
-      "お(わる)"
+      "お(わる)",
+      "お(える)"
     ],
     "primary": "シュウ",
     "primary_kind": "on",
@@ -1766,19 +1828,27 @@
       "ダイ",
       "タイ"
     ],
-    "kun": [
-      "うてな"
-    ],
+    "kun": [],
     "primary": "ダイ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [],
+      "kun": [
+        "うてな"
+      ]
+    }
   },
   "広": {
     "on": [
       "コウ"
     ],
     "kun": [
-      "ひろ(い)"
+      "ひろ(い)",
+      "ひろ(がる)",
+      "ひろ(げる)",
+      "ひろ(まる)",
+      "ひろ(める)"
     ],
     "primary": "ひろ(い)",
     "primary_kind": "kun",
@@ -1790,7 +1860,8 @@
       "チュウ"
     ],
     "kun": [
-      "す(む)"
+      "す(む)",
+      "す(まう)"
     ],
     "primary": "ジュウ",
     "primary_kind": "on",
@@ -1851,8 +1922,8 @@
     "kun": [
       "まち"
     ],
-    "primary": "チョウ",
-    "primary_kind": "on",
+    "primary": "まち",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "料": {
@@ -1881,7 +1952,8 @@
       "コン"
     ],
     "kun": [
-      "た(てる)"
+      "た(てる)",
+      "た(つ)"
     ],
     "primary": "ケン",
     "primary_kind": "on",
@@ -1904,8 +1976,10 @@
     ],
     "kun": [
       "と(まる)",
+      "と(める)",
       "とど(まる)",
       "や(める)",
+      "や(む)",
       "よ(す)"
     ],
     "primary": "シ",
@@ -1961,7 +2035,9 @@
     "on": [
       "キュウ"
     ],
-    "kun": [],
+    "kun": [
+      "きわ(める)"
+    ],
     "primary": "キュウ",
     "primary_kind": "on",
     "tier": "core_n4"
@@ -1984,7 +2060,8 @@
     ],
     "kun": [
       "お(きる)",
-      "おこ(す)"
+      "おこ(す)",
+      "お(こる)"
     ],
     "primary": "キ",
     "primary_kind": "on",
@@ -1996,35 +2073,56 @@
     ],
     "kun": [
       "き(る)",
-      "つ(く)"
+      "き(せる)",
+      "つ(く)",
+      "つ(ける)"
     ],
     "primary": "チャク",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ジャク"
+      ],
+      "kun": []
+    }
   },
   "病": {
     "on": [
       "ビョウ"
     ],
     "kun": [
-      "や(む)"
+      "や(む)",
+      "やまい"
     ],
     "primary": "ビョウ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ヘイ"
+      ],
+      "kun": []
+    }
   },
   "質": {
     "on": [
-      "シツ",
-      "シチ"
+      "シツ"
     ],
-    "kun": [
-      "たち",
-      "ただ(す)"
-    ],
+    "kun": [],
     "primary": "シツ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "シチ",
+        "チ"
+      ],
+      "kun": [
+        "たち",
+        "ただ(す)"
+      ]
+    }
   },
   "待": {
     "on": [
@@ -2070,7 +2168,7 @@
   "早": {
     "on": [
       "ソウ",
-      "サ"
+      "サッ"
     ],
     "kun": [
       "はや(い)"
@@ -2110,7 +2208,13 @@
     "kun": [],
     "primary": "ケン",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ゲン"
+      ],
+      "kun": []
+    }
   },
   "英": {
     "on": [
@@ -2134,10 +2238,18 @@
     "on": [
       "シ"
     ],
-    "kun": [],
+    "kun": [
+      "つか(える)"
+    ],
     "primary": "シ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ジ"
+      ],
+      "kun": []
+    }
   },
   "去": {
     "on": [
@@ -2167,6 +2279,7 @@
       "シャ"
     ],
     "kun": [
+      "うつ(す)",
       "うつ(る)"
     ],
     "primary": "シャ",
@@ -2180,7 +2293,13 @@
     "kun": [],
     "primary": "ジ",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [],
+      "kun": [
+        "あざ"
+      ]
+    }
   },
   "答": {
     "on": [
@@ -2213,9 +2332,15 @@
       "おと",
       "ね"
     ],
-    "primary": "オン",
-    "primary_kind": "on",
-    "tier": "core_n4"
+    "primary": "おと",
+    "primary_kind": "kun",
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "イン"
+      ],
+      "kun": []
+    }
   },
   "注": {
     "on": [
@@ -2263,7 +2388,13 @@
     ],
     "primary": "わる(い)",
     "primary_kind": "kun",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "オ"
+      ],
+      "kun": []
+    }
   },
   "図": {
     "on": [
@@ -2290,16 +2421,22 @@
   },
   "歩": {
     "on": [
-      "ホ",
-      "ブ"
+      "ホ"
     ],
     "kun": [
       "ある(く)",
       "あゆ(む)"
     ],
-    "primary": "ホ",
-    "primary_kind": "on",
-    "tier": "core_n4"
+    "primary": "ある(く)",
+    "primary_kind": "kun",
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [
+        "ブ",
+        "フ"
+      ],
+      "kun": []
+    }
   },
   "風": {
     "on": [
@@ -2321,8 +2458,8 @@
     "kun": [
       "かみ"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "かみ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "黒": {
@@ -2343,8 +2480,8 @@
     "kun": [
       "はる"
     ],
-    "primary": "シュン",
-    "primary_kind": "on",
+    "primary": "はる",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "赤": {
@@ -2375,12 +2512,16 @@
     "on": [
       "カン"
     ],
-    "kun": [
-      "やかた"
-    ],
+    "kun": [],
     "primary": "カン",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [],
+      "kun": [
+        "やかた"
+      ]
+    }
   },
   "屋": {
     "on": [
@@ -2423,8 +2564,8 @@
     "kun": [
       "あき"
     ],
-    "primary": "シュウ",
-    "primary_kind": "on",
+    "primary": "あき",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "夏": {
@@ -2435,8 +2576,8 @@
     "kun": [
       "なつ"
     ],
-    "primary": "カ",
-    "primary_kind": "on",
+    "primary": "なつ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "習": {
@@ -2480,7 +2621,9 @@
     "tier": "core_n4"
   },
   "夕": {
-    "on": [],
+    "on": [
+      "セキ"
+    ],
     "kun": [
       "ゆう"
     ],
@@ -2555,12 +2698,16 @@
     "on": [
       "ベン"
     ],
-    "kun": [
-      "つと(める)"
-    ],
+    "kun": [],
     "primary": "ベン",
     "primary_kind": "on",
-    "tier": "core_n4"
+    "tier": "core_n4",
+    "secondary_readings": {
+      "on": [],
+      "kun": [
+        "つと(める)"
+      ]
+    }
   },
   "冬": {
     "on": [
@@ -2569,8 +2716,8 @@
     "kun": [
       "ふゆ"
     ],
-    "primary": "トウ",
-    "primary_kind": "on",
+    "primary": "ふゆ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "昼": {
@@ -2580,8 +2727,8 @@
     "kun": [
       "ひる"
     ],
-    "primary": "チュウ",
-    "primary_kind": "on",
+    "primary": "ひる",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "茶": {
@@ -2603,8 +2750,8 @@
     "kun": [
       "おとうと"
     ],
-    "primary": "テイ",
-    "primary_kind": "on",
+    "primary": "おとうと",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "牛": {
@@ -2614,8 +2761,8 @@
     "kun": [
       "うし"
     ],
-    "primary": "ギュウ",
-    "primary_kind": "on",
+    "primary": "うし",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "魚": {
@@ -2623,11 +2770,11 @@
       "ギョ"
     ],
     "kun": [
-      "うお",
-      "さかな"
+      "さかな",
+      "うお"
     ],
-    "primary": "ギョ",
-    "primary_kind": "on",
+    "primary": "さかな",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "兄": {
@@ -2638,8 +2785,8 @@
     "kun": [
       "あに"
     ],
-    "primary": "キョウ",
-    "primary_kind": "on",
+    "primary": "あに",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "犬": {
@@ -2649,8 +2796,8 @@
     "kun": [
       "いぬ"
     ],
-    "primary": "ケン",
-    "primary_kind": "on",
+    "primary": "いぬ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "妹": {
@@ -2660,8 +2807,8 @@
     "kun": [
       "いもうと"
     ],
-    "primary": "マイ",
-    "primary_kind": "on",
+    "primary": "いもうと",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "姉": {
@@ -2671,8 +2818,8 @@
     "kun": [
       "あね"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "あね",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "漢": {

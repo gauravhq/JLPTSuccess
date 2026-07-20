@@ -799,7 +799,7 @@ CHECKS: list[tuple[str, str, callable]] = [
     ("JA-13", "No out-of-scope kanji in user-facing data", lambda: _check_ja_13_no_out_of_scope_kanji_in_data()),
     ("JA-14", "No auto-ruby code in renderer",  lambda: _check_ja_14_no_auto_ruby_in_renderer()),
     ("JA-15", "Audio refs resolve to files on disk", lambda: _check_ja_15_audio_refs_on_disk()),
-    ("JA-16", "Kanji examples use only target-or-whitelist kanji", lambda: _check_ja_16_kanji_examples_in_scope()),
+    ("JA-16", "Kanji examples with out-of-scope kanji carry a reading (relaxed 2026-07-20)", lambda: _check_ja_16_kanji_examples_in_scope()),
     ("JA-17", "Grammar examples have vocab_ids (homograph guard)", lambda: _check_ja_17_examples_have_vocab_ids()),
     ("JA-18", "Reading explanation kanji subset of passage", lambda: _check_ja_18_reading_explanation_kanji()),
     ("JA-19", "Reading info-search has format_type", lambda: _check_ja_19_reading_info_search_format()),
@@ -923,13 +923,14 @@ def _check_ja_14_no_auto_ruby_in_renderer() -> list[str]:
 
 
 def _check_ja_16_kanji_examples_in_scope() -> list[str]:
-    """K-1 invariant: every kanji entry's `examples[*].form` must contain
-    only kanji that are either (a) the target kanji of the card, or (b)
-    in the N5 whitelist. Non-kanji characters (kana) are always allowed.
-
-    Out-of-scope kanji should be substituted with their kana reading
-    BEFORE landing in the data file. The renderer doesn't perform the
-    substitution at display time; the form here is what's shown.
+    """K-1 invariant (RELAXED 2026-07-20, user decision): a kanji example may use
+    ANY kanji, provided the example carries a non-empty `reading` (furigana) so the
+    learner can read it. The kanji view (js/kanji.js) renders form + reading + gloss,
+    and the printed workbook shows furigana, so an out-of-scope kanji is always
+    readable. This supersedes the earlier target-or-N5-whitelist-only rule, which
+    blocked natural, high-frequency examples (図書館, 風邪, 野菜, 散歩, 黒板 ...) that
+    are exactly what an N4 learner should meet. The only hard failure now is an
+    out-of-scope kanji WITHOUT a reading (i.e. genuinely unreadable at display time).
     """
     failures: list[str] = []
     kanji_path = ROOT / "data" / "kanji.json"
@@ -946,12 +947,14 @@ def _check_ja_16_kanji_examples_in_scope() -> list[str]:
         target = entry.get("glyph")
         for ex in entry.get("examples", []):
             form = ex.get("form", "")
-            for ch in KANJI_RE.findall(form):
-                if ch == target or ch in whitelist:
-                    continue
+            reading = (ex.get("reading") or "").strip()
+            oos = [ch for ch in KANJI_RE.findall(form)
+                   if ch != target and ch not in whitelist]
+            if oos and not reading:
                 failures.append(
-                    f"JA-16 kanji '{target}' has example '{form}' with "
-                    f"out-of-scope kanji '{ch}'. Substitute with kana per K-1 rule."
+                    f"JA-16 kanji '{target}' example '{form}' uses out-of-scope "
+                    f"kanji {oos} but has NO reading; add a reading (furigana) so it "
+                    f"is displayable."
                 )
     return failures
 
