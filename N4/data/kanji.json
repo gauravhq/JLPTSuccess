@@ -96,6 +96,31 @@
       {
         "date": "2026-07-20",
         "change": "Recheck-3 C: readme R53 (place-name exception, item 26) + R54 (sound_tag_mode/confidence/source structure); strengthened 始/服/風 scene render-instructions (12/13/30); verify_kanji_data checks 12 (confidence<->disputed) + 13 (no gloss grammar-notes) added."
+      },
+      {
+        "date": "2026-07-21",
+        "change": "Removed illustrated-card image details (design junked for the text-only book). Excel 'Card Render Prompts': dropped 7 render columns (Track, Canonical component/fixed drawing, Emotion, Scene & render, Bubble, Origin source (kanjiportraits), sound_tag_mode); 26->19 cols. Excel 'House Style & Method': removed 21 pure art-direction rows (art style, fixed template, Track A/B, cover test, design sequence, shared-component drawing, collision-draw, what-kills-a-card, the reader ♪ sound-tag legend, the ♪ sound-tag build rule); 57->36 rows, kept all linguistic methodology (accuracy checklist, sourcing/type rules, readings verification, provenance, reviewer guide) and fixed the internal row cross-references. kanji.json _meta.field_notes: removed death_card_render + sound_tag_mode (both render-only). verify_kanji_data.py: loader re-indexed to the 19-col sheet; check 10 (♪ Scene-cell coverage) retired to an informational WARN since its Scene/sound_tag_mode columns no longer exist. Linguistic content (readings/meanings/examples/notes) untouched; both JSONs and n4_kanji_readings.json carried no image fields."
+      },
+      {
+        "date": "2026-08-24",
+        "change": "Content-accuracy pass (native-teacher-criteria review, AI-assisted): 下町 gloss 'downtown; old-town district' -> 'old-town district; the traditional part of a city' ('downtown' implies a city-centre/CBD, the wrong model for 下町 vs 山の手); 勉学 'learning' -> 'pursuit of learning; studies' (vague, and must not lead with 'study' - 勉強 on the same card already does, which check 4 flags as a duplicate first-word gloss); 可 example 可能性 -> 不可 (ふか, 'not allowed; failing grade') because all three 可 examples needed out-of-scope kanji (能/許/性) so no example was writable, and 可能性 was the heaviest and redundant with 可能. 不 is taught, so 不可 is the card's one fully writable example. verify_kanji_data 0 FAIL/13; WARN-7 ungrounded glosses 6 -> 4."
+      },
+      {
+        "date": "2026-09-20",
+        "change": "Native-review sign-off recorded (status only, NO content change): 的 / 身 / 可 review_status NATIVE_REVIEW_PENDING -> NATIVE_REVIEW_PASS. These three were the last cards awaiting human attestation; their readings, meanings and stroke counts already passed the KANJIDIC2 checks, and the watch-items (身体 しんたい against the already-taught 体 からだ, and 自身 colliding with 地震) were reviewed and accepted. No reading, gloss, example or stroke value was touched in this entry."
+      },
+      {
+        "date": "2026-09-20",
+        "change": "WARN-7 review outcome recorded (status only, NO content change): the 4 glosses check 7 could not corroborate against a JMdict sense (自由 'free; unrestricted', 不便 'inconvenient', 以外 'with the exception of; excepting', 安心 'relieved; at ease') were reviewed and PASSED, warning CLOSED. Check 7 is a lexical-overlap heuristic, not an accuracy verdict: it warns when a gloss shares no WORD with a JMdict sense, which an accurate paraphrase can legitimately do. The four are now listed in verify_kanji_data.py WARN7_REVIEWED so they report as reviewed-accepted instead of re-warning, while any NEW ungrounded gloss still warns."
+      },
+      {
+        "date": "2026-09-28",
+        "change": "Gloss corrections after the 2026-09-28 book review: 町 drops 'village' (that is 村); 映る gains the screen sense the book's own carrier uses; 大安 named as a designation in the traditional calendar.",
+        "entries": [
+          "町",
+          "映",
+          "安"
+        ]
       }
     ],
     "field_notes": {
@@ -109,8 +134,6 @@
       "reading_format_n5_vs_n4": "n4_kanji_readings.json stores N5-prerequisite on-readings in HIRAGANA and core-N4 on-readings in KATAKANA (different build sources). The file is app-consumed (js/furigana.js popover + sw.js cache); normalizing N5->katakana is DEFERRED pending a popover render-check, to avoid changing app-consumed data blind (recheck item 34).",
       "readings_file_name": "n4_kanji_readings.json holds BOTH n5_prerequisite and core_n4 (per-entry `tier`); NOT renamed - it is read by name by js/furigana.js and cached by sw.js, so a rename needs coordinated app + service-worker-cache changes (deferred; recheck item 35).",
       "excel_structured_metadata": "The Excel now carries normalized columns 19 'Confidence level' (High/Medium/Low/Disputed) + 20 'Source authority' + 21 'Source access', derived from the prose Confidence (col 14) and Source (col 13); the prose stays the full reason/locator (recheck items 36/37). Full per-cell verification-date/locator/alternate structuring is deferred - that info lives in the prose + readme R27/R47.",
-      "death_card_render": "死's art (person beside bones) is non-graphic but MUST be reviewed in the RENDERED card for the 10-14 audience (recheck item 17, render-stage - not file-verifiable).",
-      "sound_tag_mode": "Excel col 22 (item 16): standard | footnote-only | traditional-form | integrated. Formalizes which 形声 cards may omit a separable ♪ tag; verify_kanji_data check 10 requires a visible ♪ only on 'standard' 形声 cards.",
       "confidence_level_normalized": "Excel col 19: controlled High/Medium/Low/Disputed; Disputed iff origin_disputed (enforced by verify_kanji_data check 12). The prose reason stays in col 14.",
       "grammar_note": "Per-example optional field: conjugation guidance (e.g. 'u-verb that looks like a ru-verb') lives HERE, never inside the gloss (enforced by check 13)."
     }
@@ -140,7 +163,7 @@
         {
           "form": "同じ",
           "reading": "おなじ",
-          "gloss": "same; identical; equal"
+          "gloss": "same; identical"
         },
         {
           "form": "同時",
@@ -150,18 +173,19 @@
         {
           "form": "共同",
           "reading": "きょうどう",
-          "gloss": "cooperation; collaboration; association"
+          "gloss": "cooperation; collaboration"
         },
         {
           "form": "同意",
           "reading": "どうい",
-          "gloss": "agreement; consent; approval"
+          "gloss": "agreement; consent"
         }
       ],
       "notes": "A crowd squeezed under one roof, all speaking with one mouth, says the SAME thing.",
       "deck_order_rank": 1,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "same; identical; agree"
     },
     {
       "id": "n4.kanji.事",
@@ -193,7 +217,7 @@
         {
           "form": "大事",
           "reading": "だいじ",
-          "gloss": "important; serious; crucial"
+          "gloss": "important; serious"
         },
         {
           "form": "火事",
@@ -215,7 +239,8 @@
       },
       "deck_order_rank": 2,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "matter; thing; fact"
     },
     {
       "id": "n4.kanji.自",
@@ -250,7 +275,7 @@
         {
           "form": "自分",
           "reading": "じぶん",
-          "gloss": "myself; yourself; oneself"
+          "gloss": "myself; yourself"
         },
         {
           "form": "自宅",
@@ -261,7 +286,8 @@
       "notes": "It's a picture of a NOSE; 'oneself' just borrowed its sound. (Japanese do point at their own nose for 'me' - a handy memory aid.)",
       "deck_order_rank": 3,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "oneself"
     },
     {
       "id": "n4.kanji.発",
@@ -297,13 +323,14 @@
         {
           "form": "発表",
           "reading": "はっぴょう",
-          "gloss": "announcement; publication; presenting"
+          "gloss": "announcement; publication"
         }
       ],
       "notes": "A taut bow lets its arrow fly off - it SETS OFF and starts.",
       "deck_order_rank": 4,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "departure; start; emit; discharge"
     },
     {
       "id": "n4.kanji.者",
@@ -338,7 +365,7 @@
         {
           "form": "業者",
           "reading": "ぎょうしゃ",
-          "gloss": "trader; dealer; businessperson"
+          "gloss": "trader; dealer"
         },
         {
           "form": "記者",
@@ -349,7 +376,8 @@
       "notes": "Twigs crackle and spark in a little stove; that shape was borrowed to mean the ONE who does it - someone.",
       "deck_order_rank": 5,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "someone; person"
     },
     {
       "id": "n4.kanji.地",
@@ -383,7 +411,7 @@
         {
           "form": "地図",
           "reading": "ちず",
-          "gloss": "map; atlas; chart"
+          "gloss": "map; atlas"
         },
         {
           "form": "地元",
@@ -394,7 +422,8 @@
       "notes": "Soil on the left with a long curling tail beside it: the GROUND we stand on.",
       "deck_order_rank": 6,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "ground; earth"
     },
     {
       "id": "n4.kanji.業",
@@ -436,7 +465,7 @@
         {
           "form": "授業",
           "reading": "じゅぎょう",
-          "gloss": "lesson; class; teaching"
+          "gloss": "lesson; class"
         }
       ],
       "notes": "Heaps of work piled high on a big wooden stand: that is your BUSINESS and WORK.",
@@ -448,7 +477,8 @@
       },
       "deck_order_rank": 7,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "business; industry; vocation; arts"
     },
     {
       "id": "n4.kanji.方",
@@ -490,7 +520,8 @@
       "notes": "A signpost with one arm pointing the WAY to go.",
       "deck_order_rank": 8,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "direction; way; person (polite)"
     },
     {
       "id": "n4.kanji.場",
@@ -515,12 +546,12 @@
         {
           "form": "会場",
           "reading": "かいじょう",
-          "gloss": "assembly hall; meeting place; venue"
+          "gloss": "assembly hall; meeting place"
         },
         {
           "form": "場合",
           "reading": "ばあい",
-          "gloss": "case; situation; occasion"
+          "gloss": "case; situation"
         },
         {
           "form": "場所",
@@ -536,7 +567,8 @@
       "notes": "A flat, prepared patch of ground (土) is the PLACE where things happen; 昜 gives only the sound.",
       "deck_order_rank": 9,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "location; place"
     },
     {
       "id": "n4.kanji.開",
@@ -574,18 +606,19 @@
         {
           "form": "公開",
           "reading": "こうかい",
-          "gloss": "opening to the public; making available to the public; exhibiting"
+          "gloss": "opening to the public"
         },
         {
           "form": "展開",
           "reading": "てんかい",
-          "gloss": "development; evolution; progression"
+          "gloss": "development; evolution"
         }
       ],
       "notes": "Two hands reach into the gate and lift the bar, so it swings OPEN.",
       "deck_order_rank": 10,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "open; unfold; unseal"
     },
     {
       "id": "n4.kanji.問",
@@ -616,23 +649,24 @@
         {
           "form": "問題",
           "reading": "もんだい",
-          "gloss": "question (e.g. on a test); problem"
+          "gloss": "problem; question"
         },
         {
           "form": "訪問",
           "reading": "ほうもん",
-          "gloss": "call; visit"
+          "gloss": "visit; call on"
         },
         {
           "form": "質問",
           "reading": "しつもん",
-          "gloss": "question; inquiry; enquiry"
+          "gloss": "question; inquiry"
         }
       ],
       "notes": "The mouth (口) is what asks; the gate 門 only gives the sound - so, to ASK.",
       "deck_order_rank": 11,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "question; to ask; problem"
     },
     {
       "id": "n4.kanji.代",
@@ -663,28 +697,29 @@
         {
           "form": "時代",
           "reading": "じだい",
-          "gloss": "period; epoch; era"
+          "gloss": "period; epoch"
         },
         {
           "form": "代わり",
           "reading": "かわり",
-          "gloss": "substitute; replacement; substituting"
+          "gloss": "substitute; replacement"
         },
         {
           "form": "現代",
           "reading": "げんだい",
-          "gloss": "present age; present day; today"
+          "gloss": "present age; present day"
         },
         {
           "form": "代金",
           "reading": "だいきん",
-          "gloss": "price; cost; charge"
+          "gloss": "price; cost"
         }
       ],
       "notes": "One person steps in to take another's place and TAKE A TURN.",
       "deck_order_rank": 12,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "substitute; change; generation; age"
     },
     {
       "id": "n4.kanji.明",
@@ -721,23 +756,24 @@
         {
           "form": "明るい",
           "reading": "あかるい",
-          "gloss": "light; bright; well-lit"
+          "gloss": "light; bright"
         },
         {
           "form": "明らか",
           "reading": "あきらか",
-          "gloss": "clear; obvious; evident"
+          "gloss": "clear; obvious"
         },
         {
           "form": "不明",
           "reading": "ふめい",
-          "gloss": "unclear; obscure; indistinct"
+          "gloss": "unclear; obscure"
         }
       ],
       "notes": "At DAWN the sun is rising while the moon still lingers - their two lights together = BRIGHT. (Both the sun+moon and the older window+moon forms are ancient; 說文's standard is the window form.)",
       "deck_order_rank": 13,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "bright; light"
     },
     {
       "id": "n4.kanji.動",
@@ -774,13 +810,14 @@
         {
           "form": "動物園",
           "reading": "どうぶつえん",
-          "gloss": "zoo; zoological gardens"
+          "gloss": "zoo"
         }
       ],
       "notes": "It takes real strength to MOVE something heavy.",
       "deck_order_rank": 14,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "move; motion; change"
     },
     {
       "id": "n4.kanji.京",
@@ -789,9 +826,7 @@
       "n5_prerequisite": false,
       "lesson_order": 15,
       "on": [
-        "キョウ",
-        "ケイ",
-        "キン"
+        "キョウ"
       ],
       "kun": [
         "みやこ"
@@ -816,13 +851,21 @@
         {
           "form": "上京",
           "reading": "じょうきょう",
-          "gloss": "going (up) to the capital; going to Tokyo"
+          "gloss": "going to Tokyo"
         }
       ],
       "notes": "A tall tower raised on a high hill: that grew into the big CAPITAL city.",
       "deck_order_rank": 15,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "capital",
+      "secondary_readings": {
+        "on": [
+          "ケイ",
+          "キン"
+        ],
+        "kun": []
+      }
     },
     {
       "id": "n4.kanji.通",
@@ -835,6 +878,7 @@
       ],
       "kun": [
         "とお(る)",
+        "とお(す)",
         "かよ(う)"
       ],
       "primary_reading": "ツウ",
@@ -855,7 +899,7 @@
         {
           "form": "普通",
           "reading": "ふつう",
-          "gloss": "ordinary; normal; usual (adv. usually)"
+          "gloss": "ordinary; normal"
         },
         {
           "form": "通う",
@@ -877,7 +921,8 @@
       },
       "deck_order_rank": 16,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "pass through; traffic; commute; common"
     },
     {
       "id": "n4.kanji.理",
@@ -918,7 +963,8 @@
       "notes": "Put everything neatly in its right place, in good order: that is REASON and sense.",
       "deck_order_rank": 17,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "logic; reason; principle; arrangement"
     },
     {
       "id": "n4.kanji.体",
@@ -944,17 +990,17 @@
         {
           "form": "大体",
           "reading": "だいたい",
-          "gloss": "generally; on the whole; mostly"
+          "gloss": "generally; on the whole"
         },
         {
-          "form": "身体",
+          "form": "体",
           "reading": "からだ",
           "gloss": "body"
         },
         {
           "form": "体育",
           "reading": "たいいく",
-          "gloss": "physical education; PE; gym (class)"
+          "gloss": "physical education; PE"
         },
         {
           "form": "体温",
@@ -971,7 +1017,8 @@
       },
       "deck_order_rank": 18,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "body; form; substance"
     },
     {
       "id": "n4.kanji.主",
@@ -1005,7 +1052,7 @@
         {
           "form": "主に",
           "reading": "おもに",
-          "gloss": "mainly; primarily; mostly"
+          "gloss": "mainly; primarily"
         },
         {
           "form": "主語",
@@ -1027,7 +1074,8 @@
       },
       "deck_order_rank": 19,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "lord; chief; master"
     },
     {
       "id": "n4.kanji.題",
@@ -1050,7 +1098,7 @@
         {
           "form": "問題",
           "reading": "もんだい",
-          "gloss": "question (e.g. on a test); problem"
+          "gloss": "problem; question"
         },
         {
           "form": "宿題",
@@ -1065,13 +1113,14 @@
         {
           "form": "課題",
           "reading": "かだい",
-          "gloss": "subject; theme; issue"
+          "gloss": "subject; theme"
         }
       ],
       "notes": "A big head bends over the page to think up the TOPIC.",
       "deck_order_rank": 20,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "topic; subject"
     },
     {
       "id": "n4.kanji.意",
@@ -1097,7 +1146,7 @@
         {
           "form": "意見",
           "reading": "いけん",
-          "gloss": "opinion; view; comment"
+          "gloss": "opinion; view"
         },
         {
           "form": "注意",
@@ -1110,15 +1159,16 @@
           "gloss": "preparation; arrangements"
         },
         {
-          "form": "意見する",
-          "reading": "いけんする",
-          "gloss": "to give one's opinion (often critical/corrective)"
+          "form": "意味",
+          "reading": "いみ",
+          "gloss": "meaning"
         }
       ],
       "notes": "What your heart wants to say, put into words: that is your IDEA, what you mean.",
       "deck_order_rank": 21,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "idea; meaning; intention; mind"
     },
     {
       "id": "n4.kanji.不",
@@ -1148,23 +1198,24 @@
         {
           "form": "不況",
           "reading": "ふきょう",
-          "gloss": "(economic) depression; recession; slump"
+          "gloss": "(economic) depression; recession"
         },
         {
           "form": "不安",
           "reading": "ふあん",
-          "gloss": "anxiety; uneasiness; worry"
+          "gloss": "anxiety; uneasiness"
         },
         {
           "form": "不明",
           "reading": "ふめい",
-          "gloss": "unclear; obscure; indistinct"
+          "gloss": "unclear; obscure"
         }
       ],
       "notes": "It's a flower's calyx; the shape was simply borrowed to mean NO / not.",
       "deck_order_rank": 22,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "not; non-; negative"
     },
     {
       "id": "n4.kanji.作",
@@ -1191,28 +1242,29 @@
         {
           "form": "作る",
           "reading": "つくる",
-          "gloss": "to make; to produce; to manufacture"
+          "gloss": "to make; to produce"
         },
         {
           "form": "作品",
           "reading": "さくひん",
-          "gloss": "work (e.g. book, film, painting, composition); piece; production"
+          "gloss": "a work; piece"
         },
         {
           "form": "作業",
           "reading": "さぎょう",
-          "gloss": "work; operation; task"
+          "gloss": "work; operation"
         },
         {
           "form": "作家",
           "reading": "さっか",
-          "gloss": "author; writer; novelist"
+          "gloss": "author; writer"
         }
       ],
       "notes": "A person cuts and shapes the wood to MAKE something.",
       "deck_order_rank": 23,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "make; create; production"
     },
     {
       "id": "n4.kanji.用",
@@ -1240,12 +1292,12 @@
         {
           "form": "用",
           "reading": "よう",
-          "gloss": "business; task; errand"
+          "gloss": "business; task"
         },
         {
           "form": "利用",
           "reading": "りよう",
-          "gloss": "use; utilisation; application"
+          "gloss": "use; utilisation"
         },
         {
           "form": "用事",
@@ -1261,7 +1313,8 @@
       "notes": "A strong bucket you pick up and USE for a job.",
       "deck_order_rank": 24,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "use; purpose; business"
     },
     {
       "id": "n4.kanji.度",
@@ -1298,7 +1351,8 @@
         {
           "form": "支度",
           "reading": "したく",
-          "gloss": "preparation; getting ready"
+          "gloss": "preparation; getting ready",
+          "special": true
         }
       ],
       "notes": "A hand measures the same thing again and again: each measure is one DEGREE, one time.",
@@ -1311,7 +1365,8 @@
       },
       "deck_order_rank": 25,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "degree; time; occurrence"
     },
     {
       "id": "n4.kanji.強",
@@ -1339,7 +1394,7 @@
         {
           "form": "強い",
           "reading": "つよい",
-          "gloss": "strong; potent; competent"
+          "gloss": "strong; potent"
         },
         {
           "form": "勉強",
@@ -1354,13 +1409,14 @@
         {
           "form": "強化",
           "reading": "きょうか",
-          "gloss": "strengthening; intensifying; reinforcement"
+          "gloss": "strengthening; intensifying"
         }
       ],
       "notes": "The bug radical (虫) is the real part - it was a grain-weevil; 'strong' only borrowed the sound.",
       "deck_order_rank": 26,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "strong"
     },
     {
       "id": "n4.kanji.公",
@@ -1391,7 +1447,7 @@
         {
           "form": "公共",
           "reading": "こうきょう",
-          "gloss": "public (facilities, service, etc.); communal"
+          "gloss": "public; communal"
         },
         {
           "form": "公園",
@@ -1407,7 +1463,8 @@
       "notes": "Split it open and share with everyone: that is PUBLIC.",
       "deck_order_rank": 27,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "public; official; governmental"
     },
     {
       "id": "n4.kanji.持",
@@ -1432,7 +1489,7 @@
         {
           "form": "気持ち",
           "reading": "きもち",
-          "gloss": "feeling; sensation; mood"
+          "gloss": "feeling; sensation"
         },
         {
           "form": "金持ち",
@@ -1442,18 +1499,19 @@
         {
           "form": "持つ",
           "reading": "もつ",
-          "gloss": "to hold (in one's hand); to take; to carry"
+          "gloss": "to hold (in one's hand); to take"
         },
         {
           "form": "持ち物",
           "reading": "もちもの",
-          "gloss": "things one is carrying; things one has on one's person"
+          "gloss": "belongings"
         }
       ],
       "notes": "The hand on the left reaches out to grip and HOLD on tight.",
       "deck_order_rank": 28,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "hold; have"
     },
     {
       "id": "n4.kanji.野",
@@ -1490,18 +1548,19 @@
         {
           "form": "分野",
           "reading": "ぶんや",
-          "gloss": "field; sphere; realm"
+          "gloss": "field; sphere"
         },
         {
           "form": "野原",
           "reading": "のはら",
-          "gloss": "plain; prairie; field"
+          "gloss": "plain; prairie"
         }
       ],
       "notes": "Wide open land stretching past the village: a FIELD.",
       "deck_order_rank": 29,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "field; open country; plain"
     },
     {
       "id": "n4.kanji.以",
@@ -1512,9 +1571,7 @@
       "on": [
         "イ"
       ],
-      "kun": [
-        "もっ(て)"
-      ],
+      "kun": [],
       "primary_reading": "イ",
       "primary_kind": "on",
       "meanings": [
@@ -1548,7 +1605,14 @@
       "notes": "Stand at one point and count everything FROM there onward.",
       "deck_order_rank": 30,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "by means of; from; since",
+      "secondary_readings": {
+        "on": [],
+        "kun": [
+          "もっ(て)"
+        ]
+      }
     },
     {
       "id": "n4.kanji.思",
@@ -1572,28 +1636,29 @@
         {
           "form": "思い出す",
           "reading": "おもいだす",
-          "gloss": "to recall; to remember; to recollect"
+          "gloss": "to recall; to remember"
         },
         {
           "form": "思う",
           "reading": "おもう",
-          "gloss": "to think; to consider; to believe"
+          "gloss": "to think; to consider"
         },
         {
           "form": "思い出",
           "reading": "おもいで",
-          "gloss": "memories; recollections; reminiscence"
+          "gloss": "memories; recollections"
         },
         {
           "form": "意思",
           "reading": "いし",
-          "gloss": "intention; wish; purpose"
+          "gloss": "intention; wish"
         }
       ],
       "notes": "Your head on top and your heart below work together when you THINK.",
       "deck_order_rank": 31,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "think"
     },
     {
       "id": "n4.kanji.家",
@@ -1627,14 +1692,14 @@
           "gloss": "housework; domestic chores"
         },
         {
-          "form": "国家",
-          "reading": "こっか",
-          "gloss": "state; country; nation"
+          "form": "家",
+          "reading": "いえ",
+          "gloss": "house; home"
         },
         {
           "form": "家庭",
           "reading": "かてい",
-          "gloss": "home; household; family"
+          "gloss": "home; household"
         },
         {
           "form": "家族",
@@ -1645,7 +1710,8 @@
       "notes": "The roof (宀) makes it a home; the pig-part gives only the sound - so, HOUSE.",
       "deck_order_rank": 32,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "house; home; family"
     },
     {
       "id": "n4.kanji.世",
@@ -1678,7 +1744,7 @@
         {
           "form": "世話",
           "reading": "せわ",
-          "gloss": "care; help; looking after"
+          "gloss": "care; help"
         },
         {
           "form": "世代",
@@ -1694,7 +1760,8 @@
       "notes": "One family growing on and on, parents to children: the WORLD through its many ages.",
       "deck_order_rank": 33,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "generation; world; society"
     },
     {
       "id": "n4.kanji.多",
@@ -1720,12 +1787,12 @@
         {
           "form": "多い",
           "reading": "おおい",
-          "gloss": "many; numerous; a lot"
+          "gloss": "many; numerous"
         },
         {
           "form": "多分",
           "reading": "たぶん",
-          "gloss": "probably; likely; perhaps"
+          "gloss": "probably; likely"
         },
         {
           "form": "多数",
@@ -1735,13 +1802,14 @@
         {
           "form": "多少",
           "reading": "たしょう",
-          "gloss": "a little; some; somewhat"
+          "gloss": "a little; some"
         }
       ],
       "notes": "Two cuts of meat stacked one on another - a generous pile means MANY.",
       "deck_order_rank": 34,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "many; frequent; much"
     },
     {
       "id": "n4.kanji.正",
@@ -1772,25 +1840,26 @@
           "gloss": "right; correct"
         },
         {
-          "form": "正に",
-          "reading": "まさに",
-          "gloss": "exactly; just; precisely"
+          "form": "正月",
+          "reading": "しょうがつ",
+          "gloss": "New Year"
         },
         {
           "form": "正解",
           "reading": "せいかい",
-          "gloss": "correct answer; right solution; correct interpretation"
+          "gloss": "correct answer; right solution"
         },
         {
           "form": "修正",
           "reading": "しゅうせい",
-          "gloss": "amendment; correction; revision"
+          "gloss": "amendment; correction"
         }
       ],
       "notes": "Stop with your feet right on the line: that is CORRECT.",
       "deck_order_rank": 35,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "correct; justice; righteous"
     },
     {
       "id": "n4.kanji.院",
@@ -1824,18 +1893,19 @@
         {
           "form": "病院",
           "reading": "びょういん",
-          "gloss": "hospital; clinic; doctor's office"
+          "gloss": "hospital; clinic"
         },
         {
           "form": "美容院",
           "reading": "びよういん",
-          "gloss": "beauty parlour; beauty parlor; beauty salon"
+          "gloss": "beauty parlour; beauty parlor"
         }
       ],
       "notes": "A big walled building up on the hill, like a hospital: a large INSTITUTION.",
       "deck_order_rank": 36,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "institution; hospital; temple"
     },
     {
       "id": "n4.kanji.心",
@@ -1882,7 +1952,8 @@
       "notes": "A little heart with its three beats: your HEART and mind.",
       "deck_order_rank": 37,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "heart; mind; spirit"
     },
     {
       "id": "n4.kanji.界",
@@ -1905,12 +1976,12 @@
         {
           "form": "世界",
           "reading": "せかい",
-          "gloss": "the world; society; the universe"
+          "gloss": "the world; society"
         },
         {
           "form": "業界",
           "reading": "ぎょうかい",
-          "gloss": "business world; business circles; (the) industry"
+          "gloss": "business world; business circles"
         },
         {
           "form": "限界",
@@ -1920,13 +1991,14 @@
         {
           "form": "境界",
           "reading": "きょうかい",
-          "gloss": "boundary; border; limit"
+          "gloss": "boundary; border"
         }
       ],
       "notes": "Fields split into zones by fences: each one a WORLD with its border.",
       "deck_order_rank": 38,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "world; boundary"
     },
     {
       "id": "n4.kanji.教",
@@ -1974,7 +2046,8 @@
       "notes": "An elder guides a child with a gentle tap to help them learn: to TEACH.",
       "deck_order_rank": 39,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "teach; faith; doctrine"
     },
     {
       "id": "n4.kanji.文",
@@ -2018,7 +2091,8 @@
       "notes": "Strokes crossed like a woven pattern make WRITING.",
       "deck_order_rank": 40,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "sentence; literature; style"
     },
     {
       "id": "n4.kanji.元",
@@ -2045,7 +2119,7 @@
         {
           "form": "元気",
           "reading": "げんき",
-          "gloss": "lively; full of spirit; energetic"
+          "gloss": "lively; full of spirit"
         },
         {
           "form": "地元",
@@ -2055,18 +2129,19 @@
         {
           "form": "手元",
           "reading": "てもと",
-          "gloss": "at hand; on hand; nearby"
+          "gloss": "at hand; on hand"
         },
         {
           "form": "元",
           "reading": "もと",
-          "gloss": "origin; source; beginning"
+          "gloss": "origin; source"
         }
       ],
       "notes": "A person with a big head drawn up top: the head is the start, the ORIGIN of it all.",
       "deck_order_rank": 41,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "beginning; former time; origin"
     },
     {
       "id": "n4.kanji.重",
@@ -2100,7 +2175,7 @@
         {
           "form": "重要",
           "reading": "じゅうよう",
-          "gloss": "important; essential; significant"
+          "gloss": "important; essential"
         },
         {
           "form": "体重",
@@ -2122,7 +2197,8 @@
         "kun": [
           "え"
         ]
-      }
+      },
+      "display_meaning": "heavy; important; esteem"
     },
     {
       "id": "n4.kanji.近",
@@ -2154,7 +2230,7 @@
         {
           "form": "近所",
           "reading": "きんじょ",
-          "gloss": "neighbourhood"
+          "gloss": "neighborhood"
         },
         {
           "form": "近づく",
@@ -2164,13 +2240,14 @@
         {
           "form": "近い",
           "reading": "ちかい",
-          "gloss": "near; close; short (distance)"
+          "gloss": "near; close"
         }
       ],
       "notes": "Just a short walk down the road: that is NEAR.",
       "deck_order_rank": 43,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "near; close"
     },
     {
       "id": "n4.kanji.考",
@@ -2200,12 +2277,12 @@
         {
           "form": "考え",
           "reading": "かんがえ",
-          "gloss": "thinking; thought; view"
+          "gloss": "thinking; thought"
         },
         {
           "form": "考え方",
           "reading": "かんがえかた",
-          "gloss": "way of thinking; point of view; opinion"
+          "gloss": "way of thinking; point of view"
         },
         {
           "form": "参考",
@@ -2216,7 +2293,8 @@
       "notes": "A wise elder bends down to think hard and CONSIDER.",
       "deck_order_rank": 44,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "consider; think over"
     },
     {
       "id": "n4.kanji.画",
@@ -2252,18 +2330,19 @@
         {
           "form": "映画",
           "reading": "えいが",
-          "gloss": "movie; film; motion picture"
+          "gloss": "movie; film"
         },
         {
           "form": "画面",
           "reading": "がめん",
-          "gloss": "screen (of a TV, computer, etc.)"
+          "gloss": "screen"
         }
       ],
       "notes": "A neat frame drawn around a field: a PICTURE.",
       "deck_order_rank": 45,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "picture; drawing; plan; stroke"
     },
     {
       "id": "n4.kanji.海",
@@ -2288,12 +2367,12 @@
         {
           "form": "海岸",
           "reading": "かいがん",
-          "gloss": "seashore; coast; seaside"
+          "gloss": "seashore; coast"
         },
         {
           "form": "海外",
           "reading": "かいがい",
-          "gloss": "foreign; abroad; overseas"
+          "gloss": "foreign; abroad"
         },
         {
           "form": "海水",
@@ -2309,7 +2388,8 @@
       "notes": "Water on the left as far as you can see: the wide SEA.",
       "deck_order_rank": 46,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "sea; ocean"
     },
     {
       "id": "n4.kanji.売",
@@ -2355,7 +2435,8 @@
       "notes": "Put your goods OUT on the stand for everyone to buy: that is to SELL.",
       "deck_order_rank": 47,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "sell"
     },
     {
       "id": "n4.kanji.知",
@@ -2398,7 +2479,8 @@
       "notes": "Memory hook: answer as fast and straight as an arrow because you KNOW it. (In the 形声 reading 矢 is the SOUND-part, not 'arrow-speed'; 說文 reads it 会意.)",
       "deck_order_rank": 48,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "know; knowledge; wisdom"
     },
     {
       "id": "n4.kanji.集",
@@ -2425,28 +2507,29 @@
         {
           "form": "集まる",
           "reading": "あつまる",
-          "gloss": "to gather; to collect; to assemble"
+          "gloss": "to gather"
         },
         {
           "form": "集める",
           "reading": "あつめる",
-          "gloss": "to collect; to assemble; to gather"
+          "gloss": "to collect; to assemble"
         },
         {
           "form": "集中",
           "reading": "しゅうちゅう",
-          "gloss": "concentration (on a task); focusing one's attention"
+          "gloss": "concentration; focus"
         },
         {
           "form": "集会",
           "reading": "しゅうかい",
-          "gloss": "meeting; assembly; gathering"
+          "gloss": "meeting; assembly"
         }
       ],
       "notes": "Birds GATHER together on one tree.",
       "deck_order_rank": 49,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "gather; meet"
     },
     {
       "id": "n4.kanji.別",
@@ -2473,7 +2556,7 @@
         {
           "form": "別",
           "reading": "べつ",
-          "gloss": "separate; different; another"
+          "gloss": "separate; different"
         },
         {
           "form": "特別",
@@ -2489,7 +2572,8 @@
       "notes": "A knife slices it apart, to SEPARATE into pieces.",
       "deck_order_rank": 50,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "separate; branch off; diverge"
     },
     {
       "id": "n4.kanji.物",
@@ -2516,7 +2600,7 @@
         {
           "form": "品物",
           "reading": "しなもの",
-          "gloss": "goods; article; thing"
+          "gloss": "goods; article"
         },
         {
           "form": "生物",
@@ -2526,18 +2610,19 @@
         {
           "form": "着物",
           "reading": "きもの",
-          "gloss": "kimono; Japanese traditional clothing"
+          "gloss": "kimono"
         },
         {
           "form": "見物",
           "reading": "けんぶつ",
-          "gloss": "sightseeing; visit"
+          "gloss": "sightseeing; viewing"
         }
       ],
       "notes": "A cow and other goods: any THING you can name.",
       "deck_order_rank": 51,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "thing; object; matter"
     },
     {
       "id": "n4.kanji.使",
@@ -2564,12 +2649,12 @@
         {
           "form": "使う",
           "reading": "つかう",
-          "gloss": "to use (a tool, method, etc.); to make use of; to put to use"
+          "gloss": "to use; to make use of"
         },
         {
           "form": "使用",
           "reading": "しよう",
-          "gloss": "use; application; employment"
+          "gloss": "use; application"
         },
         {
           "form": "大使",
@@ -2585,7 +2670,8 @@
       "notes": "Send a person off to do a job: to USE them.",
       "deck_order_rank": 52,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "use; messenger"
     },
     {
       "id": "n4.kanji.品",
@@ -2612,7 +2698,7 @@
         {
           "form": "品物",
           "reading": "しなもの",
-          "gloss": "goods; article; thing"
+          "gloss": "goods; article"
         },
         {
           "form": "食料品",
@@ -2622,18 +2708,19 @@
         {
           "form": "作品",
           "reading": "さくひん",
-          "gloss": "work (e.g. book, film, painting, composition); piece; production"
+          "gloss": "a work; piece"
         },
         {
           "form": "商品",
           "reading": "しょうひん",
-          "gloss": "commodity; article of commerce; goods"
+          "gloss": "commodity; article of commerce"
         }
       ],
       "notes": "Three little boxes stacked on the shelf: GOODS for sale.",
       "deck_order_rank": 53,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "goods; refinement; dignity"
     },
     {
       "id": "n4.kanji.計",
@@ -2660,12 +2747,13 @@
         {
           "form": "計画",
           "reading": "けいかく",
-          "gloss": "plan; project; schedule"
+          "gloss": "plan; project"
         },
         {
           "form": "時計",
           "reading": "とけい",
-          "gloss": "clock; watch; timepiece"
+          "gloss": "clock; watch",
+          "special": true
         },
         {
           "form": "合計",
@@ -2675,13 +2763,14 @@
         {
           "form": "計算",
           "reading": "けいさん",
-          "gloss": "calculation; computation; reckoning"
+          "gloss": "calculation; computation"
         }
       ],
       "notes": "Use words and numbers to COUNT and plan.",
       "deck_order_rank": 54,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "plan; calculate; measure"
     },
     {
       "id": "n4.kanji.死",
@@ -2706,23 +2795,19 @@
         {
           "form": "死ぬ",
           "reading": "しぬ",
-          "gloss": "to die; to pass away"
+          "gloss": "to die"
         },
         {
           "form": "必死",
           "reading": "ひっし",
-          "gloss": "frantic; frenetic; desperate"
-        },
-        {
-          "form": "死亡",
-          "reading": "しぼう",
-          "gloss": "death; dying; mortality"
+          "gloss": "desperate; doing one's utmost"
         }
       ],
       "notes": "A person kneels quietly beside the old bones: the end of life.",
       "deck_order_rank": 55,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "death; die"
     },
     {
       "id": "n4.kanji.特",
@@ -2760,7 +2845,8 @@
       "notes": "One prize cow kept apart from the herd: the SPECIAL one.",
       "deck_order_rank": 56,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "special"
     },
     {
       "id": "n4.kanji.始",
@@ -2786,17 +2872,17 @@
         {
           "form": "始める",
           "reading": "はじめる",
-          "gloss": "to start; to begin; to commence"
+          "gloss": "to start; to begin"
         },
         {
           "form": "始まる",
           "reading": "はじまる",
-          "gloss": "to begin; to start; to commence"
+          "gloss": "to begin; to start"
         },
         {
           "form": "開始",
           "reading": "かいし",
-          "gloss": "start; commencement; beginning"
+          "gloss": "start; commencement"
         },
         {
           "form": "年始",
@@ -2807,7 +2893,8 @@
       "notes": "女 (woman) carries the meaning; 台 gives only the sound. Memory image only: a mother starting a new life = the BEGINNING.",
       "deck_order_rank": 57,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "commence; begin"
     },
     {
       "id": "n4.kanji.朝",
@@ -2853,7 +2940,8 @@
       "notes": "The sun climbs through the grass while the moon still hangs: MORNING.",
       "deck_order_rank": 58,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "morning; dynasty"
     },
     {
       "id": "n4.kanji.運",
@@ -2891,7 +2979,7 @@
         {
           "form": "運転",
           "reading": "うんてん",
-          "gloss": "driving"
+          "gloss": "driving; operation"
         },
         {
           "form": "運転手",
@@ -2902,7 +2990,8 @@
       "notes": "A covered cart rolls down the road to CARRY the load.",
       "deck_order_rank": 59,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "carry; luck; destiny"
     },
     {
       "id": "n4.kanji.終",
@@ -2928,28 +3017,29 @@
         {
           "form": "終わり",
           "reading": "おわり",
-          "gloss": "end; ending; close"
+          "gloss": "end; ending"
         },
         {
           "form": "終わる",
           "reading": "おわる",
-          "gloss": "to end; to come to an end; to finish"
+          "gloss": "to end; to come to an end"
         },
         {
           "form": "最終",
           "reading": "さいしゅう",
-          "gloss": "last; final; closing"
+          "gloss": "last; final"
         },
         {
           "form": "終点",
           "reading": "しゅうてん",
-          "gloss": "terminus; last stop (e.g. train)"
+          "gloss": "terminus; last stop"
         }
       ],
       "notes": "A cord knotted at both ends marks where the thread (糸) runs out - the END; 冬 gives only the sound.",
       "deck_order_rank": 60,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "end; finish"
     },
     {
       "id": "n4.kanji.台",
@@ -2974,7 +3064,7 @@
         {
           "form": "台風",
           "reading": "たいふう",
-          "gloss": "typhoon; hurricane"
+          "gloss": "typhoon"
         },
         {
           "form": "台所",
@@ -2984,7 +3074,7 @@
         {
           "form": "舞台",
           "reading": "ぶたい",
-          "gloss": "stage (of a theatre, concert hall, etc.)"
+          "gloss": "stage"
         },
         {
           "form": "一台",
@@ -3001,7 +3091,8 @@
         "kun": [
           "うてな"
         ]
-      }
+      },
+      "display_meaning": "pedestal; a stand; counter for machines"
     },
     {
       "id": "n4.kanji.広",
@@ -3031,12 +3122,12 @@
         {
           "form": "広い",
           "reading": "ひろい",
-          "gloss": "spacious; vast; wide"
+          "gloss": "spacious; vast"
         },
         {
           "form": "広場",
           "reading": "ひろば",
-          "gloss": "public square; square; plaza"
+          "gloss": "public square; square"
         },
         {
           "form": "広告",
@@ -3046,13 +3137,14 @@
         {
           "form": "広さ",
           "reading": "ひろさ",
-          "gloss": "area; extent; dimensions"
+          "gloss": "area; extent"
         }
       ],
       "notes": "A roof opening out over the land: a WIDE, roomy space.",
       "deck_order_rank": 62,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "wide; broad; spacious"
     },
     {
       "id": "n4.kanji.住",
@@ -3081,28 +3173,29 @@
         {
           "form": "住所",
           "reading": "じゅうしょ",
-          "gloss": "address (of a home, business, etc.); residence; domicile"
+          "gloss": "address; residence"
         },
         {
           "form": "住む",
           "reading": "すむ",
-          "gloss": "to live (of humans); to reside; to inhabit"
+          "gloss": "to live (of humans); to reside"
         },
         {
           "form": "住宅",
           "reading": "じゅうたく",
-          "gloss": "residence; housing; residential building"
+          "gloss": "residence; housing"
         },
         {
           "form": "住民",
           "reading": "じゅうみん",
-          "gloss": "inhabitant; resident; citizen"
+          "gloss": "inhabitant; resident"
         }
       ],
       "notes": "A person settles down by the steady lamp to LIVE there.",
       "deck_order_rank": 63,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "dwell; reside; live"
     },
     {
       "id": "n4.kanji.無",
@@ -3133,14 +3226,14 @@
           "gloss": "impossible; unreasonable"
         },
         {
-          "form": "無くなる",
-          "reading": "なくなる",
-          "gloss": "to disappear; to get lost"
+          "form": "無料",
+          "reading": "むりょう",
+          "gloss": "free (of charge)"
         },
         {
-          "form": "無し",
-          "reading": "なし",
-          "gloss": "without"
+          "form": "無事",
+          "reading": "ぶじ",
+          "gloss": "safety; without incident"
         },
         {
           "form": "無い",
@@ -3151,7 +3244,8 @@
       "notes": "A person dancing with streamers; the shape was borrowed to mean NOTHING (the 'dance' sense moved to 舞).",
       "deck_order_rank": 64,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "none; without; nothing; lack"
     },
     {
       "id": "n4.kanji.真",
@@ -3178,17 +3272,18 @@
         {
           "form": "真ん中",
           "reading": "まんなか",
-          "gloss": "middle; centre"
+          "gloss": "middle; center"
         },
         {
           "form": "真面目",
           "reading": "まじめ",
-          "gloss": "serious; diligent"
+          "gloss": "serious; diligent",
+          "special": true
         },
         {
           "form": "写真",
           "reading": "しゃしん",
-          "gloss": "photograph; photo; picture"
+          "gloss": "photograph; photo"
         },
         {
           "form": "真相",
@@ -3199,7 +3294,8 @@
       "notes": "A precious pot filled right to the brim - full, so genuine and TRUE.",
       "deck_order_rank": 65,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "true; real; reality"
     },
     {
       "id": "n4.kanji.有",
@@ -3236,18 +3332,19 @@
         {
           "form": "有力",
           "reading": "ゆうりょく",
-          "gloss": "influential; prominent; leading"
+          "gloss": "influential; prominent"
         },
         {
           "form": "有料",
           "reading": "ゆうりょう",
-          "gloss": "fee-charging; paid; not free"
+          "gloss": "fee-charging; paid"
         }
       ],
       "notes": "The meat (肉) is the thing you own; the hand 又 gives only the sound - so, to HAVE.",
       "deck_order_rank": 66,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "have; possess; exist"
     },
     {
       "id": "n4.kanji.少",
@@ -3273,12 +3370,12 @@
         {
           "form": "少し",
           "reading": "すこし",
-          "gloss": "a little; a bit; a small amount"
+          "gloss": "a little; a bit"
         },
         {
           "form": "少ない",
           "reading": "すくない",
-          "gloss": "few; little; small (amount)"
+          "gloss": "few; little"
         },
         {
           "form": "少年",
@@ -3288,13 +3385,14 @@
         {
           "form": "多少",
           "reading": "たしょう",
-          "gloss": "somewhat; some; a little"
+          "gloss": "somewhat; some"
         }
       ],
       "notes": "A few tiny bits with one slice taken off: only a LITTLE.",
       "deck_order_rank": 67,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "few; little"
     },
     {
       "id": "n4.kanji.町",
@@ -3312,8 +3410,8 @@
       "primary_kind": "kun",
       "meanings": [
         "town",
-        "village",
-        "block",
+        "neighbourhood",
+        "district",
         "street"
       ],
       "stroke_order_svg": "svg/kanji/町.svg",
@@ -3321,28 +3419,29 @@
         {
           "form": "町",
           "reading": "まち",
-          "gloss": "town; block; neighbourhood"
+          "gloss": "town; neighbourhood; district"
         },
         {
           "form": "下町",
           "reading": "したまち",
-          "gloss": "low-lying part of a city (usu. containing shops, factories, etc.)"
+          "gloss": "old-town district; the traditional part of a city"
         },
         {
           "form": "町内",
           "reading": "ちょうない",
-          "gloss": "neighborhood; neighbourhood; street"
+          "gloss": "neighborhood"
         },
         {
           "form": "市町村",
           "reading": "しちょうそん",
-          "gloss": "cities, towns and villages; municipalities"
+          "gloss": "towns and villages"
         }
       ],
       "notes": "Fields with a few buildings beside them: a small TOWN.",
       "deck_order_rank": 68,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "town; neighbourhood; district"
     },
     {
       "id": "n4.kanji.料",
@@ -3371,12 +3470,12 @@
         {
           "form": "料理",
           "reading": "りょうり",
-          "gloss": "cooking; cookery; cuisine"
+          "gloss": "cooking; cookery"
         },
         {
           "form": "料金",
           "reading": "りょうきん",
-          "gloss": "fee; charge; fare"
+          "gloss": "fee; charge"
         },
         {
           "form": "無料",
@@ -3387,7 +3486,8 @@
       "notes": "Scoop out rice to measure the MATERIALS you need.",
       "deck_order_rank": 69,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "fee; charge; materials"
     },
     {
       "id": "n4.kanji.工",
@@ -3433,7 +3533,8 @@
       "notes": "A carpenter's tool of two bars and a post: CRAFT and building.",
       "deck_order_rank": 70,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "craft; construction"
     },
     {
       "id": "n4.kanji.建",
@@ -3464,7 +3565,7 @@
         {
           "form": "二階建て",
           "reading": "にかいだて",
-          "gloss": "two-storey building"
+          "gloss": "two-story building"
         },
         {
           "form": "建つ",
@@ -3480,7 +3581,8 @@
       "notes": "Stand it up straight and tall, piece by piece: to BUILD.",
       "deck_order_rank": 71,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "build"
     },
     {
       "id": "n4.kanji.急",
@@ -3507,12 +3609,12 @@
         {
           "form": "急",
           "reading": "きゅう",
-          "gloss": "sudden; abrupt; unexpected"
+          "gloss": "sudden; abrupt"
         },
         {
           "form": "急ぐ",
           "reading": "いそぐ",
-          "gloss": "to hurry; to rush; to hasten"
+          "gloss": "to hurry; to rush"
         },
         {
           "form": "急行",
@@ -3528,7 +3630,8 @@
       "notes": "心 (heart) carries the meaning; 及 gives the sound. Memory hook: a hand chasing from behind + a racing heart = HURRY.",
       "deck_order_rank": 72,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "hurry; emergency; sudden"
     },
     {
       "id": "n4.kanji.止",
@@ -3568,7 +3671,7 @@
         {
           "form": "禁止",
           "reading": "きんし",
-          "gloss": "prohibition; inhibition; ban"
+          "gloss": "prohibition; ban"
         },
         {
           "form": "防止",
@@ -3579,7 +3682,8 @@
       "notes": "One footprint planted firmly on the spot: STOP right here.",
       "deck_order_rank": 73,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "stop; halt"
     },
     {
       "id": "n4.kanji.送",
@@ -3614,13 +3718,14 @@
         {
           "form": "送料",
           "reading": "そうりょう",
-          "gloss": "postage; carriage; shipping charge"
+          "gloss": "postage; carriage"
         }
       ],
       "notes": "Set it on the road and wave it off: to SEND it away.",
       "deck_order_rank": 74,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "escort; send"
     },
     {
       "id": "n4.kanji.切",
@@ -3647,28 +3752,30 @@
         {
           "form": "切る",
           "reading": "きる",
-          "gloss": "to cut; to cut through; to perform (surgery)"
+          "gloss": "to cut"
         },
         {
           "form": "親切",
           "reading": "しんせつ",
-          "gloss": "kind; gentle; considerate"
+          "gloss": "kind; gentle"
         },
         {
           "form": "大切",
           "reading": "たいせつ",
-          "gloss": "important; significant; serious"
+          "gloss": "important; significant"
         },
         {
           "form": "切手",
           "reading": "きって",
-          "gloss": "stamp (postage)"
+          "gloss": "stamp (postage)",
+          "special": true
         }
       ],
       "notes": "A blade chops down on the right to CUT it.",
       "deck_order_rank": 75,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "cut; cutoff; be sharp"
     },
     {
       "id": "n4.kanji.転",
@@ -3694,7 +3801,7 @@
         {
           "form": "運転",
           "reading": "うんてん",
-          "gloss": "operation (of a machine); running; working"
+          "gloss": "driving; operation"
         },
         {
           "form": "自転車",
@@ -3704,7 +3811,7 @@
         {
           "form": "回転",
           "reading": "かいてん",
-          "gloss": "rotation; revolution; turn"
+          "gloss": "rotation; revolution"
         },
         {
           "form": "転がる",
@@ -3715,7 +3822,8 @@
       "notes": "The cart wheel spins around, so things TURN and roll.",
       "deck_order_rank": 76,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "revolve; turn around; change"
     },
     {
       "id": "n4.kanji.研",
@@ -3751,13 +3859,14 @@
         {
           "form": "研修",
           "reading": "けんしゅう",
-          "gloss": "training (esp. in-service); induction course"
+          "gloss": "training"
         }
       ],
       "notes": "Rub it on a flat stone over and over to POLISH and study.",
       "deck_order_rank": 77,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "polish; study of; sharpen"
     },
     {
       "id": "n4.kanji.究",
@@ -3792,13 +3901,14 @@
         {
           "form": "究極",
           "reading": "きゅうきょく",
-          "gloss": "ultimate; final; last"
+          "gloss": "ultimate; final"
         }
       ],
       "notes": "穴 (cave/hole) carries the meaning; 九 gives the sound. Memory hook: dig deep into a winding cave to the end = RESEARCH.",
       "deck_order_rank": 78,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "research; study"
     },
     {
       "id": "n4.kanji.楽",
@@ -3811,7 +3921,8 @@
         "ラク"
       ],
       "kun": [
-        "たの(しい)"
+        "たの(しい)",
+        "たの(しむ)"
       ],
       "primary_reading": "たの(しい)",
       "primary_kind": "kun",
@@ -3823,9 +3934,9 @@
       "stroke_order_svg": "svg/kanji/楽.svg",
       "examples": [
         {
-          "form": "楽しみ",
-          "reading": "たのしみ",
-          "gloss": "enjoyment; something to look forward to"
+          "form": "楽しい",
+          "reading": "たのしい",
+          "gloss": "enjoyable; fun"
         },
         {
           "form": "楽しむ",
@@ -3846,7 +3957,8 @@
       "notes": "Strings stretched across a wooden frame, played for MUSIC and fun (the top element is debated).",
       "deck_order_rank": 79,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "music; comfort; ease"
     },
     {
       "id": "n4.kanji.起",
@@ -3859,7 +3971,7 @@
       ],
       "kun": [
         "お(きる)",
-        "おこ(す)",
+        "お(こす)",
         "お(こる)"
       ],
       "primary_reading": "キ",
@@ -3874,12 +3986,12 @@
         {
           "form": "起こす",
           "reading": "おこす",
-          "gloss": "to raise; to raise up; to set up"
+          "gloss": "to raise; to raise up"
         },
         {
           "form": "起きる",
           "reading": "おきる",
-          "gloss": "to get up; to rise; to blaze up (fire)"
+          "gloss": "to get up; to rise"
         },
         {
           "form": "起こる",
@@ -3895,7 +4007,8 @@
       "notes": "Spring up off the ground and start running: WAKE UP.",
       "deck_order_rank": 80,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "wake up; get up; rouse"
     },
     {
       "id": "n4.kanji.着",
@@ -3929,17 +4042,17 @@
         {
           "form": "着物",
           "reading": "きもの",
-          "gloss": "kimono; Japanese traditional clothing"
+          "gloss": "kimono"
         },
         {
           "form": "着る",
           "reading": "きる",
-          "gloss": "to wear (from the shoulders down); to put on"
+          "gloss": "to wear; to put on"
         },
         {
           "form": "決着",
           "reading": "けっちゃく",
-          "gloss": "conclusion; decision; end"
+          "gloss": "conclusion; decision"
         }
       ],
       "notes": "Memory device: picture grass/sprigs (艹) settling and sticking onto a spot; 者 gives only the sound. 着 is a later split of 著 - the attach/wear/arrive senses are the word's, not built from 艹.",
@@ -3951,7 +4064,8 @@
       },
       "deck_order_rank": 81,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "arrive; wear; counter for clothing"
     },
     {
       "id": "n4.kanji.病",
@@ -3977,17 +4091,17 @@
         {
           "form": "病気",
           "reading": "びょうき",
-          "gloss": "illness (usu. excluding minor ailments, e.g. common cold); disease; sickness"
+          "gloss": "illness; sickness"
         },
         {
           "form": "病院",
           "reading": "びょういん",
-          "gloss": "hospital; clinic; doctor's office"
+          "gloss": "hospital; clinic"
         },
         {
           "form": "病人",
           "reading": "びょうにん",
-          "gloss": "sick person; patient; invalid"
+          "gloss": "sick person; patient"
         },
         {
           "form": "急病",
@@ -4004,7 +4118,8 @@
       },
       "deck_order_rank": 82,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "ill; sick"
     },
     {
       "id": "n4.kanji.質",
@@ -4029,7 +4144,7 @@
         {
           "form": "質問",
           "reading": "しつもん",
-          "gloss": "question; inquiry; enquiry"
+          "gloss": "question; inquiry"
         },
         {
           "form": "質",
@@ -4044,7 +4159,7 @@
         {
           "form": "品質",
           "reading": "ひんしつ",
-          "gloss": "quality (of a product or a service)"
+          "gloss": "product quality"
         }
       ],
       "notes": "Check it carefully to see if it is the real, solid thing inside: that is its QUALITY.",
@@ -4060,7 +4175,8 @@
       },
       "deck_order_rank": 83,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "substance; quality; matter"
     },
     {
       "id": "n4.kanji.待",
@@ -4095,7 +4211,7 @@
         {
           "form": "期待",
           "reading": "きたい",
-          "gloss": "expectation; anticipation; hope"
+          "gloss": "expectation; anticipation"
         },
         {
           "form": "待合室",
@@ -4106,7 +4222,8 @@
       "notes": "Stand on the path and WAIT for your turn.",
       "deck_order_rank": 84,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "wait; depend on"
     },
     {
       "id": "n4.kanji.試",
@@ -4144,7 +4261,7 @@
         {
           "form": "試す",
           "reading": "ためす",
-          "gloss": "to try (out); to have a try (at); to test"
+          "gloss": "to try (out); to have a try (at)"
         },
         {
           "form": "試着",
@@ -4155,7 +4272,8 @@
       "notes": "Say the words and follow the steps to TRY it out.",
       "deck_order_rank": 85,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "test; try; attempt"
     },
     {
       "id": "n4.kanji.族",
@@ -4183,23 +4301,24 @@
         {
           "form": "民族",
           "reading": "みんぞく",
-          "gloss": "ethnic group; people; nation"
+          "gloss": "ethnic group; people"
         },
         {
           "form": "親族",
           "reading": "しんぞく",
-          "gloss": "relative; relation; kin"
+          "gloss": "relative; relation"
         },
         {
           "form": "貴族",
           "reading": "きぞく",
-          "gloss": "nobility; aristocracy; peerage"
+          "gloss": "nobility; aristocracy"
         }
       ],
       "notes": "One flag and a shared bundle of arrows bring the whole FAMILY together.",
       "deck_order_rank": 86,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "tribe; family"
     },
     {
       "id": "n4.kanji.銀",
@@ -4226,7 +4345,7 @@
         {
           "form": "銀色",
           "reading": "ぎんいろ",
-          "gloss": "silver (color, colour)"
+          "gloss": "silver (color)"
         },
         {
           "form": "銀河",
@@ -4242,7 +4361,8 @@
       "notes": "A shiny metal, not gold but SILVER.",
       "deck_order_rank": 87,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "silver"
     },
     {
       "id": "n4.kanji.早",
@@ -4261,14 +4381,14 @@
       "primary_kind": "kun",
       "meanings": [
         "early",
-        "fast"
+        "ahead of time"
       ],
       "stroke_order_svg": "svg/kanji/早.svg",
       "examples": [
         {
           "form": "早い",
           "reading": "はやい",
-          "gloss": "fast; quick; rapid"
+          "gloss": "early; soon"
         },
         {
           "form": "早朝",
@@ -4283,13 +4403,14 @@
         {
           "form": "早々",
           "reading": "はやばや",
-          "gloss": "early; quickly; promptly"
+          "gloss": "promptly; quickly"
         }
       ],
       "notes": "One telling: the sun sits low at first light = EARLY. (The origin is genuinely disputed.)",
       "deck_order_rank": 88,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "early; ahead of time"
     },
     {
       "id": "n4.kanji.映",
@@ -4316,17 +4437,17 @@
         {
           "form": "映る",
           "reading": "うつる",
-          "gloss": "to be reflected; to harmonize with (harmonise); to come out (photo)"
+          "gloss": "to be reflected; to appear on a screen"
         },
         {
           "form": "映画",
           "reading": "えいが",
-          "gloss": "movie; film; motion picture"
+          "gloss": "movie; film"
         },
         {
           "form": "映像",
           "reading": "えいぞう",
-          "gloss": "image (on a screen); picture (e.g. on a TV)"
+          "gloss": "image (on a screen); picture"
         },
         {
           "form": "上映",
@@ -4337,7 +4458,8 @@
       "notes": "Sunlight hits the middle and bounces back: it REFLECTS and shows.",
       "deck_order_rank": 89,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "reflect; reflection; projection"
     },
     {
       "id": "n4.kanji.親",
@@ -4365,12 +4487,12 @@
         {
           "form": "親",
           "reading": "おや",
-          "gloss": "parent; parents; mother and father"
+          "gloss": "parent; parents"
         },
         {
           "form": "親切",
           "reading": "しんせつ",
-          "gloss": "kind; gentle; considerate"
+          "gloss": "kind; gentle"
         },
         {
           "form": "両親",
@@ -4383,10 +4505,11 @@
           "gloss": "father"
         }
       ],
-      "notes": "The watching eye (見) is the real part - a parent watches closely over their child; 亲 gives only the sound.",
+      "notes": "The watching eye (見) is the real part - a parent watches closely over their child; the left side (立 over 木) gives only the sound.",
       "deck_order_rank": 90,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "parent; intimacy; relative"
     },
     {
       "id": "n4.kanji.験",
@@ -4421,12 +4544,12 @@
         {
           "form": "体験",
           "reading": "たいけん",
-          "gloss": "firsthand experience; hands-on experience"
+          "gloss": "firsthand experience"
         },
         {
           "form": "受験",
           "reading": "じゅけん",
-          "gloss": "taking an examination (esp. for entrance to a school or university)"
+          "gloss": "taking an examination"
         }
       ],
       "notes": "It's a horse-word (馬 + the sound 僉); 'test' was only borrowed later - so, TEST.",
@@ -4438,7 +4561,8 @@
       },
       "deck_order_rank": 91,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "test; examination; verification; effect"
     },
     {
       "id": "n4.kanji.英",
@@ -4473,18 +4597,19 @@
         {
           "form": "英文",
           "reading": "えいぶん",
-          "gloss": "English writing; English sentence; English text"
+          "gloss": "English sentence; English text"
         },
         {
           "form": "英雄",
           "reading": "えいゆう",
-          "gloss": "hero; heroine; great person"
+          "gloss": "hero; heroine"
         }
       ],
       "notes": "A bright flower among the grass (艹) is 'brilliant'; 央 gives only the sound (it also spells ENGLAND).",
       "deck_order_rank": 92,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "English; England"
     },
     {
       "id": "n4.kanji.医",
@@ -4528,7 +4653,8 @@
       "notes": "Pull the arrow out and tuck the wound safe in a box: the DOCTOR heals it.",
       "deck_order_rank": 93,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "doctor; medicine"
     },
     {
       "id": "n4.kanji.仕",
@@ -4555,17 +4681,17 @@
         {
           "form": "仕方",
           "reading": "しかた",
-          "gloss": "way; method; means"
+          "gloss": "way; method"
         },
         {
           "form": "仕事",
           "reading": "しごと",
-          "gloss": "work; job; labor"
+          "gloss": "work; job"
         },
         {
           "form": "仕組み",
           "reading": "しくみ",
-          "gloss": "structure; construction; arrangement"
+          "gloss": "structure; mechanism"
         }
       ],
       "notes": "A person stands ready to do their WORK.",
@@ -4577,7 +4703,8 @@
       },
       "deck_order_rank": 94,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "serve; work; do"
     },
     {
       "id": "n4.kanji.去",
@@ -4620,7 +4747,8 @@
       "notes": "Step off the ground and head away: to LEAVE.",
       "deck_order_rank": 95,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "leave; go away; past"
     },
     {
       "id": "n4.kanji.味",
@@ -4646,7 +4774,7 @@
         {
           "form": "味",
           "reading": "あじ",
-          "gloss": "taste; flavour"
+          "gloss": "taste; flavor"
         },
         {
           "form": "味噌",
@@ -4661,13 +4789,14 @@
         {
           "form": "趣味",
           "reading": "しゅみ",
-          "gloss": "hobby; pastime; preference"
+          "gloss": "hobby; pastime"
         }
       ],
       "notes": "Pop it in your mouth to TASTE it and find the MEANING.",
       "deck_order_rank": 96,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "flavor; taste; meaning"
     },
     {
       "id": "n4.kanji.写",
@@ -4699,23 +4828,24 @@
         {
           "form": "写る",
           "reading": "うつる",
-          "gloss": "to be photographed; to be projected"
+          "gloss": "to be photographed"
         },
         {
           "form": "写し",
           "reading": "うつし",
-          "gloss": "copy; duplicate; facsimile"
+          "gloss": "copy; duplicate"
         },
         {
           "form": "写真",
           "reading": "しゃしん",
-          "gloss": "photograph; photo; picture"
+          "gloss": "photograph; photo"
         }
       ],
       "notes": "Carry a thing across and set it down exactly - to COPY. (Old form: 宀 roof + the sound 舄; the modern 写 hides it.)",
       "deck_order_rank": 97,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "copy; be photographed; describe"
     },
     {
       "id": "n4.kanji.字",
@@ -4739,17 +4869,18 @@
         {
           "form": "字",
           "reading": "じ",
-          "gloss": "character (esp. kanji); letter; written text"
+          "gloss": "character (esp. kanji); letter"
         },
         {
           "form": "数字",
           "reading": "すうじ",
-          "gloss": "numeral; digit; numeric character"
+          "gloss": "numeral; digit"
         },
         {
           "form": "文字",
           "reading": "もじ",
-          "gloss": "letter (of an alphabet); character"
+          "gloss": "written character; letter",
+          "special": true
         },
         {
           "form": "漢字",
@@ -4766,7 +4897,8 @@
         "kun": [
           "あざ"
         ]
-      }
+      },
+      "display_meaning": "character; letter; word"
     },
     {
       "id": "n4.kanji.答",
@@ -4778,6 +4910,7 @@
         "トウ"
       ],
       "kun": [
+        "こた(え)",
         "こた(える)"
       ],
       "primary_reading": "トウ",
@@ -4801,18 +4934,19 @@
         {
           "form": "回答",
           "reading": "かいとう",
-          "gloss": "reply; answer"
+          "gloss": "response; reply"
         },
         {
           "form": "解答",
           "reading": "かいとう",
-          "gloss": "solution; worked answer"
+          "gloss": "answer or solution to a problem"
         }
       ],
       "notes": "Bamboo (竹) writing-slips carry your reply; 合 gives only the sound - so, the ANSWER.",
       "deck_order_rank": 99,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "solution; answer"
     },
     {
       "id": "n4.kanji.夜",
@@ -4846,9 +4980,9 @@
           "gloss": "last night"
         },
         {
-          "form": "日夜",
-          "reading": "にちや",
-          "gloss": "day and night; around the clock; always"
+          "form": "夜",
+          "reading": "よる",
+          "gloss": "night"
         },
         {
           "form": "深夜",
@@ -4859,7 +4993,8 @@
       "notes": "A person under the roof with the evening moon out: it is NIGHT.",
       "deck_order_rank": 100,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "night; evening"
     },
     {
       "id": "n4.kanji.音",
@@ -4912,7 +5047,8 @@
       },
       "deck_order_rank": 101,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "sound; noise"
     },
     {
       "id": "n4.kanji.注",
@@ -4962,7 +5098,8 @@
       "notes": "Pour the water right on the spot, pouring in your ATTENTION.",
       "deck_order_rank": 102,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "pour; inject; attention; note"
     },
     {
       "id": "n4.kanji.帰",
@@ -5004,13 +5141,14 @@
         {
           "form": "帰宅",
           "reading": "きたく",
-          "gloss": "returning home; going home; coming home"
+          "gloss": "returning home; going home"
         }
       ],
       "notes": "One traditional telling: pick up the broom and head back home = RETURN. (The origin is disputed - see Confidence.)",
       "deck_order_rank": 103,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "return; go home; come home"
     },
     {
       "id": "n4.kanji.歌",
@@ -5051,13 +5189,14 @@
         {
           "form": "校歌",
           "reading": "こうか",
-          "gloss": "school song; college song; school anthem"
+          "gloss": "school song; college song"
         }
       ],
       "notes": "Open your mouth wide, again and again, to SING.",
       "deck_order_rank": 104,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "song; sing"
     },
     {
       "id": "n4.kanji.悪",
@@ -5083,12 +5222,12 @@
         {
           "form": "悪い",
           "reading": "わるい",
-          "gloss": "bad; poor; undesirable"
+          "gloss": "bad; poor"
         },
         {
           "form": "悪人",
           "reading": "あくにん",
-          "gloss": "bad person; villain; scoundrel"
+          "gloss": "bad person; villain"
         },
         {
           "form": "最悪",
@@ -5098,7 +5237,7 @@
         {
           "form": "悪化",
           "reading": "あっか",
-          "gloss": "deterioration; getting worse; worsening"
+          "gloss": "deterioration; getting worse"
         }
       ],
       "notes": "Bad feelings sit in the heart (心); 亜 gives only the sound - so, BAD.",
@@ -5110,7 +5249,8 @@
       },
       "deck_order_rank": 105,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "bad; evil; wrong"
     },
     {
       "id": "n4.kanji.図",
@@ -5138,7 +5278,7 @@
         {
           "form": "地図",
           "reading": "ちず",
-          "gloss": "map; atlas; chart"
+          "gloss": "map; atlas"
         },
         {
           "form": "図書館",
@@ -5148,18 +5288,19 @@
         {
           "form": "合図",
           "reading": "あいず",
-          "gloss": "sign; signal; cue"
+          "gloss": "sign; signal"
         },
         {
           "form": "図る",
           "reading": "はかる",
-          "gloss": "to plan; to attempt; to devise"
+          "gloss": "to plan; to attempt"
         }
       ],
       "notes": "A little picture tucked inside a box: a MAP.",
       "deck_order_rank": 106,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "map; diagram; plan; drawing"
     },
     {
       "id": "n4.kanji.室",
@@ -5206,7 +5347,8 @@
       "notes": "Walk under the roof until you arrive inside: a ROOM.",
       "deck_order_rank": 107,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "room; chamber; apartment"
     },
     {
       "id": "n4.kanji.歩",
@@ -5247,7 +5389,7 @@
         {
           "form": "進歩",
           "reading": "しんぽ",
-          "gloss": "progress; advance; improvement"
+          "gloss": "progress; advance"
         }
       ],
       "notes": "One foot, then the other foot: step by step, you WALK.",
@@ -5260,7 +5402,8 @@
       },
       "deck_order_rank": 108,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "walk; counter for steps"
     },
     {
       "id": "n4.kanji.風",
@@ -5289,28 +5432,30 @@
         {
           "form": "台風",
           "reading": "たいふう",
-          "gloss": "typhoon; hurricane"
+          "gloss": "typhoon"
         },
         {
           "form": "風景",
           "reading": "ふうけい",
-          "gloss": "scenery; scene; landscape"
+          "gloss": "scenery; scene"
         },
         {
           "form": "風邪",
           "reading": "かぜ",
-          "gloss": "common cold"
+          "gloss": "common cold",
+          "special": true
         },
         {
           "form": "風呂",
           "reading": "ふろ",
-          "gloss": "bath; bathing; bathtub"
+          "gloss": "bath; bathing"
         }
       ],
       "notes": "A little bug carried along inside a puffing sail: the WIND.",
       "deck_order_rank": 109,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "wind; air; style"
     },
     {
       "id": "n4.kanji.紙",
@@ -5349,13 +5494,14 @@
         {
           "form": "表紙",
           "reading": "ひょうし",
-          "gloss": "cover (of a book, magazine, etc.); binding"
+          "gloss": "cover; binding"
         }
       ],
       "notes": "Press the threads flat into a thin sheet: PAPER.",
       "deck_order_rank": 110,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "paper"
     },
     {
       "id": "n4.kanji.黒",
@@ -5367,7 +5513,8 @@
         "コク"
       ],
       "kun": [
-        "くろ"
+        "くろ",
+        "くろ(い)"
       ],
       "primary_reading": "コク",
       "primary_kind": "on",
@@ -5395,7 +5542,8 @@
       "notes": "Soot from the fire stains it all over: pitch BLACK.",
       "deck_order_rank": 111,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "black"
     },
     {
       "id": "n4.kanji.春",
@@ -5429,7 +5577,7 @@
         {
           "form": "青春",
           "reading": "せいしゅん",
-          "gloss": "youth; adolescence; springtime of life"
+          "gloss": "youth; adolescence"
         },
         {
           "form": "今春",
@@ -5440,7 +5588,8 @@
       "notes": "Little sprouts push up toward the warm sun: SPRING.",
       "deck_order_rank": 112,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "spring"
     },
     {
       "id": "n4.kanji.赤",
@@ -5453,6 +5602,7 @@
         "シャク"
       ],
       "kun": [
+        "あか",
         "あか(い)"
       ],
       "primary_reading": "あか(い)",
@@ -5473,20 +5623,22 @@
           "gloss": "(being in) the red; deficit"
         },
         {
-          "form": "赤色",
-          "reading": "あかいろ",
-          "gloss": "red; red color"
+          "form": "赤い",
+          "reading": "あかい",
+          "gloss": "red"
         },
         {
           "form": "真っ赤",
           "reading": "まっか",
-          "gloss": "bright red; deep red; flushed (of face)"
+          "gloss": "bright red; deep red",
+          "special": true
         }
       ],
       "notes": "A big person stands over a blazing fire - the bright color of the flames is RED.",
       "deck_order_rank": 113,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "red"
     },
     {
       "id": "n4.kanji.青",
@@ -5499,6 +5651,7 @@
         "ショウ"
       ],
       "kun": [
+        "あお",
         "あお(い)"
       ],
       "primary_reading": "あお(い)",
@@ -5509,9 +5662,9 @@
       "stroke_order_svg": "svg/kanji/青.svg",
       "examples": [
         {
-          "form": "青",
-          "reading": "あお",
-          "gloss": "blue; azure"
+          "form": "青い",
+          "reading": "あおい",
+          "gloss": "blue"
         },
         {
           "form": "青空",
@@ -5521,13 +5674,14 @@
         {
           "form": "青年",
           "reading": "せいねん",
-          "gloss": "youth; young man"
+          "gloss": "youth; young adult"
         }
       ],
       "notes": "A fresh sprout under a clear sky: cool BLUE.",
       "deck_order_rank": 114,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "blue"
     },
     {
       "id": "n4.kanji.館",
@@ -5552,7 +5706,7 @@
         {
           "form": "旅館",
           "reading": "りょかん",
-          "gloss": "traditional inn; Japanese-style lodging"
+          "gloss": "traditional inn"
         },
         {
           "form": "美術館",
@@ -5579,7 +5733,8 @@
         "kun": [
           "やかた"
         ]
-      }
+      },
+      "display_meaning": "building; mansion; large building"
     },
     {
       "id": "n4.kanji.屋",
@@ -5612,7 +5767,8 @@
         {
           "form": "部屋",
           "reading": "へや",
-          "gloss": "room; chamber"
+          "gloss": "room; chamber",
+          "special": true
         },
         {
           "form": "屋根",
@@ -5622,13 +5778,14 @@
         {
           "form": "床屋",
           "reading": "とこや",
-          "gloss": "barbershop; barber shop; barber"
+          "gloss": "barbershop; barber shop"
         }
       ],
       "notes": "A roof you come under for shelter: a SHOP or house.",
       "deck_order_rank": 116,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "roof; house; shop"
     },
     {
       "id": "n4.kanji.色",
@@ -5653,28 +5810,30 @@
         {
           "form": "景色",
           "reading": "けしき",
-          "gloss": "scenery"
+          "gloss": "scenery",
+          "special": true
         },
         {
-          "form": "色んな",
-          "reading": "いろんな",
-          "gloss": "various"
+          "form": "茶色",
+          "reading": "ちゃいろ",
+          "gloss": "brown"
         },
         {
           "form": "色彩",
           "reading": "しきさい",
-          "gloss": "colour; color; hue"
+          "gloss": "color"
         },
         {
           "form": "特色",
           "reading": "とくしょく",
-          "gloss": "characteristic; (distinctive) feature; peculiarity"
+          "gloss": "characteristic; feature"
         }
       ],
       "notes": "When feelings rise up, they show as the COLOR in your face.",
       "deck_order_rank": 117,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "color"
     },
     {
       "id": "n4.kanji.走",
@@ -5709,7 +5868,7 @@
         {
           "form": "走りだす",
           "reading": "はしりだす",
-          "gloss": "to begin to run; to start running; to break into a run"
+          "gloss": "to start running"
         },
         {
           "form": "走者",
@@ -5720,7 +5879,8 @@
       "notes": "Arms swinging over two fast feet: off you RUN.",
       "deck_order_rank": 118,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "run"
     },
     {
       "id": "n4.kanji.秋",
@@ -5750,12 +5910,12 @@
         {
           "form": "今秋",
           "reading": "こんしゅう",
-          "gloss": "this autumn; this fall; autumn of this year"
+          "gloss": "this autumn; this fall"
         },
         {
           "form": "秋分",
           "reading": "しゅうぶん",
-          "gloss": "autumnal equinox; autumn equinox; fall equinox"
+          "gloss": "autumnal equinox; autumn equinox"
         },
         {
           "form": "晩秋",
@@ -5766,7 +5926,8 @@
       "notes": "Modern-form memory reading: grain (禾) drying by fire (火) at harvest = AUTUMN. (The earliest 秋 was a cricket pictograph.)",
       "deck_order_rank": 119,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "autumn; fall"
     },
     {
       "id": "n4.kanji.夏",
@@ -5801,7 +5962,7 @@
         {
           "form": "真夏",
           "reading": "まなつ",
-          "gloss": "middle of summer; height of summer; midsummer"
+          "gloss": "midsummer"
         },
         {
           "form": "今夏",
@@ -5812,7 +5973,8 @@
       "notes": "Dragging your feet slowly in the heat: SUMMER.",
       "deck_order_rank": 120,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "summer"
     },
     {
       "id": "n4.kanji.習",
@@ -5834,14 +5996,14 @@
       "stroke_order_svg": "svg/kanji/習.svg",
       "examples": [
         {
-          "form": "予習",
-          "reading": "よしゅう",
-          "gloss": "preparation for a lesson"
+          "form": "習う",
+          "reading": "ならう",
+          "gloss": "to learn (from a teacher)"
         },
         {
           "form": "復習",
           "reading": "ふくしゅう",
-          "gloss": "review of learned material; revision"
+          "gloss": "review; revision"
         },
         {
           "form": "習慣",
@@ -5851,13 +6013,14 @@
         {
           "form": "練習",
           "reading": "れんしゅう",
-          "gloss": "practice; training; drill"
+          "gloss": "practice; training"
         }
       ],
       "notes": "One traditional telling: a young bird flaps its wings over and over to LEARN.",
       "deck_order_rank": 121,
       "origin_disputed": true,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "learn"
     },
     {
       "id": "n4.kanji.洋",
@@ -5882,12 +6045,12 @@
         {
           "form": "西洋",
           "reading": "せいよう",
-          "gloss": "the West; the Occident; Western countries"
+          "gloss": "the West; the Occident"
         },
         {
           "form": "東洋",
           "reading": "とうよう",
-          "gloss": "the East; the Orient; (East) Asia"
+          "gloss": "the East; the Orient"
         },
         {
           "form": "海洋",
@@ -5897,13 +6060,14 @@
         {
           "form": "洋服",
           "reading": "ようふく",
-          "gloss": "Western-style clothes (cf. traditional Japanese clothes)"
+          "gloss": "Western-style clothes"
         }
       ],
       "notes": "Water spreading wide and far, on and on: the great OCEAN.",
       "deck_order_rank": 122,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "ocean; sea; foreign"
     },
     {
       "id": "n4.kanji.旅",
@@ -5928,12 +6092,12 @@
         {
           "form": "旅館",
           "reading": "りょかん",
-          "gloss": "traditional inn; Japanese-style lodging"
+          "gloss": "traditional inn"
         },
         {
           "form": "旅行",
           "reading": "りょこう",
-          "gloss": "travel; trip; journey"
+          "gloss": "travel; trip"
         },
         {
           "form": "旅券",
@@ -5949,7 +6113,8 @@
       "notes": "Follow the flag with your group down the road: to TRAVEL.",
       "deck_order_rank": 123,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "trip; travel"
     },
     {
       "id": "n4.kanji.服",
@@ -5978,23 +6143,24 @@
         {
           "form": "服装",
           "reading": "ふくそう",
-          "gloss": "attire; dress; clothes"
+          "gloss": "attire; dress"
         },
         {
           "form": "不服",
           "reading": "ふふく",
-          "gloss": "dissatisfaction; discontent; disapproval"
+          "gloss": "dissatisfaction; discontent"
         },
         {
           "form": "洋服",
           "reading": "ようふく",
-          "gloss": "Western-style clothes (cf. traditional Japanese clothes)"
+          "gloss": "Western-style clothes"
         }
       ],
       "notes": "Fitted to your body by hand: the CLOTHES you wear.",
       "deck_order_rank": 124,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "clothes; clothing"
     },
     {
       "id": "n4.kanji.夕",
@@ -6023,7 +6189,7 @@
         {
           "form": "夕方",
           "reading": "ゆうがた",
-          "gloss": "early evening (usu. from 3pm to 6pm); dusk"
+          "gloss": "early evening; dusk"
         },
         {
           "form": "夕食",
@@ -6033,13 +6199,14 @@
         {
           "form": "夕刊",
           "reading": "ゆうかん",
-          "gloss": "evening edition (of a daily newspaper); evening paper"
+          "gloss": "evening edition; evening paper"
         }
       ],
       "notes": "A thin curved moon peeks out in the sky: it is EVENING.",
       "deck_order_rank": 125,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "evening"
     },
     {
       "id": "n4.kanji.借",
@@ -6069,7 +6236,7 @@
         {
           "form": "借金",
           "reading": "しゃっきん",
-          "gloss": "debt; loan; liabilities"
+          "gloss": "debt; loan"
         },
         {
           "form": "借り物",
@@ -6085,7 +6252,8 @@
       "notes": "Ask a person to lend you something for a while, to BORROW it.",
       "deck_order_rank": 126,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "borrow; rent"
     },
     {
       "id": "n4.kanji.肉",
@@ -6117,18 +6285,19 @@
         {
           "form": "焼肉",
           "reading": "やきにく",
-          "gloss": "yakiniku; Japanese dish of grilled meat similar to Korean barbecue"
+          "gloss": "grilled meat; yakiniku"
         },
         {
           "form": "肉体",
           "reading": "にくたい",
-          "gloss": "the body; the flesh; the outer man"
+          "gloss": "body"
         }
       ],
       "notes": "A thick piece with cut lines running through it: that is MEAT.",
       "deck_order_rank": 127,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "meat"
     },
     {
       "id": "n4.kanji.貸",
@@ -6158,7 +6327,7 @@
         {
           "form": "賃貸",
           "reading": "ちんたい",
-          "gloss": "leasing (out); renting out; hiring out"
+          "gloss": "leasing (out); renting out"
         },
         {
           "form": "貸家",
@@ -6174,7 +6343,8 @@
       "notes": "Hand your money over to someone else for now: to LEND.",
       "deck_order_rank": 128,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "lend"
     },
     {
       "id": "n4.kanji.堂",
@@ -6202,12 +6372,7 @@
         {
           "form": "食堂",
           "reading": "しょくどう",
-          "gloss": "dining room; dining hall; cafeteria"
-        },
-        {
-          "form": "一堂",
-          "reading": "いちどう",
-          "gloss": "one building (hall, temple, shrine, room)"
+          "gloss": "dining room; dining hall"
         },
         {
           "form": "公会堂",
@@ -6218,7 +6383,8 @@
       "notes": "A tall roof raised up on solid ground: a grand HALL.",
       "deck_order_rank": 129,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "hall; public building"
     },
     {
       "id": "n4.kanji.鳥",
@@ -6232,8 +6398,8 @@
       "kun": [
         "とり"
       ],
-      "primary_reading": "チョウ",
-      "primary_kind": "on",
+      "primary_reading": "とり",
+      "primary_kind": "kun",
       "meanings": [
         "bird"
       ],
@@ -6263,7 +6429,8 @@
       "notes": "A beak on top, a round body, and tail feathers below: a BIRD.",
       "deck_order_rank": 130,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "bird"
     },
     {
       "id": "n4.kanji.飯",
@@ -6288,7 +6455,7 @@
         {
           "form": "ご飯",
           "reading": "ごはん",
-          "gloss": "cooked rice"
+          "gloss": "cooked rice; meal"
         },
         {
           "form": "炊飯器",
@@ -6298,13 +6465,15 @@
         {
           "form": "赤飯",
           "reading": "せきはん",
-          "gloss": "red rice (beans and mochi) for auspicious occasions"
+          "gloss": "red rice (festive dish)"
         }
       ],
       "notes": "A warm bowl to turn to at mealtime: cooked RICE.",
       "deck_order_rank": 131,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "meal; rice",
+      "reading_note": "Everyday word: ご飯（ごはん）"
     },
     {
       "id": "n4.kanji.勉",
@@ -6333,12 +6502,12 @@
         {
           "form": "勤勉",
           "reading": "きんべん",
-          "gloss": "diligent; hard-working; industrious"
+          "gloss": "diligent; hard-working"
         },
         {
           "form": "勉学",
           "reading": "べんがく",
-          "gloss": "pursuit of knowledge; study"
+          "gloss": "pursuit of learning; studies"
         }
       ],
       "notes": "Push with all your strength to STUDY hard.",
@@ -6350,7 +6519,8 @@
         "kun": [
           "つと(める)"
         ]
-      }
+      },
+      "display_meaning": "effort; diligence; exertion"
     },
     {
       "id": "n4.kanji.冬",
@@ -6395,7 +6565,8 @@
       "notes": "You walk slowly through the cold, two icy drops below: WINTER.",
       "deck_order_rank": 133,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "winter"
     },
     {
       "id": "n4.kanji.昼",
@@ -6441,7 +6612,8 @@
       "notes": "The sun sits high over the line at midday: DAYTIME.",
       "deck_order_rank": 134,
       "origin_disputed": true,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "daytime; noon"
     },
     {
       "id": "n4.kanji.茶",
@@ -6464,7 +6636,7 @@
         {
           "form": "お茶",
           "reading": "おちゃ",
-          "gloss": "tea (esp. green or barley)"
+          "gloss": "tea"
         },
         {
           "form": "紅茶",
@@ -6474,18 +6646,19 @@
         {
           "form": "茶色",
           "reading": "ちゃいろ",
-          "gloss": "brown; light brown; tawny"
+          "gloss": "brown; light brown"
         },
         {
           "form": "喫茶店",
           "reading": "きっさてん",
-          "gloss": "coffee shop; tearoom; coffee lounge"
+          "gloss": "coffee shop; tearoom"
         }
       ],
       "notes": "The plant part (艹) shows tea leaves; 余 gives only the sound - so, TEA.",
       "deck_order_rank": 135,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "tea"
     },
     {
       "id": "n4.kanji.弟",
@@ -6511,7 +6684,7 @@
         {
           "form": "弟",
           "reading": "おとうと",
-          "gloss": "younger brother; little brother; kid brother"
+          "gloss": "younger brother; little brother"
         },
         {
           "form": "兄弟",
@@ -6521,13 +6694,14 @@
         {
           "form": "弟子",
           "reading": "でし",
-          "gloss": "pupil; disciple; adherent"
+          "gloss": "pupil; disciple"
         }
       ],
       "notes": "The brother who comes lower down in the family line: the YOUNGER BROTHER.",
       "deck_order_rank": 136,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "younger brother"
     },
     {
       "id": "n4.kanji.牛",
@@ -6572,7 +6746,8 @@
       "notes": "One horn slants off the top of its head: a COW.",
       "deck_order_rank": 137,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "cow"
     },
     {
       "id": "n4.kanji.魚",
@@ -6602,18 +6777,19 @@
         {
           "form": "金魚",
           "reading": "きんぎょ",
-          "gloss": "goldfish (Carassius auratus)"
+          "gloss": "goldfish"
         },
         {
           "form": "魚屋",
           "reading": "さかなや",
-          "gloss": "fish market; fish dealer; fishmonger"
+          "gloss": "fish shop; fishmonger"
         }
       ],
       "notes": "A pointed head, a scaly body, and a spread-out tail below: a FISH.",
       "deck_order_rank": 138,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "fish"
     },
     {
       "id": "n4.kanji.兄",
@@ -6648,13 +6824,15 @@
         {
           "form": "お兄さん",
           "reading": "おにいさん",
-          "gloss": "older brother (someone else's, polite)"
+          "gloss": "older brother (someone else's, polite)",
+          "special": true
         }
       ],
       "notes": "The elder opens his mouth (口) to lead the family's prayer at the altar: the ELDER BROTHER.",
       "deck_order_rank": 139,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "elder brother"
     },
     {
       "id": "n4.kanji.犬",
@@ -6691,7 +6869,7 @@
           "gloss": "pet dog; beloved dog"
         },
         {
-          "form": "仔犬",
+          "form": "子犬",
           "reading": "こいぬ",
           "gloss": "puppy"
         }
@@ -6699,7 +6877,8 @@
       "notes": "Shape memory hook: 犬 looks like 大 'big' with one extra dot (the ear) - but it is really a side-view pictograph of a DOG.",
       "deck_order_rank": 140,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "dog"
     },
     {
       "id": "n4.kanji.妹",
@@ -6739,7 +6918,8 @@
       "notes": "A girl (女) is the meaning; 未 gives only the sound - YOUNGER SISTER (like her sibling 姉).",
       "deck_order_rank": 141,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "younger sister"
     },
     {
       "id": "n4.kanji.姉",
@@ -6773,13 +6953,15 @@
         {
           "form": "お姉さん",
           "reading": "おねえさん",
-          "gloss": "older sister (someone else's, polite)"
+          "gloss": "older sister (someone else's, polite)",
+          "special": true
         }
       ],
       "notes": "The grown-up girl who looks after you: your ELDER SISTER.",
       "deck_order_rank": 142,
       "origin_disputed": false,
-      "mnemonic_not_etymology": true
+      "mnemonic_not_etymology": true,
+      "display_meaning": "elder sister"
     },
     {
       "id": "n4.kanji.漢",
@@ -6818,13 +7000,1199 @@
         {
           "form": "漢文",
           "reading": "かんぶん",
-          "gloss": "Chinese classical writing; Chinese classics"
+          "gloss": "classical Chinese writing"
         }
       ],
       "notes": "Named after a great river (see the water on the left): the writing of the people there, the CHINESE characters we call kanji.",
       "deck_order_rank": 143,
       "origin_disputed": false,
-      "mnemonic_not_etymology": false
+      "mnemonic_not_etymology": false,
+      "display_meaning": "Han; Chinese; Chinese-related"
+    },
+    {
+      "id": "n4.kanji.言",
+      "glyph": "言",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 144,
+      "on": [
+        "ゲン",
+        "ゴン"
+      ],
+      "kun": [
+        "い(う)",
+        "こと"
+      ],
+      "primary_reading": "い(う)",
+      "primary_kind": "kun",
+      "meanings": [
+        "say",
+        "word"
+      ],
+      "stroke_order_svg": "svg/kanji/言.svg",
+      "examples": [
+        {
+          "form": "言う",
+          "reading": "いう",
+          "gloss": "to say"
+        },
+        {
+          "form": "言い方",
+          "reading": "いいかた",
+          "gloss": "way of saying, expression"
+        },
+        {
+          "form": "一言",
+          "reading": "ひとこと",
+          "gloss": "a word / a brief comment"
+        }
+      ],
+      "notes": "Words (言) leaving the mouth = SAY.",
+      "deck_order_rank": 144,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "say; word",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.手",
+      "glyph": "手",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 145,
+      "on": [
+        "シュ"
+      ],
+      "kun": [
+        "て"
+      ],
+      "primary_reading": "て",
+      "primary_kind": "kun",
+      "meanings": [
+        "hand"
+      ],
+      "stroke_order_svg": "svg/kanji/手.svg",
+      "examples": [
+        {
+          "form": "手",
+          "reading": "て",
+          "gloss": "hand"
+        },
+        {
+          "form": "手紙",
+          "reading": "てがみ",
+          "gloss": "letter"
+        },
+        {
+          "form": "手本",
+          "reading": "てほん",
+          "gloss": "model; example"
+        },
+        {
+          "form": "右手",
+          "reading": "みぎて",
+          "gloss": "right hand"
+        }
+      ],
+      "notes": "Five fingers spreading from a wrist = HAND.",
+      "deck_order_rank": 145,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "hand",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.会",
+      "glyph": "会",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 146,
+      "on": [
+        "カイ",
+        "エ"
+      ],
+      "kun": [
+        "あ(う)"
+      ],
+      "primary_reading": "カイ",
+      "primary_kind": "on",
+      "meanings": [
+        "meeting",
+        "association"
+      ],
+      "stroke_order_svg": "svg/kanji/会.svg",
+      "examples": [
+        {
+          "form": "会社",
+          "reading": "かいしゃ",
+          "gloss": "company"
+        },
+        {
+          "form": "会う",
+          "reading": "あう",
+          "gloss": "to meet"
+        },
+        {
+          "form": "会社員",
+          "reading": "かいしゃいん",
+          "gloss": "company employee"
+        },
+        {
+          "form": "会話",
+          "reading": "かいわ",
+          "gloss": "conversation"
+        }
+      ],
+      "notes": "People (人) gathering in clouds (云) = MEET.",
+      "deck_order_rank": 146,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "meeting; association",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.目",
+      "glyph": "目",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 147,
+      "on": [
+        "モク"
+      ],
+      "kun": [
+        "め"
+      ],
+      "primary_reading": "め",
+      "primary_kind": "kun",
+      "meanings": [
+        "eye"
+      ],
+      "stroke_order_svg": "svg/kanji/目.svg",
+      "examples": [
+        {
+          "form": "目",
+          "reading": "め",
+          "gloss": "eye"
+        },
+        {
+          "form": "目上",
+          "reading": "めうえ",
+          "gloss": "one's superior; elder"
+        },
+        {
+          "form": "目下",
+          "reading": "めした",
+          "gloss": "one's subordinate; junior"
+        }
+      ],
+      "notes": "A vertical eye with pupil-bars = EYE.",
+      "deck_order_rank": 147,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "eye",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.私",
+      "glyph": "私",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 148,
+      "on": [
+        "シ"
+      ],
+      "kun": [
+        "わたし"
+      ],
+      "primary_reading": "わたし",
+      "primary_kind": "kun",
+      "meanings": [
+        "I",
+        "me"
+      ],
+      "stroke_order_svg": "svg/kanji/私.svg",
+      "examples": [
+        {
+          "form": "私",
+          "reading": "わたし",
+          "gloss": "I; me"
+        },
+        {
+          "form": "私たち",
+          "reading": "わたしたち",
+          "gloss": "we"
+        },
+        {
+          "form": "私立",
+          "reading": "しりつ",
+          "gloss": "private (school)"
+        }
+      ],
+      "notes": "My (厶) grain (禾) = PRIVATE / I.",
+      "deck_order_rank": 148,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "I; me",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.立",
+      "glyph": "立",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 149,
+      "on": [
+        "リツ",
+        "リュウ"
+      ],
+      "kun": [
+        "た(つ)",
+        "た(てる)"
+      ],
+      "primary_reading": "た(つ)",
+      "primary_kind": "kun",
+      "meanings": [
+        "stand"
+      ],
+      "stroke_order_svg": "svg/kanji/立.svg",
+      "examples": [
+        {
+          "form": "立つ",
+          "reading": "たつ",
+          "gloss": "to stand"
+        },
+        {
+          "form": "立ち上がる",
+          "reading": "たちあがる",
+          "gloss": "to stand up"
+        },
+        {
+          "form": "立ち入り",
+          "reading": "たちいり",
+          "gloss": "entry / entering (often \"立入禁止\" = no entry)"
+        }
+      ],
+      "notes": "A person planted on the ground = STAND.",
+      "deck_order_rank": 149,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "stand",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.田",
+      "glyph": "田",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 150,
+      "on": [
+        "デン"
+      ],
+      "kun": [
+        "た"
+      ],
+      "primary_reading": "た",
+      "primary_kind": "kun",
+      "meanings": [
+        "rice field"
+      ],
+      "stroke_order_svg": "svg/kanji/田.svg",
+      "examples": [
+        {
+          "form": "田",
+          "reading": "た",
+          "gloss": "rice field"
+        },
+        {
+          "form": "田んぼ",
+          "reading": "たんぼ",
+          "gloss": "rice paddy"
+        },
+        {
+          "form": "水田",
+          "reading": "すいでん",
+          "gloss": "paddy field"
+        }
+      ],
+      "notes": "A grid of irrigation channels = RICE PADDY.",
+      "deck_order_rank": 150,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "rice field",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.社",
+      "glyph": "社",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 151,
+      "on": [
+        "シャ"
+      ],
+      "kun": [],
+      "primary_reading": "シャ",
+      "primary_kind": "on",
+      "meanings": [
+        "company"
+      ],
+      "stroke_order_svg": "svg/kanji/社.svg",
+      "examples": [
+        {
+          "form": "会社",
+          "reading": "かいしゃ",
+          "gloss": "company"
+        },
+        {
+          "form": "会社員",
+          "reading": "かいしゃいん",
+          "gloss": "company employee"
+        },
+        {
+          "form": "社長",
+          "reading": "しゃちょう",
+          "gloss": "company president"
+        }
+      ],
+      "notes": "Altar (礻) on the earth (土) where people gather = COMPANY / shrine.",
+      "deck_order_rank": 151,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "company",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.新",
+      "glyph": "新",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 152,
+      "on": [
+        "シン"
+      ],
+      "kun": [
+        "あたら(しい)",
+        "あら(た)",
+        "にい"
+      ],
+      "primary_reading": "シン",
+      "primary_kind": "on",
+      "meanings": [
+        "new"
+      ],
+      "stroke_order_svg": "svg/kanji/新.svg",
+      "examples": [
+        {
+          "form": "新聞",
+          "reading": "しんぶん",
+          "gloss": "newspaper"
+        },
+        {
+          "form": "新しい",
+          "reading": "あたらしい",
+          "gloss": "new"
+        },
+        {
+          "form": "新年",
+          "reading": "しんねん",
+          "gloss": "new year (the calendar new year)"
+        }
+      ],
+      "notes": "A standing tree freshly cut by an axe = NEW.",
+      "deck_order_rank": 152,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "new",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.力",
+      "glyph": "力",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 153,
+      "on": [
+        "リョク",
+        "リキ"
+      ],
+      "kun": [
+        "ちから"
+      ],
+      "primary_reading": "ちから",
+      "primary_kind": "kun",
+      "meanings": [
+        "power",
+        "strength"
+      ],
+      "stroke_order_svg": "svg/kanji/力.svg",
+      "examples": [
+        {
+          "form": "力",
+          "reading": "ちから",
+          "gloss": "power, strength"
+        },
+        {
+          "form": "力持ち",
+          "reading": "ちからもち",
+          "gloss": "strong person"
+        },
+        {
+          "form": "人力",
+          "reading": "じんりき",
+          "gloss": "human power"
+        },
+        {
+          "form": "力学",
+          "reading": "りきがく",
+          "gloss": "mechanics / dynamics"
+        }
+      ],
+      "notes": "A flexed arm muscle = POWER.",
+      "deck_order_rank": 153,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "power; strength",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.道",
+      "glyph": "道",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 154,
+      "on": [
+        "ドウ"
+      ],
+      "kun": [
+        "みち"
+      ],
+      "primary_reading": "みち",
+      "primary_kind": "kun",
+      "meanings": [
+        "road",
+        "way"
+      ],
+      "stroke_order_svg": "svg/kanji/道.svg",
+      "examples": [
+        {
+          "form": "道",
+          "reading": "みち",
+          "gloss": "road, way"
+        },
+        {
+          "form": "車道",
+          "reading": "しゃどう",
+          "gloss": "road for vehicles"
+        },
+        {
+          "form": "山道",
+          "reading": "やまみち",
+          "gloss": "mountain path / trail"
+        }
+      ],
+      "notes": "Walking (辶) with one's head (首) up = ROAD / way.",
+      "deck_order_rank": 154,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "road; way",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.口",
+      "glyph": "口",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 155,
+      "on": [
+        "コウ"
+      ],
+      "kun": [
+        "くち"
+      ],
+      "primary_reading": "くち",
+      "primary_kind": "kun",
+      "meanings": [
+        "mouth"
+      ],
+      "stroke_order_svg": "svg/kanji/口.svg",
+      "examples": [
+        {
+          "form": "入り口",
+          "reading": "いりぐち",
+          "gloss": "entrance"
+        },
+        {
+          "form": "出口",
+          "reading": "でぐち",
+          "gloss": "exit"
+        },
+        {
+          "form": "口",
+          "reading": "くち",
+          "gloss": "mouth"
+        }
+      ],
+      "notes": "A square opening = MOUTH.",
+      "deck_order_rank": 155,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "mouth",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.員",
+      "glyph": "員",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 156,
+      "on": [
+        "イン"
+      ],
+      "kun": [],
+      "primary_reading": "イン",
+      "primary_kind": "on",
+      "meanings": [
+        "member",
+        "staff"
+      ],
+      "stroke_order_svg": "svg/kanji/員.svg",
+      "examples": [
+        {
+          "form": "店員",
+          "reading": "てんいん",
+          "gloss": "shop clerk"
+        },
+        {
+          "form": "駅員",
+          "reading": "えきいん",
+          "gloss": "station staff"
+        },
+        {
+          "form": "会社員",
+          "reading": "かいしゃいん",
+          "gloss": "company employee"
+        },
+        {
+          "form": "会員",
+          "reading": "かいいん",
+          "gloss": "member"
+        }
+      ],
+      "notes": "Mouth (口) over shell-money (貝) - a paid speaker = MEMBER / employee.",
+      "deck_order_rank": 156,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "member; staff",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.安",
+      "glyph": "安",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 157,
+      "on": [
+        "アン"
+      ],
+      "kun": [
+        "やす(い)"
+      ],
+      "primary_reading": "やす(い)",
+      "primary_kind": "kun",
+      "meanings": [
+        "cheap",
+        "safe",
+        "peaceful"
+      ],
+      "stroke_order_svg": "svg/kanji/安.svg",
+      "examples": [
+        {
+          "form": "安い",
+          "reading": "やすい",
+          "gloss": "cheap"
+        },
+        {
+          "form": "安く",
+          "reading": "やすく",
+          "gloss": "cheaply (adverb)"
+        },
+        {
+          "form": "大安",
+          "reading": "たいあん",
+          "gloss": "an auspicious day in the traditional Japanese calendar"
+        }
+      ],
+      "notes": "A woman (女) under a roof (宀) - peaceful and CHEAP.",
+      "deck_order_rank": 157,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "cheap; safe; peaceful",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.足",
+      "glyph": "足",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 158,
+      "on": [
+        "ソク"
+      ],
+      "kun": [
+        "あし"
+      ],
+      "primary_reading": "あし",
+      "primary_kind": "kun",
+      "meanings": [
+        "foot",
+        "leg"
+      ],
+      "stroke_order_svg": "svg/kanji/足.svg",
+      "examples": [
+        {
+          "form": "足",
+          "reading": "あし",
+          "gloss": "foot, leg"
+        },
+        {
+          "form": "一足",
+          "reading": "いっそく",
+          "gloss": "one pair (footwear)"
+        },
+        {
+          "form": "足あと",
+          "reading": "あしあと",
+          "gloss": "footprints (足跡; 跡 written in kana per K-1)"
+        },
+        {
+          "form": "手足",
+          "reading": "てあし",
+          "gloss": "hands and feet / limbs"
+        }
+      ],
+      "notes": "Mouth-shape (口) over stop (止) = FOOT (where you stop).",
+      "deck_order_rank": 158,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "foot; leg",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.空",
+      "glyph": "空",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 159,
+      "on": [
+        "クウ"
+      ],
+      "kun": [
+        "そら",
+        "あ(く)",
+        "あ(ける)",
+        "から"
+      ],
+      "primary_reading": "そら",
+      "primary_kind": "kun",
+      "meanings": [
+        "sky",
+        "empty"
+      ],
+      "stroke_order_svg": "svg/kanji/空.svg",
+      "examples": [
+        {
+          "form": "空",
+          "reading": "そら",
+          "gloss": "sky"
+        },
+        {
+          "form": "空気",
+          "reading": "くうき",
+          "gloss": "air"
+        },
+        {
+          "form": "大空",
+          "reading": "おおぞら",
+          "gloss": "wide-open sky"
+        }
+      ],
+      "notes": "A cave (穴) of work (工) - empty above = SKY / empty.",
+      "deck_order_rank": 159,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "sky; empty",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.店",
+      "glyph": "店",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 160,
+      "on": [
+        "テン"
+      ],
+      "kun": [
+        "みせ"
+      ],
+      "primary_reading": "みせ",
+      "primary_kind": "kun",
+      "meanings": [
+        "shop",
+        "store"
+      ],
+      "stroke_order_svg": "svg/kanji/店.svg",
+      "examples": [
+        {
+          "form": "お店",
+          "reading": "おみせ",
+          "gloss": "shop"
+        },
+        {
+          "form": "店員",
+          "reading": "てんいん",
+          "gloss": "shop clerk"
+        },
+        {
+          "form": "本店",
+          "reading": "ほんてん",
+          "gloss": "main store; head office"
+        }
+      ],
+      "notes": "Under a roof (广), claim a spot (占) = SHOP.",
+      "deck_order_rank": 160,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "shop; store",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.古",
+      "glyph": "古",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 161,
+      "on": [
+        "コ"
+      ],
+      "kun": [
+        "ふる(い)"
+      ],
+      "primary_reading": "ふる(い)",
+      "primary_kind": "kun",
+      "meanings": [
+        "old"
+      ],
+      "stroke_order_svg": "svg/kanji/古.svg",
+      "examples": [
+        {
+          "form": "古い",
+          "reading": "ふるい",
+          "gloss": "old (of things; not a person's age)"
+        },
+        {
+          "form": "古本",
+          "reading": "ふるほん",
+          "gloss": "second-hand book"
+        },
+        {
+          "form": "中古",
+          "reading": "ちゅうこ",
+          "gloss": "second-hand / used"
+        }
+      ],
+      "notes": "Ten (十) generations of stories (口) = OLD.",
+      "deck_order_rank": 161,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "old",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.買",
+      "glyph": "買",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 162,
+      "on": [
+        "バイ"
+      ],
+      "kun": [
+        "か(う)"
+      ],
+      "primary_reading": "か(う)",
+      "primary_kind": "kun",
+      "meanings": [
+        "buy"
+      ],
+      "stroke_order_svg": "svg/kanji/買.svg",
+      "examples": [
+        {
+          "form": "買う",
+          "reading": "かう",
+          "gloss": "to buy"
+        },
+        {
+          "form": "買い物",
+          "reading": "かいもの",
+          "gloss": "shopping"
+        },
+        {
+          "form": "買い手",
+          "reading": "かいて",
+          "gloss": "buyer / purchaser"
+        }
+      ],
+      "notes": "Net (四) for shell-money (貝) = BUY.",
+      "deck_order_rank": 162,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "buy",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.花",
+      "glyph": "花",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 163,
+      "on": [
+        "カ"
+      ],
+      "kun": [
+        "はな"
+      ],
+      "primary_reading": "はな",
+      "primary_kind": "kun",
+      "meanings": [
+        "flower"
+      ],
+      "stroke_order_svg": "svg/kanji/花.svg",
+      "examples": [
+        {
+          "form": "花",
+          "reading": "はな",
+          "gloss": "flower"
+        },
+        {
+          "form": "花見",
+          "reading": "はなみ",
+          "gloss": "flower viewing (cherry blossom)"
+        },
+        {
+          "form": "花火",
+          "reading": "はなび",
+          "gloss": "fireworks"
+        }
+      ],
+      "notes": "Grass (艹) transforming (化) = FLOWER.",
+      "deck_order_rank": 163,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "flower",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.飲",
+      "glyph": "飲",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 164,
+      "on": [
+        "イン"
+      ],
+      "kun": [
+        "の(む)"
+      ],
+      "primary_reading": "の(む)",
+      "primary_kind": "kun",
+      "meanings": [
+        "drink"
+      ],
+      "stroke_order_svg": "svg/kanji/飲.svg",
+      "examples": [
+        {
+          "form": "飲む",
+          "reading": "のむ",
+          "gloss": "to drink"
+        },
+        {
+          "form": "飲み物",
+          "reading": "のみもの",
+          "gloss": "drink, beverage"
+        },
+        {
+          "form": "飲み水",
+          "reading": "のみみず",
+          "gloss": "drinking water"
+        }
+      ],
+      "notes": "Food (飠) and a yawn (欠) - DRINK to wash it down.",
+      "deck_order_rank": 164,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "drink",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.週",
+      "glyph": "週",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 165,
+      "on": [
+        "シュウ"
+      ],
+      "kun": [],
+      "primary_reading": "シュウ",
+      "primary_kind": "on",
+      "meanings": [
+        "week"
+      ],
+      "stroke_order_svg": "svg/kanji/週.svg",
+      "examples": [
+        {
+          "form": "週",
+          "reading": "しゅう",
+          "gloss": "week"
+        },
+        {
+          "form": "先週",
+          "reading": "せんしゅう",
+          "gloss": "last week"
+        },
+        {
+          "form": "今週",
+          "reading": "こんしゅう",
+          "gloss": "this week"
+        },
+        {
+          "form": "来週",
+          "reading": "らいしゅう",
+          "gloss": "next week"
+        }
+      ],
+      "notes": "Walking (辶) around (周) the calendar = WEEK.",
+      "deck_order_rank": 165,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "week",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.駅",
+      "glyph": "駅",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 166,
+      "on": [
+        "エキ"
+      ],
+      "kun": [],
+      "primary_reading": "エキ",
+      "primary_kind": "on",
+      "meanings": [
+        "station"
+      ],
+      "stroke_order_svg": "svg/kanji/駅.svg",
+      "examples": [
+        {
+          "form": "駅",
+          "reading": "えき",
+          "gloss": "station"
+        },
+        {
+          "form": "駅員",
+          "reading": "えきいん",
+          "gloss": "station staff"
+        },
+        {
+          "form": "駅前",
+          "reading": "えきまえ",
+          "gloss": "in front of the station"
+        }
+      ],
+      "notes": "Horse (馬) measured (尺) - a relay STATION.",
+      "deck_order_rank": 166,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "station",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.曜",
+      "glyph": "曜",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 167,
+      "on": [
+        "ヨウ"
+      ],
+      "kun": [],
+      "primary_reading": "ヨウ",
+      "primary_kind": "on",
+      "meanings": [
+        "weekday"
+      ],
+      "stroke_order_svg": "svg/kanji/曜.svg",
+      "examples": [
+        {
+          "form": "月曜日",
+          "reading": "げつようび",
+          "gloss": "Monday"
+        },
+        {
+          "form": "金曜日",
+          "reading": "きんようび",
+          "gloss": "Friday"
+        },
+        {
+          "form": "日曜日",
+          "reading": "にちようび",
+          "gloss": "Sunday"
+        },
+        {
+          "form": "何曜日",
+          "reading": "なんようび",
+          "gloss": "what day of the week"
+        }
+      ],
+      "notes": "Sun (日) + feathers (羽) + bird (隹) - DAY OF THE WEEK named after a celestial body.",
+      "deck_order_rank": 167,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "weekday",
+      "ported_from": "n5"
+    },
+    {
+      "id": "n4.kanji.的",
+      "glyph": "的",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 168,
+      "on": [
+        "テキ"
+      ],
+      "kun": [
+        "まと"
+      ],
+      "primary_reading": "テキ",
+      "primary_kind": "on",
+      "meanings": [
+        "target",
+        "mark",
+        "-al/-ic (suffix)"
+      ],
+      "stroke_order_svg": "svg/kanji/的.svg",
+      "examples": [
+        {
+          "form": "目的",
+          "reading": "もくてき",
+          "gloss": "purpose; goal"
+        },
+        {
+          "form": "一般的",
+          "reading": "いっぱんてき",
+          "gloss": "general; typical"
+        },
+        {
+          "form": "的",
+          "reading": "まと",
+          "gloss": "target; mark"
+        }
+      ],
+      "notes": "A white (白) spot you aim an arrow at -- the TARGET.",
+      "deck_order_rank": 168,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "target; mark; -al/-ic (suffix)",
+      "review_status": "NATIVE_REVIEW_PASS"
+    },
+    {
+      "id": "n4.kanji.身",
+      "glyph": "身",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 169,
+      "on": [
+        "シン"
+      ],
+      "kun": [
+        "み"
+      ],
+      "primary_reading": "み",
+      "primary_kind": "kun",
+      "meanings": [
+        "body",
+        "oneself",
+        "one's person"
+      ],
+      "stroke_order_svg": "svg/kanji/身.svg",
+      "examples": [
+        {
+          "form": "身体",
+          "reading": "しんたい",
+          "gloss": "body"
+        },
+        {
+          "form": "中身",
+          "reading": "なかみ",
+          "gloss": "contents; inside"
+        },
+        {
+          "form": "自身",
+          "reading": "じしん",
+          "gloss": "oneself"
+        }
+      ],
+      "notes": "A pregnant figure in profile -- your own BODY, yourself.",
+      "deck_order_rank": 169,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "body; oneself; one's person",
+      "review_status": "NATIVE_REVIEW_PASS"
+    },
+    {
+      "id": "n4.kanji.可",
+      "glyph": "可",
+      "tier": "core_n4",
+      "n5_prerequisite": false,
+      "lesson_order": 170,
+      "on": [
+        "カ"
+      ],
+      "kun": [],
+      "primary_reading": "カ",
+      "primary_kind": "on",
+      "meanings": [
+        "possible",
+        "can",
+        "approval"
+      ],
+      "stroke_order_svg": "svg/kanji/可.svg",
+      "examples": [
+        {
+          "form": "可能",
+          "reading": "かのう",
+          "gloss": "possible"
+        },
+        {
+          "form": "許可",
+          "reading": "きょか",
+          "gloss": "permission"
+        },
+        {
+          "form": "不可",
+          "reading": "ふか",
+          "gloss": "not allowed; failing grade"
+        }
+      ],
+      "notes": "A mouth (口) giving the OK -- yes, it is POSSIBLE.",
+      "deck_order_rank": 170,
+      "origin_disputed": false,
+      "mnemonic_not_etymology": true,
+      "display_meaning": "possible; can; approval",
+      "review_status": "NATIVE_REVIEW_PASS"
     }
   ]
 }
