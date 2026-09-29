@@ -51,3 +51,22 @@ playwright-report/
 !/N4/Workbook/N4_Kanji_Workbook/_jmdict_index.json
 !/N4/Workbook/N4_Kanji_Workbook/*_bank.json
 /Not required/
+
+# Local prototype/working folder, not website content (added 2026-09-30). Holds the user's
+# hand-built kanji-practice prototype, its build and mining scripts, generated PDFs and a zip,
+# plus Krivi/old/ (~240 files including 214 stroke PNGs). None of it is served, none of it is
+# referenced by any page, and committing generated binaries to a GitHub-Pages repo is the wrong
+# home for them. Ignored rather than deleted: the files stay on disk untouched.
+/Krivi/
+
+# Commit-message scratch files. The house workflow writes `.commit_msg.tmp` and passes it to
+# `git commit -F`, so these recur on every commit and should never be tracked.
+.commit_msg.tmp
+
+# Patch-script backups (added 2026-09-30). Every data/KB patch script copies its target to
+# `<name>.bak_<purpose>` or `<name>.bak_<purpose>_<timestamp>` before writing, which is the right
+# safety habit but leaves 34 files sitting in `git status` and hiding real untracked work - that is
+# how three stroke-order SVGs went uncommitted for months. Git is the history for tracked files, so
+# these never belong in it. Ignored, not deleted: the backups stay on disk.
+*.bak_*
+*.bak.json

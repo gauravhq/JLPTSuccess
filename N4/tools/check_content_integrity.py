@@ -818,7 +818,51 @@ CHECKS: list[tuple[str, str, callable]] = [
     ("JA-32", "Paper-JSON rationales appear verbatim in source MD (2026-05-04)", lambda: _check_ja_32_paper_rationale_md_parity()),
     ("JA-33", "No seed-template literals in grammar examples (2026-05-04 LLM audit closure)", lambda: _check_ja_33_no_seed_template_literals()),
     ("JA-34", "KB is in sync with its derived data (2026-09-29)", lambda: _check_ja_34_kb_derived_in_sync()),
+    ("JA-35", "kanji whitelist == the readings tier union (2026-09-30)", lambda: _check_ja_35_whitelist_matches_tiers()),
 ]
+
+
+def _check_ja_35_whitelist_matches_tiers() -> list[str]:
+    """data/n4_kanji_whitelist.json must hold exactly the glyphs data/n4_kanji_readings.json knows.
+
+    The whitelist is the N5 union N4 UNION: the 106 N5 prerequisite glyphs plus every glyph the N4
+    catalogue teaches. The readings file records the same split in its `tier` field, so the two are
+    two spellings of one fact and any difference is drift.
+
+    They drifted. The file has TWO writers with different beliefs - tools/build_n4_kanji.py builds
+    it as `N5 whitelist + N4 entries`, while tools/build_data.py used to rebuild it from the
+    N4-only KnowledgeBank and so produced 143. Neither had run since the catalogue grew from 143 to
+    170 kanji, and 可 的 身 sat in kanji.json and in the readings file but not in the whitelist.
+    Nothing caught it: JA-13 only asks whether user-facing kanji are IN the whitelist, so a glyph
+    missing from it fails open until some content happens to use it.
+
+    build_data.py no longer writes this file at all (see the quarantine note at the end of it).
+    This invariant is what keeps the remaining writer honest.
+    """
+    failures = []
+    wl_path = ROOT / "data" / "n4_kanji_whitelist.json"
+    rd_path = ROOT / "data" / "n4_kanji_readings.json"
+    if not wl_path.exists() or not rd_path.exists():
+        return failures
+    try:
+        wl = set(json.loads(wl_path.read_text(encoding="utf-8")))
+        rd = json.loads(rd_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"JA-35 could not parse the whitelist or readings file: {e}"]
+
+    missing = sorted(set(rd) - wl)
+    extra = sorted(wl - set(rd))
+    if missing:
+        failures.append(
+            f"JA-35 {len(missing)} glyph(s) in n4_kanji_readings.json are absent from "
+            f"n4_kanji_whitelist.json: {''.join(missing)}. Content using them would be rejected as "
+            f"out of scope by JA-13 and by the workbook gates.")
+    if extra:
+        failures.append(
+            f"JA-35 {len(extra)} glyph(s) in n4_kanji_whitelist.json have no entry in "
+            f"n4_kanji_readings.json: {''.join(extra)}. Every whitelisted glyph needs readings, or "
+            f"the furigana renderer has nothing to show for it.")
+    return failures
 
 
 def _check_ja_34_kb_derived_in_sync() -> list[str]:

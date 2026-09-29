@@ -288,10 +288,12 @@ def main() -> int:
 # them was destructive, measured against the committed data on that date:
 #
 #   data/n4_kanji_whitelist.json  249 -> 143. The KB header defines the whitelist as the N5 union
-#       N4 UNION; this catalogue holds N4 only, so it cannot produce the N5 half. The honest
-#       source is the tier field in n4_kanji_readings.json (170 core_n4 + 82 n5_prerequisite =
-#       252), which differs from the committed 249 by 可 的 身 - three of the glyphs that have no
-#       KB entry. Adding them is a data decision, not a build step.
+#       N4 UNION; this catalogue holds N4 only, so it cannot produce the N5 half. It stays
+#       quarantined here permanently - tools/build_n4_kanji.py is the writer, building it as
+#       `N5 whitelist (106) + N4 entries`. RESOLVED 2026-09-30: the 249 committed then was short
+#       by 可 的 身, which entered kanji.json and the readings file in the 143 -> 170 expansion and
+#       were never added here, because neither writer had run since. The file now holds 252 and
+#       equals the readings tier union, which JA-35 asserts on every run.
 #   data/vocab.json               637 -> 637 but ALL 637 glosses differ (the KB now prefixes a
 #       part-of-speech tag, e.g. "[v1] to enter"), and the rebuild is a naive overwrite with no
 #       merge-preserve, so it also discards `examples`, `pos`, `kb_pos_tag` and `tier` from every
