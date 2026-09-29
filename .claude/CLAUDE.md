@@ -8,9 +8,11 @@ The user has granted blanket autonomous-operation authorization for this repo. S
 
 These rules override default helpful-assistant behavior. Read them at session start and before every action.
 
-### Rule 1 - N4 IS WORK-BLOCKED
+### Rule 1 - N4 WORK-BLOCK LIFTED (2026-06-19)
 
-**Do NOT touch anything under `/N4/`.** Specifically:
+**LIFTED 2026-06-19** by explicit user directive ("unblock n4"): N4 work is RESUMED, and the permission-deny on `/N4/` (the `Edit(**/N4/**)` / `Write(**/N4/**)` rules) has been removed from the global settings.json. The original block (set 2026-05-04) is struck through below, retained for history but no longer in effect. NOTE: Rule 2's "even a directly-worded N4 fix request triggers Rule 2" clause and Rule 5's "touching `/N4/` is a POLICY BLOCK" exit condition referenced this block — they no longer apply to `/N4/`.
+
+~~**Do NOT touch anything under `/N4/`.**~~ (Historical, lifted 2026-06-19) Specifically:
 
 - Do not edit any file inside `/N4/` (data, code, KB, audio, SVGs, tests, tools, configs, anything).
 - Do not run any builder under `/N4/tools/` (`build_n4_*.py`, `enrich_*.py`, etc.).

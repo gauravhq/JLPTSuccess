@@ -1,8 +1,8 @@
-# N4 IS WORK-BLOCKED
+# N4 — WORK-BLOCK LIFTED
 
-**Set:** 2026-05-04 by user directive.
+**Blocked:** 2026-05-04 → **Unblocked:** 2026-06-19, by explicit user directive ("unblock n4"). N4 work is RESUMED — the permission-deny on `/N4/` (the `Edit(**/N4/**)` / `Write(**/N4/**)` rules in the global settings.json) has been removed. The notes below are retained for history; the block is no longer in effect.
 
-Do not edit any file in this directory tree until the user explicitly unblocks it.
+~~Do not edit any file in this directory tree until the user explicitly unblocks it.~~ (Lifted 2026-06-19.)
 
 This includes:
 - Data files (`data/*.json`)
