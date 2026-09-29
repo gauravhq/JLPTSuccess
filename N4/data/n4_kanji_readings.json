@@ -144,7 +144,7 @@
       "あ(う)"
     ],
     "primary": "かい",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "何": {
@@ -253,7 +253,7 @@
       "ちから"
     ],
     "primary": "ちから",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "北": {
@@ -334,7 +334,7 @@
       "くち"
     ],
     "primary": "くち",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "古": {
@@ -345,7 +345,7 @@
       "ふる(い)"
     ],
     "primary": "ふる(い)",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "右": {
@@ -384,7 +384,7 @@
     ],
     "kun": [],
     "primary": "イン",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "四": {
@@ -493,7 +493,7 @@
       "やす(い)"
     ],
     "primary": "やす",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "小": {
@@ -556,7 +556,7 @@
       "みせ"
     ],
     "primary": "みせ",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "後": {
@@ -580,7 +580,7 @@
       "て"
     ],
     "primary": "て",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "新": {
@@ -593,7 +593,7 @@
       "にい"
     ],
     "primary": "しん",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "日": {
@@ -625,7 +625,7 @@
     ],
     "kun": [],
     "primary": "ヨウ",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "書": {
@@ -776,7 +776,7 @@
       "た"
     ],
     "primary": "た",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "男": {
@@ -826,7 +826,7 @@
       "め"
     ],
     "primary": "め",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "社": {
@@ -835,7 +835,7 @@
     ],
     "kun": [],
     "primary": "シャ",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "私": {
@@ -846,7 +846,7 @@
       "わたし"
     ],
     "primary": "わたし",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "空": {
@@ -860,7 +860,7 @@
       "から"
     ],
     "primary": "そら",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "立": {
@@ -873,7 +873,7 @@
       "た(てる)"
     ],
     "primary": "た(つ)",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "聞": {
@@ -895,7 +895,7 @@
       "はな"
     ],
     "primary": "はな",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "行": {
@@ -943,7 +943,7 @@
       "こと"
     ],
     "primary": "い(う)",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "話": {
@@ -985,7 +985,7 @@
       "か(う)"
     ],
     "primary": "か(う)",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "足": {
@@ -996,7 +996,7 @@
       "あし"
     ],
     "primary": "あし",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "車": {
@@ -1015,7 +1015,7 @@
     ],
     "kun": [],
     "primary": "シュウ",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "道": {
@@ -1026,7 +1026,7 @@
       "みち"
     ],
     "primary": "みち",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "金": {
@@ -1100,7 +1100,7 @@
       "の(む)"
     ],
     "primary": "の(む)",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "kun"
   },
   "駅": {
@@ -1109,7 +1109,7 @@
     ],
     "kun": [],
     "primary": "エキ",
-    "tier": "core_n4",
+    "tier": "n5_prerequisite",
     "primary_kind": "on"
   },
   "高": {

@@ -151,7 +151,16 @@ BUILD_OWNED = {"glyph", "on", "kun", "primary_reading", "primary_kind", "meaning
                "secondary_readings", "tier"}
 # n4_kanji_readings.json additionally covers 82 n5_prerequisite glyphs the N4-only KB does not
 # document. Those are preserved untouched; only the documented glyphs are refreshed.
-READ_OWNED = {"on", "kun", "primary", "primary_kind", "tier", "secondary_readings"}
+# `tier` is deliberately NOT owned here. The two files use the name for different questions, the
+# same way they do for `primary`. In data/kanji.json `tier` says which lesson tier the CARD belongs
+# to, and all 170 cards are core_n4. In n4_kanji_readings.json it says whether the GLYPH is an N5
+# prerequisite, and 24 of those 170 cards teach a glyph the learner already met at N5 (会 力 口 古
+# 員 安 店 手 新 曜 田 目 社 私 空 立 花 言 買 足 週 道 飲 駅). That set is load-bearing:
+# practice_validate.py and build_language_review_xlsx.py QA #25 both define the always-allowed
+# background pool as exactly `tier == n5_prerequisite`, so overwriting it with the card tier makes
+# ordinary N5 kanji read as out-of-scope in early worlds. Letting the builder own this field flipped
+# all 24 and failed World 1 on 会 / 空 / 立. Do not add it back.
+READ_OWNED = {"on", "kun", "primary", "primary_kind", "secondary_readings"}
 
 
 def furigana_primary(glyph: str, catalogue_primary: str) -> str:
@@ -178,8 +187,6 @@ def reading_fields(e: dict) -> dict:
     out = {"on": list(e["on"]), "kun": list(e["kun"]),
            "primary": furigana_primary(e["glyph"], e["primary_reading"]),
            "primary_kind": e["primary_kind"]}
-    if e["tier"]:
-        out["tier"] = e["tier"]
     if e["secondary_on"] or e["secondary_kun"]:
         out["secondary_readings"] = {"on": list(e["secondary_on"]),
                                      "kun": list(e["secondary_kun"])}
