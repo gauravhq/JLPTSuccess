@@ -19,7 +19,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/logo/mark.svg">
   <link rel="apple-touch-icon" href="assets/logo/icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <a href="#app" class="skip-link">Skip to main content</a>
@@ -49,7 +49,7 @@
     <!-- Fullscreen toggle — parity with N5 sub-app header (2026-05-14).
          Same icon shape (lucide-style maximize, 4 corner brackets) so the
          landing page and N5 share visual vocabulary. The JS handler lives
-         in js/landing.js (loaded at body end) — CSP allows script-src
+         in assets/js/landing.js (loaded at body end) — CSP allows script-src
          'self' but not inline, so no inline onclick. -->
     <nav class="header-actions" aria-label="Header actions">
       <button type="button" id="fullscreen-toggle" class="icon-btn" aria-label="Toggle fullscreen" title="Toggle fullscreen">
@@ -132,6 +132,6 @@
   </footer>
   <!-- Landing-page-only JS: fullscreen toggle. CSP allows script-src 'self'
        (no inline). Cache-busted via ?v=. -->
-  <script src="js/landing.js?v=1"></script>
+  <script src="assets/js/landing.js?v=1"></script>
 </body>
 </html>

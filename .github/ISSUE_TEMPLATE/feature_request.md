@@ -53,6 +53,6 @@ If your idea hits one of the above, it's likely a hard "no" - but feel free to f
 ---
 
 <sub>Before submitting:</sub>
-<sub>- [ ] I read the [Code of Conduct](../../blob/master/CODE_OF_CONDUCT.md) and agree.</sub>
+<sub>- [ ] I read the [Code of Conduct](../../blob/master/docs/CODE_OF_CONDUCT.md) and agree.</sub>
 <sub>- [ ] I checked that this isn't already in [open feature requests](../../issues?q=is%3Aissue+label%3Aenhancement).</sub>
 <sub>- [ ] I confirm this isn't an out-of-scope item per the list above (or I've justified the exception).</sub>

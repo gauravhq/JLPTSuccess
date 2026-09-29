@@ -3,7 +3,7 @@
 // fullscreen toggle currently. Mirrors initFullscreenToggle() in
 // N5/js/app.js so the two surfaces behave identically.
 //
-// Loaded via <script src="js/landing.js?v=N"> at body-end (CSP allows
+// Loaded via <script src="assets/js/landing.js?v=N"> at body-end (CSP allows
 // script-src 'self' but not inline scripts).
 
 (function () {

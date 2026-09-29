@@ -64,5 +64,5 @@ assignees: []
 ---
 
 <sub>Before submitting:</sub>
-<sub>- [ ] I read the [Code of Conduct](../../blob/master/CODE_OF_CONDUCT.md) and agree.</sub>
+<sub>- [ ] I read the [Code of Conduct](../../blob/master/docs/CODE_OF_CONDUCT.md) and agree.</sub>
 <sub>- [ ] I checked that this exact item isn't already reported in [open content issues](../../issues?q=is%3Aissue+label%3Acontent).</sub>

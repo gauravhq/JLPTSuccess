@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Read the Code of Conduct
-    url: https://github.com/gauravaccentureproducts/JLPTSuccess/blob/master/CODE_OF_CONDUCT.md
+    url: https://github.com/gauravaccentureproducts/JLPTSuccess/blob/master/docs/CODE_OF_CONDUCT.md
     about: Before opening an issue, please review the project's Code of Conduct.
   - name: Privacy and data handling
     url: https://github.com/gauravaccentureproducts/JLPTSuccess/blob/master/PRIVACY.md

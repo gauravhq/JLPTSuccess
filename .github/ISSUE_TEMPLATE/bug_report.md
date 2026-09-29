@@ -49,6 +49,6 @@ assignees: []
 ---
 
 <sub>Before submitting, please confirm:</sub>
-<sub>- [ ] I read the [Code of Conduct](../../blob/master/CODE_OF_CONDUCT.md) and agree.</sub>
+<sub>- [ ] I read the [Code of Conduct](../../blob/master/docs/CODE_OF_CONDUCT.md) and agree.</sub>
 <sub>- [ ] I checked that this isn't already reported in [open issues](../../issues).</sub>
 <sub>- [ ] I tried hard-refreshing (Ctrl+Shift+R) and the bug still reproduces.</sub>

@@ -71,7 +71,7 @@
 
 ## Self-review checklist
 
-- [ ] Read the [Code of Conduct](../CODE_OF_CONDUCT.md) and agree
+- [ ] Read the [Code of Conduct](../docs/CODE_OF_CONDUCT.md) and agree
 - [ ] Followed existing code conventions in this repo (vanilla ES modules, no frameworks; CSS variables for theming)
 - [ ] Comments added for non-obvious logic (the "why", not the "what")
 - [ ] No commented-out code blocks left in the diff
