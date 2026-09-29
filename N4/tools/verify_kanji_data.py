@@ -6,7 +6,10 @@ Replaces the throwaway one-off audit scripts. Every check states its SCOPE and p
 "0 findings" result cannot come from a check that silently skipped the broken cases (the failure
 mode that let 写す/集まる slip: an earlier check only looked at form==glyph).
 
-Primary sources (auto-cached under ../Workbook/_refcache, auto-downloaded if missing):
+Primary sources (auto-cached under ../Workbook/N4_Kanji_Workbook/_refcache, auto-downloaded if
+missing). That folder is the ONE cache every kanji gate reads, so all gates judge against the same
+JMdict/KANJIDIC2 snapshot; pointing this script elsewhere silently re-downloads a newer archive and
+splits the gates across two dictionary versions:
   * KANJIDIC2  (edrdg.org)  -- reading existence + partner-kanji readings for decomposition
   * JMdict_e   (edrdg.org)  -- example-gloss grounding
 
@@ -33,13 +36,24 @@ import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
-CACHE = os.path.normpath(os.path.join(HERE, "..", "Workbook", "_refcache"))
+CACHE = os.path.normpath(os.path.join(HERE, "..", "Workbook", "N4_Kanji_Workbook", "_refcache"))
 XLSX = os.path.normpath(os.path.join(HERE, "..", "Workbook", "N4_Kanji_Workbook",
                                      "N4_Kanji_Card_Prompts_20260702_143703.xlsx"))
 KD2 = os.path.join(CACHE, "kanjidic2.xml.gz")
 JMD = os.path.join(CACHE, "_jmdict_e.gz")
 URLS = {KD2: "http://www.edrdg.org/kanjidic/kanjidic2.xml.gz",
         JMD: "http://ftp.edrdg.org/pub/Nihongo/JMdict_e.gz"}
+
+# Check-7 exceptions: example glosses a human reviewer examined and PASSED (2026-09-20), so the
+# advisory WARN is CLOSED for them. Entries are the exact "form=gloss" string the check builds, so
+# editing either side re-opens the warning. Do NOT add an entry here to silence a gloss you have not
+# had reviewed: the check exists to surface exactly that case.
+WARN7_REVIEWED = {
+    "自由=free; unrestricted",
+    "不便=inconvenient",
+    "以外=with the exception of; excepting",
+    "安心=relieved; at ease",
+}
 
 def ensure(path):
     if os.path.exists(path):
@@ -146,17 +160,17 @@ def run():
     kd = load_kanjidic() if have_kd else {}
 
     # ---- 1 cross-file sync ----
-    xl = {}  # glyph -> {"on","kun","type","scene"} from the Excel Card Render Prompts sheet
+    xl = {}  # glyph -> {"on","kun","type","conf_level"} from the Excel Card Render Prompts sheet
     try:
         import openpyxl
         if os.path.exists(XLSX):
             ws = openpyxl.load_workbook(XLSX, read_only=True)["Card Render Prompts"]
             for row in ws.iter_rows(min_row=2, values_only=True):
-                if row[1]:  # cols: 4 Type,11 Scene,15 On,16 Kun,19 ConfLevel,22 sound_tag_mode
-                    xl[row[1]] = {"on": row[14], "kun": row[15],
-                                  "type": row[3] or "", "scene": row[10] or "",
-                                  "conf_level": (row[18] or "") if len(row) > 18 else "",
-                                  "sound_tag_mode": (row[21] or "") if len(row) > 21 else ""}
+                # 1-idx cols after 2026-07-21 image-col removal: 2 Kanji, 4 Type, 9 On, 10 Kun, 13 ConfLevel
+                if row[1]:
+                    xl[row[1]] = {"on": row[8], "kun": row[9],
+                                  "type": row[3] or "",
+                                  "conf_level": (row[12] or "") if len(row) > 12 else ""}
     except Exception as e:
         results.append(("WARN", "1-sync", "Excel not read (%s)" % e))
     def nrm(v):
@@ -251,9 +265,14 @@ def run():
                     "cards with dup first-word gloss: %s" % dups if dups else "none"))
 
     # ---- 5 example count ----
-    bad_n = [(e["glyph"], len(e["examples"])) for e in entries if not 3 <= len(e["examples"]) <= 4]
+    # Normal range 3-4. Documented exception: 死 is allowed 2 -- every common 死 compound beyond
+    # 死ぬ/必死 is somber/administrative (死亡) or advanced (死角/瀕死), so padding to 3 would violate
+    # the age-appropriate, no-obscure-filler rule (reviewer-endorsed, 2026-07-20).
+    MIN2_OK = {"死"}
+    bad_n = [(e["glyph"], len(e["examples"])) for e in entries
+             if not ((2 if e["glyph"] in MIN2_OK else 3) <= len(e["examples"]) <= 4)]
     results.append(("FAIL" if bad_n else "PASS", "5-example-count",
-                    "off-range: %s" % bad_n if bad_n else "all cards 3-4 examples"))
+                    "off-range: %s" % bad_n if bad_n else "all cards 3-4 examples (死: 2, documented)"))
 
     # ---- 6 gloss content ----
     DARK = ["traffick", "narcotic", " drug", "weapon", "firearm", "prostitut", "sexual",
@@ -297,10 +316,23 @@ def run():
                 jt = set().union(*[toks(j) for j in jm]) if jm else set()
                 if gt and not (gt & jt):
                     ungrounded.append("%s=%s" % (x["form"], x["gloss"]))
-        results.append(("WARN" if ungrounded else "PASS", "7-gloss-grounding-JMdict",
-                        "%d gloss(es) share no word with any JMdict sense (review): %s"
-                        % (len(ungrounded), ungrounded[:15]) if ungrounded
-                        else "every example gloss shares vocabulary with a JMdict sense for that word"))
+        # Check 7 is a lexical-OVERLAP heuristic, not an accuracy verdict: an accurate paraphrase can
+        # legitimately share no word with any JMdict sense. These four were reviewed item-by-item and
+        # PASSED on 2026-09-20 (warning CLOSED, no content change), so they report as reviewed-accepted
+        # instead of re-warning every run. Keyed on the EXACT "form=gloss" string: if either side is
+        # ever edited the acceptance lapses and the item warns again, which is the point. Any NEW
+        # ungrounded gloss still raises WARN.
+        reviewed = [u for u in ungrounded if u in WARN7_REVIEWED]
+        open_ = [u for u in ungrounded if u not in WARN7_REVIEWED]
+        stale = sorted(set(WARN7_REVIEWED) - set(ungrounded))
+        note = "" if not stale else (" | %d accepted entr(y/ies) no longer fire (gloss changed or "
+                                     "now grounded); drop from WARN7_REVIEWED: %s" % (len(stale), stale))
+        results.append(("WARN" if open_ else "PASS", "7-gloss-grounding-JMdict",
+                        ("%d gloss(es) share no word with any JMdict sense (review): %s%s"
+                         % (len(open_), open_[:15], note)) if open_
+                        else ("every example gloss shares vocabulary with a JMdict sense, or is "
+                              "reviewer-accepted (%d accepted 2026-09-20: %s)%s"
+                              % (len(reviewed), reviewed, note))))
     else:
         results.append(("WARN", "7-gloss-grounding-JMdict", "JMdict unavailable; skipped"))
 
@@ -346,39 +378,16 @@ def run():
     else:
         results.append(("WARN", "9-stroke-count-vs-KANJIDIC2", "KANJIDIC2 unavailable; skipped"))
 
-    # ---- 10 ♪ sound-tag coverage (KI-01 spec + KI-13 render hook) ----
-    # SPEC (checkable now): every 形声 card's Scene cell must carry the ♪ sound-tag/footnote.
-    # RENDER (KI-13): once card HTML is built, the same ♪ must appear in the rendered output.
+    # ---- 10 ♪ sound-tag coverage: RETIRED 2026-07-21 ----
+    # The illustrated scene-card design was retired for a TEXT-ONLY workbook (KI-13, 2026-07-20);
+    # on 2026-07-21 its Excel render columns (Scene & render, sound_tag_mode, Bubble, Emotion, ...)
+    # were removed outright. No render metadata remains to verify, so this slot is now a no-op WARN
+    # that records why. The keisei count (Type starts with 形声) is reported for information only.
     if xl:
-        # keisei = the Type STARTS WITH 形声. A 会意-shinjitai card whose Type merely mentions
-        # its traditional form's 形声 nature (e.g. 体 "会意 ... trad. 體 = 形声", 医 "会意 ... 醫
-        # also read 形声") must NOT be counted as keisei -- it has no phonetic in its taught form,
-        # so it is not required to carry a ♪ tag. (recheck-4 fix, 2026-07-20)
         keisei = [e["glyph"] for e in entries if xl.get(e["glyph"], {}).get("type", "").startswith("形声")]
-        # a standard 形声 card must show the ♪ in its Scene; exception modes (footnote-only /
-        # traditional-form / integrated) are approved to omit the separable tag (item 16).
-        spec_missing = [g for g in keisei if "♪" not in xl.get(g, {}).get("scene", "")
-                        and (xl.get(g, {}).get("sound_tag_mode", "standard") or "standard") == "standard"]
-        # RENDER (KI-13): scan the built KANJI-workbook HTML only (not the sibling vocab/grammar
-        # books). Each 形声 card must emit >=1 ♪, so a current build must carry >= len(keisei).
-        import glob as _glob
-        htmls = _glob.glob(os.path.join(os.path.dirname(DATA), "Workbook",
-                                        "N4_Kanji_Workbook", "*kanji*.html"))
-        render_fail = False
-        if htmls:
-            built = max(htmls, key=os.path.getmtime)
-            n = open(built, encoding="utf-8", errors="ignore").read().count("♪")
-            if n < len(keisei):
-                render_fail = True
-                render_note = " | built HTML %s carries only %d ♪ (< %d 形声 cards)" % (
-                    os.path.basename(built), n, len(keisei))
-            else:
-                render_note = " | built HTML carries %d ♪ (>= %d 形声 cards)" % (n, len(keisei))
-        else:
-            render_note = " | no built kanji card HTML yet (rendered ♪-presence = KI-13, render-stage)"
-        results.append(("FAIL" if (spec_missing or render_fail) else "PASS", "10-sound-tag-coverage",
-                        "%d 形声 cards; Scene-cell ♪ missing: %s%s"
-                        % (len(keisei), spec_missing if spec_missing else "none", render_note)))
+        results.append(("WARN", "10-sound-tag-coverage",
+                        "retired: Scene/sound_tag_mode columns removed with the illustrated design; "
+                        "%d keisei cards (text-only book has no ♪ render)" % len(keisei)))
     else:
         results.append(("WARN", "10-sound-tag-coverage", "Excel not read; skipped"))
 
