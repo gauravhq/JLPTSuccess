@@ -1,0 +1,460 @@
+{
+ "world": 11,
+ "world_title": "Lantern Pass",
+ "world_kanji": "習洋旅服夕借肉貸堂鳥飯勉",
+ "review": [
+  {
+   "id": "W11-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "洋",
+    "服"
+   ],
+   "target_word": "洋服",
+   "reading": "ようふく",
+   "meaning": "(Western-style) clothes",
+   "sentence": "デパートで あたらしい 洋服を 買いました。",
+   "underline": "洋服",
+   "options": [
+    "ようぶく",
+    "よふく",
+    "ようふうく",
+    "ようふく"
+   ],
+   "correct": 4,
+   "explanation": "「洋服」は「ようふく」と読みます。",
+   "distractors": [
+    "voices ふ->ぶ",
+    "drops the long vowel よ",
+    "adds an extra う",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W11-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "旅"
+   ],
+   "target_word": "旅行",
+   "reading": "りょこう",
+   "meaning": "trip; travel",
+   "sentence": "らいげつ ともだちと 旅行に 行きます。",
+   "underline": "旅行",
+   "options": [
+    "りょこ",
+    "りょこう",
+    "たびこう",
+    "りょぎょう"
+   ],
+   "correct": 2,
+   "explanation": "「旅行」は「りょこう」と読みます。",
+   "distractors": [
+    "drops the long vowel こ",
+    "CORRECT",
+    "kun たび for 旅",
+    "wrong on ぎょう for 行"
+   ]
+  },
+  {
+   "id": "W11-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "勉"
+   ],
+   "target_word": "勉強",
+   "reading": "べんきょう",
+   "meaning": "study",
+   "sentence": "しけんの まえに たくさん 勉強しました。",
+   "underline": "勉強",
+   "options": [
+    "べんきょ",
+    "へんきょう",
+    "べんきょう",
+    "べんぎょう"
+   ],
+   "correct": 3,
+   "explanation": "「勉強」は「べんきょう」と読みます。",
+   "distractors": [
+    "drops the long vowel きょ",
+    "unvoices べ->へ",
+    "CORRECT",
+    "voices きょう->ぎょう"
+   ]
+  },
+  {
+   "id": "W11-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "堂"
+   ],
+   "target_word": "食堂",
+   "reading": "しょくどう",
+   "meaning": "dining hall; cafeteria",
+   "sentence": "学校の 食堂で ひるごはんを 食べます。",
+   "underline": "食堂",
+   "options": [
+    "しょくどう",
+    "しょくどお",
+    "しょうどう",
+    "しょくとう"
+   ],
+   "correct": 1,
+   "explanation": "「食堂」は「しょくどう」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "wrong long vowel どお",
+    "adds long vowel しょう",
+    "unvoices ど->と"
+   ]
+  },
+  {
+   "id": "W11-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "借"
+   ],
+   "target_word": "借りました",
+   "reading": "かりました",
+   "meaning": "borrowed",
+   "sentence": "としょかんで、よみたい 本を 借りました。",
+   "underline": "借りました",
+   "options": [
+    "かえりました",
+    "かかりました",
+    "かしました",
+    "かりました"
+   ],
+   "correct": 4,
+   "explanation": "「借りました」は「かりました」と読みます。",
+   "distractors": [
+    "reads 帰りました (a different verb)",
+    "extra mora",
+    "reads 貸しました (to lend, opposite)",
+    "CORRECT: 借りました = borrowed"
+   ]
+  },
+  {
+   "id": "W11-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "習"
+   ],
+   "target_word": "ならう",
+   "reading": "ならう",
+   "meaning": "to learn",
+   "sentence": "わたしは ピアノを ならう ことに しました。",
+   "underline": "ならう",
+   "options": [
+    "買う",
+    "思う",
+    "習う",
+    "使う"
+   ],
+   "correct": 3,
+   "explanation": "「ならう」は「習う」と書きます。",
+   "distractors": [
+    "買う = かう, 'buy'",
+    "思う = おもう, 'think'",
+    "CORRECT: 習う = learn",
+    "使う = つかう, 'use'"
+   ]
+  },
+  {
+   "id": "W11-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "貸"
+   ],
+   "target_word": "かす",
+   "reading": "かす",
+   "meaning": "to lend",
+   "sentence": "友だちに かさを かす ことが あります。",
+   "underline": "かす",
+   "options": [
+    "話す",
+    "貸す",
+    "出す",
+    "写す"
+   ],
+   "correct": 2,
+   "explanation": "「かす」は「貸す」と書きます。",
+   "distractors": [
+    "話す = はなす, 'speak'",
+    "CORRECT: 貸す = lend",
+    "出す = だす, 'put out'",
+    "写す = うつす, 'copy'"
+   ]
+  },
+  {
+   "id": "W11-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "肉"
+   ],
+   "target_word": "にく",
+   "reading": "にく",
+   "meaning": "meat",
+   "sentence": "ばんごはんに、やさいと にくを たくさん 食べました。",
+   "underline": "にく",
+   "options": [
+    "肉",
+    "鳥",
+    "花",
+    "車"
+   ],
+   "correct": 1,
+   "explanation": "「にく」は「肉」と書きます。",
+   "distractors": [
+    "CORRECT: 肉 = meat",
+    "鳥 = とり, 'bird'",
+    "花 = はな, 'flower'",
+    "車 = くるま, 'car'"
+   ]
+  },
+  {
+   "id": "W11-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "鳥"
+   ],
+   "target_word": "ことり",
+   "reading": "ことり",
+   "meaning": "a small bird",
+   "sentence": "にわの 木に かわいい ことりが います。",
+   "underline": "ことり",
+   "options": [
+    "野鳥",
+    "白鳥",
+    "小鳥",
+    "小屋"
+   ],
+   "correct": 3,
+   "explanation": "「ことり」は「小鳥」と書きます。",
+   "distractors": [
+    "野鳥 = やちょう, 'wild bird'",
+    "白鳥 = はくちょう, 'swan'",
+    "CORRECT: 小鳥 = small bird",
+    "小屋 = こや, 'hut'"
+   ]
+  },
+  {
+   "id": "W11-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "夕"
+   ],
+   "target_word": "夕方",
+   "reading": "ゆうがた",
+   "meaning": "early evening; dusk",
+   "sentence": "（　　）に なると、日が しずんで、そらが 赤く なります。",
+   "underline": "（　　）",
+   "options": [
+    "朝",
+    "夕方",
+    "春",
+    "秋"
+   ],
+   "correct": 2,
+   "explanation": "When the sun sets and the sky reddens it is 夕方 (dusk); in the morning the sun rises, and spring/autumn are seasons, not times of day.",
+   "distractors": [
+    "morning (the sun rises, not sets)",
+    "CORRECT: at dusk",
+    "spring (no)",
+    "autumn (no)"
+   ]
+  },
+  {
+   "id": "W11-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "飯"
+   ],
+   "target_word": "ご飯",
+   "reading": "ごはん",
+   "meaning": "cooked rice; a meal",
+   "sentence": "おなかが すいたので、たきたての（　　）と みそしるが 食べたいです。",
+   "underline": "（　　）",
+   "options": [
+    "アイス",
+    "サラダ",
+    "くだもの",
+    "ご飯"
+   ],
+   "correct": 4,
+   "explanation": "たきたて (freshly cooked) applies only to ご飯 (rice); ice cream, salad and fruit are not cooked (たく).",
+   "distractors": [
+    "ice cream (not cooked)",
+    "salad (not cooked)",
+    "fruit (not cooked)",
+    "CORRECT: ご飯 = freshly-cooked rice"
+   ],
+   "review_status": "recheck-passed",
+   "review_flag": "TC-C01/TC-C03: warm salad/fruit were still rescuable",
+   "review_fix": "added 'たきたて' (freshly-cooked), which only ご飯 (rice) can take",
+   "recheck": "PASS",
+   "confidence": "high"
+  },
+  {
+   "id": "W11-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "旅"
+   ],
+   "target_word": "旅館",
+   "reading": "りょかん",
+   "meaning": "a traditional inn",
+   "sentence": "おんせんの ある（　　）に 一ぱく しました。",
+   "underline": "（　　）",
+   "options": [
+    "旅館",
+    "学校",
+    "病院",
+    "銀行"
+   ],
+   "correct": 1,
+   "explanation": "You stay overnight at a hot-spring 旅館 (inn); a school, a hospital, or a bank are not places you stay the night.",
+   "distractors": [
+    "CORRECT: stayed at an inn",
+    "school (no)",
+    "hospital (no)",
+    "bank (no)"
+   ]
+  },
+  {
+   "id": "W11-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "借"
+   ],
+   "target_word": "借りました",
+   "reading": "かりました",
+   "meaning": "borrowed",
+   "sentence": "としょかんで 本を 三さつ 借りました。",
+   "underline": "借りました",
+   "options": [
+    "としょかんで 本を 三さつ 買いました。",
+    "としょかんで 本を 三さつ かえしました。",
+    "としょかんで 本を 三さつ かして もらいました。",
+    "としょかんで 本を 三さつ うりました。"
+   ],
+   "correct": 3,
+   "explanation": "借りる (to borrow) means someone かして くれる (lends) to you.",
+   "distractors": [
+    "bought (no)",
+    "returned (opposite)",
+    "CORRECT: had them lent to me = 借りる",
+    "sold (no)"
+   ]
+  },
+  {
+   "id": "W11-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "貸"
+   ],
+   "target_word": "貸しました",
+   "reading": "かしました",
+   "meaning": "to lend",
+   "sentence": "ペンを わすれた 友だちに、わたしの ペンを 貸しました。",
+   "underline": "貸しました",
+   "options": [
+    "かりました",
+    "かしめました",
+    "たいしました",
+    "かしました"
+   ],
+   "correct": 4,
+   "explanation": "「貸しました」は「かしました」と読みます。",
+   "distractors": [
+    "reads 借りました (borrowed), the opposite verb",
+    "extra め",
+    "on-reading たい",
+    "CORRECT: かしました = lent"
+   ]
+  },
+  {
+   "id": "W11-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "習"
+   ],
+   "target_word": "習って",
+   "reading": "ならって",
+   "meaning": "to learn (from a teacher)",
+   "sentence": "土よう日に せんせいに ピアノを 習って います。",
+   "underline": "習って",
+   "options": [
+    "ならって",
+    "しゅうって",
+    "なろって",
+    "ならて"
+   ],
+   "correct": 1,
+   "explanation": "「習って」は「ならって」と読みます。",
+   "distractors": [
+    "CORRECT: ならって = learn (from a teacher)",
+    "on-reading しゅう",
+    "wrong vowel ろ",
+    "missing っ"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "よぞらに つきが でて います。",
+   "underline": "つき",
+   "options": [
+    "ほし",
+    "つき",
+    "くも",
+    "ひ"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "あたらしい ようふくを きます。",
+   "underline": "きます",
+   "options": [
+    "着ます",
+    "来ます",
+    "見ます",
+    "切ります"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "ぎんこうで お金を（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "かります",
+    "たべます",
+    "はしります",
+    "うたいます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この へやは とても きたないです。",
+   "underline": "きたない",
+   "options": [
+    "この へやは とても きれいです。",
+    "この へやは そうじが して ありません。",
+    "この へやは とても ひろいです。",
+    "この へやは とても あかるいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "かえす",
+   "underline": "かえす",
+   "options": [
+    "かりた 本を としょかんに かえします。",
+    "がっこうまで あるいて かえします。",
+    "あさ はやく かえします。",
+    "ごはんを たくさん かえします。"
+   ],
+   "correct": 1
+  }
+ }
+}

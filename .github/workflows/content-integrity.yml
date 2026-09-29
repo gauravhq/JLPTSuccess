@@ -87,3 +87,64 @@ jobs:
         run: python tools/check_design_system.py -v
         env:
           PYTHONIOENCODING: utf-8
+
+  # ---------------------------------------------------------------------------
+  # N4. Added 2026-09-30. Until now NOTHING under /N4/ ran in CI: the job above
+  # is N5-only (note its working-directory), so N4's own 43 invariants and the
+  # practice-bank validator were local-only gates.
+  #
+  # That gap had already cost something. On 2026-09-29 a data/ change flipped 24
+  # glyphs out of the n5_prerequisite set in N4/data/n4_kanji_readings.json,
+  # which made ordinary N5 kanji read as out-of-scope and failed 5 practice
+  # items. Every one of the 43 repo invariants stayed green, because
+  # practice_validate.py is the only gate that reads that set and it lived in a
+  # gitignored folder. The validator and its 15 banks are now committed (~205 KB;
+  # see the exception block in .gitignore) so this job can run them.
+  #
+  # Both scripts are stdlib-only, so this job needs no pip install. `_refcache/`
+  # stays out of the repo: practice_validate.py falls back to the bundled 11 KB
+  # _jmdict_index.json, verified to give the same verdict on all 15 banks and to
+  # still catch a planted non-word option.
+  #
+  # Manual run:
+  #   cd N4 && python tools/check_content_integrity.py -v
+  #   cd N4/Workbook/N4_Kanji_Workbook && for b in w*_bank.json; do python practice_validate.py "$b"; done
+  n4-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run N4 content integrity invariants (43 as of 2026-09-30)
+        working-directory: N4
+        run: python tools/check_content_integrity.py -v
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Validate all 15 practice banks (Worlds 1-14 + mock)
+        working-directory: N4/Workbook/N4_Kanji_Workbook
+        # Each bank is validated separately because the allowed kanji pool is
+        # cumulative per world; one bad bank must fail the job, so the loop
+        # records the failure and keeps going to report every affected world
+        # rather than stopping at the first.
+        run: |
+          shopt -s nullglob
+          banks=(w*_bank.json)
+          if [ ${#banks[@]} -ne 15 ]; then
+            echo "expected 15 practice banks, found ${#banks[@]}: ${banks[*]}"
+            exit 1
+          fi
+          fail=0
+          for b in "${banks[@]}"; do
+            echo "::group::$b"
+            python practice_validate.py "$b" || fail=1
+            echo "::endgroup::"
+          done
+          exit $fail
+        env:
+          PYTHONIOENCODING: utf-8

@@ -1,0 +1,457 @@
+{
+ "world": 3,
+ "world_title": "River Crossing",
+ "world_kanji": "度強公持野以思家世多正院",
+ "review": [
+  {
+   "id": "W03-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "度"
+   ],
+   "target_word": "一度",
+   "reading": "いちど",
+   "meaning": "once; one time",
+   "sentence": "もう 一度 言って ください。",
+   "underline": "一度",
+   "options": [
+    "いちど",
+    "いちどう",
+    "いっと",
+    "いちと"
+   ],
+   "correct": 1,
+   "explanation": "「一度」は「いちど」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "adds a long vowel (ど->どう)",
+    "wrong sokuon いっと",
+    "unvoices ど->と"
+   ]
+  },
+  {
+   "id": "W03-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "家"
+   ],
+   "target_word": "家事",
+   "reading": "かじ",
+   "meaning": "housework",
+   "sentence": "母は まいにち 家事で いそがしいです。",
+   "underline": "家事",
+   "options": [
+    "いえじ",
+    "けじ",
+    "かじ",
+    "やじ"
+   ],
+   "correct": 3,
+   "explanation": "「家事」は「かじ」と読みます。",
+   "distractors": [
+    "kun いえ, not the on か",
+    "wrong on け",
+    "CORRECT",
+    "wrong reading や"
+   ]
+  },
+  {
+   "id": "W03-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "野"
+   ],
+   "target_word": "分野",
+   "reading": "ぶんや",
+   "meaning": "field; area",
+   "sentence": "すきな 分野の 本を たくさん よみます。",
+   "underline": "分野",
+   "options": [
+    "ぶんの",
+    "ぶんや",
+    "ぶや",
+    "ふんや"
+   ],
+   "correct": 2,
+   "explanation": "「分野」は「ぶんや」と読みます。",
+   "distractors": [
+    "kun の, not the on や",
+    "CORRECT",
+    "drops ん",
+    "unvoices ぶ->ふ"
+   ]
+  },
+  {
+   "id": "W03-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "正"
+   ],
+   "target_word": "正月",
+   "reading": "しょうがつ",
+   "meaning": "New Year",
+   "sentence": "正月に かぞくで あつまります。",
+   "underline": "正月",
+   "options": [
+    "せいがつ",
+    "しょがつ",
+    "まさつき",
+    "しょうがつ"
+   ],
+   "correct": 4,
+   "explanation": "「正月」は「しょうがつ」と読みます。",
+   "distractors": [
+    "wrong on せい",
+    "drops the long vowel しょ",
+    "kun まさ + つき",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W03-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "院"
+   ],
+   "target_word": "入院",
+   "reading": "にゅういん",
+   "meaning": "being admitted to hospital",
+   "sentence": "そふが びょうきで 入院しました。",
+   "underline": "入院",
+   "options": [
+    "にゅうえん",
+    "にゅいん",
+    "にゅういん",
+    "じゅういん"
+   ],
+   "correct": 3,
+   "explanation": "「入院」は「にゅういん」と読みます。",
+   "distractors": [
+    "wrong えん for いん",
+    "drops the long vowel にゅ",
+    "CORRECT",
+    "wrong initial じゅ"
+   ]
+  },
+  {
+   "id": "W03-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "強"
+   ],
+   "target_word": "つよい",
+   "reading": "つよい",
+   "meaning": "strong",
+   "sentence": "きょうは かぜが とても つよいです。",
+   "underline": "つよい",
+   "options": [
+    "強い",
+    "新しい",
+    "古い",
+    "明るい"
+   ],
+   "correct": 1,
+   "explanation": "「つよい」は「強い」と書きます。",
+   "distractors": [
+    "CORRECT: 強い = strong",
+    "新しい = あたらしい, 'new'",
+    "古い = ふるい, 'old'",
+    "明るい = あかるい, 'bright'"
+   ]
+  },
+  {
+   "id": "W03-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "持"
+   ],
+   "target_word": "きもち",
+   "reading": "きもち",
+   "meaning": "feeling",
+   "sentence": "プレゼントを もらって、いい きもちに なりました。",
+   "underline": "きもち",
+   "options": [
+    "自分",
+    "金持ち",
+    "気分",
+    "気持ち"
+   ],
+   "correct": 4,
+   "explanation": "「きもち」は「気持ち」と書きます。",
+   "distractors": [
+    "自分 = じぶん, 'oneself'",
+    "金持ち = かねもち, 'rich person'",
+    "気分 = きぶん, 'mood'",
+    "CORRECT: 気持ち = feeling"
+   ]
+  },
+  {
+   "id": "W03-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "思"
+   ],
+   "target_word": "おもう",
+   "reading": "おもう",
+   "meaning": "to think",
+   "sentence": "あしたは 雨が ふると おもう ので、かさを もって いきます。",
+   "underline": "おもう",
+   "options": [
+    "買う",
+    "思う",
+    "言う",
+    "会う"
+   ],
+   "correct": 2,
+   "explanation": "「おもう」は「思う」と書きます。",
+   "distractors": [
+    "買う = かう, 'buy'",
+    "CORRECT: 思う = think",
+    "言う = いう, 'say'",
+    "会う = あう, 'meet'"
+   ]
+  },
+  {
+   "id": "W03-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "多"
+   ],
+   "target_word": "おおい",
+   "reading": "おおい",
+   "meaning": "many",
+   "sentence": "この こうえんは 木が おおいです。",
+   "underline": "おおい",
+   "options": [
+    "長い",
+    "高い",
+    "多い",
+    "強い"
+   ],
+   "correct": 3,
+   "explanation": "「おおい」は「多い」と書きます。",
+   "distractors": [
+    "長い = ながい, 'long'",
+    "高い = たかい, 'tall'",
+    "CORRECT: 多い = many",
+    "強い = つよい, 'strong'"
+   ]
+  },
+  {
+   "id": "W03-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "公"
+   ],
+   "target_word": "主人公",
+   "reading": "しゅじんこう",
+   "meaning": "main character; protagonist",
+   "sentence": "この えいがの（　　）は、話の ちゅうしんに なる わかい 女の人です。",
+   "underline": "（　　）",
+   "options": [
+    "かんとく",
+    "はいゆう",
+    "さくしゃ",
+    "主人公"
+   ],
+   "correct": 4,
+   "explanation": "The character the story centres on is the 主人公 (protagonist); a director, actor or author is not the character in the story.",
+   "distractors": [
+    "director",
+    "actor",
+    "author",
+    "CORRECT: 主人公 = the story's protagonist"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W03-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "以"
+   ],
+   "target_word": "以外",
+   "reading": "いがい",
+   "meaning": "except; other than",
+   "sentence": "土よう日と 日よう日（　　）は、学校が あります。",
+   "underline": "（　　）",
+   "options": [
+    "以外",
+    "以上",
+    "以下",
+    "一度"
+   ],
+   "correct": 1,
+   "explanation": "'Other than Saturday and Sunday there is school' takes 以外 (other than); 以上(more than)/以下(less than)/一度(once) do not fit.",
+   "distractors": [
+    "CORRECT: other than Sat and Sun",
+    "more than (no)",
+    "less than (no)",
+    "once (no)"
+   ]
+  },
+  {
+   "id": "W03-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "世"
+   ],
+   "target_word": "世話",
+   "reading": "せわ",
+   "meaning": "care; looking after",
+   "sentence": "まいにち いぬの（　　）を して います。",
+   "underline": "（　　）",
+   "options": [
+    "用事",
+    "世話",
+    "家事",
+    "意見"
+   ],
+   "correct": 2,
+   "explanation": "Looking after a dog is its 世話 (care); an errand, housework, or an opinion do not fit 'looking after a dog'.",
+   "distractors": [
+    "errand (no)",
+    "CORRECT: taking care of the dog",
+    "housework (no)",
+    "opinion (no)"
+   ]
+  },
+  {
+   "id": "W03-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "正"
+   ],
+   "target_word": "正しかった",
+   "reading": "ただしかった",
+   "meaning": "was correct",
+   "sentence": "テストの こたえは ぜんぶ 正しかったです。",
+   "underline": "正しかった",
+   "options": [
+    "テストの こたえは ぜんぶ まちがって いました。",
+    "テストの こたえは いくつか まちがって いました。",
+    "テストの こたえは まだ 書いて ありませんでした。",
+    "テストの こたえは ぜんぶ あって いました。"
+   ],
+   "correct": 4,
+   "explanation": "正しい means 'correct', which matches あって いる (to be right).",
+   "distractors": [
+    "all were wrong (opposite)",
+    "some were wrong (no)",
+    "not written yet (no)",
+    "CORRECT: all were right = 正しかった"
+   ],
+   "review_flag": "TC-G01/TC-G10/TC-P02/TC-NAT01/TC-NAT03/TC-JLPT04: むずかしかった／やさしかった do not naturally predicate テストのこたえ.",
+   "review_fix": "Replaced options 2 and 3 with natural statements about the answers; option 4 (ぜんぶあっていました) stays the sole paraphrase of 正しかった."
+  },
+  {
+   "id": "W03-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "強"
+   ],
+   "target_word": "強くて",
+   "reading": "つよくて",
+   "meaning": "strong",
+   "sentence": "きょうは かぜが 強くて、ぼうしが とびそうです。",
+   "underline": "強くて",
+   "options": [
+    "つおくて",
+    "つよくて",
+    "きょうくて",
+    "ずよくて"
+   ],
+   "correct": 2,
+   "explanation": "「強くて」は「つよくて」と読みます。",
+   "distractors": [
+    "wrong vowel お",
+    "CORRECT: つよくて = strong",
+    "on-reading きょう",
+    "wrong voicing ず"
+   ]
+  },
+  {
+   "id": "W03-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "思"
+   ],
+   "target_word": "思います",
+   "reading": "おもいます",
+   "meaning": "to think; to feel",
+   "sentence": "あしたは いい 天気に なると 思います。",
+   "underline": "思います",
+   "options": [
+    "おぼいます",
+    "しいます",
+    "おもいます",
+    "おもみます"
+   ],
+   "correct": 3,
+   "explanation": "「思います」は「おもいます」と読みます。",
+   "distractors": [
+    "wrong kana ぼ",
+    "on-reading し",
+    "CORRECT: おもいます = think",
+    "wrong kana み"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "あかい はなが さいて います。",
+   "underline": "はな",
+   "options": [
+    "やま",
+    "かわ",
+    "はな",
+    "うみ"
+   ],
+   "correct": 3
+  },
+  "M2": {
+   "sentence": "ひだりの てを あげて ください。",
+   "underline": "て",
+   "options": [
+    "手",
+    "足",
+    "目",
+    "口"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "あめが ふって いるので、かさを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "さします",
+    "たべます",
+    "ききます",
+    "はしります"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この かばんは とても 高いです。",
+   "underline": "高い",
+   "options": [
+    "この かばんは ねだんが ひくいです。",
+    "この かばんは ねだんが たかいです。",
+    "この かばんは とても かるいです。",
+    "この かばんは とても 大きいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "ならう",
+   "underline": "ならう",
+   "options": [
+    "がっこうで ピアノを ならって います。",
+    "へやを きれいに ならって ください。",
+    "あさ はやく ならって ください。",
+    "おなかが すいたので、ごはんを ならいます。"
+   ],
+   "correct": 1
+  }
+ }
+}

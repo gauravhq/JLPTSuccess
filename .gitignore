@@ -29,3 +29,25 @@ playwright-report/
 
 # Local Claude config (gitignored — per-machine secrets/preferences)
 .claude/settings.local.json
+
+# Local-only, NOT part of the website (added 2026-06-19 when the standalone JLPT/ workbook folder
+# was consolidated into this repo): the N4 print-workbook build pipeline + an archive of
+# superseded/backup files. Kept on disk but never committed to the website repo.
+#
+# EXCEPTION added 2026-09-30: the practice-bank validator and its inputs ARE committed, ~205 KB,
+# so CI can run them (see .github/workflows/content-integrity.yml, job n4-integrity). On
+# 2026-09-29 a data/ change flipped 24 glyphs out of the n5_prerequisite set and broke scope
+# validation on 5 items while all 43 repo invariants stayed green - practice_validate.py is the
+# only gate that reads that set, and being ignored meant CI could not see it. `_refcache/` stays
+# out: the script falls back to the bundled 11 KB _jmdict_index.json, which was verified to reach
+# the same verdict on all 15 banks and to still catch a planted non-word.
+#
+# Re-including a file inside an ignored directory needs the parent directories re-included first,
+# hence the walk rather than a bare `/N4/Workbook/`.
+/N4/Workbook/*
+!/N4/Workbook/N4_Kanji_Workbook/
+/N4/Workbook/N4_Kanji_Workbook/*
+!/N4/Workbook/N4_Kanji_Workbook/practice_validate.py
+!/N4/Workbook/N4_Kanji_Workbook/_jmdict_index.json
+!/N4/Workbook/N4_Kanji_Workbook/*_bank.json
+/Not required/

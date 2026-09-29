@@ -1,0 +1,460 @@
+{
+ "world": 8,
+ "world_title": "Castle Road",
+ "world_kanji": "試族銀早映親験英医仕去味",
+ "review": [
+  {
+   "id": "W08-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "試",
+    "験"
+   ],
+   "target_word": "試験",
+   "reading": "しけん",
+   "meaning": "examination; test",
+   "sentence": "らいしゅう 学校で 大切な 試験が あります。",
+   "underline": "試験",
+   "options": [
+    "しけん",
+    "しげん",
+    "じけん",
+    "ためけん"
+   ],
+   "correct": 1,
+   "explanation": "「試験」は「しけん」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices け->げ",
+    "voices し->じ",
+    "kun ため for 試"
+   ]
+  },
+  {
+   "id": "W08-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "銀"
+   ],
+   "target_word": "銀行",
+   "reading": "ぎんこう",
+   "meaning": "bank",
+   "sentence": "お金を 銀行に あずけます。",
+   "underline": "銀行",
+   "options": [
+    "ぎんぎょう",
+    "きんこう",
+    "ぎんい",
+    "ぎんこう"
+   ],
+   "correct": 4,
+   "explanation": "「銀行」は「ぎんこう」と読みます。",
+   "distractors": [
+    "wrong on ぎょう for 行",
+    "unvoices ぎ->き",
+    "wrong reading",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W08-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "英"
+   ],
+   "target_word": "英語",
+   "reading": "えいご",
+   "meaning": "English (language)",
+   "sentence": "わたしは 英語を べんきょうして います。",
+   "underline": "英語",
+   "options": [
+    "えいご",
+    "えいこ",
+    "えご",
+    "えいぎょ"
+   ],
+   "correct": 1,
+   "explanation": "「英語」は「えいご」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "unvoices ご->こ",
+    "drops the long vowel え",
+    "wrong reading ぎょ"
+   ]
+  },
+  {
+   "id": "W08-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "仕"
+   ],
+   "target_word": "仕事",
+   "reading": "しごと",
+   "meaning": "work; job",
+   "sentence": "父は まいにち おそくまで 仕事を します。",
+   "underline": "仕事",
+   "options": [
+    "しじ",
+    "じごと",
+    "しごと",
+    "しこと"
+   ],
+   "correct": 3,
+   "explanation": "「仕事」は「しごと」と読みます。",
+   "distractors": [
+    "wrong reading じ",
+    "voices し->じ",
+    "CORRECT",
+    "unvoices ご->こ"
+   ]
+  },
+  {
+   "id": "W08-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "去"
+   ],
+   "target_word": "去年",
+   "reading": "きょねん",
+   "meaning": "last year",
+   "sentence": "去年、かぞくで 海外へ 行きました。",
+   "underline": "去年",
+   "options": [
+    "こねん",
+    "きょねん",
+    "きょとし",
+    "さくねん"
+   ],
+   "correct": 2,
+   "explanation": "「去年」は「きょねん」と読みます。",
+   "distractors": [
+    "wrong on こ",
+    "CORRECT",
+    "kun とし for 年",
+    "wrong reading さく"
+   ]
+  },
+  {
+   "id": "W08-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "早"
+   ],
+   "target_word": "はやい",
+   "reading": "はやい",
+   "meaning": "early",
+   "sentence": "けさは いつもより はやい 時間に えきへ 行きました。",
+   "underline": "はやい",
+   "options": [
+    "早い",
+    "多い",
+    "高い",
+    "長い"
+   ],
+   "correct": 1,
+   "explanation": "「はやい」は「早い」と書きます。",
+   "distractors": [
+    "CORRECT: 早い = early",
+    "多い = おおい, 'many'",
+    "高い = たかい, 'tall'",
+    "長い = ながい, 'long'"
+   ]
+  },
+  {
+   "id": "W08-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "映"
+   ],
+   "target_word": "うつる",
+   "reading": "うつる",
+   "meaning": "to be reflected",
+   "sentence": "みずうみに 山が きれいに うつる ので、しゃしんを とりました。",
+   "underline": "うつる",
+   "options": [
+    "知る",
+    "売る",
+    "通る",
+    "映る"
+   ],
+   "correct": 4,
+   "explanation": "「うつる」は「映る」と書きます。",
+   "distractors": [
+    "知る = しる, 'know'",
+    "売る = うる, 'sell'",
+    "通る = とおる, 'pass through'",
+    "CORRECT: 映る = be reflected"
+   ]
+  },
+  {
+   "id": "W08-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "味"
+   ],
+   "target_word": "いみ",
+   "reading": "いみ",
+   "meaning": "meaning",
+   "sentence": "この ことばの いみが わかりません。",
+   "underline": "いみ",
+   "options": [
+    "意見",
+    "用意",
+    "意味",
+    "意外"
+   ],
+   "correct": 3,
+   "explanation": "「いみ」は「意味」と書きます。",
+   "distractors": [
+    "意見 = いけん, 'opinion'",
+    "用意 = ようい, 'preparation'",
+    "CORRECT: 意味 = meaning",
+    "意外 = いがい, 'unexpected'"
+   ]
+  },
+  {
+   "id": "W08-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "族"
+   ],
+   "target_word": "かぞく",
+   "reading": "かぞく",
+   "meaning": "family",
+   "sentence": "にちようびは かぞくで こうえんに 行きます。",
+   "underline": "かぞく",
+   "options": [
+    "家事",
+    "家族",
+    "国家",
+    "親族"
+   ],
+   "correct": 2,
+   "explanation": "「かぞく」は「家族」と書きます。",
+   "distractors": [
+    "家事 = かじ, 'housework'",
+    "CORRECT: 家族 = family",
+    "国家 = こっか, 'nation'",
+    "親族 = しんぞく, 'relatives'"
+   ]
+  },
+  {
+   "id": "W08-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "医"
+   ],
+   "target_word": "医者",
+   "reading": "いしゃ",
+   "meaning": "a doctor",
+   "sentence": "ねつが 下がらないので、（　　）に みて もらいました。",
+   "underline": "（　　）",
+   "options": [
+    "コック",
+    "店員",
+    "画家",
+    "医者"
+   ],
+   "correct": 4,
+   "explanation": "When a fever won't go down you see a 医者 (doctor); a cook, a clerk, or a painter do not examine a patient.",
+   "distractors": [
+    "cook (no)",
+    "clerk (no)",
+    "painter (no)",
+    "CORRECT: had a doctor examine me"
+   ]
+  },
+  {
+   "id": "W08-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "親"
+   ],
+   "target_word": "親切",
+   "reading": "しんせつ",
+   "meaning": "kind",
+   "grammar_note": "na-adjective",
+   "sentence": "あの 店の 人は だれにでも とても（　　）です。",
+   "underline": "（　　）",
+   "options": [
+    "親切",
+    "元気",
+    "有名",
+    "大切"
+   ],
+   "correct": 1,
+   "explanation": "Someone kind to everyone is 親切; lively, famous, or precious do not fit 'kind to everyone'.",
+   "distractors": [
+    "CORRECT: kind to everyone",
+    "lively (no)",
+    "famous (no)",
+    "precious (no)"
+   ]
+  },
+  {
+   "id": "W08-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "英"
+   ],
+   "target_word": "英会話",
+   "reading": "えいかいわ",
+   "meaning": "English conversation",
+   "sentence": "外国人と 話せるように なりたいので、まいしゅう（　　）を ならって います。",
+   "underline": "（　　）",
+   "options": [
+    "料理",
+    "運動",
+    "英会話",
+    "そうじ"
+   ],
+   "correct": 3,
+   "explanation": "Wanting to be able to speak with foreigners, you learn 英会話 (English conversation); cooking, exercise, or cleaning are not about speaking.",
+   "distractors": [
+    "cooking (no)",
+    "exercise (no)",
+    "CORRECT: English conversation",
+    "cleaning (no)"
+   ]
+  },
+  {
+   "id": "W08-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "去"
+   ],
+   "target_word": "去年",
+   "reading": "きょねん",
+   "meaning": "last year",
+   "sentence": "わたしは 去年 日本に 来ました。",
+   "underline": "去年",
+   "options": [
+    "わたしは 十年前に 日本に 来ました。",
+    "わたしは 前の 年に 日本に 来ました。",
+    "わたしは 先月 日本に 来ました。",
+    "わたしは 来年 日本に 来ます。"
+   ],
+   "correct": 2,
+   "explanation": "去年 = last year, i.e. the previous year (前の年); ten years ago, last month, or next year are different times.",
+   "distractors": [
+    "ten years ago (no)",
+    "CORRECT: the previous year = 去年",
+    "last month (no)",
+    "will come next year, not last year (no)"
+   ],
+   "review_flag": "TC-G13/TC-P04/TC-SA04/TC-NAT01/TC-JLPT04: future 来年 conflicted with past-tense 来ました.",
+   "review_fix": "Changed option 4 to わたしは 来年 日本に 来ます (natural future statement); correct answer stays option 2 (前の年)."
+  },
+  {
+   "id": "W08-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "味"
+   ],
+   "target_word": "味",
+   "reading": "あじ",
+   "meaning": "taste; flavor",
+   "sentence": "母が 作った スープは 味が とても いいです。",
+   "underline": "味",
+   "options": [
+    "あぢ",
+    "あし",
+    "わじ",
+    "あじ"
+   ],
+   "correct": 4,
+   "explanation": "「味」は「あじ」と読みます。",
+   "distractors": [
+    "wrong kana ぢ",
+    "wrong voicing し",
+    "wrong first kana わ",
+    "CORRECT: あじ = taste"
+   ]
+  },
+  {
+   "id": "W08-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "早"
+   ],
+   "target_word": "早く",
+   "reading": "はやく",
+   "meaning": "early",
+   "grammar_note": "",
+   "special": false,
+   "sentence": "けさは 早く おきて、こうえんへ さんぽに 行きました。",
+   "underline": "早く",
+   "options": [
+    "そうく",
+    "わやく",
+    "はやく",
+    "さやく"
+   ],
+   "correct": 3,
+   "explanation": "「早く」は「はやく」と読みます。",
+   "distractors": [
+    "on-reading そう (as in 早朝)",
+    "wrong first kana わ",
+    "CORRECT: はやく = early",
+    "wrong kana さ"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "にわに きれいな はなが さいて います。",
+   "underline": "はな",
+   "options": [
+    "き",
+    "はな",
+    "くさ",
+    "いし"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "あかるい へやで ほんを よみます。",
+   "underline": "よみます",
+   "options": [
+    "読みます",
+    "書きます",
+    "見ます",
+    "話します"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "ぎんこうで お金を（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "おろします",
+    "たべます",
+    "はしります",
+    "ねます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "きのうは とても いそがしかったです。",
+   "underline": "いそがしかった",
+   "options": [
+    "きのうは ひまでした。",
+    "きのうは やる ことが 多かったです。",
+    "きのうは たのしかったです。",
+    "きのうは しずかでした。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "ためす",
+   "underline": "ためす",
+   "options": [
+    "あたらしい くつを ためして みます。",
+    "へやを きれいに ためします。",
+    "あさ はやく ためします。",
+    "ごはんを たくさん ためします。"
+   ],
+   "correct": 1
+  }
+ }
+}

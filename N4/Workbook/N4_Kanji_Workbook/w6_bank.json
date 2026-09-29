@@ -1,0 +1,458 @@
+{
+ "world": 6,
+ "world_title": "Market Town",
+ "world_kanji": "台広住無真有少町料工建急",
+ "review": [
+  {
+   "id": "W06-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "有"
+   ],
+   "target_word": "有名",
+   "reading": "ゆうめい",
+   "meaning": "famous",
+   "grammar_note": "na-adjective",
+   "sentence": "きょうとの おてらは とても 有名です。",
+   "underline": "有名",
+   "options": [
+    "ゆめい",
+    "うめい",
+    "ゆうめい",
+    "ゆうみょう"
+   ],
+   "correct": 3,
+   "explanation": "「有名」は「ゆうめい」と読みます。",
+   "distractors": [
+    "drops the long vowel ゆ",
+    "wrong on う",
+    "CORRECT",
+    "wrong on みょう for 名"
+   ]
+  },
+  {
+   "id": "W06-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "料"
+   ],
+   "target_word": "料理",
+   "reading": "りょうり",
+   "meaning": "cooking; dish",
+   "sentence": "母は 日本料理を 作るのが とても 上手です。",
+   "underline": "料理",
+   "options": [
+    "りょり",
+    "りようり",
+    "りょうじ",
+    "りょうり"
+   ],
+   "correct": 4,
+   "explanation": "「料理」は「りょうり」と読みます。",
+   "distractors": [
+    "drops the long vowel りょ",
+    "adds よ",
+    "voices り->じ",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W06-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "急"
+   ],
+   "target_word": "急行",
+   "reading": "きゅうこう",
+   "meaning": "express (train)",
+   "sentence": "急行は つぎの えきに とまりません。",
+   "underline": "急行",
+   "options": [
+    "きゅこう",
+    "きゅうこう",
+    "きゅうぎょう",
+    "きゅこ"
+   ],
+   "correct": 2,
+   "explanation": "「急行」は「きゅうこう」と読みます。",
+   "distractors": [
+    "drops the long vowel きゅ",
+    "CORRECT",
+    "wrong on ぎょう for 行",
+    "short reading"
+   ]
+  },
+  {
+   "id": "W06-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "無"
+   ],
+   "target_word": "無理",
+   "reading": "むり",
+   "meaning": "impossible; unreasonable",
+   "sentence": "一日で ぜんぶ おぼえるのは 無理です。",
+   "underline": "無理",
+   "options": [
+    "むり",
+    "ぶり",
+    "むりょう",
+    "むじ"
+   ],
+   "correct": 1,
+   "explanation": "「無理」は「むり」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices む->ぶ",
+    "adds よう",
+    "wrong 2nd kanji じ"
+   ]
+  },
+  {
+   "id": "W06-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "少"
+   ],
+   "target_word": "少年",
+   "reading": "しょうねん",
+   "meaning": "boy",
+   "sentence": "その 本は 少年が しゅじんこうの ものがたりです。",
+   "underline": "少年",
+   "options": [
+    "すくねん",
+    "しょねん",
+    "しょうねん",
+    "しょうとし"
+   ],
+   "correct": 3,
+   "explanation": "「少年」は「しょうねん」と読みます。",
+   "distractors": [
+    "kun すく for 少",
+    "drops the long vowel しょ",
+    "CORRECT",
+    "kun とし for 年"
+   ]
+  },
+  {
+   "id": "W06-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "広"
+   ],
+   "target_word": "ひろい",
+   "reading": "ひろい",
+   "meaning": "spacious; wide",
+   "sentence": "この こうえんは とても ひろいです。",
+   "underline": "ひろい",
+   "options": [
+    "多い",
+    "高い",
+    "長い",
+    "広い"
+   ],
+   "correct": 4,
+   "explanation": "「ひろい」は「広い」と書きます。",
+   "distractors": [
+    "多い = おおい, 'many'",
+    "高い = たかい, 'tall'",
+    "長い = ながい, 'long'",
+    "CORRECT: 広い = spacious"
+   ]
+  },
+  {
+   "id": "W06-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "住"
+   ],
+   "target_word": "すむ",
+   "reading": "すむ",
+   "meaning": "to live; to reside",
+   "sentence": "らいねん 東京に すむ よていです。",
+   "underline": "すむ",
+   "options": [
+    "住む",
+    "読む",
+    "飲む",
+    "休む"
+   ],
+   "correct": 1,
+   "explanation": "「すむ」は「住む」と書きます。",
+   "distractors": [
+    "CORRECT: 住む = live",
+    "読む = よむ, 'read'",
+    "飲む = のむ, 'drink'",
+    "休む = やすむ, 'rest'"
+   ]
+  },
+  {
+   "id": "W06-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "工"
+   ],
+   "target_word": "こうじょう",
+   "reading": "こうじょう",
+   "meaning": "factory",
+   "sentence": "父は 車の こうじょうで はたらいて います。",
+   "underline": "こうじょう",
+   "options": [
+    "工事",
+    "工場",
+    "工業",
+    "工作"
+   ],
+   "correct": 2,
+   "explanation": "「こうじょう」は「工場」と書きます。",
+   "distractors": [
+    "工事 = こうじ, 'construction'",
+    "CORRECT: 工場 = factory",
+    "工業 = こうぎょう, 'industry'",
+    "工作 = こうさく, 'handicraft'"
+   ]
+  },
+  {
+   "id": "W06-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "建"
+   ],
+   "target_word": "たてる",
+   "reading": "たてる",
+   "meaning": "to build",
+   "sentence": "あそこに あたらしい 家を たてる よていです。",
+   "underline": "たてる",
+   "options": [
+    "教える",
+    "考える",
+    "始める",
+    "建てる"
+   ],
+   "correct": 4,
+   "explanation": "「たてる」は「建てる」と書きます。",
+   "distractors": [
+    "教える = おしえる, 'teach'",
+    "考える = かんがえる, 'think'",
+    "始める = はじめる, 'begin'",
+    "CORRECT: 建てる = build"
+   ]
+  },
+  {
+   "id": "W06-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "台"
+   ],
+   "target_word": "台",
+   "reading": "だい",
+   "meaning": "counter for machines/vehicles",
+   "sentence": "きょうしつに パソコンが 二（　　）あります。",
+   "underline": "（　　）",
+   "options": [
+    "まい",
+    "ひき",
+    "台",
+    "さつ"
+   ],
+   "correct": 3,
+   "explanation": "Computers are counted with 台 (for machines); 枚 is for flat things, 匹 for animals, 冊 for books.",
+   "distractors": [
+    "まい (flat things)",
+    "ひき (animals)",
+    "CORRECT: 台 for machines",
+    "さつ (books)"
+   ]
+  },
+  {
+   "id": "W06-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "真"
+   ],
+   "target_word": "真ん中",
+   "reading": "まんなか",
+   "meaning": "the middle; center",
+   "sentence": "こうえんの 四つの 入口から おなじ きょりに ある（　　）に、大きな 木が あります。",
+   "underline": "（　　）",
+   "options": [
+    "真ん中",
+    "入口",
+    "前",
+    "後ろ"
+   ],
+   "correct": 1,
+   "explanation": "The point equidistant from the four entrances is the 真ん中 (centre); an entrance, front or back is not equidistant from all of them.",
+   "distractors": [
+    "CORRECT: 真ん中 = the centre (equidistant from all four entrances)",
+    "entrance",
+    "front",
+    "back"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W06-M3-Q12",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "町"
+   ],
+   "target_word": "下町",
+   "reading": "したまち",
+   "meaning": "the old-town (shitamachi) district",
+   "sentence": "東京の 下町を さんぽしました。",
+   "underline": "下町",
+   "options": [
+    "しだまち",
+    "したまじ",
+    "したまち",
+    "じたまち"
+   ],
+   "correct": 3,
+   "explanation": "「下町」は「したまち」と読みます。",
+   "distractors": [
+    "wrong voicing: た -> だ",
+    "wrong final voicing: ち -> じ",
+    "CORRECT: したまち",
+    "wrong initial voicing: し -> じ"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W06-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "有"
+   ],
+   "target_word": "有名です",
+   "reading": "ゆうめいです",
+   "meaning": "is famous",
+   "grammar_note": "na-adjective",
+   "sentence": "あの かしゅは 日本中で とても 有名です。",
+   "underline": "有名です",
+   "options": [
+    "あの かしゅを だれも しりません。",
+    "あの かしゅは あまり 人気が ありません。",
+    "あの かしゅは うたが 下手です。",
+    "あの かしゅは みんなが よく しって います。"
+   ],
+   "correct": 4,
+   "explanation": "有名 means 'famous', which matches みんなが よく しって いる (everyone knows).",
+   "distractors": [
+    "nobody knows (opposite)",
+    "not very popular (opposite)",
+    "sings badly (no)",
+    "CORRECT: everyone knows = 有名"
+   ]
+  },
+  {
+   "id": "W06-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "住"
+   ],
+   "target_word": "住んで",
+   "reading": "すんで",
+   "meaning": "to live; to reside",
+   "sentence": "あには いま、東京の アパートに 住んで います。",
+   "underline": "住んで",
+   "options": [
+    "すんで",
+    "じゅうんで",
+    "すんて",
+    "ずんで"
+   ],
+   "correct": 1,
+   "explanation": "「住んで」は「すんで」と読みます。",
+   "distractors": [
+    "CORRECT: すんで = live/reside",
+    "on-reading じゅう",
+    "wrong ending て",
+    "wrong voicing ず"
+   ]
+  },
+  {
+   "id": "W06-M5-Q15",
+   "type": "usage",
+   "target_kanji": [
+    "建"
+   ],
+   "target_word": "建てる",
+   "reading": "たてる",
+   "meaning": "to build",
+   "sentence": "建てる",
+   "underline": "建てる",
+   "options": [
+    "こうえんに はたを 高く 建てました。",
+    "おじいさんが この 山に 大きな 家を 建てました。",
+    "げんかんに かさを 建てて おきました。",
+    "らいねんの もくひょうを 建てました。"
+   ],
+   "correct": 2,
+   "explanation": "建てる = to build a structure (a house); raising a flag, standing an umbrella, or setting a goal all use 立てる (same sound, たてる).",
+   "distractors": [
+    "should be 立てました (raise a flag)",
+    "CORRECT: built a large house on this mountain",
+    "should be 立てて (stand the umbrella)",
+    "should be 立てました (set a goal)"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "つめたい みずを のみます。",
+   "underline": "みず",
+   "options": [
+    "火",
+    "水",
+    "木",
+    "土"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "あたらしい ようふくを かいました。",
+   "underline": "かいました",
+   "options": [
+    "買いました",
+    "売りました",
+    "作りました",
+    "使いました"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "としょかんで 本を（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "よみます",
+    "のみます",
+    "はしります",
+    "たべます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この もんだいは とても かんたんです。",
+   "underline": "かんたん",
+   "options": [
+    "この もんだいは とても むずかしいです。",
+    "この もんだいは やさしいです。",
+    "この もんだいは よく でます。",
+    "この もんだいは おもしろいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "うる",
+   "underline": "うる",
+   "options": [
+    "この 店では やさいを うって います。",
+    "がっこうで にほんごを うります。",
+    "あさ はやく うります。",
+    "つめたい 水を うって のみます。"
+   ],
+   "correct": 1
+  }
+ }
+}

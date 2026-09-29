@@ -1,0 +1,456 @@
+{
+ "world": 1,
+ "world_title": "Village Gate",
+ "world_kanji": "同事自発者地業方場開問代",
+ "review": [
+  {
+   "id": "W01-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "同"
+   ],
+   "target_word": "同時",
+   "reading": "どうじ",
+   "meaning": "same time; simultaneous",
+   "sentence": "二人は 同時に えきに つきました。",
+   "underline": "同時",
+   "options": [
+    "どじ",
+    "どうじ",
+    "とうじ",
+    "どうし"
+   ],
+   "correct": 2,
+   "explanation": "「同時」は「どうじ」と読みます。",
+   "distractors": [
+    "drops the long vowel (どう->ど)",
+    "CORRECT",
+    "unvoices the initial (どう->とう)",
+    "ends in し, not じ"
+   ]
+  },
+  {
+   "id": "W01-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "発"
+   ],
+   "target_word": "出発",
+   "reading": "しゅっぱつ",
+   "meaning": "departure",
+   "sentence": "バスは 九時に 出発します。",
+   "underline": "出発",
+   "options": [
+    "しゅつはつ",
+    "しゅっはつ",
+    "しゅうはつ",
+    "しゅっぱつ"
+   ],
+   "correct": 4,
+   "explanation": "「出発」は「しゅっぱつ」と読みます。",
+   "distractors": [
+    "no sokuon and no handakuten",
+    "sokuon but no handakuten (は not ぱ)",
+    "long vowel しゅう, no sokuon",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W01-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "業"
+   ],
+   "target_word": "学業",
+   "reading": "がくぎょう",
+   "meaning": "schoolwork; studies",
+   "sentence": "校長先生は、学業も スポーツも がんばって ほしいと 話しました。",
+   "underline": "学業",
+   "options": [
+    "がくぎょう",
+    "がくぎょ",
+    "がっきょう",
+    "かくぎょう"
+   ],
+   "correct": 1,
+   "explanation": "「学業」は「がくぎょう」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "drops the long vowel (ぎょう->ぎょ)",
+    "wrong sokuon (がっ) and short vowel",
+    "unvoices the initial (が->か)"
+   ]
+  },
+  {
+   "id": "W01-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "場"
+   ],
+   "target_word": "会場",
+   "reading": "かいじょう",
+   "meaning": "venue; hall",
+   "sentence": "コンサートの 会場は えきの 前です。",
+   "underline": "会場",
+   "options": [
+    "かいじょ",
+    "がいじょう",
+    "かいじょう",
+    "かいしょう"
+   ],
+   "correct": 3,
+   "explanation": "「会場」は「かいじょう」と読みます。",
+   "distractors": [
+    "drops the long vowel (じょう->じょ)",
+    "voices the initial (かい->がい)",
+    "CORRECT",
+    "unvoices じょう->しょう"
+   ]
+  },
+  {
+   "id": "W01-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "問"
+   ],
+   "target_word": "問い",
+   "reading": "とい",
+   "meaning": "a question; a query",
+   "sentence": "先生の 問いに ていねいに こたえました。",
+   "underline": "問い",
+   "options": [
+    "とう",
+    "とい",
+    "もん",
+    "どい"
+   ],
+   "correct": 2,
+   "explanation": "「問い」は「とい」と読みます。",
+   "distractors": [
+    "とう = the verb 問う, not the noun 問い",
+    "CORRECT",
+    "もん = the on-reading (問題), not this word",
+    "どい = wrong voicing"
+   ]
+  },
+  {
+   "id": "W01-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "自"
+   ],
+   "target_word": "じぶん",
+   "reading": "じぶん",
+   "meaning": "oneself",
+   "sentence": "おべんとうを じぶんで つくりました。",
+   "underline": "じぶん",
+   "options": [
+    "自分",
+    "気分",
+    "半分",
+    "十分"
+   ],
+   "correct": 1,
+   "explanation": "「じぶん」は「自分」と書きます。",
+   "distractors": [
+    "CORRECT: 自分 = oneself",
+    "気分 = きぶん, 'mood/feeling'",
+    "半分 = はんぶん, 'half'",
+    "十分 = じゅうぶん, 'enough'"
+   ]
+  },
+  {
+   "id": "W01-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "事"
+   ],
+   "target_word": "だいじ",
+   "reading": "だいじ",
+   "meaning": "important; precious",
+   "sentence": "これは とても だいじな しゃしんです。",
+   "underline": "だいじ",
+   "options": [
+    "火事",
+    "食事",
+    "大学",
+    "大事"
+   ],
+   "correct": 4,
+   "explanation": "「だいじ」は「大事」と書きます。",
+   "distractors": [
+    "火事 = かじ, 'fire'",
+    "食事 = しょくじ, 'meal'",
+    "大学 = だいがく, 'university'",
+    "CORRECT: 大事 = important"
+   ]
+  },
+  {
+   "id": "W01-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "代"
+   ],
+   "target_word": "じだい",
+   "reading": "じだい",
+   "meaning": "era; period",
+   "sentence": "あたらしい じだいが はじまりました。",
+   "underline": "じだい",
+   "options": [
+    "時間",
+    "学校",
+    "時代",
+    "電気"
+   ],
+   "correct": 3,
+   "explanation": "「じだい」は「時代」と書きます。",
+   "distractors": [
+    "時間 = じかん, 'time'",
+    "学校 = がっこう, 'school'",
+    "CORRECT: 時代 = era",
+    "電気 = でんき, 'electricity'"
+   ]
+  },
+  {
+   "id": "W01-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "開"
+   ],
+   "target_word": "あく",
+   "reading": "あく",
+   "meaning": "to open (intransitive)",
+   "sentence": "かぜで まどが あく ことが あります。",
+   "underline": "あく",
+   "options": [
+    "空く",
+    "開く",
+    "聞く",
+    "書く"
+   ],
+   "correct": 2,
+   "explanation": "「あく」は「開く」と書きます。",
+   "distractors": [
+    "空く = 'become empty', wrong meaning for a window",
+    "CORRECT",
+    "聞く = きく, 'listen', wrong reading",
+    "書く = かく, 'write', wrong reading"
+   ]
+  },
+  {
+   "id": "W01-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "方"
+   ],
+   "target_word": "行き方",
+   "reading": "いきかた",
+   "meaning": "the way to get there",
+   "sentence": "すみません、えきへの（　　）を おしえて ください。",
+   "underline": "（　　）",
+   "options": [
+    "読み方",
+    "話し方",
+    "見方",
+    "行き方"
+   ],
+   "correct": 4,
+   "explanation": "The way TO the station is its 行き方; the others are ways of reading/speaking/seeing and do not fit a destination.",
+   "distractors": [
+    "way of reading (no)",
+    "way of speaking (no)",
+    "viewpoint (no)",
+    "CORRECT: the way to the station"
+   ]
+  },
+  {
+   "id": "W01-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "地"
+   ],
+   "target_word": "地下",
+   "reading": "ちか",
+   "meaning": "basement; underground",
+   "sentence": "この みせは、一かいから かいだんを 下りると、（　　）に あります。",
+   "underline": "（　　）",
+   "options": [
+    "地下",
+    "二かい",
+    "おくじょう",
+    "三かい"
+   ],
+   "correct": 1,
+   "explanation": "When you go DOWN the stairs from the first floor you reach the 地下 (basement); the 2nd/3rd floor and rooftop are up, not down.",
+   "distractors": [
+    "CORRECT: 地下 = basement (where the stairs down lead)",
+    "2nd floor (up)",
+    "rooftop (up)",
+    "3rd floor (up)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W01-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "者"
+   ],
+   "target_word": "人気者",
+   "reading": "にんきもの",
+   "meaning": "a popular person; class favorite",
+   "sentence": "たなかさんは あかるくて おもしろく、みんなに すかれて いるので、クラスの（　　）です。",
+   "underline": "（　　）",
+   "options": [
+    "へんな人",
+    "こわい人",
+    "人気者",
+    "しずかな人"
+   ],
+   "correct": 3,
+   "explanation": "Someone bright, funny and liked by all is the class's 人気者 (popular one); weird, scary or quiet is contradicted by the description.",
+   "distractors": [
+    "weird (contradicts 'liked by all')",
+    "scary (contradicts 'liked')",
+    "CORRECT: 人気者 = a popular person",
+    "quiet (contradicts 'bright and funny')"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W01-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "発"
+   ],
+   "target_word": "出発しました",
+   "reading": "しゅっぱつしました",
+   "meaning": "departed; set off",
+   "sentence": "その ふねは あさ はやく 出発しました。",
+   "underline": "出発しました",
+   "options": [
+    "その ふねは あさ はやく つきました。",
+    "その ふねは あさ はやく 出ました。",
+    "その ふねは あさ はやく とまりました。",
+    "その ふねは あさ はやく もどりました。"
+   ],
+   "correct": 2,
+   "explanation": "出発する means 'to leave / set off', which matches 出る (出ました).",
+   "distractors": [
+    "arrived (opposite)",
+    "CORRECT: left = 出発",
+    "stopped (no)",
+    "returned (no)"
+   ]
+  },
+  {
+   "id": "W01-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "立"
+   ],
+   "target_word": "立てました",
+   "reading": "たてました",
+   "meaning": "to stand (something) up; put up / erect",
+   "sentence": "こどもが すなはまに 大きな はたを 立てました。",
+   "underline": "立てました",
+   "options": [
+    "たちました",
+    "だてました",
+    "りつました",
+    "たてました"
+   ],
+   "correct": 4,
+   "explanation": "「立てました」は「たてました」と読みます。",
+   "distractors": [
+    "reads 立ちました (stood up), a different form",
+    "wrong voicing だ",
+    "on-reading りつ misapplied",
+    "CORRECT: たてました = put up"
+   ]
+  },
+  {
+   "id": "W01-M5-Q15",
+   "type": "usage",
+   "target_kanji": [
+    "開"
+   ],
+   "target_word": "開ける",
+   "reading": "あける",
+   "meaning": "to open (transitive)",
+   "sentence": "開ける",
+   "underline": "開ける",
+   "options": [
+    "へやが くらいので、電気を 開けました。",
+    "テレビを 開けて、ニュースを 見ました。",
+    "あついので、まどを 開けました。",
+    "へやが さむいので、ストーブを 開けました。"
+   ],
+   "correct": 3,
+   "explanation": "開ける = to open (a window); a light, a TV, and a heater are all turned on with つける.",
+   "distractors": [
+    "should be つけました (turn on the light)",
+    "should be つけました (turn on the TV)",
+    "CORRECT: opened the window",
+    "should be つけました (turn on the heater)"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "あたらしい 車を 買いました。",
+   "underline": "車",
+   "options": [
+    "くろま",
+    "くるま",
+    "くりま",
+    "ぐるま"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "まいあさ つめたい みずを のみます。",
+   "underline": "みず",
+   "options": [
+    "木",
+    "水",
+    "本",
+    "大"
+   ],
+   "correct": 2
+  },
+  "M3": {
+   "sentence": "のどが かわいたので、つめたい みずを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "飲みます",
+    "食べます",
+    "聞きます",
+    "見ます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この 本は やさしいです。",
+   "underline": "やさしい",
+   "options": [
+    "この 本は かんたんです。",
+    "この 本は むずかしいです。",
+    "この 本は おもしろいです。",
+    "この 本は 大きいです。"
+   ],
+   "correct": 1
+  },
+  "M5": {
+   "sentence": "あるく",
+   "underline": "あるく",
+   "options": [
+    "まいにち 学校まで あるきます。",
+    "みせで やさいを あるきます。",
+    "としょかんで 本を あるきます。",
+    "コップの みずを あるきます。"
+   ],
+   "correct": 1
+  }
+ }
+}

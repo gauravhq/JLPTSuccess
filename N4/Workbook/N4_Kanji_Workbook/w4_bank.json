@@ -1,0 +1,459 @@
+{
+ "world": 4,
+ "world_title": "Mountain Trail",
+ "world_kanji": "心界教文元重近考画海売知",
+ "review": [
+  {
+   "id": "W04-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "界"
+   ],
+   "target_word": "世界",
+   "reading": "せかい",
+   "meaning": "the world",
+   "sentence": "世界には たくさんの 国が あります。",
+   "underline": "世界",
+   "options": [
+    "せいかい",
+    "せがい",
+    "せかいん",
+    "せかい"
+   ],
+   "correct": 4,
+   "explanation": "「世界」は「せかい」と読みます。",
+   "distractors": [
+    "adds い (せい)",
+    "voices か->が",
+    "adds ん",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W04-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "元"
+   ],
+   "target_word": "元気",
+   "reading": "げんき",
+   "meaning": "lively; well",
+   "sentence": "そぼは とても 元気です。",
+   "underline": "元気",
+   "options": [
+    "げんぎ",
+    "げんき",
+    "がんき",
+    "げんきい"
+   ],
+   "correct": 2,
+   "explanation": "「元気」は「げんき」と読みます。",
+   "distractors": [
+    "voices き->ぎ",
+    "CORRECT",
+    "wrong on がん",
+    "adds a long vowel"
+   ]
+  },
+  {
+   "id": "W04-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "重"
+   ],
+   "target_word": "体重",
+   "reading": "たいじゅう",
+   "meaning": "body weight",
+   "sentence": "まいあさ 体重を はかります。",
+   "underline": "体重",
+   "options": [
+    "たいちょう",
+    "たいじゅ",
+    "たいじゅう",
+    "だいじゅう"
+   ],
+   "correct": 3,
+   "explanation": "「体重」は「たいじゅう」と読みます。",
+   "distractors": [
+    "wrong on ちょう",
+    "drops the long vowel じゅ",
+    "CORRECT",
+    "voices た->だ"
+   ]
+  },
+  {
+   "id": "W04-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "海"
+   ],
+   "target_word": "海外",
+   "reading": "かいがい",
+   "meaning": "overseas; abroad",
+   "sentence": "なつやすみに 海外へ 行きます。",
+   "underline": "海外",
+   "options": [
+    "かいがい",
+    "かいそと",
+    "うみがい",
+    "がいかい"
+   ],
+   "correct": 1,
+   "explanation": "「海外」は「かいがい」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "kun そと for 外",
+    "kun うみ for 海",
+    "reversed order"
+   ]
+  },
+  {
+   "id": "W04-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "心"
+   ],
+   "target_word": "安心",
+   "reading": "あんしん",
+   "meaning": "relief; peace of mind",
+   "sentence": "むすこが 家に かえって きて、安心しました。",
+   "underline": "安心",
+   "options": [
+    "あんちん",
+    "やすしん",
+    "あんし",
+    "あんしん"
+   ],
+   "correct": 4,
+   "explanation": "「安心」は「あんしん」と読みます。",
+   "distractors": [
+    "wrong voicing (ち)",
+    "kun-reading やす for 安",
+    "drops the final ん",
+    "CORRECT: あんしん = relief"
+   ]
+  },
+  {
+   "id": "W04-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "教"
+   ],
+   "target_word": "おしえる",
+   "reading": "おしえる",
+   "meaning": "to teach",
+   "sentence": "先生が かんじの よみかたを おしえる じゅぎょうが あります。",
+   "underline": "おしえる",
+   "options": [
+    "考える",
+    "見える",
+    "教える",
+    "開ける"
+   ],
+   "correct": 3,
+   "explanation": "「おしえる」は「教える」と書きます。",
+   "distractors": [
+    "考える = かんがえる, 'think'",
+    "見える = みえる, 'be visible'",
+    "CORRECT: 教える = teach",
+    "開ける = あける, 'open'"
+   ]
+  },
+  {
+   "id": "W04-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "知"
+   ],
+   "target_word": "しる",
+   "reading": "しる",
+   "meaning": "to know",
+   "sentence": "テレビを 見れば、その ニュースを はやく しる ことが できます。",
+   "underline": "しる",
+   "options": [
+    "通る",
+    "知る",
+    "入る",
+    "売る"
+   ],
+   "correct": 2,
+   "explanation": "「しる」は「知る」と書きます。",
+   "distractors": [
+    "通る = とおる, 'pass through'",
+    "CORRECT: 知る = know",
+    "入る = はいる, 'enter'",
+    "売る = うる, 'sell'"
+   ]
+  },
+  {
+   "id": "W04-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "重"
+   ],
+   "target_word": "おもい",
+   "reading": "おもい",
+   "meaning": "heavy",
+   "sentence": "この にもつは とても おもいです。",
+   "underline": "おもい",
+   "options": [
+    "重い",
+    "多い",
+    "高い",
+    "長い"
+   ],
+   "correct": 1,
+   "explanation": "「おもい」は「重い」と書きます。",
+   "distractors": [
+    "CORRECT: 重い = heavy",
+    "多い = おおい, 'many'",
+    "高い = たかい, 'tall'",
+    "長い = ながい, 'long'"
+   ]
+  },
+  {
+   "id": "W04-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "近"
+   ],
+   "target_word": "ちかい",
+   "reading": "ちかい",
+   "meaning": "near; close",
+   "sentence": "わたしの 家は 駅から ちかいです。",
+   "underline": "ちかい",
+   "options": [
+    "強い",
+    "高い",
+    "近い",
+    "重い"
+   ],
+   "correct": 3,
+   "explanation": "「ちかい」は「近い」と書きます。",
+   "distractors": [
+    "強い = つよい, 'strong'",
+    "高い = たかい, 'tall'",
+    "CORRECT: 近い = near",
+    "重い = おもい, 'heavy'"
+   ]
+  },
+  {
+   "id": "W04-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "文"
+   ],
+   "target_word": "作文",
+   "reading": "さくぶん",
+   "meaning": "a composition; essay",
+   "sentence": "「なつやすみの おもいで」という だいで（　　）を 書いて、作文コンクールに 出しました。",
+   "underline": "（　　）",
+   "options": [
+    "にっき",
+    "作文",
+    "てがみ",
+    "メモ"
+   ],
+   "correct": 2,
+   "explanation": "What you enter in a 作文コンクール (composition contest) is a 作文 (composition); a diary, letter or memo is not a composition.",
+   "distractors": [
+    "diary (not a composition)",
+    "CORRECT: 作文 = composition",
+    "letter (not a composition)",
+    "memo (not a composition)"
+   ],
+   "review_status": "recheck-passed",
+   "review_flag": "TC-C01/TC-C03: にっき could also be submitted to a generic contest",
+   "review_fix": "named the contest 作文コンクール (composition contest) so only 作文 fits",
+   "recheck": "PASS",
+   "confidence": "high"
+  },
+  {
+   "id": "W04-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "画"
+   ],
+   "target_word": "画家",
+   "reading": "がか",
+   "meaning": "a painter; artist",
+   "sentence": "えを かくのが すきなので、しょうらい（　　）に なりたいです。",
+   "underline": "（　　）",
+   "options": [
+    "先生",
+    "店員",
+    "会社員",
+    "画家"
+   ],
+   "correct": 4,
+   "explanation": "Someone who paints pictures is a 画家 (painter); a teacher, a shop clerk, or an office worker do not match 'likes drawing'.",
+   "distractors": [
+    "teacher (no)",
+    "shop clerk (no)",
+    "office worker (no)",
+    "CORRECT: wants to be a painter"
+   ]
+  },
+  {
+   "id": "W04-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "売"
+   ],
+   "target_word": "売り場",
+   "reading": "うりば",
+   "meaning": "a sales counter; department",
+   "sentence": "デパートの おもちゃ（　　）は 五かいに あります。",
+   "underline": "（　　）",
+   "options": [
+    "売り場",
+    "会場",
+    "駅前",
+    "入口"
+   ],
+   "correct": 1,
+   "explanation": "Where goods are sold in a store is the 売り場 (sales floor); a venue, the station front, or an entrance do not fit 'the toys are on the 5th floor'.",
+   "distractors": [
+    "CORRECT: the toy sales floor",
+    "venue (no)",
+    "station front (no)",
+    "entrance (no)"
+   ]
+  },
+  {
+   "id": "W04-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "売"
+   ],
+   "target_word": "売って",
+   "reading": "うって",
+   "meaning": "sells",
+   "sentence": "あの 店では おいしい パンを 売って います。",
+   "underline": "売って",
+   "options": [
+    "あの 店では おいしい パンを 作って います。",
+    "あの 店では おいしい パンを 食べて います。",
+    "あの 店では おいしい パンが 買えます。",
+    "あの 店では おいしい パンを もらえます。"
+   ],
+   "correct": 3,
+   "explanation": "If a shop 売る (sells) bread, that means you can 買う (buy) it there.",
+   "distractors": [
+    "makes (not the same)",
+    "is eating (no)",
+    "CORRECT: you can buy it = 売って いる",
+    "can get it free (no)"
+   ]
+  },
+  {
+   "id": "W04-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "考"
+   ],
+   "target_word": "考えます",
+   "reading": "かんがえます",
+   "meaning": "to think; to consider",
+   "sentence": "この もんだいの こたえを、じぶんで よく 考えます。",
+   "underline": "考えます",
+   "options": [
+    "かんがいます",
+    "こうえます",
+    "かんかえます",
+    "かんがえます"
+   ],
+   "correct": 4,
+   "explanation": "「考えます」は「かんがえます」と読みます。",
+   "distractors": [
+    "wrong okurigana",
+    "on-reading こう",
+    "wrong voicing か",
+    "CORRECT: かんがえます = think over"
+   ]
+  },
+  {
+   "id": "W04-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "元"
+   ],
+   "target_word": "元気",
+   "reading": "げんき",
+   "meaning": "lively; healthy; energetic",
+   "sentence": "そふは 八十さいですが、まいにち さんぽを して とても 元気です。",
+   "underline": "元気",
+   "options": [
+    "げんぎ",
+    "げんき",
+    "けんき",
+    "がんき"
+   ],
+   "correct": 2,
+   "explanation": "「元気」は「げんき」と読みます。",
+   "distractors": [
+    "wrong voicing ぎ",
+    "CORRECT: げんき = well/lively",
+    "wrong first kana け",
+    "wrong first kana が"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "あおい そらが きれいです。",
+   "underline": "そら",
+   "options": [
+    "うみ",
+    "そら",
+    "やま",
+    "かわ"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "つくえの うえに ほんが あります。",
+   "underline": "ほん",
+   "options": [
+    "木",
+    "本",
+    "休",
+    "体"
+   ],
+   "correct": 2
+  },
+  "M3": {
+   "sentence": "きょうしつで せんせいの はなしを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "ききます",
+    "のみます",
+    "はしります",
+    "かいます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この みちは とても せまいです。",
+   "underline": "せまい",
+   "options": [
+    "この みちは とても ながいです。",
+    "この みちは はばが せまいです。",
+    "この みちは とても ひろいです。",
+    "この みちは とても みじかいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "あそぶ",
+   "underline": "あそぶ",
+   "options": [
+    "こうえんで 友だちと あそびます。",
+    "へやを きれいに あそびます。",
+    "おなかが すいたので あそびます。",
+    "でんしゃに のって あそびます。"
+   ],
+   "correct": 1
+  }
+ }
+}

@@ -1,0 +1,460 @@
+{
+ "world": 7,
+ "world_title": "Cloud Bridge",
+ "world_kanji": "止送切転研究楽起着病質待",
+ "review": [
+  {
+   "id": "W07-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "転"
+   ],
+   "target_word": "運転",
+   "reading": "うんてん",
+   "meaning": "driving",
+   "sentence": "父は 車の 運転が とても 上手です。",
+   "underline": "運転",
+   "options": [
+    "うんてん",
+    "うんでん",
+    "うんてい",
+    "うてん"
+   ],
+   "correct": 1,
+   "explanation": "「運転」は「うんてん」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices て->で",
+    "wrong ending てい",
+    "drops ん"
+   ]
+  },
+  {
+   "id": "W07-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "研",
+    "究"
+   ],
+   "target_word": "研究",
+   "reading": "けんきゅう",
+   "meaning": "research",
+   "sentence": "だいがくで 日本語の 研究を して います。",
+   "underline": "研究",
+   "options": [
+    "けんきゅ",
+    "けんきゅう",
+    "げんきゅう",
+    "けんぎゅう"
+   ],
+   "correct": 2,
+   "explanation": "「研究」は「けんきゅう」と読みます。",
+   "distractors": [
+    "drops the long vowel きゅ",
+    "CORRECT",
+    "voices け->げ",
+    "voices きゅう->ぎゅう"
+   ]
+  },
+  {
+   "id": "W07-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "病"
+   ],
+   "target_word": "病気",
+   "reading": "びょうき",
+   "meaning": "illness",
+   "sentence": "病気の ときは ゆっくり 休みましょう。",
+   "underline": "病気",
+   "options": [
+    "びょき",
+    "へいき",
+    "びょうぎ",
+    "びょうき"
+   ],
+   "correct": 4,
+   "explanation": "「病気」は「びょうき」と読みます。",
+   "distractors": [
+    "drops the long vowel びょ",
+    "wrong on へい",
+    "voices き->ぎ",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W07-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "質"
+   ],
+   "target_word": "質問",
+   "reading": "しつもん",
+   "meaning": "question",
+   "sentence": "わからない ときは 先生に 質問します。",
+   "underline": "質問",
+   "options": [
+    "しちもん",
+    "しつぶん",
+    "しつもん",
+    "じつもん"
+   ],
+   "correct": 3,
+   "explanation": "「質問」は「しつもん」と読みます。",
+   "distractors": [
+    "wrong on しち",
+    "wrong on ぶん for 問",
+    "CORRECT",
+    "voices し->じ"
+   ]
+  },
+  {
+   "id": "W07-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "切"
+   ],
+   "target_word": "大切",
+   "reading": "たいせつ",
+   "meaning": "important; precious",
+   "grammar_note": "na-adjective",
+   "sentence": "友だちは わたしに とって 大切です。",
+   "underline": "大切",
+   "options": [
+    "たいせつ",
+    "だいせつ",
+    "たいせい",
+    "おおせつ"
+   ],
+   "correct": 1,
+   "explanation": "「大切」は「たいせつ」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices た->だ",
+    "wrong ending せち",
+    "kun おお for 大"
+   ]
+  },
+  {
+   "id": "W07-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "止"
+   ],
+   "target_word": "とめる",
+   "reading": "とめる",
+   "meaning": "to stop (something)",
+   "sentence": "車を 店の まえに とめる ことが できます。",
+   "underline": "とめる",
+   "options": [
+    "集める",
+    "始める",
+    "止める",
+    "教える"
+   ],
+   "correct": 3,
+   "explanation": "「とめる」は「止める」と書きます。",
+   "distractors": [
+    "集める = あつめる, 'collect'",
+    "始める = はじめる, 'begin'",
+    "CORRECT: 止める = stop",
+    "教える = おしえる, 'teach'"
+   ]
+  },
+  {
+   "id": "W07-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "送"
+   ],
+   "target_word": "おくる",
+   "reading": "おくる",
+   "meaning": "to send",
+   "sentence": "友だちに たんじょうびの プレゼントを おくる つもりです。",
+   "underline": "おくる",
+   "options": [
+    "作る",
+    "送る",
+    "売る",
+    "知る"
+   ],
+   "correct": 2,
+   "explanation": "「おくる」は「送る」と書きます。",
+   "distractors": [
+    "作る = つくる, 'make'",
+    "CORRECT: 送る = send",
+    "売る = うる, 'sell'",
+    "知る = しる, 'know'"
+   ]
+  },
+  {
+   "id": "W07-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "着"
+   ],
+   "target_word": "きる",
+   "reading": "きる",
+   "meaning": "to wear; to put on",
+   "sentence": "さむいので、あたたかい セーターを きる ことに しました。",
+   "underline": "きる",
+   "options": [
+    "見る",
+    "知る",
+    "売る",
+    "着る"
+   ],
+   "correct": 4,
+   "explanation": "「きる」は「着る」と書きます。",
+   "distractors": [
+    "見る = みる, 'see'",
+    "知る = しる, 'know'",
+    "売る = うる, 'sell'",
+    "CORRECT: 着る = wear"
+   ]
+  },
+  {
+   "id": "W07-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "待"
+   ],
+   "target_word": "まつ",
+   "reading": "まつ",
+   "meaning": "to wait",
+   "sentence": "えきの まえで 友だちを まつ ことに しました。",
+   "underline": "まつ",
+   "options": [
+    "待つ",
+    "持つ",
+    "立つ",
+    "建つ"
+   ],
+   "correct": 1,
+   "explanation": "「まつ」は「待つ」と書きます。",
+   "distractors": [
+    "CORRECT: 待つ = wait",
+    "持つ = もつ, 'hold'",
+    "立つ = たつ, 'stand'",
+    "建つ = たつ, 'be built'"
+   ]
+  },
+  {
+   "id": "W07-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "楽"
+   ],
+   "target_word": "楽しい",
+   "reading": "たのしい",
+   "meaning": "fun; enjoyable",
+   "sentence": "みんなで たくさん あそんで、えんそくは とても（　　）でした。",
+   "underline": "（　　）",
+   "options": [
+    "かなしい",
+    "むずかしい",
+    "つまらない",
+    "楽しい"
+   ],
+   "correct": 4,
+   "explanation": "Playing a lot makes the excursion 楽しい (fun); it was not sad, difficult or boring.",
+   "distractors": [
+    "sad",
+    "difficult",
+    "boring",
+    "CORRECT: 楽しい = fun (after playing a lot)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W07-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "起"
+   ],
+   "target_word": "起きる",
+   "reading": "おきる",
+   "meaning": "to get up; to wake up",
+   "sentence": "まいあさ 六時に（　　）、ベッドから 出ます。",
+   "underline": "（　　）",
+   "options": [
+    "ねて",
+    "起きて",
+    "かえって",
+    "はしって"
+   ],
+   "correct": 2,
+   "explanation": "Before getting out of bed you 起きて (wake up); you do not sleep, return or run before getting out of bed.",
+   "distractors": [
+    "sleep (no)",
+    "CORRECT: 起きて = wake up (then get out of bed)",
+    "return (no)",
+    "run (no)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W07-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "病"
+   ],
+   "target_word": "病院",
+   "reading": "びょういん",
+   "meaning": "hospital",
+   "sentence": "高い ねつが あるので、おいしゃさんに みて もらう ために、（　　）に 行きます。",
+   "underline": "（　　）",
+   "options": [
+    "学校",
+    "えき",
+    "病院",
+    "みせ"
+   ],
+   "correct": 3,
+   "explanation": "To have a doctor examine a high fever you go to the 病院 (hospital); not a school, station or shop.",
+   "distractors": [
+    "school",
+    "station",
+    "CORRECT: 病院 = hospital (to be seen by a doctor)",
+    "shop"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W07-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "切"
+   ],
+   "target_word": "大切です",
+   "reading": "たいせつです",
+   "meaning": "is precious",
+   "grammar_note": "na-adjective",
+   "sentence": "この 時計は 父に もらった もので、とても 大切です。",
+   "underline": "大切です",
+   "options": [
+    "この 時計は とても べんりです。",
+    "この 時計は とても ふるいです。",
+    "この 時計は とても ゆうめいです。",
+    "この 時計は とても 大事です。"
+   ],
+   "correct": 4,
+   "explanation": "大切 means 'precious/important', which matches 大事.",
+   "distractors": [
+    "convenient (no)",
+    "old (no)",
+    "famous (no)",
+    "CORRECT: precious = 大切 <-> 大事"
+   ]
+  },
+  {
+   "id": "W07-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "起"
+   ],
+   "target_word": "起きました",
+   "reading": "おきました",
+   "meaning": "to get up; to wake up",
+   "sentence": "けさは ねぼうして、八時に 起きました。",
+   "underline": "起きました",
+   "options": [
+    "おきりました",
+    "おきました",
+    "きました",
+    "おこめました"
+   ],
+   "correct": 2,
+   "explanation": "「起きました」は「おきました」と読みます。",
+   "distractors": [
+    "extra り",
+    "CORRECT: おきました = woke/got up",
+    "reads 来ました (came)",
+    "wrong kana め"
+   ]
+  },
+  {
+   "id": "W07-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "止"
+   ],
+   "target_word": "止めました",
+   "reading": "とめました",
+   "meaning": "to stop something (transitive)",
+   "sentence": "みせの 前に 車を 止めました。",
+   "underline": "止めました",
+   "options": [
+    "しめました",
+    "どめました",
+    "とめました",
+    "とめめました"
+   ],
+   "correct": 3,
+   "explanation": "「止めました」は「とめました」と読みます。",
+   "distractors": [
+    "on-reading し",
+    "wrong voicing ど",
+    "CORRECT: とめました = stopped/parked",
+    "extra め"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "おおきい さかなが およいで います。",
+   "underline": "さかな",
+   "options": [
+    "とり",
+    "いぬ",
+    "さかな",
+    "むし"
+   ],
+   "correct": 3
+  },
+  "M2": {
+   "sentence": "つめたい みずを のみます。",
+   "underline": "のみます",
+   "options": [
+    "飲みます",
+    "食べます",
+    "買います",
+    "作ります"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "きょうしつで せんせいに（　　）を します。",
+   "underline": "（　　）",
+   "options": [
+    "しつもん",
+    "うんどう",
+    "そうじ",
+    "りょうり"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "きのうの えいがは とても つまらなかったです。",
+   "underline": "つまらなかった",
+   "options": [
+    "きのうの えいがは とても おもしろかったです。",
+    "きのうの えいがは あまり おもしろくなかったです。",
+    "きのうの えいがは とても こわかったです。",
+    "きのうの えいがは とても ながかったです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "やむ",
+   "underline": "やむ",
+   "options": [
+    "あめが やっと やみました。",
+    "へやを きれいに やみました。",
+    "ごはんを たくさん やみました。",
+    "がっこうまで あるいて やみました。"
+   ],
+   "correct": 1
+  }
+ }
+}

@@ -1,0 +1,469 @@
+{
+ "world": 14,
+ "world_title": "Rainbow Peak",
+ "world_kanji": "足空店古買花飲週駅曜的身可",
+ "review": [
+  {
+   "id": "W14-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "足"
+   ],
+   "target_word": "足",
+   "reading": "あし",
+   "meaning": "foot; leg",
+   "sentence": "サッカーで 足を けがしました。",
+   "underline": "足",
+   "options": [
+    "あす",
+    "あし",
+    "たし",
+    "あじ"
+   ],
+   "correct": 2,
+   "explanation": "「足」は「あし」と読みます。",
+   "distractors": [
+    "wrong あす",
+    "CORRECT: あし = foot/leg",
+    "wrong たし",
+    "wrong あじ"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "空"
+   ],
+   "target_word": "空",
+   "reading": "そら",
+   "meaning": "sky",
+   "sentence": "あきの 空は とても たかくて きれいです。",
+   "underline": "空",
+   "options": [
+    "そろ",
+    "そうら",
+    "すら",
+    "そら"
+   ],
+   "correct": 4,
+   "explanation": "「空」は「そら」と読みます。",
+   "distractors": [
+    "wrong そろ",
+    "wrong そうら",
+    "wrong すら",
+    "CORRECT: そら = sky"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "週"
+   ],
+   "target_word": "来週",
+   "reading": "らいしゅう",
+   "meaning": "next week",
+   "sentence": "来週 家族と りょこうに 行きます。",
+   "underline": "来週",
+   "options": [
+    "らいしゅう",
+    "らいしゅ",
+    "くしゅう",
+    "らいちょう"
+   ],
+   "correct": 1,
+   "explanation": "「来週」は「らいしゅう」と読みます。",
+   "distractors": [
+    "CORRECT: らいしゅう = next week",
+    "drops the long vowel しゅ",
+    "wrong on く for 来",
+    "wrong ちょう for 週"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "曜"
+   ],
+   "target_word": "何曜日",
+   "reading": "なんようび",
+   "meaning": "what day of the week",
+   "sentence": "つぎの テストは 何曜日ですか。",
+   "underline": "何曜日",
+   "options": [
+    "なんように",
+    "なにようび",
+    "なんようび",
+    "なんよび"
+   ],
+   "correct": 3,
+   "explanation": "「何曜日」は「なんようび」と読みます。",
+   "distractors": [
+    "wrong ending ように",
+    "wrong なに for 何",
+    "CORRECT: なんようび = what day",
+    "drops う (なんよび)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "駅"
+   ],
+   "target_word": "駅",
+   "reading": "えき",
+   "meaning": "station",
+   "sentence": "駅の まえで 友だちと まって います。",
+   "underline": "駅",
+   "options": [
+    "えけ",
+    "えき",
+    "やく",
+    "えぎ"
+   ],
+   "correct": 2,
+   "explanation": "「駅」は「えき」と読みます。",
+   "distractors": [
+    "wrong えけ",
+    "CORRECT: えき = station",
+    "on やく",
+    "voiced えぎ"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "買"
+   ],
+   "target_word": "かいもの",
+   "reading": "かいもの",
+   "meaning": "shopping",
+   "sentence": "デパートで たくさん かいものを しました。",
+   "underline": "かいもの",
+   "options": [
+    "飲み物",
+    "食べ物",
+    "品物",
+    "買い物"
+   ],
+   "correct": 4,
+   "explanation": "「かいもの」は「買い物」と書きます。",
+   "distractors": [
+    "飲み物 = のみもの, 'drink'",
+    "食べ物 = たべもの, 'food'",
+    "品物 = しなもの, 'goods'",
+    "CORRECT: 買い物 = shopping"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "古"
+   ],
+   "target_word": "ふるい",
+   "reading": "ふるい",
+   "meaning": "old",
+   "sentence": "この おてらは とても ふるいです。",
+   "underline": "ふるい",
+   "options": [
+    "新しい",
+    "広い",
+    "古い",
+    "長い"
+   ],
+   "correct": 3,
+   "explanation": "「ふるい」は「古い」と書きます。",
+   "distractors": [
+    "新しい = あたらしい, 'new'",
+    "広い = ひろい, 'wide'",
+    "CORRECT: 古い = old",
+    "長い = ながい, 'long'"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "店"
+   ],
+   "target_word": "てんいん",
+   "reading": "てんいん",
+   "meaning": "shop clerk",
+   "sentence": "てんいんに 品物の ばしょを ききました。",
+   "underline": "てんいん",
+   "options": [
+    "店員",
+    "駅員",
+    "会員",
+    "銀行員"
+   ],
+   "correct": 1,
+   "explanation": "「てんいん」は「店員」と書きます。",
+   "distractors": [
+    "CORRECT: 店員 = shop clerk",
+    "駅員 = えきいん, 'station staff'",
+    "会員 = かいいん, 'member'",
+    "銀行員 = ぎんこういん, 'bank clerk'"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "花"
+   ],
+   "target_word": "はな",
+   "reading": "はな",
+   "meaning": "flower",
+   "sentence": "こうえんの きれいな はなを 見ました。",
+   "underline": "はな",
+   "options": [
+    "山",
+    "木",
+    "空",
+    "花"
+   ],
+   "correct": 4,
+   "explanation": "「はな」は「花」と書きます。",
+   "distractors": [
+    "山 = やま, 'mountain'",
+    "木 = き, 'tree'",
+    "空 = そら, 'sky'",
+    "CORRECT: 花 = flower"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "飲"
+   ],
+   "target_word": "飲み物",
+   "reading": "のみもの",
+   "meaning": "drink",
+   "sentence": "のどが かわいたので、つめたい（　　）を 飲みました。",
+   "underline": "（　　）",
+   "options": [
+    "食べ物",
+    "飲み物",
+    "のりもの",
+    "くだもの"
+   ],
+   "correct": 2,
+   "explanation": "The predicate is 飲む, so only a 飲み物 (drink) fits; food, a vehicle, and fruit cannot be drunk.",
+   "distractors": [
+    "food (cannot be drunk)",
+    "CORRECT: 飲み物 = a drink",
+    "a vehicle (cannot be drunk)",
+    "fruit (cannot be drunk)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "身"
+   ],
+   "target_word": "中身",
+   "reading": "なかみ",
+   "meaning": "contents",
+   "sentence": "はこを ふらないで ください。（　　）が こわれます。",
+   "underline": "（　　）",
+   "options": [
+    "なまえ",
+    "ねだん",
+    "中身",
+    "おもて"
+   ],
+   "correct": 3,
+   "explanation": "Shaking the box breaks what is inside - its 中身 (contents); a name, price or the surface does not break when shaken.",
+   "distractors": [
+    "name (does not break)",
+    "price (does not break)",
+    "CORRECT: 中身 = the contents (break if shaken)",
+    "the surface (does not break from shaking)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "空"
+   ],
+   "target_word": "空",
+   "reading": "そら",
+   "meaning": "sky",
+   "sentence": "あめが やんで、あたまの 上の（　　）に にじが かかりました。",
+   "underline": "（　　）",
+   "options": [
+    "空",
+    "海",
+    "土",
+    "川"
+   ],
+   "correct": 1,
+   "explanation": "A rainbow spans the 空 (sky) OVERHEAD; the sea, ground or a river is not above your head.",
+   "distractors": [
+    "CORRECT: 空 = the sky overhead",
+    "sea (not overhead)",
+    "ground (not overhead)",
+    "river (not overhead)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "古"
+   ],
+   "target_word": "古本",
+   "reading": "ふるほん",
+   "meaning": "second-hand book",
+   "sentence": "これは 古本です。",
+   "underline": "古本",
+   "options": [
+    "これは 新しい 本です。",
+    "これは とても 高い 本です。",
+    "これは 大きい 本です。",
+    "これは 中古の 本です。"
+   ],
+   "correct": 4,
+   "explanation": "古本 means a second-hand book, which matches 中古の 本.",
+   "distractors": [
+    "new (opposite)",
+    "expensive (unrelated)",
+    "big (unrelated)",
+    "CORRECT: 中古 = second-hand"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "的"
+   ],
+   "target_word": "目的",
+   "reading": "もくてき",
+   "meaning": "purpose; goal",
+   "sentence": "この りょこうの 目的は、おんせんに 入ることです。",
+   "underline": "目的",
+   "options": [
+    "もくでき",
+    "もくてき",
+    "めてき",
+    "もくじ"
+   ],
+   "correct": 2,
+   "explanation": "「目的」は「もくてき」と読みます。",
+   "distractors": [
+    "voiced でき",
+    "CORRECT: もくてき = purpose",
+    "kun め for 目",
+    "wrong もくじ"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W14-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "可"
+   ],
+   "target_word": "可能",
+   "reading": "かのう",
+   "meaning": "possible",
+   "sentence": "インターネットで よやくが 可能です。",
+   "underline": "可能",
+   "options": [
+    "かうん",
+    "かのお",
+    "かのう",
+    "がのう"
+   ],
+   "correct": 3,
+   "explanation": "「可能」は「かのう」と読みます。",
+   "distractors": [
+    "wrong かうん",
+    "adds a long vowel かのお",
+    "CORRECT: かのう = possible",
+    "voiced がのう"
+   ],
+   "review_status": "automated-check-passed"
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "にわで こどもが あそんで います。",
+   "underline": "こども",
+   "options": [
+    "おとな",
+    "こども",
+    "がくせい",
+    "せんせい"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "まいにち にほんごを べんきょうします。",
+   "underline": "べんきょう",
+   "options": [
+    "勉強",
+    "運動",
+    "質問",
+    "仕事"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "あさ おきて、かおを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "あらいます",
+    "たべます",
+    "はしります",
+    "かきます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この レストランは とても 有名です。",
+   "underline": "有名",
+   "options": [
+    "この レストランは だれも 知りません。",
+    "この レストランは みんな よく 知って います。",
+    "この レストランは とても 高いです。",
+    "この レストランは とても 新しいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "およぐ",
+   "underline": "およぐ",
+   "options": [
+    "なつに うみで およぎます。",
+    "がっこうまで あるいて およぎます。",
+    "ごはんを たくさん およぎます。",
+    "つめたい 水を およいで のみます。"
+   ],
+   "correct": 1
+  }
+ }
+}

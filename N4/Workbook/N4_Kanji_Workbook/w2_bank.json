@@ -1,0 +1,460 @@
+{
+ "world": 2,
+ "world_title": "Forest Path",
+ "world_kanji": "明動京通理体主題意不作用",
+ "review": [
+  {
+   "id": "W02-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "京"
+   ],
+   "target_word": "東京",
+   "reading": "とうきょう",
+   "meaning": "Tokyo",
+   "sentence": "らいねん かぞくで 東京へ ひっこします。",
+   "underline": "東京",
+   "options": [
+    "とうきょ",
+    "どうきょう",
+    "とうきょう",
+    "とうぎょう"
+   ],
+   "correct": 3,
+   "explanation": "「東京」は「とうきょう」と読みます。",
+   "distractors": [
+    "drops the long vowel (きょう->きょ)",
+    "voices the initial (とう->どう)",
+    "CORRECT",
+    "voices きょう->ぎょう"
+   ]
+  },
+  {
+   "id": "W02-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "通"
+   ],
+   "target_word": "通学",
+   "reading": "つうがく",
+   "meaning": "commuting to school",
+   "sentence": "まいにち バスで 通学して います。",
+   "underline": "通学",
+   "options": [
+    "つうがく",
+    "つがく",
+    "とうがく",
+    "つうかく"
+   ],
+   "correct": 1,
+   "explanation": "「通学」は「つうがく」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "drops the long vowel (つう->つ)",
+    "wrong initial と",
+    "unvoices がく->かく"
+   ]
+  },
+  {
+   "id": "W02-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "理"
+   ],
+   "target_word": "地理",
+   "reading": "ちり",
+   "meaning": "geography",
+   "sentence": "わたしは 地理の べんきょうが すきです。",
+   "underline": "地理",
+   "options": [
+    "じり",
+    "ちりょう",
+    "しり",
+    "ちり"
+   ],
+   "correct": 4,
+   "explanation": "「地理」は「ちり」と読みます。",
+   "distractors": [
+    "voices the initial (ち->じ)",
+    "adds a long vowel (り->りょう)",
+    "unvoices ち->し",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W02-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "体"
+   ],
+   "target_word": "体力",
+   "reading": "たいりょく",
+   "meaning": "stamina; physical strength",
+   "sentence": "スポーツで 体力を つけます。",
+   "underline": "体力",
+   "options": [
+    "たいりき",
+    "たいりょく",
+    "だいりょく",
+    "たいろく"
+   ],
+   "correct": 2,
+   "explanation": "「体力」は「たいりょく」と読みます。",
+   "distractors": [
+    "wrong reading of 力 (りき)",
+    "CORRECT",
+    "voices the initial (たい->だい)",
+    "drops the small ょ (りょく->ろく)"
+   ]
+  },
+  {
+   "id": "W02-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "意"
+   ],
+   "target_word": "意見",
+   "reading": "いけん",
+   "meaning": "opinion",
+   "sentence": "じゅぎょうで じぶんの 意見を 言いました。",
+   "underline": "意見",
+   "options": [
+    "いげん",
+    "えけん",
+    "いけん",
+    "いけ"
+   ],
+   "correct": 3,
+   "explanation": "「意見」は「いけん」と読みます。",
+   "distractors": [
+    "voices けん->げん",
+    "wrong initial え",
+    "CORRECT",
+    "drops the final ん"
+   ]
+  },
+  {
+   "id": "W02-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "動"
+   ],
+   "target_word": "うごく",
+   "reading": "うごく",
+   "meaning": "to move",
+   "sentence": "ロボットが ひとりで うごく のを 見ました。",
+   "underline": "うごく",
+   "options": [
+    "書く",
+    "動く",
+    "開く",
+    "聞く"
+   ],
+   "correct": 2,
+   "explanation": "「うごく」は「動く」と書きます。",
+   "distractors": [
+    "書く = かく, 'write', wrong reading",
+    "CORRECT",
+    "開く = あく, 'open', wrong reading",
+    "聞く = きく, 'listen', wrong reading"
+   ]
+  },
+  {
+   "id": "W02-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "明"
+   ],
+   "target_word": "あける",
+   "reading": "あける",
+   "meaning": "(day) breaks; dawns",
+   "sentence": "ふゆは よるが あける のが おそいです。",
+   "underline": "あける",
+   "options": [
+    "明ける",
+    "開ける",
+    "空ける",
+    "分ける"
+   ],
+   "correct": 1,
+   "explanation": "「あける」は「明ける」と書きます。",
+   "distractors": [
+    "CORRECT: 夜が明ける = day breaks",
+    "開ける = あける, 'open', wrong meaning here",
+    "空ける = あける, 'make vacant', wrong meaning here",
+    "分ける = わける, 'divide', different reading"
+   ]
+  },
+  {
+   "id": "W02-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "題"
+   ],
+   "target_word": "もんだい",
+   "reading": "もんだい",
+   "meaning": "problem; question",
+   "sentence": "さいごの もんだいは とても むずかしかったです。",
+   "underline": "もんだい",
+   "options": [
+    "話題",
+    "主題",
+    "題名",
+    "問題"
+   ],
+   "correct": 4,
+   "explanation": "「もんだい」は「問題」と書きます。",
+   "distractors": [
+    "話題 = わだい, 'topic of talk'",
+    "主題 = しゅだい, 'theme'",
+    "題名 = だいめい, 'title'",
+    "CORRECT: 問題 = problem/question"
+   ]
+  },
+  {
+   "id": "W02-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "作"
+   ],
+   "target_word": "つくる",
+   "reading": "つくる",
+   "meaning": "to make",
+   "sentence": "わたしは りょうりを つくる のが すきです。",
+   "underline": "つくる",
+   "options": [
+    "通る",
+    "作る",
+    "入る",
+    "上る"
+   ],
+   "correct": 2,
+   "explanation": "「つくる」は「作る」と書きます。",
+   "distractors": [
+    "通る = とおる, 'pass through', wrong reading",
+    "CORRECT",
+    "入る = はいる, 'enter', wrong reading",
+    "上る = のぼる, 'go up', wrong reading"
+   ]
+  },
+  {
+   "id": "W02-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "用"
+   ],
+   "target_word": "用事",
+   "reading": "ようじ",
+   "meaning": "errand; something to do",
+   "sentence": "きょうは（　　）が あるので、はやく かえります。",
+   "underline": "（　　）",
+   "options": [
+    "用事",
+    "意見",
+    "体力",
+    "地理"
+   ],
+   "correct": 1,
+   "explanation": "Something you must go home early for is a 用事 (errand); an opinion, stamina, or geography do not fit.",
+   "distractors": [
+    "CORRECT: an errand to do",
+    "opinion (no)",
+    "stamina (no)",
+    "geography (no)"
+   ]
+  },
+  {
+   "id": "W02-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "主"
+   ],
+   "target_word": "主食",
+   "reading": "しゅしょく",
+   "meaning": "staple food",
+   "sentence": "日本人の（　　）は、おこめです。",
+   "underline": "（　　）",
+   "options": [
+    "デザート",
+    "のみもの",
+    "おかし",
+    "主食"
+   ],
+   "correct": 4,
+   "explanation": "The food that forms the base of the diet is the 主食 (staple food) - in Japan, rice; a dessert, a drink or sweets are not staple foods.",
+   "distractors": [
+    "dessert (not a staple)",
+    "drink (not a staple food)",
+    "sweets (not a staple)",
+    "CORRECT: 主食 = staple food"
+   ],
+   "review_status": "recheck-passed",
+   "review_flag": "TC-C01/TC-C03/TC-CH12: 主に had no clean single-answer set; target replaced",
+   "review_fix": "Changed target_word 主に->主食; reading おもに->しゅしょく; meaning 'mainly; primarily'->'staple food'. Revalidated stem, keyed option, explanation, distractors and HTML answer key.",
+   "recheck": "PASS",
+   "confidence": "high"
+  },
+  {
+   "id": "W02-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "不"
+   ],
+   "target_word": "不安",
+   "reading": "ふあん",
+   "meaning": "anxious; uneasy",
+   "sentence": "テストの まえは いつも（　　）に なります。",
+   "underline": "（　　）",
+   "options": [
+    "意見",
+    "用事",
+    "不安",
+    "問題"
+   ],
+   "correct": 3,
+   "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or a problem are not feelings.",
+   "distractors": [
+    "opinion (no)",
+    "errand (no)",
+    "CORRECT: uneasy before a test",
+    "problem (no)"
+   ]
+  },
+  {
+   "id": "W02-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "用",
+    "意"
+   ],
+   "target_word": "用意しました",
+   "reading": "よういしました",
+   "meaning": "got ready; prepared",
+   "sentence": "しあいの まえに、飲みものを 用意しました。",
+   "underline": "用意しました",
+   "options": [
+    "しあいの まえに、飲みものを 買いました。",
+    "しあいの まえに、飲みものを じゅんびしました。",
+    "しあいの まえに、飲みものを のみました。",
+    "しあいの まえに、飲みものを わすれました。"
+   ],
+   "correct": 2,
+   "explanation": "用意する means 'to get ready / prepare', which matches じゅんびする.",
+   "distractors": [
+    "bought (not the same as prepared)",
+    "CORRECT: prepared = 用意",
+    "drank (no)",
+    "forgot (opposite)"
+   ]
+  },
+  {
+   "id": "W02-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "通"
+   ],
+   "target_word": "通って",
+   "reading": "かよって",
+   "meaning": "to commute; to attend regularly",
+   "sentence": "あねは まいにち でんしゃで 大学に 通って います。",
+   "underline": "通って",
+   "options": [
+    "かよって",
+    "かよて",
+    "つうって",
+    "かよいて"
+   ],
+   "correct": 1,
+   "explanation": "「通って」は「かよって」と読みます。",
+   "distractors": [
+    "CORRECT: かよって = commute",
+    "missing っ",
+    "on-reading つう (as in 通学)",
+    "wrong vowel い"
+   ]
+  },
+  {
+   "id": "W02-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "体"
+   ],
+   "target_word": "体",
+   "reading": "からだ",
+   "meaning": "body",
+   "sentence": "うみで およいで、体を じょうぶに して います。",
+   "underline": "体",
+   "options": [
+    "からた",
+    "かだら",
+    "からだ",
+    "たらだ"
+   ],
+   "correct": 3,
+   "explanation": "「体」は「からだ」と読みます。",
+   "distractors": [
+    "wrong voicing た",
+    "kana order swapped",
+    "CORRECT: からだ = body",
+    "wrong first kana た"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "たかい 山に のぼりました。",
+   "underline": "山",
+   "options": [
+    "かわ",
+    "やま",
+    "うみ",
+    "そら"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "がっこうで ほんを よみます。",
+   "underline": "ほん",
+   "options": [
+    "木",
+    "本",
+    "休",
+    "体"
+   ],
+   "correct": 2
+  },
+  "M3": {
+   "sentence": "のどが かわいたので、おちゃを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "飲みました",
+    "食べました",
+    "見ました",
+    "書きました"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この えいがは ゆうめいです。",
+   "underline": "ゆうめい",
+   "options": [
+    "みんなが しりません。",
+    "みんなが よく しって います。",
+    "だれも 見て いません。",
+    "とても つまらないです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "ひろい",
+   "underline": "ひろい",
+   "options": [
+    "この こうえんは とても ひろいです。",
+    "この ケーキは ひろいです。",
+    "あの 山は ひろいです。",
+    "この えんぴつは ひろいです。"
+   ],
+   "correct": 1
+  }
+ }
+}

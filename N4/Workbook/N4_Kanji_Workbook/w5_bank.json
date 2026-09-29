@@ -1,0 +1,463 @@
+{
+ "world": 5,
+ "world_title": "Old Temple",
+ "world_kanji": "集別物使品計死特始朝運終",
+ "review": [
+  {
+   "id": "W05-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "集"
+   ],
+   "target_word": "集中",
+   "reading": "しゅうちゅう",
+   "meaning": "concentration; focus",
+   "sentence": "しずかな へやで べんきょうに 集中します。",
+   "underline": "集中",
+   "options": [
+    "しゅちゅう",
+    "しゅうちゅう",
+    "じゅうちゅう",
+    "しゅうじゅう"
+   ],
+   "correct": 2,
+   "explanation": "「集中」は「しゅうちゅう」と読みます。",
+   "distractors": [
+    "drops the long vowel しゅ",
+    "CORRECT",
+    "voices し->じ",
+    "voices ちゅう->じゅう"
+   ]
+  },
+  {
+   "id": "W05-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "使"
+   ],
+   "target_word": "使用",
+   "reading": "しよう",
+   "meaning": "use",
+   "sentence": "この エレベーターは いま 使用できません。",
+   "underline": "使用",
+   "options": [
+    "しよ",
+    "しゆう",
+    "しよう",
+    "じよう"
+   ],
+   "correct": 3,
+   "explanation": "「使用」は「しよう」と読みます。",
+   "distractors": [
+    "drops the long vowel よ",
+    "adds ゆ",
+    "CORRECT",
+    "voices し->じ"
+   ]
+  },
+  {
+   "id": "W05-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "品"
+   ],
+   "target_word": "作品",
+   "reading": "さくひん",
+   "meaning": "a work; piece",
+   "sentence": "きょうしつに きれいな 作品を かざりました。",
+   "underline": "作品",
+   "options": [
+    "さくひ",
+    "さくしな",
+    "さくぶん",
+    "さくひん"
+   ],
+   "correct": 4,
+   "explanation": "「作品」は「さくひん」と読みます。",
+   "distractors": [
+    "drops ん",
+    "kun しな for 品",
+    "wrong 2nd kanji (ぶん)",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W05-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "運"
+   ],
+   "target_word": "運動",
+   "reading": "うんどう",
+   "meaning": "exercise; sport",
+   "sentence": "けんこうの ために まいにち 運動します。",
+   "underline": "運動",
+   "options": [
+    "うんどう",
+    "うんとう",
+    "うんど",
+    "うんどん"
+   ],
+   "correct": 1,
+   "explanation": "「運動」は「うんどう」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "unvoices ど->と",
+    "drops the long vowel",
+    "adds ん"
+   ]
+  },
+  {
+   "id": "W05-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "死"
+   ],
+   "target_word": "死ぬ",
+   "reading": "しぬ",
+   "meaning": "to die",
+   "sentence": "セミは なつの おわりに 死ぬ そうです。",
+   "underline": "死ぬ",
+   "options": [
+    "じぬ",
+    "しぬ",
+    "しむ",
+    "しに"
+   ],
+   "correct": 2,
+   "explanation": "「死ぬ」は「しぬ」と読みます。",
+   "distractors": [
+    "voices し->じ",
+    "CORRECT",
+    "wrong ending む",
+    "wrong ending に"
+   ]
+  },
+  {
+   "id": "W05-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "始"
+   ],
+   "target_word": "はじめる",
+   "reading": "はじめる",
+   "meaning": "to begin (something)",
+   "sentence": "そろそろ かいぎを はじめる じかんです。",
+   "underline": "はじめる",
+   "options": [
+    "集める",
+    "教える",
+    "考える",
+    "始める"
+   ],
+   "correct": 4,
+   "explanation": "「はじめる」は「始める」と書きます。",
+   "distractors": [
+    "集める = あつめる, 'collect'",
+    "教える = おしえる, 'teach'",
+    "考える = かんがえる, 'think'",
+    "CORRECT: 始める = begin"
+   ]
+  },
+  {
+   "id": "W05-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "終"
+   ],
+   "target_word": "おわる",
+   "reading": "おわる",
+   "meaning": "to end",
+   "sentence": "この ドラマは らいしゅう おわる そうです。",
+   "underline": "おわる",
+   "options": [
+    "作る",
+    "知る",
+    "終わる",
+    "通る"
+   ],
+   "correct": 3,
+   "explanation": "「おわる」は「終わる」と書きます。",
+   "distractors": [
+    "作る = つくる, 'make'",
+    "知る = しる, 'know'",
+    "CORRECT: 終わる = end",
+    "通る = とおる, 'pass through'"
+   ]
+  },
+  {
+   "id": "W05-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "別"
+   ],
+   "target_word": "わかれる",
+   "reading": "わかれる",
+   "meaning": "to part; to say goodbye",
+   "sentence": "えきの まえで 友だちと わかれる のは さびしいです。",
+   "underline": "わかれる",
+   "options": [
+    "別れる",
+    "教える",
+    "始める",
+    "集める"
+   ],
+   "correct": 1,
+   "explanation": "「わかれる」は「別れる」と書きます。",
+   "distractors": [
+    "CORRECT: 別れる = part",
+    "教える = おしえる, 'teach'",
+    "始める = はじめる, 'begin'",
+    "集める = あつめる, 'collect'"
+   ]
+  },
+  {
+   "id": "W05-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "物"
+   ],
+   "target_word": "しなもの",
+   "reading": "しなもの",
+   "meaning": "goods; article",
+   "sentence": "デパートには いろいろな しなものが あります。",
+   "underline": "しなもの",
+   "options": [
+    "生物",
+    "動物",
+    "見物",
+    "品物"
+   ],
+   "correct": 4,
+   "explanation": "「しなもの」は「品物」と書きます。",
+   "distractors": [
+    "生物 = せいぶつ, 'living thing'",
+    "動物 = どうぶつ, 'animal'",
+    "見物 = けんぶつ, 'sightseeing'",
+    "CORRECT: 品物 = goods"
+   ]
+  },
+  {
+   "id": "W05-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "計"
+   ],
+   "target_word": "計画",
+   "reading": "けいかく",
+   "meaning": "a plan",
+   "sentence": "なつやすみの りょこうの（　　）を たてました。",
+   "underline": "（　　）",
+   "options": [
+    "意見",
+    "計画",
+    "用事",
+    "時間"
+   ],
+   "correct": 2,
+   "explanation": "You 'make/set' a 計画 (plan) for a trip; an opinion, an errand, or time are not things you 立てる for a trip.",
+   "distractors": [
+    "opinion (no)",
+    "CORRECT: made a plan",
+    "errand (no)",
+    "time (no)"
+   ]
+  },
+  {
+   "id": "W05-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "特"
+   ],
+   "target_word": "特別",
+   "reading": "とくべつ",
+   "meaning": "special",
+   "grammar_note": "na-adjective",
+   "sentence": "きょうは たんじょうびなので、母が いつもとは ちがう（　　）ばんごはんを 作りました。",
+   "underline": "（　　）",
+   "options": [
+    "ふつうの",
+    "いつもの",
+    "特別な",
+    "おなじ"
+   ],
+   "correct": 3,
+   "explanation": "A dinner DIFFERENT from the usual one is a 特別な (special) dinner; 'ordinary', 'usual' and 'same' are all directly contradicted by 'いつもとは ちがう'.",
+   "distractors": [
+    "ordinary (contradicts 'different from usual')",
+    "usual (directly contradicts 'different from usual')",
+    "CORRECT: 特別な = special",
+    "same (contradicts 'different')"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W05-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "朝"
+   ],
+   "target_word": "朝食",
+   "reading": "ちょうしょく",
+   "meaning": "breakfast",
+   "sentence": "朝に 食べる 食事を（　　）と いいます。",
+   "underline": "（　　）",
+   "options": [
+    "朝食",
+    "ひるごはん",
+    "ばんごはん",
+    "おやつ"
+   ],
+   "correct": 1,
+   "explanation": "By definition, the meal eaten in the morning is called 朝食 (breakfast); lunch, dinner and a snack are eaten at other times.",
+   "distractors": [
+    "CORRECT: 朝食 = breakfast (the morning meal, by definition)",
+    "lunch (midday)",
+    "dinner (evening)",
+    "snack (between meals)"
+   ],
+   "review_status": "recheck-passed",
+   "review_flag": "TC-C01/TC-C03: デザート/lunch/dinner were only excluded by convention",
+   "review_fix": "switched to a definitional frame '朝に食べる食事を（）という'; only 朝食 fits by definition",
+   "recheck": "PASS",
+   "confidence": "high"
+  },
+  {
+   "id": "W05-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "運"
+   ],
+   "target_word": "運動して",
+   "reading": "うんどうして",
+   "meaning": "exercises",
+   "grammar_note": "",
+   "special": false,
+   "sentence": "あには まいにち こうえんで 運動して います。",
+   "underline": "運動して",
+   "options": [
+    "あには まいにち こうえんで 本を よんで います。",
+    "あには まいにち こうえんで ねて います。",
+    "あには まいにち こうえんで 食べて います。",
+    "あには まいにち こうえんで からだを うごかして います。"
+   ],
+   "correct": 4,
+   "explanation": "運動する means 'to exercise', which matches からだを うごかす (to move one's body).",
+   "distractors": [
+    "reads books (no)",
+    "is sleeping (no)",
+    "is eating (no)",
+    "CORRECT: moves the body = 運動する"
+   ]
+  },
+  {
+   "id": "W05-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "集"
+   ],
+   "target_word": "集めて",
+   "reading": "あつめて",
+   "meaning": "to gather/collect (transitive)",
+   "sentence": "むすこは 外国の コインを たくさん 集めて います。",
+   "underline": "集めて",
+   "options": [
+    "あづめて",
+    "しゅうめて",
+    "あつめて",
+    "あつまて"
+   ],
+   "correct": 3,
+   "explanation": "「集めて」は「あつめて」と読みます。",
+   "distractors": [
+    "wrong voicing づ",
+    "on-reading しゅう",
+    "CORRECT: あつめて = collect",
+    "confused with 集まって"
+   ]
+  },
+  {
+   "id": "W05-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "始"
+   ],
+   "target_word": "始めました",
+   "reading": "はじめました",
+   "meaning": "to begin (something)",
+   "sentence": "四月から あたらしい しごとを 始めました。",
+   "underline": "始めました",
+   "options": [
+    "はじまました",
+    "はじめました",
+    "しめました",
+    "はしめました"
+   ],
+   "correct": 2,
+   "explanation": "「始めました」は「はじめました」と読みます。",
+   "distractors": [
+    "confused with 始まりました",
+    "CORRECT: はじめました = began",
+    "on-reading し",
+    "wrong voicing し"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "あかい とりが とんで います。",
+   "underline": "とり",
+   "options": [
+    "いぬ",
+    "とり",
+    "さかな",
+    "むし"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "あたらしい くるまを かいました。",
+   "underline": "くるま",
+   "options": [
+    "車",
+    "東",
+    "来",
+    "事"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "えいがかんで えいがを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "見ます",
+    "のみます",
+    "はしります",
+    "かいます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この みせは よる おそくまで あいて います。",
+   "underline": "あいて",
+   "options": [
+    "この みせは よる しまって います。",
+    "この みせは よる ひらいて います。",
+    "この みせは よる やすんで います。",
+    "この みせは よる こんで います。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "はこぶ",
+   "underline": "はこぶ",
+   "options": [
+    "おもい にもつを へやまで はこびます。",
+    "がっこうで にほんごを はこびます。",
+    "あさ はやく はこびます。",
+    "つめたい みずを はこいで のみます。"
+   ],
+   "correct": 1
+  }
+ }
+}

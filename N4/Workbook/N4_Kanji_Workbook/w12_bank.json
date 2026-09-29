@@ -1,0 +1,458 @@
+{
+ "world": 12,
+ "world_title": "Summit",
+ "world_kanji": "冬昼茶弟牛魚兄犬妹姉漢",
+ "review": [
+  {
+   "id": "W12-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "漢"
+   ],
+   "target_word": "漢字",
+   "reading": "かんじ",
+   "meaning": "kanji; Chinese character",
+   "sentence": "あたらしい 漢字を ノートに 書いて おぼえます。",
+   "underline": "漢字",
+   "options": [
+    "かんじ",
+    "かんし",
+    "がんじ",
+    "かんじゃ"
+   ],
+   "correct": 1,
+   "explanation": "「漢字」は「かんじ」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "unvoices じ->し",
+    "voices か->が",
+    "adds ゃ"
+   ]
+  },
+  {
+   "id": "W12-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "兄",
+    "弟"
+   ],
+   "target_word": "兄弟",
+   "reading": "きょうだい",
+   "meaning": "siblings; brothers",
+   "sentence": "わたしは 三人 兄弟の 一ばん 上です。",
+   "underline": "兄弟",
+   "options": [
+    "きょうてい",
+    "きょだい",
+    "きょうだい",
+    "あにおとうと"
+   ],
+   "correct": 3,
+   "explanation": "「兄弟」は「きょうだい」と読みます。",
+   "distractors": [
+    "きょうてい: wrong final reading; 弟 is だい in きょうだい, not てい",
+    "drops the long vowel きょ",
+    "CORRECT: きょうだい = siblings",
+    "あにおとうと: both kun readings"
+   ]
+  },
+  {
+   "id": "W12-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "昼"
+   ],
+   "target_word": "昼間",
+   "reading": "ひるま",
+   "meaning": "daytime",
+   "sentence": "この 通りは 昼間でも しずかです。",
+   "underline": "昼間",
+   "options": [
+    "ひるかん",
+    "ひるあいだ",
+    "ちゅうま",
+    "ひるま"
+   ],
+   "correct": 4,
+   "explanation": "「昼間」は「ひるま」と読みます。",
+   "distractors": [
+    "on ちゅう+かん",
+    "kun ひる + あいだ",
+    "mixed reading",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W12-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "茶"
+   ],
+   "target_word": "茶色",
+   "reading": "ちゃいろ",
+   "meaning": "brown",
+   "sentence": "あの 茶色の かばんは わたしの です。",
+   "underline": "茶色",
+   "options": [
+    "ちゃいろ",
+    "さいろ",
+    "ちゃしょく",
+    "ちゃいる"
+   ],
+   "correct": 1,
+   "explanation": "「茶色」は「ちゃいろ」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "wrong on さ",
+    "on しょく for 色",
+    "wrong ending いる"
+   ]
+  },
+  {
+   "id": "W12-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "牛"
+   ],
+   "target_word": "牛肉",
+   "reading": "ぎゅうにく",
+   "meaning": "beef",
+   "sentence": "きょうの ばんごはんは 牛肉の りょうりです。",
+   "underline": "牛肉",
+   "options": [
+    "うしにく",
+    "ぎゅうにく",
+    "ぎゅにく",
+    "ぎゅうじく"
+   ],
+   "correct": 2,
+   "explanation": "「牛肉」は「ぎゅうにく」と読みます。",
+   "distractors": [
+    "kun うし for 牛",
+    "CORRECT",
+    "drops the long vowel ぎゅ",
+    "voices に->じ"
+   ]
+  },
+  {
+   "id": "W12-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "魚"
+   ],
+   "target_word": "きんぎょ",
+   "reading": "きんぎょ",
+   "meaning": "goldfish",
+   "sentence": "おまつりで きんぎょを すくいました。",
+   "underline": "きんぎょ",
+   "options": [
+    "魚屋",
+    "銀色",
+    "金色",
+    "金魚"
+   ],
+   "correct": 4,
+   "explanation": "「きんぎょ」は「金魚」と書きます。",
+   "distractors": [
+    "魚屋 = さかなや, 'fish shop'",
+    "銀色 = ぎんいろ, 'silver'",
+    "金色 = きんいろ, 'gold'",
+    "CORRECT: 金魚 = goldfish"
+   ]
+  },
+  {
+   "id": "W12-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "姉",
+    "妹"
+   ],
+   "target_word": "しまい",
+   "reading": "しまい",
+   "meaning": "sisters",
+   "sentence": "わたしたちは 三人 しまいです。",
+   "underline": "しまい",
+   "options": [
+    "兄弟",
+    "家族",
+    "姉妹",
+    "親子"
+   ],
+   "correct": 3,
+   "explanation": "「しまい」は「姉妹」と書きます。",
+   "distractors": [
+    "兄弟 = きょうだい, 'siblings'",
+    "家族 = かぞく, 'family'",
+    "CORRECT: 姉妹 = sisters",
+    "親子 = おやこ, 'parent and child'"
+   ]
+  },
+  {
+   "id": "W12-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "冬"
+   ],
+   "target_word": "ふゆやすみ",
+   "reading": "ふゆやすみ",
+   "meaning": "winter vacation",
+   "sentence": "ふゆやすみに かぞくで スキーに 行きます。",
+   "underline": "ふゆやすみ",
+   "options": [
+    "冬休み",
+    "夏休み",
+    "春休み",
+    "昼休み"
+   ],
+   "correct": 1,
+   "explanation": "「ふゆやすみ」は「冬休み」と書きます。",
+   "distractors": [
+    "CORRECT: 冬休み = winter vacation",
+    "夏休み = summer vacation",
+    "春休み = spring break",
+    "昼休み = lunch break"
+   ]
+  },
+  {
+   "id": "W12-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "犬"
+   ],
+   "target_word": "いぬ",
+   "reading": "いぬ",
+   "meaning": "dog",
+   "sentence": "こうえんで 大きな いぬと あそびました。",
+   "underline": "いぬ",
+   "options": [
+    "牛",
+    "鳥",
+    "魚",
+    "犬"
+   ],
+   "correct": 4,
+   "explanation": "「いぬ」は「犬」と書きます。",
+   "distractors": [
+    "牛 = うし, 'cow'",
+    "鳥 = とり, 'bird'",
+    "魚 = さかな, 'fish'",
+    "CORRECT: 犬 = dog"
+   ]
+  },
+  {
+   "id": "W12-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "昼"
+   ],
+   "target_word": "昼休み",
+   "reading": "ひるやすみ",
+   "meaning": "lunch break",
+   "sentence": "ひるごはんを 食べた あとの 学校の（　　）に、こうていで 友だちと あそびます。",
+   "underline": "（　　）",
+   "options": [
+    "夏休み",
+    "昼休み",
+    "朝食",
+    "運動会"
+   ],
+   "correct": 2,
+   "explanation": "The break right after lunch is 昼休み (the lunch break); not summer vacation, breakfast or a sports day.",
+   "distractors": [
+    "summer vacation",
+    "CORRECT: 昼休み = lunch break (right after lunch)",
+    "breakfast",
+    "a sports day"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W12-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "茶"
+   ],
+   "target_word": "お茶",
+   "reading": "おちゃ",
+   "meaning": "tea",
+   "sentence": "さむい 日は あたたかい（　　）を 飲むと ほっと します。",
+   "underline": "（　　）",
+   "options": [
+    "くだもの",
+    "ごはん",
+    "お茶",
+    "やさい"
+   ],
+   "correct": 3,
+   "explanation": "On a cold day you drink warm お茶 (tea); fruit, rice, and vegetables are eaten, not drunk warm.",
+   "distractors": [
+    "fruit (eaten, not drunk)",
+    "rice (eaten)",
+    "CORRECT: warm tea",
+    "vegetables (eaten)"
+   ]
+  },
+  {
+   "id": "W12-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "魚"
+   ],
+   "target_word": "魚",
+   "reading": "さかな",
+   "meaning": "fish",
+   "sentence": "うみで つった（　　）を、その ばで やいて 食べました。",
+   "underline": "（　　）",
+   "options": [
+    "魚",
+    "肉",
+    "やさい",
+    "くだもの"
+   ],
+   "correct": 1,
+   "explanation": "What you catch in the sea is 魚 (fish); meat, vegetables, and fruit are not caught in the sea.",
+   "distractors": [
+    "CORRECT: grilled the fish we caught",
+    "meat (not caught at sea)",
+    "vegetables (no)",
+    "fruit (no)"
+   ]
+  },
+  {
+   "id": "W12-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "兄",
+    "弟"
+   ],
+   "target_word": "三人兄弟",
+   "reading": "さんにんきょうだい",
+   "meaning": "three siblings",
+   "sentence": "わたしは 三人 兄弟です。",
+   "underline": "三人 兄弟",
+   "options": [
+    "わたしは ひとりっこです。",
+    "わたしには きょうだいが いません。",
+    "わたしには こどもが 三人 います。",
+    "わたしには きょうだいが 二人 います。"
+   ],
+   "correct": 4,
+   "explanation": "三人兄弟 = a family of three siblings, so besides me there are two others: きょうだいが 二人 います.",
+   "distractors": [
+    "only child (opposite)",
+    "no siblings (opposite)",
+    "those are my children, not siblings",
+    "CORRECT: two siblings besides me = 三人兄弟"
+   ]
+  },
+  {
+   "id": "W12-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "漢"
+   ],
+   "target_word": "漢字",
+   "reading": "かんじ",
+   "meaning": "kanji; Chinese character",
+   "sentence": "英語の 本には、漢字が 一つも ありません。",
+   "underline": "漢字",
+   "options": [
+    "かんし",
+    "がんじ",
+    "かんじ",
+    "かじ"
+   ],
+   "correct": 3,
+   "explanation": "「漢字」は「かんじ」と読みます。",
+   "distractors": [
+    "wrong voicing し",
+    "wrong first kana が",
+    "CORRECT: かんじ = kanji",
+    "missing ん"
+   ]
+  },
+  {
+   "id": "W12-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "冬"
+   ],
+   "target_word": "冬",
+   "reading": "ふゆ",
+   "meaning": "winter",
+   "sentence": "十二月から 二月ごろまでの いちばん さむい きせつを 冬と いいます。",
+   "underline": "冬",
+   "options": [
+    "ふうゆ",
+    "ふゆ",
+    "ふや",
+    "ぶゆ"
+   ],
+   "correct": 2,
+   "explanation": "「冬」は「ふゆ」と読みます。",
+   "distractors": [
+    "extra う",
+    "CORRECT: ふゆ = winter",
+    "wrong kana や",
+    "wrong voicing ぶ"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "にわで こどもが あそんで います。",
+   "underline": "こども",
+   "options": [
+    "おとな",
+    "こども",
+    "がくせい",
+    "せんせい"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "まいにち にほんごを べんきょうします。",
+   "underline": "べんきょう",
+   "options": [
+    "勉強",
+    "運動",
+    "質問",
+    "仕事"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "あさ おきて、かおを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "あらいます",
+    "たべます",
+    "はしります",
+    "かきます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この レストランは とても 有名です。",
+   "underline": "有名",
+   "options": [
+    "この レストランは だれも 知りません。",
+    "この レストランは みんな よく 知って います。",
+    "この レストランは とても 高いです。",
+    "この レストランは とても 新しいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "およぐ",
+   "underline": "およぐ",
+   "options": [
+    "なつに うみで およぎます。",
+    "がっこうまで あるいて およぎます。",
+    "ごはんを たくさん およぎます。",
+    "つめたい 水を およいで のみます。"
+   ],
+   "correct": 1
+  }
+ }
+}

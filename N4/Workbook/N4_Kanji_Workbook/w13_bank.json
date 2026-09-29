@@ -1,0 +1,473 @@
+{
+ "world": 13,
+ "world_title": "Hidden Shrine",
+ "world_kanji": "言手会目私立田社新力道口員安",
+ "review": [
+  {
+   "id": "W13-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "会",
+    "社"
+   ],
+   "target_word": "会社",
+   "reading": "かいしゃ",
+   "meaning": "company",
+   "sentence": "父は 大きな 会社で はたらいて います。",
+   "underline": "会社",
+   "options": [
+    "かいしゃ",
+    "かいしゃう",
+    "えしゃ",
+    "かいじゃ"
+   ],
+   "correct": 1,
+   "explanation": "「会社」は「かいしゃ」と読みます。",
+   "distractors": [
+    "CORRECT: かいしゃ = company",
+    "adds an extra う",
+    "wrong on え for 会",
+    "voices し->じ"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "新"
+   ],
+   "target_word": "新年",
+   "reading": "しんねん",
+   "meaning": "new year",
+   "sentence": "みんなで 新年の あいさつを しました。",
+   "underline": "新年",
+   "options": [
+    "しんとし",
+    "あらねん",
+    "しんねん",
+    "しねん"
+   ],
+   "correct": 3,
+   "explanation": "「新年」は「しんねん」と読みます。",
+   "distractors": [
+    "kun とし for 年",
+    "wrong reading あら",
+    "CORRECT: しんねん = new year",
+    "drops ん (しねん)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "道"
+   ],
+   "target_word": "道",
+   "reading": "みち",
+   "meaning": "road; way",
+   "sentence": "この 道を まっすぐ 行って ください。",
+   "underline": "道",
+   "options": [
+    "みつ",
+    "みち",
+    "まち",
+    "みぞ"
+   ],
+   "correct": 2,
+   "explanation": "「道」は「みち」と読みます。",
+   "distractors": [
+    "wrong reading みつ",
+    "CORRECT: みち = road",
+    "confuses with 町 (まち)",
+    "wrong reading みぞ"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "力"
+   ],
+   "target_word": "力",
+   "reading": "ちから",
+   "meaning": "strength; power",
+   "sentence": "重い にもつを 持ち上げる 力が ひつようです。",
+   "underline": "力",
+   "options": [
+    "ちかり",
+    "ちがら",
+    "ちらか",
+    "ちから"
+   ],
+   "correct": 4,
+   "explanation": "「力」は「ちから」と読みます。",
+   "distractors": [
+    "drops a mora (ちかり)",
+    "voices か->が (ちがら)",
+    "scrambled (ちらか)",
+    "CORRECT: ちから = strength"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "言"
+   ],
+   "target_word": "一言",
+   "reading": "ひとこと",
+   "meaning": "a single word",
+   "sentence": "先生は 一言も はなさないで、へやを 出ました。",
+   "underline": "一言",
+   "options": [
+    "ひとこと",
+    "いちごと",
+    "ひとげん",
+    "いっこと"
+   ],
+   "correct": 1,
+   "explanation": "「一言」は「ひとこと」と読みます。",
+   "distractors": [
+    "CORRECT: ひとこと = a (single) word",
+    "wrong いちごと",
+    "wrong ひとげん",
+    "wrong いっこと"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "手"
+   ],
+   "target_word": "てがみ",
+   "reading": "てがみ",
+   "meaning": "letter",
+   "sentence": "そぼに 長い てがみを 書きました。",
+   "underline": "てがみ",
+   "options": [
+    "手本",
+    "切手",
+    "名手",
+    "手紙"
+   ],
+   "correct": 4,
+   "explanation": "「てがみ」は「手紙」と書きます。",
+   "distractors": [
+    "手本 = てほん, 'model/example'",
+    "切手 = きって, 'postage stamp'",
+    "名手 = めいしゅ, 'expert'",
+    "CORRECT: 手紙 = letter"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "私",
+    "立"
+   ],
+   "target_word": "しりつ",
+   "reading": "しりつ",
+   "meaning": "private (school)",
+   "sentence": "いもうとは しりつの 中学校に 通って います。",
+   "underline": "しりつ",
+   "options": [
+    "国立",
+    "中立",
+    "私立",
+    "公立"
+   ],
+   "correct": 3,
+   "explanation": "「しりつ」は「私立」と書きます。",
+   "distractors": [
+    "国立 = こくりつ, 'national'",
+    "中立 = ちゅうりつ, 'neutral'",
+    "CORRECT: 私立 = private",
+    "公立 = こうりつ, 'public'"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "員"
+   ],
+   "target_word": "かいしゃいん",
+   "reading": "かいしゃいん",
+   "meaning": "company employee",
+   "sentence": "あには 東京で はたらく かいしゃいんです。",
+   "underline": "かいしゃいん",
+   "options": [
+    "会社員",
+    "銀行員",
+    "会員",
+    "店員"
+   ],
+   "correct": 1,
+   "explanation": "「かいしゃいん」は「会社員」と書きます。",
+   "distractors": [
+    "CORRECT: 会社員 = company employee",
+    "銀行員 = ぎんこういん, 'bank clerk'",
+    "会員 = かいいん, 'member'",
+    "店員 = てんいん, 'shop clerk'"
+   ],
+   "review_status": "automated-check-passed",
+   "review_flag": "TC-G09/TC-G10/TC-NAT01/TC-NAT02/TC-NAT06/TC-JLPT02: 東京の会社員 reads as a modifier relationship, not 'works as an employee in Tokyo'.",
+   "review_fix": "Rewrote the carrier to あには 東京で はたらく かいしゃいんです (働く in kana, out of W13 scope); underlined spelling target かいしゃいん unchanged."
+  },
+  {
+   "id": "W13-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "安"
+   ],
+   "target_word": "やすい",
+   "reading": "やすい",
+   "meaning": "cheap",
+   "sentence": "この 店の やさいは とても やすいです。",
+   "underline": "やすい",
+   "options": [
+    "高い",
+    "安い",
+    "古い",
+    "広い"
+   ],
+   "correct": 2,
+   "explanation": "「やすい」は「安い」と書きます。",
+   "distractors": [
+    "高い = たかい, 'expensive'",
+    "CORRECT: 安い = cheap",
+    "古い = ふるい, 'old'",
+    "広い = ひろい, 'wide'"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "田"
+   ],
+   "target_word": "田んぼ",
+   "reading": "たんぼ",
+   "meaning": "rice paddy",
+   "sentence": "水を 入れた（　　）で、のうかの 人が こめを つくって います。",
+   "underline": "（　　）",
+   "options": [
+    "はたけ",
+    "にわ",
+    "田んぼ",
+    "こうえん"
+   ],
+   "correct": 3,
+   "explanation": "Rice grows in a 田んぼ (rice paddy) flooded WITH WATER; a dry field, a garden or a park is not water-filled for rice.",
+   "distractors": [
+    "dry field (not flooded with water)",
+    "garden (not for rice)",
+    "CORRECT: 田んぼ = a water-filled rice paddy",
+    "park (not for growing)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "手"
+   ],
+   "target_word": "手",
+   "reading": "て",
+   "meaning": "hand",
+   "sentence": "ころんで、みぎの（　　）に けがを して、えんぴつが 持てなく なりました。",
+   "underline": "（　　）",
+   "options": [
+    "あたま",
+    "みみ",
+    "あし",
+    "手"
+   ],
+   "correct": 4,
+   "explanation": "You cannot HOLD a pencil, so the injured part is your 手 (hand); a head, ear or foot would not stop you holding one.",
+   "distractors": [
+    "head (you hold a pencil with a hand)",
+    "ear (you hold with a hand)",
+    "foot (you hold with a hand)",
+    "CORRECT: 手 = hand (holds the pencil)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "道"
+   ],
+   "target_word": "道",
+   "reading": "みち",
+   "meaning": "way; road",
+   "sentence": "えきへ 行く（　　）を まちがえて、ちがう ところに 出ました。",
+   "underline": "（　　）",
+   "options": [
+    "天気",
+    "道",
+    "名前",
+    "ねだん"
+   ],
+   "correct": 2,
+   "explanation": "Taking the wrong 道 (route) makes you come out somewhere else; a weather, name or price cannot be 'mistaken' into a wrong place.",
+   "distractors": [
+    "weather (does not lead somewhere)",
+    "CORRECT: 道 = the route (taking the wrong one leads elsewhere)",
+    "name (no)",
+    "price (no)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "安"
+   ],
+   "target_word": "安い",
+   "reading": "やすい",
+   "meaning": "cheap",
+   "sentence": "この カメラは とても 安いです。",
+   "underline": "安い",
+   "options": [
+    "この カメラは あまり お金を 出さなくても 買えます。",
+    "この カメラは とても 高いです。",
+    "この カメラは あたらしいです。",
+    "この カメラは 大きいです。"
+   ],
+   "correct": 1,
+   "explanation": "安い means 'cheap', i.e. you can buy it without paying much money.",
+   "distractors": [
+    "CORRECT: 安い = can buy without paying much",
+    "expensive (opposite)",
+    "new (unrelated)",
+    "big (unrelated)"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "目"
+   ],
+   "target_word": "目",
+   "reading": "め",
+   "meaning": "eye",
+   "sentence": "本を 読む ときは 目を 大切に して ください。",
+   "underline": "目",
+   "options": [
+    "がん",
+    "めん",
+    "め",
+    "もう"
+   ],
+   "correct": 3,
+   "explanation": "「目」は「め」と読みます。",
+   "distractors": [
+    "wrong reading がん",
+    "wrong reading めん",
+    "CORRECT: め = eye",
+    "wrong もう"
+   ],
+   "review_status": "automated-check-passed"
+  },
+  {
+   "id": "W13-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "口"
+   ],
+   "target_word": "出口",
+   "reading": "でぐち",
+   "meaning": "exit",
+   "sentence": "えいがかんの 出口は こちらです。",
+   "underline": "出口",
+   "options": [
+    "でくち",
+    "でぐち",
+    "しゅつくち",
+    "でこう"
+   ],
+   "correct": 2,
+   "explanation": "「出口」は「でぐち」と読みます。",
+   "distractors": [
+    "unvoiced くち",
+    "CORRECT: でぐち = exit",
+    "on しゅつ + くち",
+    "wrong reading こう"
+   ],
+   "review_status": "automated-check-passed"
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "にわで こどもが あそんで います。",
+   "underline": "こども",
+   "options": [
+    "おとな",
+    "こども",
+    "がくせい",
+    "せんせい"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "まいにち にほんごを べんきょうします。",
+   "underline": "べんきょう",
+   "options": [
+    "勉強",
+    "運動",
+    "質問",
+    "仕事"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "あさ おきて、かおを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "あらいます",
+    "たべます",
+    "はしります",
+    "かきます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この レストランは とても 有名です。",
+   "underline": "有名",
+   "options": [
+    "この レストランは だれも 知りません。",
+    "この レストランは みんな よく 知って います。",
+    "この レストランは とても 高いです。",
+    "この レストランは とても 新しいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "およぐ",
+   "underline": "およぐ",
+   "options": [
+    "なつに うみで およぎます。",
+    "がっこうまで あるいて およぎます。",
+    "ごはんを たくさん およぎます。",
+    "つめたい 水を およいで のみます。"
+   ],
+   "correct": 1
+  }
+ }
+}

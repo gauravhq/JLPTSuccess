@@ -1,0 +1,462 @@
+{
+ "world": 10,
+ "world_title": "Dragon's Keep",
+ "world_kanji": "風紙黒春赤青館屋色走秋夏",
+ "review": [
+  {
+   "id": "W10-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "風"
+   ],
+   "target_word": "台風",
+   "reading": "たいふう",
+   "meaning": "typhoon",
+   "sentence": "大きな 台風が 近づいて います。",
+   "underline": "台風",
+   "options": [
+    "たいふう",
+    "だいふう",
+    "たいかぜ",
+    "たいふ"
+   ],
+   "correct": 1,
+   "explanation": "「台風」は「たいふう」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices た->だ",
+    "kun かぜ for 風",
+    "drops the long vowel ふ"
+   ]
+  },
+  {
+   "id": "W10-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "屋"
+   ],
+   "target_word": "屋上",
+   "reading": "おくじょう",
+   "meaning": "rooftop",
+   "sentence": "デパートの 屋上に こうえんが あります。",
+   "underline": "屋上",
+   "options": [
+    "やじょう",
+    "おくうえ",
+    "おくじょう",
+    "やうえ"
+   ],
+   "correct": 3,
+   "explanation": "「屋上」は「おくじょう」と読みます。",
+   "distractors": [
+    "wrong on や for 屋",
+    "kun うえ for 上",
+    "CORRECT",
+    "both kun"
+   ]
+  },
+  {
+   "id": "W10-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "館"
+   ],
+   "target_word": "大使館",
+   "reading": "たいしかん",
+   "meaning": "embassy",
+   "sentence": "パスポートの ことで 大使館へ 行きました。",
+   "underline": "大使館",
+   "options": [
+    "たいしかん",
+    "だいしかん",
+    "たいしがん",
+    "たいつかいかん"
+   ],
+   "correct": 1,
+   "explanation": "「大使館」は「たいしかん」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "voices た->だ",
+    "voices か->が",
+    "kun つかい for 使"
+   ]
+  },
+  {
+   "id": "W10-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "色"
+   ],
+   "target_word": "特色",
+   "reading": "とくしょく",
+   "meaning": "a characteristic; feature",
+   "sentence": "この 学校の 特色は スポーツが さかんな ことです。",
+   "underline": "特色",
+   "options": [
+    "とくいろ",
+    "どくしょく",
+    "とくしき",
+    "とくしょく"
+   ],
+   "correct": 4,
+   "explanation": "「特色」は「とくしょく」と読みます。",
+   "distractors": [
+    "kun いろ for 色",
+    "voices と->ど",
+    "wrong on しき",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "W10-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "走"
+   ],
+   "target_word": "走者",
+   "reading": "そうしゃ",
+   "meaning": "a runner",
+   "sentence": "さいごの 走者が ゴールに つきました。",
+   "underline": "走者",
+   "options": [
+    "はしもの",
+    "そうもの",
+    "そうしゃ",
+    "そうじゃ"
+   ],
+   "correct": 3,
+   "explanation": "「走者」は「そうしゃ」と読みます。",
+   "distractors": [
+    "kun はし+もの",
+    "kun もの for 者",
+    "CORRECT",
+    "voices しゃ->じゃ"
+   ]
+  },
+  {
+   "id": "W10-M2-Q06",
+   "type": "orthography",
+   "target_kanji": [
+    "黒"
+   ],
+   "target_word": "くろい",
+   "reading": "くろい",
+   "meaning": "black",
+   "sentence": "あの 大きくて くろい かばんは 父の です。",
+   "underline": "くろい",
+   "options": [
+    "黒い",
+    "白い",
+    "赤い",
+    "青い"
+   ],
+   "correct": 1,
+   "explanation": "「くろい」は「黒い」と書きます。",
+   "distractors": [
+    "CORRECT: 黒い = black",
+    "白い = しろい, 'white'",
+    "赤い = あかい, 'red'",
+    "青い = あおい, 'blue'"
+   ]
+  },
+  {
+   "id": "W10-M2-Q07",
+   "type": "orthography",
+   "target_kanji": [
+    "紙"
+   ],
+   "target_word": "てがみ",
+   "reading": "てがみ",
+   "meaning": "a letter",
+   "sentence": "そぼに てがみを 書きました。",
+   "underline": "てがみ",
+   "options": [
+    "切手",
+    "上手",
+    "下手",
+    "手紙"
+   ],
+   "correct": 4,
+   "explanation": "「てがみ」は「手紙」と書きます。",
+   "distractors": [
+    "切手 = きって, 'stamp'",
+    "上手 = じょうず, 'skillful'",
+    "下手 = へた, 'unskillful'",
+    "CORRECT: 手紙 = letter"
+   ]
+  },
+  {
+   "id": "W10-M2-Q08",
+   "type": "orthography",
+   "target_kanji": [
+    "青"
+   ],
+   "target_word": "あおい",
+   "reading": "あおい",
+   "meaning": "blue",
+   "grammar_note": "i-adjective",
+   "sentence": "よく はれた 日の そらは とても あおいです。",
+   "underline": "あおい",
+   "options": [
+    "黒い",
+    "青い",
+    "赤い",
+    "明るい"
+   ],
+   "correct": 2,
+   "explanation": "「あおい」は「青い」と書きます。",
+   "distractors": [
+    "黒い = くろい, 'black'",
+    "CORRECT: 青い = blue",
+    "赤い = あかい, 'red'",
+    "明るい = あかるい, 'bright'"
+   ]
+  },
+  {
+   "id": "W10-M2-Q09",
+   "type": "orthography",
+   "target_kanji": [
+    "夏"
+   ],
+   "target_word": "なつ",
+   "reading": "なつ",
+   "meaning": "summer",
+   "sentence": "一年で いちばん あつい きせつは なつ です。",
+   "underline": "なつ",
+   "options": [
+    "春",
+    "秋",
+    "夏",
+    "風"
+   ],
+   "correct": 3,
+   "explanation": "「なつ」は「夏」と書きます。",
+   "distractors": [
+    "春 = はる, 'spring'",
+    "秋 = あき, 'autumn'",
+    "CORRECT: 夏 = summer",
+    "風 = かぜ, 'wind'"
+   ]
+  },
+  {
+   "id": "W10-M3-Q10",
+   "type": "context",
+   "target_kanji": [
+    "春"
+   ],
+   "target_word": "春休み",
+   "reading": "はるやすみ",
+   "meaning": "spring break",
+   "sentence": "四月の（　　）に かぞくで りょこうに 行きます。",
+   "underline": "（　　）",
+   "options": [
+    "夏休み",
+    "お正月",
+    "ふゆやすみ",
+    "春休み"
+   ],
+   "correct": 4,
+   "explanation": "April is spring, so 四月の（　）= 春休み (spring break); New Year, summer, and winter breaks fall in other seasons.",
+   "distractors": [
+    "summer break (not April)",
+    "New Year (January)",
+    "winter break",
+    "CORRECT: 春休み = spring break (April)"
+   ],
+   "review_status": "recheck-passed",
+   "review_flag": "TC-C01: 朝食/運動 are not periods that can follow 四月の",
+   "review_fix": "replaced 朝食/運動 with vacation periods; 春休み is the only April period",
+   "recheck": "PASS",
+   "confidence": "high"
+  },
+  {
+   "id": "W10-M3-Q11",
+   "type": "context",
+   "target_kanji": [
+    "夏"
+   ],
+   "target_word": "夏休み",
+   "reading": "なつやすみ",
+   "meaning": "summer vacation",
+   "sentence": "七月から 八月までの（　　）は とても 楽しみです。",
+   "underline": "（　　）",
+   "options": [
+    "夏休み",
+    "週まつ",
+    "日よう日",
+    "たんじょう日"
+   ],
+   "correct": 1,
+   "explanation": "The July-August period is 夏休み (summer vacation); a weekend, a Sunday, or a birthday are not that long summer period.",
+   "distractors": [
+    "CORRECT: summer vacation",
+    "a weekend (not a summer period)",
+    "a Sunday (not a summer period)",
+    "a birthday (not a summer period)"
+   ]
+  },
+  {
+   "id": "W10-M3-Q12",
+   "type": "context",
+   "target_kanji": [
+    "秋"
+   ],
+   "target_word": "秋",
+   "reading": "あき",
+   "meaning": "autumn",
+   "sentence": "だんだん すずしく なり、木の はが 赤く なる きせつは（　　）です。",
+   "underline": "（　　）",
+   "options": [
+    "春",
+    "秋",
+    "なつ",
+    "ふゆ"
+   ],
+   "correct": 2,
+   "explanation": "The season that gets cooler with red leaves is 秋 (autumn); spring/summer/winter are the other three seasons.",
+   "distractors": [
+    "spring (gets warmer)",
+    "CORRECT: 秋 = autumn (gets cooler, red leaves)",
+    "summer (hot, green leaves)",
+    "winter (cold, bare trees)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "W10-M4-Q13",
+   "type": "paraphrase",
+   "target_kanji": [
+    "屋"
+   ],
+   "target_word": "屋上",
+   "reading": "おくじょう",
+   "meaning": "rooftop",
+   "sentence": "この ビルの 屋上から、町が よく 見えます。",
+   "underline": "屋上",
+   "options": [
+    "この ビルの 一かいから、町が よく 見えます。",
+    "この ビルの となりから、町が よく 見えます。",
+    "この ビルの 中から、町が よく 見えます。",
+    "この ビルの いちばん 上から、町が よく 見えます。"
+   ],
+   "correct": 4,
+   "explanation": "屋上 = the rooftop, i.e. the top of a building; the first floor, next to it, or inside are different places.",
+   "distractors": [
+    "the first floor (a different place)",
+    "next to the building (different)",
+    "inside the building (different)",
+    "CORRECT: the top of the building = the rooftop (屋上)"
+   ]
+  },
+  {
+   "id": "W10-M5-Q14",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "走"
+   ],
+   "target_word": "走りました",
+   "reading": "はしりました",
+   "meaning": "to run",
+   "sentence": "うんどうかいで 百メートル 走りました。",
+   "underline": "走りました",
+   "options": [
+    "はしました",
+    "はしりました",
+    "そうりました",
+    "わしりました"
+   ],
+   "correct": 2,
+   "explanation": "「走りました」は「はしりました」と読みます。",
+   "distractors": [
+    "missing り",
+    "CORRECT: はしりました = ran",
+    "on-reading そう",
+    "wrong first kana わ"
+   ]
+  },
+  {
+   "id": "W10-M5-Q15",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "赤"
+   ],
+   "target_word": "赤く",
+   "reading": "あかく",
+   "meaning": "red",
+   "grammar_note": "i-adjective",
+   "sentence": "あきに なって、にわの りんごが 赤く なりました。",
+   "underline": "赤く",
+   "options": [
+    "あがく",
+    "せきく",
+    "あかく",
+    "あこく"
+   ],
+   "correct": 3,
+   "explanation": "「赤く」は「あかく」と読みます。",
+   "distractors": [
+    "wrong voicing が",
+    "on-reading せき",
+    "CORRECT: あかく = red",
+    "wrong vowel こ"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "やまの うえに ゆきが つもって います。",
+   "underline": "やま",
+   "options": [
+    "かわ",
+    "やま",
+    "うみ",
+    "そら"
+   ],
+   "correct": 2
+  },
+  "M2": {
+   "sentence": "あさ ろくじに おきます。",
+   "underline": "おきます",
+   "options": [
+    "起きます",
+    "休みます",
+    "動きます",
+    "開きます"
+   ],
+   "correct": 1
+  },
+  "M3": {
+   "sentence": "のどが かわいたので、つめたい 水を（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "のみます",
+    "たべます",
+    "よみます",
+    "ききます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "この かばんは とても かるいです。",
+   "underline": "かるい",
+   "options": [
+    "この かばんは とても おもいです。",
+    "この かばんは おもく ないです。",
+    "この かばんは とても 高いです。",
+    "この かばんは とても 大きいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "つかう",
+   "underline": "つかう",
+   "options": [
+    "りょうりに この なべを つかいます。",
+    "がっこうまで あるいて つかいます。",
+    "あさ はやく つかいます。",
+    "ごはんを たくさん つかいます。"
+   ],
+   "correct": 1
+  }
+ }
+}

@@ -1,0 +1,1001 @@
+{
+ "world": 0,
+ "world_title": "Cumulative Mock",
+ "world_kanji": "",
+ "review": [
+  {
+   "id": "MOCK-M1-Q01",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "図"
+   ],
+   "target_word": "地図",
+   "reading": "ちず",
+   "meaning": "map",
+   "sentence": "はじめての 町では、地図が やくに たちます。",
+   "underline": "地図",
+   "options": [
+    "ちづ",
+    "ちず",
+    "じず",
+    "ちと"
+   ],
+   "correct": 2,
+   "explanation": "「地図」は「ちず」と読みます。",
+   "distractors": [
+    "wrong kana づ",
+    "CORRECT",
+    "voices ち->じ",
+    "wrong reading と"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q02",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "地",
+    "下"
+   ],
+   "target_word": "地下",
+   "reading": "ちか",
+   "meaning": "basement; underground",
+   "sentence": "デパートの 地下で おべんとうを 買いました。",
+   "underline": "地下",
+   "options": [
+    "じか",
+    "ちげ",
+    "ちが",
+    "ちか"
+   ],
+   "correct": 4,
+   "explanation": "「地下」は「ちか」と読みます。",
+   "distractors": [
+    "voices ち->じ",
+    "voices か->げ",
+    "voices か->が",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q03",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "音",
+    "楽"
+   ],
+   "target_word": "音楽",
+   "reading": "おんがく",
+   "meaning": "music",
+   "sentence": "へやで しずかな 音楽を 聞きながら 本を 読みます。",
+   "underline": "音楽",
+   "options": [
+    "おんがく",
+    "おんかく",
+    "いんがく",
+    "おんが"
+   ],
+   "correct": 1,
+   "explanation": "「音楽」は「おんがく」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "unvoices が->か",
+    "wrong on いん",
+    "drops く"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q04",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "用",
+    "意"
+   ],
+   "target_word": "用意",
+   "reading": "ようい",
+   "meaning": "preparation",
+   "sentence": "あしたの りょこうの 用意を します。",
+   "underline": "用意",
+   "options": [
+    "よい",
+    "ようえ",
+    "ようい",
+    "ような"
+   ],
+   "correct": 3,
+   "explanation": "「用意」は「ようい」と読みます。",
+   "distractors": [
+    "drops the long vowel",
+    "wrong 2nd え",
+    "CORRECT",
+    "wrong 2nd な"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q05",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "会",
+    "話"
+   ],
+   "target_word": "会話",
+   "reading": "かいわ",
+   "meaning": "conversation",
+   "sentence": "友だちと 日本語で 会話を たのしみます。",
+   "underline": "会話",
+   "options": [
+    "かいは",
+    "かいわ",
+    "かいご",
+    "えわ"
+   ],
+   "correct": 2,
+   "explanation": "「会話」は「かいわ」と読みます。",
+   "distractors": [
+    "wrong reading は",
+    "CORRECT",
+    "wrong on ご",
+    "kun え for 会"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q06",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "院"
+   ],
+   "target_word": "病院",
+   "reading": "びょういん",
+   "meaning": "hospital",
+   "sentence": "けがを して、近くの 病院へ 行きました。",
+   "underline": "病院",
+   "options": [
+    "びょういん",
+    "びょいん",
+    "びょうえん",
+    "へいいん"
+   ],
+   "correct": 1,
+   "explanation": "「病院」は「びょういん」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "drops long vowel",
+    "wrong えん",
+    "wrong on へい"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q07",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "館",
+    "旅"
+   ],
+   "target_word": "旅館",
+   "reading": "りょかん",
+   "meaning": "traditional inn",
+   "sentence": "おんせんの 旅館は とても きれいでした。",
+   "underline": "旅館",
+   "options": [
+    "りょうかん",
+    "たびかん",
+    "りょがん",
+    "りょかん"
+   ],
+   "correct": 4,
+   "explanation": "「旅館」は「りょかん」と読みます。",
+   "distractors": [
+    "adds long vowel りょう",
+    "kun たび",
+    "voices か->が",
+    "CORRECT"
+   ]
+  },
+  {
+   "id": "MOCK-M1-Q08",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "特",
+    "急"
+   ],
+   "target_word": "特急",
+   "reading": "とっきゅう",
+   "meaning": "limited express (train)",
+   "sentence": "この えきに 特急は とまりません。",
+   "underline": "特急",
+   "options": [
+    "とくきゅう",
+    "どっきゅう",
+    "とっきゅう",
+    "とっきゅ"
+   ],
+   "correct": 3,
+   "explanation": "「特急」は「とっきゅう」と読みます。",
+   "distractors": [
+    "no sokuon とく",
+    "voices と->ど",
+    "CORRECT",
+    "drops the long vowel"
+   ],
+   "review_status": "revised",
+   "review_flag": "TC-X09/TC-CH03: the English gloss read 'express train', which is what 急行 means. 特急 and 急行 are different JR service classes, so the item erased a distinction the kanji cards (特 / 急) already make correctly.",
+   "review_fix": "Gloss aligned to the reviewed card wording 'limited express (train)'. Japanese stem, options, keyed answer, explanation and distractor reasons are UNCHANGED."
+  },
+  {
+   "id": "MOCK-M1-Q09",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "親",
+    "切"
+   ],
+   "target_word": "親切",
+   "reading": "しんせつ",
+   "meaning": "kind; kindness",
+   "sentence": "あの みせの 人は だれにでも とても 親切です。",
+   "underline": "親切",
+   "options": [
+    "しんせつ",
+    "しんせち",
+    "じんせつ",
+    "しんぜつ"
+   ],
+   "correct": 1,
+   "explanation": "「親切」は「しんせつ」と読みます。",
+   "distractors": [
+    "CORRECT",
+    "wrong 2nd せち",
+    "voices し->じ",
+    "voices せ->ぜ"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q10",
+   "type": "orthography",
+   "target_kanji": [
+    "走"
+   ],
+   "target_word": "はしる",
+   "reading": "はしる",
+   "meaning": "to run",
+   "sentence": "けんこうの ために、まいあさ こうえんを はしる ように して います。",
+   "underline": "はしる",
+   "options": [
+    "起きる",
+    "走る",
+    "通る",
+    "送る"
+   ],
+   "correct": 2,
+   "explanation": "「はしる」は「走る」と書きます。",
+   "distractors": [
+    "起きる おきる, 'get up'",
+    "CORRECT: 走る = run",
+    "通る とおる, 'pass'",
+    "送る おくる, 'send'"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q11",
+   "type": "orthography",
+   "target_kanji": [
+    "集"
+   ],
+   "target_word": "あつめる",
+   "reading": "あつめる",
+   "meaning": "to collect",
+   "sentence": "むすこは きれいな いしを あつめる のが すきです。",
+   "underline": "あつめる",
+   "options": [
+    "始める",
+    "教える",
+    "考える",
+    "集める"
+   ],
+   "correct": 4,
+   "explanation": "「あつめる」は「集める」と書きます。",
+   "distractors": [
+    "始める はじめる",
+    "教える おしえる",
+    "考える かんがえる",
+    "CORRECT: 集める"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q12",
+   "type": "orthography",
+   "target_kanji": [
+    "考"
+   ],
+   "target_word": "かんがえる",
+   "reading": "かんがえる",
+   "meaning": "to think",
+   "sentence": "テストに 出た もんだいの こたえを、よく かんがえる ことが たいせつです。",
+   "underline": "かんがえる",
+   "options": [
+    "教える",
+    "答える",
+    "考える",
+    "集める"
+   ],
+   "correct": 3,
+   "explanation": "「かんがえる」は「考える」と書きます。",
+   "distractors": [
+    "教える おしえる, 'teach'",
+    "答える こたえる, 'answer'",
+    "CORRECT: 考える = think",
+    "集める あつめる, 'collect'"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q13",
+   "type": "orthography",
+   "target_kanji": [
+    "高"
+   ],
+   "target_word": "たかい",
+   "reading": "たかい",
+   "meaning": "tall; high",
+   "grammar_note": "i-adjective",
+   "sentence": "えきの まえの ビルは とても たかいです。",
+   "underline": "たかい",
+   "options": [
+    "高い",
+    "安い",
+    "近い",
+    "重い"
+   ],
+   "correct": 1,
+   "explanation": "「たかい」は「高い」と書きます。",
+   "distractors": [
+    "CORRECT: 高い = tall",
+    "安い やすい, 'cheap'",
+    "近い ちかい, 'near'",
+    "重い おもい, 'heavy'"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q14",
+   "type": "orthography",
+   "target_kanji": [
+    "売"
+   ],
+   "target_word": "うる",
+   "reading": "うる",
+   "meaning": "to sell",
+   "sentence": "この 店では まいあさ しんせんな やさいを うる そうです。",
+   "underline": "うる",
+   "options": [
+    "作る",
+    "売る",
+    "知る",
+    "通る"
+   ],
+   "correct": 2,
+   "explanation": "「うる」は「売る」と書きます。",
+   "distractors": [
+    "作る つくる",
+    "CORRECT: 売る",
+    "知る しる",
+    "通る とおる"
+   ]
+  },
+  {
+   "id": "MOCK-M2-Q15",
+   "type": "orthography",
+   "target_kanji": [
+    "帰"
+   ],
+   "target_word": "かえる",
+   "reading": "かえる",
+   "meaning": "to go home",
+   "sentence": "しごとが おわって、うちに かえる ところです。",
+   "underline": "かえる",
+   "options": [
+    "売る",
+    "走る",
+    "通る",
+    "帰る"
+   ],
+   "correct": 4,
+   "explanation": "「かえる」は「帰る」と書きます。",
+   "distractors": [
+    "売る うる",
+    "走る はしる",
+    "通る とおる",
+    "CORRECT: 帰る"
+   ]
+  },
+  {
+   "id": "MOCK-M3-Q16",
+   "type": "context",
+   "target_kanji": [
+    "注"
+   ],
+   "target_word": "注意",
+   "reading": "ちゅうい",
+   "meaning": "caution",
+   "sentence": "車が 多くて あぶないですから、よく（　　）して 道を わたって ください。",
+   "underline": "（　　）",
+   "options": [
+    "そうじ",
+    "しつもん",
+    "注意",
+    "れんしゅう"
+   ],
+   "correct": 3,
+   "explanation": "To cross a road busy with cars you must 注意 (pay attention); cleaning, asking a question or practising cannot express traffic caution.",
+   "distractors": [
+    "clean (cannot mean traffic caution)",
+    "ask a question (no)",
+    "CORRECT: 注意 = pay attention (crossing a busy road)",
+    "practice (no)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q17",
+   "type": "context",
+   "target_kanji": [
+    "運"
+   ],
+   "target_word": "運動",
+   "reading": "うんどう",
+   "meaning": "exercise",
+   "sentence": "からだを うごかす ために、まいあさ（　　）を はじめました。",
+   "underline": "（　　）",
+   "options": [
+    "運動",
+    "家事",
+    "用事",
+    "勉強"
+   ],
+   "correct": 1,
+   "explanation": "To move the body you start 運動 (exercise); housework, errands and study do not move the body.",
+   "distractors": [
+    "CORRECT: 運動 = exercise (moves the body)",
+    "housework",
+    "errands",
+    "study"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q18",
+   "type": "context",
+   "target_kanji": [
+    "切"
+   ],
+   "target_word": "切手",
+   "reading": "きって",
+   "meaning": "a postage stamp",
+   "sentence": "てがみを おくる ために、ゆうびんきょくで 買った（　　）を はって、ポストに 入れました。",
+   "underline": "（　　）",
+   "options": [
+    "はがき",
+    "ふうとう",
+    "シール",
+    "切手"
+   ],
+   "correct": 4,
+   "explanation": "To SEND a letter you stick a 切手 (stamp) on it; a postcard, envelope or sticker is not the postage you attach to mail it.",
+   "distractors": [
+    "a postcard (not stuck onto a letter)",
+    "an envelope (holds the letter)",
+    "a sticker (not for mailing)",
+    "CORRECT: 切手 = a stamp (stuck on to send the letter)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q19",
+   "type": "context",
+   "target_kanji": [
+    "味"
+   ],
+   "target_word": "意味",
+   "reading": "いみ",
+   "meaning": "meaning",
+   "sentence": "きょうかしょに 出て きた ことばが 何を あらわすか、その（　　）が わかりません。",
+   "underline": "（　　）",
+   "options": [
+    "意見",
+    "意味",
+    "用意",
+    "問題"
+   ],
+   "correct": 2,
+   "explanation": "What a word represents is its 意味 (meaning); an opinion, preparation or problem is not what a word represents.",
+   "distractors": [
+    "opinion",
+    "CORRECT: 意味 = meaning (what a word represents)",
+    "preparation",
+    "problem"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q20",
+   "type": "context",
+   "target_kanji": [
+    "質"
+   ],
+   "target_word": "質問",
+   "reading": "しつもん",
+   "meaning": "a question",
+   "sentence": "わからない ところが あったので、先生に（　　）を しに 行きました。",
+   "underline": "（　　）",
+   "options": [
+    "そうじ",
+    "へんじ",
+    "質問",
+    "りょうり"
+   ],
+   "correct": 3,
+   "explanation": "When you don't understand something you go to ask the teacher a 質問 (question); not cleaning, a reply or cooking.",
+   "distractors": [
+    "cleaning",
+    "a reply (you ask, not reply, when you don't understand)",
+    "CORRECT: 質問 = a question (about what you didn't understand)",
+    "cooking"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q21",
+   "type": "context",
+   "target_kanji": [
+    "切"
+   ],
+   "target_word": "大切",
+   "reading": "たいせつ",
+   "meaning": "precious; important",
+   "grammar_note": "na-adjective",
+   "sentence": "かぞくは わたしに とって いちばん（　　）な ものです。",
+   "underline": "（　　）",
+   "options": [
+    "大切",
+    "しずか",
+    "べんり",
+    "ひま"
+   ],
+   "correct": 1,
+   "explanation": "Family is the most 大切 (precious) thing; quiet/convenient/free-time do not describe how much it matters.",
+   "distractors": [
+    "CORRECT: precious",
+    "quiet",
+    "convenient",
+    "free"
+   ]
+  },
+  {
+   "id": "MOCK-M3-Q22",
+   "type": "context",
+   "target_kanji": [
+    "題"
+   ],
+   "target_word": "問題",
+   "reading": "もんだい",
+   "meaning": "problem; question",
+   "sentence": "きのうの テストの さいごの（　　）は、こたえを 出す ために むずかしい けいさんが ひつようでした。",
+   "underline": "（　　）",
+   "options": [
+    "話題",
+    "答え",
+    "意見",
+    "問題"
+   ],
+   "correct": 4,
+   "explanation": "A test item that needs a calculation to answer is a 問題 (problem); a topic, an answer or an opinion is not the thing you solve.",
+   "distractors": [
+    "a topic (no calculation)",
+    "an answer (you calculate to get it)",
+    "an opinion (no calculation)",
+    "CORRECT: 問題 = a test problem (needs a calculation to answer)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q23",
+   "type": "context",
+   "target_kanji": [
+    "親"
+   ],
+   "target_word": "親切",
+   "reading": "しんせつ",
+   "meaning": "kind",
+   "grammar_note": "na-adjective",
+   "sentence": "道が わからない わたしに、何度も やさしく おしえて くれました。その 店の 人は とても（　　）人です。",
+   "underline": "（　　）",
+   "options": [
+    "つめたい",
+    "親切",
+    "こわい",
+    "しずか"
+   ],
+   "correct": 2,
+   "explanation": "Teaching kindly again and again shows the person is 親切 (kind); cold, scary or quiet is contradicted by that behaviour.",
+   "distractors": [
+    "cold/unkind (contradicted by the kindness)",
+    "CORRECT: 親切 = kind (taught kindly, many times)",
+    "scary (contradicted)",
+    "quiet (does not follow)"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M3-Q24",
+   "type": "context",
+   "target_kanji": [
+    "料"
+   ],
+   "target_word": "料理",
+   "reading": "りょうり",
+   "meaning": "cooking; a dish",
+   "sentence": "母は 中国の（　　）を 作るのが とくいです。",
+   "underline": "（　　）",
+   "options": [
+    "運動",
+    "家事",
+    "料理",
+    "そうじ"
+   ],
+   "correct": 3,
+   "explanation": "Chinese 料理 (cooking/dishes) is what mother makes; exercise/housework/cleaning are not 'made'.",
+   "distractors": [
+    "exercise",
+    "housework",
+    "CORRECT: cooking",
+    "cleaning"
+   ]
+  },
+  {
+   "id": "MOCK-M3-Q25",
+   "type": "context",
+   "target_kanji": [
+    "有"
+   ],
+   "target_word": "有名",
+   "reading": "ゆうめい",
+   "meaning": "famous",
+   "grammar_note": "na-adjective",
+   "sentence": "この 町は ふるい おしろが あり、ぜんこくの 人が 名前を 知って いるほど（　　）です。",
+   "underline": "（　　）",
+   "options": [
+    "有名",
+    "大切",
+    "元気",
+    "親切"
+   ],
+   "correct": 1,
+   "explanation": "A town whose name everyone nationwide knows is 有名 (famous); important, energetic or kind does not follow from that.",
+   "distractors": [
+    "CORRECT: 有名 = famous (everyone knows its name)",
+    "important",
+    "energetic",
+    "kind"
+   ],
+   "review_status": "revised"
+  },
+  {
+   "id": "MOCK-M4-Q26",
+   "type": "paraphrase",
+   "target_kanji": [
+    "多"
+   ],
+   "target_word": "多い",
+   "reading": "おおい",
+   "meaning": "many",
+   "grammar_note": "i-adjective",
+   "sentence": "この レストランは いつも おきゃくが 多いです。",
+   "underline": "多い",
+   "options": [
+    "この レストランは いつも すいて います。",
+    "この レストランは いつも しずかです。",
+    "この レストランは いつも ひまです。",
+    "この レストランは いつも こんで います。"
+   ],
+   "correct": 4,
+   "explanation": "お客が多い (many customers) means the place こんで いる (is crowded).",
+   "distractors": [
+    "is empty (opposite)",
+    "is quiet (no)",
+    "is not busy (no)",
+    "CORRECT: is crowded = 多い"
+   ]
+  },
+  {
+   "id": "MOCK-M4-Q27",
+   "type": "paraphrase",
+   "target_kanji": [
+    "近"
+   ],
+   "target_word": "あぶない",
+   "reading": "あぶない",
+   "meaning": "dangerous",
+   "grammar_note": "i-adjective",
+   "sentence": "よるの この 道は くらくて あぶないです。",
+   "underline": "あぶない",
+   "options": [
+    "よるの この 道は くらくて あんぜんです。",
+    "よるの この 道は くらくて きけんです。",
+    "よるの この 道は くらくて しずかです。",
+    "よるの この 道は くらくて あかるいです。"
+   ],
+   "correct": 2,
+   "explanation": "あぶない (dangerous) matches きけん (perilous).",
+   "distractors": [
+    "safe (opposite)",
+    "CORRECT: perilous = あぶない",
+    "quiet (no)",
+    "bright (no)"
+   ]
+  },
+  {
+   "id": "MOCK-M4-Q28",
+   "type": "paraphrase",
+   "target_kanji": [
+    "帰"
+   ],
+   "target_word": "帰って",
+   "reading": "かえって",
+   "meaning": "to go home; to return",
+   "sentence": "父は まだ 会社から 家に 帰って いません。",
+   "underline": "帰って",
+   "options": [
+    "父は 家に 帰りたく ないと 言って います。",
+    "父は まだ 家を 出て いません。",
+    "父は まだ 家に もどって いません。",
+    "父は もう 家に 来て います。"
+   ],
+   "correct": 3,
+   "explanation": "帰る (to go home) matches もどる (to return); the wrong options differ - not wanting to go home, not having left, or already being home.",
+   "distractors": [
+    "says he doesn't want to go home (different)",
+    "hasn't left (opposite)",
+    "CORRECT: hasn't returned = 帰る",
+    "has come home (opposite)"
+   ]
+  },
+  {
+   "id": "MOCK-M4-Q29",
+   "type": "paraphrase",
+   "target_kanji": [
+    "花"
+   ],
+   "target_word": "きれい",
+   "reading": "きれい",
+   "meaning": "beautiful; clean",
+   "grammar_note": "na-adjective",
+   "sentence": "あの こうえんは 花が いっぱいで、とても きれいです。",
+   "underline": "きれい",
+   "options": [
+    "あの こうえんは 花が いっぱいで、とても うつくしいです。",
+    "あの こうえんは 花が いっぱいで、とても きたないです。",
+    "あの こうえんは 花が いっぱいで、とても せまいです。",
+    "あの こうえんは 花が いっぱいで、とても ふるいです。"
+   ],
+   "correct": 1,
+   "explanation": "きれい (beautiful) matches うつくしい.",
+   "distractors": [
+    "CORRECT: beautiful = きれい",
+    "dirty (opposite)",
+    "narrow (no)",
+    "old (no)"
+   ]
+  },
+  {
+   "id": "MOCK-M4-Q30",
+   "type": "paraphrase",
+   "target_kanji": [
+    "兄"
+   ],
+   "target_word": "とくい",
+   "reading": "とくい",
+   "meaning": "good at",
+   "grammar_note": "na-adjective",
+   "sentence": "兄は すいえいが とくいです。",
+   "underline": "とくい",
+   "options": [
+    "兄は すいえいが にがてです。",
+    "兄は すいえいが きらいです。",
+    "兄は すいえいが へたです。",
+    "兄は すいえいが 上手です。"
+   ],
+   "correct": 4,
+   "explanation": "とくい (good at) matches 上手 (skillful).",
+   "distractors": [
+    "poor at (opposite)",
+    "dislikes (no)",
+    "unskillful (opposite)",
+    "CORRECT: skillful = とくい"
+   ]
+  },
+  {
+   "id": "MOCK-M5-Q31",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "出"
+   ],
+   "target_word": "出します",
+   "reading": "だします",
+   "meaning": "to put/take out (transitive)",
+   "sentence": "まいあさ、家の 前に ゴミを 出します。",
+   "underline": "出します",
+   "options": [
+    "しゅつします",
+    "だします",
+    "だめします",
+    "ではします"
+   ],
+   "correct": 2,
+   "explanation": "「出します」は「だします」と読みます。",
+   "distractors": [
+    "on-reading しゅつ",
+    "CORRECT: だします = put out",
+    "wrong kana め",
+    "confused with 出ます(でます)"
+   ]
+  },
+  {
+   "id": "MOCK-M5-Q32",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "安"
+   ],
+   "target_word": "安心",
+   "reading": "あんしん",
+   "meaning": "relief; peace of mind",
+   "grammar_note": "na-adjective",
+   "sentence": "こどもが ひとりで ぶじに 家に 帰って きて、安心しました。",
+   "underline": "安心",
+   "options": [
+    "あんちん",
+    "やすしん",
+    "あんしん",
+    "あんぜん"
+   ],
+   "correct": 3,
+   "explanation": "「安心」は「あんしん」と読みます。",
+   "distractors": [
+    "wrong voicing ち",
+    "kun-reading やす",
+    "CORRECT: あんしん = relief",
+    "reads 安全 (あんぜん), a different word"
+   ]
+  },
+  {
+   "id": "MOCK-M5-Q33",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "入"
+   ],
+   "target_word": "入れました",
+   "reading": "いれました",
+   "meaning": "to put in (transitive)",
+   "sentence": "コーヒーに さとうを たくさん 入れました。",
+   "underline": "入れました",
+   "options": [
+    "いれました",
+    "いりました",
+    "にゅうれました",
+    "はいれました"
+   ],
+   "correct": 1,
+   "explanation": "「入れました」は「いれました」と読みます。",
+   "distractors": [
+    "CORRECT: いれました = put in",
+    "confused with 入りました (entered)",
+    "on-reading にゅう",
+    "wrong form はい"
+   ]
+  },
+  {
+   "id": "MOCK-M5-Q34",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "借"
+   ],
+   "target_word": "借りました",
+   "reading": "かりました",
+   "meaning": "to borrow",
+   "sentence": "本を わすれたので、としょかんで 一さつ 借りました。",
+   "underline": "借りました",
+   "options": [
+    "かしました",
+    "しゃくりました",
+    "かりめました",
+    "かりました"
+   ],
+   "correct": 4,
+   "explanation": "「借りました」は「かりました」と読みます。",
+   "distractors": [
+    "reads 貸しました (lent), the opposite verb",
+    "on-reading しゃく",
+    "wrong kana め",
+    "CORRECT: かりました = borrowed"
+   ]
+  },
+  {
+   "id": "MOCK-M5-Q35",
+   "type": "kanji_reading",
+   "target_kanji": [
+    "動"
+   ],
+   "target_word": "動きます",
+   "reading": "うごきます",
+   "meaning": "to move; to work (of a machine)",
+   "sentence": "父の 古い 時計は、今も まだ よく 動きます。",
+   "underline": "動きます",
+   "options": [
+    "うごします",
+    "うごきます",
+    "どうきます",
+    "うこきます"
+   ],
+   "correct": 2,
+   "explanation": "「動きます」は「うごきます」と読みます。",
+   "distractors": [
+    "wrong kana し",
+    "CORRECT: うごきます = moves/runs",
+    "on-reading どう",
+    "wrong voicing こ"
+   ]
+  }
+ ],
+ "examples": {
+  "M1": {
+   "sentence": "つくえの 上に えんぴつが あります。",
+   "underline": "上",
+   "options": [
+    "うえ",
+    "した",
+    "なか",
+    "そと"
+   ],
+   "correct": 1
+  },
+  "M2": {
+   "sentence": "あかい くつを かいました。",
+   "underline": "あかい",
+   "options": [
+    "白い",
+    "赤い",
+    "黒い",
+    "青い"
+   ],
+   "correct": 2
+  },
+  "M3": {
+   "sentence": "バスていで バスを（　　）。",
+   "underline": "（　　）",
+   "options": [
+    "まちます",
+    "のみます",
+    "たべます",
+    "よみます"
+   ],
+   "correct": 1
+  },
+  "M4": {
+   "sentence": "あの 人は とても しんせつです。",
+   "underline": "しんせつ",
+   "options": [
+    "あの 人は とても つめたいです。",
+    "あの 人は とても やさしいです。",
+    "あの 人は とても こわいです。",
+    "あの 人は とても わかいです。"
+   ],
+   "correct": 2
+  },
+  "M5": {
+   "sentence": "つかう",
+   "underline": "つかう",
+   "options": [
+    "この ペンを つかっても いいですか。",
+    "がっこうまで あるいて つかいます。",
+    "あさ はやく つかいます。",
+    "ごはんを たくさん つかいます。"
+   ],
+   "correct": 1
+  }
+ }
+}
