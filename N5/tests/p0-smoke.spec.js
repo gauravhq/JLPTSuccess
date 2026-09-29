@@ -51,8 +51,12 @@ test.describe('P0 smoke - core navigation', () => {
     // Brand-link visible wordmark is just "N5" + SVG mark since
     // commit a91bb68 (2026-05-04 "unify brand mark with landing page").
     // The "JLPT" branding lives in the page <title> + aria-label.
-    await expect(page.locator('.brand-link')).toContainText('N5');
-    await expect(page.locator('.brand-link')).toHaveAttribute('aria-label', /JLPT/i);
+    // The header has TWO .brand-link anchors since the 2026-05-04 levels
+    // feature: the JLPTSuccess level-home mark (aria-label "JLPTSuccess
+    // home, …") and the "N5" wordmark (aria-label "N5 home"). Target each
+    // explicitly so the strict-mode locator resolves to a single element.
+    await expect(page.locator('.brand-link[aria-label="N5 home"]')).toContainText('N5');
+    await expect(page.locator('.brand-link[aria-label*="JLPTSuccess"]')).toHaveAttribute('aria-label', /JLPT/i);
     // Homepage was restructured ~2026-05-09: marketing-style hero
     // dropped; section affordances now lead with `.section-label-text`
     // chips. v1.17.10 (2026-05-27) further dropped the lower three

@@ -21,11 +21,15 @@ test.describe('Branding empty-scaffold defaults — IMP-003', () => {
     // level code "N5" + the 5-bar SVG mark; the "JLPT" prefix lives in
     // the page title + the aria-label. Defensive: assert all three.
     await expect(page).toHaveTitle(/JLPT N5/);
-    await expect(page.locator('.brand-link')).toBeVisible();
-    const brandText = await page.locator('.brand-link').innerText();
+    // Two .brand-link anchors since the levels feature (2026-05-04): the
+    // JLPTSuccess level-home mark (aria-label "JLPTSuccess home, …") and the
+    // "N5" wordmark (aria-label "N5 home"). Target each explicitly.
+    const n5Brand = page.locator('.brand-link[aria-label="N5 home"]');
+    await expect(n5Brand).toBeVisible();
+    const brandText = await n5Brand.innerText();
     expect(brandText.trim().length, 'brand text should not be empty').toBeGreaterThan(0);
     expect(brandText, 'visible wordmark should be the level code').toMatch(/N5/);
-    const ariaLabel = await page.locator('.brand-link').getAttribute('aria-label');
+    const ariaLabel = await page.locator('.brand-link[aria-label*="JLPTSuccess"]').getAttribute('aria-label');
     expect(ariaLabel, 'brand-link aria-label should reference JLPTSuccess').toMatch(/JLPT/i);
   });
 
@@ -54,6 +58,6 @@ test.describe('Branding empty-scaffold defaults — IMP-003', () => {
     await page.goto('/');
     // Don't assert on faviconStatus directly — the favicon may load lazily
     // or be cached. The page-load test is the bigger gate.
-    await expect(page.locator('.brand-link')).toBeVisible();
+    await expect(page.locator('.brand-link[aria-label="N5 home"]')).toBeVisible();
   });
 });
