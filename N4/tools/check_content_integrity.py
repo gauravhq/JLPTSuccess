@@ -817,7 +817,50 @@ CHECKS: list[tuple[str, str, callable]] = [
     ("JA-31", "Vocab PoS tags in vocabulary_n4.md agree with data/vocab.json (2026-05-02)", lambda: _check_ja_31_vocab_pos_parity()),
     ("JA-32", "Paper-JSON rationales appear verbatim in source MD (2026-05-04)", lambda: _check_ja_32_paper_rationale_md_parity()),
     ("JA-33", "No seed-template literals in grammar examples (2026-05-04 LLM audit closure)", lambda: _check_ja_33_no_seed_template_literals()),
+    ("JA-34", "KB is in sync with its derived data (2026-09-29)", lambda: _check_ja_34_kb_derived_in_sync()),
 ]
+
+
+def _check_ja_34_kb_derived_in_sync() -> list[str]:
+    """Rebuilding from KnowledgeBank/kanji_n4.md must change nothing in data/.
+
+    JA-12 checks that the KB and data/kanji.json hold the same GLYPHS. It says nothing about the
+    contents of an entry, and the contents are where this went wrong: the KB sat at its original
+    readings while kanji.json was corrected and enriched through review, and nobody noticed because
+    tools/build_data.py could no longer parse the KB at all. Running it returned empty records for
+    every glyph, and the merge step wrote those empties over 170 entries.
+
+    So this asserts the property that actually matters for a source-of-truth file: the derived
+    files are what the source produces. `build_data.py --report` enumerates any drift and writes
+    nothing, which makes it safe to call from a checker. A failure means either the KB was edited
+    without a rebuild, or data/ was edited without back-porting to the KB, or the parser has
+    drifted from the markdown dialect again.
+    """
+    import subprocess
+    script = ROOT / "tools" / "build_data.py"
+    if not script.exists():
+        return []
+    try:
+        p = subprocess.run([sys.executable, str(script), "--report"], cwd=str(ROOT),
+                           capture_output=True, text=True, encoding="utf-8", errors="replace",
+                           timeout=120)
+    except Exception as e:
+        return [f"JA-34 could not run build_data.py --report: {e}"]
+    out = (p.stdout or "") + (p.stderr or "")
+    if p.returncode != 0:
+        return [f"JA-34 build_data.py --report exited {p.returncode}: "
+                f"{out.strip().splitlines()[-1] if out.strip() else '(no output)'}"]
+    m = re.search(r"^(\d+) field change\(s\)", out, re.M)
+    if not m:
+        return ["JA-34 build_data.py --report produced no change count; output format changed?"]
+    n = int(m.group(1))
+    if n == 0:
+        return []
+    drift = [l.strip() for l in out.splitlines() if l.startswith("   ")][:8]
+    return [f"JA-34 KnowledgeBank/kanji_n4.md and data/ disagree on {n} field(s). "
+            f"Run `python tools/build_data.py --report` for the list, then either rebuild "
+            f"(`python tools/build_data.py`) or back-port the data/ values into the KB "
+            f"(`python tools/sync_kanji_kb.py`)."] + [f"JA-34   {d}" for d in drift]
 
 
 def _check_ja_33_no_seed_template_literals() -> list[str]:

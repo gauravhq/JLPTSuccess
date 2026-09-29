@@ -2,7 +2,7 @@
 
 Source-of-truth catalogue for N4-new kanji only.
 Whitelist = N5 ∪ N4 = 249 glyphs (kept as a UNION so N4 content can use N5 kanji in compounds).
-Catalogue (this file) = N4 only = 143 glyphs. N5 review lives in the sibling app.
+Catalogue (this file) = N4 only = 170 glyphs. N5 review lives in the sibling app.
 Build pipeline parses into `data/kanji.json`. Schema per spec §14.
 
 ## N5 prerequisites
@@ -10,7 +10,7 @@ Build pipeline parses into `data/kanji.json`. Schema per spec §14.
 N5 kanji are NOT taught in this app. Review them via the N5 sibling app at
 https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
-## N4 kanji (143)
+## N4 kanji (170)
 
 - **同**  (tier: core_n4)
   - on: ドウ
@@ -81,14 +81,14 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: question, to ask, problem
 
 - **代**  (tier: core_n4)
-  - on: ダイ
-  - kun: か(わり)
+  - on: ダイ、タイ
+  - kun: か(わり)、か(わる)、よ、しろ
   - primary: ダイ  (kind: on)
   - meanings: substitute, change, generation, age
 
 - **明**  (tier: core_n4)
   - on: メイ、ミョウ
-  - kun: あか(るい)
+  - kun: あか(るい)、あ(かり)、あ(く)、あ(くる)、あ(ける)、あ(かす)、あき(らか)
   - primary: メイ  (kind: on)
   - meanings: bright, light
 
@@ -99,7 +99,8 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: move, motion, change
 
 - **京**  (tier: core_n4)
-  - on: キョウ、ケイ、キン
+  - on: キョウ
+  - secondary_on: ケイ、キン
   - kun: みやこ
   - primary: キョウ  (kind: on)
   - meanings: capital
@@ -107,7 +108,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **通**  (tier: core_n4)
   - on: ツウ
   - secondary_on: ツ
-  - kun: とお(る)、かよ(う)
+  - kun: とお(る)、とお(す)、かよ(う)
   - primary: ツウ  (kind: on)
   - meanings: pass through, traffic, commute, common
 
@@ -176,7 +177,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **公**  (tier: core_n4)
   - on: コウ
-  - kun: (none)
+  - kun: おおやけ
   - primary: コウ  (kind: on)
   - meanings: public, official, governmental
 
@@ -194,7 +195,8 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **以**  (tier: core_n4)
   - on: イ
-  - kun: もっ(て)
+  - kun: (none)
+  - secondary_kun: もっ(て)
   - primary: イ  (kind: on)
   - meanings: by means of, from, since
 
@@ -205,7 +207,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: think
 
 - **家**  (tier: core_n4)
-  - on: カ
+  - on: カ、ケ
   - kun: いえ、や、うち
   - primary: カ  (kind: on)
   - meanings: house, home, family, professional, expert
@@ -309,7 +311,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **集**  (tier: core_n4)
   - on: シュウ
-  - kun: あつ(める)
+  - kun: あつ(まる)、あつ(める)、つど(う)
   - primary: シュウ  (kind: on)
   - meanings: gather, meet
 
@@ -394,7 +396,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **住**  (tier: core_n4)
   - on: ジュウ、チュウ
-  - kun: す(む)
+  - kun: す(む)、す(まう)
   - primary: ジュウ  (kind: on)
   - meanings: dwell, reside, live, inhabit
 
@@ -426,7 +428,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: チョウ
   - kun: まち
   - primary: まち  (kind: kun)
-  - meanings: town, village, block, street
+  - meanings: town, neighbourhood, district, street
 
 - **料**  (tier: core_n4)
   - on: リョウ
@@ -484,21 +486,21 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **究**  (tier: core_n4)
   - on: キュウ
-  - kun: (none)
+  - kun: きわ(める)
   - primary: キュウ  (kind: on)
   - meanings: research, study
 
 - **楽**  (tier: core_n4)
   - on: ガク、ラク
-  - kun: たの(しい)
+  - kun: たの(しい)、たの(しむ)
   - primary: たの(しい)  (kind: kun)
   - meanings: music, comfort, ease
 
 - **起**  (tier: core_n4)
   - on: キ
-  - kun: お(きる)、おこ(す)、お(こる)
+  - kun: お(きる)、お(こす)、お(こる)
   - primary: キ  (kind: on)
-  - meanings: wake up, get up; rouse
+  - meanings: wake up, get up, rouse
 
 - **着**  (tier: core_n4)
   - on: チャク
@@ -547,10 +549,10 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: silver
 
 - **早**  (tier: core_n4)
-  - on: ソウ、サ
+  - on: ソウ、サッ
   - kun: はや(い)
   - primary: はや(い)  (kind: kun)
-  - meanings: early, fast
+  - meanings: early, ahead of time
 
 - **映**  (tier: core_n4)
   - on: エイ
@@ -604,7 +606,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **写**  (tier: core_n4)
   - on: シャ
-  - kun: うつ(る)
+  - kun: うつ(す)、うつ(る)
   - primary: シャ  (kind: on)
   - meanings: copy, be photographed, describe
 
@@ -617,7 +619,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **答**  (tier: core_n4)
   - on: トウ
-  - kun: こた(える)
+  - kun: こた(え)、こた(える)
   - primary: トウ  (kind: on)
   - meanings: solution, answer
 
@@ -692,7 +694,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **黒**  (tier: core_n4)
   - on: コク
-  - kun: くろ
+  - kun: くろ、くろ(い)
   - primary: コク  (kind: on)
   - meanings: black
 
@@ -704,13 +706,13 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **赤**  (tier: core_n4)
   - on: セキ、シャク
-  - kun: あか(い)
+  - kun: あか、あか(い)
   - primary: あか(い)  (kind: kun)
   - meanings: red
 
 - **青**  (tier: core_n4)
   - on: セイ、ショウ
-  - kun: あお(い)
+  - kun: あお、あお(い)
   - primary: あお(い)  (kind: kun)
   - meanings: blue
 
@@ -776,7 +778,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: clothing, admit, obey
 
 - **夕**  (tier: core_n4)
-  - on: (none)
+  - on: セキ
   - kun: ゆう
   - primary: ゆう  (kind: kun)
   - meanings: evening
@@ -808,7 +810,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **鳥**  (tier: core_n4)
   - on: チョウ
   - kun: とり
-  - primary: チョウ  (kind: on)
+  - primary: とり  (kind: kun)
   - meanings: bird
 
 - **飯**  (tier: core_n4)
@@ -890,3 +892,164 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - primary: カン  (kind: on)
   - meanings: Han, Chinese, Chinese-related
 
+- **言**  (tier: core_n4)
+  - on: ゲン、ゴン
+  - kun: い(う)、こと
+  - primary: い(う)  (kind: kun)
+  - meanings: say, word
+
+- **手**  (tier: core_n4)
+  - on: シュ
+  - kun: て
+  - primary: て  (kind: kun)
+  - meanings: hand
+
+- **会**  (tier: core_n4)
+  - on: カイ、エ
+  - kun: あ(う)
+  - primary: カイ  (kind: on)
+  - meanings: meeting, association
+
+- **目**  (tier: core_n4)
+  - on: モク
+  - kun: め
+  - primary: め  (kind: kun)
+  - meanings: eye
+
+- **私**  (tier: core_n4)
+  - on: シ
+  - kun: わたし
+  - primary: わたし  (kind: kun)
+  - meanings: I, me
+
+- **立**  (tier: core_n4)
+  - on: リツ、リュウ
+  - kun: た(つ)、た(てる)
+  - primary: た(つ)  (kind: kun)
+  - meanings: stand
+
+- **田**  (tier: core_n4)
+  - on: デン
+  - kun: た
+  - primary: た  (kind: kun)
+  - meanings: rice field
+
+- **社**  (tier: core_n4)
+  - on: シャ
+  - kun: (none)
+  - primary: シャ  (kind: on)
+  - meanings: company
+
+- **新**  (tier: core_n4)
+  - on: シン
+  - kun: あたら(しい)、あら(た)、にい
+  - primary: シン  (kind: on)
+  - meanings: new
+
+- **力**  (tier: core_n4)
+  - on: リョク、リキ
+  - kun: ちから
+  - primary: ちから  (kind: kun)
+  - meanings: power, strength
+
+- **道**  (tier: core_n4)
+  - on: ドウ
+  - kun: みち
+  - primary: みち  (kind: kun)
+  - meanings: road, way
+
+- **口**  (tier: core_n4)
+  - on: コウ
+  - kun: くち
+  - primary: くち  (kind: kun)
+  - meanings: mouth
+
+- **員**  (tier: core_n4)
+  - on: イン
+  - kun: (none)
+  - primary: イン  (kind: on)
+  - meanings: member, staff
+
+- **安**  (tier: core_n4)
+  - on: アン
+  - kun: やす(い)
+  - primary: やす(い)  (kind: kun)
+  - meanings: cheap, safe, peaceful
+
+- **足**  (tier: core_n4)
+  - on: ソク
+  - kun: あし
+  - primary: あし  (kind: kun)
+  - meanings: foot, leg
+
+- **空**  (tier: core_n4)
+  - on: クウ
+  - kun: そら、あ(く)、あ(ける)、から
+  - primary: そら  (kind: kun)
+  - meanings: sky, empty
+
+- **店**  (tier: core_n4)
+  - on: テン
+  - kun: みせ
+  - primary: みせ  (kind: kun)
+  - meanings: shop, store
+
+- **古**  (tier: core_n4)
+  - on: コ
+  - kun: ふる(い)
+  - primary: ふる(い)  (kind: kun)
+  - meanings: old
+
+- **買**  (tier: core_n4)
+  - on: バイ
+  - kun: か(う)
+  - primary: か(う)  (kind: kun)
+  - meanings: buy
+
+- **花**  (tier: core_n4)
+  - on: カ
+  - kun: はな
+  - primary: はな  (kind: kun)
+  - meanings: flower
+
+- **飲**  (tier: core_n4)
+  - on: イン
+  - kun: の(む)
+  - primary: の(む)  (kind: kun)
+  - meanings: drink
+
+- **週**  (tier: core_n4)
+  - on: シュウ
+  - kun: (none)
+  - primary: シュウ  (kind: on)
+  - meanings: week
+
+- **駅**  (tier: core_n4)
+  - on: エキ
+  - kun: (none)
+  - primary: エキ  (kind: on)
+  - meanings: station
+
+- **曜**  (tier: core_n4)
+  - on: ヨウ
+  - kun: (none)
+  - primary: ヨウ  (kind: on)
+  - meanings: weekday
+
+- **的**  (tier: core_n4)
+  - on: テキ
+  - kun: まと
+  - primary: テキ  (kind: on)
+  - meanings: target, mark, -al/-ic (suffix)
+
+- **身**  (tier: core_n4)
+  - on: シン
+  - kun: み
+  - primary: み  (kind: kun)
+  - meanings: body, oneself, one's person
+
+- **可**  (tier: core_n4)
+  - on: カ
+  - kun: (none)
+  - primary: カ  (kind: on)
+  - meanings: possible, can, approval
