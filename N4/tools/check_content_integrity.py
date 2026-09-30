@@ -819,7 +819,46 @@ CHECKS: list[tuple[str, str, callable]] = [
     ("JA-33", "No seed-template literals in grammar examples (2026-05-04 LLM audit closure)", lambda: _check_ja_33_no_seed_template_literals()),
     ("JA-34", "KB is in sync with its derived data (2026-09-29)", lambda: _check_ja_34_kb_derived_in_sync()),
     ("JA-35", "kanji whitelist == the readings tier union (2026-09-30)", lambda: _check_ja_35_whitelist_matches_tiers()),
+    ("JA-36", "vocab whitelist covers every vocab.json form (2026-09-30)", lambda: _check_ja_36_vocab_whitelist_covers_catalogue()),
 ]
+
+
+def _check_ja_36_vocab_whitelist_covers_catalogue() -> list[str]:
+    """data/n4_vocab_whitelist.json must contain every form in data/vocab.json.
+
+    The whitelist is the recognition allowlist tools/lint_content.py reads to decide whether a
+    kanji-bearing token in grammar.json or questions.json is in scope. It is deliberately a
+    SUPERSET of the catalogue - a multi-form entry contributes both spellings while vocab.json
+    carries only the canonical one, and a word can be recognised before it has a full structured
+    entry - so this asserts coverage in one direction only. Extra forms are the design.
+
+    It was an EMPTY LIST from the monorepo migration until 2026-09-30, the single commit that ever
+    touched it. Empty means lint_content.py recognises nothing, so every vocabulary token reads as
+    out of scope; the lint reported 15 such tokens and they were noise. Nothing failed, because the
+    lint is advisory and exits 0 on findings. A file whose only consumer degrades silently needs an
+    invariant, not a reader that copes.
+    """
+    failures = []
+    wl_path = ROOT / "data" / "n4_vocab_whitelist.json"
+    vj_path = ROOT / "data" / "vocab.json"
+    if not wl_path.exists() or not vj_path.exists():
+        return failures
+    try:
+        wl = set(json.loads(wl_path.read_text(encoding="utf-8")))
+        entries = json.loads(vj_path.read_text(encoding="utf-8")).get("entries", [])
+    except Exception as e:
+        return [f"JA-36 could not parse the vocab whitelist or catalogue: {e}"]
+
+    if not wl:
+        return ["JA-36 data/n4_vocab_whitelist.json is empty. lint_content.py then treats every "
+                "vocabulary token as out of scope. Run `python tools/build_data.py`."]
+    missing = sorted({e["form"] for e in entries if e.get("form")} - wl)
+    if missing:
+        failures.append(
+            f"JA-36 {len(missing)} vocab.json form(s) are absent from the recognition whitelist: "
+            f"{' '.join(missing[:12])}{' ...' if len(missing) > 12 else ''}. "
+            f"Run `python tools/build_data.py` to regenerate it from vocabulary_n4.md.")
+    return failures
 
 
 def _check_ja_35_whitelist_matches_tiers() -> list[str]:

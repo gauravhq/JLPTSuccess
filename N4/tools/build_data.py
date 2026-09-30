@@ -193,6 +193,36 @@ def reading_fields(e: dict) -> dict:
     return out
 
 
+VOCAB_LINE = re.compile(
+    r"^\s*-\s+(?P<forms>[^\s\(\-]+)\s*(?:\((?P<reading>[^)]+)\))?\s*-\s*(?P<gloss>.+?)\s*$", re.M)
+_JP = re.compile(r"[぀-ヿ一-鿿]")
+
+
+def vocab_forms(md_path: Path) -> list[str]:
+    """Every vocabulary form in KnowledgeBank/vocabulary_n4.md, in source order.
+
+    This is the RECOGNITION ALLOWLIST that tools/lint_content.py reads to decide whether a
+    kanji-bearing token in grammar.json / questions.json is in scope. It is deliberately a
+    SUPERSET of data/vocab.json's forms, not a mirror: a multi-form entry (`いい / よい - ...`)
+    contributes both spellings while vocab.json carries only the canonical one, and a word may be
+    recognised as in-scope before it has a full structured catalogue entry. An audit reporting
+    "forms in the whitelist but not in vocab.json" is describing that design, not a defect.
+
+    Unlike vocab.json this file is purely generated - it has no hand-authored fields - so writing
+    it whole is safe. What is NOT safe is writing it empty, which is how it has sat since the
+    monorepo migration: `[]` makes lint_content.py treat every vocabulary token as out of scope.
+    Hence the floor assertion in the caller.
+    """
+    out, seen = [], set()
+    for m in VOCAB_LINE.finditer(md_path.read_text(encoding="utf-8")):
+        for form in m.group("forms").split("/"):
+            f = form.strip()
+            if f and _JP.search(f) and f not in seen:
+                seen.add(f)
+                out.append(f)
+    return out
+
+
 def write_json(path: Path, payload) -> None:
     """Write indent-2 JSON, preserving whether the file already ended with a newline.
 
@@ -280,6 +310,24 @@ def main() -> int:
     write_json(rpath, merged)
     print("Wrote %4d kanji readings to data/n4_kanji_readings.json (merge-preserving)"
           % len(merged))
+
+    wpath = data_dir / "n4_vocab_whitelist.json"
+    forms = vocab_forms(ROOT / "KnowledgeBank" / "vocabulary_n4.md")
+    prev = json.loads(wpath.read_text(encoding="utf-8")) if wpath.exists() else []
+    # The whitelist is a superset of vocab.json's forms by design, so it can never legitimately
+    # hold fewer. An extraction that comes back short means the markdown dialect moved and the
+    # regex stopped matching - the same failure that emptied the kanji fields. Refuse to write it.
+    catalogue = {e["form"] for e in
+                 json.loads((data_dir / "vocab.json").read_text(encoding="utf-8"))["entries"]}
+    short = sorted(catalogue - set(forms))
+    if short:
+        print("\nERROR: %d vocab.json form(s) did not come back from vocabulary_n4.md: %s\n"
+              "The whitelist is a SUPERSET of the catalogue, so this means the parser stopped "
+              "matching. Refusing to write it." % (len(short), "".join(short[:12])), file=sys.stderr)
+        return 1
+    write_json(wpath, forms)
+    print("Wrote %4d vocab forms to data/n4_vocab_whitelist.json (%d before)"
+          % (len(forms), len(prev)))
     return 0
 
 
@@ -294,12 +342,24 @@ def main() -> int:
 #       by 可 的 身, which entered kanji.json and the readings file in the 143 -> 170 expansion and
 #       were never added here, because neither writer had run since. The file now holds 252 and
 #       equals the readings tier union, which JA-35 asserts on every run.
-#   data/vocab.json               637 -> 637 but ALL 637 glosses differ (the KB now prefixes a
-#       part-of-speech tag, e.g. "[v1] to enter"), and the rebuild is a naive overwrite with no
-#       merge-preserve, so it also discards `examples`, `pos`, `kb_pos_tag` and `tier` from every
-#       entry. That is the same class of loss the kanji path already guards against.
-#   data/n4_vocab_whitelist.json  0 -> 637. The committed file is an empty list. Refilling it from
-#       the markdown reverses a deliberate state.
+#   data/vocab.json               637 -> 637 but ALL 637 glosses differed, and the rebuild was a
+#       naive overwrite with no merge-preserve, so it also discarded `examples`, `pos`,
+#       `kb_pos_tag` and `tier` from every entry. STAYS QUARANTINED, but the 2026-09-30
+#       investigation showed vocab.json is not the wrong side and nothing needs correcting in it:
+#       a KB line reads `- form (reading) - [pos] gloss [tier:X] [examples:N]`, and vocab.json is a
+#       correct DECOMPOSITION of that into gloss / kb_pos_tag / tier. Checked across all 637
+#       entries: 637/637 glosses match once the annotations are stripped, 637/637 kb_pos_tag match
+#       the [pos] tag, 637/637 tier match the [tier:] tag. The old extractor simply predated the
+#       annotations and left them in the gloss. Rebuilding vocab.json needs a merge-preserving
+#       writer that understands that shape AND keeps `examples`; until someone writes one, the
+#       file is hand-maintained and JA-31 guards the PoS relationship.
+#   data/n4_vocab_whitelist.json  RESTORED 2026-09-30, this script writes it again. It had been an
+#       empty list since the monorepo migration - the only commit that ever touched it - which was
+#       not a deliberate state: it is the recognition allowlist tools/lint_content.py reads, and
+#       empty means every vocabulary token reads as out of scope (the lint reported 15 such tokens;
+#       after repopulating, 7, all conjugated or compound forms its own note calls unresolvable
+#       without a morphological analyzer). Unlike vocab.json it carries no hand-authored fields, so
+#       writing it whole is safe. JA-36 asserts it covers the catalogue.
 #
 # Restoring any of them means deciding what the file is FOR, then writing a merge-preserving
 # builder for it the way the kanji path has. Until then this script does not touch them.
