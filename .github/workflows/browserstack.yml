@@ -82,7 +82,7 @@ jobs:
 
       - name: Upload Playwright traces (failures only)
         if: failure() && steps.gate.outputs.skip == 'false'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: browserstack-traces
           path: test-results/
@@ -90,7 +90,7 @@ jobs:
 
       - name: Upload BrowserStack session links
         if: always() && steps.gate.outputs.skip == 'false'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: browserstack-sessions
           path: log/

@@ -135,7 +135,7 @@ jobs:
         # Uploads the entire snapshots dir so the maintainer can
         # download + extract only the new -linux.png files + commit them.
         if: github.event.inputs.update_snapshots == 'true' && always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: visual-regression-baselines
           path: N5/tests/visual-regression.spec.js-snapshots/
@@ -143,7 +143,7 @@ jobs:
 
       - name: Upload Playwright HTML report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: playwright-report
           path: playwright-report/
@@ -151,7 +151,7 @@ jobs:
 
       - name: Upload traces for failed tests
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: playwright-traces
           path: test-results/
