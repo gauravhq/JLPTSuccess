@@ -317,7 +317,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **別**  (tier: core_n4)
   - on: ベツ
-  - kun: わか(れる)、わ(ける)
+  - kun: わか(れる)
   - primary: ベツ  (kind: on)
   - meanings: separate, branch off, diverge
 
@@ -456,7 +456,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **止**  (tier: core_n4)
   - on: シ
-  - kun: と(まる)、と(める)、とど(まる)、や(める)、や(む)、よ(す)
+  - kun: と(まる)、と(める)、や(める)、や(む)
   - primary: シ  (kind: on)
   - meanings: stop, halt
 

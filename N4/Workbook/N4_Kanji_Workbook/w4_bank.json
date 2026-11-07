@@ -246,7 +246,7 @@
    "target_word": "作文",
    "reading": "さくぶん",
    "meaning": "a composition; essay",
-   "sentence": "「なつやすみの おもいで」という だいで（　　）を 書いて、作文コンクールに 出しました。",
+   "sentence": "国語の じゅぎょうで、「なつやすみの おもいで」という だいで（　　）を 書きました。",
    "underline": "（　　）",
    "options": [
     "にっき",
@@ -255,7 +255,7 @@
     "メモ"
    ],
    "correct": 2,
-   "explanation": "What you enter in a 作文コンクール (composition contest) is a 作文 (composition); a diary, letter or memo is not a composition.",
+   "explanation": "What you write in class to a set title (だい) is a 作文 (composition); a diary, a letter or a memo is not written to a given title.",
    "distractors": [
     "diary (not a composition)",
     "CORRECT: 作文 = composition",
@@ -264,7 +264,7 @@
    ],
    "review_status": "recheck-passed",
    "review_flag": "TC-C01/TC-C03: にっき could also be submitted to a generic contest",
-   "review_fix": "named the contest 作文コンクール (composition contest) so only 作文 fits",
+   "review_fix": "2026-11-07: the contest name 作文コンクール put the answer in the stem; now a class assignment with a set title (だい), which still rules out にっき",
    "recheck": "PASS",
    "confidence": "high"
   },

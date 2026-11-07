@@ -248,7 +248,7 @@
    "target_word": "楽しい",
    "reading": "たのしい",
    "meaning": "fun; enjoyable",
-   "sentence": "みんなで たくさん あそんで、えんそくは とても（　　）でした。",
+   "sentence": "みんなで たくさん あそんで、とても（　　）えんそくでした。",
    "underline": "（　　）",
    "options": [
     "かなしい",
@@ -257,7 +257,7 @@
     "楽しい"
    ],
    "correct": 4,
-   "explanation": "Playing a lot makes the excursion 楽しい (fun); it was not sad, difficult or boring.",
+   "explanation": "Playing a lot makes it a 楽しい (fun) excursion; it was not sad, difficult or boring.",
    "distractors": [
     "sad",
     "difficult",

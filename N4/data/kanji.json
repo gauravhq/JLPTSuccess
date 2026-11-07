@@ -2541,8 +2541,7 @@
         "ベツ"
       ],
       "kun": [
-        "わか(れる)",
-        "わ(ける)"
+        "わか(れる)"
       ],
       "primary_reading": "ベツ",
       "primary_kind": "on",
@@ -3434,7 +3433,7 @@
         {
           "form": "市町村",
           "reading": "しちょうそん",
-          "gloss": "towns and villages"
+          "gloss": "cities, towns and villages"
         }
       ],
       "notes": "Fields with a few buildings beside them: a small TOWN.",
@@ -3645,10 +3644,8 @@
       "kun": [
         "と(まる)",
         "と(める)",
-        "とど(まる)",
         "や(める)",
-        "や(む)",
-        "よ(す)"
+        "や(む)"
       ],
       "primary_reading": "シ",
       "primary_kind": "on",
@@ -7662,7 +7659,7 @@
         {
           "form": "足あと",
           "reading": "あしあと",
-          "gloss": "footprints (足跡; 跡 written in kana per K-1)"
+          "gloss": "footprints"
         },
         {
           "form": "手足",
