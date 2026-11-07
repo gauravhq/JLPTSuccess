@@ -2685,6 +2685,26 @@ sw.js CACHE_VERSION v1.17.38 → v1.17.39; tools:
 nonsense removal), `tools/check_content_integrity.py` (+ JA-178).
 Procedure manual: F.52.
 
+### Phase-0 blank-frame part-of-speech agreement block (added 2026-11-07)
+
+Codifies accuracy-prompt A94. Two N4 context items survived every gate and
+review because each option was fine in isolation; the defect lived in the
+frame: 「えんそくは とても（　　）でした」 with い-adjective options
+(楽しいでした), and 「とても（　　）人です」 keyed to the な-adjective 親切.
+
+Phase-0 check (validated to return 0 against the current corpus):
+- `python tools/check_blank_frame_pos.py` - for every question with a
+  blank, (a) blank + でした/です: no option may be an い-adjective;
+  (b) blank + a noun: no option may be a bare な-adjective.
+- Expected: 0 (2026-11-07: 214 blank items scanned, 0 violations).
+- A hit means the frame breaks for that option: move the blank so it
+  modifies a noun, or print the options in attributive form (親切な).
+  Never fix by changing only the key.
+- Scope limit: options missing from vocab.json are not judged, so a 0
+  is bounded to the options the corpus vocab types.
+
+Source: N4 kanji book language read 2026-11-07; procedure manual F.65.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

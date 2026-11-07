@@ -6486,3 +6486,30 @@ FP-24. Polysemous-surface substring does NOT require a multi-sense gloss
        is a clean 0-return regression signal. Cross-ref: A93;
        procedure-manual F.60.
 ================================================================================
+
+A94. BLANK-FRAME PART-OF-SPEECH AGREEMENT (added 2026-11-07)
+     ============================================================
+     Trigger: a language read of the finished N4 kanji book found two
+     文脈規定 items that had passed every automated gate and several review
+     rounds, because each OPTION reads fine on its own and the error only
+     exists in the FRAME around the blank:
+       - 「えんそくは とても（　　）でした」, options all い-adjectives:
+         every option yields 「〜いでした」 (楽しいでした), ungrammatical.
+       - 「とても（　　）人です」, key 親切: a な-adjective before a noun
+         needs な (親切な人), so the keyed answer itself breaks the frame.
+     RULE: substitute EACH of the four options into the blank and read the
+     whole sentence. The frame must be grammatical for all four; only the
+     meaning may rule distractors out. Highest-risk frames: blank + でした /
+     です (い-adjectives), blank + a noun (bare な-adjectives), blank + な
+     (い-adjectives), and options that mix parts of speech.
+     FIX SHAPES: move the blank so it modifies a noun (「とても（　　）
+     えんそくでした」), or print the options in the form the frame needs
+     (親切な / しずかな). Never fix by changing only the key.
+     Phase-0 check: tools/check_blank_frame_pos.py (validated 2026-11-07:
+     214 blank items in N5 data/questions.json scanned, 0 violations; both
+     N4 originals caught when run as a synthetic corpus). The check judges
+     only options whose part of speech the corpus vocab lists, so a clean
+     run is bounded to those; a manual read still owns the rest.
+     Cross-ref: procedure-manual F.65; N5Improvement Phase-0 blank-frame
+     part-of-speech agreement block; AUDIT-COVERAGE-2026-11-07.md.
+================================================================================
