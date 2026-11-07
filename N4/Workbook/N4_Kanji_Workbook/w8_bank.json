@@ -50,9 +50,9 @@
    "correct": 4,
    "explanation": "「銀行」は「ぎんこう」と読みます。",
    "distractors": [
-    "wrong on ぎょう for 行",
+    "on ぎょう (as in 行事), wrong here",
     "unvoices ぎ->き",
-    "wrong reading",
+    "kun い (as in 行く), wrong here",
     "CORRECT"
    ]
   },
@@ -105,7 +105,7 @@
     "on じ (as in 大事), wrong here",
     "voices し->じ",
     "CORRECT",
-    "unvoices ご->こ"
+    "kun こと; 仕事 voices it to ごと"
    ]
   },
   {

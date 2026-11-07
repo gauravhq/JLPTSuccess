@@ -23,7 +23,7 @@
    "correct": 4,
    "explanation": "「世界」は「せかい」と読みます。",
    "distractors": [
-    "adds い (せい)",
+    "on せい (as in 世紀), wrong here",
     "voices か->が",
     "adds ん",
     "CORRECT"
@@ -51,7 +51,7 @@
    "distractors": [
     "voices き->ぎ",
     "CORRECT",
-    "wrong on がん",
+    "on がん (as in 元日), wrong here",
     "adds a long vowel"
    ]
   },
@@ -75,7 +75,7 @@
    "correct": 3,
    "explanation": "「体重」は「たいじゅう」と読みます。",
    "distractors": [
-    "wrong on ちょう",
+    "on ちょう (as in 貴重), wrong here",
     "drops the long vowel じゅ",
     "CORRECT",
     "voices た->だ"

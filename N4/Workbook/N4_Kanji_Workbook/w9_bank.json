@@ -116,7 +116,7 @@
    "target_word": "教室",
    "reading": "きょうしつ",
    "meaning": "classroom",
-   "sentence": "つぎの 教室で 音楽の じゅぎょうが あります。",
+   "sentence": "となりの 教室で 音楽の じゅぎょうを して います。",
    "underline": "教室",
    "options": [
     "きょうし",
@@ -246,7 +246,7 @@
    "target_word": "文字",
    "reading": "もじ",
    "meaning": "characters; letters",
-   "sentence": "この てがみは、書いて ある（　　）が 小さくて、ぜんぶ よみにくいです。",
+   "sentence": "この てがみは、書いて ある（　　）が 小さくて、とても よみにくいです。",
    "underline": "（　　）",
    "options": [
     "文字",

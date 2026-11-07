@@ -25,7 +25,7 @@
    "distractors": [
     "wrong kana づ",
     "CORRECT",
-    "voices ち->じ",
+    "on じ (as in 地震), wrong here",
     "on と (as in 図書館), wrong here"
    ]
   },
@@ -50,7 +50,7 @@
    "correct": 4,
    "explanation": "「地下」は「ちか」と読みます。",
    "distractors": [
-    "voices ち->じ",
+    "on じ (as in 地震), wrong here",
     "on げ, wrong here",
     "voices か->が",
     "CORRECT"
@@ -79,7 +79,7 @@
    "distractors": [
     "CORRECT",
     "unvoices が->か",
-    "wrong on いん",
+    "on いん (as in 母音), wrong here",
     "drops く"
    ]
   },
@@ -134,7 +134,7 @@
     "wrong reading は",
     "CORRECT",
     "wrong ご for 話",
-    "wrong on え for 会"
+    "on え (as in 会釈), wrong here"
    ]
   },
   {
@@ -160,7 +160,7 @@
     "CORRECT",
     "drops long vowel",
     "wrong えん",
-    "wrong on へい"
+    "on へい (rare), wrong here"
    ]
   },
   {
@@ -743,7 +743,7 @@
     "父は 家に 帰りたく ないと 言って います。",
     "父は まだ 家を 出て いません。",
     "父は まだ 家に もどって いません。",
-    "父は もう 家に 来て います。"
+    "父は もう 家に います。"
    ],
    "correct": 3,
    "explanation": "帰る (to go home) matches もどる (to return); the wrong options differ - not wanting to go home, not having left, or already being home.",
@@ -751,7 +751,7 @@
     "says he doesn't want to go home (different)",
     "hasn't left (opposite)",
     "CORRECT: hasn't returned = 帰る",
-    "has come home (opposite)"
+    "is already home (opposite)"
    ]
   },
   {

@@ -84,7 +84,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ダイ、タイ
   - kun: か(わる)、よ、しろ
   - primary: ダイ  (kind: on)
-  - meanings: substitute, change, generation, age
+  - meanings: substitute, generation, age, fee, charge
 
 - **明**  (tier: core_n4)
   - on: メイ、ミョウ
@@ -130,7 +130,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - secondary_on: ス
   - kun: ぬし、おも
   - primary: シュ  (kind: on)
-  - meanings: lord, chief, master, main thing, principal
+  - meanings: main thing, principal, master, chief, lord
 
 - **題**  (tier: core_n4)
   - on: ダイ
@@ -984,7 +984,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **空**  (tier: core_n4)
   - on: クウ
-  - kun: そら、あ(く)、あ(ける)、から
+  - kun: そら、あ(く)、あ(ける)、す(く)、から
   - primary: そら  (kind: kun)
   - meanings: sky, empty
 
@@ -1034,7 +1034,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ヨウ
   - kun: (none)
   - primary: ヨウ  (kind: on)
-  - meanings: weekday
+  - meanings: day of the week
 
 - **的**  (tier: core_n4)
   - on: テキ

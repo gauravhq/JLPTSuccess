@@ -2749,6 +2749,14 @@ Section-10 anti-items (A98 addendum, fourth read 2026-11-07):
 
 Source: N4 kanji book fourth language read 2026-11-07; procedure manual F.68.
 
+Section-10 anti-items (A95 addendum, fifth read 2026-11-08):
+- Never label a distractor by its sound change alone when it splits into real readings of its own
+  kanji (だいふう = 台 だい + 風 ふう); name the reading and say it is wrong here.
+- Never gloss 以上 / 以下 as "more than / less than"; they include the number.
+- Never pair とても with a plain negative in an option; never use つぎの for the room next door.
+
+Source: N4 kanji book fifth language read 2026-11-08; procedure manual F.69.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

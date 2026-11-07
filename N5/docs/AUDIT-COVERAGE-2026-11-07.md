@@ -104,6 +104,17 @@ examples, so the sweep has no N5 target at this checkpoint.
 
 ---
 
+## Fifth read, 2026-11-08 (procedure-manual F.69)
+
+A95 extended: answer-key labels that hid a real reading behind a sound-change note ("voices た->だ"
+for 台風 だいふう). Readers found 21 in the N4 banks; a KANJIDIC2 split sweep of every kanji-reading
+distractor found 8 more of the same kind, and after the fix it matches only rare readings (6 items in
+the N4 banks scanned), which keep their error-type labels. No new A-category, so no new JA-116 row.
+The sweep needs KANJIDIC2, which is not in the repo, so it runs locally, not in CI. N5's question
+bank was not swept at this checkpoint.
+
+---
+
 ## Future native-human review
 
 The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です

@@ -687,9 +687,10 @@
       "primary_kind": "on",
       "meanings": [
         "substitute",
-        "change",
         "generation",
-        "age"
+        "age",
+        "fee",
+        "charge"
       ],
       "stroke_order_svg": "svg/kanji/代.svg",
       "examples": [
@@ -718,7 +719,7 @@
       "deck_order_rank": 12,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "substitute; change; generation; age"
+      "display_meaning": "substitute; generation; age; fee; charge"
     },
     {
       "id": "n4.kanji.明",
@@ -1033,11 +1034,11 @@
       "primary_reading": "シュ",
       "primary_kind": "on",
       "meanings": [
-        "lord",
-        "chief",
-        "master",
         "main thing",
-        "principal"
+        "principal",
+        "master",
+        "chief",
+        "lord"
       ],
       "stroke_order_svg": "svg/kanji/主.svg",
       "examples": [
@@ -1072,7 +1073,7 @@
       "deck_order_rank": 19,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "lord; chief; master"
+      "display_meaning": "main; principal; master; chief"
     },
     {
       "id": "n4.kanji.題",
@@ -3334,7 +3335,7 @@
           "gloss": "fee-charging; paid"
         }
       ],
-      "notes": "The meat (肉) is the thing you own; the hand 又 gives only the sound - so, to HAVE.",
+      "notes": "A hand (又) holding a piece of meat (肉): to HAVE; 又 also gives the sound.",
       "deck_order_rank": 66,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
@@ -4601,7 +4602,7 @@
       "deck_order_rank": 92,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "English; England"
+      "display_meaning": "English; England; outstanding"
     },
     {
       "id": "n4.kanji.医",
@@ -7684,6 +7685,7 @@
         "そら",
         "あ(く)",
         "あ(ける)",
+        "す(く)",
         "から"
       ],
       "primary_reading": "そら",
@@ -8026,7 +8028,7 @@
       "primary_reading": "ヨウ",
       "primary_kind": "on",
       "meanings": [
-        "weekday"
+        "day of the week"
       ],
       "stroke_order_svg": "svg/kanji/曜.svg",
       "examples": [
@@ -8055,7 +8057,7 @@
       "deck_order_rank": 167,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "weekday",
+      "display_meaning": "day of the week",
       "ported_from": "n5"
     },
     {

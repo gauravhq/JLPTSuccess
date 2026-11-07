@@ -77,7 +77,7 @@
    "explanation": "「病気」は「びょうき」と読みます。",
    "distractors": [
     "drops the long vowel びょ",
-    "wrong on へい",
+    "on へい (rare), wrong here",
     "voices き->ぎ",
     "CORRECT"
    ]
@@ -102,7 +102,7 @@
    "correct": 3,
    "explanation": "「質問」は「しつもん」と読みます。",
    "distractors": [
-    "wrong on しち",
+    "on しち (as in 質屋), wrong here",
     "ぶん is a reading of 聞, not 問",
     "CORRECT",
     "voices し->じ"

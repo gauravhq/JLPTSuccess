@@ -24,7 +24,7 @@
    "explanation": "「台風」は「たいふう」と読みます。",
    "distractors": [
     "CORRECT",
-    "voices た->だ",
+    "on だい (as in 一台), wrong here",
     "kun かぜ for 風",
     "drops the long vowel ふ"
    ]
@@ -76,7 +76,7 @@
    "explanation": "「大使館」は「たいしかん」と読みます。",
    "distractors": [
     "CORRECT",
-    "voices た->だ",
+    "on だい (as in 大学), wrong here",
     "voices か->が",
     "kun つかい for 使"
    ]
@@ -103,7 +103,7 @@
    "distractors": [
     "kun いろ for 色",
     "voices と->ど",
-    "wrong on しき",
+    "on しき (as in 景色), wrong here",
     "CORRECT"
    ]
   },

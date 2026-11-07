@@ -6626,3 +6626,17 @@ A98 ADDENDUM (fourth read, 2026-11-07): answer leaks also come from WORKED EXAMP
      natural Japanese (「あさ はやく うります」 is fine), so use a wrong object or an impossible subject.
      Cross-ref: procedure-manual F.68.
 ================================================================================
+A95 ADDENDUM (fifth read, 2026-11-08): a label can hide a real reading without saying "wrong".
+     The N4 book printed "voices た->だ" for 台風 だいふう (だい = on of 台, as in 一台), "unvoices
+     ぶ->ふ" for 分野 ふんや (ふん, as in 五分), "adds い" for 世界 せいかい (せい, as in 世紀),
+     "voices ち->じ" for 地理 じり (じ, as in 地震), and "unvoices ご->こ" for 仕事 しこと (こと is the
+     plain kun of 事). RULE: split each kanji-reading distractor into readings of its own kanji
+     (KANJIDIC2 on + kun). If a full split exists, the label names the reading and says it is wrong
+     here; for rendaku, name the kun and the voiced form ("kun こと; 仕事 voices it to ごと"). Rare
+     readings a learner never meets (分 ぶ, 度 と, 験 げん) keep their error-type label. Readers found
+     21 such labels; the split sweep found 8 more.
+     Also check: 以上 / 以下 glossed "X or more / X or less" (inclusive); とても + plain negative in an
+     option (learner error); つぎの used for the room next door (となりの); a card's printed meaning
+     must cover the sense its own examples teach (代 + 代金 = fee).
+     Cross-ref: procedure-manual F.69.
+================================================================================

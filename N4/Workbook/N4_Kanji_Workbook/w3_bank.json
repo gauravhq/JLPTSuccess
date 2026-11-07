@@ -50,7 +50,7 @@
    "explanation": "「家事」は「かじ」と読みます。",
    "distractors": [
     "kun いえ, not the on か",
-    "wrong on け",
+    "on け (as in 山田家), wrong here",
     "CORRECT",
     "kun や, wrong here"
    ]
@@ -78,7 +78,7 @@
     "kun の, not the on や",
     "CORRECT",
     "drops ん",
-    "unvoices ぶ->ふ"
+    "on ふん (as in 五分), wrong here"
    ]
   },
   {
@@ -101,7 +101,7 @@
    "correct": 4,
    "explanation": "「正月」は「しょうがつ」と読みます。",
    "distractors": [
-    "wrong on せい",
+    "on せい (as in 正解), wrong here",
     "drops the long vowel しょ",
     "kun まさ + つき",
     "CORRECT"
@@ -282,11 +282,11 @@
     "一度"
    ],
    "correct": 1,
-   "explanation": "'Other than Saturday and Sunday there is school' takes 以外 (other than); 以上(more than)/以下(less than)/一度(once) do not fit.",
+   "explanation": "'Other than Saturday and Sunday there is school' takes 以外 (other than); 以上 (X or more) / 以下 (X or less) / 一度 (once) do not fit.",
    "distractors": [
     "CORRECT: other than Sat and Sun",
-    "more than (no)",
-    "less than (no)",
+    "X or more (no)",
+    "X or less (no)",
     "once (no)"
    ]
   },
@@ -390,7 +390,7 @@
    "correct": 3,
    "explanation": "「多分」は「たぶん」と読みます。",
    "distractors": [
-    "unvoices ぶ->ふ",
+    "on ふん (as in 五分), wrong here",
     "kun おお for 多",
     "CORRECT: たぶん = probably",
     "voices た->だ"

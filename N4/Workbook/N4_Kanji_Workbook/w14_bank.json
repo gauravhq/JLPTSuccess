@@ -25,7 +25,7 @@
    "distractors": [
     "wrong あす",
     "CORRECT: あし = foot/leg",
-    "wrong たし",
+    "kun た(す) (足す), not this word",
     "wrong あじ"
    ],
    "review_status": "automated-check-passed"
@@ -104,7 +104,7 @@
    "explanation": "「何曜日」は「なんようび」と読みます。",
    "distractors": [
     "wrong ending ように",
-    "unvoices び->ひ",
+    "kun ひ; 何曜日 voices it to び",
     "CORRECT: なんようび = what day",
     "drops う (なんよび)"
    ],
