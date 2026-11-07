@@ -104,7 +104,7 @@
    "distractors": [
     "CORRECT",
     "wrong long vowel どお",
-    "adds long vowel しょう",
+    "drops く and adds a long vowel (しょう)",
     "unvoices ど->と"
    ]
   },
@@ -112,26 +112,26 @@
    "id": "W11-M1-Q05",
    "type": "kanji_reading",
    "target_kanji": [
-    "借"
+    "夕"
    ],
-   "target_word": "借りました",
-   "reading": "かりました",
-   "meaning": "borrowed",
-   "sentence": "としょかんで、よみたい 本を 借りました。",
-   "underline": "借りました",
+   "target_word": "夕食",
+   "reading": "ゆうしょく",
+   "meaning": "dinner; evening meal",
+   "sentence": "七時に 夕食を 食べます。",
+   "underline": "夕食",
    "options": [
-    "かえりました",
-    "かかりました",
-    "かしました",
-    "かりました"
+    "ゆしょく",
+    "ゆうじょく",
+    "ゆうたべ",
+    "ゆうしょく"
    ],
    "correct": 4,
-   "explanation": "「借りました」は「かりました」と読みます。",
+   "explanation": "「夕食」は「ゆうしょく」と読みます。",
    "distractors": [
-    "reads 帰りました (a different verb)",
-    "extra mora",
-    "reads 貸しました (to lend, opposite)",
-    "CORRECT: 借りました = borrowed"
+    "drops the long vowel (ゆしょく)",
+    "voices しょ->じょ",
+    "kun たべ for 食",
+    "CORRECT: ゆうしょく = dinner"
    ]
   },
   {
@@ -351,52 +351,52 @@
    "id": "W11-M5-Q14",
    "type": "kanji_reading",
    "target_kanji": [
-    "貸"
+    "服"
    ],
-   "target_word": "貸しました",
-   "reading": "かしました",
-   "meaning": "to lend",
-   "sentence": "ペンを わすれた 友だちに、わたしの ペンを 貸しました。",
-   "underline": "貸しました",
+   "target_word": "服",
+   "reading": "ふく",
+   "meaning": "clothes",
+   "sentence": "あたらしい 服を 着て、出かけました。",
+   "underline": "服",
    "options": [
-    "かりました",
-    "かしめました",
-    "たいしました",
-    "かしました"
+    "ふっく",
+    "ふぐ",
+    "ほく",
+    "ふく"
    ],
    "correct": 4,
-   "explanation": "「貸しました」は「かしました」と読みます。",
+   "explanation": "「服」は「ふく」と読みます。",
    "distractors": [
-    "reads 借りました (borrowed), the opposite verb",
-    "extra め",
-    "on-reading たい",
-    "CORRECT: かしました = lent"
+    "adds a sokuon (ふっく)",
+    "voices く->ぐ",
+    "wrong vowel ほ",
+    "CORRECT: ふく = clothes"
    ]
   },
   {
    "id": "W11-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "習"
+    "洋"
    ],
-   "target_word": "習って",
-   "reading": "ならって",
-   "meaning": "to learn (from a teacher)",
-   "sentence": "土よう日に せんせいに ピアノを 習って います。",
-   "underline": "習って",
+   "target_word": "西洋",
+   "reading": "せいよう",
+   "meaning": "the West; Western countries",
+   "sentence": "この 町には 西洋の たてものが 多いです。",
+   "underline": "西洋",
    "options": [
-    "ならって",
-    "しゅうって",
-    "なろって",
-    "ならて"
+    "せいよう",
+    "さいよう",
+    "せよう",
+    "にしよう"
    ],
    "correct": 1,
-   "explanation": "「習って」は「ならって」と読みます。",
+   "explanation": "「西洋」は「せいよう」と読みます。",
    "distractors": [
-    "CORRECT: ならって = learn (from a teacher)",
-    "on-reading しゅう",
-    "wrong vowel ろ",
-    "missing っ"
+    "CORRECT: せいよう = the West",
+    "wrong reading さい for 西",
+    "drops the long vowel (せよう)",
+    "kun にし for 西"
    ]
   }
  ],

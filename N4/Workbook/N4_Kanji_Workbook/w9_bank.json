@@ -85,27 +85,26 @@
    "id": "W09-M1-Q04",
    "type": "kanji_reading",
    "target_kanji": [
-    "悪"
+    "夜"
    ],
-   "target_word": "悪い",
-   "reading": "わるい",
-   "meaning": "bad",
-   "grammar_note": "i-adjective",
-   "sentence": "きょうは たいちょうが 悪いので、家で 休みます。",
-   "underline": "悪い",
+   "target_word": "夜中",
+   "reading": "よなか",
+   "meaning": "the middle of the night",
+   "sentence": "夜中に 目が さめました。",
+   "underline": "夜中",
    "options": [
-    "よわい",
-    "わるい",
-    "こわい",
-    "くらい"
+    "よるなか",
+    "よなか",
+    "よちゅう",
+    "よなが"
    ],
    "correct": 2,
-   "explanation": "「悪い」は「わるい」と読みます。",
+   "explanation": "「夜中」は「よなか」と読みます。",
    "distractors": [
-    "よわい = weak (different word)",
-    "CORRECT",
-    "こわい = scary",
-    "くらい = dark"
+    "kun よる for 夜 (here よ)",
+    "CORRECT: よなか = the middle of the night",
+    "kun よ + on ちゅう",
+    "voices か->が"
    ]
   },
   {
@@ -301,7 +300,7 @@
    "target_word": "今夜",
    "reading": "こんや",
    "meaning": "tonight",
-   "sentence": "きょうの よる、つまり（　　）、うちで かぞくと えいがを 見ます。",
+   "sentence": "あしたは 朝 はやいので、（　　）は はやく ねます。",
    "underline": "（　　）",
    "options": [
     "毎朝",

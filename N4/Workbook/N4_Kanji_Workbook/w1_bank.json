@@ -33,26 +33,26 @@
    "id": "W01-M1-Q02",
    "type": "kanji_reading",
    "target_kanji": [
-    "発"
+    "事"
    ],
-   "target_word": "出発",
-   "reading": "しゅっぱつ",
-   "meaning": "departure",
-   "sentence": "バスは 九時に 出発します。",
-   "underline": "出発",
+   "target_word": "火事",
+   "reading": "かじ",
+   "meaning": "fire (a building on fire)",
+   "sentence": "火事に 気を つけて ください。",
+   "underline": "火事",
    "options": [
-    "しゅつはつ",
-    "しゅっはつ",
-    "しゅうはつ",
-    "しゅっぱつ"
+    "ひじ",
+    "かごと",
+    "がじ",
+    "かじ"
    ],
    "correct": 4,
-   "explanation": "「出発」は「しゅっぱつ」と読みます。",
+   "explanation": "「火事」は「かじ」と読みます。",
    "distractors": [
-    "no sokuon and no handakuten",
-    "sokuon but no handakuten (は not ぱ)",
-    "long vowel しゅう, no sokuon",
-    "CORRECT"
+    "kun ひ for 火",
+    "kun こと for 事",
+    "voices か->が",
+    "CORRECT: かじ = fire"
    ]
   },
   {
@@ -77,7 +77,7 @@
    "distractors": [
     "CORRECT",
     "drops the long vowel (ぎょう->ぎょ)",
-    "wrong sokuon (がっ) and short vowel",
+    "wrong sokuon (がっ) and unvoices ぎょう->きょう",
     "unvoices the initial (が->か)"
    ]
   },

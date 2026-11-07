@@ -6590,3 +6590,28 @@ FP-25. A structural flag that reverses a recorded review decision
        flag is a false positive unless the decision itself is shown wrong.
        Cross-ref: procedure-manual F.66.
 ================================================================================
+
+A98. CROSS-SECTION TWINS, STALE LABELS, RARE-READING DISTRACTORS (added 2026-11-07, third read)
+     ============================================================
+     Trigger: a third read of the N4 kanji book after A95-A97 were fixed.
+     - 24 pairs tested the same word in two SECTIONS of one test: a 表記 item
+       printed the kana (つよい) that a later 漢字読み item asked for (強くて),
+       or 漢字読み and 言い換え both tested 有名. A97's in-test check had only
+       compared items of the same type.
+     - 問386's options were fixed in an earlier pass but its per-option labels
+       still described the old options.
+     - Four newly written distractors (じでんしゃ, やちゅう, ずしょかん, ぶく)
+       are rarer real readings in JMdict, so each was a second correct answer.
+     RULE: list each test's tested words by kanji string across ALL sections
+     and allow one test per word; when one item prints another's answer,
+     replace the answered item. When options change, re-read every label for
+     that item. After writing distractors, run the distractor-reading gate
+     (qa_item4.py in the N4 workbook) before review.
+     Also: a frame judged "natural enough" in one pass (「Xに ついての 本を
+     読みました」) was flagged by the next; once a checker covers a frame, fix
+     every hit instead of judging them one by one. The A96 regex now covers
+     「Xに ついての 本を 読みました / 話を 聞きました」 and 「Xの ことが この 本に
+     出て きます」 (tools/check_label_phonetics_and_carriers.py; 2026-11-07:
+     0 hits in N5, self-test 10/10).
+     Cross-ref: procedure-manual F.67.
+================================================================================

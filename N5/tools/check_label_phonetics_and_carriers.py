@@ -8,7 +8,8 @@ A95  answer-key label phonetics: a label that says a distractor "voices" X->Y mu
      spellings of ぢ, づ).
 A96  empty carrier frames: a stem that only says someone thought about / asked about / looked up
      the target, with no situation, e.g. 「Xの ことを 考えました」, 「Xに ついて 聞きました」,
-     「Xか どうか しらべました」. 135 such carriers were rewritten in the N4 supplement.
+     「Xか どうか しらべました」, 「Xに ついての 本を 読みました」, 「Xの ことが この 本に 出て きます」.
+     181 such carriers were rewritten in the N4 supplement over two passes.
 
 Scans every string in data/*.json for A95 and every question stem in data/questions.json for A96.
 Usage:  python tools/check_label_phonetics_and_carriers.py [--self-test]
@@ -28,7 +29,8 @@ PAIR = re.compile(r"\b(un)?voic\w*[^ぁ-ん\n]{0,24}?([ぁ-ん])\s*(?:->|→)\s*
 # じ / ず are the modern spellings of ぢ / づ, so ち->じ and つ->ず count as voicing
 MODERN = {("ち", "じ"), ("つ", "ず")}
 EMPTY = re.compile(r"(の ?ことを ?(考え|おぼえ|しらべ)|に ?ついて ?(聞き|話し|しらべ)|"
-                   r"か ?どうか ?(聞き|しらべ)|ときの ?ことを ?(話し|おぼえ))")
+                   r"か ?どうか ?(聞き|しらべ)|ときの ?ことを ?(話し|おぼえ)|"
+                   r"に ?ついての ?(本を ?読み|話を ?聞き)|の ?ことが ?この ?本に ?出て)")
 
 
 def voiced(a, b):
@@ -60,7 +62,8 @@ def strings(x, path=""):
 def self_test():
     bad = ["voices り->じ", "voices む->ぶ", "voices に->じ", "voices か->げ", "unvoices ち->し"]
     good = ["voices か->が", "voices は->ぱ", "unvoices ど->と", "voices ち->じ", "wrong kana じ for に"]
-    carriers_bad = ["自分の ことを 考えました。", "図書館で 開始に ついて 聞きました。", "同じか どうか 聞きました。"]
+    carriers_bad = ["自分の ことを 考えました。", "図書館で 開始に ついて 聞きました。", "同じか どうか 聞きました。",
+                    "料理に ついての 本を 読みました。", "切手の ことが この 本に 出て きます。"]
     carriers_good = ["自分の へやは 毎日 そうじします。", "しあいの 開始は 午後 三時です。"]
     ok = all(bad_label(s) for s in bad) and not any(bad_label(s) for s in good) and \
         all(EMPTY.search(s) for s in carriers_bad) and not any(EMPTY.search(s) for s in carriers_good)

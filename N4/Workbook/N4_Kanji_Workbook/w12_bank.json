@@ -33,27 +33,26 @@
    "id": "W12-M1-Q02",
    "type": "kanji_reading",
    "target_kanji": [
-    "兄",
-    "弟"
+    "姉"
    ],
-   "target_word": "兄弟",
-   "reading": "きょうだい",
-   "meaning": "siblings; brothers",
-   "sentence": "わたしは 三人 兄弟の 一ばん 上です。",
-   "underline": "兄弟",
+   "target_word": "姉",
+   "reading": "あね",
+   "meaning": "(my) older sister",
+   "sentence": "姉は 東京に 住んで います。",
+   "underline": "姉",
    "options": [
-    "きょうてい",
-    "きょだい",
-    "きょうだい",
-    "あにおとうと"
+    "あに",
+    "しい",
+    "あね",
+    "あめ"
    ],
    "correct": 3,
-   "explanation": "「兄弟」は「きょうだい」と読みます。",
+   "explanation": "「姉」は「あね」と読みます。",
    "distractors": [
-    "きょうてい: wrong final reading; 弟 is だい in きょうだい, not てい",
-    "drops the long vowel きょ",
-    "CORRECT: きょうだい = siblings",
-    "あにおとうと: both kun readings"
+    "あに is 兄 (older brother)",
+    "on-reading し misapplied",
+    "CORRECT: あね = (my) older sister",
+    "wrong kana め"
    ]
   },
   {
@@ -76,9 +75,9 @@
    "correct": 4,
    "explanation": "「昼間」は「ひるま」と読みます。",
    "distractors": [
-    "on ちゅう+かん",
+    "kun ひる + on かん",
     "kun ひる + あいだ",
-    "mixed reading",
+    "on ちゅう + kun ま",
     "CORRECT"
    ]
   },

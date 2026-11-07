@@ -78,6 +78,23 @@ Phase-0-label-phonetics-carriers. No N5 content change was needed against this t
 
 ---
 
+## Third read, same day (procedure-manual F.67)
+
+Four more independent reads of the rebuilt book. New class A98: the same word tested in two sections
+of one test (24 pairs), per-option labels left describing replaced options, and new distractors that
+JMdict lists as rare real readings. 46 more empty carriers were rewritten, including 11 that
+`tools/check_label_phonetics_and_carriers.py` itself flagged in the N4 data after a pass had kept
+them as natural enough. The tool's regex was extended to those frames.
+
+| Check | Scope | Result |
+|-------|-------|--------|
+| `tools/check_label_phonetics_and_carriers.py` | 157,799 strings in `data/*.json`; 268 stems | 0 hits |
+| Same tool, `--self-test` | 10 planted defects, 7 clean strings | 10 caught, 7 pass |
+
+JA-116 row added: A-162 (A98).
+
+---
+
 ## Future native-human review
 
 The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です

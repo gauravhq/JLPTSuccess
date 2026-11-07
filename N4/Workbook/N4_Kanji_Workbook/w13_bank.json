@@ -62,28 +62,27 @@
    "id": "W13-M1-Q03",
    "type": "kanji_reading",
    "target_kanji": [
-    "道"
+    "新"
    ],
-   "target_word": "道",
-   "reading": "みち",
-   "meaning": "road; way",
-   "sentence": "この 道を まっすぐ 行って ください。",
-   "underline": "道",
+   "target_word": "新聞",
+   "reading": "しんぶん",
+   "meaning": "newspaper",
+   "sentence": "駅で 新聞を 買いました。",
+   "underline": "新聞",
    "options": [
-    "みつ",
-    "みち",
-    "まち",
-    "みぞ"
+    "しんもん",
+    "しんぶん",
+    "あたらぶん",
+    "しんふん"
    ],
    "correct": 2,
-   "explanation": "「道」は「みち」と読みます。",
+   "explanation": "「新聞」は「しんぶん」と読みます。",
    "distractors": [
-    "wrong reading みつ",
-    "CORRECT: みち = road",
-    "confuses with 町 (まち)",
-    "wrong reading みぞ"
-   ],
-   "review_status": "automated-check-passed"
+    "on-reading もん for 聞",
+    "CORRECT: しんぶん = newspaper",
+    "kun あたら for 新",
+    "unvoices ぶ->ふ"
+   ]
   },
   {
    "id": "W13-M1-Q04",
@@ -105,7 +104,7 @@
    "correct": 4,
    "explanation": "「力」は「ちから」と読みます。",
    "distractors": [
-    "drops a mora (ちかり)",
+    "wrong final kana り (ちかり)",
     "voices か->が (ちがら)",
     "scrambled (ちらか)",
     "CORRECT: ちから = strength"
@@ -227,28 +226,27 @@
    "id": "W13-M2-Q09",
    "type": "orthography",
    "target_kanji": [
-    "安"
+    "会"
    ],
-   "target_word": "やすい",
-   "reading": "やすい",
-   "meaning": "cheap",
-   "sentence": "この 店の やさいは とても やすいです。",
-   "underline": "やすい",
+   "target_word": "かいわ",
+   "reading": "かいわ",
+   "meaning": "conversation",
+   "sentence": "日本語の かいわが 上手に なりました。",
+   "underline": "かいわ",
    "options": [
-    "高い",
-    "安い",
-    "古い",
-    "広い"
+    "会社",
+    "会話",
+    "電話",
+    "会場"
    ],
    "correct": 2,
-   "explanation": "「やすい」は「安い」と書きます。",
+   "explanation": "「かいわ」は「会話」と書きます。",
    "distractors": [
-    "高い = たかい, 'expensive'",
-    "CORRECT: 安い = cheap",
-    "古い = ふるい, 'old'",
-    "広い = ひろい, 'wide'"
-   ],
-   "review_status": "automated-check-passed"
+    "会社 = かいしゃ, 'company'",
+    "CORRECT: 会話 = conversation",
+    "電話 = でんわ, 'telephone'",
+    "会場 = かいじょう, 'venue'"
+   ]
   },
   {
    "id": "W13-M3-Q10",

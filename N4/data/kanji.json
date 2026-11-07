@@ -1603,7 +1603,7 @@
       "deck_order_rank": 30,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "by means of; from; since",
+      "display_meaning": "from (a point); since; by means of",
       "secondary_readings": {
         "on": [],
         "kun": [
@@ -3031,7 +3031,7 @@
           "gloss": "terminus; last stop"
         }
       ],
-      "notes": "A cord knotted at both ends marks where the thread (糸) runs out - the END; 冬 gives only the sound.",
+      "notes": "Thread (糸) + 冬. The oldest form of 冬 was a cord knotted at both ends, marking where the thread runs out - the END; 冬 also gives the sound.",
       "deck_order_rank": 60,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
@@ -3949,7 +3949,7 @@
       "deck_order_rank": 79,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "music; comfort; ease"
+      "display_meaning": "fun; enjoyment; music; comfort; ease"
     },
     {
       "id": "n4.kanji.起",
@@ -5856,7 +5856,7 @@
           "gloss": "running"
         },
         {
-          "form": "走りだす",
+          "form": "走り出す",
           "reading": "はしりだす",
           "gloss": "to start running"
         },
@@ -6057,7 +6057,7 @@
       "deck_order_rank": 122,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "ocean; sea; foreign"
+      "display_meaning": "ocean; sea; Western (style)"
     },
     {
       "id": "n4.kanji.旅",
@@ -7629,7 +7629,9 @@
         "ソク"
       ],
       "kun": [
-        "あし"
+        "あし",
+        "た(りる)",
+        "た(す)"
       ],
       "primary_reading": "あし",
       "primary_kind": "kun",
@@ -7664,7 +7666,7 @@
       "deck_order_rank": 158,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "foot; leg",
+      "display_meaning": "foot; leg; be enough; add",
       "ported_from": "n5"
     },
     {

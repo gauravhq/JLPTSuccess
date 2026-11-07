@@ -978,7 +978,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **足**  (tier: core_n4)
   - on: ソク
-  - kun: あし
+  - kun: あし、た(りる)、た(す)
   - primary: あし  (kind: kun)
   - meanings: foot, leg
 

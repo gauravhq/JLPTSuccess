@@ -50,7 +50,7 @@
    "explanation": "「使用」は「しよう」と読みます。",
    "distractors": [
     "drops the long vowel よ",
-    "adds ゆ",
+    "ゆ instead of よ (しゆう)",
     "CORRECT",
     "voices し->じ"
    ]
@@ -85,26 +85,26 @@
    "id": "W05-M1-Q04",
    "type": "kanji_reading",
    "target_kanji": [
-    "運"
+    "物"
    ],
-   "target_word": "運動",
-   "reading": "うんどう",
-   "meaning": "exercise; sport",
-   "sentence": "けんこうの ために まいにち 運動します。",
-   "underline": "運動",
+   "target_word": "動物",
+   "reading": "どうぶつ",
+   "meaning": "animal",
+   "sentence": "わたしは 動物が すきです。",
+   "underline": "動物",
    "options": [
-    "うんどう",
-    "うんとう",
-    "うんど",
-    "うんどん"
+    "どうぶつ",
+    "どうもつ",
+    "とうぶつ",
+    "どぶつ"
    ],
    "correct": 1,
-   "explanation": "「運動」は「うんどう」と読みます。",
+   "explanation": "「動物」は「どうぶつ」と読みます。",
    "distractors": [
-    "CORRECT",
+    "CORRECT: どうぶつ = animal",
+    "wrong reading もつ for 物",
     "unvoices ど->と",
-    "drops the long vowel",
-    "adds ん"
+    "drops the long vowel (どぶつ)"
    ]
   },
   {
@@ -300,7 +300,7 @@
    "target_word": "朝食",
    "reading": "ちょうしょく",
    "meaning": "breakfast",
-   "sentence": "朝に 食べる 食事を（　　）と いいます。",
+   "sentence": "あさ たべる しょくじを（　　）と いいます。",
    "underline": "（　　）",
    "options": [
     "朝食",
@@ -380,26 +380,26 @@
    "id": "W05-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "始"
+    "計"
    ],
-   "target_word": "始めました",
-   "reading": "はじめました",
-   "meaning": "to begin (something)",
-   "sentence": "四月から あたらしい しごとを 始めました。",
-   "underline": "始めました",
+   "target_word": "時計",
+   "reading": "とけい",
+   "meaning": "clock; watch",
+   "sentence": "父の 時計は とても 古いです。",
+   "underline": "時計",
    "options": [
-    "はじまました",
-    "はじめました",
-    "しめました",
-    "はしめました"
+    "どけい",
+    "とけい",
+    "じけい",
+    "ときけい"
    ],
    "correct": 2,
-   "explanation": "「始めました」は「はじめました」と読みます。",
+   "explanation": "「時計」は「とけい」と読みます。",
    "distractors": [
-    "confused with 始まりました",
-    "CORRECT: はじめました = began",
-    "on-reading し",
-    "wrong voicing し"
+    "voices と->ど",
+    "CORRECT: とけい = clock; watch",
+    "on-reading じ for 時",
+    "kun とき for 時"
    ]
   }
  ],

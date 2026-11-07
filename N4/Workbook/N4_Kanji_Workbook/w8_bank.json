@@ -112,26 +112,26 @@
    "id": "W08-M1-Q05",
    "type": "kanji_reading",
    "target_kanji": [
-    "去"
+    "映"
    ],
-   "target_word": "去年",
-   "reading": "きょねん",
-   "meaning": "last year",
-   "sentence": "去年、かぞくで 海外へ 行きました。",
-   "underline": "去年",
+   "target_word": "映画",
+   "reading": "えいが",
+   "meaning": "movie",
+   "sentence": "土曜日に 友だちと 映画を 見ます。",
+   "underline": "映画",
    "options": [
-    "こねん",
-    "きょねん",
-    "きょとし",
-    "さくねん"
+    "えが",
+    "えいが",
+    "うつが",
+    "えいかく"
    ],
    "correct": 2,
-   "explanation": "「去年」は「きょねん」と読みます。",
+   "explanation": "「映画」は「えいが」と読みます。",
    "distractors": [
-    "wrong on こ",
-    "CORRECT",
-    "kun とし for 年",
-    "wrong reading さく"
+    "drops the long vowel (えが)",
+    "CORRECT: えいが = movie",
+    "kun うつ (映る) misapplied",
+    "wrong reading かく for 画"
    ]
   },
   {
@@ -375,28 +375,26 @@
    "id": "W08-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "早"
+    "親"
    ],
-   "target_word": "早く",
-   "reading": "はやく",
-   "meaning": "early",
-   "grammar_note": "",
-   "special": false,
-   "sentence": "けさは 早く おきて、こうえんへ さんぽに 行きました。",
-   "underline": "早く",
+   "target_word": "父親",
+   "reading": "ちちおや",
+   "meaning": "father",
+   "sentence": "わたしの 父親は 会社員です。",
+   "underline": "父親",
    "options": [
-    "そうく",
-    "わやく",
-    "はやく",
-    "さやく"
+    "ちちしん",
+    "ちちいや",
+    "ちちおや",
+    "ふおや"
    ],
    "correct": 3,
-   "explanation": "「早く」は「はやく」と読みます。",
+   "explanation": "「父親」は「ちちおや」と読みます。",
    "distractors": [
-    "on-reading そう (as in 早朝)",
-    "wrong first kana わ",
-    "CORRECT: はやく = early",
-    "wrong kana さ"
+    "on-reading しん misapplied",
+    "wrong kana い for お",
+    "CORRECT: ちちおや = father",
+    "on-reading ふ for 父"
    ]
   }
  ],

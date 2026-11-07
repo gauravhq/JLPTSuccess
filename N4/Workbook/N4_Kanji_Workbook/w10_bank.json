@@ -33,26 +33,26 @@
    "id": "W10-M1-Q02",
    "type": "kanji_reading",
    "target_kanji": [
-    "屋"
+    "館"
    ],
-   "target_word": "屋上",
-   "reading": "おくじょう",
-   "meaning": "rooftop",
-   "sentence": "デパートの 屋上に こうえんが あります。",
-   "underline": "屋上",
+   "target_word": "図書館",
+   "reading": "としょかん",
+   "meaning": "library",
+   "sentence": "図書館で しずかに 本を 読みます。",
+   "underline": "図書館",
    "options": [
-    "やじょう",
-    "おくうえ",
-    "おくじょう",
-    "やうえ"
+    "としょうかん",
+    "としょっかん",
+    "としょかん",
+    "としょがん"
    ],
    "correct": 3,
-   "explanation": "「屋上」は「おくじょう」と読みます。",
+   "explanation": "「図書館」は「としょかん」と読みます。",
    "distractors": [
-    "kun や (as in 本屋), not the on おく",
-    "kun うえ for 上",
-    "CORRECT",
-    "both kun"
+    "adds a long vowel (しょう)",
+    "adds a sokuon (としょっかん)",
+    "CORRECT: としょかん = library",
+    "voices か->が"
    ]
   },
   {
@@ -278,7 +278,7 @@
    "target_word": "夏休み",
    "reading": "なつやすみ",
    "meaning": "summer vacation",
-   "sentence": "七月から 八月までの（　　）は とても 楽しみです。",
+   "sentence": "学校が ない 七月から 八月までの 長い（　　）は とても 楽しみです。",
    "underline": "（　　）",
    "options": [
     "夏休み",

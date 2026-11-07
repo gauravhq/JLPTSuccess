@@ -2732,6 +2732,16 @@ Section-10 anti-items (A97 / FP-25, manual):
 
 Source: N4 kanji book second language read 2026-11-07; procedure manual F.66.
 
+Section-10 anti-items (A98, added 2026-11-07 third read):
+- Never test one word in two sections of the same test; check by kanji string across all sections.
+- Never change an item's options without re-reading every per-option label.
+- Never ship a new distractor before the distractor-reading gate has run (rare real readings).
+- Never keep a hit from an existing checker as "natural enough"; fix every hit of the frame.
+The Phase-0 label/carrier block's regex now also covers 「Xに ついての 本を 読みました」 and
+「Xの ことが この 本に 出て きます」; expected 0 (2026-11-07: 0 hits, self-test 10 of 10).
+
+Source: N4 kanji book third language read 2026-11-07; procedure manual F.67.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

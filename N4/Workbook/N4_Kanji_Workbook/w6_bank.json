@@ -7,27 +7,26 @@
    "id": "W06-M1-Q01",
    "type": "kanji_reading",
    "target_kanji": [
-    "有"
+    "少"
    ],
-   "target_word": "有名",
-   "reading": "ゆうめい",
-   "meaning": "famous",
-   "grammar_note": "na-adjective",
-   "sentence": "きょうとの おてらは とても 有名です。",
-   "underline": "有名",
+   "target_word": "少し",
+   "reading": "すこし",
+   "meaning": "a little",
+   "sentence": "もう 少し ゆっくり 話して ください。",
+   "underline": "少し",
    "options": [
-    "ゆめい",
-    "うめい",
-    "ゆうめい",
-    "ゆうみょう"
+    "すくし",
+    "しょうし",
+    "すこし",
+    "すごし"
    ],
    "correct": 3,
-   "explanation": "「有名」は「ゆうめい」と読みます。",
+   "explanation": "「少し」は「すこし」と読みます。",
    "distractors": [
-    "drops the long vowel ゆ",
-    "wrong on う",
-    "CORRECT",
-    "wrong on みょう for 名"
+    "kun すく (少ない) misapplied",
+    "on-reading しょう misapplied",
+    "CORRECT: すこし = a little",
+    "voices こ->ご"
    ]
   },
   {
@@ -51,7 +50,7 @@
    "explanation": "「料理」は「りょうり」と読みます。",
    "distractors": [
     "drops the long vowel りょ",
-    "adds よ",
+    "full-size よ instead of small ょ",
     "wrong 2nd kana じ (りょうじ)",
     "CORRECT"
    ]
@@ -216,26 +215,26 @@
    "id": "W06-M2-Q09",
    "type": "orthography",
    "target_kanji": [
-    "建"
+    "料"
    ],
-   "target_word": "たてる",
-   "reading": "たてる",
-   "meaning": "to build",
-   "sentence": "あそこに あたらしい 家を たてる よていです。",
-   "underline": "たてる",
+   "target_word": "りょうきん",
+   "reading": "りょうきん",
+   "meaning": "fee; charge",
+   "sentence": "バスの りょうきんは いくらですか。",
+   "underline": "りょうきん",
    "options": [
-    "教える",
-    "考える",
-    "始める",
-    "建てる"
+    "料理",
+    "無料",
+    "有料",
+    "料金"
    ],
    "correct": 4,
-   "explanation": "「たてる」は「建てる」と書きます。",
+   "explanation": "「りょうきん」は「料金」と書きます。",
    "distractors": [
-    "教える = おしえる, 'teach'",
-    "考える = かんがえる, 'think'",
-    "始める = はじめる, 'begin'",
-    "CORRECT: 建てる = build"
+    "料理 = りょうり, 'cooking'",
+    "無料 = むりょう, 'free of charge'",
+    "有料 = ゆうりょう, 'not free'",
+    "CORRECT: 料金 = fee; charge"
    ]
   },
   {
@@ -349,26 +348,26 @@
    "id": "W06-M5-Q14",
    "type": "kanji_reading",
    "target_kanji": [
-    "住"
+    "急"
    ],
-   "target_word": "住んで",
-   "reading": "すんで",
-   "meaning": "to live; to reside",
-   "sentence": "あには いま、東京の アパートに 住んで います。",
-   "underline": "住んで",
+   "target_word": "急いで",
+   "reading": "いそいで",
+   "meaning": "to hurry",
+   "sentence": "時間が ないので、急いで ください。",
+   "underline": "急いで",
    "options": [
-    "すんで",
-    "じゅうんで",
-    "すんて",
-    "ずんで"
+    "いそいで",
+    "きゅういで",
+    "いそうで",
+    "いぞいで"
    ],
    "correct": 1,
-   "explanation": "「住んで」は「すんで」と読みます。",
+   "explanation": "「急いで」は「いそいで」と読みます。",
    "distractors": [
-    "CORRECT: すんで = live/reside",
-    "on-reading じゅう",
-    "wrong ending て",
-    "wrong voicing ず"
+    "CORRECT: いそいで = hurry",
+    "on-reading きゅう misapplied",
+    "wrong kana う (いそうで)",
+    "voices そ->ぞ"
    ]
   },
   {

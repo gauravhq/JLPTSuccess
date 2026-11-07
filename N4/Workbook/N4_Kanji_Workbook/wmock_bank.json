@@ -224,27 +224,26 @@
    "id": "MOCK-M1-Q09",
    "type": "kanji_reading",
    "target_kanji": [
-    "親",
-    "切"
+    "写"
    ],
-   "target_word": "親切",
-   "reading": "しんせつ",
-   "meaning": "kind; kindness",
-   "sentence": "あの みせの 人は だれにでも とても 親切です。",
-   "underline": "親切",
+   "target_word": "写真",
+   "reading": "しゃしん",
+   "meaning": "photograph",
+   "sentence": "旅行の 写真を 見せて ください。",
+   "underline": "写真",
    "options": [
-    "しんせつ",
-    "しんせち",
-    "じんせつ",
-    "しんぜつ"
+    "しゃしん",
+    "しゃじん",
+    "うつしん",
+    "しゃっしん"
    ],
    "correct": 1,
-   "explanation": "「親切」は「しんせつ」と読みます。",
+   "explanation": "「写真」は「しゃしん」と読みます。",
    "distractors": [
-    "CORRECT",
-    "wrong 2nd せち",
+    "CORRECT: しゃしん = photograph",
     "voices し->じ",
-    "voices せ->ぜ"
+    "kun うつ for 写",
+    "adds a sokuon (しゃっしん)"
    ]
   },
   {
@@ -382,26 +381,26 @@
    "id": "MOCK-M2-Q15",
    "type": "orthography",
    "target_kanji": [
-    "帰"
+    "歩"
    ],
-   "target_word": "かえる",
-   "reading": "かえる",
-   "meaning": "to go home",
-   "sentence": "しごとが おわって、うちに かえる ところです。",
-   "underline": "かえる",
+   "target_word": "あるく",
+   "reading": "あるく",
+   "meaning": "to walk",
+   "sentence": "毎朝 駅まで あるく ことに して います。",
+   "underline": "あるく",
    "options": [
-    "売る",
-    "走る",
-    "通る",
-    "帰る"
+    "書く",
+    "聞く",
+    "動く",
+    "歩く"
    ],
    "correct": 4,
-   "explanation": "「かえる」は「帰る」と書きます。",
+   "explanation": "「あるく」は「歩く」と書きます。",
    "distractors": [
-    "売る = うる, 'sell'",
-    "走る = はしる, 'run'",
-    "通る = とおる, 'pass'",
-    "CORRECT: 帰る = go home"
+    "書く = かく, 'write'",
+    "聞く = きく, 'listen'",
+    "動く = うごく, 'move'",
+    "CORRECT: 歩く = walk"
    ]
   },
   {
@@ -657,7 +656,7 @@
    "reading": "ゆうめい",
    "meaning": "famous",
    "grammar_note": "na-adjective",
-   "sentence": "この 町は ふるい おしろが あり、ぜんこくの 人が 名前を 知って いるほど（　　）です。",
+   "sentence": "この 町は ふるい おしろが あり、ぜんこくの 人が なまえを 知って いるほど（　　）です。",
    "underline": "（　　）",
    "options": [
     "有名",

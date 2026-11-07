@@ -103,7 +103,7 @@
    "explanation": "「質問」は「しつもん」と読みます。",
    "distractors": [
     "wrong on しち",
-    "wrong on ぶん for 問",
+    "ぶん is a reading of 聞, not 問",
     "CORRECT",
     "voices し->じ"
    ]
@@ -112,27 +112,26 @@
    "id": "W07-M1-Q05",
    "type": "kanji_reading",
    "target_kanji": [
-    "切"
+    "楽"
    ],
-   "target_word": "大切",
-   "reading": "たいせつ",
-   "meaning": "important; precious",
-   "grammar_note": "na-adjective",
-   "sentence": "友だちは わたしに とって 大切です。",
-   "underline": "大切",
+   "target_word": "楽",
+   "reading": "らく",
+   "meaning": "comfortable; easy",
+   "sentence": "この いすは すわると 楽です。",
+   "underline": "楽",
    "options": [
-    "たいせつ",
-    "だいせつ",
-    "たいせい",
-    "おおせつ"
+    "らく",
+    "らぐ",
+    "ろく",
+    "らあく"
    ],
    "correct": 1,
-   "explanation": "「大切」は「たいせつ」と読みます。",
+   "explanation": "「楽」は「らく」と読みます。",
    "distractors": [
-    "CORRECT",
-    "voices た->だ",
-    "wrong ending せち",
-    "kun おお for 大"
+    "CORRECT: らく = comfortable; easy",
+    "voices く->ぐ",
+    "wrong vowel ろ",
+    "adds a long vowel (らあく)"
    ]
   },
   {
@@ -351,52 +350,52 @@
    "id": "W07-M5-Q14",
    "type": "kanji_reading",
    "target_kanji": [
-    "起"
+    "着"
    ],
-   "target_word": "起きました",
-   "reading": "おきました",
-   "meaning": "to get up; to wake up",
-   "sentence": "けさは ねぼうして、八時に 起きました。",
-   "underline": "起きました",
+   "target_word": "着きました",
+   "reading": "つきました",
+   "meaning": "arrived",
+   "sentence": "電車は 九時に 駅に 着きました。",
+   "underline": "着きました",
    "options": [
-    "おきりました",
-    "おきました",
-    "きました",
-    "おこめました"
+    "つぎました",
+    "つきました",
+    "ちゃくました",
+    "づきました"
    ],
    "correct": 2,
-   "explanation": "「起きました」は「おきました」と読みます。",
+   "explanation": "「着きました」は「つきました」と読みます。",
    "distractors": [
-    "extra り",
-    "CORRECT: おきました = woke/got up",
-    "reads 来ました (came)",
-    "wrong kana め"
+    "voices き->ぎ",
+    "CORRECT: つきました = arrived",
+    "on-reading ちゃく misapplied",
+    "voices つ->づ"
    ]
   },
   {
    "id": "W07-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "止"
+    "転"
    ],
-   "target_word": "止めました",
-   "reading": "とめました",
-   "meaning": "to stop something (transitive)",
-   "sentence": "みせの 前に 車を 止めました。",
-   "underline": "止めました",
+   "target_word": "自転車",
+   "reading": "じてんしゃ",
+   "meaning": "bicycle",
+   "sentence": "毎日 自転車で 学校へ 行きます。",
+   "underline": "自転車",
    "options": [
-    "しめました",
-    "どめました",
-    "とめました",
-    "とめめました"
+    "じってんしゃ",
+    "じてんじゃ",
+    "じてんしゃ",
+    "じころしゃ"
    ],
    "correct": 3,
-   "explanation": "「止めました」は「とめました」と読みます。",
+   "explanation": "「自転車」は「じてんしゃ」と読みます。",
    "distractors": [
-    "on-reading し",
-    "wrong voicing ど",
-    "CORRECT: とめました = stopped/parked",
-    "extra め"
+    "adds a sokuon (じってんしゃ)",
+    "voices しゃ->じゃ",
+    "CORRECT: じてんしゃ = bicycle",
+    "kun ころ (転ぶ) misapplied"
    ]
   }
  ],

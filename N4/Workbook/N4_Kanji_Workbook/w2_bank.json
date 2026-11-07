@@ -76,7 +76,7 @@
    "explanation": "「地理」は「ちり」と読みます。",
    "distractors": [
     "voices the initial (ち->じ)",
-    "adds a long vowel (り->りょう)",
+    "changes り->りょう",
     "wrong kana し for ち",
     "CORRECT"
    ]
@@ -104,7 +104,7 @@
     "wrong reading of 力 (りき)",
     "CORRECT",
     "voices the initial (たい->だい)",
-    "drops the small ょ (りょく->ろく)"
+    "wrong kana ろ for りょ (ろく)"
    ]
   },
   {

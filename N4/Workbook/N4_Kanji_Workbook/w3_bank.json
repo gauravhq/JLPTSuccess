@@ -348,52 +348,52 @@
    "id": "W03-M5-Q14",
    "type": "kanji_reading",
    "target_kanji": [
-    "強"
+    "持"
    ],
-   "target_word": "強くて",
-   "reading": "つよくて",
-   "meaning": "strong",
-   "sentence": "きょうは かぜが 強くて、ぼうしが とびそうです。",
-   "underline": "強くて",
+   "target_word": "持って",
+   "reading": "もって",
+   "meaning": "to hold; to carry",
+   "sentence": "この にもつを 持って ください。",
+   "underline": "持って",
    "options": [
-    "つおくて",
-    "つよくて",
-    "きょうくて",
-    "ずよくて"
+    "まって",
+    "もって",
+    "じって",
+    "もうって"
    ],
    "correct": 2,
-   "explanation": "「強くて」は「つよくて」と読みます。",
+   "explanation": "「持って」は「もって」と読みます。",
    "distractors": [
-    "wrong vowel お",
-    "CORRECT: つよくて = strong",
-    "on-reading きょう",
-    "wrong voicing ず"
+    "wrong kana ま for も (まって = wait)",
+    "CORRECT: もって = hold; carry",
+    "on-reading じ misapplied",
+    "adds a long vowel (もうって)"
    ]
   },
   {
    "id": "W03-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "思"
+    "多"
    ],
-   "target_word": "思います",
-   "reading": "おもいます",
-   "meaning": "to think; to feel",
-   "sentence": "あしたは いい 天気に なると 思います。",
-   "underline": "思います",
+   "target_word": "多分",
+   "reading": "たぶん",
+   "meaning": "probably",
+   "sentence": "あしたは 多分 雨でしょう。",
+   "underline": "多分",
    "options": [
-    "おぼいます",
-    "しいます",
-    "おもいます",
-    "おもみます"
+    "たふん",
+    "おおぶん",
+    "たぶん",
+    "だぶん"
    ],
    "correct": 3,
-   "explanation": "「思います」は「おもいます」と読みます。",
+   "explanation": "「多分」は「たぶん」と読みます。",
    "distractors": [
-    "wrong kana ぼ",
-    "on-reading し",
-    "CORRECT: おもいます = think",
-    "wrong kana み"
+    "unvoices ぶ->ふ",
+    "kun おお for 多",
+    "CORRECT: たぶん = probably",
+    "voices た->だ"
    ]
   }
  ],

@@ -34,28 +34,27 @@
    "id": "W14-M1-Q02",
    "type": "kanji_reading",
    "target_kanji": [
-    "空"
+    "身"
    ],
-   "target_word": "空",
-   "reading": "そら",
-   "meaning": "sky",
-   "sentence": "あきの 空は とても たかくて きれいです。",
-   "underline": "空",
+   "target_word": "身長",
+   "reading": "しんちょう",
+   "meaning": "(body) height",
+   "sentence": "兄は 身長が 高いです。",
+   "underline": "身長",
    "options": [
-    "そろ",
-    "そうら",
-    "すら",
-    "そら"
+    "みちょう",
+    "しんなが",
+    "しんちょ",
+    "しんちょう"
    ],
    "correct": 4,
-   "explanation": "「空」は「そら」と読みます。",
+   "explanation": "「身長」は「しんちょう」と読みます。",
    "distractors": [
-    "wrong そろ",
-    "wrong そうら",
-    "wrong すら",
-    "CORRECT: そら = sky"
-   ],
-   "review_status": "automated-check-passed"
+    "kun み for 身",
+    "kun なが for 長",
+    "drops the long vowel (ちょ)",
+    "CORRECT: しんちょう = (body) height"
+   ]
   },
   {
    "id": "W14-M1-Q03",
@@ -402,7 +401,7 @@
    "explanation": "「可能」は「かのう」と読みます。",
    "distractors": [
     "wrong かうん",
-    "adds a long vowel かのお",
+    "long vowel written お (かのお)",
     "CORRECT: かのう = possible",
     "voiced がのう"
    ],
