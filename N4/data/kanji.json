@@ -828,9 +828,7 @@
       "on": [
         "キョウ"
       ],
-      "kun": [
-        "みやこ"
-      ],
+      "kun": [],
       "primary_reading": "キョウ",
       "primary_kind": "on",
       "meanings": [
@@ -3152,8 +3150,7 @@
       "n5_prerequisite": false,
       "lesson_order": 63,
       "on": [
-        "ジュウ",
-        "チュウ"
+        "ジュウ"
       ],
       "kun": [
         "す(む)",
@@ -3256,8 +3253,7 @@
         "シン"
       ],
       "kun": [
-        "ま",
-        "まこと"
+        "ま"
       ],
       "primary_reading": "シン",
       "primary_kind": "on",
@@ -3496,8 +3492,7 @@
       "lesson_order": 70,
       "on": [
         "コウ",
-        "ク",
-        "グ"
+        "ク"
       ],
       "kun": [],
       "primary_reading": "コウ",
@@ -5058,7 +5053,6 @@
       ],
       "kun": [
         "そそ(ぐ)",
-        "さ(す)",
         "つ(ぐ)"
       ],
       "primary_reading": "チュウ",

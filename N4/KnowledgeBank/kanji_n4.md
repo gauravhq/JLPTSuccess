@@ -101,7 +101,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **京**  (tier: core_n4)
   - on: キョウ
   - secondary_on: ケイ、キン
-  - kun: みやこ
+  - kun: (none)
   - primary: キョウ  (kind: on)
   - meanings: capital
 
@@ -395,7 +395,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: wide, broad, spacious
 
 - **住**  (tier: core_n4)
-  - on: ジュウ、チュウ
+  - on: ジュウ
   - kun: す(む)、す(まう)
   - primary: ジュウ  (kind: on)
   - meanings: dwell, reside, live, inhabit
@@ -408,7 +408,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **真**  (tier: core_n4)
   - on: シン
-  - kun: ま、まこと
+  - kun: ま
   - primary: シン  (kind: on)
   - meanings: true, real, reality
 
@@ -437,7 +437,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: fee, charge, materials
 
 - **工**  (tier: core_n4)
-  - on: コウ、ク、グ
+  - on: コウ、ク
   - kun: (none)
   - primary: コウ  (kind: on)
   - meanings: craft, construction
@@ -638,7 +638,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **注**  (tier: core_n4)
   - on: チュウ
-  - kun: そそ(ぐ)、さ(す)、つ(ぐ)
+  - kun: そそ(ぐ)、つ(ぐ)
   - primary: チュウ  (kind: on)
   - meanings: pour, inject, attention, note
 
