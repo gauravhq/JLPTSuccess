@@ -843,7 +843,8 @@
       "シ"
     ],
     "kun": [
-      "わたし"
+      "わたし",
+      "わたくし"
     ],
     "primary": "わたし",
     "tier": "n5_prerequisite",
@@ -1910,8 +1911,8 @@
     "kun": [
       "な(い)"
     ],
-    "primary": "な(い)",
-    "primary_kind": "kun",
+    "primary": "ム",
+    "primary_kind": "on",
     "tier": "core_n4"
   },
   "真": {
@@ -2045,7 +2046,8 @@
       "テン"
     ],
     "kun": [
-      "ころ(がる)"
+      "ころ(がる)",
+      "ころ(ぶ)"
     ],
     "primary": "テン",
     "primary_kind": "on",

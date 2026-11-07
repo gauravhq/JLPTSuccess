@@ -132,7 +132,7 @@
    "distractors": [
     "wrong えけ",
     "CORRECT: えき = station",
-    "on やく",
+    "やく is the reading of 訳, not 駅",
     "voiced えぎ"
    ],
    "review_status": "automated-check-passed"
@@ -254,7 +254,7 @@
    "target_word": "飲み物",
    "reading": "のみもの",
    "meaning": "drink",
-   "sentence": "のどが かわいたので、つめたい（　　）を のみました。",
+   "sentence": "ごはんの あとの（　　）は、つめたい お茶に しました。",
    "underline": "（　　）",
    "options": [
     "食べ物",
@@ -263,12 +263,12 @@
     "くだもの"
    ],
    "correct": 2,
-   "explanation": "The verb is のむ (drink), so only a 飲み物 (drink) fits; food, a vehicle, and fruit cannot be drunk.",
+   "explanation": "Cold tea is a 飲み物 (drink); tea is not food, a vehicle or fruit.",
    "distractors": [
-    "food (cannot be drunk)",
+    "food (tea is not food)",
     "CORRECT: 飲み物 = a drink",
-    "a vehicle (cannot be drunk)",
-    "fruit (cannot be drunk)"
+    "a vehicle (no)",
+    "fruit (tea is not fruit)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -458,7 +458,7 @@
    "underline": "およぐ",
    "options": [
     "なつに うみで およぎます。",
-    "がっこうまで あるいて およぎます。",
+    "へやを きれいに およぎます。",
     "ごはんを たくさん およぎます。",
     "つめたい 水を およいで のみます。"
    ],

@@ -2116,7 +2116,7 @@
         {
           "form": "元気",
           "reading": "げんき",
-          "gloss": "lively; full of spirit"
+          "gloss": "healthy; well; energetic"
         },
         {
           "form": "地元",
@@ -3205,8 +3205,8 @@
       "kun": [
         "な(い)"
       ],
-      "primary_reading": "な(い)",
-      "primary_kind": "kun",
+      "primary_reading": "ム",
+      "primary_kind": "on",
       "meanings": [
         "none",
         "without",
@@ -3778,7 +3778,8 @@
         "テン"
       ],
       "kun": [
-        "ころ(がる)"
+        "ころ(がる)",
+        "ころ(ぶ)"
       ],
       "primary_reading": "テン",
       "primary_kind": "on",
@@ -7192,7 +7193,8 @@
         "シ"
       ],
       "kun": [
-        "わたし"
+        "わたし",
+        "わたくし"
       ],
       "primary_reading": "わたし",
       "primary_kind": "kun",

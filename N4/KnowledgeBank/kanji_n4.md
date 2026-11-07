@@ -403,7 +403,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 - **無**  (tier: core_n4)
   - on: ム、ブ
   - kun: な(い)
-  - primary: な(い)  (kind: kun)
+  - primary: ム  (kind: on)
   - meanings: none, without, nothing, lack
 
 - **真**  (tier: core_n4)
@@ -474,7 +474,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **転**  (tier: core_n4)
   - on: テン
-  - kun: ころ(がる)
+  - kun: ころ(がる)、ころ(ぶ)
   - primary: テン  (kind: on)
   - meanings: revolve, turn around, change
 
@@ -918,7 +918,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **私**  (tier: core_n4)
   - on: シ
-  - kun: わたし
+  - kun: わたし、わたくし
   - primary: わたし  (kind: kun)
   - meanings: I, me
 

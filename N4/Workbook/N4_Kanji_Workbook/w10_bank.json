@@ -216,26 +216,26 @@
    "id": "W10-M2-Q09",
    "type": "orthography",
    "target_kanji": [
-    "夏"
+    "色"
    ],
-   "target_word": "なつ",
-   "reading": "なつ",
-   "meaning": "summer",
-   "sentence": "一年で いちばん あつい きせつは なつ です。",
-   "underline": "なつ",
+   "target_word": "いろ",
+   "reading": "いろ",
+   "meaning": "color",
+   "sentence": "この シャツの いろが すきです。",
+   "underline": "いろ",
    "options": [
-    "春",
-    "秋",
-    "夏",
-    "風"
+    "風",
+    "音",
+    "色",
+    "秋"
    ],
    "correct": 3,
-   "explanation": "「なつ」は「夏」と書きます。",
+   "explanation": "「いろ」は「色」と書きます。",
    "distractors": [
-    "春 = はる, 'spring'",
-    "秋 = あき, 'autumn'",
-    "CORRECT: 夏 = summer",
-    "風 = かぜ, 'wind'"
+    "風 = かぜ, 'wind'",
+    "音 = おと, 'sound'",
+    "CORRECT: 色 = color",
+    "秋 = あき, 'autumn'"
    ]
   },
   {
@@ -452,9 +452,9 @@
    "underline": "つかう",
    "options": [
     "りょうりに この なべを つかいます。",
-    "がっこうまで あるいて つかいます。",
-    "あさ はやく つかいます。",
-    "ごはんを たくさん つかいます。"
+    "そらが あおく つかいます。",
+    "あめが たくさん つかいます。",
+    "かぜが つよく つかいます。"
    ],
    "correct": 1
   }

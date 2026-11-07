@@ -6615,3 +6615,14 @@ A98. CROSS-SECTION TWINS, STALE LABELS, RARE-READING DISTRACTORS (added 2026-11-
      0 hits in N5, self-test 10/10).
      Cross-ref: procedure-manual F.67.
 ================================================================================
+
+A98 ADDENDUM (fourth read, 2026-11-07): answer leaks also come from WORKED EXAMPLES and from
+     DISTRACTORS. The N4 book's (れい) examples printed しつもん, ぎんこう and ようふく, the answers of
+     numbered items in the same test; a distractor はつおと printed おと, another item's answer; an
+     option 問題 spelled a 表記 answer; a new item's options 姉 / 妹 spelled 姉妹. RULE: for each
+     test, collect every printed string (stems, options, worked examples) and search it for each
+     reading answer (kana) and each 表記 answer (kanji). Reviewers missed 4 of these; a 30-line
+     script found them. Worked-example 用法 distractors must be clear misuses: an omitted object is
+     natural Japanese (「あさ はやく うります」 is fine), so use a wrong object or an impossible subject.
+     Cross-ref: procedure-manual F.68.
+================================================================================

@@ -2742,6 +2742,13 @@ The Phase-0 label/carrier block's regex now also covers 「Xに ついての 本
 
 Source: N4 kanji book third language read 2026-11-07; procedure manual F.67.
 
+Section-10 anti-items (A98 addendum, fourth read 2026-11-07):
+- Never let a worked example, stem or distractor print another item's answer in the same test;
+  search every printed string for each answer (kana readings and kanji spellings).
+- Never use "no object" as the error in a 用法 distractor; omitted objects are natural Japanese.
+
+Source: N4 kanji book fourth language read 2026-11-07; procedure manual F.68.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

@@ -15,7 +15,7 @@
    "sentence": "えいごの 発音は むずかしいです。",
    "underline": "発音",
    "options": [
-    "はつおと",
+    "はついん",
     "はつね",
     "はつおん",
     "はっおん"
@@ -23,7 +23,7 @@
    "correct": 3,
    "explanation": "「発音」は「はつおん」と読みます。",
    "distractors": [
-    "kun おと for 音",
+    "on いん (as in 母音), wrong here",
     "kun ね for 音",
     "CORRECT",
     "wrong sokuon はっ"
@@ -51,7 +51,7 @@
    "distractors": [
     "CORRECT",
     "drops the long vowel ちゅ",
-    "wrong 2nd kanji き",
+    "wrong reading き for 意",
     "voices ち->じ"
    ]
   },
@@ -424,13 +424,13 @@
    "correct": 1
   },
   "M3": {
-   "sentence": "レストランで りょうりを（　　）。",
+   "sentence": "レストランで ばんごはんを（　　）。",
    "underline": "（　　）",
    "options": [
-    "ちゅうもんします",
-    "うんどうします",
-    "そうじします",
-    "へんじします"
+    "たべます",
+    "はしります",
+    "およぎます",
+    "ねます"
    ],
    "correct": 1
   },
@@ -446,13 +446,13 @@
    "correct": 3
   },
   "M5": {
-   "sentence": "あるく",
-   "underline": "あるく",
+   "sentence": "のる",
+   "underline": "のる",
    "options": [
-    "まいにち 駅まで あるいて 行きます。",
-    "へやを きれいに あるきます。",
-    "ごはんを たくさん あるきます。",
-    "つめたい 水を あるいて のみます。"
+    "まいにち でんしゃに のって 学校へ 行きます。",
+    "へやを きれいに のります。",
+    "ごはんを たくさん のります。",
+    "つめたい 水を のって のみます。"
    ],
    "correct": 1
   }

@@ -51,7 +51,7 @@
    "distractors": [
     "drops the long vowel りょ",
     "full-size よ instead of small ょ",
-    "wrong 2nd kana じ (りょうじ)",
+    "wrong reading じ for 理",
     "CORRECT"
    ]
   },
@@ -104,7 +104,7 @@
     "CORRECT",
     "on ぶ (as in 無事), wrong here",
     "adds よう",
-    "wrong 2nd kanji じ"
+    "wrong reading じ for 理"
    ]
   },
   {
@@ -448,7 +448,7 @@
    "options": [
     "この 店では やさいを うって います。",
     "がっこうで にほんごを うります。",
-    "あさ はやく うります。",
+    "そらを うります。",
     "つめたい 水を うって のみます。"
    ],
    "correct": 1

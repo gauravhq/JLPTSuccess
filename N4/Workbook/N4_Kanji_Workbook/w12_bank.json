@@ -190,26 +190,26 @@
    "id": "W12-M2-Q08",
    "type": "orthography",
    "target_kanji": [
-    "冬"
+    "弟"
    ],
-   "target_word": "ふゆやすみ",
-   "reading": "ふゆやすみ",
-   "meaning": "winter vacation",
-   "sentence": "ふゆやすみに かぞくで スキーに 行きます。",
-   "underline": "ふゆやすみ",
+   "target_word": "おとうと",
+   "reading": "おとうと",
+   "meaning": "younger brother",
+   "sentence": "おとうとは 小学生です。",
+   "underline": "おとうと",
    "options": [
-    "冬休み",
-    "夏休み",
-    "春休み",
-    "昼休み"
+    "弟",
+    "兄",
+    "父",
+    "母"
    ],
    "correct": 1,
-   "explanation": "「ふゆやすみ」は「冬休み」と書きます。",
+   "explanation": "「おとうと」は「弟」と書きます。",
    "distractors": [
-    "CORRECT: 冬休み = winter vacation",
-    "夏休み = なつやすみ, 'summer vacation'",
-    "春休み = はるやすみ, 'spring break'",
-    "昼休み = ひるやすみ, 'lunch break'"
+    "CORRECT: 弟 = younger brother",
+    "兄 = あに, 'older brother'",
+    "父 = ちち, 'father'",
+    "母 = はは, 'mother'"
    ]
   },
   {
@@ -447,7 +447,7 @@
    "underline": "およぐ",
    "options": [
     "なつに うみで およぎます。",
-    "がっこうまで あるいて およぎます。",
+    "へやを きれいに およぎます。",
     "ごはんを たくさん およぎます。",
     "つめたい 水を およいで のみます。"
    ],

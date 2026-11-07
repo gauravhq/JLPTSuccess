@@ -102,7 +102,7 @@
    "correct": 3,
    "explanation": "「仕事」は「しごと」と読みます。",
    "distractors": [
-    "wrong reading じ",
+    "on じ (as in 大事), wrong here",
     "voices し->じ",
     "CORRECT",
     "unvoices ご->こ"
@@ -131,7 +131,7 @@
     "drops the long vowel (えが)",
     "CORRECT: えいが = movie",
     "kun うつ (映る) misapplied",
-    "wrong reading かく for 画"
+    "on かく (as in 計画), wrong here"
    ]
   },
   {
@@ -300,7 +300,7 @@
    "target_word": "英会話",
    "reading": "えいかいわ",
    "meaning": "English conversation",
-   "sentence": "外国人と 話せるように なりたいので、まいしゅう（　　）を ならって います。",
+   "sentence": "外国人の 友だちと もっと おしゃべりしたいので、まいしゅう（　　）を ならって います。",
    "underline": "（　　）",
    "options": [
     "料理",
@@ -309,7 +309,7 @@
     "そうじ"
    ],
    "correct": 3,
-   "explanation": "Wanting to be able to speak with foreigners, you learn 英会話 (English conversation); cooking, exercise, or cleaning are not about speaking.",
+   "explanation": "Wanting to chat more with foreign friends, you learn 英会話 (English conversation); cooking, exercise, or cleaning are not about talking.",
    "distractors": [
     "cooking (no)",
     "exercise (no)",
@@ -422,7 +422,7 @@
    "correct": 1
   },
   "M3": {
-   "sentence": "ぎんこうで お金を（　　）。",
+   "sentence": "ATMで お金を（　　）。",
    "underline": "（　　）",
    "options": [
     "おろします",
@@ -449,7 +449,7 @@
    "options": [
     "あたらしい くつを ためして みます。",
     "へやを きれいに ためします。",
-    "あさ はやく ためします。",
+    "そらが あおく ためします。",
     "ごはんを たくさん ためします。"
    ],
    "correct": 1

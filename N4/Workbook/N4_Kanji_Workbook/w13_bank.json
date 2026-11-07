@@ -52,7 +52,7 @@
    "explanation": "「新年」は「しんねん」と読みます。",
    "distractors": [
     "kun とし for 年",
-    "wrong reading あら",
+    "kun あら(た), wrong here",
     "CORRECT: しんねん = new year",
     "drops ん (しねん)"
    ],
@@ -199,28 +199,25 @@
    "target_kanji": [
     "員"
    ],
-   "target_word": "かいしゃいん",
-   "reading": "かいしゃいん",
-   "meaning": "company employee",
-   "sentence": "あには 東京で はたらく かいしゃいんです。",
-   "underline": "かいしゃいん",
+   "target_word": "ぎんこういん",
+   "reading": "ぎんこういん",
+   "meaning": "bank clerk",
+   "sentence": "あには 東京で はたらく ぎんこういんです。",
+   "underline": "ぎんこういん",
    "options": [
-    "会社員",
     "銀行員",
-    "会員",
-    "店員"
+    "駅員",
+    "店員",
+    "社員"
    ],
    "correct": 1,
-   "explanation": "「かいしゃいん」は「会社員」と書きます。",
+   "explanation": "「ぎんこういん」は「銀行員」と書きます。",
    "distractors": [
-    "CORRECT: 会社員 = company employee",
-    "銀行員 = ぎんこういん, 'bank clerk'",
-    "会員 = かいいん, 'member'",
-    "店員 = てんいん, 'shop clerk'"
-   ],
-   "review_status": "automated-check-passed",
-   "review_flag": "TC-G09/TC-G10/TC-NAT01/TC-NAT02/TC-NAT06/TC-JLPT02: 東京の会社員 reads as a modifier relationship, not 'works as an employee in Tokyo'.",
-   "review_fix": "Rewrote the carrier to あには 東京で はたらく かいしゃいんです (働く in kana, out of W13 scope); underlined spelling target かいしゃいん unchanged."
+    "CORRECT: 銀行員 = bank clerk",
+    "駅員 = えきいん, 'station staff'",
+    "店員 = てんいん, 'shop clerk'",
+    "社員 = しゃいん, 'employee'"
+   ]
   },
   {
    "id": "W13-M2-Q09",
@@ -320,7 +317,7 @@
     "ねだん"
    ],
    "correct": 2,
-   "explanation": "Taking the wrong 道 (route) makes you come out somewhere else; a weather, name or price cannot be 'mistaken' into a wrong place.",
+   "explanation": "Taking the wrong 道 (route) makes you come out somewhere else; the weather, a name or a price cannot be 'mistaken' into a wrong place.",
    "distractors": [
     "weather (does not lead somewhere)",
     "CORRECT: 道 = the route (taking the wrong one leads elsewhere)",
@@ -406,7 +403,7 @@
     "unvoiced くち",
     "CORRECT: でぐち = exit",
     "on しゅつ + くち",
-    "wrong reading こう"
+    "on こう (as in 人口), wrong here"
    ],
    "review_status": "automated-check-passed"
   }
@@ -461,7 +458,7 @@
    "underline": "およぐ",
    "options": [
     "なつに うみで およぎます。",
-    "がっこうまで あるいて およぎます。",
+    "へやを きれいに およぎます。",
     "ごはんを たくさん およぎます。",
     "つめたい 水を およいで のみます。"
    ],

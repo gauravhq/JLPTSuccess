@@ -101,7 +101,7 @@
    "correct": 2,
    "explanation": "「体力」は「たいりょく」と読みます。",
    "distractors": [
-    "wrong reading of 力 (りき)",
+    "on りき (as in 人力), wrong here",
     "CORRECT",
     "voices the initial (たい->だい)",
     "wrong kana ろ for りょ (ろく)"
@@ -309,15 +309,15 @@
     "意見",
     "用事",
     "不安",
-    "問題"
+    "主題"
    ],
    "correct": 3,
-   "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or a problem are not feelings.",
+   "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or a theme are not feelings.",
    "distractors": [
     "opinion (no)",
     "errand (no)",
     "CORRECT: uneasy before a test",
-    "problem (no)"
+    "theme (no)"
    ]
   },
   {
@@ -370,7 +370,7 @@
     "CORRECT: かよって = commute",
     "missing っ",
     "on-reading つう (as in 通学)",
-    "wrong vowel い"
+    "い instead of っ (かよいて)"
    ]
   },
   {
@@ -438,7 +438,7 @@
    "sentence": "この えいがは ゆうめいです。",
    "underline": "ゆうめい",
    "options": [
-    "みんなが しりません。",
+    "だれも しりません。",
     "みんなが よく しって います。",
     "だれも 見て いません。",
     "とても つまらないです。"

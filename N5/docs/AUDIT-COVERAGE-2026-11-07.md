@@ -95,6 +95,15 @@ JA-116 row added: A-162 (A98).
 
 ---
 
+## Fourth read, same day (procedure-manual F.68)
+
+A98 extended: worked examples and distractors leaked other items' answers (6 found by readers,
+4 more by a string-search sweep), and 用法 example distractors relied on an omitted object, which is
+natural Japanese. No new A-category, so no new JA-116 row; N5's question bank has no worked
+examples, so the sweep has no N5 target at this checkpoint.
+
+---
+
 ## Future native-human review
 
 The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です
