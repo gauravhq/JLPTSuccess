@@ -51,7 +51,7 @@
    "explanation": "「地下」は「ちか」と読みます。",
    "distractors": [
     "voices ち->じ",
-    "voices か->げ",
+    "wrong kana げ for か",
     "voices か->が",
     "CORRECT"
    ]
@@ -133,8 +133,8 @@
    "distractors": [
     "wrong reading は",
     "CORRECT",
-    "wrong on ご",
-    "kun え for 会"
+    "wrong ご for 話",
+    "wrong on え for 会"
    ]
   },
   {
@@ -267,10 +267,10 @@
    "correct": 2,
    "explanation": "「はしる」は「走る」と書きます。",
    "distractors": [
-    "起きる おきる, 'get up'",
+    "起きる = おきる, 'get up'",
     "CORRECT: 走る = run",
-    "通る とおる, 'pass'",
-    "送る おくる, 'send'"
+    "通る = とおる, 'pass'",
+    "送る = おくる, 'send'"
    ]
   },
   {
@@ -293,10 +293,10 @@
    "correct": 4,
    "explanation": "「あつめる」は「集める」と書きます。",
    "distractors": [
-    "始める はじめる",
-    "教える おしえる",
-    "考える かんがえる",
-    "CORRECT: 集める"
+    "始める = はじめる, 'begin'",
+    "教える = おしえる, 'teach'",
+    "考える = かんがえる, 'think'",
+    "CORRECT: 集める = collect"
    ]
   },
   {
@@ -319,10 +319,10 @@
    "correct": 3,
    "explanation": "「かんがえる」は「考える」と書きます。",
    "distractors": [
-    "教える おしえる, 'teach'",
-    "答える こたえる, 'answer'",
+    "教える = おしえる, 'teach'",
+    "答える = こたえる, 'answer'",
     "CORRECT: 考える = think",
-    "集める あつめる, 'collect'"
+    "集める = あつめる, 'collect'"
    ]
   },
   {
@@ -347,9 +347,9 @@
    "explanation": "「たかい」は「高い」と書きます。",
    "distractors": [
     "CORRECT: 高い = tall",
-    "安い やすい, 'cheap'",
-    "近い ちかい, 'near'",
-    "重い おもい, 'heavy'"
+    "安い = やすい, 'cheap'",
+    "近い = ちかい, 'near'",
+    "重い = おもい, 'heavy'"
    ]
   },
   {
@@ -372,10 +372,10 @@
    "correct": 2,
    "explanation": "「うる」は「売る」と書きます。",
    "distractors": [
-    "作る つくる",
-    "CORRECT: 売る",
-    "知る しる",
-    "通る とおる"
+    "作る = つくる, 'make'",
+    "CORRECT: 売る = sell",
+    "知る = しる, 'know'",
+    "通る = とおる, 'pass'"
    ]
   },
   {
@@ -398,10 +398,10 @@
    "correct": 4,
    "explanation": "「かえる」は「帰る」と書きます。",
    "distractors": [
-    "売る うる",
-    "走る はしる",
-    "通る とおる",
-    "CORRECT: 帰る"
+    "売る = うる, 'sell'",
+    "走る = はしる, 'run'",
+    "通る = とおる, 'pass'",
+    "CORRECT: 帰る = go home"
    ]
   },
   {
@@ -422,7 +422,7 @@
     "れんしゅう"
    ],
    "correct": 3,
-   "explanation": "To cross a road busy with cars you must 注意 (pay attention); cleaning, asking a question or practising cannot express traffic caution.",
+   "explanation": "To cross a road busy with cars you must 注意 (pay attention); cleaning, asking a question or practicing cannot express traffic caution.",
    "distractors": [
     "clean (cannot mean traffic caution)",
     "ask a question (no)",
@@ -603,7 +603,7 @@
    "reading": "しんせつ",
    "meaning": "kind",
    "grammar_note": "na-adjective",
-   "sentence": "道が わからない わたしに、何度も やさしく おしえて くれました。その 店の 人は とても（　　）人です。",
+   "sentence": "店の 人が、道が わからない わたしに 何度も やさしく おしえて くれました。とても（　　）人です。",
    "underline": "（　　）",
    "options": [
     "つめたい",
@@ -612,7 +612,7 @@
     "しずかな"
    ],
    "correct": 2,
-   "explanation": "Teaching kindly again and again shows the person is 親切 (kind); cold, scary or quiet is contradicted by that behaviour.",
+   "explanation": "Teaching kindly again and again shows the person is 親切 (kind); cold, scary or quiet is contradicted by that behavior.",
    "distractors": [
     "cold/unkind (contradicted by the kindness)",
     "CORRECT: 親切 = kind (taught kindly, many times)",
@@ -718,7 +718,7 @@
     "よるの この 道は くらくて あんぜんです。",
     "よるの この 道は くらくて きけんです。",
     "よるの この 道は くらくて しずかです。",
-    "よるの この 道は くらくて あかるいです。"
+    "よるの この 道は くらくて さむいです。"
    ],
    "correct": 2,
    "explanation": "あぶない (dangerous) matches きけん (perilous).",
@@ -726,7 +726,7 @@
     "safe (opposite)",
     "CORRECT: perilous = あぶない",
     "quiet (no)",
-    "bright (no)"
+    "cold (no)"
    ]
   },
   {
@@ -856,7 +856,7 @@
    "correct": 3,
    "explanation": "「安心」は「あんしん」と読みます。",
    "distractors": [
-    "wrong voicing ち",
+    "wrong kana ち (しん->ちん)",
     "kun-reading やす",
     "CORRECT: あんしん = relief",
     "reads 安全 (あんぜん), a different word"

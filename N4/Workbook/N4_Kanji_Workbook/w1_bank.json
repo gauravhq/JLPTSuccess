@@ -231,8 +231,8 @@
    "correct": 2,
    "explanation": "「あく」は「開く」と書きます。",
    "distractors": [
-    "空く = 'become empty', wrong meaning for a window",
-    "CORRECT",
+    "空く = あく, 'become empty', wrong meaning for a window",
+    "CORRECT: 開く = open",
     "聞く = きく, 'listen', wrong reading",
     "書く = かく, 'write', wrong reading"
    ]

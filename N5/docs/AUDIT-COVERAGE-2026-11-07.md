@@ -55,6 +55,29 @@ No N5 content change was needed against this check's scope.
 
 ---
 
+## Second read, same day (procedure-manual F.66)
+
+Four independent reads of the rebuilt N4 book (cards, banks, fixed text and answer keys, supplement)
+produced four more lesson classes. Each finding was checked against the data and the gates before
+it was applied; two were withdrawn (FP-25).
+
+| Class | N4 evidence | Surface |
+|-------|-------------|---------|
+| A95 label phonetics | 7 labels called non-voicing changes "voicing"; 3 on/kun tags wrong | prompt A95; Phase-0 block; `tools/check_label_phonetics_and_carriers.py` |
+| A96 empty carriers | 135 of 340 supplement carriers had no situation | prompt A96; same Phase-0 block and tool |
+| A97 worked examples / duplicates | 12 of 15 (れい) 漢字読み examples malformed; 2 targets tested twice per test | prompt A97; N5Improvement Section-10 anti-items |
+| FP-25 recorded decisions | 下町 item and 貸 かし were reviewed decisions | prompt FP-25 |
+
+| Check | Scope | Result |
+|-------|-------|--------|
+| `tools/check_label_phonetics_and_carriers.py` | 157,799 strings in `data/*.json`; 268 stems in `data/questions.json` | 0 hits |
+| Same tool, `--self-test` | the N4 originals planted (8) plus 7 clean strings | 8 caught, 7 pass |
+
+JA-116 rows added in the same change: A-159 (A95), A-160 (A96), A-161 (A97), FP-25,
+Phase-0-label-phonetics-carriers. No N5 content change was needed against this tool's scope.
+
+---
+
 ## Future native-human review
 
 The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です

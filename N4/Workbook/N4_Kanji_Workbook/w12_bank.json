@@ -131,7 +131,7 @@
     "kun うし for 牛",
     "CORRECT",
     "drops the long vowel ぎゅ",
-    "voices に->じ"
+    "wrong kana じ for に"
    ]
   },
   {
@@ -208,9 +208,9 @@
    "explanation": "「ふゆやすみ」は「冬休み」と書きます。",
    "distractors": [
     "CORRECT: 冬休み = winter vacation",
-    "夏休み = summer vacation",
-    "春休み = spring break",
-    "昼休み = lunch break"
+    "夏休み = なつやすみ, 'summer vacation'",
+    "春休み = はるやすみ, 'spring break'",
+    "昼休み = ひるやすみ, 'lunch break'"
    ]
   },
   {
@@ -349,26 +349,26 @@
    "id": "W12-M5-Q14",
    "type": "kanji_reading",
    "target_kanji": [
-    "漢"
+    "妹"
    ],
-   "target_word": "漢字",
-   "reading": "かんじ",
-   "meaning": "kanji; Chinese character",
-   "sentence": "英語の 本には、漢字が 一つも ありません。",
-   "underline": "漢字",
+   "target_word": "妹",
+   "reading": "いもうと",
+   "meaning": "younger sister",
+   "sentence": "妹は ことし 小学生に なりました。",
+   "underline": "妹",
    "options": [
-    "かんし",
-    "がんじ",
-    "かんじ",
-    "かじ"
+    "いもおと",
+    "まい",
+    "いもうと",
+    "いもと"
    ],
    "correct": 3,
-   "explanation": "「漢字」は「かんじ」と読みます。",
+   "explanation": "「妹」は「いもうと」と読みます。",
    "distractors": [
-    "wrong voicing し",
-    "wrong first kana が",
-    "CORRECT: かんじ = kanji",
-    "missing ん"
+    "long vowel written お (いもおと)",
+    "on-reading まい",
+    "CORRECT: いもうと = younger sister",
+    "drops う (いもと)"
    ]
   },
   {
@@ -400,8 +400,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "にわで こどもが あそんで います。",
-   "underline": "こども",
+   "sentence": "にわで 子どもが あそんで います。",
+   "underline": "子ども",
    "options": [
     "おとな",
     "こども",

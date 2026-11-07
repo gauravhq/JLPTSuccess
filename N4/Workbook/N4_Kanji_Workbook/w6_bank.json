@@ -52,7 +52,7 @@
    "distractors": [
     "drops the long vowel りょ",
     "adds よ",
-    "voices り->じ",
+    "wrong 2nd kana じ (りょうじ)",
     "CORRECT"
    ]
   },
@@ -103,7 +103,7 @@
    "explanation": "「無理」は「むり」と読みます。",
    "distractors": [
     "CORRECT",
-    "voices む->ぶ",
+    "on ぶ (as in 無事), wrong here",
     "adds よう",
     "wrong 2nd kanji じ"
    ]
@@ -282,9 +282,9 @@
     "後ろ"
    ],
    "correct": 1,
-   "explanation": "The point equidistant from the four entrances is the 真ん中 (centre); an entrance, front or back is not equidistant from all of them.",
+   "explanation": "The point equidistant from the four entrances is the 真ん中 (center); an entrance, front or back is not equidistant from all of them.",
    "distractors": [
-    "CORRECT: 真ん中 = the centre (equidistant from all four entrances)",
+    "CORRECT: 真ん中 = the center (equidistant from all four entrances)",
     "entrance",
     "front",
     "back"
@@ -400,13 +400,13 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "つめたい みずを のみます。",
-   "underline": "みず",
+   "sentence": "つめたい 水を のみます。",
+   "underline": "水",
    "options": [
-    "火",
-    "水",
-    "木",
-    "土"
+    "みす",
+    "みず",
+    "みつ",
+    "むず"
    ],
    "correct": 2
   },

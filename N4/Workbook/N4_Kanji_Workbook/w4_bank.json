@@ -127,7 +127,7 @@
    "correct": 4,
    "explanation": "「安心」は「あんしん」と読みます。",
    "distractors": [
-    "wrong voicing (ち)",
+    "wrong kana ち (しん->ちん)",
     "kun-reading やす for 安",
     "drops the final ん",
     "CORRECT: あんしん = relief"
@@ -376,33 +376,33 @@
    "id": "W04-M5-Q15",
    "type": "kanji_reading",
    "target_kanji": [
-    "元"
+    "心"
    ],
-   "target_word": "元気",
-   "reading": "げんき",
-   "meaning": "lively; healthy; energetic",
-   "sentence": "そふは 八十さいですが、まいにち さんぽを して とても 元気です。",
-   "underline": "元気",
+   "target_word": "心",
+   "reading": "こころ",
+   "meaning": "heart; feelings",
+   "sentence": "友だちの ことばを 聞いて、心が あたたかく なりました。",
+   "underline": "心",
    "options": [
-    "げんぎ",
-    "げんき",
-    "けんき",
-    "がんき"
+    "こころう",
+    "こころ",
+    "こごろ",
+    "ころこ"
    ],
    "correct": 2,
-   "explanation": "「元気」は「げんき」と読みます。",
+   "explanation": "「心」は「こころ」と読みます。",
    "distractors": [
-    "wrong voicing ぎ",
-    "CORRECT: げんき = well/lively",
-    "wrong first kana け",
-    "wrong first kana が"
+    "adds a long vowel (こころう)",
+    "CORRECT: こころ = heart; feelings",
+    "voices こ->ご",
+    "kana in the wrong order"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "あおい そらが きれいです。",
-   "underline": "そら",
+   "sentence": "あおい 空が きれいです。",
+   "underline": "空",
    "options": [
     "うみ",
     "そら",

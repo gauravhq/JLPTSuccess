@@ -402,8 +402,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "にわに きれいな はなが さいて います。",
-   "underline": "はな",
+   "sentence": "にわに きれいな 花が さいて います。",
+   "underline": "花",
    "options": [
     "き",
     "はな",

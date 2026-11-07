@@ -255,7 +255,7 @@
     "主人公"
    ],
    "correct": 4,
-   "explanation": "The character the story centres on is the 主人公 (protagonist); a director, actor or author is not the character in the story.",
+   "explanation": "The character the story centers on is the 主人公 (protagonist); a director, actor or author is not the character in the story.",
    "distractors": [
     "director",
     "actor",
@@ -399,8 +399,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "あかい はなが さいて います。",
-   "underline": "はな",
+   "sentence": "あかい 花が さいて います。",
+   "underline": "花",
    "options": [
     "やま",
     "かわ",

@@ -256,12 +256,12 @@
     "いろ"
    ],
    "correct": 1,
-   "explanation": "What is written and hard to read is the 文字 (characters); a picture, photo or colour is not 'read'.",
+   "explanation": "What is written and hard to read is the 文字 (characters); a picture, photo or color is not 'read'.",
    "distractors": [
     "CORRECT: 文字 = the written characters",
     "a picture",
     "a photo",
-    "a colour"
+    "a color"
    ],
    "review_status": "revised"
   },
@@ -403,13 +403,13 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "よぞらに ほしが たくさん 見えます。",
-   "underline": "ほし",
+   "sentence": "あしたは 雨が ふるでしょう。",
+   "underline": "雨",
    "options": [
-    "つき",
-    "ほし",
-    "くも",
-    "そら"
+    "ゆき",
+    "あめ",
+    "かぜ",
+    "くも"
    ],
    "correct": 2
   },

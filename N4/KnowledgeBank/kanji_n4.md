@@ -82,7 +82,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
 
 - **代**  (tier: core_n4)
   - on: ダイ、タイ
-  - kun: か(わり)、か(わる)、よ、しろ
+  - kun: か(わる)、よ、しろ
   - primary: ダイ  (kind: on)
   - meanings: substitute, change, generation, age
 
@@ -163,8 +163,8 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: utilize, business, service, use, employ
 
 - **度**  (tier: core_n4)
-  - on: ド
-  - secondary_on: タク、ト
+  - on: ド、タク
+  - secondary_on: ト
   - kun: たび
   - primary: ド  (kind: on)
   - meanings: degrees, occurrence, time, counter

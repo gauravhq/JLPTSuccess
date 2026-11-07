@@ -79,7 +79,7 @@
    "distractors": [
     "CORRECT: らいしゅう = next week",
     "drops the long vowel しゅ",
-    "wrong on く for 来",
+    "kun く (as in 来る), not the on らい",
     "wrong ちょう for 週"
    ],
    "review_status": "automated-check-passed"
@@ -97,7 +97,7 @@
    "underline": "何曜日",
    "options": [
     "なんように",
-    "なにようび",
+    "なんようひ",
     "なんようび",
     "なんよび"
    ],
@@ -105,7 +105,7 @@
    "explanation": "「何曜日」は「なんようび」と読みます。",
    "distractors": [
     "wrong ending ように",
-    "wrong なに for 何",
+    "unvoices び->ひ",
     "CORRECT: なんようび = what day",
     "drops う (なんよび)"
    ],
@@ -120,7 +120,7 @@
    "target_word": "駅",
    "reading": "えき",
    "meaning": "station",
-   "sentence": "駅の まえで 友だちと まって います。",
+   "sentence": "駅の まえで 友だちを まって います。",
    "underline": "駅",
    "options": [
     "えけ",
@@ -255,7 +255,7 @@
    "target_word": "飲み物",
    "reading": "のみもの",
    "meaning": "drink",
-   "sentence": "のどが かわいたので、つめたい（　　）を 飲みました。",
+   "sentence": "のどが かわいたので、つめたい（　　）を のみました。",
    "underline": "（　　）",
    "options": [
     "食べ物",
@@ -264,7 +264,7 @@
     "くだもの"
    ],
    "correct": 2,
-   "explanation": "The predicate is 飲む, so only a 飲み物 (drink) fits; food, a vehicle, and fruit cannot be drunk.",
+   "explanation": "The verb is のむ (drink), so only a 飲み物 (drink) fits; food, a vehicle, and fruit cannot be drunk.",
    "distractors": [
     "food (cannot be drunk)",
     "CORRECT: 飲み物 = a drink",
@@ -411,8 +411,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "にわで こどもが あそんで います。",
-   "underline": "こども",
+   "sentence": "にわで 子どもが あそんで います。",
+   "underline": "子ども",
    "options": [
     "おとな",
     "こども",

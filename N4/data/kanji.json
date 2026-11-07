@@ -679,7 +679,6 @@
         "タイ"
       ],
       "kun": [
-        "か(わり)",
         "か(わる)",
         "よ",
         "しろ"
@@ -1321,7 +1320,8 @@
       "n5_prerequisite": false,
       "lesson_order": 25,
       "on": [
-        "ド"
+        "ド",
+        "タク"
       ],
       "kun": [
         "たび"
@@ -1356,7 +1356,6 @@
       "notes": "A hand measures the same thing again and again: each measure is one DEGREE, one time.",
       "secondary_readings": {
         "on": [
-          "タク",
           "ト"
         ],
         "kun": []
@@ -3414,7 +3413,7 @@
         {
           "form": "町",
           "reading": "まち",
-          "gloss": "town; neighbourhood; district"
+          "gloss": "town; neighborhood; district"
         },
         {
           "form": "下町",
@@ -3436,7 +3435,7 @@
       "deck_order_rank": 68,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "town; neighbourhood; district"
+      "display_meaning": "town; neighborhood; district"
     },
     {
       "id": "n4.kanji.料",
@@ -3978,7 +3977,7 @@
         {
           "form": "起こす",
           "reading": "おこす",
-          "gloss": "to raise; to raise up"
+          "gloss": "to wake (someone) up; to raise; to cause"
         },
         {
           "form": "起きる",
@@ -5135,7 +5134,7 @@
           "gloss": "returning home; going home"
         }
       ],
-      "notes": "One traditional telling: pick up the broom and head back home = RETURN. (The origin is disputed - see Confidence.)",
+      "notes": "One traditional telling: pick up the broom and head back home = RETURN. (The origin is disputed.)",
       "deck_order_rank": 103,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
@@ -7834,7 +7833,7 @@
           "gloss": "buyer / purchaser"
         }
       ],
-      "notes": "Net (四) for shell-money (貝) = BUY.",
+      "notes": "Net (罒) for shell-money (貝) = BUY.",
       "deck_order_rank": 162,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,

@@ -77,7 +77,7 @@
    "distractors": [
     "voices the initial (ち->じ)",
     "adds a long vowel (り->りょう)",
-    "unvoices ち->し",
+    "wrong kana し for ち",
     "CORRECT"
    ]
   },
@@ -154,7 +154,7 @@
    "explanation": "「うごく」は「動く」と書きます。",
    "distractors": [
     "書く = かく, 'write', wrong reading",
-    "CORRECT",
+    "CORRECT: 動く = move",
     "開く = あく, 'open', wrong reading",
     "聞く = きく, 'listen', wrong reading"
    ]
@@ -232,7 +232,7 @@
    "explanation": "「つくる」は「作る」と書きます。",
    "distractors": [
     "通る = とおる, 'pass through', wrong reading",
-    "CORRECT",
+    "CORRECT: 作る = make",
     "入る = はいる, 'enter', wrong reading",
     "上る = のぼる, 'go up', wrong reading"
    ]

@@ -402,8 +402,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "よぞらに つきが でて います。",
-   "underline": "つき",
+   "sentence": "よぞらに 月が でて います。",
+   "underline": "月",
    "options": [
     "ほし",
     "つき",

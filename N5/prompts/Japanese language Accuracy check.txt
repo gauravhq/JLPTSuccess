@@ -6515,3 +6515,78 @@ A94. BLANK-FRAME PART-OF-SPEECH AGREEMENT (added 2026-11-07)
      Cross-ref: procedure-manual F.65; N5Improvement Phase-0 blank-frame
      part-of-speech agreement block; AUDIT-COVERAGE-2026-11-07.md.
 ================================================================================
+
+A95. ANSWER-KEY LABEL PHONETICS AND READING TYPE (added 2026-11-07)
+     ============================================================
+     Trigger: a second language read of the N4 kanji book found printed
+     distractor labels that named the wrong sound change or reading type:
+     "voices り->じ", "voices む->ぶ", "voices に->じ", "voices か->げ",
+     "wrong voicing (ち)" for あんしん->あんちん; や of 屋 (本屋) called an
+     on-reading; え of 会 called kun; く of 来 (来る) called on.
+     RULE: "voices X->Y" only when Y is X with dakuten / handakuten (か->が,
+     は->ぱ; ち->じ and つ->ず count, as じ / ず are the modern spellings of
+     ぢ / づ); "unvoices" only for the reverse. Any other change is "wrong
+     kana Y for X". An on/kun tag must match the kanji's reading table; a
+     sound that is no reading of the kanji at all is "wrong kana", not "on".
+     Labels print in the answer key, so a wrong term teaches the wrong
+     phonetics.
+     Phase-0 check: tools/check_label_phonetics_and_carriers.py (A95 part;
+     validated 2026-11-07: 0 hits in 157,799 strings across N5 data/*.json;
+     the self-test catches the N4 originals). The on/kun half stays manual.
+     Cross-ref: procedure-manual F.66.
+================================================================================
+
+A96. EMPTY CARRIER FRAMES (added 2026-11-07)
+     ============================================================
+     Trigger: 135 of 340 template-generated 漢字読み / 表記 carriers in the
+     N4 Extended Practice Set were grammatical but said nothing:
+     「自分の ことを 考えました」, 「図書館で 開始に ついて 聞きました」,
+     「同じか どうか 聞きました」, 「家で 悪人に ついて 先生が 教えて
+     くれました」 (a teacher, at home). An earlier pass had fixed 44 of the
+     same class; fixing by example left the rest.
+     RULE: a carrier must state one concrete situation using the target in
+     its normal collocation (「しあいの 開始は 午後 三時です」). Watch: Xの
+     ことを 考えた / おぼえた / しらべた, Xに ついて 聞いた / 話した, Xか
+     どうか 聞いた, Xい ほうを えらんだ, Xい ときも ある, and abstract or
+     time nouns used as a topic (今週に ついて, 仕方の こと, 以上の こと).
+     When a class is found, sweep the whole template output with a regex;
+     do not fix only the items a reader happened to quote.
+     Phase-0 check: tools/check_label_phonetics_and_carriers.py (A96 part;
+     validated 2026-11-07: 0 of 268 N5 question stems). The regex covers
+     the listed frames only; a native read owns the rest.
+     Cross-ref: procedure-manual F.66.
+================================================================================
+
+A97. WORKED EXAMPLES AND IN-TEST DUPLICATES (added 2026-11-07)
+     ============================================================
+     Trigger (N4 kanji book): 11 of 15 (れい) worked examples for 漢字読み
+     underlined a word written in KANA (あかい はなが, underline はな), so the
+     example had nothing to read; a 12th used the 表記 format. Every gate
+     checked the numbered items and none checked the examples. Separately,
+     two tests asked the same reading twice on one page (元気, 漢字) with
+     near-identical options, so item 1 answered item 7.
+     RULE: run the per-type format checks on worked examples too (漢字読み:
+     target in kanji, kana options; 表記: target in kana, kanji options).
+     If a scope rule limits which kanji an early example may use, pick an
+     in-scope (e.g. N5) kanji word; do not fall back to kana. No target
+     word may be tested twice in one test.
+     Cross-ref: procedure-manual F.66.
+================================================================================
+
+FP-25. A structural flag that reverses a recorded review decision
+       (added 2026-11-07)
+       ============================================================
+       SHAPE: a reviewer (human or AI) flags an item as misfiled or a
+       reading as non-standard, and the fix looks mechanical.
+       FALSE-POSITIVE TRIGGER (N4 kanji book, 2026-11-07): W06-M3-Q12, a
+       漢字読み item in a 文脈規定 slot, was rebuilt as a fill-in item; the
+       workbook's Authoring Guide records that 下町 was MOVED to 漢字読み in
+       the 2026-07-25 native review, and the self-audit type split failed.
+       Dropping 貸 kun かし as "not Jōyō" broke verify_kanji_data check 3
+       (貸家 かしや needs it; KANJIDIC lists か.し).
+       RULE: before applying a structural or reading-table fix, search the
+       authoring guide, review ledger and superseded-wording lists for a
+       recorded decision, and run the data gates. If a decision exists, the
+       flag is a false positive unless the decision itself is shown wrong.
+       Cross-ref: procedure-manual F.66.
+================================================================================

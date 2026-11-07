@@ -49,7 +49,7 @@
    "correct": 3,
    "explanation": "「屋上」は「おくじょう」と読みます。",
    "distractors": [
-    "wrong on や for 屋",
+    "kun や (as in 本屋), not the on おく",
     "kun うえ for 上",
     "CORRECT",
     "both kun"
@@ -404,8 +404,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "やまの うえに ゆきが つもって います。",
-   "underline": "やま",
+   "sentence": "山の うえに ゆきが つもって います。",
+   "underline": "山",
    "options": [
     "かわ",
     "やま",

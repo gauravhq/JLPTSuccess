@@ -415,8 +415,8 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "にわで こどもが あそんで います。",
-   "underline": "こども",
+   "sentence": "にわで 子どもが あそんで います。",
+   "underline": "子ども",
    "options": [
     "おとな",
     "こども",

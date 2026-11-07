@@ -2706,6 +2706,32 @@ Phase-0 check (validated to return 0 against the current corpus):
 
 Source: N4 kanji book language read 2026-11-07; procedure manual F.65.
 
+### Phase-0 label-phonetics and empty-carrier block (added 2026-11-07)
+
+Codifies accuracy-prompt A95 (answer-key labels naming a sound change that
+is not voicing: "voices り->じ", "voices か->げ") and A96 (carriers with no
+situation: 「自分の ことを 考えました」, 「開始に ついて 聞きました」; 135 were
+rewritten in the N4 supplement).
+
+Phase-0 check (validated to return 0 against the current corpus):
+- `python tools/check_label_phonetics_and_carriers.py` - (A95) every
+  "voices / unvoices X->Y" in data/*.json must name a real dakuten or
+  handakuten pair; (A96) no question stem may match the empty-frame regex.
+- `python tools/check_label_phonetics_and_carriers.py --self-test` must
+  print SELF-TEST PASS (the N4 originals are planted in it).
+- Expected: 0 (2026-11-07: 157,799 strings and 268 stems scanned, 0 hits).
+- A hit: relabel as "wrong kana Y for X", or rewrite the stem around one
+  concrete situation. The regex covers the listed frames only.
+
+Section-10 anti-items (A97 / FP-25, manual):
+- Never print a 漢字読み worked example whose underlined target is kana; run
+  the item-format checks on (れい) examples as well as numbered items.
+- Never test the same target word twice in one test.
+- Never apply a structural or reading-table fix without first searching the
+  authoring guide / review ledger for a recorded decision (FP-25).
+
+Source: N4 kanji book second language read 2026-11-07; procedure manual F.66.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes
