@@ -57,7 +57,8 @@ No N5 content change was needed against this check's scope.
 
 ## Future native-human review
 
-The mechanical check covers two frame shapes (blank + でした/です, blank + noun) and only options the
+The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です
+is correct and deliberately not flagged) and only options the
 vocab file types. Shapes it does not cover (blank + な with い-adjective options, verb-form agreement
 before a blank, mixed parts of speech in one option set) remain a native reader's job: substitute
 each option into the blank and read the whole sentence aloud.

@@ -2694,7 +2694,8 @@ frame: 「えんそくは とても（　　）でした」 with い-adjective o
 
 Phase-0 check (validated to return 0 against the current corpus):
 - `python tools/check_blank_frame_pos.py` - for every question with a
-  blank, (a) blank + でした/です: no option may be an い-adjective;
+  blank, (a) blank + でした/だ/では: no option may be an い-adjective
+  (い-adjective + です or でしょう is correct and is not flagged);
   (b) blank + a noun: no option may be a bare な-adjective.
 - Expected: 0 (2026-11-07: 214 blank items scanned, 0 violations).
 - A hit means the frame breaks for that option: move the blank so it

@@ -6500,8 +6500,10 @@ A94. BLANK-FRAME PART-OF-SPEECH AGREEMENT (added 2026-11-07)
      RULE: substitute EACH of the four options into the blank and read the
      whole sentence. The frame must be grammatical for all four; only the
      meaning may rule distractors out. Highest-risk frames: blank + でした /
-     です (い-adjectives), blank + a noun (bare な-adjectives), blank + な
-     (い-adjectives), and options that mix parts of speech.
+     だ / では (い-adjectives: 楽しいでした is wrong, the past is
+     楽しかったです), blank + a noun (bare な-adjectives), and options that
+     mix parts of speech. NOT a frame break: い-adjective + です or + でしょう
+     (楽しいです, 強いです are correct) - flagging those is a false positive.
      FIX SHAPES: move the blank so it modifies a noun (「とても（　　）
      えんそくでした」), or print the options in the form the frame needs
      (親切な / しずかな). Never fix by changing only the key.

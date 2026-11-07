@@ -9,8 +9,12 @@ frame around the blank broke for the keyed answer:
 
 Both had passed every automated gate and several review rounds, because each option reads fine on
 its own; the error only exists in the frame. Rules checked:
-  (a) blank followed by でした / です  -> no option may be an い-adjective;
+  (a) blank followed by でした / だ / だった / では / じゃ -> no option may be an い-adjective
+      (楽しいでした, 楽しいだ, 楽しいではない are wrong; the past is 楽しかったです);
   (b) blank followed by a noun        -> no option may be a bare な-adjective (no な).
+い-adjective + です IS grammatical (楽しいです, 強いです), as is + でしょう. The first version of this
+rule also rejected です; a recheck of the N4 book caught it flagging the correct 「風が（　　）です」
+with 強い as the key, so です is deliberately absent from (a).
 Option part of speech comes from the corpus's own vocab.json, so an option the vocab does not list
 is not judged (reported as unscored, never as a violation).
 
@@ -28,6 +32,9 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 BLANK = re.compile(r"(?:（[\s　]*）|\([\s　]*\)|＿{2,}|_{2,})")
+# What may NOT follow an い-adjective. です and でしょう may, so they are not here. "だ" is matched
+# only before punctuation, so 楽しいだろう (grammatical) is not caught by a bare "だ" prefix.
+IADJ_BAD_NEXT = ("でした", "だった", "では", "じゃ", "だ。", "だ、")
 
 
 def main() -> int:
@@ -51,9 +58,9 @@ def main() -> int:
         scanned += 1
         after = stem[m.end():].lstrip(" 　")
         opts = [str(o) for o in (x.get("choices") or x.get("options") or [])]
-        if after.startswith(("でした", "です")):
+        if after.startswith(IADJ_BAD_NEXT):
             bad = [o for o in opts if pos.get(o) == "i-adj"]
-            rule = "い-adjective before でした/です"
+            rule = "い-adjective before %s" % next(n for n in IADJ_BAD_NEXT if after.startswith(n))
         elif re.match(r"[一-鿿ァ-ヶ]", after[:1] or " "):
             bad = [o for o in opts if pos.get(o) == "na-adj" and not o.endswith("な")]
             rule = "bare な-adjective before a noun"

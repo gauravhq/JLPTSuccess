@@ -30,7 +30,8 @@ ROWS = [
      "must be grammatical for every one of the four options, not just the key",
      "1. Reference: prompts/Japanese language Accuracy check.txt A94. "
      "2. For each blank item, substitute each option into the blank and read the whole sentence. "
-     "3. Flag い-adjective options before でした/です (楽しいでした) and bare な-adjective options "
+     "3. Flag い-adjective options before でした/だ/では (楽しいでした; い-adjective + です is correct) "
+     "and bare な-adjective options "
      "before a noun (親切人). "
      "4. Run python tools/check_blank_frame_pos.py for the mechanical part.",
      "Every option yields a grammatical sentence in its frame, against the current corpus snapshot; "
