@@ -6,16 +6,16 @@
     "expected_count": 106,
     "data_file": "data/n5_kanji_readings.json",
     "primary_selection_rule": "For each kanji, the `primary` reading is whichever reading (on or kun) is encountered most frequently in N5 vocabulary words. Examples: 大 → おお (kun, because 大きい/大人 dominate over 大学 in N5 word frequency); 学 → がく (on, because 学校/学生/大学 dominate); 高 → たか (kun, 高い is the canonical N5 word). When tied, kun-yomi is preferred at N5 because learners typically meet the standalone-adjective form before compounds. Verified by X-6.9 invariant in tools/check_content_integrity.py against EXPECTED_PRIMARY_READING.",
-    "omitted_on_yomi_policy": "Some kanji have an empty `on: []` array (e.g. 私 has only kun: [\"わたし\"]). This is intentional — the on-yomi exists (e.g. 私 → シ) but is NOT taught at N5 because no N5 vocabulary word uses the on-reading. The full reading set is preserved separately in data/kanji.json under additional_readings.on for completeness.",
+    "omitted_on_yomi_policy": "Some kanji have an empty `on: []` array (e.g. 私 has only kun: [\"わたし\"]). This is intentional: the on-yomi exists (e.g. 私 → シ) but is NOT taught at N5 because no N5 vocabulary word uses the on-reading. The full reading set is preserved separately in data/kanji.json under additional_readings.on for completeness.",
     "consumers": [
-      "tools/check_content_integrity.py (X-6.9 — primary-reading regression guard)",
-      "not-required/tools-archive/build_data_kb_era.py (legacy build script; KB-era ancestor of this file — KnowledgeBank source files deleted 2026-05-14, paper JSON is now single source of truth)",
-      "data/kanji.json — separate denormalized per-kanji record file used by the runtime kanji popover"
+      "tools/check_content_integrity.py (X-6.9: primary-reading regression guard)",
+      "not-required/tools-archive/build_data_kb_era.py (legacy build script; KB-era ancestor of this file: KnowledgeBank source files deleted 2026-05-14, paper JSON is now single source of truth)",
+      "data/kanji.json (separate denormalized per-kanji record file used by the runtime kanji popover)"
     ],
     "see_also": [
       "data/kanji.json"
     ],
-    "sokuon_allophony_note": "Sokuon-form kun stems (みっ/よっ/むっ/やっ) were removed from the kun arrays of 三/四/六/八 on 2026-05-08. They are not separate readings — they are the base kun (み/よ/む/や) undergoing sokuon before counter morphemes (三つ→みっつ etc.). The full counter forms (みっつ/よっつ/etc.) live in js/counters.js. Listing the sokuon stem as a kun reading caused learners to memorize a spurious distinction. Per native-teacher audit 2026-05-08 (H-3)."
+    "sokuon_allophony_note": "Sokuon-form kun stems (みっ/よっ/むっ/やっ) were removed from the kun arrays of 三/四/六/八 on 2026-05-08. They are not separate readings: they are the base kun (み/よ/む/や) undergoing sokuon before counter morphemes (三つ→みっつ etc.). The full counter forms (みっつ/よっつ/etc.) live in js/counters.js. Listing the sokuon stem as a kun reading caused learners to memorize a spurious distinction. Per native-teacher audit 2026-05-08 (H-3)."
   },
   "一": {
     "on": [

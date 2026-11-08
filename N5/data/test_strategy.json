@@ -39,7 +39,7 @@
           "label_ja": "漢字読み",
           "n_questions": 7,
           "seconds_per_q": 20,
-          "strategy": "Don't overthink — first reading you recognize is usually right. Scan distractors for slight kana variations (-こう / -ごう)."
+          "strategy": "Don't overthink: first reading you recognize is usually right. Scan distractors for slight kana variations (-こう / -ごう)."
         },
         {
           "number": 2,
@@ -71,7 +71,7 @@
           "label_ja": "用法",
           "n_questions": 1,
           "seconds_per_q": 60,
-          "strategy": "Word given — pick the sentence using it correctly. Eliminate by collocation/particle mismatches."
+          "strategy": "Word given: pick the sentence using it correctly. Eliminate by collocation/particle mismatches."
         }
       ],
       "time_budget_warning": "If stuck >2x normal time on a single item, mark and move on; come back at end."
@@ -97,7 +97,7 @@
           "label_ja": "文の文法２",
           "n_questions": 4,
           "seconds_per_q": 80,
-          "strategy": "Star (★) marks the asked slot. Build the sentence mentally first; check what fills the star. Don't assemble all 4 pieces in order — find the structurally-forced order."
+          "strategy": "Star (★) marks the asked slot. Build the sentence mentally first; check what fills the star. Don't assemble all 4 pieces in order: find the structurally-forced order."
         },
         {
           "number": 3,
@@ -172,7 +172,7 @@
           "label_ja": "即時応答",
           "n_questions": 6,
           "seconds_per_q": 30,
-          "strategy": "Hear utterance; pick natural response. NO TIME to think — answer by feel. Common trap: similar-sound responses."
+          "strategy": "Hear utterance; pick natural response. NO TIME to think: answer by feel. Common trap: similar-sound responses."
         }
       ],
       "rest_break": "There is NO break between mondai. Maintain focus throughout."
@@ -274,7 +274,7 @@
       "module": "vocab",
       "name": "iie_vs_iiyo",
       "description": "いい (good) vs いいえ (no). One mora difference.",
-      "wrong_example": "いい です — declining offer",
+      "wrong_example": "いい です: declining offer",
       "correct_example": "いいえ、けっこうです。",
       "defense": "When refusing an offer: いいえ + けっこう. When agreeing it's good: いい (no preceding え)."
     },
@@ -345,7 +345,7 @@
       "id": "T2-K-001",
       "module": "kanji",
       "name": "right_left_mirror",
-      "description": "右 starts with SHORT ノ, 左 starts with LONG horizontal — only stroke 1 distinguishes them visually.",
+      "description": "右 starts with SHORT ノ, 左 starts with LONG horizontal: only stroke 1 distinguishes them visually.",
       "wrong_example": "Wrong stroke order produces unbalanced character.",
       "correct_example": "Memorize the stroke-1 difference.",
       "defense": "右 → ノ first. 左 → horizontal first."
@@ -462,7 +462,7 @@
         "bunpou_dokkai"
       ],
       "rationale": "JLPT is point-per-question; do not lose easy points by getting stuck on a hard one.",
-      "warning": "Listening: CANNOT skip — audio plays once."
+      "warning": "Listening: CANNOT skip, audio plays once."
     },
     {
       "id": "T3-002",
@@ -519,7 +519,7 @@
       "applies_to": [
         "dokkai_mondai_6"
       ],
-      "rationale": "Format is notice/menu/schedule — designed for scanning."
+      "rationale": "Format is notice/menu/schedule: designed for scanning."
     },
     {
       "id": "T3-007",
@@ -537,7 +537,7 @@
       "name": "guess_no_negative_marking",
       "title_en": "Always Guess (No Negative Marking)",
       "title_ja": "空欄を残さない",
-      "description": "JLPT has NO negative marking for wrong answers. Always fill an answer — even if you guess randomly.",
+      "description": "JLPT has NO negative marking for wrong answers. Always fill an answer, even if you guess randomly.",
       "applies_to": [
         "all_sections"
       ],
@@ -659,10 +659,10 @@
     "scaling_explanation": "Raw scores are scaled by section difficulty using equipercentile mapping. Raw 60% does NOT necessarily map to scaled 60%. Historically, raw ~50% has been needed for the section minimums.",
     "diagnostic_band": {
       "below_38_or_19": "fail (any section below minimum = fail regardless of total)",
-      "38_57": "weak — needs focused review of section topics",
-      "57_80": "borderline — strengthen weak section",
-      "80_120": "pass — solid",
-      "120_180": "strong pass — N4-ready"
+      "38_57": "weak: needs focused review of section topics",
+      "57_80": "borderline: strengthen weak section",
+      "80_120": "pass: solid",
+      "120_180": "strong pass: N4-ready"
     }
   },
   "diagnostic_drills": {
@@ -773,18 +773,18 @@
     "five_minute_summary": [
       "(1) JLPT N5 has TWO sections: combined Lang+Reading (60 min, 49 q, min 38/120) AND Listening (30 min, 24 q, min 19/60).",
       "(2) Pass = both sections at minimum AND total >=80/180.",
-      "(3) Mondai have specific strategies — review them before exam.",
+      "(3) Mondai have specific strategies: review them before exam.",
       "(4) Time discipline: skip-and-return for Section 1; cannot skip in Listening.",
-      "(5) Always answer — no negative marking. Random guess = +25% expected value.",
-      "(6) Trap awareness: particle-misuse, kanji homophones, mentioned-but-rejected listening, register mismatch — all are explicit distractors.",
+      "(5) Always answer: no negative marking. Random guess = +25% expected value.",
+      "(6) Trap awareness: particle-misuse, kanji homophones, mentioned-but-rejected listening, register mismatch, all are explicit distractors.",
       "(7) Audio plays ONCE. Pre-read printed prompts. Mental-tag speakers in 2-person dialogues."
     ],
     "study_distribution_recommendation": {
-      "moji_goi": "30% — high-yield vocab + kanji recognition",
-      "bunpou": "25% — pattern memorization with wrong/correct discrimination",
-      "dokkai": "15% — short timed passages",
-      "chokai": "25% — daily 30 min listening practice with native-rate items",
-      "test_simulation": "5% — full timed mock exam every 2 weeks"
+      "moji_goi": "30%: high-yield vocab + kanji recognition",
+      "bunpou": "25%: pattern memorization with wrong/correct discrimination",
+      "dokkai": "15%: short timed passages",
+      "chokai": "25%: daily 30 min listening practice with native-rate items",
+      "test_simulation": "5%: full timed mock exam every 2 weeks"
     },
     "two_week_drill_schedule": [
       {
@@ -863,10 +863,10 @@
       "Bring photo ID and admission slip.",
       "Arrive 30 min early. Bathroom break before each section.",
       "Read instructions even if familiar.",
-      "Pace yourself — don't sprint mondai 1, don't crawl mondai 6.",
+      "Pace yourself: don't sprint mondai 1, don't crawl mondai 6.",
       "Trust your first instinct unless you find concrete evidence against it.",
-      "Keep moving — never linger more than 2x average per question.",
-      "Fill EVERY blank — never leave any answer empty."
+      "Keep moving: never linger more than 2x average per question.",
+      "Fill EVERY blank: never leave any answer empty."
     ]
   },
   "ui_integration_pointers": {

@@ -207,11 +207,11 @@
         "にん"
       ],
       "correctIndex": 2,
-      "rationale": "三 + さつ — さつ is the counter for bound objects like books.",
+      "rationale": "三 + さつ: さつ is the counter for bound objects like books.",
       "kbSourceId": "Q41",
       "id": "bunpou-3.11",
       "mondai": 1,
-      "rationale_hi": "三 + さつ — さつ, किताबों जैसी जिल्द वाली वस्तुओं के लिए गिनती-शब्द (काउंटर) है।",
+      "rationale_hi": "三 + さつ: さつ, किताबों जैसी जिल्द वाली वस्तुओं के लिए गिनती-शब्द (काउंटर) है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-108",
       "grammarPatternId_provenance": "auto_inferred"

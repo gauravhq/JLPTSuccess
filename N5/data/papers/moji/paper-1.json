@@ -119,7 +119,7 @@
       "kbSourceId": "Q6",
       "id": "moji-1.6",
       "mondai": 1,
-      "rationale_hi": "日本 = にほん (मानक पठन)। にっぽん औपचारिक/राजनीतिक संदर्भों में भी मान्य पठन है (जैसे NHK समाचार, ओलंपिक 'Nippon'), पर इस प्रश्न के विकल्पों में नहीं — इसलिए にほん ही एकमात्र सही उत्तर है।",
+      "rationale_hi": "日本 = にほん (मानक पठन)। にっぽん औपचारिक/राजनीतिक संदर्भों में भी मान्य पठन है (जैसे NHK समाचार, ओलंपिक 'Nippon'), पर इस प्रश्न के विकल्पों में नहीं: इसलिए にほん ही एकमात्र सही उत्तर है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_21",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"
@@ -157,7 +157,7 @@
       "kbSourceId": "Q8",
       "id": "moji-1.8",
       "mondai": 1,
-      "rationale_hi": "中 (チュウ) + 国 (コク → ごく — रेन्दाकु, अर्थात् ध्वनित ध्वनि-परिवर्तन)।",
+      "rationale_hi": "中 (チュウ) + 国 (コク → ごく: रेन्दाकु, अर्थात् ध्वनित ध्वनि-परिवर्तन)।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"

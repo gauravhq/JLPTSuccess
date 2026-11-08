@@ -72,7 +72,7 @@
       "passage_label": "Passage 25 (Q49, Q50)",
       "id": "dokkai-4.1",
       "mondai": 4,
-      "rationale_hi": "でんしゃで かいしゃに 行きます — ट्रेन से कंपनी जाते हैं (रोज़ का आना-जाना ट्रेन से)।",
+      "rationale_hi": "でんしゃで かいしゃに 行きます: ट्रेन से कंपनी जाते हैं (रोज़ का आना-जाना ट्रेन से)।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-076",
       "grammarPatternId_provenance": "auto_inferred"
@@ -92,7 +92,7 @@
       "passage_label": "Passage 25 (Q49, Q50)",
       "id": "dokkai-4.2",
       "mondai": 4,
-      "rationale_hi": "でんしゃは とても こんで います。...父は いつも 立って います — भीड़भाड़ वाली ट्रेन; पूरे रास्ते खड़े रहना पड़ता है।",
+      "rationale_hi": "でんしゃは とても こんで います。...父は いつも 立って います: भीड़भाड़ वाली ट्रेन; पूरे रास्ते खड़े रहना पड़ता है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-091",
       "grammarPatternId_provenance": "auto_inferred"
@@ -132,7 +132,7 @@
       "passage_label": "Passage 26 (Q51, Q52)",
       "id": "dokkai-4.4",
       "mondai": 4,
-      "rationale_hi": "大学の コンサートで ひきます — बड़े भाई इस हफ़्ते विश्वविद्यालय के संगीत-समारोह में बजाएँगे।",
+      "rationale_hi": "大学の コンサートで ひきます: बड़े भाई इस हफ़्ते विश्वविद्यालय के संगीत-समारोह में बजाएँगे।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-007",
       "grammarPatternId_provenance": "auto_inferred"
@@ -152,7 +152,7 @@
       "passage_label": "Passage 27 (Q53, Q54)",
       "id": "dokkai-4.5",
       "mondai": 4,
-      "rationale_hi": "まい朝、 でんしゃの 中で パンを 食べます — आम तौर पर ट्रेन में नाश्ता (रोटी) करते हैं।",
+      "rationale_hi": "まい朝、 でんしゃの 中で パンを 食べます: आम तौर पर ट्रेन में नाश्ता (रोटी) करते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-004",
       "grammarPatternId_provenance": "auto_inferred"
@@ -172,7 +172,7 @@
       "passage_label": "Passage 27 (Q53, Q54)",
       "id": "dokkai-4.6",
       "mondai": 4,
-      "rationale_hi": "でんしゃが こんで いて、 パンを 食べる ことが できませんでした — भीड़ वाली ट्रेन में नाश्ता नहीं कर पाए, इसलिए दोपहर के भोजन में अधिक खाया।",
+      "rationale_hi": "でんしゃが こんで いて、 パンを 食べる ことが できませんでした: भीड़ वाली ट्रेन में नाश्ता नहीं कर पाए, इसलिए दोपहर के भोजन में अधिक खाया।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-188",
       "grammarPatternId_provenance": "auto_inferred"
@@ -192,7 +192,7 @@
       "passage_label": "Passage 28 (Q55, Q56)",
       "id": "dokkai-4.7",
       "mondai": 4,
-      "rationale_hi": "いま 日本の かいしゃで はたらいて います — फ़िलहाल जापानी कंपनी में काम करते हैं।",
+      "rationale_hi": "いま 日本の かいしゃで はたらいて います: फ़िलहाल जापानी कंपनी में काम करते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-091",
       "grammarPatternId_provenance": "auto_inferred"
@@ -212,7 +212,7 @@
       "passage_label": "Passage 28 (Q55, Q56)",
       "id": "dokkai-4.8",
       "mondai": 4,
-      "rationale_hi": "五年 まえに 日本に 来ました — 5 साल पहले जापान आए।",
+      "rationale_hi": "五年 まえに 日本に 来ました: 5 साल पहले जापान आए।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-119",
       "grammarPatternId_provenance": "auto_inferred"
@@ -232,7 +232,7 @@
       "passage_label": "Passage 29 (Q57, Q58)",
       "id": "dokkai-4.9",
       "mondai": 4,
-      "rationale_hi": "その みせは 三月に できました — कैफ़े मार्च में खुला।",
+      "rationale_hi": "その みせは 三月に できました: कैफ़े मार्च में खुला।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-040",
       "grammarPatternId_provenance": "auto_inferred"
@@ -252,7 +252,7 @@
       "passage_label": "Passage 29 (Q57, Q58)",
       "id": "dokkai-4.10",
       "mondai": 4,
-      "rationale_hi": "'コーヒーが おいしくて、 ねだんも 安いです' — कॉफ़ी अच्छी है और क़ीमत भी सस्ती।",
+      "rationale_hi": "'コーヒーが おいしくて、 ねだんも 安いです': कॉफ़ी अच्छी है और क़ीमत भी सस्ती।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-002",
       "grammarPatternId_provenance": "auto_inferred"
@@ -272,7 +272,7 @@
       "passage_label": "Passage 30 (Q59, Q60)",
       "id": "dokkai-4.11",
       "mondai": 4,
-      "rationale_hi": "こんしゅうの 土曜日、 ...ハイキングに 行く つもりでした — मूल योजना इस शनिवार पैदल-यात्रा की थी।",
+      "rationale_hi": "こんしゅうの 土曜日、 ...ハイキングに 行く つもりでした: मूल योजना इस शनिवार पैदल-यात्रा की थी।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-007",
       "grammarPatternId_provenance": "auto_inferred"
@@ -292,7 +292,7 @@
       "passage_label": "Passage 30 (Q59, Q60)",
       "id": "dokkai-4.12",
       "mondai": 4,
-      "rationale_hi": "木曜日から 雨が ふって います。土曜日も 雨の よほうです — गुरुवार से बारिश हो रही है, शनिवार का भी पूर्वानुमान बारिश का है, इसलिए अगले हफ़्ते टाला गया।",
+      "rationale_hi": "木曜日から 雨が ふって います。土曜日も 雨の よほうです: गुरुवार से बारिश हो रही है, शनिवार का भी पूर्वानुमान बारिश का है, इसलिए अगले हफ़्ते टाला गया।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"

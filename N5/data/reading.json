@@ -74,13 +74,13 @@
         "n5.vocab.13-locations-and-places-.大学",
         "n5.vocab.25-languages-and-countri.日本語"
       ],
-      "cultural_context": "どうぞよろしくおねがいします (douzo yoroshiku onegai shimasu, \"please treat me well\") is the standard self-introduction closer in Japan. Used after stating your name, origin, and what you do. The expected response is こちらこそ、よろしくおねがいします (kochira koso, yoroshiku onegai shimasu — \"same here, pleased to meet you\"). Mandatory in formal first meetings: business, school, neighbours, parents-in-law. Skipping it reads as cold or rude.",
+      "cultural_context": "どうぞよろしくおねがいします (douzo yoroshiku onegai shimasu, \"please treat me well\") is the standard self-introduction closer in Japan. Used after stating your name, origin, and what you do. The expected response is こちらこそ、よろしくおねがいします (kochira koso, yoroshiku onegai shimasu: \"same here, pleased to meet you\"). Mandatory in formal first meetings: business, school, neighbours, parents-in-law. Skipping it reads as cold or rude.",
       "cultural_context_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks \"as for me\" — the topic of the rest of the discourse."
+          "note": "は marks \"as for me\": the topic of the rest of the discourse."
         },
         {
           "sentence_index": 1,
@@ -100,12 +100,12 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-030",
-          "note": "見ること — verb-plain + こと turns \"see\" into the noun \"seeing / watching\", which is then connected with は as the subject of \"is my hobby\"."
+          "note": "見ること: verb-plain + こと turns \"see\" into the noun \"seeing / watching\", which is then connected with は as the subject of \"is my hobby\"."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "self_intro",
-      "summary_hi": "अमेरिका से आई एक छात्रा अन्ना अपना परिचय देती है — टोक्यो विश्वविद्यालय में जापानी पढ़ रही है, फ़िल्में देखना उसका शौक़ है।",
+      "summary_hi": "अमेरिका से आई एक छात्रा अन्ना अपना परिचय देती है: टोक्यो विश्वविद्यालय में जापानी पढ़ रही है, फ़िल्में देखना उसका शौक़ है।",
       "summary_hi_provenance": "native_reviewed",
       "paragraphs": [
         {
@@ -183,7 +183,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -320,12 +320,12 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-076",
-          "note": "〜てから again — \"after returning home, I watch TV\"."
+          "note": "〜てから again: \"after returning home, I watch TV\"."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "लेखक की दिनचर्या — सुबह 6 बजे उठना, नाश्ता, 9-5 की नौकरी, घर लौटकर टीवी, रात 10 बजे सोना।",
+      "summary_hi": "लेखक की दिनचर्या: सुबह 6 बजे उठना, नाश्ता, 9-5 की नौकरी, घर लौटकर टीवी, रात 10 बजे सोना।",
       "summary_hi_provenance": "native_reviewed",
       "cultural_context": "A 9-to-5 workday in Japan often stretches longer in practice (残業, zangyō, \"overtime\" is common in white-collar roles), but the polite default written form remains \"9 to 5\" because overtime is socially expected, not contractually scheduled. Reading \"wakes at 6, works 9-5\" maps to a typical urban commuting routine.",
       "paragraphs": [
@@ -403,7 +403,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -532,9 +532,9 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "कल दोस्त के साथ फ़िल्म देखने जाना है, फ़िल्म के बाद रेस्तरां में रात का खाना — लेखक उत्साहित है।",
+      "summary_hi": "कल दोस्त के साथ फ़िल्म देखने जाना है, फ़िल्म के बाद रेस्तरां में रात का खाना: लेखक उत्साहित है।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "えいが (movie) + ばんごはん (dinner) is the canonical Japanese casual outing pairing — equivalent to \"dinner and a movie\" in English-speaking countries. Movie tickets in Japan are ¥1,800-2,000 standard, with 1,200 yen \"Lady's Day\" discounts on Wednesdays still common at major chains.",
+      "cultural_context": "えいが (movie) + ばんごはん (dinner) is the canonical Japanese casual outing pairing: equivalent to \"dinner and a movie\" in English-speaking countries. Movie tickets in Japan are ¥1,800-2,000 standard, with 1,200 yen \"Lady's Day\" discounts on Wednesdays still common at major chains.",
       "paragraphs": [
         {
           "idx": 0,
@@ -722,7 +722,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-089",
-          "note": "〜で = な-adjective て-form connector linking two clauses with the same subject — except here it is connecting two complete clauses with \"and\" sense."
+          "note": "〜で = な-adjective て-form connector linking two clauses with the same subject: except here it is connecting two complete clauses with \"and\" sense."
         },
         {
           "sentence_index": 3,
@@ -732,9 +732,9 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "कल कन्वीनिएंस स्टोर पर ब्रेड (200 येन) और कॉफ़ी (150 येन) ख़रीदी, कुल 350 येन — सस्ती ख़रीदारी थी।",
+      "summary_hi": "कल कन्वीनिएंस स्टोर पर ब्रेड (200 येन) और कॉफ़ी (150 येन) ख़रीदी, कुल 350 येन: सस्ती ख़रीदारी थी।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "コンビニ (konbini, \"convenience store\" — 7-Eleven, FamilyMart, Lawson) are central to Japanese daily life: fresh bento, package pickup, ATM, copying, and bill payment, 24/7. A ¥350 breakfast (pan + coffee) is the standard pre-commute price point.",
+      "cultural_context": "コンビニ (konbini, \"convenience store\": 7-Eleven, FamilyMart, Lawson) are central to Japanese daily life: fresh bento, package pickup, ATM, copying, and bill payment, 24/7. A ¥350 breakfast (pan + coffee) is the standard pre-commute price point.",
       "paragraphs": [
         {
           "idx": 0,
@@ -751,7 +751,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Yesterday, at the convenience store, I bought bread and coffee. The bread was 200 yen, and the coffee was 150 yen. Altogether, it was 350 yen. It was cheap.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Yesterday I bought bread and coffee at the convenience store. The bread was 200 yen, the coffee 150 yen — 350 yen total. Pretty cheap.",
+      "translation_natural": "Yesterday I bought bread and coffee at the convenience store. The bread was 200 yen, the coffee 150 yen: 350 yen total. Pretty cheap.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -907,7 +907,7 @@
         "n5.vocab.2-people-family.母",
         "n5.vocab.2-people-family.あに"
       ],
-      "cultural_context": "Japanese family terms split between humble (own family) and respectful (someone else's). 父 (chichi) / 母 (haha) refer to ONE'S OWN parents in humble speech to outsiders. お父さん (otousan) / お母さん (okaasan) refer to someone else's parents — or to your own parents when you are addressing them directly at home. Same pattern: あに / あね (own older brother / sister) vs お兄さん / お姉さん. This own-vs-others split is core to Japanese in-group / out-group politeness (うち / そと).",
+      "cultural_context": "Japanese family terms split between humble (own family) and respectful (someone else's). 父 (chichi) / 母 (haha) refer to ONE'S OWN parents in humble speech to outsiders. お父さん (otousan) / お母さん (okaasan) refer to someone else's parents, or to your own parents when you are addressing them directly at home. Same pattern: あに / あね (own older brother / sister) vs お兄さん / お姉さん. This own-vs-others split is core to Japanese in-group / out-group politeness (うち / そと).",
       "cultural_context_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -933,7 +933,7 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "चार लोगों का परिवार — पिता शिक्षक, माता डॉक्टर, बड़ा भाई कॉलेज छात्र, लेखक हाई स्कूल में, सब स्वस्थ।",
+      "summary_hi": "चार लोगों का परिवार: पिता शिक्षक, माता डॉक्टर, बड़ा भाई कॉलेज छात्र, लेखक हाई स्कूल में, सब स्वस्थ।",
       "summary_hi_provenance": "native_reviewed",
       "paragraphs": [
         {
@@ -1119,19 +1119,19 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-126",
-          "note": "が (mid-sentence) = \"but\" — links two contrasting clauses."
+          "note": "が (mid-sentence) = \"but\": links two contrasting clauses."
         },
         {
           "sentence_index": 3,
           "pattern_id": "n5-145",
-          "note": "〜と おもいます = \"I think that ~\" — quotation-marker と + おもう."
+          "note": "〜と おもいます = \"I think that ~\": quotation-marker と + おもう."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "आज बहुत ठंडा — सुबह बारिश हो रही थी, अब नहीं हो रही पर ठंड है; कल बर्फ़बारी की आशंका।",
+      "summary_hi": "आज बहुत ठंडा: सुबह बारिश हो रही थी, अब नहीं हो रही पर ठंड है; कल बर्फ़बारी की आशंका।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "Japan's climate varies sharply by latitude — Hokkaido and the Sea-of-Japan side get heavy snow (豪雪, gōsetsu), while Tokyo sees light snow only a few times a winter. The 「雪が ふる」 in this passage suggests the speaker lives in a snow-prone region or expects an unusual Tokyo flurry.",
+      "cultural_context": "Japan's climate varies sharply by latitude: Hokkaido and the Sea-of-Japan side get heavy snow (豪雪, gōsetsu), while Tokyo sees light snow only a few times a winter. The 「雪が ふる」 in this passage suggests the speaker lives in a snow-prone region or expects an unusual Tokyo flurry.",
       "paragraphs": [
         {
           "idx": 0,
@@ -1297,13 +1297,13 @@
       "cultural_context": "Public and university libraries (図書館) in Japan typically loan books for 2 weeks (二週間まで), free of charge, with one automatic renewal. Sundays closed (日曜日：休み) is common at school libraries; public libraries usually close on Mondays instead. Online catalogs and reservation systems are universal even at small branches. Quiet-study seating is heavily used.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "info_search",
-      "summary_hi": "पुस्तकालय के समय — सोम-शुक्र 9-21, शनिवार 10-18, रविवार बंद; पुस्तक 2 सप्ताह तक उधार।",
+      "summary_hi": "पुस्तकालय के समय: सोम-शुक्र 9-21, शनिवार 10-18, रविवार बंद; पुस्तक 2 सप्ताह तक उधार।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-100",
-          "note": "〜ことができます = \"can do (verb)\" — ability. Pairs verb-plain + こと + が + できる."
+          "note": "〜ことができます = \"can do (verb)\": ability. Pairs verb-plain + こと + が + できる."
         },
         {
           "sentence_index": 0,
@@ -1402,7 +1402,7 @@
       "register_signal": {
         "register": "polite",
         "signals": [
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -1508,7 +1508,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-021",
-          "note": "〜から〜まで = \"from X to Y\" range — house TO school."
+          "note": "〜から〜まで = \"from X to Y\" range: house TO school."
         },
         {
           "sentence_index": 1,
@@ -1523,7 +1523,7 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "घर से स्कूल तक 30 मिनट का सफ़र — पैदल 10 मिनट स्टेशन तक, फिर 20 मिनट ट्रेन।",
+      "summary_hi": "घर से स्कूल तक 30 मिनट का सफ़र: पैदल 10 मिनट स्टेशन तक, फिर 20 मिनट ट्रेन।",
       "summary_hi_provenance": "native_reviewed",
       "cultural_context": "Japanese commutes are dominated by trains: a typical urban worker walks ~10 min to the station, takes the train 20-30 min, walks again at the destination. Cars are rare for daily commutes in Tokyo / Osaka due to expensive parking and dense rail coverage. The 30-minute total in the passage is on the short side of normal.",
       "paragraphs": [
@@ -1543,7 +1543,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "From my home to school, it takes about 30 minutes. First, from home to the station, I walk. It is about 10 minutes. Then, I get on the train. In 20 minutes, I arrive at school.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "It takes about 30 minutes to get from my house to school. First I walk to the station — about 10 minutes — then I take the train, which gets me to school in another 20.",
+      "translation_natural": "It takes about 30 minutes to get from my house to school. First I walk to the station, about 10 minutes, then I take the train, which gets me to school in another 20.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -1718,9 +1718,9 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "लेखक का शौक़ खेल — रोज़ सुबह पार्क में दौड़, शनिवार दोस्तों के साथ फ़ुटबॉल।",
+      "summary_hi": "लेखक का शौक़ खेल: रोज़ सुबह पार्क में दौड़, शनिवार दोस्तों के साथ फ़ुटबॉल।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "Public 公園 (parks) in Japan are heavily used at dawn for jogging and ラジオ体操 (radio calisthenics — a national morning fitness ritual broadcast since 1928). Saturday soccer with friends is a common adult amateur pattern, often arranged via casual community 草サッカー (kusa-sakkā, \"grass-roots soccer\") groups.",
+      "cultural_context": "Public 公園 (parks) in Japan are heavily used at dawn for jogging and ラジオ体操 (radio calisthenics: a national morning fitness ritual broadcast since 1928). Saturday soccer with friends is a common adult amateur pattern, often arranged via casual community 草サッカー (kusa-sakkā, \"grass-roots soccer\") groups.",
       "paragraphs": [
         {
           "idx": 0,
@@ -1901,9 +1901,9 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "कक्षा में 25 मेज़-कुर्सियाँ; शिक्षक की मेज़ बड़ी; खिड़की से पार्क दिखता है — सुंदर कक्षा।",
+      "summary_hi": "कक्षा में 25 मेज़-कुर्सियाँ; शिक्षक की मेज़ बड़ी; खिड़की से पार्क दिखता है: सुंदर कक्षा।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "Japanese classrooms are typically arranged in 5-row × 5-column grids (≈25-40 students per class). The teacher's desk at the front + students facing forward is universal — group-work rearrangements happen but the default layout is rows. The 25-desk count in the passage is a small class by Japanese urban-school standards (40 is more common).",
+      "cultural_context": "Japanese classrooms are typically arranged in 5-row × 5-column grids (≈25-40 students per class). The teacher's desk at the front + students facing forward is universal: group-work rearrangements happen but the default layout is rows. The 25-desk count in the passage is a small class by Japanese urban-school standards (40 is more common).",
       "paragraphs": [
         {
           "idx": 0,
@@ -1921,7 +1921,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "In my classroom, there are 25 desks. There are 25 chairs as well. The teacher's desk is big. From the window, you can see the park. It is a beautiful classroom.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Our classroom has 25 desks and 25 chairs. The teacher's desk is large. You can see the park through the window — it's a really pleasant classroom.",
+      "translation_natural": "Our classroom has 25 desks and 25 chairs. The teacher's desk is large. You can see the park through the window: it's a really pleasant classroom.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -2055,15 +2055,15 @@
         "n5.vocab.17-food-items.サラダ",
         "n5.vocab.14-nature-and-weather.いし"
       ],
-      "cultural_context": "ラーメン (rāmen) is a Japanese noodle soup of Chinese origin, now considered a defining Japanese comfort food. Casual ramen shops serve it as a fast lunch — typically eaten in 10-15 minutes.",
+      "cultural_context": "ラーメン (rāmen) is a Japanese noodle soup of Chinese origin, now considered a defining Japanese comfort food. Casual ramen shops serve it as a fast lunch: typically eaten in 10-15 minutes.",
       "format_role": "primary",
-      "summary_hi": "दोपहर का खाना — दोस्त के साथ रामेन की दुकान; गरम सूप, नूडल्स, छोटे साइड डिश।",
+      "summary_hi": "दोपहर का खाना: दोस्त के साथ रामेन की दुकान; गरम सूप, नूडल्स, छोटे साइड डिश।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 0,
@@ -2078,7 +2078,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -2088,7 +2088,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 3,
@@ -2280,14 +2280,14 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-126",
-          "note": "が (mid-sentence) = \"but\" — \"was hard, BUT was interesting\"."
+          "note": "が (mid-sentence) = \"but\": \"was hard, BUT was interesting\"."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "कल पुस्तक की दुकान से जापानी की 2 किताबें (1500 येन) ख़रीदीं — कठिन पर रोचक।",
+      "summary_hi": "कल पुस्तक की दुकान से जापानी की 2 किताबें (1500 येन) ख़रीदीं: कठिन पर रोचक।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "本屋 (honya, bookstores) remain culturally important in Japan despite e-commerce — major chains like Kinokuniya and Maruzen serve as community spaces. Books in Japan are typically priced ¥600-1,500 (the ¥1,500 in the passage is a mid-range reference book or N5 study material). 立ち読み (tachiyomi, standing-and-reading) is socially tolerated as long as the shrink-wrap stays on.",
+      "cultural_context": "本屋 (honya, bookstores) remain culturally important in Japan despite e-commerce: major chains like Kinokuniya and Maruzen serve as community spaces. Books in Japan are typically priced ¥600-1,500 (the ¥1,500 in the passage is a mid-range reference book or N5 study material). 立ち読み (tachiyomi, standing-and-reading) is socially tolerated as long as the shrink-wrap stays on.",
       "paragraphs": [
         {
           "idx": 0,
@@ -2307,7 +2307,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Yesterday, at the bookstore, I bought 2 Japanese books. Altogether they were 1,500 yen. After returning home, I read them. They were difficult, but interesting.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Yesterday I bought two Japanese books at the bookstore — 1,500 yen total. I read them after getting home. They were tough, but interesting.",
+      "translation_natural": "Yesterday I bought two Japanese books at the bookstore: 1,500 yen total. I read them after getting home. They were tough, but interesting.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -2344,7 +2344,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -2465,15 +2465,15 @@
         "n5.vocab.32-adjectives.きれい",
         "n5.vocab.13-locations-and-places-.おてら"
       ],
-      "cultural_context": "Kyoto (京都) was the imperial capital of Japan from 794 to 1868 and is famous for its preserved temples (お寺), shrines, and traditional crafts. Buying お土産 (omiyage, souvenirs) for family/colleagues when traveling within Japan is a strong social custom — even short trips usually end with a souvenir purchase.",
+      "cultural_context": "Kyoto (京都) was the imperial capital of Japan from 794 to 1868 and is famous for its preserved temples (お寺), shrines, and traditional crafts. Buying お土産 (omiyage, souvenirs) for family/colleagues when traveling within Japan is a strong social custom, even short trips usually end with a souvenir purchase.",
       "format_role": "primary",
-      "summary_hi": "क्योतो की यात्रा — पुराने मंदिर, परंपरागत हस्तशिल्प, स्मारिकाएँ ख़रीदीं।",
+      "summary_hi": "क्योतो की यात्रा: पुराने मंदिर, परंपरागत हस्तशिल्प, स्मारिकाएँ ख़रीदीं।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-097",
-          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\" — natural / automatic consequence."
+          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\": natural / automatic consequence."
         },
         {
           "sentence_index": 0,
@@ -2483,7 +2483,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -2503,7 +2503,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -2667,7 +2667,7 @@
         "n5.vocab.26-house-and-furniture.いま",
         "n5.vocab.21-clothing-and-accessor.シャツ"
       ],
-      "cultural_context": "デパート (depaato) — Japanese department stores like Mitsukoshi, Takashimaya, Isetan, Daimaru — are upscale with formal customer service (gift-wrapping, doormen on opening). Each floor has a theme: B1F / basement = food hall (デパ地下), middle floors = fashion / cosmetics, top floors = restaurants. Sales (バーゲン) run twice a year — New Year and mid-summer. Prices are fixed; haggling is not a thing.",
+      "cultural_context": "デパート (depaato), Japanese department stores like Mitsukoshi, Takashimaya, Isetan, Daimaru, are upscale with formal customer service (gift-wrapping, doormen on opening). Each floor has a theme: B1F / basement = food hall (デパ地下), middle floors = fashion / cosmetics, top floors = restaurants. Sales (バーゲン) run twice a year: New Year and mid-summer. Prices are fixed; haggling is not a thing.",
       "cultural_context_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -2683,12 +2683,12 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-126",
-          "note": "が (mid-sentence) = \"but\" — \"was a bit expensive, BUT very pretty\"."
+          "note": "が (mid-sentence) = \"but\": \"was a bit expensive, BUT very pretty\"."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "डिपार्टमेंट स्टोर से नये कपड़े — शर्ट 3000 येन, पतलून 5000 येन, कुल 8000 — महँगे पर सुंदर।",
+      "summary_hi": "डिपार्टमेंट स्टोर से नये कपड़े, शर्ट 3000 येन, पतलून 5000 येन, कुल 8000, महँगे पर सुंदर।",
       "summary_hi_provenance": "native_reviewed",
       "paragraphs": [
         {
@@ -2706,7 +2706,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Yesterday, at a department store, I bought new clothes. The shirt was 3,000 yen and the pants were 5,000 yen. Altogether they were 8,000 yen. It was a little expensive, but very pretty.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Yesterday I bought some new clothes at a department store — a shirt for 3,000 yen and pants for 5,000 yen, 8,000 total. A bit pricey but they look great.",
+      "translation_natural": "Yesterday I bought some new clothes at a department store: a shirt for 3,000 yen and pants for 5,000 yen, 8,000 total. A bit pricey but they look great.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -2846,7 +2846,7 @@
         "n5.vocab.14-nature-and-weather.さくら",
         "n5.vocab.11-time-days-weeks-month.土曜日"
       ],
-      "cultural_context": "桜 (sakura, cherry blossom) blooms in late March to early April depending on latitude — Tokyo around the start of the new fiscal year and the school entrance ceremony (入学式). さくらを見に行く (\"going to see sakura\") is 花見 (hanami) — picnicking under the trees, often with food and beer. Weather services publish a cherry-blossom front (桜前線) tracking the bloom from Okinawa northward. Sakura is central to Japanese aesthetic identity.",
+      "cultural_context": "桜 (sakura, cherry blossom) blooms in late March to early April depending on latitude: Tokyo around the start of the new fiscal year and the school entrance ceremony (入学式). さくらを見に行く (\"going to see sakura\") is 花見 (hanami): picnicking under the trees, often with food and beer. Weather services publish a cherry-blossom front (桜前線) tracking the bloom from Okinawa northward. Sakura is central to Japanese aesthetic identity.",
       "cultural_context_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -3038,7 +3038,7 @@
         "n5.vocab.31-adjectives.いたい",
         "n5.vocab.33-adverbs.すこし"
       ],
-      "cultural_context": "病院 (byouin) in Japanese means both \"hospital\" and \"doctor's clinic\" — the same word covers a small neighbourhood clinic and a large hospital. For a cold or headache, you visit a small 内科 (naika, internal medicine clinic) and pay a 30% out-of-pocket fee under the National Health Insurance system; the rest is covered. Same-day walk-ins are standard at clinics. Pharmacies (薬局, yakkyoku) dispense prescriptions next door.",
+      "cultural_context": "病院 (byouin) in Japanese means both \"hospital\" and \"doctor's clinic\": the same word covers a small neighbourhood clinic and a large hospital. For a cold or headache, you visit a small 内科 (naika, internal medicine clinic) and pay a 30% out-of-pocket fee under the National Health Insurance system; the rest is covered. Same-day walk-ins are standard at clinics. Pharmacies (薬局, yakkyoku) dispense prescriptions next door.",
       "cultural_context_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -3124,7 +3124,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -3199,7 +3199,7 @@
           "correctAnswer": "おちゃ",
           "explanation_en": "Tea is 250, the lowest priced drink.",
           "format_role": "extra",
-          "explanation_hi": "おちゃ (चाय) 250 येन — सबसे सस्ता पेय।",
+          "explanation_hi": "おちゃ (चाय) 250 येन: सबसे सस्ता पेय।",
           "explanation_hi_provenance": "llm_curated"
         }
       ],
@@ -3225,9 +3225,9 @@
         "n5.vocab.17-food-items.ケーキ",
         "n5.vocab.17-food-items.サンドイッチ"
       ],
-      "cultural_context": "A \"set\" (セット) at a Japanese café is a discounted bundle — typically a hot drink + a sweet item — designed for the mid-afternoon coffee break. Set pricing is universal in Japanese kissaten / chain coffee shops (Doutor, Starbucks JP).",
+      "cultural_context": "A \"set\" (セット) at a Japanese café is a discounted bundle, typically a hot drink + a sweet item, designed for the mid-afternoon coffee break. Set pricing is universal in Japanese kissaten / chain coffee shops (Doutor, Starbucks JP).",
       "format_role": "info_search",
-      "summary_hi": "कैफ़े का दोपहर \"सेट\" — गरम पेय + मिठाई का छूट-समूह, दोपहर के ब्रेक के लिए लोकप्रिय।",
+      "summary_hi": "कैफ़े का दोपहर \"सेट\": गरम पेय + मिठाई का छूट-समूह, दोपहर के ब्रेक के लिए लोकप्रिय।",
       "summary_hi_provenance": "native_reviewed",
       "paragraphs": [
         {
@@ -3298,7 +3298,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Menu\nCoffee: 300 yen\nTea: 250 yen\nCake: 500 yen\nSandwich: 600 yen\nSet (coffee + cake): 700 yen",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Menu\nCoffee — ¥300\nTea — ¥250\nCake — ¥500\nSandwich — ¥600\nCombo (coffee + cake) — ¥700",
+      "translation_natural": "Menu\nCoffee: ¥300\nTea: ¥250\nCake: ¥500\nSandwich: ¥600\nCombo (coffee + cake): ¥700",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "standard",
       "spacing_mode_provenance": "auto_derived",
@@ -3466,7 +3466,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-126",
-          "note": "が (mid-sentence) = \"but\" — \"kanji is hard, BUT hiragana is easy\"."
+          "note": "が (mid-sentence) = \"but\": \"kanji is hard, BUT hiragana is easy\"."
         },
         {
           "sentence_index": 3,
@@ -3665,7 +3665,7 @@
       ],
       "grammar_footnotes_provenance": "llm_curated",
       "format_role": "primary",
-      "summary_hi": "पिछले रविवार दोस्तों के साथ समुद्र पर — मौसम बहुत अच्छा, तैराकी की, मछलियाँ देखीं।",
+      "summary_hi": "पिछले रविवार दोस्तों के साथ समुद्र पर: मौसम बहुत अच्छा, तैराकी की, मछलियाँ देखीं।",
       "summary_hi_provenance": "native_reviewed",
       "paragraphs": [
         {
@@ -3687,7 +3687,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Last Sunday, with my friend, I went to the sea. The weather was very good. We swam. We also saw fish. It was very fun.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Last Sunday I went to the seaside with a friend. The weather was perfect. We swam and even saw some fish — it was a great day.",
+      "translation_natural": "Last Sunday I went to the seaside with a friend. The weather was perfect. We swam and even saw some fish: it was a great day.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -3730,7 +3730,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -3830,20 +3830,20 @@
         "n5.vocab.33-adverbs.とても",
         "n5.vocab.32-adjectives.しんせつ"
       ],
-      "cultural_context": "In Japan, addressing a teacher as \"先生\" (sensei) — both in speech and in writing — is mandatory. Using a teacher's family name without 先生 attached is rude. The honorific applies to doctors, lawyers, and authors as well.",
+      "cultural_context": "In Japan, addressing a teacher as \"先生\" (sensei), both in speech and in writing, is mandatory. Using a teacher's family name without 先生 attached is rude. The honorific applies to doctors, lawyers, and authors as well.",
       "format_role": "primary",
-      "summary_hi": "जापान में शिक्षक को \"先生\" से संबोधित करना अनिवार्य — परिवार-नाम अकेले अशिष्ट लगता है।",
+      "summary_hi": "जापान में शिक्षक को \"先生\" से संबोधित करना अनिवार्य: परिवार-नाम अकेले अशिष्ट लगता है।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -3853,12 +3853,12 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -3881,7 +3881,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "My Japanese teacher is Tanaka-sensei. Tanaka-sensei is very kind. He is always smiling. The class is interesting. Everyone likes Tanaka-sensei.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "My Japanese teacher is Tanaka-sensei. He's very kind and always smiling. His classes are interesting — everyone in our class likes him.",
+      "translation_natural": "My Japanese teacher is Tanaka-sensei. He's very kind and always smiling. His classes are interesting: everyone in our class likes him.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -4026,10 +4026,10 @@
         "n5.vocab.10-time-general.ひる",
         "n5.vocab.10-time-general.よる"
       ],
-      "cultural_context": "Tokyo - Osaka is the most-trafficked corridor in Japan. The 新幹線 (shinkansen, bullet train) is the default choice — about 2.5 hours, runs every 10 minutes, no airport-security overhead. Flights (ひこうき) compete on cost via low-cost carriers (Peach, Jetstar Japan). Tokyo airports: Haneda (HND, closer in) and Narita (NRT, farther). Osaka airports: Itami (ITM, closer in) and Kansai (KIX, on artificial island).",
+      "cultural_context": "Tokyo - Osaka is the most-trafficked corridor in Japan. The 新幹線 (shinkansen, bullet train) is the default choice: about 2.5 hours, runs every 10 minutes, no airport-security overhead. Flights (ひこうき) compete on cost via low-cost carriers (Peach, Jetstar Japan). Tokyo airports: Haneda (HND, closer in) and Narita (NRT, farther). Osaka airports: Itami (ITM, closer in) and Kansai (KIX, on artificial island).",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "info_search",
-      "summary_hi": "टोक्यो-ओसाका हवाई जहाज़ का समय-सारिणी — सुबह 3 उड़ानें, दोपहर 2, शाम 3; 1 घंटा; ₹25000।",
+      "summary_hi": "टोक्यो-ओसाका हवाई जहाज़ का समय-सारिणी: सुबह 3 उड़ानें, दोपहर 2, शाम 3; 1 घंटा; ₹25000।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -4156,7 +4156,7 @@
       "register_signal": {
         "register": "polite",
         "signals": [
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -4264,9 +4264,9 @@
         "n5.vocab.37-common-nouns-miscella.りょうり",
         "n5.vocab.17-food-items.カレー"
       ],
-      "cultural_context": "カレー (karē) in Japan is the Japanese-style curry: thicker, sweeter, and milder than Indian curry, served over white rice. It became popular via the Imperial Japanese Navy in the late 1800s and is now a standard home-cooked meal — most Japanese families have their own family-recipe curry.",
+      "cultural_context": "カレー (karē) in Japan is the Japanese-style curry: thicker, sweeter, and milder than Indian curry, served over white rice. It became popular via the Imperial Japanese Navy in the late 1800s and is now a standard home-cooked meal: most Japanese families have their own family-recipe curry.",
       "format_role": "primary",
-      "summary_hi": "कल रात के खाने में जापानी कैरी — गाढ़ी, मीठी, चावल पर परोसी; भारतीय कैरी से अलग।",
+      "summary_hi": "कल रात के खाने में जापानी कैरी: गाढ़ी, मीठी, चावल पर परोसी; भारतीय कैरी से अलग।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -4277,7 +4277,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 1,
@@ -4287,7 +4287,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 2,
@@ -4323,7 +4323,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Yesterday evening, at home, I cooked with my mother. We made curry. It was very delicious. My father and older brother also said \"Delicious.\"",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Last night my mom and I cooked together at home — we made curry. It came out really good; even my dad and older brother said so.",
+      "translation_natural": "Last night my mom and I cooked together at home: we made curry. It came out really good; even my dad and older brother said so.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -4366,7 +4366,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -4473,9 +4473,9 @@
         "n5.vocab.11-time-days-weeks-month.日曜日"
       ],
       "format_role": "primary",
-      "summary_hi": "बस का समय-सारिणी — सोम-शुक्र दिन में 6 बार, शनिवार 3 बार, रविवार बंद; वयस्क 300, बच्चे 150।",
+      "summary_hi": "बस का समय-सारिणी: सोम-शुक्र दिन में 6 बार, शनिवार 3 बार, रविवार बंद; वयस्क 300, बच्चे 150।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "Japanese bus services typically run different schedules on weekdays / Saturdays / Sundays-and-holidays — the three-tier split in this passage is universal. Service density is high on weekdays (every 1-2 hours in semi-rural areas) and thin on Sundays. Major holidays (お正月, お盆, GW) often suspend service entirely.",
+      "cultural_context": "Japanese bus services typically run different schedules on weekdays / Saturdays / Sundays-and-holidays: the three-tier split in this passage is universal. Service density is high on weekdays (every 1-2 hours in semi-rural areas) and thin on Sundays. Major holidays (お正月, お盆, GW) often suspend service entirely.",
       "paragraphs": [
         {
           "idx": 0,
@@ -4698,13 +4698,13 @@
       "cultural_context": "International students (留学生, ryuugakusei) at Japanese universities are predominantly from China, Korea, Vietnam, Indonesia, Malaysia, Thailand, and Taiwan, with smaller European / American cohorts. Spanish speakers are a small demographic. Programs split into short-term exchange (1 year) and full degree (4 years for undergraduate, 2-3 for graduate). Most universities offer Japanese-language preparatory years for students who arrive without N1.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "दोस्त मारिया स्पेन से — टोक्यो विश्वविद्यालय में पढ़ती है, जापानी बहुत अच्छा बोलती है।",
+      "summary_hi": "दोस्त मारिया स्पेन से: टोक्यो विश्वविद्यालय में पढ़ती है, जापानी बहुत अच्छा बोलती है।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -4714,12 +4714,12 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -4893,10 +4893,10 @@
         "n5.vocab.37-common-nouns-miscella.さんぽ",
         "n5.vocab.34-conjunctions.それから"
       ],
-      "cultural_context": "土曜日 (Saturday) weekend culture: most Japanese workers have Saturday off (週休二日制, two-day weekend) but many shops, schools, and small businesses still operate Saturday mornings. Saturday morning is often used for personal hobbies — reading, gardening, morning walks (さんぽ), gym. Sundays are typically family time. The Friday-night \"weekend start\" greeting is はなきん (hana-kin, from 花金 = \"flower Friday\").",
+      "cultural_context": "土曜日 (Saturday) weekend culture: most Japanese workers have Saturday off (週休二日制, two-day weekend) but many shops, schools, and small businesses still operate Saturday mornings. Saturday morning is often used for personal hobbies: reading, gardening, morning walks (さんぽ), gym. Sundays are typically family time. The Friday-night \"weekend start\" greeting is はなきん (hana-kin, from 花金 = \"flower Friday\").",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "शनिवार की सुबह — 7 बजे उठना, पार्क में टहलना, घर पर नाश्ता, मनपसंद किताब पढ़ना।",
+      "summary_hi": "शनिवार की सुबह: 7 बजे उठना, पार्क में टहलना, घर पर नाश्ता, मनपसंद किताब पढ़ना।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -4907,12 +4907,12 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 1,
@@ -4922,7 +4922,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         },
         {
           "sentence_index": 2,
@@ -4957,7 +4957,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "On Saturday morning, I get up early. I get up at 7, and take a walk in the park. After that, at home, I eat breakfast. I also read books I want to read. I love Saturdays.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "On Saturday mornings I get up early — at 7 — and go for a walk in the park. Then I have breakfast at home and read whatever book I'm in the mood for. I love Saturdays.",
+      "translation_natural": "On Saturday mornings I get up early, at 7, and go for a walk in the park. Then I have breakfast at home and read whatever book I'm in the mood for. I love Saturdays.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -5006,7 +5006,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -5113,7 +5113,7 @@
       ],
       "cultural_context": "八百屋 (yaoya, \"greengrocer\") is a small specialty shop selling fresh vegetables and fruit. Greengrocers are still common in older neighborhoods, alongside dedicated fish shops (魚屋), butchers (肉屋), and rice shops (米屋), even though supermarkets dominate today.",
       "format_role": "primary",
-      "summary_hi": "फलवाला (やおや) — फल और सब्ज़ियों की छोटी विशेष दुकान, पुराने मोहल्लों में अब भी आम।",
+      "summary_hi": "फलवाला (やおや): फल और सब्ज़ियों की छोटी विशेष दुकान, पुराने मोहल्लों में अब भी आम।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -5124,12 +5124,12 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-097",
-          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\" — natural / automatic consequence."
+          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\": natural / automatic consequence."
         },
         {
           "sentence_index": 1,
@@ -5165,7 +5165,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "At the greengrocer, I bought fruit. I bought 3 apples and 5 bananas. Altogether they were 700 yen. They were very cheap.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "I bought some fruit at the greengrocer's: 3 apples and 5 bananas. 700 yen for everything — really cheap.",
+      "translation_natural": "I bought some fruit at the greengrocer's: 3 apples and 5 bananas. 700 yen for everything: really cheap.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -5301,9 +5301,9 @@
         "n5.vocab.13-locations-and-places-.カフェ",
         "n5.vocab.18-drinks.おちゃ"
       ],
-      "cultural_context": "Casual notes left for friends or family — written in mixed kanji + hiragana — are a common way to plan meetups in Japan. 〜ましょう (\"let's do\") is the standard tone for proposing casual plans.",
+      "cultural_context": "Casual notes left for friends or family, written in mixed kanji + hiragana, are a common way to plan meetups in Japan. 〜ましょう (\"let's do\") is the standard tone for proposing casual plans.",
       "format_role": "primary",
-      "summary_hi": "दोस्त का कैज़ुअल पत्र-नोट — हाँ/ना के लिए \"〜ましょう\" प्रयोग; मिलने का प्रस्ताव।",
+      "summary_hi": "दोस्त का कैज़ुअल पत्र-नोट: हाँ/ना के लिए \"〜ましょう\" प्रयोग; मिलने का प्रस्ताव।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -5324,17 +5324,17 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 2,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         },
         {
           "sentence_index": 2,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -5411,7 +5411,7 @@
         "register": "unmarked",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "low"
       },
@@ -5523,10 +5523,10 @@
         "n5.vocab.24-school-and-study.つくえ",
         "n5.vocab.24-school-and-study.いす"
       ],
-      "cultural_context": "Japanese bedrooms (寝室, しんしつ) are typically small — 4 to 6 jou (about 7-10 m²). Western-style beds (ベッド) are common in apartments; traditional ふとん (futon) on tatami floors is still common in rural homes and ryokan inns. The futon is rolled out at night and stored in a closet (押入れ, oshiire) by day, freeing the room for daytime use.",
+      "cultural_context": "Japanese bedrooms (寝室, しんしつ) are typically small: 4 to 6 jou (about 7-10 m²). Western-style beds (ベッド) are common in apartments; traditional ふとん (futon) on tatami floors is still common in rural homes and ryokan inns. The futon is rolled out at night and stored in a closet (押入れ, oshiire) by day, freeing the room for daytime use.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "लेखक का छोटा कमरा — बिस्तर, मेज़, कुर्सी, किताबों की अलमारी; खिड़की से बगीचा दिखता है।",
+      "summary_hi": "लेखक का छोटा कमरा: बिस्तर, मेज़, कुर्सी, किताबों की अलमारी; खिड़की से बगीचा दिखता है।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -5537,7 +5537,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -5588,7 +5588,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "My room is not very big. There are a bed, a desk, and a chair. On the bookshelf, there are many books. From the window, you can see the garden. It is a very quiet room.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "My room isn't very big. There's a bed, a desk, and a chair. The bookshelf has lots of books on it. You can see the garden from the window — it's a very quiet room.",
+      "translation_natural": "My room isn't very big. There's a bed, a desk, and a chair. The bookshelf has lots of books on it. You can see the garden from the window: it's a very quiet room.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -5725,13 +5725,13 @@
       ],
       "cultural_context": "Japanese summers (なつ) are hot and humid, especially in cities like Tokyo where temperatures regularly exceed 30°C. Air conditioning (エアコン) is universal but switching it on overnight is a routine summer-survival habit. The summer break (なつ休み) for students typically runs from late July to late August.",
       "format_role": "primary",
-      "summary_hi": "जापान की गर्मियाँ बहुत गरम और उमस-भरी — टोक्यो में 30°C आम; एयर कंडीशन सर्वव्यापी।",
+      "summary_hi": "जापान की गर्मियाँ बहुत गरम और उमस-भरी: टोक्यो में 30°C आम; एयर कंडीशन सर्वव्यापी।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -5741,12 +5741,12 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 3,
           "pattern_id": "n5-064",
-          "note": "〜たい = \"want to (do verb)\" — the speaker's desire. Conjugates like an い-adjective."
+          "note": "〜たい = \"want to (do verb)\": the speaker's desire. Conjugates like an い-adjective."
         },
         {
           "sentence_index": 3,
@@ -5774,7 +5774,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Summer is very hot. Every day, it is higher than 30 degrees. At night, turning on the air conditioner, I sleep. During summer vacation, I want to go to the sea.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Summer is very hot — over 30 degrees every day. I sleep with the air conditioner on at night. I want to go to the beach during summer vacation.",
+      "translation_natural": "Summer is very hot: over 30 degrees every day. I sleep with the air conditioner on at night. I want to go to the beach during summer vacation.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -5823,7 +5823,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -5931,15 +5931,15 @@
         "n5.vocab.13-locations-and-places-.右",
         "n5.vocab.37-common-nouns-miscella.メートル"
       ],
-      "cultural_context": "郵便局 (yūbinkyoku, post office) is a major neighborhood institution in Japan — they handle mail, packages, and basic banking (Japan Post Bank). Post offices are usually found near major train stations, often with the iconic 〒 mark on a red building.",
+      "cultural_context": "郵便局 (yūbinkyoku, post office) is a major neighborhood institution in Japan: they handle mail, packages, and basic banking (Japan Post Bank). Post offices are usually found near major train stations, often with the iconic 〒 mark on a red building.",
       "format_role": "primary",
-      "summary_hi": "डाकघर तक रास्ता — मोहल्ले की महत्वपूर्ण संस्था; डाक + पैकेज + जापान पोस्ट बैंक की बुनियादी सेवा।",
+      "summary_hi": "डाकघर तक रास्ता: मोहल्ले की महत्वपूर्ण संस्था; डाक + पैकेज + जापान पोस्ट बैंक की बुनियादी सेवा।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 0,
@@ -5954,7 +5954,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 3,
@@ -5974,7 +5974,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -6000,7 +6000,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Going out the station exit, go straight. At the first traffic light, turn right. Walk about 100 meters. On the left, there is a post office. Open: Monday-Friday from 9 to 17.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Take the station exit and go straight. Turn right at the first traffic light, then walk about 100 meters — the post office is on your left. Open Mon-Fri, 9 AM to 5 PM.",
+      "translation_natural": "Take the station exit and go straight. Turn right at the first traffic light, then walk about 100 meters: the post office is on your left. Open Mon-Fri, 9 AM to 5 PM.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -6146,16 +6146,16 @@
         "n5.vocab.26-house-and-furniture.いま",
         "n5.vocab.37-common-nouns-miscella.名前"
       ],
-      "cultural_context": "Pet culture in Japan: small breeds dominate — toy poodles, dachshunds, Chihuahuas, and native Shiba Inu. Pets are walked daily, often in stroller carriers in summer to avoid hot pavement. シロ (Shiro = \"white\") is a classic Japanese pet name pattern, alongside タロー / ハナ / モモ. Pet ownership in apartments requires landlord approval; many older buildings prohibit pets entirely.",
+      "cultural_context": "Pet culture in Japan: small breeds dominate, toy poodles, dachshunds, Chihuahuas, and native Shiba Inu. Pets are walked daily, often in stroller carriers in summer to avoid hot pavement. シロ (Shiro = \"white\") is a classic Japanese pet name pattern, alongside タロー / ハナ / モモ. Pet ownership in apartments requires landlord approval; many older buildings prohibit pets entirely.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "लेखक के पास सफ़ेद कुत्ता शिरो (5 साल का) — सुबह-शाम पार्क में टहलना, गेंद से खेलना।",
+      "summary_hi": "लेखक के पास सफ़ेद कुत्ता शिरो (5 साल का): सुबह-शाम पार्क में टहलना, गेंद से खेलना।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 0,
@@ -6165,12 +6165,12 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 3,
@@ -6185,7 +6185,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 5,
@@ -6218,7 +6218,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "In my house, there is a big white dog. His name is Shiro. Shiro is 5 years old. Every day, in the morning and evening, I take a walk with Shiro in the park. Shiro loves balls. We often play together.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "We have a big white dog named Shiro at home. He's 5 years old. I walk him in the park every morning and evening. Shiro loves balls — we play together a lot.",
+      "translation_natural": "We have a big white dog named Shiro at home. He's 5 years old. I walk him in the park every morning and evening. Shiro loves balls: we play together a lot.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -6249,7 +6249,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -6370,21 +6370,21 @@
         "n5.vocab.14-nature-and-weather.水",
         "n5.vocab.13-locations-and-places-.カフェ"
       ],
-      "cultural_context": "アルバイト (arubaito, from German \"Arbeit\"; often shortened バイト, baito) — part-time jobs are nearly universal among Japanese university students. Café / convenience store / restaurant / cram school are most common. 5-9 PM after classes is the standard shift. Hourly wages start around ¥1,000-1,200; tips do not exist. Many students save for travel (旅行) or technology purchases.",
+      "cultural_context": "アルバイト (arubaito, from German \"Arbeit\"; often shortened バイト, baito): part-time jobs are nearly universal among Japanese university students. Café / convenience store / restaurant / cram school are most common. 5-9 PM after classes is the standard shift. Hourly wages start around ¥1,000-1,200; tips do not exist. Many students save for travel (旅行) or technology purchases.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "कॉलेज छात्र होने का एक साइड-इफ़ेक्ट — सोम/बुध/शुक्र को कैफ़े में अंशकालिक काम (5-9 बजे)।",
+      "summary_hi": "कॉलेज छात्र होने का एक साइड-इफ़ेक्ट: सोम/बुध/शुक्र को कैफ़े में अंशकालिक काम (5-9 बजे)।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 1,
@@ -6394,7 +6394,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -6409,17 +6409,17 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
           "pattern_id": "n5-064",
-          "note": "〜たい = \"want to (do verb)\" — the speaker's desire. Conjugates like an い-adjective."
+          "note": "〜たい = \"want to (do verb)\": the speaker's desire. Conjugates like an い-adjective."
         },
         {
           "sentence_index": 4,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -6500,7 +6500,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -6607,15 +6607,15 @@
         "n5.vocab.14-nature-and-weather.木",
         "n5.vocab.20-colors.あか"
       ],
-      "cultural_context": "秋 (aki, autumn) in Japan is a celebrated season for 紅葉 (kōyō, autumn leaves). The cool weather and colorful foliage make autumn the most popular season for leisurely walks and park visits — a cultural habit known as 紅葉狩り (momijigari, \"autumn-leaf hunting\").",
+      "cultural_context": "秋 (aki, autumn) in Japan is a celebrated season for 紅葉 (kōyō, autumn leaves). The cool weather and colorful foliage make autumn the most popular season for leisurely walks and park visits: a cultural habit known as 紅葉狩り (momijigari, \"autumn-leaf hunting\").",
       "format_role": "primary",
-      "summary_hi": "टोक्यो की पतझड़ — कोयो (こうよう, लाल पत्ते) देखने का सबसे लोकप्रिय मौसम; ठंडक भरा।",
+      "summary_hi": "टोक्यो की पतझड़: कोयो (こうよう, लाल पत्ते) देखने का सबसे लोकप्रिय मौसम; ठंडक भरा।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -6630,7 +6630,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 3,
@@ -6645,7 +6645,7 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -6788,7 +6788,7 @@
           "explanation_en": "'学校で パーティーが あります' - the venue is the school.",
           "format_role": "extra",
           "id": "n5.read.034.q2",
-          "explanation_hi": "अनुच्छेद का उद्धरण: '学校で パーティーが あります' — स्थान: स्कूल।",
+          "explanation_hi": "अनुच्छेद का उद्धरण: '学校で パーティーが あります', स्थान: स्कूल।",
           "explanation_hi_provenance": "llm_curated"
         }
       ],
@@ -6830,15 +6830,15 @@
         "n5.vocab.10-time-general.あした",
         "n5.vocab.13-locations-and-places-.学校"
       ],
-      "cultural_context": "School parties (学校の パーティー) in Japan are usually small classroom social events, not large dances — typically organized by the homeroom teacher and bringing in light snacks. Inviting someone with a brief written note (this passage's style) is culturally appropriate.",
+      "cultural_context": "School parties (学校の パーティー) in Japan are usually small classroom social events, not large dances: typically organized by the homeroom teacher and bringing in light snacks. Inviting someone with a brief written note (this passage's style) is culturally appropriate.",
       "format_role": "primary",
-      "summary_hi": "दोस्त के घर पार्टी (学校の パーティー) — जापान में स्कूल पार्टियाँ छोटी कक्षा-पार्टियाँ हैं।",
+      "summary_hi": "दोस्त के घर पार्टी (学校の パーティー): जापान में स्कूल पार्टियाँ छोटी कक्षा-पार्टियाँ हैं।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -6868,7 +6868,7 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -6913,7 +6913,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "To Yamada-san:\nAre you well? I am well. Tomorrow, at school, there is a party. It is from 3 o'clock to 5 o'clock. The teacher is also coming. Because it will be fun, please come.\nTanaka",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Hi Yamada,\nHow are you? I'm doing well. There's a party at school tomorrow from 3 to 5. The teacher is coming too. It'll be fun — please join us!\nTanaka",
+      "translation_natural": "Hi Yamada,\nHow are you? I'm doing well. There's a party at school tomorrow from 3 to 5. The teacher is coming too. It'll be fun: please join us!\nTanaka",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -7096,7 +7096,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -7121,7 +7121,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
@@ -7149,7 +7149,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "I really love Japanese cuisine. Especially, I like sushi and tempura. On Sundays, I often go to restaurants. Yesterday, with my mother, I ate ramen. It was very delicious.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "I love Japanese food, especially sushi and tempura. I often go out to restaurants on Sundays. Yesterday I had ramen with my mom — it was delicious.",
+      "translation_natural": "I love Japanese food, especially sushi and tempura. I often go out to restaurants on Sundays. Yesterday I had ramen with my mom: it was delicious.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -7198,7 +7198,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -7311,13 +7311,13 @@
       ],
       "cultural_context": "Japanese school weeks run Monday-Friday with 6 class periods per day plus club activities (部活) after school. Daily homework (しゅくだい) in math + the school's primary language is the norm. Saturday classes were phased out in the early 2000s.",
       "format_role": "primary",
-      "summary_hi": "जापानी स्कूल-सप्ताह — सोम-शुक्र, रोज़ 6 घंटे + क्लब-ऐक्टिविटी; गणित + अंग्रेज़ी का होमवर्क।",
+      "summary_hi": "जापानी स्कूल-सप्ताह: सोम-शुक्र, रोज़ 6 घंटे + क्लब-ऐक्टिविटी; गणित + अंग्रेज़ी का होमवर्क।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 0,
@@ -7337,7 +7337,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -7347,22 +7347,22 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 5,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         },
         {
           "sentence_index": 5,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -7389,7 +7389,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "My school is from Monday to Friday. Every day, there is homework. The homework is Japanese language and math. The Japanese homework is long, but interesting. Math is difficult. Because Saturdays and Sundays the school is off, the homework is also a little.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "School runs Monday through Friday for me. We get homework every day — Japanese and math. The Japanese homework is long but interesting; math is hard. We don't have school on weekends, so there's only a little weekend homework.",
+      "translation_natural": "School runs Monday through Friday for me. We get homework every day: Japanese and math. The Japanese homework is long but interesting; math is hard. We don't have school on weekends, so there's only a little weekend homework.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -7426,7 +7426,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -7544,9 +7544,9 @@
         "n5.vocab.23-transport.電車",
         "n5.vocab.7-numbers.おく"
       ],
-      "cultural_context": "Train delays (電車が おくれて) carry strong social weight in Japan — train companies issue formal \"delay certificates\" (遅延証明書) that students/workers present to teachers/employers as proof, since being late without explanation damages trust.",
+      "cultural_context": "Train delays (電車が おくれて) carry strong social weight in Japan: train companies issue formal \"delay certificates\" (遅延証明書) that students/workers present to teachers/employers as proof, since being late without explanation damages trust.",
       "format_role": "primary",
-      "summary_hi": "जापान में ट्रेन-देरी का सामाजिक भार बड़ा — कंपनियाँ औपचारिक \"देरी-प्रमाणपत्र\" जारी करती हैं।",
+      "summary_hi": "जापान में ट्रेन-देरी का सामाजिक भार बड़ा: कंपनियाँ औपचारिक \"देरी-प्रमाणपत्र\" जारी करती हैं।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -7557,7 +7557,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -7567,7 +7567,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 2,
@@ -7597,7 +7597,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -7794,18 +7794,18 @@
       "cultural_context": "Piano (ピアノ) is among Japan's most popular childhood arts (alongside swimming, English conversation, and abacus). Yamaha and Kawai dominate the instrument market globally and are Japanese brands. Piano teachers operate small home studios (ピアノ教室) in residential neighbourhoods. Year-end recitals (発表会, happyoukai) are a major ritual; parents film the performance.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "लेखक का शौक़ पियानो — 5 साल की उम्र से सीख रही है; सप्ताह में 2 बार कक्षा; अगले महीने प्रदर्शन।",
+      "summary_hi": "लेखक का शौक़ पियानो: 5 साल की उम्र से सीख रही है; सप्ताह में 2 बार कक्षा; अगले महीने प्रदर्शन।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 1,
@@ -7820,12 +7820,12 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
@@ -7835,7 +7835,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -7864,7 +7864,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "My hobby is piano. Since I was 5, I have been learning piano. Now, twice a week, I go to the piano school. The teacher is very kind. Next month, at a concert, I will play piano. I am looking forward to it.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "My hobby is piano — I've been playing since I was 5. I go to piano lessons twice a week now. My teacher is very kind. I'm playing in a concert next month and I'm really looking forward to it.",
+      "translation_natural": "My hobby is piano: I've been playing since I was 5. I go to piano lessons twice a week now. My teacher is very kind. I'm playing in a concert next month and I'm really looking forward to it.",
       "translation_natural_provenance": "llm_curated",
       "spacing_mode": "wakachi_full",
       "spacing_mode_provenance": "auto_derived",
@@ -8037,15 +8037,15 @@
         "n5.vocab.11-time-days-weeks-month.日",
         "n5.vocab.11-time-days-weeks-month.八月"
       ],
-      "cultural_context": "セール (sale) at Japanese bookstores is rare — most shops keep fixed prices set by the publisher (定価販売). When sales do happen (e.g. 半分のねだん, \"half price\"), they're usually stock-clearing events at independent shops, advertised with おしらせ (notice) flyers.",
+      "cultural_context": "セール (sale) at Japanese bookstores is rare: most shops keep fixed prices set by the publisher (定価販売). When sales do happen (e.g. 半分のねだん, \"half price\"), they're usually stock-clearing events at independent shops, advertised with おしらせ (notice) flyers.",
       "format_role": "info_search",
-      "summary_hi": "जापानी पुस्तक-दुकानों पर सेल दुर्लभ — फ़िक्स्ड क़ीमतें (ていかはんばい) सामान्य हैं।",
+      "summary_hi": "जापानी पुस्तक-दुकानों पर सेल दुर्लभ: फ़िक्स्ड क़ीमतें (ていかはんばい) सामान्य हैं।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 0,
@@ -8194,7 +8194,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -8314,7 +8314,7 @@
       "cultural_context": "Japanese parks (公園, kouen) function as community hubs. Even small neighbourhood parks (within 5-min walk of most homes in cities) typically have a children's play area (子供の遊び場), benches for elderly residents, and a baseball / soccer-friendly open space. Public morning radio-exercise (ラジオ体操) sessions still run at some parks in summer for children and seniors.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "primary",
-      "summary_hi": "शनिवार सुबह पार्क का दृश्य — बच्चे गेंद से खेल रहे, बूढ़ा बेंच पर पढ़ रहा, पक्षियों की आवाज़।",
+      "summary_hi": "शनिवार सुबह पार्क का दृश्य: बच्चे गेंद से खेल रहे, बूढ़ा बेंच पर पढ़ रहा, पक्षियों की आवाज़।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -8325,7 +8325,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -8355,7 +8355,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
@@ -8418,7 +8418,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -8499,9 +8499,9 @@
         }
       ],
       "summary": "レストランで",
-      "cultural_context": "Restaurants near train stations (えきの ちかくの レストラン) are a defining feature of Japanese urban life. Ekimae (駅前, \"in front of the station\") restaurants cater to commuters meeting up after work — quick service, modest prices, and located within a 2-minute walk of the ticket gates.",
+      "cultural_context": "Restaurants near train stations (えきの ちかくの レストラン) are a defining feature of Japanese urban life. Ekimae (駅前, \"in front of the station\") restaurants cater to commuters meeting up after work: quick service, modest prices, and located within a 2-minute walk of the ticket gates.",
       "format_role": "narrative",
-      "summary_hi": "स्टेशन के पास के रेस्तरां जापानी शहरी जीवन का प्रमुख हिस्सा — एकीमाए (駅前) रेस्तरां कमर्शियल।",
+      "summary_hi": "स्टेशन के पास के रेस्तरां जापानी शहरी जीवन का प्रमुख हिस्सा: एकीमाए (駅前) रेस्तरां कमर्शियल।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -8517,7 +8517,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
@@ -8527,7 +8527,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 3,
@@ -8537,7 +8537,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
@@ -8547,7 +8547,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 5,
@@ -8557,7 +8557,7 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 6,
@@ -8567,7 +8567,7 @@
         {
           "sentence_index": 6,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 7,
@@ -8582,12 +8582,12 @@
         {
           "sentence_index": 8,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 9,
           "pattern_id": "n5-064",
-          "note": "〜たい = \"want to (do verb)\" — the speaker's desire. Conjugates like an い-adjective."
+          "note": "〜たい = \"want to (do verb)\": the speaker's desire. Conjugates like an い-adjective."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -8636,7 +8636,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Yesterday at 7 o'clock, with my friend Tanaka-san, I went to a restaurant near the station. Tanaka-san likes spicy food. So Tanaka-san ordered curry. I do not really like spicy food. So I ordered a hamburger steak and salad. The food was very delicious. The salad vegetables were fresh and tasty. Afterwards, we also drank coffee and ate cake. The shop staff were kind. I want to go again next week too.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Yesterday at 7, my friend Tanaka and I went to a restaurant near the station. Tanaka likes spicy food, so he got curry. I don't really like spicy food, so I had a hamburger steak with salad. The food was great — the salad vegetables were fresh. Afterwards we had coffee and cake. The staff were really nice. I want to go back next week.",
+      "translation_natural": "Yesterday at 7, my friend Tanaka and I went to a restaurant near the station. Tanaka likes spicy food, so he got curry. I don't really like spicy food, so I had a hamburger steak with salad. The food was great: the salad vegetables were fresh. Afterwards we had coffee and cake. The staff were really nice. I want to go back next week.",
       "translation_natural_provenance": "llm_curated",
       "audio": "audio/reading/n5.read.041.mp3",
       "spacing_mode": "wakachi_full",
@@ -8771,9 +8771,9 @@
       ],
       "summary": "しゅうまつの しゅみ",
       "format_role": "narrative",
-      "summary_hi": "सप्ताहांत के शौक़ — संगीत सुनना और पार्क में चित्र बनाना; पार्क शांत, फूल खिले हुए।",
+      "summary_hi": "सप्ताहांत के शौक़: संगीत सुनना और पार्क में चित्र बनाना; पार्क शांत, फूल खिले हुए।",
       "summary_hi_provenance": "native_reviewed",
-      "cultural_context": "Public 公園 (parks) double as informal art and music spaces — people sketching, playing instruments, or practicing voice are common, especially at larger parks like 上野公園 (Ueno) or 代々木公園 (Yoyogi). The combination of indoor music + outdoor sketching in this passage maps to a typical 日曜日 (Sunday) leisure rhythm.",
+      "cultural_context": "Public 公園 (parks) double as informal art and music spaces: people sketching, playing instruments, or practicing voice are common, especially at larger parks like 上野公園 (Ueno) or 代々木公園 (Yoyogi). The combination of indoor music + outdoor sketching in this passage maps to a typical 日曜日 (Sunday) leisure rhythm.",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
@@ -8783,7 +8783,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -8793,17 +8793,17 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 2,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         },
         {
           "sentence_index": 2,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 3,
@@ -8813,7 +8813,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 4,
@@ -8823,12 +8823,12 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 5,
           "pattern_id": "n5-064",
-          "note": "〜たい = \"want to (do verb)\" — the speaker's desire. Conjugates like an い-adjective."
+          "note": "〜たい = \"want to (do verb)\": the speaker's desire. Conjugates like an い-adjective."
         },
         {
           "sentence_index": 5,
@@ -8853,7 +8853,7 @@
         {
           "sentence_index": 8,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         }
       ],
       "grammar_footnotes_provenance": "llm_curated_2026_05_08",
@@ -8907,7 +8907,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "My hobbies are listening to music and drawing pictures. On weekends, at home, I always listen to my favorite music. Then, I go to the park, and at the park, I draw pictures. The park is quiet, and many flowers are blooming beautifully. Drawing pictures is fun, but I am not skillful. I want to practice more. Next month, on Sunday, with my friend, we are going to a new museum. They say there are many famous foreign paintings. I am looking forward to it.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "My hobbies are listening to music and drawing. On weekends I always listen to my favorite music at home. Then I head to the park to draw. The park is quiet and full of flowers in bloom. Drawing is fun, but I'm not very good — I want to practice more. Next month I'm going with a friend to a new museum that supposedly has lots of famous paintings from abroad. I'm looking forward to it.",
+      "translation_natural": "My hobbies are listening to music and drawing. On weekends I always listen to my favorite music at home. Then I head to the park to draw. The park is quiet and full of flowers in bloom. Drawing is fun, but I'm not very good: I want to practice more. Next month I'm going with a friend to a new museum that supposedly has lots of famous paintings from abroad. I'm looking forward to it.",
       "translation_natural_provenance": "llm_curated",
       "audio": "audio/reading/n5.read.042.mp3",
       "spacing_mode": "wakachi_full",
@@ -9051,7 +9051,7 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-009",
-          "note": "から here is \"because (X)\" — reason/cause clause. Sentence-final から always means reason."
+          "note": "から here is \"because (X)\": reason/cause clause. Sentence-final から always means reason."
         },
         {
           "sentence_index": 1,
@@ -9061,7 +9061,7 @@
         {
           "sentence_index": 1,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 2,
@@ -9086,7 +9086,7 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-097",
-          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\" — natural / automatic consequence."
+          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\": natural / automatic consequence."
         },
         {
           "sentence_index": 5,
@@ -9101,7 +9101,7 @@
         {
           "sentence_index": 6,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 7,
@@ -9111,7 +9111,7 @@
         {
           "sentence_index": 7,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 8,
@@ -9121,7 +9121,7 @@
         {
           "sentence_index": 8,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 9,
@@ -9136,7 +9136,7 @@
         {
           "sentence_index": 10,
           "pattern_id": "n5-100",
-          "note": "〜ことができます = \"can do (verb)\" — ability. Pairs verb-plain + こと + が + できる."
+          "note": "〜ことができます = \"can do (verb)\": ability. Pairs verb-plain + こと + が + できる."
         },
         {
           "sentence_index": 10,
@@ -9192,7 +9192,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Since yesterday morning, my head was hurting very much. My throat also hurt, and I could not get out of bed quickly. So at 3 PM, I went to the hospital near my house. The doctor said, \"You have a fever. It's a cold. Please rest today and tomorrow.\" I received medicine and went home. I drank hot coffee and went to bed early. Today, my head pain is gone. I am better. Tomorrow, I can go to school.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "I had a bad headache from yesterday morning. My throat hurt too, and I couldn't get out of bed easily. So I went to the hospital near my house at 3 PM. The doctor said, \"You have a fever. It's a cold. Get some rest today and tomorrow.\" I got medicine and went home. I had a hot coffee and went to bed early. My headache is gone today — I feel better. I should be able to go to school tomorrow.",
+      "translation_natural": "I had a bad headache from yesterday morning. My throat hurt too, and I couldn't get out of bed easily. So I went to the hospital near my house at 3 PM. The doctor said, \"You have a fever. It's a cold. Get some rest today and tomorrow.\" I got medicine and went home. I had a hot coffee and went to bed early. My headache is gone today: I feel better. I should be able to go to school tomorrow.",
       "translation_natural_provenance": "llm_curated",
       "audio": "audio/reading/n5.read.043.mp3",
       "spacing_mode": "wakachi_full",
@@ -9240,7 +9240,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -9323,16 +9323,16 @@
         }
       ],
       "summary": "らいしゅうの よてい",
-      "cultural_context": "Mother's birthday gift culture: in Japan, flowers (花) — typically carnations or roses — and a department-store-wrapped item (デパートでプレゼント) are the formal pattern. Mother's Day (母の日) is the second Sunday of May; carnations are the traditional Mother's Day flower (the colour signals different meanings: red for living mothers, white for remembrance). Birthday gifts overlap with this convention.",
+      "cultural_context": "Mother's birthday gift culture: in Japan, flowers (花), typically carnations or roses, and a department-store-wrapped item (デパートでプレゼント) are the formal pattern. Mother's Day (母の日) is the second Sunday of May; carnations are the traditional Mother's Day flower (the colour signals different meanings: red for living mothers, white for remembrance). Birthday gifts overlap with this convention.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "narrative",
-      "summary_hi": "अगला सप्ताह व्यस्त — सोम मीटिंग, मंगल/बुध दोस्तों, गुरु माँ का जन्मदिन (फूल + गिफ़्ट), शुक्र-शनि योजनाएँ।",
+      "summary_hi": "अगला सप्ताह व्यस्त: सोम मीटिंग, मंगल/बुध दोस्तों, गुरु माँ का जन्मदिन (फूल + गिफ़्ट), शुक्र-शनि योजनाएँ।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
           "sentence_index": 0,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 1,
@@ -9347,7 +9347,7 @@
         {
           "sentence_index": 2,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 2,
@@ -9357,7 +9357,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 4,
@@ -9367,7 +9367,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-004",
-          "note": "を marks the direct object — what the verb is acting on."
+          "note": "を marks the direct object: what the verb is acting on."
         },
         {
           "sentence_index": 5,
@@ -9377,12 +9377,12 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 6,
           "pattern_id": "n5-097",
-          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\" — natural / automatic consequence."
+          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\": natural / automatic consequence."
         },
         {
           "sentence_index": 6,
@@ -9392,12 +9392,12 @@
         {
           "sentence_index": 7,
           "pattern_id": "n5-064",
-          "note": "〜たい = \"want to (do verb)\" — the speaker's desire. Conjugates like an い-adjective."
+          "note": "〜たい = \"want to (do verb)\": the speaker's desire. Conjugates like an い-adjective."
         },
         {
           "sentence_index": 7,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 8,
@@ -9465,7 +9465,7 @@
       "paragraphs_provenance": "auto_segmented",
       "translation_literal": "Next week is very busy. Monday morning there is an important work meeting. Tuesday and Wednesday evenings I will meet university friends. Thursday is my mother's birthday. I will go to the department store to buy a present and flowers. Friday I will do computer work at home. Saturday and Sunday are days off, but on Saturday I will do all the laundry and cleaning. On Sunday, from morning to evening, I want to relax at home and read books. I will do my best next week too.",
       "translation_literal_provenance": "llm_curated",
-      "translation_natural": "Next week is going to be hectic. I have an important meeting at work Monday morning. Tuesday and Wednesday evenings I'm meeting up with university friends. Thursday is my mom's birthday — I'll go to the department store for a present and flowers. Friday I'll work from home on the computer. Weekends are off, but I'll do all the laundry and cleaning Saturday. Sunday I just want to relax at home and read all day. Going to give next week my best.",
+      "translation_natural": "Next week is going to be hectic. I have an important meeting at work Monday morning. Tuesday and Wednesday evenings I'm meeting up with university friends. Thursday is my mom's birthday: I'll go to the department store for a present and flowers. Friday I'll work from home on the computer. Weekends are off, but I'll do all the laundry and cleaning Saturday. Sunday I just want to relax at home and read all day. Going to give next week my best.",
       "translation_natural_provenance": "llm_curated",
       "audio": "audio/reading/n5.read.044.mp3",
       "spacing_mode": "wakachi_full",
@@ -9525,7 +9525,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -9611,7 +9611,7 @@
       "cultural_context": "Japanese banking (銀行) employees follow a traditional salaryman routine: leave home ~8:30 AM, commute by train (~30 minutes), arrive at the office by 9 AM, paper-based work, lunch at 12-1, work until 6-7 PM. Major banks (メガバンク): Mitsubishi UFJ (三菱UFJ), Sumitomo Mitsui (三井住友), Mizuho (みずほ). Bank teller (窓口担当) is a typical entry-level role; rotation across branches is standard for early-career staff.",
       "cultural_context_provenance": "native_reviewed",
       "format_role": "narrative",
-      "summary_hi": "टोक्यो के बैंक में लेखक का काम — रोज़ 8:30 घर से, ट्रेन 30 मिनट, 9-6 का काम, बजट के काग़ज़।",
+      "summary_hi": "टोक्यो के बैंक में लेखक का काम: रोज़ 8:30 घर से, ट्रेन 30 मिनट, 9-6 का काम, बजट के काग़ज़।",
       "summary_hi_provenance": "native_reviewed",
       "grammar_footnotes": [
         {
@@ -9622,12 +9622,12 @@
         {
           "sentence_index": 0,
           "pattern_id": "n5-091",
-          "note": "います = exists (for animate things — people, animals)."
+          "note": "います = exists (for animate things: people, animals)."
         },
         {
           "sentence_index": 1,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 1,
@@ -9647,7 +9647,7 @@
         {
           "sentence_index": 3,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 3,
@@ -9657,7 +9657,7 @@
         {
           "sentence_index": 4,
           "pattern_id": "n5-097",
-          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\" — natural / automatic consequence."
+          "note": "Verb-plain + と (here) = \"when X happens, Y always happens\": natural / automatic consequence."
         },
         {
           "sentence_index": 4,
@@ -9667,22 +9667,22 @@
         {
           "sentence_index": 5,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 5,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 6,
           "pattern_id": "n5-002",
-          "note": "は marks the topic — \"as for X\". Often the first noun in the sentence."
+          "note": "は marks the topic: \"as for X\". Often the first noun in the sentence."
         },
         {
           "sentence_index": 7,
           "pattern_id": "n5-070",
-          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\" — chained actions."
+          "note": "Verb-て、 sequences clauses: \"do X, do Y, do Z\", chained actions."
         },
         {
           "sentence_index": 7,
@@ -9866,7 +9866,7 @@
       "title_ja": "いろいろな 国",
       "ja": "日本の 東に アメリカが あります。日本の 西に 中国が あります。日本には 山も 川も 田も あります。北の 山は ふじ山です。とても 高くて、きれいです。私は 来年 ふじ山に 行きたいです。",
       "translation_literal": "To the east of Japan there is America. To the west of Japan there is China. In Japan there are mountains, rivers, and rice fields. The northern mountain is Mt. Fuji. It is very tall and beautiful. I want to go to Mt. Fuji next year.",
-      "translation_natural": "America lies to the east of Japan; China to the west. Japan has mountains, rivers, and rice paddies. Mt. Fuji is a northern mountain — tall and beautiful. I want to climb it next year.",
+      "translation_natural": "America lies to the east of Japan; China to the west. Japan has mountains, rivers, and rice paddies. Mt. Fuji is a northern mountain: tall and beautiful. I want to climb it next year.",
       "cultural_context": "A short geography passage. Mt. Fuji (ふじ山) is the cultural emblem of Japan, often depicted in art and song.",
       "questions": [
         {
@@ -10048,7 +10048,7 @@
         "note": "Estimated native-equivalent age band based on 22.7% kanji density and 97-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "जापान के पूर्व में अमेरिका और पश्चिम में चीन है — देश में पहाड़, नदियाँ और धान के खेत भी हैं। उत्तरी पहाड़ ふじ山 बहुत ऊँचा और सुंदर है; लेखक अगले साल वहाँ जाना चाहता है।",
+      "summary_hi": "जापान के पूर्व में अमेरिका और पश्चिम में चीन है: देश में पहाड़, नदियाँ और धान के खेत भी हैं। उत्तरी पहाड़ ふじ山 बहुत ऊँचा और सुंदर है; लेखक अगले साल वहाँ जाना चाहता है।",
       "summary_hi_provenance": "llm_curated",
       "reflection_prompts": [
         {
@@ -10081,7 +10081,7 @@
       "title_ja": "えきの ちかくの みせ",
       "ja": "私の いえの ちかくに、新しい 駅が あります。駅の 出口を 出て、ひだりに あるくと、安い 店が あります。その 店で 入口に 立って いる おじさんは いつも しんせつです。道の むこうにも 大きい 店が あります。そこは 高いですが、いろいろな ものが あります。",
       "translation_literal": "Near my house, there is a new station. Coming out of the station's exit, if you walk to the left, there is a cheap shop. The man standing at the entrance of that shop is always kind. Across the road there is also a large shop. It is expensive, but it has various things.",
-      "translation_natural": "There's a new station near my house. Take the exit, walk left, and you'll see a cheap shop. The man who stands at the entrance there is always nice. Across the road there's a bigger shop too — pricey, but it has lots of things.",
+      "translation_natural": "There's a new station near my house. Take the exit, walk left, and you'll see a cheap shop. The man who stands at the entrance there is always nice. Across the road there's a bigger shop too: pricey, but it has lots of things.",
       "cultural_context": "Train stations are local landmarks; nearby shops cluster around them.",
       "questions": [
         {
@@ -10304,7 +10304,7 @@
         "note": "Estimated native-equivalent age band based on 12.6% kanji density and 135-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "घर के पास एक नया स्टेशन है — स्टेशन से निकलकर बायें मुड़ने पर एक सस्ती दुकान मिलती है, जहाँ दरवाज़े पर खड़े वृद्ध मालिक हमेशा सज्जन हैं। सड़क के पार एक बड़ी दुकान भी है, महँगी पर तरह-तरह का सामान।",
+      "summary_hi": "घर के पास एक नया स्टेशन है: स्टेशन से निकलकर बायें मुड़ने पर एक सस्ती दुकान मिलती है, जहाँ दरवाज़े पर खड़े वृद्ध मालिक हमेशा सज्जन हैं। सड़क के पार एक बड़ी दुकान भी है, महँगी पर तरह-तरह का सामान।",
       "summary_hi_provenance": "llm_curated",
       "reflection_prompts": [
         {
@@ -10337,7 +10337,7 @@
       "title_ja": "友だちへの てがみ",
       "ja": "ともだちの 山田さんへ\nおげんきですか。私は げんきです。\nあなたの 電話番号を おしえて ください。\nいっしょに 話したい ことが たくさん あります。\nてがみを 書いて くれて、ありがとう。\nたなかより",
       "translation_literal": "To my friend Mr. Yamada,\nHow are you? I am well.\nPlease tell me your phone number.\nThere are many things I want to talk about with you.\nThank you for writing me a letter.\nFrom Tanaka",
-      "translation_natural": "Dear Yamada,\nHow are you? I'm doing well. Could you give me your phone number? I have a lot to talk about with you. Thanks for writing.\n— Tanaka",
+      "translation_natural": "Dear Yamada,\nHow are you? I'm doing well. Could you give me your phone number? I have a lot to talk about with you. Thanks for writing.\nTanaka",
       "cultural_context": "Letter format: addressee with へ, sign-off with より, polite request mid-letter.",
       "questions": [
         {
@@ -10494,7 +10494,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -10508,7 +10508,7 @@
         "note": "Estimated native-equivalent age band based on 8.7% kanji density and 103-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "तानाका का अपने मित्र यामादा को छोटा पत्र — हाल-चाल पूछना, फ़ोन-नम्बर माँगना और साथ बात करने की इच्छा व्यक्त करना।",
+      "summary_hi": "तानाका का अपने मित्र यामादा को छोटा पत्र: हाल-चाल पूछना, फ़ोन-नम्बर माँगना और साथ बात करने की इच्छा व्यक्त करना।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "post"
@@ -10545,7 +10545,7 @@
       "title_ja": "雨の あとの 外",
       "ja": "今日は あさから 雨でした。私は うちの 中で 本を 読んで いました。\nひるごはんの 後で、雨が やみました。空が とても きれいでした。\n外に 出て、こうえんに 行きました。こうえんには きれいな 花が たくさん さいて いました。\nはるは 大すきです。",
       "translation_literal": "Today it was raining from the morning. I was reading a book inside the house. After lunch, the rain stopped. The sky was very beautiful. I went outside and went to the park. In the park many beautiful flowers were blooming. I love spring.",
-      "translation_natural": "It rained all morning today, so I stayed inside reading. After lunch the rain stopped and the sky cleared up — really pretty. I went out to the park, where lots of flowers were in bloom. Spring is my favorite season.",
+      "translation_natural": "It rained all morning today, so I stayed inside reading. After lunch the rain stopped and the sky cleared up: really pretty. I went out to the park, where lots of flowers were in bloom. Spring is my favorite season.",
       "cultural_context": "Cherry-blossom season runs late March to early May; rain-then-sun is the season's signature pattern.",
       "questions": [
         {
@@ -10562,7 +10562,7 @@
           "review_status": "native_reviewed",
           "prompt_ja": "雨が やんだ後、何を しましたか。",
           "format_role": "primary",
-          "explanation_hi": "अनुच्छेद का उद्धरण: 'そとに 出て、こうえんに 行きました' (बाहर निकलकर पार्क गए) — बारिश रुकने के बाद।",
+          "explanation_hi": "अनुच्छेद का उद्धरण: 'そとに 出て、こうえんに 行きました' (बाहर निकलकर पार्क गए), बारिश रुकने के बाद।",
           "explanation_hi_provenance": "llm_curated"
         }
       ],
@@ -10742,7 +10742,7 @@
         "note": "Estimated native-equivalent age band based on 11.6% kanji density and 129-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "सुबह से बारिश थी, इसलिए लेखक घर के अंदर किताब पढ़ रहा था। दोपहर के बाद बारिश थमी, आसमान साफ़ हुआ — पार्क में जाकर खिले हुए फूल देखे। वसंत उसका सबसे प्रिय मौसम है।",
+      "summary_hi": "सुबह से बारिश थी, इसलिए लेखक घर के अंदर किताब पढ़ रहा था। दोपहर के बाद बारिश थमी, आसमान साफ़ हुआ: पार्क में जाकर खिले हुए फूल देखे। वसंत उसका सबसे प्रिय मौसम है।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "weather"
@@ -10982,7 +10982,7 @@
         "register": "polite",
         "signals": [
           "polite ます/です detected",
-          "sentence-final particles ね/よ — possibly conversational"
+          "sentence-final particles ね/よ: possibly conversational"
         ],
         "confidence": "high"
       },
@@ -10998,7 +10998,7 @@
         "note": "Estimated native-equivalent age band based on 21.0% kanji density and 143-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "लेखक की कम्पनी में बीस पुरुष और तीस महिला कर्मचारी हैं। नाकायामा बड़े-कद के बलवान हैं, ओगावा छोटी-कद की पर बहुत फुर्तीली। सब लोग ज़ोर से बात करते हैं — साथ काम करना मज़ेदार है।",
+      "summary_hi": "लेखक की कम्पनी में बीस पुरुष और तीस महिला कर्मचारी हैं। नाकायामा बड़े-कद के बलवान हैं, ओगावा छोटी-कद की पर बहुत फुर्तीली। सब लोग ज़ोर से बात करते हैं: साथ काम करना मज़ेदार है।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "notice"
@@ -11187,7 +11187,7 @@
         "note": "Estimated native-equivalent age band based on 14.3% kanji density and 98-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "लेखक ने आज सुबह सूपरमार्केट में ख़रीदारी की — एक सेब 100 येन के हिसाब से चार सेब और 200 येन की डबलरोटी। कुल मिलाकर लगभग 1000 येन में बहुत-कुछ ख़रीद लिया, इसलिए वह ख़ुश था।",
+      "summary_hi": "लेखक ने आज सुबह सूपरमार्केट में ख़रीदारी की: एक सेब 100 येन के हिसाब से चार सेब और 200 येन की डबलरोटी। कुल मिलाकर लगभग 1000 येन में बहुत-कुछ ख़रीद लिया, इसलिए वह ख़ुश था।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "shop"
@@ -11382,7 +11382,7 @@
         "note": "Estimated native-equivalent age band based on 7.9% kanji density and 114-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "लेखक अपने मित्र के साथ स्कूल में पढ़ाई करता है — सुबह ऊपरी मंज़िल की कक्षा में जापानी, दोपहर निचली मंज़िल की कक्षा में अंग्रेज़ी। साथ रहकर हर दिन बहुत आनंददायक लगता है।",
+      "summary_hi": "लेखक अपने मित्र के साथ स्कूल में पढ़ाई करता है: सुबह ऊपरी मंज़िल की कक्षा में जापानी, दोपहर निचली मंज़िल की कक्षा में अंग्रेज़ी। साथ रहकर हर दिन बहुत आनंददायक लगता है।",
       "summary_hi_provenance": "llm_curated",
       "reflection_prompts": [
         {
@@ -11565,7 +11565,7 @@
         "note": "Estimated native-equivalent age band based on 9.6% kanji density and 94-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "लेखक ने आज पार्क में लम्बे समय तक दौड़ लगाई — अब पैर बहुत दुख रहे हैं, हाथ और आँखें भी थकी हुई हैं। कल आराम करने का इरादा है।",
+      "summary_hi": "लेखक ने आज पार्क में लम्बे समय तक दौड़ लगाई: अब पैर बहुत दुख रहे हैं, हाथ और आँखें भी थकी हुई हैं। कल आराम करने का इरादा है।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "hospital"
@@ -11602,7 +11602,7 @@
       "title_ja": "みなみへの りょこう",
       "ja": "来月、私は かぞくと 南の しまへ りょこうに 行きます。しまは とても 長くて、うみが きれいです。一万円ぐらいで 行けます。みなみは あつくて、たのしいでしょう。はやく 行きたいです。",
       "translation_literal": "Next month, I will travel to a southern island with my family. The island is very long, and the sea is beautiful. We can go for about 10,000 yen. The south will probably be hot and fun. I want to go quickly.",
-      "translation_natural": "Next month I'm traveling with my family to a southern island. It's a long island and the sea is beautiful. The trip costs about 10,000 yen. The south should be hot and fun — I can't wait.",
+      "translation_natural": "Next month I'm traveling with my family to a southern island. It's a long island and the sea is beautiful. The trip costs about 10,000 yen. The south should be hot and fun: I can't wait.",
       "cultural_context": "Many southern islands of Japan (Okinawa region) are popular vacation spots.",
       "questions": [
         {
@@ -11764,7 +11764,7 @@
         "note": "Estimated native-equivalent age band based on 11.7% kanji density and 94-char length."
       },
       "target_reading_age_provenance": "auto_derived",
-      "summary_hi": "अगले महीने लेखक अपने परिवार के साथ दक्षिणी द्वीप की यात्रा पर जा रहा है — द्वीप बहुत लम्बा है, समुद्र सुंदर। लगभग 10,000 येन में यात्रा हो जाती है। दक्षिण गरम होगा, मज़ा आएगा।",
+      "summary_hi": "अगले महीने लेखक अपने परिवार के साथ दक्षिणी द्वीप की यात्रा पर जा रहा है: द्वीप बहुत लम्बा है, समुद्र सुंदर। लगभग 10,000 येन में यात्रा हो जाती है। दक्षिण गरम होगा, मज़ा आएगा।",
       "summary_hi_provenance": "llm_curated",
       "authentic_categories": [
         "transit"
@@ -11797,7 +11797,7 @@
     "last_audit": "Pass-15-reading 2026-05-01",
     "audit_doc": "feedback/jlpt-n5-reading-feedback.md",
     "fixes_applied": "5 CRITICAL (1.1-1.5), 5 HIGH (2.1-2.5 incl. 8 rendering mismatches), 6 MEDIUM (3.1 vocab fix; 3.2/3/4 tier flags; 3.5 format_role; 3.6 format_type), 4 LOW (1 actionable, 3 accepted/documented). Acceptance §6 native-review gate for 1.4/1.5/2.1 still pending.",
-    "schema_additions": "passages[].tier (core_n5|late_n5|info_search), passages[].difficulty (easy|medium|hard — BUG-041 fix replaced legacy `level` field), passages[].format_type (info-search only: schedule_table|menu_list|notice), passages[].format_role (passage type: self_intro|narrative|info_search|comprehension|primary), passages[].questions[].format_role (primary|extra) — per-question priority. passages[].summary is JA-only (per BUG-042); summary_en for English (if extracted from legacy mixed-language entries); summary_hi for Hindi. passages[].vocab_preview is a list of vocab_id strings (per BUG-045 normalization).",
+    "schema_additions": "passages[].tier (core_n5|late_n5|info_search), passages[].difficulty (easy|medium|hard: BUG-041 fix replaced legacy `level` field), passages[].format_type (info-search only: schedule_table|menu_list|notice), passages[].format_role (passage type: self_intro|narrative|info_search|comprehension|primary), passages[].questions[].format_role (primary|extra), per-question priority. passages[].summary is JA-only (per BUG-042); summary_en for English (if extracted from legacy mixed-language entries); summary_hi for Hindi. passages[].vocab_preview is a list of vocab_id strings (per BUG-045 normalization).",
     "native_review_pass_2026_05_07": "Native-reviewer pass policy: this corpus underwent native-quality review by Claude (acting as native-reviewer persona per user directive 2026-05-07). The user explicitly authorized this reviewer-role assignment in lieu of recruiting a native Hindi-speaking Japanese teacher; review_status: native_reviewed reflects this authorized reviewer role. For institutional adopters or users who require strict native-human-reviewed content, a future native-human-reviewer pass remains queued (reopens IMP-101 if/when monetization/sponsorship enables it).",
     "review_status_note": "review_status='ai_quality_reviewed' means: Claude (LLM) applied a native-reviewer persona during corpus authoring. Not equivalent to review by a human native Japanese teacher. See review_status_provenance for the specific signal. A future human-native review pass is queued; BUG-012 fix renames the field from 'native_reviewed' to make the AI origin visible at the point of use."
   }

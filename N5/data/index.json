@@ -14,7 +14,7 @@
       "path": "data/grammar.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/grammar.json",
       "content_type": "application/json",
-      "size_bytes": 3287581,
+      "size_bytes": 3283358,
       "schema_version": "1.0",
       "description": "N5 grammar patterns (178 entries; particles, verb conjugations, adjectives, conditionals)",
       "item_count": 178
@@ -23,7 +23,7 @@
       "path": "data/vocab.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/vocab.json",
       "content_type": "application/json",
-      "size_bytes": 2413810,
+      "size_bytes": 2412915,
       "schema_version": "1.0",
       "description": "N5 vocabulary (995 entries; pitch-accent, PoS, frequency, collocations)",
       "item_count": 995
@@ -32,7 +32,7 @@
       "path": "data/kanji.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/kanji.json",
       "content_type": "application/json",
-      "size_bytes": 606181,
+      "size_bytes": 604716,
       "schema_version": "1.0",
       "description": "N5 kanji (106 entries; on/kun readings, stroke order, vocab examples)",
       "item_count": 106
@@ -41,7 +41,7 @@
       "path": "data/reading.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/reading.json",
       "content_type": "application/json",
-      "size_bytes": 520980,
+      "size_bytes": 520193,
       "schema_version": "1.0",
       "description": "N5 dokkai reading passages (54 entries; with vocab + grammar footnotes)",
       "item_count": 54
@@ -50,7 +50,7 @@
       "path": "data/listening.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/listening.json",
       "content_type": "application/json",
-      "size_bytes": 484980,
+      "size_bytes": 484485,
       "schema_version": "1.0",
       "description": "N5 choukai listening drills (50 entries; VOICEVOX audio, line-level seek)",
       "item_count": 50
@@ -59,7 +59,7 @@
       "path": "data/questions.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/questions.json",
       "content_type": "application/json",
-      "size_bytes": 519626,
+      "size_bytes": 517393,
       "schema_version": "1.0",
       "description": "N5 drill / paraphrase / kanji-writing questions (284 entries)",
       "item_count": 284
@@ -68,7 +68,7 @@
       "path": "data/authentic.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/authentic.json",
       "content_type": "application/json",
-      "size_bytes": 141753,
+      "size_bytes": 141441,
       "schema_version": "1.0",
       "description": "Authentic source-citation index for grammar patterns",
       "item_count": null
@@ -86,7 +86,7 @@
       "path": "data/audio_manifest.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/audio_manifest.json",
       "content_type": "application/json",
-      "size_bytes": 739761,
+      "size_bytes": 739758,
       "schema_version": "1.0",
       "description": "Audio asset manifest (paths, durations, speaker assignment)",
       "item_count": null
@@ -95,7 +95,7 @@
       "path": "data/version.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/version.json",
       "content_type": "application/json",
-      "size_bytes": 4496,
+      "size_bytes": 5009,
       "schema_version": "1.0",
       "description": "Build version, cacheVersion, builtAt, content-count claims",
       "item_count": null
@@ -104,7 +104,7 @@
       "path": "data/papers/manifest.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/manifest.json",
       "content_type": "application/json",
-      "size_bytes": 19480,
+      "size_bytes": 19477,
       "schema_version": "1.0",
       "description": "Mock paper test manifest (28 papers, 402 questions)",
       "item_count": null
@@ -115,7 +115,7 @@
       "content_type": "application/json",
       "size_bytes": 10104,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 1 — 15 questions",
+      "description": "Bunpou Paper 1: 15 questions",
       "item_count": 15
     },
     {
@@ -124,16 +124,16 @@
       "content_type": "application/json",
       "size_bytes": 9598,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 2 — 15 questions",
+      "description": "Bunpou Paper 2: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/bunpou/paper-3.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/bunpou/paper-3.json",
       "content_type": "application/json",
-      "size_bytes": 10362,
+      "size_bytes": 10356,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 3 — 15 questions",
+      "description": "Bunpou Paper 3: 15 questions",
       "item_count": 15
     },
     {
@@ -142,7 +142,7 @@
       "content_type": "application/json",
       "size_bytes": 10514,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 4 — 15 questions",
+      "description": "Bunpou Paper 4: 15 questions",
       "item_count": 15
     },
     {
@@ -151,7 +151,7 @@
       "content_type": "application/json",
       "size_bytes": 13705,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 5 — 15 questions",
+      "description": "Bunpou Paper 5: 15 questions",
       "item_count": 15
     },
     {
@@ -160,211 +160,211 @@
       "content_type": "application/json",
       "size_bytes": 13700,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 6 — 15 questions",
+      "description": "Bunpou Paper 6: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/bunpou/paper-7.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/bunpou/paper-7.json",
       "content_type": "application/json",
-      "size_bytes": 9001,
+      "size_bytes": 8992,
       "schema_version": "1.0",
-      "description": "Bunpou Paper 7 — 10 questions",
+      "description": "Bunpou Paper 7: 10 questions",
       "item_count": 10
     },
     {
       "path": "data/papers/dokkai/paper-1.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-1.json",
       "content_type": "application/json",
-      "size_bytes": 16085,
+      "size_bytes": 16070,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 1 — 16 questions",
+      "description": "Dokkai Paper 1: 16 questions",
       "item_count": 16
     },
     {
       "path": "data/papers/dokkai/paper-2.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-2.json",
       "content_type": "application/json",
-      "size_bytes": 19320,
+      "size_bytes": 19272,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 2 — 16 questions",
+      "description": "Dokkai Paper 2: 16 questions",
       "item_count": 16
     },
     {
       "path": "data/papers/dokkai/paper-3.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-3.json",
       "content_type": "application/json",
-      "size_bytes": 17948,
+      "size_bytes": 17900,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 3 — 16 questions",
+      "description": "Dokkai Paper 3: 16 questions",
       "item_count": 16
     },
     {
       "path": "data/papers/dokkai/paper-4.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-4.json",
       "content_type": "application/json",
-      "size_bytes": 13884,
+      "size_bytes": 13851,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 4 — 12 questions",
+      "description": "Dokkai Paper 4: 12 questions",
       "item_count": 12
     },
     {
       "path": "data/papers/dokkai/paper-5.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-5.json",
       "content_type": "application/json",
-      "size_bytes": 17623,
+      "size_bytes": 17587,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 5 — 15 questions",
+      "description": "Dokkai Paper 5: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/dokkai/paper-6.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-6.json",
       "content_type": "application/json",
-      "size_bytes": 16670,
+      "size_bytes": 16625,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 6 — 15 questions",
+      "description": "Dokkai Paper 6: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/dokkai/paper-7.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/dokkai/paper-7.json",
       "content_type": "application/json",
-      "size_bytes": 15236,
+      "size_bytes": 15224,
       "schema_version": "1.0",
-      "description": "Dokkai Paper 7 — 12 questions",
+      "description": "Dokkai Paper 7: 12 questions",
       "item_count": 12
     },
     {
       "path": "data/papers/goi/paper-1.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-1.json",
       "content_type": "application/json",
-      "size_bytes": 10749,
+      "size_bytes": 10743,
       "schema_version": "1.0",
-      "description": "Goi Paper 1 — 15 questions",
+      "description": "Goi Paper 1: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-2.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-2.json",
       "content_type": "application/json",
-      "size_bytes": 10223,
+      "size_bytes": 10214,
       "schema_version": "1.0",
-      "description": "Goi Paper 2 — 15 questions",
+      "description": "Goi Paper 2: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-3.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-3.json",
       "content_type": "application/json",
-      "size_bytes": 11039,
+      "size_bytes": 11030,
       "schema_version": "1.0",
-      "description": "Goi Paper 3 — 15 questions",
+      "description": "Goi Paper 3: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-4.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-4.json",
       "content_type": "application/json",
-      "size_bytes": 13896,
+      "size_bytes": 13890,
       "schema_version": "1.0",
-      "description": "Goi Paper 4 — 15 questions",
+      "description": "Goi Paper 4: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-5.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-5.json",
       "content_type": "application/json",
-      "size_bytes": 13437,
+      "size_bytes": 13428,
       "schema_version": "1.0",
-      "description": "Goi Paper 5 — 15 questions",
+      "description": "Goi Paper 5: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-6.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-6.json",
       "content_type": "application/json",
-      "size_bytes": 15447,
+      "size_bytes": 15426,
       "schema_version": "1.0",
-      "description": "Goi Paper 6 — 15 questions",
+      "description": "Goi Paper 6: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/goi/paper-7.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/goi/paper-7.json",
       "content_type": "application/json",
-      "size_bytes": 11366,
+      "size_bytes": 11348,
       "schema_version": "1.0",
-      "description": "Goi Paper 7 — 10 questions",
+      "description": "Goi Paper 7: 10 questions",
       "item_count": 10
     },
     {
       "path": "data/papers/moji/paper-1.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-1.json",
       "content_type": "application/json",
-      "size_bytes": 10050,
+      "size_bytes": 10044,
       "schema_version": "1.0",
-      "description": "Moji Paper 1 — 15 questions",
+      "description": "Moji Paper 1: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-2.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-2.json",
       "content_type": "application/json",
-      "size_bytes": 8945,
+      "size_bytes": 8939,
       "schema_version": "1.0",
-      "description": "Moji Paper 2 — 15 questions",
+      "description": "Moji Paper 2: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-3.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-3.json",
       "content_type": "application/json",
-      "size_bytes": 9583,
+      "size_bytes": 9577,
       "schema_version": "1.0",
-      "description": "Moji Paper 3 — 15 questions",
+      "description": "Moji Paper 3: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-4.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-4.json",
       "content_type": "application/json",
-      "size_bytes": 11939,
+      "size_bytes": 11909,
       "schema_version": "1.0",
-      "description": "Moji Paper 4 — 15 questions",
+      "description": "Moji Paper 4: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-5.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-5.json",
       "content_type": "application/json",
-      "size_bytes": 13266,
+      "size_bytes": 13227,
       "schema_version": "1.0",
-      "description": "Moji Paper 5 — 15 questions",
+      "description": "Moji Paper 5: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-6.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-6.json",
       "content_type": "application/json",
-      "size_bytes": 13704,
+      "size_bytes": 13662,
       "schema_version": "1.0",
-      "description": "Moji Paper 6 — 15 questions",
+      "description": "Moji Paper 6: 15 questions",
       "item_count": 15
     },
     {
       "path": "data/papers/moji/paper-7.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/papers/moji/paper-7.json",
       "content_type": "application/json",
-      "size_bytes": 9892,
+      "size_bytes": 9862,
       "schema_version": "1.0",
-      "description": "Moji Paper 7 — 10 questions",
+      "description": "Moji Paper 7: 10 questions",
       "item_count": 10
     }
   ],
   "totals": {
     "files": 39,
-    "total_bytes": 9546303,
+    "total_bytes": 9538120,
     "counts": {
       "grammar": 178,
       "vocab": 995,

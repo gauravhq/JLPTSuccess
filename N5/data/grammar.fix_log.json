@@ -26,7 +26,7 @@
         "before": {
           "wrong": "いい てんきです。",
           "right": "いい てんきですね。",
-          "why": "Context: with falling intonation, no ね. ね attaches AT THE END of a finished sentence — after です/ます, not before. Adding ね assumes shared observation with the listener. Dropping ね changes the sentence from agreement-seeking to bare assertion.",
+          "why": "Context: with falling intonation, no ね. ね attaches AT THE END of a finished sentence: after です/ます, not before. Adding ね assumes shared observation with the listener. Dropping ね changes the sentence from agreement-seeking to bare assertion.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -34,7 +34,7 @@
         "after": {
           "wrong": "いい てんきですよ ね。",
           "right": "いい てんきですね。",
-          "why": "Don't string よ and ね together at the sentence end. よ ASSERTS new info to the listener; ね SEEKS AGREEMENT on shared observation. Pick one based on the speech-act you want — they're not stackable. For shared weather small-talk, ね alone is the natural choice.",
+          "why": "Don't string よ and ね together at the sentence end. よ ASSERTS new info to the listener; ね SEEKS AGREEMENT on shared observation. Pick one based on the speech-act you want: they're not stackable. For shared weather small-talk, ね alone is the natural choice.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24"
@@ -47,7 +47,7 @@
         "before": {
           "wrong": "いただきます。",
           "right": "いただきます！",
-          "why": "Pre-meal ritual phrase. Required before starting to eat in Japanese cultural context. The exclamation mark conveys the spoken enthusiasm. Don't skip it in shared-meal settings — non-saying it is socially conspicuous.",
+          "why": "Pre-meal ritual phrase. Required before starting to eat in Japanese cultural context. The exclamation mark conveys the spoken enthusiasm. Don't skip it in shared-meal settings: non-saying it is socially conspicuous.",
           "category": "register",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -55,7 +55,7 @@
         "after": {
           "wrong": "おはよう ございます。",
           "right": "おはようございます。",
-          "why": "おはようございます is one combined word — don't insert a space between おはよう and ございます. Written as a single token in modern Japanese. The polite morning greeting form is おはよう + ございます fused together.",
+          "why": "おはようございます is one combined word: don't insert a space between おはよう and ございます. Written as a single token in modern Japanese. The polite morning greeting form is おはよう + ございます fused together.",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24"
@@ -82,7 +82,7 @@
         "after": {
           "wrong": "いつに きますか。",
           "right": "いつ きますか。",
-          "why": "いつ already means \"when\" — don't add に. に is for specific time-points (3じに), not for the interrogative いつ.",
+          "why": "いつ already means \"when\": don't add に. に is for specific time-points (3じに), not for the interrogative いつ.",
           "category": "particle",
           "category_provenance": "heuristic_categorized",
           "provenance": "auto_fix_2026_05_24",
@@ -119,7 +119,7 @@
         "before": {
           "wrong": "ここで しゃしんを とらないで ください。",
           "right": "ここで しゃしんを とらないでください。",
-          "why": "Negative request 'please don't': V-ない + で + ください. The form とらないでください is correct as one phrase. Don't separate ないで from ください — they form a tight grammatical unit. Pattern: V-ない (drop い) + で + ください.",
+          "why": "Negative request 'please don't': V-ない + で + ください. The form とらないでください is correct as one phrase. Don't separate ないで from ください: they form a tight grammatical unit. Pattern: V-ない (drop い) + で + ください.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -148,7 +148,7 @@
         "after": {
           "wrong": "食べたい ないです。",
           "right": "食べたくないです。",
-          "why": "~たい becomes ~たく + ない for the negative — drop い from たい, add く, then ない. Pattern: V-stem + たくない + です.",
+          "why": "~たい becomes ~たく + ない for the negative: drop い from たい, add く, then ない. Pattern: V-stem + たくない + です.",
           "category": "conjugation",
           "category_provenance": "heuristic_categorized",
           "provenance": "auto_fix_2026_05_24",
@@ -170,7 +170,7 @@
         "after": {
           "wrong": "あついだから、まどを あけてください。",
           "right": "あついから、まどを あけてください。",
-          "why": "い-adjectives attach から directly (あつい + から). Don't insert だ — that's for な-adjectives and nouns. Pattern: [い-adj]から、[result].",
+          "why": "い-adjectives attach から directly (あつい + から). Don't insert だ: that's for な-adjectives and nouns. Pattern: [い-adj]から、[result].",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24"
@@ -190,7 +190,7 @@
         "after": {
           "wrong": "まどを あけてください、あついから。",
           "right": "あついから、まどを あけてください。",
-          "why": "In Japanese, [reason]から comes BEFORE [result], not after. Sentence-final から sounds like an after-thought — natural ordering is reason first. Pattern: [reason-clause]から、[result-clause].",
+          "why": "In Japanese, [reason]から comes BEFORE [result], not after. Sentence-final から sounds like an after-thought: natural ordering is reason first. Pattern: [reason-clause]から、[result-clause].",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24"
@@ -241,7 +241,7 @@
         "kept_row": {
           "wrong": "わたしが がくせいです。",
           "right": "わたしは がくせいです。",
-          "why": "は marks the TOPIC (already-known referent — わたし). が marks a new-information SUBJECT. For self-introduction (the referent わたし is automatically known to both speakers), は is required. Swapping to が shifts the sentence into a contrast or response-to-question reading.",
+          "why": "は marks the TOPIC (already-known referent: わたし). が marks a new-information SUBJECT. For self-introduction (the referent わたし is automatically known to both speakers), は is required. Swapping to が shifts the sentence into a contrast or response-to-question reading.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -264,7 +264,7 @@
         "kept_row": {
           "wrong": "だれは きましたか。",
           "right": "だれが きましたか。",
-          "why": "だれ is a question word in subject position — always takes が, never は. Same rule applies to なに / どれ / どこ when they're the grammatical subject. Use が for the new-information slot.",
+          "why": "だれ is a question word in subject position: always takes が, never は. Same rule applies to なに / どれ / どこ when they're the grammatical subject. Use が for the new-information slot.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -287,7 +287,7 @@
         "kept_row": {
           "wrong": "いつに いきますか。",
           "right": "いつ いきますか。",
-          "why": "いつ is a RELATIVE time word — it appears bare (no particle), unlike absolute time words (3時に / 月曜日に) which take に. The same bare-form rule applies to today/yesterday/tomorrow: きょう いきます (no particle), not きょうに.",
+          "why": "いつ is a RELATIVE time word: it appears bare (no particle), unlike absolute time words (3時に / 月曜日に) which take に. The same bare-form rule applies to today/yesterday/tomorrow: きょう いきます (no particle), not きょうに.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -301,7 +301,7 @@
         "dropped_row": {
           "wrong": "コーヒー おちゃが いいです。",
           "right": "コーヒーか おちゃが いいです。",
-          "why": "Mid-sentence か links alternatives ('coffee OR tea'). Two unconnected nouns in this slot are ungrammatical — Japanese needs か for 'or', と for 'both', or や for 'and others'.",
+          "why": "Mid-sentence か links alternatives ('coffee OR tea'). Two unconnected nouns in this slot are ungrammatical: Japanese needs か for 'or', と for 'both', or や for 'and others'.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -309,7 +309,7 @@
         "kept_row": {
           "wrong": "コーヒー おちゃが いいです。",
           "right": "コーヒーか おちゃが いいです。",
-          "why": "Disjunctive か between two nouns expresses an EITHER/OR choice. Without か the two nouns become adjacent without a clear connector — the listener can't tell if you mean both, either, or are listing things. か is mandatory in the disjunction frame.",
+          "why": "Disjunctive か between two nouns expresses an EITHER/OR choice. Without か the two nouns become adjacent without a clear connector: the listener can't tell if you mean both, either, or are listing things. か is mandatory in the disjunction frame.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -354,7 +354,7 @@
         "kept_row": {
           "wrong": "1,000円しか あります。",
           "right": "1,000円しか ありません。",
-          "why": "しか mandates a negative predicate. 'しか + ある' is structurally impossible — must be 'しか + ない'. The pattern conveys 'nothing but X' with a regretful nuance; positive predicates can't carry that nuance.",
+          "why": "しか mandates a negative predicate. 'しか + ある' is structurally impossible: must be 'しか + ない'. The pattern conveys 'nothing but X' with a regretful nuance; positive predicates can't carry that nuance.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -368,7 +368,7 @@
         "dropped_row": {
           "wrong": "1,000円しか あります。",
           "right": "1,000円しか ありません。",
-          "why": "しか REQUIRES a negative predicate (ありません, できません, わかりません). It means 'nothing but / only X' with a regretful nuance. しか + positive predicate (あります) is grammatically wrong — always pair with ない/ません.",
+          "why": "しか REQUIRES a negative predicate (ありません, できません, わかりません). It means 'nothing but / only X' with a regretful nuance. しか + positive predicate (あります) is grammatically wrong: always pair with ない/ません.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -376,7 +376,7 @@
         "kept_row": {
           "wrong": "1,000円しか あります。",
           "right": "1,000円しか ありません。",
-          "why": "しか mandates a negative predicate. 'しか + ある' is structurally impossible — must be 'しか + ない'. The pattern conveys 'nothing but X' with a regretful nuance; positive predicates can't carry that nuance.",
+          "why": "しか mandates a negative predicate. 'しか + ある' is structurally impossible: must be 'しか + ない'. The pattern conveys 'nothing but X' with a regretful nuance; positive predicates can't carry that nuance.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -420,7 +420,7 @@
         "kept_row": {
           "wrong": "あれは ほんです。",
           "right": "これは ほんです。",
-          "why": "Context: when speaker is holding the book. Proximity rule: これ for things near the speaker (in hand, nearby). あれ would put the book far from both speaker and listener — wrong if speaker is presenting the item. Choose by physical proximity, not by what 'sounds polite'.",
+          "why": "Context: when speaker is holding the book. Proximity rule: これ for things near the speaker (in hand, nearby). あれ would put the book far from both speaker and listener: wrong if speaker is presenting the item. Choose by physical proximity, not by what 'sounds polite'.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -442,7 +442,7 @@
         "kept_row": {
           "wrong": "あそこは としょかんです。",
           "right": "ここは としょかんです。",
-          "why": "The こ-そ-あ-ど series follows speaker-listener proximity: ここ = near speaker; そこ = near listener; あそこ = far from both. The example sentence describes WHERE THE SPEAKER IS, so ここ. あそこ would mean a third location far from the conversation participants — unlikely as the reading context for a library introduction.",
+          "why": "The こ-そ-あ-ど series follows speaker-listener proximity: ここ = near speaker; そこ = near listener; あそこ = far from both. The example sentence describes WHERE THE SPEAKER IS, so ここ. あそこ would mean a third location far from the conversation participants: unlikely as the reading context for a library introduction.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -456,7 +456,7 @@
         "dropped_row": {
           "wrong": "どれは あなたの ですか。",
           "right": "どれが あなたの ですか。",
-          "why": "どれ is a question word, so the subject particle is が (not は). Same rule as だれが/なにが — question words live in the new-information slot, which が marks.",
+          "why": "どれ is a question word, so the subject particle is が (not は). Same rule as だれが/なにが: question words live in the new-information slot, which が marks.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -464,7 +464,7 @@
         "kept_row": {
           "wrong": "どれは あなたの ですか。",
           "right": "どれが あなたの ですか。",
-          "why": "Question word どれ takes が, not は. 'Which one is yours?' — どれ is the new-information subject. The answer is これが私の (with が). The は-form would be ungrammatical at N5.",
+          "why": "Question word どれ takes が, not は. 'Which one is yours?': どれ is the new-information subject. The answer is これが私の (with が). The は-form would be ungrammatical at N5.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -500,7 +500,7 @@
         "dropped_row": {
           "wrong": "おさけを のまるない。",
           "right": "おさけを のまない。",
-          "why": "Group 1 plain negative: change last う-row to あ-row, add ない. のむ → のま + ない = のまない. Don't insert る — that's for Group 2 only. Pattern: stem (あ-row) + ない.",
+          "why": "Group 1 plain negative: change last う-row to あ-row, add ない. のむ → のま + ない = のまない. Don't insert る: that's for Group 2 only. Pattern: stem (あ-row) + ない.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -508,7 +508,7 @@
         "kept_row": {
           "wrong": "おさけを のまる ない。",
           "right": "おさけを のまない。",
-          "why": "Group-1 plain negative: drop final う-row, add あ-row + ない. のむ → のま + ない = のまない. Don't insert る — that's only for Group-2 dictionary form. Pattern: V-stem (with あ-row vowel) + ない.",
+          "why": "Group-1 plain negative: drop final う-row, add あ-row + ない. のむ → のま + ない = のまない. Don't insert る: that's only for Group-2 dictionary form. Pattern: V-stem (with あ-row vowel) + ない.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -596,7 +596,7 @@
         "kept_row": {
           "wrong": "高いの 山が 見えます。",
           "right": "高い 山が 見えます。",
-          "why": "い-adjectives attach DIRECTLY to nouns — no の between. The form 高いの would nominalize 高い ('the expensive one'), not modify 山. Pattern: い-adj + Noun (no particle). な-adj uses な.",
+          "why": "い-adjectives attach DIRECTLY to nouns: no の between. The form 高いの would nominalize 高い ('the expensive one'), not modify 山. Pattern: い-adj + Noun (no particle). な-adj uses な.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -654,7 +654,7 @@
         "dropped_row": {
           "wrong": "わたしは ねこを すきです。",
           "right": "わたしは ねこが すきです。",
-          "why": "Same as n5-098 — すき is the family marker for this construction. Liking, ability, possession-feeling all take が. Even though English uses 'I LIKE cats' transitively, Japanese treats 'cats' as the subject of the liking-state.",
+          "why": "Same as n5-098: すき is the family marker for this construction. Liking, ability, possession-feeling all take が. Even though English uses 'I LIKE cats' transitively, Japanese treats 'cats' as the subject of the liking-state.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -662,7 +662,7 @@
         "kept_row": {
           "wrong": "わたしは ねこを すきです。",
           "right": "わたしは ねこが すきです。",
-          "why": "すき / きらい / じょうず / へた / ほしい / わかる are ADJECTIVAL predicates that treat their object as the SUBJECT of feeling, not a direct object. So they take が, not を. The を-form is a common beginner error — to like / dislike / understand a thing, that thing is が.",
+          "why": "すき / きらい / じょうず / へた / ほしい / わかる are ADJECTIVAL predicates that treat their object as the SUBJECT of feeling, not a direct object. So they take が, not を. The を-form is a common beginner error: to like / dislike / understand a thing, that thing is が.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -676,7 +676,7 @@
         "dropped_row": {
           "wrong": "あの 人は 日本語を じょうずです。",
           "right": "あの 人は 日本語が じょうずです。",
-          "why": "じょうず ('skilled') uses が for the thing-skilled-at, like all adjectival predicates in this family. を is wrong — じょうず is not a transitive verb.",
+          "why": "じょうず ('skilled') uses が for the thing-skilled-at, like all adjectival predicates in this family. を is wrong: じょうず is not a transitive verb.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -684,7 +684,7 @@
         "kept_row": {
           "wrong": "あの 人は 日本語を じょうずです。",
           "right": "あの 人は 日本語が じょうずです。",
-          "why": "じょうず ('skilled') takes が like its family member すき. The skill subject is the THING that's done well. を would imply 日本語 is a direct object — wrong syntax for this adjective.",
+          "why": "じょうず ('skilled') takes が like its family member すき. The skill subject is the THING that's done well. を would imply 日本語 is a direct object: wrong syntax for this adjective.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -774,7 +774,7 @@
         "kept_row": {
           "wrong": "新しい かばんを ほしいです。",
           "right": "新しい かばんが ほしいです。",
-          "why": "ほしい takes が, not を. Same rule as preference adjectives — the wanted thing is the subject of desire, not a transitive object. Always: NOUN + が + ほしい/ほしくない/ほしかった/etc.",
+          "why": "ほしい takes が, not を. Same rule as preference adjectives: the wanted thing is the subject of desire, not a transitive object. Always: NOUN + が + ほしい/ほしくない/ほしかった/etc.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -818,7 +818,7 @@
         "kept_row": {
           "wrong": "いま 3時に です。",
           "right": "いま 3時です。",
-          "why": "Predicate of 'it is X o'clock' is just 3時です — no に. に would mark a TIME-OF-ACTION (3時に 起きます = wake up at 3) but the present sentence describes what time IT CURRENTLY IS, not when something happens. Don't double-mark with に + です.",
+          "why": "Predicate of 'it is X o'clock' is just 3時です: no に. に would mark a TIME-OF-ACTION (3時に 起きます = wake up at 3) but the present sentence describes what time IT CURRENTLY IS, not when something happens. Don't double-mark with に + です.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -840,7 +840,7 @@
         "kept_row": {
           "wrong": "10ふん まちました。",
           "right": "10ぷん まちました。",
-          "why": "Reading rule: ふん vs ぷん alternates by preceding digit. 1ぷん, 2ふん, 3ぷん, 4ぷん, 5ふん, 6ぷん, 7ふん, 8ぷん, 9ふん, 10ぷん. Memorize the alternation — randomly picking ふん over ぷん is the typical mistake.",
+          "why": "Reading rule: ふん vs ぷん alternates by preceding digit. 1ぷん, 2ふん, 3ぷん, 4ぷん, 5ふん, 6ぷん, 7ふん, 8ぷん, 9ふん, 10ぷん. Memorize the alternation: randomly picking ふん over ぷん is the typical mistake.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -862,7 +862,7 @@
         "kept_row": {
           "wrong": "いま 3時 半です。",
           "right": "いま 3時はんです。",
-          "why": "はん attaches DIRECTLY to 時, no space or extra particle. 3時はん = '3:30'. The form '3時 半' with separation reads awkwardly — はん is a fused suffix. Pronunciation: san-ji-han, not san-ji + han.",
+          "why": "はん attaches DIRECTLY to 時, no space or extra particle. 3時はん = '3:30'. The form '3時 半' with separation reads awkwardly: はん is a fused suffix. Pronunciation: san-ji-han, not san-ji + han.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -876,7 +876,7 @@
         "dropped_row": {
           "wrong": "まいにちに 日本語を べんきょうします。",
           "right": "まいにち 日本語を べんきょうします。",
-          "why": "Frequency adverbs (まいにち, まいしゅう, etc.) appear BARE — no particle. に goes on absolute time markers (3時に, 月曜日に), not on 'every day' frequency words.",
+          "why": "Frequency adverbs (まいにち, まいしゅう, etc.) appear BARE: no particle. に goes on absolute time markers (3時に, 月曜日に), not on 'every day' frequency words.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -884,7 +884,7 @@
         "kept_row": {
           "wrong": "まいにちに 日本語を べんきょうします。",
           "right": "まいにち 日本語を べんきょうします。",
-          "why": "まいにち/まいしゅう/まいつき/まいとし appear BARE — no particle. They're frequency adverbs, not absolute time references. に goes on 3時に / 月曜日に, not on 'every day'.",
+          "why": "まいにち/まいしゅう/まいつき/まいとし appear BARE: no particle. They're frequency adverbs, not absolute time references. に goes on 3時に / 月曜日に, not on 'every day'.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -898,7 +898,7 @@
         "dropped_row": {
           "wrong": "きょうに あついです。",
           "right": "きょうは あついです。",
-          "why": "Relative time words (きょう, あした, きのう) take は (topic) or appear bare — never に. に is for absolute time (clock times, dates, days-of-week). きょう is relative, so no に.",
+          "why": "Relative time words (きょう, あした, きのう) take は (topic) or appear bare: never に. に is for absolute time (clock times, dates, days-of-week). きょう is relative, so no に.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -964,7 +964,7 @@
         "dropped_row": {
           "wrong": "コーヒーは すきです、おちゃは すきじゃありません。",
           "right": "コーヒーは すきですが、おちゃは すきじゃありません。",
-          "why": "が (contrast conjunction) joins two CLAUSES with 'but' nuance — placed at the END of the first clause before the comma. Bare comma between two clauses is incomplete; needs が.",
+          "why": "が (contrast conjunction) joins two CLAUSES with 'but' nuance: placed at the END of the first clause before the comma. Bare comma between two clauses is incomplete; needs が.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -972,7 +972,7 @@
         "kept_row": {
           "wrong": "コーヒーは すきです、 おちゃは すきじゃありません。",
           "right": "コーヒーは すきですが、おちゃは すきじゃありません。",
-          "why": "が (contrast conjunction) joins TWO CLAUSES with a 'but' nuance — placed at the END of the first clause before the comma. Pattern: Clause A + が、Clause B. A bare comma without が is incomplete.",
+          "why": "が (contrast conjunction) joins TWO CLAUSES with a 'but' nuance: placed at the END of the first clause before the comma. Pattern: Clause A + が、Clause B. A bare comma without が is incomplete.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1016,7 +1016,7 @@
         "kept_row": {
           "wrong": "ともだちが 本を もらいました。",
           "right": "ともだちに 本を もらいました。",
-          "why": "もらう takes FROM-PERSON marked by に (or から) and OBJECT marked by を. ともだちが would put the friend in subject position — but the speaker is the subject (implicit わたしは). Pattern: [I]は + [giver]に/から + [object]を + もらう.",
+          "why": "もらう takes FROM-PERSON marked by に (or から) and OBJECT marked by を. ともだちが would put the friend in subject position, but the speaker is the subject (implicit わたしは). Pattern: [I]は + [giver]に/から + [object]を + もらう.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1030,7 +1030,7 @@
         "dropped_row": {
           "wrong": "友だちに 本を くれました。",
           "right": "友だちが 本を くれました。",
-          "why": "くれる: the GIVER is subject (が), the IMPLICIT recipient is the speaker. Pattern: [giver]が + [object]を + くれる. に would mark the friend as recipient — but くれる already assumes the speaker is recipient.",
+          "why": "くれる: the GIVER is subject (が), the IMPLICIT recipient is the speaker. Pattern: [giver]が + [object]を + くれる. に would mark the friend as recipient, but くれる already assumes the speaker is recipient.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -1038,7 +1038,7 @@
         "kept_row": {
           "wrong": "友だちに 本を くれました。",
           "right": "友だちが 本を くれました。",
-          "why": "くれる: the GIVER is the subject (takes が), the RECIPIENT is the speaker (implicit). Pattern: [giver]が + [object]を + くれる. に would put the friend in recipient position — but the friend is the giver here.",
+          "why": "くれる: the GIVER is the subject (takes が), the RECIPIENT is the speaker (implicit). Pattern: [giver]が + [object]を + くれる. に would put the friend in recipient position, but the friend is the giver here.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1119,7 +1119,7 @@
         "dropped_row": {
           "wrong": "おちゃを いかがですか。",
           "right": "おちゃは いかがですか。",
-          "why": "〜はいかがですか offers a thing — the offered noun takes は (topic). を would make it a direct object, but いかがですか isn't a transitive verb. The fixed frame: NOUN + は + いかがですか.",
+          "why": "〜はいかがですか offers a thing: the offered noun takes は (topic). を would make it a direct object, but いかがですか isn't a transitive verb. The fixed frame: NOUN + は + いかがですか.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -1127,7 +1127,7 @@
         "kept_row": {
           "wrong": "おちゃを いかがですか。",
           "right": "おちゃは いかがですか。",
-          "why": "〜はいかがですか offers a thing — the offered noun takes は (topic marker, 'as for tea, how about it?'). を would make it a direct object — but いかが isn't a transitive verb. The fixed frame is: NOUN + は + いかがですか.",
+          "why": "〜はいかがですか offers a thing: the offered noun takes は (topic marker, 'as for tea, how about it?'). を would make it a direct object, but いかが isn't a transitive verb. The fixed frame is: NOUN + は + いかがですか.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1149,7 +1149,7 @@
         "kept_row": {
           "wrong": "コーヒーは すきです、おちゃは すきじゃありません。",
           "right": "コーヒーは すきですが、おちゃは すきじゃありません。",
-          "why": "が (contrast conjunction) joins clauses with 'but' nuance — placed at clause-end before comma. Bare comma between two contrasting clauses needs が. Don't drop it.",
+          "why": "が (contrast conjunction) joins clauses with 'but' nuance: placed at clause-end before comma. Bare comma between two contrasting clauses needs が. Don't drop it.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -1185,7 +1185,7 @@
         "dropped_row": {
           "wrong": "ちゃを どうぞ。",
           "right": "おちゃを どうぞ。",
-          "why": "お-prefix elevates the noun's politeness (お茶 for tea). Dropping お in offer contexts (especially with tea, water, money — common お-marked nouns) sounds curt or rude. Service contexts use お consistently.",
+          "why": "お-prefix elevates the noun's politeness (お茶 for tea). Dropping お in offer contexts (especially with tea, water, money: common お-marked nouns) sounds curt or rude. Service contexts use お consistently.",
           "category": "particle",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -1215,7 +1215,7 @@
         "kept_row": {
           "wrong": "しゅうまつは 本を 読むたり、えいがを 見るたり します。",
           "right": "しゅうまつは 本を 読んだり、えいがを 見たり します。",
-          "why": "〜たり attaches to the PAST PLAIN form (V-た + り). 読む (dict) → 読んだ (past) → 読んだり. The form 読むたり is wrong — must use ta-form first. Pattern: V-た + り + V-た + り + する.",
+          "why": "〜たり attaches to the PAST PLAIN form (V-た + り). 読む (dict) → 読んだ (past) → 読んだり. The form 読むたり is wrong: must use ta-form first. Pattern: V-た + り + V-た + り + する.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1303,7 +1303,7 @@
         "kept_row": {
           "wrong": "あした 来ないでも いいです。",
           "right": "あした 来なくても いいです。",
-          "why": "Permission-to-skip uses 〜なくても いい, derived from the ない-form: 来ない → drop い + くても = 来なくても. The form 来ないでも (ない + でも) is structurally wrong — でも attaches differently. The pattern is: V-stem + ない → なくて → なくても いい.",
+          "why": "Permission-to-skip uses 〜なくても いい, derived from the ない-form: 来ない → drop い + くても = 来なくても. The form 来ないでも (ない + でも) is structurally wrong: でも attaches differently. The pattern is: V-stem + ない → なくて → なくても いい.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase3-2026-05-12"
@@ -1325,7 +1325,7 @@
         "kept_row": {
           "wrong": "きのう たべるすぎました。",
           "right": "きのう たべすぎました。",
-          "why": "すぎる attaches to verb STEM (drop ます from ます-form). たべる → たべます → たべ + すぎる = たべすぎる. The form たべるすぎる is wrong — must extract stem. Pattern: V-stem + すぎる.",
+          "why": "すぎる attaches to verb STEM (drop ます from ます-form). たべる → たべます → たべ + すぎる = たべすぎる. The form たべるすぎる is wrong: must extract stem. Pattern: V-stem + すぎる.",
           "category": "conjugation",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase4-2026-05-12"
@@ -1361,7 +1361,7 @@
         "dropped_row": {
           "wrong": "おいしいだなあ。",
           "right": "おいしいなあ。",
-          "why": "i-adjectives attach なあ DIRECTLY (おいしい + なあ). Don't insert だ — i-adj doesn't need copula before なあ. Nouns and な-adj DO need だ (しずかだなあ). Different rules per word class.",
+          "why": "i-adjectives attach なあ DIRECTLY (おいしい + なあ). Don't insert だ: i-adj doesn't need copula before なあ. Nouns and な-adj DO need だ (しずかだなあ). Different rules per word class.",
           "category": "verb_class",
           "provenance": "native_reviewed",
           "audit_wave": "issue-112-phase5-2026-05-13"
@@ -1760,7 +1760,7 @@
         "new_cm": {
           "wrong": "しずかい へや。",
           "right": "しずかな へや。",
-          "why": "しずか is na-Adj; do not add い. (い-Adj would be しずか-form like しずかい — does not exist.)",
+          "why": "しずか is na-Adj; do not add い. (い-Adj would be しずか-form like しずかい: does not exist.)",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -1838,7 +1838,7 @@
         "new_cm": {
           "wrong": "にほんごを できます。",
           "right": "にほんごが できます。",
-          "why": "できる takes が, not を. (Like すき/上手 — feeling/capability adjectives use が.)",
+          "why": "できる takes が, not を. (Like すき/上手: feeling/capability adjectives use が.)",
           "category": "particle",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -1929,7 +1929,7 @@
         "new_cm": {
           "wrong": "あしたに 行きます。",
           "right": "あした 行きます。",
-          "why": "Same — vague time markers stand alone.",
+          "why": "Same: vague time markers stand alone.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3117,7 +3117,7 @@
         "after": {
           "wrong": "高いですから、おいしいです。",
           "right": "高いですが、おいしいです。",
-          "why": "Use が for CONTRAST ('high BUT delicious'). から means BECAUSE/SO and would imply 'because expensive, therefore delicious' — wrong logic. Pattern: [polite-clause]が、[polite-clause] for contrastive connection.",
+          "why": "Use が for CONTRAST ('high BUT delicious'). から means BECAUSE/SO and would imply 'because expensive, therefore delicious': wrong logic. Pattern: [polite-clause]が、[polite-clause] for contrastive connection.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3155,7 +3155,7 @@
         "before": {
           "wrong": "おはよう ございます。",
           "right": "おはようございます。",
-          "why": "おはようございます is one combined word — don't insert a space between おはよう and ございます. Written as a single token in modern Japanese. The polite morning greeting form is おはよう + ございます fused together.",
+          "why": "おはようございます is one combined word: don't insert a space between おはよう and ございます. Written as a single token in modern Japanese. The polite morning greeting form is おはよう + ございます fused together.",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24"
@@ -3163,7 +3163,7 @@
         "after": {
           "wrong": "おはようでございます。",
           "right": "おはようございます。",
-          "why": "おはようございます is a fixed greeting — one fused word. Don't insert で between おはよう and ございます; the compound is not [おはよう] + [で] + [ございます]. The morning-polite form is morphologically a single unit.",
+          "why": "おはようございます is a fixed greeting: one fused word. Don't insert で between おはよう and ございます; the compound is not [おはよう] + [で] + [ございます]. The morning-polite form is morphologically a single unit.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3214,7 +3214,7 @@
         "after": {
           "wrong": "ひゃくえんしか あります。",
           "right": "ひゃくえんしか ありません。",
-          "why": "しか REQUIRES a negative predicate. あります must be ありません. Pattern: NOUN しか + V-ません/V-ない. (Without the negative, the sentence is ungrammatical — しか cannot stand with positive predicates.)",
+          "why": "しか REQUIRES a negative predicate. あります must be ありません. Pattern: NOUN しか + V-ません/V-ない. (Without the negative, the sentence is ungrammatical: しか cannot stand with positive predicates.)",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3262,7 +3262,7 @@
         "after": {
           "wrong": "しじです。",
           "right": "よじです。",
-          "why": "4 o'clock is よじ — irregular reading. The reading し is avoided for 4-related counters because し is homophone of 死 (death). Always use よ for 4時 (yo-ji), 4日 (yokka), etc.",
+          "why": "4 o'clock is よじ: irregular reading. The reading し is avoided for 4-related counters because し is homophone of 死 (death). Always use よ for 4時 (yo-ji), 4日 (yokka), etc.",
           "category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3329,7 +3329,7 @@
         "before": {
           "wrong": "おはようでございます。",
           "right": "おはようございます。",
-          "why": "おはようございます is a fixed greeting — one fused word. Don't insert で between おはよう and ございます; the compound is not [おはよう] + [で] + [ございます]. The morning-polite form is morphologically a single unit.",
+          "why": "おはようございます is a fixed greeting: one fused word. Don't insert で between おはよう and ございます; the compound is not [おはよう] + [で] + [ございます]. The morning-polite form is morphologically a single unit.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3338,7 +3338,7 @@
         "after": {
           "wrong": "おはようござます。",
           "right": "おはようございます。",
-          "why": "The polite morning greeting is おはよう + ございます. The ございます part (literally 'be there') has the い in ござい — don't drop it. The full form ございます is non-negotiable for this set phrase. Pattern: fixed greeting, written as one fused word with full ござい+ます.",
+          "why": "The polite morning greeting is おはよう + ございます. The ございます part (literally 'be there') has the い in ござい: don't drop it. The full form ございます is non-negotiable for this set phrase. Pattern: fixed greeting, written as one fused word with full ござい+ます.",
           "category": "register",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3428,7 +3428,7 @@
         "after": {
           "wrong": "いきませんでしたか。",
           "correct": "いきましょうか。",
-          "why": "Past invitation is NOT ませんでしたか — that asks about a past event ('didn't you go?'). For 'shall we go (now/together)?' use the volitional ましょうか. ませんか / ましょうか both invite; the PAST form of ませんか shifts to question-about-past, not past-invitation.",
+          "why": "Past invitation is NOT ませんでしたか: that asks about a past event ('didn't you go?'). For 'shall we go (now/together)?' use the volitional ましょうか. ませんか / ましょうか both invite; the PAST form of ませんか shifts to question-about-past, not past-invitation.",
           "error_category": "conjugation",
           "provenance": "auto_fix_2026_05_24",
           "audit_wave": "claude_audit_2026_05_24",
@@ -3916,7 +3916,7 @@
           "pitch_marks_provenance": "auto_derived_from_vocab_pitch",
           "pitch_marks_audit_wave": "imp-154-drift-fill-2026-05-13"
         },
-        "reason": "duplicate of [0] sans 上 (locative position word) — accidental",
+        "reason": "duplicate of [0] sans 上 (locative position word): accidental",
         "orphan_audio": "audio/grammar/n5-092.7.mp3"
       },
       {
@@ -3950,7 +3950,7 @@
           "pitch_marks_provenance": "auto_derived_from_vocab_pitch",
           "pitch_marks_audit_wave": "imp-154-drift-fill-2026-05-13"
         },
-        "reason": "duplicate of [0] sans 上 (locative position word) — accidental",
+        "reason": "duplicate of [0] sans 上 (locative position word): accidental",
         "orphan_audio": "audio/grammar/n5-093.7.mp3"
       },
       {
@@ -3967,7 +3967,7 @@
           "form": "affirmative",
           "form_provenance": "auto_derived_form_2026_05_13"
         },
-        "reason": "duplicate of [0] — expanded form (話す ことが できます) carries same EN",
+        "reason": "duplicate of [0]: expanded form (話す ことが できます) carries same EN",
         "orphan_audio": "audio/grammar/n5-103.4.mp3"
       },
       {
@@ -4061,7 +4061,7 @@
     "note": "Orphan audio files exist on disk; audio_manifest entries remain. Consistent with BUG-D leftover handling (Part 56). Manifest trim deferred to a future cleanup pass."
   },
   "cross_corpus_dedup_2026_05_24": {
-    "description": "Cross-corpus dedup pass under native-Japanese-teacher review. Vocab + kanji within-entry example duplicates removed. Reading + listening corpora are clean — no defects found.",
+    "description": "Cross-corpus dedup pass under native-Japanese-teacher review. Vocab + kanji within-entry example duplicates removed. Reading + listening corpora are clean: no defects found.",
     "vocab_drops": [
       {
         "entry_id": "n5.vocab.10-time-general.今",
@@ -4288,9 +4288,9 @@
     ],
     "heuristic_fp_classes_documented": {
       "inflected_verb_adj_examples": "151 verb/adj entries where inflected example form differs from dictionary headword (たべる→たべます). Conjugation-aware matching needed; static check is insufficient.",
-      "multi_vocab_shared_examples": "7 example JA strings reused across >=4 entries — intentional multi-vocab demonstration (one sentence teaches several headwords efficiently).",
+      "multi_vocab_shared_examples": "7 example JA strings reused across >=4 entries: intentional multi-vocab demonstration (one sentence teaches several headwords efficiently).",
       "pronoun_avoidance_pedagogy": "1 pronoun (あなた) intentional avoidance pedagogy showing 〜さん forms.",
-      "polysemic_vocab_forms": "24 vocab forms with multiple entries (different sections/POS) — intentional poly-section coverage (e.g., 十 as number + counter)."
+      "polysemic_vocab_forms": "24 vocab forms with multiple entries (different sections/POS): intentional poly-section coverage (e.g., 十 as number + counter)."
     },
     "reviewer_persona": "ai_native_reviewer (Claude under authorized persona; not human native-teacher review)"
   },
@@ -4565,7 +4565,7 @@
             "ません"
           ],
           "correctAnswer": "ましょう",
-          "explanation_en": "Volitional/invitation locked by the preceding \"(一緒に つかれましたね)\" — \"(we're tired together, aren't we)\". With this fatigue + inclusive frame, \"let's rest a bit\" (やすみましょう) is the only natural completion. やすみます (declarative; doesn't respond to the invitation cue), やすみました (past conflict), やすみません (contradicts the fatigue cue).",
+          "explanation_en": "Volitional/invitation locked by the preceding \"(一緒に つかれましたね)\": \"(we're tired together, aren't we)\". With this fatigue + inclusive frame, \"let's rest a bit\" (やすみましょう) is the only natural completion. やすみます (declarative; doesn't respond to the invitation cue), やすみました (past conflict), やすみません (contradicts the fatigue cue).",
           "note": "Added \"(一緒に つかれましたね。)\" inclusive-fatigue context to lock volitional."
         }
       }
@@ -4593,7 +4593,7 @@
             "ませんでした"
           ],
           "correctIndex": 0,
-          "rationale": "Habitual present positive: 毎日 (every day) + あいます (I meet). The follow-up \"とても たのしいです\" (very fun) locks positive polarity — you wouldn't describe NOT meeting friends as \"very fun\". ました/ませんでした are past tense and conflict with 毎日.",
+          "rationale": "Habitual present positive: 毎日 (every day) + あいます (I meet). The follow-up \"とても たのしいです\" (very fun) locks positive polarity: you wouldn't describe NOT meeting friends as \"very fun\". ました/ませんでした are past tense and conflict with 毎日.",
           "note": "Added \"とても たのしいです。\" to lock positive polarity (was: contextless)."
         }
       },
@@ -4626,7 +4626,7 @@
     ]
   },
   "mcq_ambiguity_round3_2026_05_25": {
-    "description": "Round 3 — user re-flagged q-0221 ますか ambiguity. Stricter predicate caught 7 more ambiguities including 3 past-polarity-ambiguous + 3 invitation-multi-valid + q-0221. All fixed with past-tense / ungrammatical / incomplete-ender distractors.",
+    "description": "Round 3: user re-flagged q-0221 ますか ambiguity. Stricter predicate caught 7 more ambiguities including 3 past-polarity-ambiguous + 3 invitation-multi-valid + q-0221. All fixed with past-tense / ungrammatical / incomplete-ender distractors.",
     "changes": [
       {
         "id": "q-0221",
@@ -4899,7 +4899,7 @@
           "ca": "どう"
         },
         "after": {
-          "q": "おしごとは（　）ですか。 — たのしいです。",
+          "q": "「おしごとは（　）ですか。」「たのしいです。」",
           "ch": [
             "どう",
             "だれ",

@@ -2800,6 +2800,29 @@ Section-10 anti-items:
 Source: CI recovery 2026-11-08 (runs 42426537895, 42373923032); accuracy
 prompt A78 ADDENDUM; procedure manual F.71.
 
+### Phase-0 em-dash-free learner text block (added 2026-11-08)
+
+Owner decision: no em dash (U+2014) in anything a learner sees. v1.17.52 replaced
+15,156 across data/*.json, the static mirror pages, dist/ and the rendered
+CHANGELOG / PRIVACY / NOTICES (TYPO-1 closed).
+
+Phase-0 checks (validated to return 0 against the current tree, 2026-11-08):
+1. `python tools/emdash_normalize.py --check` -> "0 in 0 files" (same scope as
+   CI JA-180).
+2. A rebuilt grammar page body (refresh_grammar_howto_in_mirrors.py logic,
+   output filtered) differs from the committed page in 0 of 178 pages: the
+   data and the mirrors were rewritten by the same rules.
+
+Section-10 anti-items:
+- Never add an em dash to a corpus string, a builder template's output or a
+  rendered doc; write the colon / comma / " | " the rules would pick.
+- Never fix a stray dash with a plain hyphen or a global replace; run
+  `tools/emdash_normalize.py --apply` so the context rules decide.
+- Never touch ー (U+30FC) or ― (U+2015) while cleaning dashes; they are content.
+
+Source: owner request 2026-11-08 ("remove em dashes"); accuracy prompt
+TYPOGRAPHY ADDENDUM; procedure manual F.72; CI JA-180.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

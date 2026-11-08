@@ -1,4 +1,4 @@
-# JLPTSuccess — N5
+# JLPTSuccess: N5
 > Free, on-device, privacy-preserving JLPT (Japanese Language Proficiency Test) study material.
 > Bilingual (English + Hindi). No login. No tracking. Works offline.
 > Open source: https://github.com/gauravaccentureproducts/JLPTSuccess

@@ -25,9 +25,9 @@
   },
 
   "meta": {
-    "title": "Acme N5 — JLPT N5 prep",
-    "description": "Acme Language School's offline-first JLPT N5 study programme — free for students, no login, works offline.",
-    "og_title": "Acme N5 — JLPT N5 prep for Acme Language School students",
+    "title": "Acme N5: JLPT N5 prep",
+    "description": "Acme Language School's offline-first JLPT N5 study programme: free for students, no login, works offline.",
+    "og_title": "Acme N5: JLPT N5 prep for Acme Language School students",
     "og_description": "Free, offline JLPT N5 study programme for Acme Language School. Powered by JLPTSuccess.",
     "og_url": "https://acme-language-school.example/n5/"
   },

@@ -78,7 +78,7 @@
       "kbSourceId": "Q79",
       "id": "goi-6.4",
       "mondai": 4,
-      "rationale_hi": "उन्मूलन से, चार विकल्पों में से। कड़ाई से, 大きくない (बड़ा नहीं) ちいさい (छोटा) से व्यापक है — 中ぐらい (मध्यम) भी 大きくない में आता है। चार विकल्पों में ちいさい सबसे क़रीबी एक-शब्द-मेल है।",
+      "rationale_hi": "उन्मूलन से, चार विकल्पों में से। कड़ाई से, 大きくない (बड़ा नहीं) ちいさい (छोटा) से व्यापक है: 中ぐらい (मध्यम) भी 大きくない में आता है। चार विकल्पों में ちいさい सबसे क़रीबी एक-शब्द-मेल है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_vocab"
@@ -97,7 +97,7 @@
       "kbSourceId": "Q80",
       "id": "goi-6.5",
       "mondai": 4,
-      "rationale_hi": "उन्मूलन से, चार विकल्पों में से। कड़ाई से, あつくない (गरम नहीं) すずしい (शीतल) से व्यापक है — \"गुनगुना\" (あたたかい) भी \"गरम नहीं\" में गिना जा सकता है — पर अन्य तीन विकल्प स्पष्ट रूप से ग़लत हैं (あつい = विपरीत अर्थ, आदि)।",
+      "rationale_hi": "उन्मूलन से, चार विकल्पों में से। कड़ाई से, あつくない (गरम नहीं) すずしい (शीतल) से व्यापक है, \"गुनगुना\" (あたたかい) भी \"गरम नहीं\" में गिना जा सकता है, पर अन्य तीन विकल्प स्पष्ट रूप से ग़लत हैं (あつい = विपरीत अर्थ, आदि)।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-023",
       "grammarPatternId_provenance": "auto_inferred"
@@ -135,7 +135,7 @@
       "kbSourceId": "Q82",
       "id": "goi-6.7",
       "mondai": 4,
-      "rationale_hi": "雨が降っている = 天気がよくない — मौसम-स्थिति का सीधा पुनराचरण।",
+      "rationale_hi": "雨が降っている = 天気がよくない: मौसम-स्थिति का सीधा पुनराचरण।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"
@@ -211,7 +211,7 @@
       "kbSourceId": "Q86",
       "id": "goi-6.11",
       "mondai": 4,
-      "rationale_hi": "「電話を かけて + 一時間 話した」 = 「電話で 話した」। \"एक घंटा बात की\" यह दर्शाता है कि बातचीत सफल हुई — इसलिए 'फ़ोन किया' की जगह 'फ़ोन पर बात की' सीधा पुनःकथन है।",
+      "rationale_hi": "「電話を かけて + 一時間 話した」 = 「電話で 話した」। \"एक घंटा बात की\" यह दर्शाता है कि बातचीत सफल हुई: इसलिए 'फ़ोन किया' की जगह 'फ़ोन पर बात की' सीधा पुनःकथन है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_19",
       "grammarPatternId": "n5-007",
       "grammarPatternId_provenance": "auto_inferred"
@@ -226,11 +226,11 @@
         "わたしは らいねん 二十さいに なります。"
       ],
       "correctIndex": 2,
-      "rationale": "Statement of present age. The keyed answer 「いま 二十さいです」 is a direct restatement of the stem's present-tense identity claim; the other options shift the time reference (this year / birthday tomorrow / next year). Note: 二十さい is read はたち, not にじゅっさい — a special on-yomi exception shared with 二十日 (はつか).",
+      "rationale": "Statement of present age. The keyed answer 「いま 二十さいです」 is a direct restatement of the stem's present-tense identity claim; the other options shift the time reference (this year / birthday tomorrow / next year). Note: 二十さい is read はたち, not にじゅっさい, a special on-yomi exception shared with 二十日 (はつか).",
       "kbSourceId": "Q87",
       "id": "goi-6.12",
       "mondai": 4,
-      "rationale_hi": "वर्तमान आयु का कथन। मुख्य उत्तर 「いま 二十さいです」 तना के वर्तमान-काल पहचान-दावे का सीधा पुनःकथन है; अन्य विकल्प समय-संदर्भ बदल देते हैं (इस साल / कल जन्मदिन / अगले साल)। नोट: 二十さい का पठन はたち है, にじゅっさい नहीं — एक विशेष on-yomi अपवाद (तुलना: 二十日 = はつか)।",
+      "rationale_hi": "वर्तमान आयु का कथन। मुख्य उत्तर 「いま 二十さいです」 तना के वर्तमान-काल पहचान-दावे का सीधा पुनःकथन है; अन्य विकल्प समय-संदर्भ बदल देते हैं (इस साल / कल जन्मदिन / अगले साल)। नोट: 二十さい का पठन はたち है, にじゅっさい नहीं, एक विशेष on-yomi अपवाद (तुलना: 二十日 = はつか)।",
       "rationale_hi_provenance": "native_reviewed_2026_05_19",
       "grammarPatternId": "n5-002",
       "grammarPatternId_provenance": "auto_inferred"

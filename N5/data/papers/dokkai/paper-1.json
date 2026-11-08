@@ -168,7 +168,7 @@
       "passage_label": "Passage 3 (Q5, Q6)",
       "id": "dokkai-1.5",
       "mondai": 4,
-      "rationale_hi": "'コートを もって 来て ください' — स्पष्ट रूप से कोट लाने को कहा। (विकर्षक सब लम्बाई-संतुलन के लिए एकल-संज्ञा हैं।)",
+      "rationale_hi": "'コートを もって 来て ください': स्पष्ट रूप से कोट लाने को कहा। (विकर्षक सब लम्बाई-संतुलन के लिए एकल-संज्ञा हैं।)",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-149",
       "grammarPatternId_provenance": "auto_inferred"
@@ -308,7 +308,7 @@
       "passage_label": "Passage 6 (Q11, Q12)",
       "id": "dokkai-1.12",
       "mondai": 4,
-      "rationale_hi": "ロッカーの ばんごうは 七です — लॉकर का नंबर 7 है।",
+      "rationale_hi": "ロッカーの ばんごうは 七です: लॉकर का नंबर 7 है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-028",
       "grammarPatternId_provenance": "auto_inferred"
@@ -328,7 +328,7 @@
       "passage_label": "Passage 7 (Q13, Q14)",
       "id": "dokkai-1.13",
       "mondai": 4,
-      "rationale_hi": "こうえんを さんぽする — हर सुबह पार्क से होकर टहलते हैं।",
+      "rationale_hi": "こうえんを さんぽする: हर सुबह पार्क से होकर टहलते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-004",
       "grammarPatternId_provenance": "auto_inferred"
@@ -368,7 +368,7 @@
       "passage_label": "Passage 8 (Q15, Q16)",
       "id": "dokkai-1.15",
       "mondai": 4,
-      "rationale_hi": "ケーキは 友だちが 作って もって 来ます — दोस्त केक बनाकर लाता है।",
+      "rationale_hi": "ケーキは 友だちが 作って もって 来ます: दोस्त केक बनाकर लाता है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-002",
       "grammarPatternId_provenance": "auto_inferred"
@@ -388,7 +388,7 @@
       "passage_label": "Passage 8 (Q15, Q16)",
       "id": "dokkai-1.16",
       "mondai": 4,
-      "rationale_hi": "ともだちは みんな 八時に 来ます — सब दोस्त 8 बजे आते हैं।",
+      "rationale_hi": "ともだちは みんな 八時に 来ます: सब दोस्त 8 बजे आते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-005",
       "grammarPatternId_provenance": "auto_inferred"

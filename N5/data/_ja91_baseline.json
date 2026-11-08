@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "purpose": "Baseline allowlist for JA-91 (cross-pattern explanation_en similarity ≥ 0.85 Levenshtein). RESOLVED 2026-05-17 (Phase B) — all 43 prior baseline pairs addressed via explanation_en rewrites. JA-91 enforces the threshold unconditionally; baseline_pairs is empty and serves as a RESOLVED snapshot.",
+    "purpose": "Baseline allowlist for JA-91 (cross-pattern explanation_en similarity ≥ 0.85 Levenshtein). RESOLVED 2026-05-17 (Phase B): all 43 prior baseline pairs addressed via explanation_en rewrites. JA-91 enforces the threshold unconditionally; baseline_pairs is empty and serves as a RESOLVED snapshot.",
     "classification_legend": {
       "DUPLICATE_PATTERN": "Two pattern IDs cover the same conceptual content (e.g., n5-014 + n5-039 both = これ/それ/あれ pronouns). Corpus-structural cleanup target for a future audit; current explanations legitimately share text.",
       "CROSS_REFERENCE": "One pattern is a cross-ref / 'see X' deferral (e.g., n5-048 どこ → n5-016 ここ/そこ/あそこ/どこ series). Explanation copy is intentional to keep each entry self-contained.",

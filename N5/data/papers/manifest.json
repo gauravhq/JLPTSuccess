@@ -620,7 +620,7 @@
         "n5.listen.046"
       ],
       "grading_method": "text_match_runtime_shuffled",
-      "note": "Virtual paper — sampled from listening pool. Real JLPT N5 Chokai = 24Q in 30 min. Renderer shuffles choices at runtime; static answer-position is irrelevant."
+      "note": "Virtual paper: sampled from listening pool. Real JLPT N5 Chokai = 24Q in 30 min. Renderer shuffles choices at runtime; static answer-position is irrelevant."
     }
   ],
   "_meta": {

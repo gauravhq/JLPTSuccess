@@ -40,7 +40,7 @@
       "kbSourceId": "Q47",
       "id": "goi-4.2",
       "mondai": 3,
-      "rationale_hi": "こと + ある (अनुभव)। आम त्रुटि: 「〜たことがある」 विशिष्ट समय-सूचकों (きょねん आदि) के साथ नहीं लग सकता — यह अनिश्चित भूत-अनुभव व्यक्त करता है। समय-विशिष्ट कथन के लिए सादा भूत-काल (きょねん 行きました) का प्रयोग करें।",
+      "rationale_hi": "こと + ある (अनुभव)। आम त्रुटि: 「〜たことがある」 विशिष्ट समय-सूचकों (きょねん आदि) के साथ नहीं लग सकता, यह अनिश्चित भूत-अनुभव व्यक्त करता है। समय-विशिष्ट कथन के लिए सादा भूत-काल (きょねん 行きました) का प्रयोग करें।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"
@@ -59,7 +59,7 @@
       "kbSourceId": "Q48",
       "id": "goi-4.3",
       "mondai": 3,
-      "rationale_hi": "大学へ行く (विश्वविद्यालय जाना/दाख़िला लेना) — उच्च शिक्षा में प्रवेश का स्वाभाविक रूप।",
+      "rationale_hi": "大学へ行く (विश्वविद्यालय जाना/दाख़िला लेना): उच्च शिक्षा में प्रवेश का स्वाभाविक रूप।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-065",
       "grammarPatternId_provenance": "auto_inferred"

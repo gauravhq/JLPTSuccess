@@ -118,7 +118,7 @@
       "kbSourceId": "Q21",
       "id": "goi-2.6",
       "mondai": 3,
-      "rationale_hi": "वस्तुएँ ऊपर से गिरती हैं; おちる うえ को अनूठे रूप से लंगरित करता है (किताब मेज़ के नीचे से, सामने से, या पीछे से नहीं गिर सकती — केवल ऊपर से)।",
+      "rationale_hi": "वस्तुएँ ऊपर से गिरती हैं; おちる うえ को अनूठे रूप से लंगरित करता है (किताब मेज़ के नीचे से, सामने से, या पीछे से नहीं गिर सकती: केवल ऊपर से)।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-067",
       "grammarPatternId_provenance": "auto_inferred"
@@ -137,7 +137,7 @@
       "kbSourceId": "Q22",
       "id": "goi-2.7",
       "mondai": 3,
-      "rationale_hi": "駅の近く — 'स्टेशन के पास' — स्थान-सूचक स्वाभाविक वाक्यांश।",
+      "rationale_hi": "駅の近く, 'स्टेशन के पास', स्थान-सूचक स्वाभाविक वाक्यांश।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-080",
       "grammarPatternId_provenance": "auto_inferred"

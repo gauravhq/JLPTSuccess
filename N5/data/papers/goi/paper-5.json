@@ -59,7 +59,7 @@
       "kbSourceId": "Q63",
       "id": "goi-5.3",
       "mondai": 4,
-      "rationale_hi": "とおくない ≈ ちかい — सीधा विलोम-युग्म।",
+      "rationale_hi": "とおくない ≈ ちかい: सीधा विलोम-युग्म।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-092",
       "grammarPatternId_provenance": "auto_inferred"
@@ -154,7 +154,7 @@
       "kbSourceId": "Q68",
       "id": "goi-5.8",
       "mondai": 4,
-      "rationale_hi": "だれも (कोई नहीं — व्यक्तियों पर सार्वत्रिक) ↔ 人が いません (कोई व्यक्ति नहीं)। दोनों किसी भी व्यक्ति के अस्तित्व का खंडन करते हैं, इसलिए दायरा बिल्कुल मेल खाता है।",
+      "rationale_hi": "だれも (कोई नहीं: व्यक्तियों पर सार्वत्रिक) ↔ 人が いません (कोई व्यक्ति नहीं)। दोनों किसी भी व्यक्ति के अस्तित्व का खंडन करते हैं, इसलिए दायरा बिल्कुल मेल खाता है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-091",
       "grammarPatternId_provenance": "auto_inferred"
@@ -249,7 +249,7 @@
       "kbSourceId": "Q73",
       "id": "goi-5.13",
       "mondai": 4,
-      "rationale_hi": "「私が友だちに貸す」 = 「友だちが私から借りる」 — दृष्टिकोण-परिवर्तन का かす ⇄ かりる।",
+      "rationale_hi": "「私が友だちに貸す」 = 「友だちが私から借りる」: दृष्टिकोण-परिवर्तन का かす ⇄ かりる।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-030",
       "grammarPatternId_provenance": "auto_inferred"

@@ -166,13 +166,13 @@
         "ピアノは すき"
       ],
       "correctIndex": 1,
-      "rationale": "「ピアノきょうしつ」 (compound noun, no の) — に行きます takes the destination directly.",
+      "rationale": "「ピアノきょうしつ」 (compound noun, no の): に行きます takes the destination directly.",
       "kbSourceId": "Q98",
       "passage_label": "Passage B",
       "blank_number": 3,
       "id": "bunpou-7.8",
       "mondai": 3,
-      "rationale_hi": "「ピアノきょうしつ」 (समासी संज्ञा, बीच में の नहीं) — に行きます गंतव्य को सीधे ग्रहण करता है।",
+      "rationale_hi": "「ピアノきょうしつ」 (समासी संज्ञा, बीच में の नहीं): に行きます गंतव्य को सीधे ग्रहण करता है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-119",
       "grammarPatternId_provenance": "auto_inferred"
@@ -214,7 +214,7 @@
       "blank_number": 5,
       "id": "bunpou-7.10",
       "mondai": 3,
-      "rationale_hi": "「でも」 मात्रा से जुड़कर \"भले ही केवल\" अर्थ देता है — 一日でも = \"भले ही केवल एक दिन\"। 「ぜったいに」 के साथ मिलकर यह व्यक्त करता है \"मैं अगले हफ़्ते एक दिन के लिए भी ज़रूर खेलना चाहता हूँ।\" 「ぐらい」 (अनुमानित मात्रा) यहाँ \"भले ही\" का भाव नहीं देता।",
+      "rationale_hi": "「でも」 मात्रा से जुड़कर \"भले ही केवल\" अर्थ देता है: 一日でも = \"भले ही केवल एक दिन\"। 「ぜったいに」 के साथ मिलकर यह व्यक्त करता है \"मैं अगले हफ़्ते एक दिन के लिए भी ज़रूर खेलना चाहता हूँ।\" 「ぐらい」 (अनुमानित मात्रा) यहाँ \"भले ही\" का भाव नहीं देता।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-033",
       "grammarPatternId_provenance": "auto_inferred"

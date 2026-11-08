@@ -64,6 +64,10 @@ import sys
 import urllib.parse
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from emdash_normalize import mode_for as mode_for_emdash  # noqa: E402
+from emdash_normalize import normalize as normalize_emdash  # noqa: E402
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -255,7 +259,13 @@ def _build_page(
 
 
 def _write_if_changed(path: Path, content: str) -> bool:
-    """Write content to path only if it differs. Returns True if written."""
+    """Write content to path only if it differs. Returns True if written.
+
+    Every page passes through tools/emdash_normalize.py first: the site shows
+    no em dashes (owner decision 2026-11-08) and some templates below still
+    contain them, so the filter keeps a rebuild from adding them back.
+    """
+    content = normalize_emdash(content, mode_for_emdash(path.name))
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)

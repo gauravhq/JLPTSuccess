@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "doc": "Pitch-accent reference for vocab.json, filtered from the kanjium project's accents.txt to the (form, reading) pairs present in our N5 vocab corpus. Used by JA-90 to validate vocab pitch_accent.drop values against an authoritative source. The 'drops' array lists ALL attested drop positions for the entry — some words have multiple acceptable accents (heiban + odaka alternates etc.).",
+    "doc": "Pitch-accent reference for vocab.json, filtered from the kanjium project's accents.txt to the (form, reading) pairs present in our N5 vocab corpus. Used by JA-90 to validate vocab pitch_accent.drop values against an authoritative source. The 'drops' array lists ALL attested drop positions for the entry: some words have multiple acceptable accents (heiban + odaka alternates etc.).",
     "source": "kanjium project (https://github.com/mifunetoshiro/kanjium)",
     "source_pinned_commit": "8a0cdaa16d64a281a2048de2eee2ec5e3a440fa6",
     "source_url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/8a0cdaa16d64a281a2048de2eee2ec5e3a440fa6/data/source_files/raw/accents.txt",
@@ -12,7 +12,7 @@
     "matched_by_reading_only": 590,
     "entries_matched_to_n5_vocab": 944,
     "vocab_corpus_size": 1009,
-    "match_kind_note": "exact = (form, reading) tuple matched kanjium; by-reading = matched by reading alone (used for kana-only forms where kanjium has the kanji form). by-reading matches use the UNION of all drops across kanjium entries with that reading — wider but less precise. Confidence reflects this in JA-90.",
+    "match_kind_note": "exact = (form, reading) tuple matched kanjium; by-reading = matched by reading alone (used for kana-only forms where kanjium has the kanji form). by-reading matches use the UNION of all drops across kanjium entries with that reading: wider but less precise. Confidence reflects this in JA-90.",
     "schema_version": 1,
     "consumers": [
       "tools/check_content_integrity.py JA-90"
@@ -28,11 +28,11 @@
           "きのう"
         ],
         "scaffold_landed": "2026-05-23",
-        "discipline": "Scaffold-only — verification fields blank pending real human native-speaker review. F.44.7 + F.44.15 Shape 2 prohibit LLM-authored verification (circular authority).",
+        "discipline": "Scaffold-only: verification fields blank pending real human native-speaker review. F.44.7 + F.44.15 Shape 2 prohibit LLM-authored verification (circular authority).",
         "broader_pass_queue": "see tools/build_pitch_accent_by_reading_queue_2026_05_23.py output"
       }
     ],
-    "discipline_note_2026_05_23": "354 entries with match_kind=\"exact\" are grandfathered legacy kanjium-exact-form matches (form+reading both exact-matched against kanjium upstream). They pre-date the 2026-05-23 audit-block discipline (F.44.7 + F.44.15 Shape 2 + JA-155). They are NOT native-speaker-verified per se — the authority bar is the exact-form match against the kanjium reference (MIT-licensed, source pinned at commit 8a0cdaa1). Future promotions from match_kind=\"by-reading\" to \"exact\" go through the verification protocol (see docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23): entries gain an audit block + verifier_pending=false + result_schema populated. JA-155 enforces completeness on audit-bearing entries; grandfathered entries without audit blocks are accepted as-is."
+    "discipline_note_2026_05_23": "354 entries with match_kind=\"exact\" are grandfathered legacy kanjium-exact-form matches (form+reading both exact-matched against kanjium upstream). They pre-date the 2026-05-23 audit-block discipline (F.44.7 + F.44.15 Shape 2 + JA-155). They are NOT native-speaker-verified per se: the authority bar is the exact-form match against the kanjium reference (MIT-licensed, source pinned at commit 8a0cdaa1). Future promotions from match_kind=\"by-reading\" to \"exact\" go through the verification protocol (see docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23): entries gain an audit block + verifier_pending=false + result_schema populated. JA-155 enforces completeness on audit-bearing entries; grandfathered entries without audit blocks are accepted as-is."
   },
   "entries": [
     {
@@ -73,11 +73,11 @@
           ],
           "match_kind": "by-reading"
         },
-        "review_question": "NHK 2016 lists ⓪ as the generic-pronoun form and ② as the address-spouse form. The data has ② primary and ① alternate — neither matches the ⓪ heiban-pronoun NHK reading. Three possibilities: (a) NHK has updated since the data was sourced — verify in current edition. (b) Our voice actor uses the ② address-pronoun consistently across all contexts (acceptable but should be documented). (c) Data is wrong — replace with [0] or [0, 2].",
+        "review_question": "NHK 2016 lists ⓪ as the generic-pronoun form and ② as the address-spouse form. The data has ② primary and ① alternate: neither matches the ⓪ heiban-pronoun NHK reading. Three possibilities: (a) NHK has updated since the data was sourced, verify in current edition. (b) Our voice actor uses the ② address-pronoun consistently across all contexts (acceptable but should be documented). (c) Data is wrong: replace with [0] or [0, 2].",
         "verification_protocol_link": "docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23",
         "verification_required_against": [
-          "NHK 日本語発音アクセント新辞典 (2016) — cite page + drop notation if conflicting",
-          "Audio recordings — for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
+          "NHK 日本語発音アクセント新辞典 (2016): cite page + drop notation if conflicting",
+          "Audio recordings: for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
         ],
         "verifier_credential_required": "Native Japanese speaker OR certified Japanese-language teacher (CIJL / 日本語教師 marketplace / Upwork JLPT-instructor pool acceptable). LLM-only verification is explicitly REJECTED per F.44.7 + F.44.15 Shape 2 circular-authority discipline.",
         "result_schema": {
@@ -151,8 +151,8 @@
         "review_question": "NHK lists ③ as well-known standard. Is the data choice of ② the one our voice actor recorded? If audio uses ③, update drops to [3] or [3, 2].",
         "verification_protocol_link": "docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23",
         "verification_required_against": [
-          "NHK 日本語発音アクセント新辞典 (2016) — cite page + drop notation if conflicting",
-          "Audio recordings — for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
+          "NHK 日本語発音アクセント新辞典 (2016): cite page + drop notation if conflicting",
+          "Audio recordings: for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
         ],
         "verifier_credential_required": "Native Japanese speaker OR certified Japanese-language teacher (CIJL / 日本語教師 marketplace / Upwork JLPT-instructor pool acceptable). LLM-only verification is explicitly REJECTED per F.44.7 + F.44.15 Shape 2 circular-authority discipline.",
         "result_schema": {
@@ -1463,8 +1463,8 @@
         "review_question": "NHK lists ② as standard. Three drops listed is generous. Confirm whether the audio recording uses ②, and if so, reorder to put 2 first (drops[0] is treated as primary by the UI per the schema).",
         "verification_protocol_link": "docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23",
         "verification_required_against": [
-          "NHK 日本語発音アクセント新辞典 (2016) — cite page + drop notation if conflicting",
-          "Audio recordings — for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
+          "NHK 日本語発音アクセント新辞典 (2016): cite page + drop notation if conflicting",
+          "Audio recordings: for this corpus, per-vocab pitch audio does NOT exist as standalone files. The word must be located within listening passages (audio_manifest_voice.json / data/listening.json entries) where it occurs in script_ja. Note timestamp + passage_id when verifying."
         ],
         "verifier_credential_required": "Native Japanese speaker OR certified Japanese-language teacher (CIJL / 日本語教師 marketplace / Upwork JLPT-instructor pool acceptable). LLM-only verification is explicitly REJECTED per F.44.7 + F.44.15 Shape 2 circular-authority discipline.",
         "result_schema": {

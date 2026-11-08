@@ -25,21 +25,7 @@ Per CC BY-SA 3.0:
 - The KanjiVG SVG files in `svg/kanji/` retain their original CC BY-SA 3.0
   license. The rest of the project is governed by its own LICENSE.
 
-## Kanji mnemonic illustrations (proof-of-concept)
-
-- **What it is:** an AI-generated memory-aid illustration shown in the kanji detail
-  page's "Radical & mnemonic" section.
-- **Files:** `img/kanji/<glyph>.png` (currently 1 file — 雨 — a single-kanji
-  proof-of-concept; not yet rolled out to the other 105 kanji).
-- **Provenance:** AI image generation; tagged
-  `mnemonic_image_provenance: "ai_generated_illustration"` in `data/kanji.json`.
-- **Open item (before any roll-out beyond this POC):** the commercial-use rights of the
-  image-generation source MUST be confirmed and recorded here, mirroring the KanjiVG
-  attribution discipline above. The illustration is supplementary — the kanji's
-  authoritative readings and meaning remain as on-page text — so removing it would lose
-  no learning content.
-
-## Microsoft Edge TTS (legacy — not currently shipped)
+## Microsoft Edge TTS (legacy, not currently shipped)
 
 > **2026-05-12 update:** as of release v1.14.1, the 50 listening
 > drills are rendered with VOICEVOX (6-speaker age-band variety per
@@ -49,7 +35,7 @@ Per CC BY-SA 3.0:
 > `audio/_backup_edge_tts_listening_2026_05_12/` for reference / revert.
 >
 > The edge-TTS attribution section below is retained for historical
-> accuracy of the v1.13.x — v1.14.0 releases. The
+> accuracy of the v1.13.x: v1.14.0 releases. The
 > `tools/build_listening_audio_multivoice_2026_05_07.py` script that
 > handled edge-TTS rendering remains in the repo for future
 > contributors who may want it.
@@ -66,7 +52,7 @@ Per CC BY-SA 3.0:
   Python library to render the 47 listening-drill MP3s under
   `audio/listening/`.
 - **Engine library:** [`edge-tts`](https://github.com/rany2/edge-tts)
-  (MIT licence — wrapper around Microsoft's TTS WebSocket endpoint).
+  (MIT licence: wrapper around Microsoft's TTS WebSocket endpoint).
 - **Service endpoint:** Microsoft Cognitive Services Speech
   (`speech.platform.bing.com`), governed by [Microsoft's terms of
   service](https://www.microsoft.com/legal/intellectualproperty/copyright/default.aspx)
@@ -90,7 +76,7 @@ Per CC BY-SA 3.0:
   documented permitted use case.
 - **No defamatory / R-rated / political-misuse contexts.** Every
   listening item in `data/listening.json` is a plain JLPT-N5
-  practice prompt — none of those exclusions apply.
+  practice prompt: none of those exclusions apply.
 - **Files:** `audio/listening/*.mp3` (47 files rendered, 3 items
   not yet rendered); per-item voice mapping captured in
   `data/audio_manifest_voice.json` and the per-item
@@ -101,9 +87,9 @@ Per CC BY-SA 3.0:
   the builder supports VOICEVOX engine running on `localhost:50021`
   as an offline fallback for listening. Not currently exercised for
   shipped listening audio (still edge-TTS per F-13 above). VOICEVOX
-  IS used for grammar audio — see the next section.
+  IS used for grammar audio: see the next section.
 
-## VOICEVOX (synthesized grammar example audio — Japanese)
+## VOICEVOX (synthesized grammar example audio: Japanese)
 
 > **Added 2026-05-12 (audio quality lift):** the 1782 grammar example
 > audio files (`audio/grammar/*.mp3`) were re-rendered from gTTS to
@@ -117,15 +103,15 @@ Per CC BY-SA 3.0:
   pre-rendered MP3 paths so no engine/network call is needed in the
   shipped PWA.
 - **Engine:** [VOICEVOX](https://voicevox.hiroshiba.jp/) v0.25.2 (CPU
-  build) — local HTTP API on `localhost:50021`, two-step
+  build): local HTTP API on `localhost:50021`, two-step
   `/audio_query` → `/synthesis` pipeline. The engine binary is not
   bundled with this repo (≈12 GB install); contributors render
   locally using `tools/build_audio_voicevox.py`.
-- **Engine license:** LGPL-3.0 (engine) — the engine binary is not
+- **Engine license:** LGPL-3.0 (engine): the engine binary is not
   redistributed, only its synthesized output (MP3 files). Output
   licence is governed by each speaker character's own term sheet.
 - **Speakers / characters used (6 total across grammar + listening + kanji):**
-  - **春日部つむぎ (Kasukabe Tsumugi)** — style: ノーマル, speaker_id `8`,
+  - **春日部つむぎ (Kasukabe Tsumugi)**, style: ノーマル, speaker_id `8`,
     speaker_uuid `35b2c544-660e-401e-b503-0e14c635303a`.
     Used for: all 1782 grammar example renders, half of listening
     items, all 259 kanji per-yomi renders.
@@ -133,15 +119,15 @@ Per CC BY-SA 3.0:
     the VOICEVOX engine itself; see
     <https://tsukushinyoki10.wixsite.com/ktsumugiofficial> for the
     canonical character terms).
-  - **玄野武宏 (Kurono Takehiro)** — style: ノーマル, speaker_id `11`.
+  - **玄野武宏 (Kurono Takehiro)**, style: ノーマル, speaker_id `11`.
     Used for: listening items 1-9, 26-33, 34-42 (adult male role).
-  - **四国めたん (Shikoku Metan)** — style: ノーマル, speaker_id `2`.
+  - **四国めたん (Shikoku Metan)**, style: ノーマル, speaker_id `2`.
     Used for: listening items 10-17, 34-42 (young female role).
-  - **ずんだもん (Zundamon)** — style: ノーマル, speaker_id `3`.
+  - **ずんだもん (Zundamon)**, style: ノーマル, speaker_id `3`.
     Used for: listening items 10-17, 43-50 (young male role).
-  - **雨晴はう (Amehare Hau)** — style: ノーマル, speaker_id `10`.
+  - **雨晴はう (Amehare Hau)**, style: ノーマル, speaker_id `10`.
     Used for: listening items 26-33 (adolescent female role).
-  - **青山龍星 (Aoyama Ryusei)** — style: ノーマル, speaker_id `13`.
+  - **青山龍星 (Aoyama Ryusei)**, style: ノーマル, speaker_id `13`.
     Used for: listening items 18-25 (mature-young male role).
   - All 6 characters are maintained by independent character projects;
     each carries its own term sheet linked from
@@ -152,7 +138,7 @@ Per CC BY-SA 3.0:
   works **with attribution**. This file + the runtime `#/notices`
   viewer satisfy the attribution requirement. Permitted-use boundary:
   no R-rated / political-misuse / defamatory contexts (every grammar
-  example in this app is plain N5 study content — none of those
+  example in this app is plain N5 study content, none of those
   exclusions apply).
 - **Files:**
   - `audio/grammar/n5-NNN.M.mp3` (1782 files, one per grammar
@@ -181,7 +167,7 @@ Per CC BY-SA 3.0:
   `anoisesrc` filter (pink / brown noise sources, per-context
   amplitude + mix levels). Mixed under the voice audio at -24 to
   -36 dB so dialogue clarity is unaffected.
-- **Source:** None — fully synthesized by `ffmpeg` v8.1.1 (LGPL/GPL).
+- **Source:** None: fully synthesized by `ffmpeg` v8.1.1 (LGPL/GPL).
   No third-party CC-0 or commercial samples used.
 - **Quality honest:** synthetic ambient does not match the realism
   of recorded café / station / classroom samples. Per-context
@@ -217,7 +203,7 @@ required by its licence.
 > 178 patterns (184 total ref entries). Same five-tier source pool;
 > see CHANGELOG v1.15.1 for the per-author PD-status table.
 
-### Aozora Bunko (青空文庫) — PD literature
+### Aozora Bunko (青空文庫): PD literature
 
 - **Source:** <https://www.aozora.gr.jp/>
 - **License:** All works cited have authors who died ≥ 70 years
@@ -236,16 +222,16 @@ required by its licence.
 
 ### Government works (政府著作物)
 
-- **Source:** Japanese Government — Constitution and legal codes.
+- **Source:** Japanese Government: Constitution and legal codes.
 - **License:** Public domain by Japanese 著作権法 §13 ('Works of the
   State' exception). Government works are explicitly PD by statute
   and may be freely cited.
 - **Works referenced** (3 patterns):
-  - 日本国憲法 (Constitution of Japan) — Preamble and Article 1.
+  - 日本国憲法 (Constitution of Japan), Preamble and Article 1.
 
 ### Traditional proverbs (ことわざ) and folk songs (童謡)
 
-- **Source:** Cultural commons — proverbs and folk songs that have
+- **Source:** Cultural commons: proverbs and folk songs that have
   been part of Japanese cultural heritage for centuries.
 - **License:** Not copyrightable (cultural commons / pre-Meiji
   traditional works). Folk-song lyrics composed before 1900 are
@@ -255,15 +241,15 @@ required by its licence.
     一日一善, 石の上にも三年, 覆水盆に返らず, 明日は明日の風が吹く,
     猫に小判, 馬の耳に念仏, どうぞよろしくお願いします
   - Folk songs / Traditional tales: 茶摘み, 桃太郎, ふるさと, うさぎとかめ
-  - Note: ふるさと (lyrics: 高野辰之 died 1947; melody: 岡野貞一 died 1941) —
+  - Note: ふるさと (lyrics: 高野辰之 died 1947; melody: 岡野貞一 died 1941),
     both PD as of 2026. 肩たたき's specific lyrics by 西條八十 (died 1970)
     remain copyrighted until 2041; only summary-level reference used.
 
-### NHK NEWS WEB EASY — Recommendation only (no quotation)
+### NHK NEWS WEB EASY: Recommendation only (no quotation)
 
 - **Source:** <https://www3.nhk.or.jp/news/easy/>
 - **License:** NHK content is © NHK. **No direct quotation is made.**
-  References to NHK Easy are educational-resource pointers only —
+  References to NHK Easy are educational-resource pointers only:
   we recommend learners read the site daily but do not reproduce
   any NHK headlines or article text.
 - **Works referenced** (4 patterns): NHK NEWS WEB EASY (general),
@@ -275,7 +261,7 @@ required by its licence.
 The 2026-05-12 richness audit identified an "authentic-content layer"
 as the largest strategic richness lever for the grammar surface.
 The audit's original framing named copyrighted anime/drama/manga
-(しろくまカフェ / ちびまる子ちゃん / etc.) — those were Avoid'd per the
+(しろくまカフェ / ちびまる子ちゃん / etc.): those were Avoid'd per the
 2026-05-12 maintainer directive (1% legal risk threshold; see CHANGELOG
 v1.14.2). This PD references layer fills the same niche from the
 legally-safe side: same pedagogical value (real Japanese literature
@@ -293,7 +279,7 @@ legally-safe side: same pedagogical value (real Japanese literature
   form/reading/drop).
 - **Upstream attribution:** the kanjium project credits the
   Electronic Dictionary Research and Development Group (EDRDG,
-  led by James William Breen) — EDICT, KANJIDIC, KRADFILE — for
+  led by James William Breen), EDICT, KANJIDIC, KRADFILE, for
   the bulk of its data.
 - **License:** Creative Commons Attribution-ShareAlike 4.0
   International (CC BY-SA 4.0). Compatible with this project's
@@ -329,7 +315,7 @@ legally-safe side: same pedagogical value (real Japanese literature
   "auto_extracted"` so a future BCCWJ swap can re-tag without
   data migration.
 
-## Inter (UI typeface — Latin glyphs)
+## Inter (UI typeface: Latin glyphs)
 
 - **Used as:** the primary Latin/Devanagari/CJK-fallback UI typeface
   in this app. Loaded as `fonts/inter-300.woff2`, `inter-400.woff2`,
@@ -349,7 +335,7 @@ legally-safe side: same pedagogical value (real Japanese literature
   for this app (Latin Extended + Devanagari) does not constitute a
   modification under OFL §1 since it only removes glyphs.
 
-## Noto Sans JP (Japanese typeface — kanji + kana glyphs)
+## Noto Sans JP (Japanese typeface: kanji + kana glyphs)
 
 - **Used as:** the Japanese-script typeface for kanji, hiragana, and
   katakana rendering throughout the app. Loaded as
@@ -385,7 +371,7 @@ either organization.
 
 ---
 
-*Last updated: 2026-05-11 (legal-vetting F-13 — corrected listening-audio
+*Last updated: 2026-05-11 (legal-vetting F-13, corrected listening-audio
 attribution from VOICEVOX to Microsoft Edge TTS Neural voices, the actual
 renderer; F-5 added Inter and Noto Sans JP font attributions per SIL OFL
 1.1 compliance).*

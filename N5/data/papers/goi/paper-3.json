@@ -59,7 +59,7 @@
       "kbSourceId": "Q33",
       "id": "goi-3.3",
       "mondai": 3,
-      "rationale_hi": "तुरंत — から: N5-मानक कारण-संयोजक।",
+      "rationale_hi": "तुरंत, から: N5-मानक कारण-संयोजक।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-118",
       "grammarPatternId_provenance": "auto_inferred"
@@ -174,7 +174,7 @@
       "kbSourceId": "Q39",
       "id": "goi-3.9",
       "mondai": 3,
-      "rationale_hi": "〜つ छोटी वस्तुओं (1-9) के लिए सामान्य देसी काउंटर है। ボール (गेंद) N5 स्तर पर 〜つ लेती है। (फ़र्नीचर जैसे つくえ मुहावरेदार रूप से 〜台 (だい) लेता है — यह N4-स्तरीय भेद है।)",
+      "rationale_hi": "〜つ छोटी वस्तुओं (1-9) के लिए सामान्य देसी काउंटर है। ボール (गेंद) N5 स्तर पर 〜つ लेती है। (फ़र्नीचर जैसे つくえ मुहावरेदार रूप से 〜台 (だい) लेता है: यह N4-स्तरीय भेद है।)",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-108",
       "grammarPatternId_provenance": "auto_inferred"
@@ -269,7 +269,7 @@
       "kbSourceId": "Q44",
       "id": "goi-3.14",
       "mondai": 3,
-      "rationale_hi": "बारिश + छाता — から: N5-मानक कारण-संयोजक।",
+      "rationale_hi": "बारिश + छाता, から: N5-मानक कारण-संयोजक।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-009",
       "grammarPatternId_provenance": "auto_inferred"

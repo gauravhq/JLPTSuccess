@@ -92,7 +92,7 @@
       "passage_label": "Item 1 (Q91, Q92): こうえんの あんない",
       "id": "dokkai-7.2",
       "mondai": 6,
-      "rationale_hi": "バーベキュー の 行に 「(よやくが いります)」 と かいて あります — बारबेक्यू के लिए आरक्षण ज़रूरी।",
+      "rationale_hi": "バーベキュー の 行に 「(よやくが いります)」 と かいて あります: बारबेक्यू के लिए आरक्षण ज़रूरी।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"
@@ -112,7 +112,7 @@
       "passage_label": "Item 2 (Q93, Q94): えいごの きょうしつの ポスター",
       "id": "dokkai-7.3",
       "mondai": 6,
-      "rationale_hi": "'時間: 月よう日 と 水よう日 の 7:00pm-9:00pm' — पोस्टर सोमवार और बुधवार बताता है।",
+      "rationale_hi": "'時間: 月よう日 と 水よう日 の 7:00pm-9:00pm', पोस्टर सोमवार और बुधवार बताता है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-008",
       "grammarPatternId_provenance": "auto_inferred"
@@ -132,7 +132,7 @@
       "passage_label": "Item 2 (Q93, Q94): えいごの きょうしつの ポスター",
       "id": "dokkai-7.4",
       "mondai": 6,
-      "rationale_hi": "'大人だけの きょうしつです。こうこうせいは 入れません' — केवल वयस्कों की कक्षा; हाई-स्कूल छात्र प्रवेश नहीं कर सकते।",
+      "rationale_hi": "'大人だけの きょうしつです。こうこうせいは 入れません': केवल वयस्कों की कक्षा; हाई-स्कूल छात्र प्रवेश नहीं कर सकते।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-033",
       "grammarPatternId_provenance": "auto_inferred"
@@ -311,7 +311,7 @@
       "passage_label": "Item 6 (Q101, Q102): 学校の あんない",
       "id": "dokkai-7.12",
       "mondai": 6,
-      "rationale_hi": "'やすみの 日に 図書館を つかいたい 人は、先生に 言って ください' — पहले शिक्षक से पूछें।",
+      "rationale_hi": "'やすみの 日に 図書館を つかいたい 人は、先生に 言って ください': पहले शिक्षक से पूछें।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-069",
       "grammarPatternId_provenance": "auto_inferred"

@@ -115,7 +115,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "ます": "ます क्रिया-तना से जुड़ता है, संज्ञा से नहीं।",
-        "でした": "でした भूत-काल — \"मैं छात्र था\" अर्थ देगा।",
+        "でした": "でした भूत-काल: \"मैं छात्र था\" अर्थ देगा।",
         "じゃ": "じゃ अकेले अधूरा; ありません चाहिए विनम्र-नकार के लिए।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -147,8 +147,8 @@
       "explanation_hi": "संज्ञा के साथ です का भूत-काल = でした।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "です": "です वर्तमान — \"कल\" से मेल नहीं खाएगा।",
-        "じゃありません": "नकारात्मक रूप — \"छुट्टी थी\" के लिए ग़लत ध्रुवता।",
+        "です": "です वर्तमान: \"कल\" से मेल नहीं खाएगा।",
+        "じゃありません": "नकारात्मक रूप: \"छुट्टी थी\" के लिए ग़लत ध्रुवता।",
         "ます": "ます क्रिया-तना से जुड़ता है, संज्ञा से नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -203,8 +203,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "が": "が कर्ता को नई जानकारी / \"कौन?\" उत्तर के रूप में चिह्नित। आत्म-परिचय में は।",
-        "を": "を प्रत्यक्ष-कर्म चिह्नक — पर わたし पर क्रिया नहीं हो रही।",
-        "に": "に समय/स्थान/प्राप्तकर्ता — विषय से कोई संबंध नहीं।"
+        "を": "を प्रत्यक्ष-कर्म चिह्नक, पर わたし पर क्रिया नहीं हो रही।",
+        "に": "に समय/स्थान/प्राप्तकर्ता: विषय से कोई संबंध नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -232,12 +232,12 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "は विषय-सूचक — \"आज के बारे में, गरम है\"। समय-शब्द (आज/कल) अक्सर は लेते हैं।",
+      "explanation_hi": "は विषय-सूचक: \"आज के बारे में, गरम है\"। समय-शब्द (आज/कल) अक्सर は लेते हैं।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "が": "が होता ज़ोर देता है 'आज (specifically) है गरम' - सम्भव पर कम स्वाभाविक।",
         "を": "を सूचित करता है सीधा कर्म। きょう नहीं है कर्म यहाँ।",
-        "で": "で क्रिया का स्थान या साधन सूचित करता है — यह वाक्य के विषय-सूचक के रूप में उपयुक्त नहीं है।"
+        "で": "で क्रिया का स्थान या साधन सूचित करता है: यह वाक्य के विषय-सूचक के रूप में उपयुक्त नहीं है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -266,12 +266,12 @@
       },
       "high_confusion": true,
       "difficulty": 2,
-      "explanation_hi": "प्रश्न-शब्द (कौन/क्या) हमेशा が लेते हैं, は नहीं — क्योंकि नई जानकारी पूछ रहे हैं।",
+      "explanation_hi": "प्रश्न-शब्द (कौन/क्या) हमेशा が लेते हैं, は नहीं, क्योंकि नई जानकारी पूछ रहे हैं।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "は": "प्रश्न-शब्द (कौन/क्या) के लिए は कभी नहीं — हमेशा が।",
+        "は": "प्रश्न-शब्द (कौन/क्या) के लिए は कभी नहीं: हमेशा が।",
         "を": "को प्रत्यक्ष-कर्म चिह्नक नहीं, कर्ता-प्रश्न-शब्द के साथ。",
-        "に": "न समय/स्थान — प्रश्न-शब्द के साथ ग़लत।"
+        "に": "न समय/स्थान: प्रश्न-शब्द के साथ ग़लत।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -303,8 +303,8 @@
       "explanation_hi": "X が すき = \"X पसंद है\"। पसंद-वाली चीज़ हमेशा が से चिह्नित।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "は": "は विरोधी अर्थ देगा — \"बिल्ली के बारे में पसंद, पर...\" (N3+ बारीक़ी)।",
-        "を": "を सकर्मक-क्रिया कर्म; すき भावना है, क्रिया नहीं — を अनुपयुक्त।",
+        "は": "は विरोधी अर्थ देगा: \"बिल्ली के बारे में पसंद, पर...\" (N3+ बारीक़ी)।",
+        "を": "を सकर्मक-क्रिया कर्म; すき भावना है, क्रिया नहीं: を अनुपयुक्त।",
         "に": "に प्राप्तकर्ता/समय; पसंद-वस्तु नहीं चिह्नित।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -337,7 +337,7 @@
       "explanation_hi": "を सकर्मक क्रिया का प्रत्यक्ष कर्म चिह्नित करता है। ほんを よみます = \"किताब पढ़ता हूँ\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "は": "は विरोधी अर्थ (\"किताबों के बारे में पढ़ता हूँ, पर...\") — सादे कथन से मेल नहीं।",
+        "は": "は विरोधी अर्थ (\"किताबों के बारे में पढ़ता हूँ, पर...\"): सादे कथन से मेल नहीं।",
         "が": "が कर्ता-चिह्नक; \"पढ़ना\" का कर्म は नहीं が से चिह्नित नहीं होता।",
         "に": "に प्राप्तकर्ता; पढ़ी-जा-रही-वस्तु में फिट नहीं।"
       },
@@ -367,7 +367,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "を कर्म-सूचक। यहाँ なに खरीदी जाने वाली चीज़ — かう का कर्म।",
+      "explanation_hi": "を कर्म-सूचक। यहाँ なに खरीदी जाने वाली चीज़: かう का कर्म।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "प्रश्न शब्द なに पूछने के लिए नया जानकारी नहीं होगा लेना は (जो सूचित करता है ज्ञात विषय)।",
@@ -403,9 +403,9 @@
       "explanation_hi": "に विशिष्ट घड़ी/कैलेंडर समय (7時に, げつようびに, 4月に) चिह्नित करता है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान/साधन — विशिष्ट समय के साथ नहीं।",
+        "で": "で क्रिया-स्थान/साधन: विशिष्ट समय के साथ नहीं।",
         "へ": "へ सूचित करता है गति का गंतव्य - यहाँ फ़िट नहीं समय।",
-        "と": "と साथी/उद्धरण — समय-बिंदु के साथ नहीं।"
+        "と": "と साथी/उद्धरण: समय-बिंदु के साथ नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -433,7 +433,7 @@
       },
       "high_confusion": true,
       "difficulty": 2,
-      "explanation_hi": "अस्तित्व-स्थान (ある/いる के साथ) に लेता है, で नहीं। बिल्ली कमरे में \"है\" — स्थैतिक — इसलिए に।",
+      "explanation_hi": "अस्तित्व-स्थान (ある/いる के साथ) に लेता है, で नहीं। बिल्ली कमरे में \"है\", स्थैतिक, इसलिए に।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "で": "सामान्य ग़लती। で है के लिए क्रिया का स्थान (जहाँ आप करना कुछ)। के लिए अस्तित्व (います／あります), प्रयोग に।",
@@ -466,7 +466,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "へ गति-दिशा सूचक — गंतव्य की ओर। に भी सही है पर विकल्पों में へ।",
+      "explanation_hi": "へ गति-दिशा सूचक: गंतव्य की ओर। に भी सही है पर विकल्पों में へ।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "で": "で है क्रिया का स्थान, नहीं गति का गंतव्य।",
@@ -537,8 +537,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "に": "सामान्य ग़लती। に अस्तित्व-स्थान (ある/いる के साथ) सूचित करता है। पढ़ाई जैसी क्रियाओं के लिए で लगता है।",
-        "へ": "へ गति का गंतव्य सूचित करता है — \"पुस्तकालय में पढ़ाई करना\" के लिए फिट नहीं।",
-        "を": "を सीधा कर्म या रास्ता सूचित करता है — क्रिया का स्थान बताने के लिए नहीं।"
+        "へ": "へ गति का गंतव्य सूचित करता है: \"पुस्तकालय में पढ़ाई करना\" के लिए फिट नहीं।",
+        "を": "を सीधा कर्म या रास्ता सूचित करता है: क्रिया का स्थान बताने के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -603,7 +603,7 @@
       "explanation_hi": "と साथी / सह-कर्ता सूचक। स्पष्ट गंतव्य (こうえんへ) के साथ ともだちと का अर्थ \"दोस्त के साथ\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "に": "に गंतव्य सूचित करता (\"दोस्त के पास गए\"), पर गंतव्य-स्थान पहले से こうえんへ से भरा है। तो ともだち__ यहाँ साथी सूचित करना चाहिए — यह भूमिका と लेता है।",
+        "に": "に गंतव्य सूचित करता (\"दोस्त के पास गए\"), पर गंतव्य-स्थान पहले से こうえんへ से भरा है। तो ともだち__ यहाँ साथी सूचित करना चाहिए: यह भूमिका と लेता है।",
         "で": "で क्रिया का स्थान या साधन/उपकरण सूचित करता है। वक्ता के साथ क्रिया करने वाले व्यक्ति के लिए नहीं।",
         "を": "を सीधा कर्म (या गति-क्रिया के साथ रास्ता) सूचित करता है। क्रिया में सम्मिलित व्यक्ति न तो कर्म है न रास्ता।"
       },
@@ -633,11 +633,11 @@
       },
       "high_confusion": false,
       "difficulty": 2,
-      "explanation_hi": "と उद्धरण-सूचक — いう (कहना), おもう (सोचना) से पहले हमेशा と, を कभी नहीं।",
+      "explanation_hi": "と उद्धरण-सूचक: いう (कहना), おもう (सोचना) से पहले हमेशा と, を कभी नहीं।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "は": "は विषय-सूचक है — दो संज्ञाओं को सूची में नहीं जोड़ता।",
-        "を": "を सीधा कर्म सूचित करता है — सूची-जोड़क नहीं।",
+        "は": "は विषय-सूचक है: दो संज्ञाओं को सूची में नहीं जोड़ता।",
+        "を": "を सीधा कर्म सूचित करता है: सूची-जोड़क नहीं।",
         "に": "に प्राप्तकर्ता; उद्धरण नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -671,7 +671,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "は विषय-सूचक है। समय को प्रारंभ/अंत-बिंदु के रूप में नहीं चिह्नित कर सकता।",
-        "まで": "まで अंत-बिंदु (\"तक\") सूचित करता है। はじまる (\"शुरू होना\") के साथ अंत-बिंदु फिट नहीं — प्रारंभ-क्रियाएँ から के साथ जुड़ती हैं।",
+        "まで": "まで अंत-बिंदु (\"तक\") सूचित करता है। はじまる (\"शुरू होना\") के साथ अंत-बिंदु फिट नहीं: प्रारंभ-क्रियाएँ から के साथ जुड़ती हैं।",
         "に": "に विशिष्ट समय-बिंदु सूचित करता है (\"9 बजे\"), श्रेणी का प्रारंभ नहीं। はじまる के साथ प्रारंभ-बिंदु को सूचित करना है, इसलिए から स्वाभाविक है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -703,9 +703,9 @@
       "explanation_hi": "खंड के बाद から = \"क्योंकि\"। कारण पहले, परिणाम बाद। い-विशेषण सीधे から लेते हैं।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "で": "で स्थान/साधन सूचित करता है — कारण को परिणाम से जोड़ने के लिए नहीं।",
+        "で": "で स्थान/साधन सूचित करता है: कारण को परिणाम से जोड़ने के लिए नहीं।",
         "と": "と साथी; कारण-संबंधक नहीं।",
-        "に": "に समय/स्थान/प्राप्तकर्ता सूचित करता है — कारण नहीं जोड़ता।"
+        "に": "に समय/स्थान/प्राप्तकर्ता सूचित करता है: कारण नहीं जोड़ता।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -767,7 +767,7 @@
       },
       "high_confusion": false,
       "difficulty": 2,
-      "explanation_hi": "まで रास्ते के अंत को भी चिह्नित — \"बिल्कुल घर तक\"। へ केवल दिशा।",
+      "explanation_hi": "まで रास्ते के अंत को भी चिह्नित: \"बिल्कुल घर तक\"। へ केवल दिशा।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "で": "で है क्रिया का स्थान - नहीं सूचित करता है रास्ता's end।",
@@ -796,17 +796,17 @@
       "distractor_explanations": {
         "は": "は marks the topic - doesn't list items.",
         "で": "で marks location / means - not for listing nouns.",
-        "へ": "へ marks direction toward — not what fits here."
+        "へ": "へ marks direction toward, not what fits here."
       },
       "high_confusion": true,
       "difficulty": 2,
       "auto": false,
-      "explanation_hi": "や आंशिक-सूची सूचक, など (इत्यादि) के साथ युग्म। と \"केवल ये\" का अर्थ देगा — विरोधी।",
+      "explanation_hi": "や आंशिक-सूची सूचक, など (इत्यादि) के साथ युग्म। と \"केवल ये\" का अर्थ देगा: विरोधी।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "は": "は विषय सूचित करता है — सूची-जोड़क नहीं।",
-        "で": "で स्थान/साधन सूचित करता है — संज्ञाओं की सूची बनाने के लिए नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।"
+        "は": "は विषय सूचित करता है: सूची-जोड़क नहीं।",
+        "で": "で स्थान/साधन सूचित करता है: संज्ञाओं की सूची बनाने के लिए नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_native_reviewer_2026_05_24",
@@ -840,9 +840,9 @@
       "explanation_hi": "や आंशिक-सूची सूचक जब \"और भी\" अर्थित (यहाँ いろいろです से पुष्ट)।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "と": "と \"केवल X और Y\" अर्थ देता है — いろいろです (\"विविध\") से विरोधाभास।",
+        "と": "と \"केवल X और Y\" अर्थ देता है: いろいろです (\"विविध\") से विरोधाभास।",
         "は": "は दो संज्ञाओं को सूची में नहीं जोड़ता।",
-        "で": "で स्थान/साधन है — सूची के लिए ग़लत।"
+        "で": "で स्थान/साधन है: सूची के लिए ग़लत।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -870,7 +870,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "B का \"हाँ, छात्र हूँ\" उत्तर तभी, जब ने हाँ/ना प्रश्न पूछा — इसलिए か (प्रश्न-सूचक)।",
+      "explanation_hi": "B का \"हाँ, छात्र हूँ\" उत्तर तभी, जब ने हाँ/ना प्रश्न पूछा: इसलिए か (प्रश्न-सूचक)।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "ね": "ね पुष्टि माँगता है, हाँ/ना नहीं।",
@@ -908,7 +908,7 @@
       "distractor_explanations_hi": {
         "と": "と \"और\" (पूर्ण) है, \"या\" नहीं।",
         "や": "や \"और\" (आंशिक सूची) है, \"या\" नहीं।",
-        "は": "は विषय सूचित करता है — विकल्पों को नहीं जोड़ता।"
+        "は": "は विषय सूचित करता है: विकल्पों को नहीं जोड़ता।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -941,8 +941,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "は \"मैं\" को विषय बना देगा पर \"भी\" का भाव खो जाएगा। 田中さん के पहले ही छात्र होने का उल्लेख है, इसलिए स्वाभाविक जोड़क も है (\"मैं भी\")।",
-        "が": "が वक्ता को केंद्रित/चयनित कर्ता बना देगा (\"मैं ही छात्र हूँ\") — जो योगात्मक संदर्भ के विपरीत है।",
-        "を": "を सकर्मक क्रिया का सीधा कर्म सूचित करता है। がくせい संज्ञा-विधेय है, कर्म नहीं — यहाँ を फिट नहीं।"
+        "が": "が वक्ता को केंद्रित/चयनित कर्ता बना देगा (\"मैं ही छात्र हूँ\"), जो योगात्मक संदर्भ के विपरीत है।",
+        "を": "を सकर्मक क्रिया का सीधा कर्म सूचित करता है। がくせい संज्ञा-विधेय है, कर्म नहीं: यहाँ を फिट नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -962,7 +962,7 @@
         "へ"
       ],
       "correctAnswer": "も",
-      "explanation_en": "Only も is the natural answer here. Replaced が (would yield \"Who didn't come?\" — also grammatically valid) with へ (direction particle, semantically wrong for subject-of-arrival).",
+      "explanation_en": "Only も is the natural answer here. Replaced が (would yield \"Who didn't come?\": also grammatically valid) with へ (direction particle, semantically wrong for subject-of-arrival).",
       "distractor_explanations": {
         "を": "来る is intransitive; だれを来る is ungrammatical.",
         "に": "に would mark a direction/target; だれに 来る is unusual.",
@@ -982,7 +982,7 @@
       "review_status_provenance": "claude_native_reviewer_persona",
       "provenance": "auto_fix_2026_05_25",
       "audit_wave": "claude_audit_2026_05_25",
-      "reviewer_note": "Replaced が (would yield \"Who didn't come?\" — also grammatically valid) with へ (direction particle, semantically wrong for subject-of-arrival)."
+      "reviewer_note": "Replaced が (would yield \"Who didn't come?\": also grammatically valid) with へ (direction particle, semantically wrong for subject-of-arrival)."
     },
     {
       "id": "q-0028",
@@ -1011,7 +1011,7 @@
       "distractor_explanations_hi": {
         "それ": "それ श्रोता के पास की वस्तुओं के लिए है। किताब वक्ता के हाथ में है, श्रोता के नहीं।",
         "あれ": "あれ दोनों वक्ताओं से दूर वस्तुओं के लिए है। किताब वक्ता के अपने हाथ में है।",
-        "どれ": "どれ \"इनमें से कौन सा?\" पूछता है। यह वाक्य एक विशिष्ट किताब के बारे में हाँ/नहीं प्रश्न है — कई विकल्पों में से चुनाव नहीं।"
+        "どれ": "どれ \"इनमें से कौन सा?\" पूछता है। यह वाक्य एक विशिष्ट किताब के बारे में हाँ/नहीं प्रश्न है: कई विकल्पों में से चुनाव नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1075,9 +1075,9 @@
       "explanation_hi": "संज्ञा से सीधे पहले この का प्रयोग। これ अकेला सर्वनाम; この + संज्ञा = \"यह + संज्ञा\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "これ": "これ अकेला खड़ा होता है — किसी संज्ञा से पहले नहीं आता।",
-        "これの": "これの ほん ग़लत है — \"का\" वाला संबंध この में पहले से समाहित है। सीधे この का प्रयोग करें।",
-        "これは": "これは ほんを よみました = \"इसके बारे में बात करें तो, मैंने किताब पढ़ी\" — व्याकरणिक है, पर अलग अर्थ।"
+        "これ": "これ अकेला खड़ा होता है: किसी संज्ञा से पहले नहीं आता।",
+        "これの": "これの ほん ग़लत है: \"का\" वाला संबंध この में पहले से समाहित है। सीधे この का प्रयोग करें।",
+        "これは": "これは ほんを よみました = \"इसके बारे में बात करें तो, मैंने किताब पढ़ी\": व्याकरणिक है, पर अलग अर्थ।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1108,8 +1108,8 @@
       "explanation_hi": "ここ बोलने वाले की वर्तमान स्थिति। \"मेरा घर यहाँ है\" = ここ।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "あれ": "あれ अकेला खड़ा होता है — संज्ञा से पहले あの से बदलना ज़रूरी है।",
-        "あれの": "あれの くるま अव्याकरणिक है — \"का\" संबंध あの में पहले से समाहित है।",
+        "あれ": "あれ अकेला खड़ा होता है: संज्ञा से पहले あの से बदलना ज़रूरी है।",
+        "あれの": "あれの くるま अव्याकरणिक है: \"का\" संबंध あの में पहले से समाहित है।",
         "あれは": "あれは くるまは = दोहरा विषय, ग़लत। あの くるまは का प्रयोग करें।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -1138,10 +1138,10 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "こちら \"इस तरफ़\" — आदर-रूप, मेज़बान आगंतुक को बुलाते समय: こちらへ どうぞ।",
+      "explanation_hi": "こちら \"इस तरफ़\", आदर-रूप, मेज़बान आगंतुक को बुलाते समय: こちらへ どうぞ।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "これ": "これ वस्तु/कर्म को संदर्भित करता है (जैसे これは本です = यह किताब है), जगह को नहीं। वाक्य कमरे की पुस्तकालय के रूप में पहचान करता है — जगह-सर्वनाम चाहिए।",
+        "これ": "これ वस्तु/कर्म को संदर्भित करता है (जैसे これは本です = यह किताब है), जगह को नहीं। वाक्य कमरे की पुस्तकालय के रूप में पहचान करता है: जगह-सर्वनाम चाहिए।",
         "この": "この के बाद संज्ञा आना ज़रूरी है (この本, この人)। यह は से पहले अकेला नहीं रह सकता।",
         "それ": "それ श्रोता के पास की वस्तु को संदर्भित करता है। वाक्य आपके आगमन-स्थल को बता रहा है, वस्तु को नहीं।"
       },
@@ -1171,7 +1171,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "どんな + संज्ञा = \"किस प्रकार का X?\" — मनोरंजन-शैली पूछ रहे हैं।",
+      "explanation_hi": "どんな + संज्ञा = \"किस प्रकार का X?\": मनोरंजन-शैली पूछ रहे हैं।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "これ": "これ है कर्म सर्वनाम, नहीं स्थान।",
@@ -1244,7 +1244,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "なに": "なに です से पहले ग़लत है। उच्चारण इस स्थिति में हमेशा なん में बदल जाता है।",
-        "どれ": "どれ \"कौन सा?\" पूछता है — दिख रहे विकल्प चाहिए।",
+        "どれ": "どれ \"कौन सा?\" पूछता है: दिख रहे विकल्प चाहिए।",
         "だれ": "だれ \"कौन?\" पूछता है, \"क्या?\" नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -1267,7 +1267,7 @@
       "correctAnswer": "だれ",
       "explanation_en": "Only だれ is the natural answer here. Replaced なに (also valid for non-person subject \"what came\") with semantically-impossible Q-words.",
       "distractor_explanations": {
-        "どこ": "\"Which place came\" — semantically odd.",
+        "どこ": "\"Which place came\": semantically odd.",
         "いつ": "いつ takes no particle; いつが is ungrammatical.",
         "どう": "どう asks for manner; doesn't fit subject slot before が."
       },
@@ -1276,7 +1276,7 @@
       "explanation_hi": "だれ = \"कौन\" (अनौपचारिक)। どなた = आदर-रूप।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "どこ": "\"कौन-सी जगह आई\" — अर्थहीन।",
+        "どこ": "\"कौन-सी जगह आई\": अर्थहीन।",
         "いつ": "いつ के साथ कण नहीं आता; いつが व्याकरण-सम्मत नहीं।",
         "どう": "どう \"कैसे\" पूछता है; が से पहले विषय-स्लॉट में नहीं आता।"
       },
@@ -1333,7 +1333,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "どこ = \"कहाँ\" — स्थान पूछता है।",
+      "explanation_hi": "どこ = \"कहाँ\": स्थान पूछता है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "どこ": "どこ पूछता है 'जहाँ?'।",
@@ -1366,7 +1366,7 @@
       },
       "high_confusion": true,
       "difficulty": 2,
-      "explanation_hi": "どれ \"कौन सा\" — कई विकल्पों में से चुनाव।",
+      "explanation_hi": "どれ \"कौन सा\": कई विकल्पों में से चुनाव।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "どこ": "どこまで = 'कैसे दूर?' / 'up को जहाँ?' - सम्भव पर संदर्भ (やすみ = holiday) है समय, नहीं जगह।",
@@ -1398,7 +1398,7 @@
       ],
       "explanation_en": "Time word first (まいにち), then the noun phrase with の linking (にほんごの ほん), then the direct-object marker を, then the verb (べんきょうします).",
       "difficulty": 1,
-      "explanation_hi": "どう/いかが = \"कैसा है?\" — स्थिति/मत/प्रस्ताव पूछता है। いかが अधिक विनम्र।",
+      "explanation_hi": "どう/いかが = \"कैसा है?\": स्थिति/मत/प्रस्ताव पूछता है। いかが अधिक विनम्र।",
       "explanation_hi_provenance": "native_reviewed"
     },
     {
@@ -1427,8 +1427,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "が ... が": "が कर्ता/नई जानकारी सूचित करता है, विरोधाभास नहीं।",
-        "は ... が": "は और が मिलाने से समानांतरता टूट जाती है — दोनों विरोधाभासी विषय は लेते हैं।",
-        "を ... を": "を सीधा कर्म सूचित करता है, पर すき が लेता है, を नहीं — और विरोधाभास के लिए は का प्रयोग होता है।"
+        "は ... が": "は और が मिलाने से समानांतरता टूट जाती है: दोनों विरोधाभासी विषय は लेते हैं।",
+        "を ... を": "を सीधा कर्म सूचित करता है, पर すき が लेता है, を नहीं, और विरोधाभास के लिए は का प्रयोग होता है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1460,8 +1460,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "は नकारात्मक विरोधाभास के साथ आ सकता था (\"अंग्रेज़ी मुझे नहीं आती, पर...\"), पर できる के साथ अचिह्नित उत्तर が है।",
-        "を": "सामान्य ग़लती। स्थिर विधेय (できる, わかる, すき) が लेते हैं, を कभी नहीं — भले ही अंग्रेज़ी \"I can DO X\" में X को कर्म मानती है।",
-        "に": "に प्राप्तकर्ता/स्थान/समय सूचित करता है — \"जो काम कोई कर सकता है\" के लिए फिट नहीं।"
+        "を": "सामान्य ग़लती। स्थिर विधेय (できる, わかる, すき) が लेते हैं, を कभी नहीं: भले ही अंग्रेज़ी \"I can DO X\" में X को कर्म मानती है।",
+        "に": "に प्राप्तकर्ता/स्थान/समय सूचित करता है, \"जो काम कोई कर सकता है\" के लिए फिट नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1492,8 +1492,8 @@
       "explanation_hi": "いくら = \"कितना\" (मूल्य पूछता है)।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "で": "で क्रिया का स्थान सूचित करता है — यहाँ संभव है पर \"रास्ते से होकर\" की बारीकी खो जाती है।",
-        "に": "に पहुँचने का गंतव्य सूचित करता है — रास्ते भर के निरंतर टहलने के लिए फिट नहीं।",
+        "で": "で क्रिया का स्थान सूचित करता है: यहाँ संभव है पर \"रास्ते से होकर\" की बारीकी खो जाती है।",
+        "に": "に पहुँचने का गंतव्य सूचित करता है: रास्ते भर के निरंतर टहलने के लिए फिट नहीं।",
         "へ": "へ \"की ओर\" दिशा सूचित करता है, \"के माध्यम से\" नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -1526,9 +1526,9 @@
       "explanation_hi": "いくつ = \"कितने\" (देसी काउंटर/उम्र)।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "を": "を सीधा कर्म सूचित करता है — पर でんわを पहले से उस स्थान को भर रहा है। かける का प्राप्तकर्ता अलग कण (に) लेता है।",
+        "を": "を सीधा कर्म सूचित करता है, पर でんわを पहले से उस स्थान को भर रहा है। かける का प्राप्तकर्ता अलग कण (に) लेता है।",
         "で": "で क्रिया का स्थान या साधन/उपकरण सूचित करता है। फ़ोन कॉल के प्राप्तकर्ता को नहीं चिह्नित कर सकता।",
-        "と": "と \"के साथ (मिलकर बात की)\" अर्थ देता — यह बारीकी でんわを する के साथ जुड़ती है, かける के साथ नहीं। चूँकि क्रिया かけました (\"कॉल किया\") है, प्राप्तकर्ता に लेता है।"
+        "と": "と \"के साथ (मिलकर बात की)\" अर्थ देता: यह बारीकी でんわを する के साथ जुड़ती है, かける के साथ नहीं। चूँकि क्रिया かけました (\"कॉल किया\") है, प्राप्तकर्ता に लेता है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1560,8 +1560,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "を": "を सीधा कर्म सूचित करता है। えんぴつ यहाँ साधन है, लिखी जा रही वस्तु नहीं।",
-        "に": "に प्राप्तकर्ता/स्थान/समय सूचित करता है — उपकरण के लिए फिट नहीं।",
-        "と": "と \"के साथ\" (साथी, व्यक्ति) अर्थ देता है — \"के साथ\" (उपकरण) के लिए नहीं।"
+        "に": "に प्राप्तकर्ता/स्थान/समय सूचित करता है: उपकरण के लिए फिट नहीं।",
+        "と": "と \"के साथ\" (साथी, व्यक्ति) अर्थ देता है: \"के साथ\" (उपकरण) के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1614,9 +1614,9 @@
       "explanation_hi": "なんがつなんにち = \"कौन सा महीना, कौन सी तारीख़\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "まで ... から": "उल्टा क्रम — \"9 तक, 5 से\" असंगत है।",
+        "まで ... から": "उल्टा क्रम: \"9 तक, 5 से\" असंगत है।",
         "に ... に": "に विशिष्ट समय-बिंदु सूचित करता है, श्रेणी के अंत-बिंदु नहीं।",
-        "は ... は": "は विषय सूचित करता है — यहाँ बिल्कुल ग़लत भूमिका।"
+        "は ... は": "は विषय सूचित करता है: यहाँ बिल्कुल ग़लत भूमिका।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1680,8 +1680,8 @@
       "explanation_hi": "क्रिया + ません = विनम्र वर्तमान-नकारात्मक। 食べません = \"नहीं खाता\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "これ": "これ वक्ता के पास की वस्तुओं के लिए है — पर प्रश्न श्रोता के पास की वस्तु पर बदलता है।",
-        "あれ": "あれ दोनों वक्ताओं से दूर — ग़लत दूरी।",
+        "これ": "これ वक्ता के पास की वस्तुओं के लिए है, पर प्रश्न श्रोता के पास की वस्तु पर बदलता है।",
+        "あれ": "あれ दोनों वक्ताओं से दूर: ग़लत दूरी।",
         "どれ": "どれ प्रश्न-शब्द है (\"कौन सा?\"), कथन-सर्वनाम नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -1713,9 +1713,9 @@
       "explanation_hi": "क्रिया + ました = विनम्र भूत-सकारात्मक। 食べました = \"खाया\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "なに": "काउंटर से पहले なに ग़लत है — काउंटर हमेशा なん को सक्रिय करते हैं (なんじ, なにじ नहीं)।",
-        "どれ": "どれ \"कौन सा?\" पूछता है — \"कितने बजे?\" नहीं।",
-        "どう": "どう \"कैसे?\" पूछता है — यहाँ ग़लत।"
+        "なに": "काउंटर से पहले なに ग़लत है: काउंटर हमेशा なん को सक्रिय करते हैं (なんじ, なにじ नहीं)।",
+        "どれ": "どれ \"कौन सा?\" पूछता है: \"कितने बजे?\" नहीं।",
+        "どう": "どう \"कैसे?\" पूछता है: यहाँ ग़लत।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -1773,7 +1773,7 @@
       "correctAnswer": "ます",
       "explanation_en": "Habitual present positive: まいにち (every day) + ほんを よみます (I read books). ました/ませんでした are past tense and conflict with the まいにち habitual frame. ながら needs another verb to follow (V-stem + ながら = \"while V-ing\") so it cannot end the sentence.",
       "distractor_explanations": {
-        "ました": "Past tense, but まいにち (every day) frames the sentence as a habit — past doesn't fit.",
+        "ました": "Past tense, but まいにち (every day) frames the sentence as a habit: past doesn't fit.",
         "ませんでした": "Past negative, contradicts まいにち habitual frame.",
         "ながら": "V-stem + ながら means \"while V-ing\" and needs another verb to follow. Cannot end the sentence."
       },
@@ -1809,9 +1809,9 @@
       "correctAnswer": "ます",
       "explanation_en": "Only ます is grammatically valid here. Replaced ますか (still valid as future-question) with でした (V-stem+でした ungrammatical).",
       "distractor_explanations": {
-        "ました": "Past tense — conflicts with the future/invitation context.",
+        "ました": "Past tense: conflicts with the future/invitation context.",
         "でした": "V-stem + でした is ungrammatical (でした only follows nouns or na-adjectives).",
-        "ませんでした": "Past negative — would change the polarity of the statement."
+        "ませんでした": "Past negative: would change the polarity of the statement."
       },
       "high_confusion": false,
       "difficulty": 1,
@@ -1917,7 +1917,7 @@
       "correctAnswer": "ました",
       "explanation_en": "Only ました is grammatically valid here. Added positive-emotion follow-up. Replaced ません/ませんでした (past-polarity ambig) with present-conflict + ungrammatical.",
       "distractor_explanations": {
-        "ます": "Present/future tense — conflicts with the past-tense context.",
+        "ます": "Present/future tense: conflicts with the past-tense context.",
         "でした": "V-stem + でした is ungrammatical (でした only follows nouns or na-adjectives).",
         "ながら": "V-stem + ながら means \"while V-ing\" and needs a following main verb. Cannot end a sentence."
       },
@@ -1959,7 +1959,7 @@
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "けさ (आज सुबह) भूत-काल का संदर्भ देता है — ました का प्रयोग करें।",
+      "explanation_hi": "けさ (आज सुबह) भूत-काल का संदर्भ देता है: ました का प्रयोग करें।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "ます": "भविष्य/वर्तमान; けさ (आज सुबह) भूतकाल है।",
@@ -2062,7 +2062,7 @@
       "correctAnswer": "ましょう",
       "explanation_en": "Only ましょう is grammatically valid here. Replaced ます/ません (also valid in invitation) with past + ungrammatical distractors.",
       "distractor_explanations": {
-        "ました": "Past tense — conflicts with the future/invitation context.",
+        "ました": "Past tense: conflicts with the future/invitation context.",
         "でした": "V-stem + でした is ungrammatical (でした only follows nouns or na-adjectives).",
         "ながら": "V-stem + ながら means \"while V-ing\" and needs a following main verb. Cannot end a sentence."
       },
@@ -2098,13 +2098,13 @@
       "correctAnswer": "ましょう",
       "explanation_en": "Only ましょう is grammatically valid here. Round-2-fixed stem retained. Choices tightened: replaced ます/ません with past + ungrammatical distractors.",
       "distractor_explanations": {
-        "ました": "Past tense — conflicts with the future/invitation context.",
+        "ました": "Past tense: conflicts with the future/invitation context.",
         "でした": "V-stem + でした is ungrammatical (でした only follows nouns or na-adjectives).",
         "ながら": "V-stem + ながら means \"while V-ing\" and needs a following main verb. Cannot end a sentence."
       },
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "\"थोड़ा आराम कर लें\" — ましょう अनौपचारिक सुझाव के लिए।",
+      "explanation_hi": "\"थोड़ा आराम कर लें\": ましょう अनौपचारिक सुझाव के लिए।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_native_reviewer_2026_05_25",
       "review_status_provenance": "claude_native_reviewer_persona",
@@ -2134,13 +2134,13 @@
       "correctAnswer": "ません",
       "explanation_en": "Only ません is grammatically valid here. Replaced ます/ましょう (both valid as ますか/ましょうか) with past-conflict + ungrammatical. ません+か is canonical invitation form.",
       "distractor_explanations": {
-        "ました": "Past tense — conflicts with the future/invitation context.",
+        "ました": "Past tense: conflicts with the future/invitation context.",
         "でした": "V-stem + でした is ungrammatical (でした only follows nouns or na-adjectives).",
         "ながら": "V-stem + ながら means \"while V-ing\" and needs a following main verb. Cannot end a sentence."
       },
       "high_confusion": true,
       "difficulty": 2,
-      "explanation_hi": "ませんか = \"क्या आप ... नहीं?\" / \"चलें?\" — विनम्र आमंत्रण। जापानी में नकारात्मक रूप ही मानक विनम्र निमंत्रण है।",
+      "explanation_hi": "ませんか = \"क्या आप ... नहीं?\" / \"चलें?\": विनम्र आमंत्रण। जापानी में नकारात्मक रूप ही मानक विनम्र निमंत्रण है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "ました": "भूतकाल; भविष्य/निमंत्रण-संदर्भ से टकराता है।",
@@ -2414,8 +2414,8 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "な": "な な-विशेषणों के लिए संज्ञा से पहले है, です से पहले नहीं।",
-        "の": "の संज्ञाओं को जोड़ता है — यहाँ फिट नहीं।",
-        "だ": "だ अनौपचारिक कोपुला है — い-विशेषणों के बाद सीधे कभी नहीं।"
+        "の": "の संज्ञाओं को जोड़ता है: यहाँ फिट नहीं।",
+        "だ": "だ अनौपचारिक कोपुला है: い-विशेषणों के बाद सीधे कभी नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -2481,7 +2481,7 @@
       "distractor_explanations_hi": {
         "い": "い सकारात्मक अंत है।",
         "じゃない": "じゃない संज्ञाओं और な-विशेषणों के लिए है, い-विशेषण के लिए नहीं।",
-        "ない": "केवल ない से काम नहीं चलेगा — くない चाहिए।"
+        "ない": "केवल ない से काम नहीं चलेगा: くない चाहिए।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -2512,9 +2512,9 @@
       "explanation_hi": "हटाना अंतिम い, जोड़ना くない।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "おもしろい": "सकारात्मक — ग़लत ध्रुवता।",
+        "おもしろい": "सकारात्मक: ग़लत ध्रुवता।",
         "おもしろじゃない": "じゃない な-विशेषण/संज्ञाओं के लिए है।",
-        "おもしろな": "ग़लत — おもしろい い-विशेषण है, な-विशेषण नहीं।"
+        "おもしろな": "ग़लत: おもしろい い-विशेषण है, な-विशेषण नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -2579,7 +2579,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "むずかしい": "वर्तमान-काल।",
-        "むずかしいでした": "い के ऊपर でした लगाना ग़लत है — い-विशेषण का अपना भूत-रूप होता है।",
+        "むずかしいでした": "い के ऊपर でした लगाना ग़लत है: い-विशेषण का अपना भूत-रूप होता है।",
         "むずかしくない": "नकारात्मक वर्तमान, भूत नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -2745,7 +2745,7 @@
       "distractor_explanations_hi": {
         "います": "います सजीव वस्तुओं (लोग, जानवर) के लिए है।",
         "です": "です अस्तित्व व्यक्त नहीं करता।",
-        "ます": "अकेला ます — पूर्ण शब्द नहीं।"
+        "ます": "अकेला ます: पूर्ण शब्द नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -2776,9 +2776,9 @@
       "explanation_hi": "भूत-काल का あります है ありました। घटनाएँ प्रयोग あります।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "あります": "वर्तमान-काल — ग़लत काल।",
+        "あります": "वर्तमान-काल: ग़लत काल।",
         "います": "います सजीव वस्तुओं के लिए है; परीक्षा घटना/निर्जीव है।",
-        "いました": "います का भूत — सजीव।"
+        "いました": "います का भूत: सजीव।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -3103,11 +3103,11 @@
       },
       "high_confusion": true,
       "difficulty": 2,
-      "explanation_hi": "けっこんする क्षणिक क्रिया है — ています परिणामी अवस्था व्यक्त करती है (\"विवाहित है\")।",
+      "explanation_hi": "けっこんする क्षणिक क्रिया है: ています परिणामी अवस्था व्यक्त करती है (\"विवाहित है\")।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "します": "सादा वर्तमान का अर्थ \"शादी करेगा\"।",
-        "しました": "भूत — \"शादी हुई\" (घटना)।",
+        "しました": "भूत: \"शादी हुई\" (घटना)।",
         "しません": "नकारात्मक।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -3207,7 +3207,7 @@
       "distractor_explanations_hi": {
         "はなす": "て-रूप चाहिए।",
         "はなした": "た-रूप।",
-        "はなしません": "विनम्र नकारात्मक — ग़लत संरचना।"
+        "はなしません": "विनम्र नकारात्मक: ग़लत संरचना।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -3270,7 +3270,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "とる": "सकारात्मक शब्दकोश रूप।",
-        "とって": "とって — とる का て-रूप; ください के साथ मिलकर विनम्र अनुरोध बनाता है। यहाँ नकारात्मक रूप अपेक्षित है (とらない), अनुरोध नहीं।",
+        "とって": "とって: とる का て-रूप; ください के साथ मिलकर विनम्र अनुरोध बनाता है। यहाँ नकारात्मक रूप अपेक्षित है (とらない), अनुरोध नहीं।",
         "とります": "विनम्र सकारात्मक रूप।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -3303,7 +3303,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "わすれる": "शब्दकोश-रूप।",
-        "わすれて": "てください = कृपया भूल जाओ — विपरीत अर्थ।",
+        "わすれて": "てください = कृपया भूल जाओ: विपरीत अर्थ।",
         "わすれます": "विनम्र सकारात्मक रूप।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed"
@@ -3397,9 +3397,9 @@
       "explanation_hi": "い-विशेषण て-रूप: い हटाओ + くて।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "い": "सकारात्मक अंत — जोड़ता नहीं।",
+        "い": "सकारात्मक अंत: जोड़ता नहीं।",
         "で": "वह な-विशेषण/संज्ञाओं के लिए है।",
-        "かった": "भूत — यहाँ ग़लत।"
+        "かった": "भूत: यहाँ ग़लत।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -3561,7 +3561,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "くなかったです": "い-विशेषण रूप।",
-        "でした": "भूत-सकारात्मक — ग़लत ध्रुवता।",
+        "でした": "भूत-सकारात्मक: ग़लत ध्रुवता।",
         "じゃありません": "वर्तमान, भूत नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -3594,7 +3594,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "くて": "वह い-विशेषण का て-रूप है।",
-        "だ": "सादा कोपुला — इस तरह नहीं जोड़ता।",
+        "だ": "सादा कोपुला: इस तरह नहीं जोड़ता।",
         "な": "संज्ञा से पहले प्रयोग होता है, जोड़ने के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -3661,7 +3661,7 @@
       "distractor_explanations_hi": {
         "あります": "あります निर्जीव वस्तुओं के लिए है।",
         "です": "です अस्तित्व व्यक्त नहीं करता।",
-        "ません": "अकेला ません — क्रिया-तना चाहिए।"
+        "ません": "अकेला ません: क्रिया-तना चाहिए।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -3693,7 +3693,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "ありません": "केवल निर्जीव।",
-        "じゃありません": "कोपुला नकारात्मक — अस्तित्व व्यक्त नहीं करता।",
+        "じゃありません": "कोपुला नकारात्मक: अस्तित्व व्यक्त नहीं करता।",
         "ます": "सकारात्मक।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -3783,18 +3783,18 @@
       "explanation_en": "ね at sentence-end seeks agreement or shared feeling - 'isn't it?', 'right?'. Used when the speaker assumes the listener has the same view.",
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "ね वाक्य-अंत में सहमति/साझा भावना माँगता है — \"है ना?\"। वक्ता मानता है कि श्रोता का भी यही मत है।",
+      "explanation_hi": "ね वाक्य-अंत में सहमति/साझा भावना माँगता है: \"है ना?\"। वक्ता मानता है कि श्रोता का भी यही मत है।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "も": "も means 'also / even' — not what fits here."
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "も": "も means 'also / even', not what fits here."
       },
       "distractor_explanations_hi": {
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।"
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "も": "も 'भी / तक': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -3820,14 +3820,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "など": "など means 'etc. / and so on' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "ぐらい": "ぐらい means 'about / approximately' — not what fits here."
+        "など": "など means 'etc. / and so on', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "ぐらい": "ぐらい means 'about / approximately', not what fits here."
       },
       "distractor_explanations_hi": {
-        "など": "など 'इत्यादि' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "ぐらい": "ぐらい 'लगभग' — यहाँ नहीं फिट।"
+        "など": "など 'इत्यादि': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "ぐらい": "ぐらい 'लगभग': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -3853,14 +3853,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here.",
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "など": "など means 'etc. / and so on' — not what fits here."
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here.",
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "など": "など means 'etc. / and so on', not what fits here."
       },
       "distractor_explanations_hi": {
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।",
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "など": "など 'इत्यादि' — यहाँ नहीं फिट।"
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।",
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "など": "など 'इत्यादि': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -3885,15 +3885,15 @@
       "distractor_explanations": {
         "に": "に marks destinations, recipients, or specific times. It does not mark scope-limitation on a direct object before a transitive verb.",
         "や": "や means 'and (non-exhaustive)' BETWEEN two nouns. It needs a second noun after the blank -  there isn't one here.",
-        "か": "か turns the sentence into a question — not what's required here."
+        "か": "か turns the sentence into a question, not what's required here."
       },
       "auto": false,
       "explanation_hi": "だけ = \"केवल\"। दूसरा वाक्य \"चाय/जूस नहीं पीता\" यह बहिष्कार पुष्ट करता है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "に": "に गंतव्य, प्राप्तकर्ता, या विशिष्ट समय सूचित करता है। सकर्मक क्रिया से पहले सीधे कर्म पर सीमा-निर्धारण नहीं करता।",
-        "や": "や दो संज्ञाओं के बीच \"और (अंशिक)\" है। यह रिक्त-स्थान के बाद दूसरी संज्ञा माँगता है — यहाँ कोई दूसरी नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।"
+        "や": "や दो संज्ञाओं के बीच \"और (अंशिक)\" है। यह रिक्त-स्थान के बाद दूसरी संज्ञा माँगता है: यहाँ कोई दूसरी नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_native_reviewer_2026_05_24",
@@ -3923,14 +3923,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "か": "か turns the sentence into a question — not what's required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "か": "か turns the sentence into a question, not what's required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -3956,14 +3956,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "もの": "もの means 'thing (concrete)' — not what fits here.",
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "もの": "もの means 'thing (concrete)', not what fits here.",
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "もの": "もの 'वस्तु (मूर्त)' — यहाँ नहीं फिट।",
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "もの": "もの 'वस्तु (मूर्त)': यहाँ नहीं फिट।",
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -3989,14 +3989,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ぐらい": "ぐらい means 'about / approximately' — not what fits here.",
-        "から": "から means 'from (origin)' or 'because' — not what fits here.",
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here."
+        "ぐらい": "ぐらい means 'about / approximately', not what fits here.",
+        "から": "から means 'from (origin)' or 'because', not what fits here.",
+        "まで": "まで means 'until / up to (endpoint)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "ぐらい": "ぐらい 'लगभग' — यहाँ नहीं फिट।",
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।",
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।"
+        "ぐらい": "ぐらい 'लगभग': यहाँ नहीं फिट।",
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।",
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4021,14 +4021,14 @@
       "explanation_hi": "いくら मूल्य पूछता है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations": {
-        "だけ": "だけ means 'only / just' — not what fits here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "から": "から means 'from (origin)' or 'because' — not what fits here."
+        "だけ": "だけ means 'only / just', not what fits here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "から": "から means 'from (origin)' or 'because', not what fits here."
       },
       "distractor_explanations_hi": {
-        "だけ": "だけ 'केवल / सिर्फ़' — यहाँ नहीं फिट।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।"
+        "だけ": "だけ 'केवल / सिर्फ़': यहाँ नहीं फिट।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated"
     },
@@ -4053,14 +4053,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "や": "や lists nouns non-exhaustively ('A, B, and others') — not what fits here.",
-        "も": "も means 'also / even' — not what fits here.",
-        "だけ": "だけ means 'only / just' — not what fits here."
+        "や": "や lists nouns non-exhaustively ('A, B, and others'), not what fits here.",
+        "も": "も means 'also / even', not what fits here.",
+        "だけ": "だけ means 'only / just', not what fits here."
       },
       "distractor_explanations_hi": {
-        "や": "や अधूरी-गणना सूची ('A, B, इत्यादि') — यहाँ नहीं फिट।",
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।",
-        "だけ": "だけ 'केवल / सिर्फ़' — यहाँ नहीं फिट।"
+        "や": "や अधूरी-गणना सूची ('A, B, इत्यादि'): यहाँ नहीं फिट।",
+        "も": "も 'भी / तक': यहाँ नहीं फिट।",
+        "だけ": "だけ 'केवल / सिर्फ़': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4086,14 +4086,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "は": "は marks the topic (known information) — does not fit the role required here.",
-        "へ": "へ marks direction toward — not what fits here.",
-        "だけ": "だけ means 'only / just' — not what fits here."
+        "は": "は marks the topic (known information): does not fit the role required here.",
+        "へ": "へ marks direction toward, not what fits here.",
+        "だけ": "だけ means 'only / just', not what fits here."
       },
       "distractor_explanations_hi": {
-        "は": "は विषय (ज्ञात-सूचना) चिह्नक — यहाँ अपेक्षित भूमिका के लिए नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।",
-        "だけ": "だけ 'केवल / सिर्फ़' — यहाँ नहीं फिट।"
+        "は": "は विषय (ज्ञात-सूचना) चिह्नक: यहाँ अपेक्षित भूमिका के लिए नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।",
+        "だけ": "だけ 'केवल / सिर्फ़': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4119,14 +4119,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "から": "から means 'from (origin)' or 'because' — not what fits here.",
-        "も": "も means 'also / even' — not what fits here.",
-        "だけ": "だけ means 'only / just' — not what fits here."
+        "から": "から means 'from (origin)' or 'because', not what fits here.",
+        "も": "も means 'also / even', not what fits here.",
+        "だけ": "だけ means 'only / just', not what fits here."
       },
       "distractor_explanations_hi": {
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।",
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।",
-        "だけ": "だけ 'केवल / सिर्फ़' — यहाँ नहीं फिट।"
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।",
+        "も": "も 'भी / तक': यहाँ नहीं फिट।",
+        "だけ": "だけ 'केवल / सिर्फ़': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4148,18 +4148,18 @@
       "explanation_en": "それから begins a clause to mark sequence - 'after that, next'.",
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "それから खंड शुरू कर क्रम चिह्नित — \"उसके बाद, अगला\"।",
+      "explanation_hi": "それから खंड शुरू कर क्रम चिह्नित: \"उसके बाद, अगला\"।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here.",
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here.",
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।",
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।",
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4185,14 +4185,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "も": "も means 'also / even' — not what fits here.",
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "は": "は marks the topic (known information) — does not fit the role required here."
+        "も": "も means 'also / even', not what fits here.",
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "は": "は marks the topic (known information): does not fit the role required here."
       },
       "distractor_explanations_hi": {
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।",
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "は": "は विषय (ज्ञात-सूचना) चिह्नक — यहाँ अपेक्षित भूमिका के लिए नहीं।"
+        "も": "も 'भी / तक': यहाँ नहीं फिट।",
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "は": "は विषय (ज्ञात-सूचना) चिह्नक: यहाँ अपेक्षित भूमिका के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4218,14 +4218,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "や": "や lists nouns non-exhaustively ('A, B, and others') — not what fits here.",
-        "は": "は marks the topic (known information) — does not fit the role required here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "や": "や lists nouns non-exhaustively ('A, B, and others'), not what fits here.",
+        "は": "は marks the topic (known information): does not fit the role required here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "や": "や अधूरी-गणना सूची ('A, B, इत्यादि') — यहाँ नहीं फिट।",
-        "は": "は विषय (ज्ञात-सूचना) चिह्नक — यहाँ अपेक्षित भूमिका के लिए नहीं।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "や": "や अधूरी-गणना सूची ('A, B, इत्यादि'): यहाँ नहीं फिट।",
+        "は": "は विषय (ज्ञात-सूचना) चिह्नक: यहाँ अपेक्षित भूमिका के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4247,18 +4247,18 @@
       "explanation_en": "が at end of a clause (after です/ます or plain) means 'but' as a softening connector. Often introduces a contrast or extends thought.",
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "खंड के अंत में が (です/ます या सादे के बाद) = \"लेकिन\" — नरम जोड़क।",
+      "explanation_hi": "खंड के अंत में が (です/ます या सादे के बाद) = \"लेकिन\": नरम जोड़क।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "も": "も means 'also / even' — not what fits here."
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "も": "も means 'also / even', not what fits here."
       },
       "distractor_explanations_hi": {
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।"
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "も": "も 'भी / तक': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -4308,7 +4308,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": true,
-      "explanation_hi": "पैटर्न n5-022: और — आंशिक सूची।",
+      "explanation_hi": "पैटर्न n5-022: और, आंशिक सूची।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "ग़लत विकल्प - देखना पैटर्न विवरण।",
@@ -4372,12 +4372,12 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": false,
-      "explanation_hi": "पिछले संदर्भ में कई लोग समान-स्थिति बताए — も उस समूह में वक्ता को शामिल करता है।",
+      "explanation_hi": "पिछले संदर्भ में कई लोग समान-स्थिति बताए: も उस समूह में वक्ता को शामिल करता है।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "は": "は केवल \"मैं\" को विषय बनाएगा, \"भी\" की बारीकी के बिना। संदर्भ कई छात्रों की सूची दे रहा है, इसलिए वक्ता को समूह से जोड़ने वाला योगात्मक も स्वाभाविक है।",
         "が": "が वक्ता को केंद्रित कर्ता बना देगा, जो समावेशी संदर्भ से टकराता है (पिछला वाक्य पहले से अन्य छात्रों के नाम लेता है)।",
-        "を": "を सकर्मक क्रिया का सीधा कर्म सूचित करता है। がくせい कोपुला-वाक्य का संज्ञा-विधेय है — यहाँ を व्याकरणिक रूप से असम्भव है।"
+        "を": "を सकर्मक क्रिया का सीधा कर्म सूचित करता है। がくせい कोपुला-वाक्य का संज्ञा-विधेय है: यहाँ を व्याकरणिक रूप से असम्भव है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -4406,7 +4406,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": true,
-      "explanation_hi": "पैटर्न n5-035: ぐらい/くらい — मात्राओं के साथ \"लगभग\"।",
+      "explanation_hi": "पैटर्न n5-035: ぐらい/くらい, मात्राओं के साथ \"लगभग\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "くらい": "ग़लत विकल्प - देखना पैटर्न विवरण।",
@@ -4438,11 +4438,11 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": false,
-      "explanation_hi": "वक्ता वस्तु पकड़े है तो これ (\"यह\" — वक्ता के पास)।",
+      "explanation_hi": "वक्ता वस्तु पकड़े है तो これ (\"यह\": वक्ता के पास)।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "それ": "それ श्रोता के पास की वस्तुओं के लिए है। यहाँ वक्ता अपने हाथ में किताब पकड़े है, इसलिए これ (वक्ता के पास) सही है।",
-        "あれ": "あれ दोनों — वक्ता और श्रोता — से दूर वस्तुओं के लिए है। किताब वक्ता के अपने हाथ में है, इसलिए これ का प्रयोग करें।",
+        "あれ": "あれ दोनों, वक्ता और श्रोता, से दूर वस्तुओं के लिए है। किताब वक्ता के अपने हाथ में है, इसलिए これ का प्रयोग करें।",
         "どれ": "どれ प्रश्न-शब्द \"कौन सा?\" है। वक्ता कथन कह रहा है, पूछ नहीं रहा।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -4472,7 +4472,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": false,
-      "explanation_hi": "こちら (\"इस तरफ़\") — मेज़बान आमंत्रित करते हुए। こちらへ どうぞ।",
+      "explanation_hi": "こちら (\"इस तरफ़\"): मेज़बान आमंत्रित करते हुए। こちらへ どうぞ।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "そちら": "そちら श्रोता की ओर इशारा करता है। वक्ता मेहमान को अपनी ओर बुला रहा है, उन्हें दूर नहीं कर रहा।",
@@ -4506,7 +4506,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": true,
-      "explanation_hi": "पैटर्न n5-043: こんな/そんな/あんな/どんな + संज्ञा — \"इस/उस प्रकार का\"।",
+      "explanation_hi": "पैटर्न n5-043: こんな/そんな/あんな/どんな + संज्ञा, \"इस/उस प्रकार का\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "こんな": "ग़लत विकल्प - देखना पैटर्न विवरण।",
@@ -4538,7 +4538,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": true,
-      "explanation_hi": "पैटर्न n5-044: こう/そう/ああ/どう — \"इस/उस तरह/कैसे\"।",
+      "explanation_hi": "पैटर्न n5-044: こう/そう/ああ/どう, \"इस/उस तरह/कैसे\"।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "そう": "ग़लत विकल्प - देखना पैटर्न विवरण।",
@@ -4621,7 +4621,7 @@
       "type": "mcq",
       "direction": "j_to_e",
       "prompt_ja": "（ ）に いれる ことばを えらんで ください。",
-      "question_ja": "おしごとは（　）ですか。 — たのしいです。",
+      "question_ja": "「おしごとは（　）ですか。」「たのしいです。」",
       "choices": [
         "どう",
         "だれ",
@@ -4629,7 +4629,7 @@
         "なぜ"
       ],
       "correctAnswer": "どう",
-      "explanation_en": "Only どう is the natural answer here. Added \"— たのしいです。\" reply-hint to lock \"how\" (asking about quality). Replaced いつ/どこ (also valid info-type questions) with semantically-impossible Q-words.",
+      "explanation_en": "Only どう is the natural answer here. Added \": たのしいです。\" reply-hint to lock \"how\" (asking about quality). Replaced いつ/どこ (also valid info-type questions) with semantically-impossible Q-words.",
       "distractor_explanations": {
         "だれ": "だれ asks for a person; work isn't a person.",
         "どんな": "どんな needs a following noun; どんなですか is incomplete.",
@@ -4638,7 +4638,7 @@
       "high_confusion": false,
       "difficulty": 1,
       "auto": true,
-      "explanation_hi": "काम कैसा है? — どう (कैसा) सबसे प्राकृतिक प्रश्न-शब्द।",
+      "explanation_hi": "काम कैसा है? どう (कैसा) सबसे प्राकृतिक प्रश्न-शब्द।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "だれ": "だれ व्यक्ति पूछता है; काम व्यक्ति नहीं।",
@@ -4650,7 +4650,7 @@
       "review_status_provenance": "claude_native_reviewer_persona",
       "provenance": "auto_fix_2026_05_25",
       "audit_wave": "claude_audit_2026_05_25",
-      "reviewer_note": "Added \"— たのしいです。\" reply-hint to lock \"how\" (asking about quality). Replaced いつ/どこ (also valid info-type questions) with semantically-impossible Q-words."
+      "reviewer_note": "Added \": たのしいです。\" reply-hint to lock \"how\" (asking about quality). Replaced いつ/どこ (also valid info-type questions) with semantically-impossible Q-words."
     },
     {
       "id": "q-0434",
@@ -4961,7 +4961,7 @@
       "explanation_en": "Time particle に. Specific clock-times take に. Note: relative time words like きょう / あした do NOT take に; only specific times, dates, days do.",
       "high_confusion": false,
       "difficulty": 1,
-      "explanation_hi": "समय-सूचक に — विशिष्ट घड़ी-समय। きょう/あした जैसे सापेक्ष शब्द に नहीं लेते।",
+      "explanation_hi": "समय-सूचक に: विशिष्ट घड़ी-समय। きょう/あした जैसे सापेक्ष शब्द に नहीं लेते।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -5278,7 +5278,7 @@
       "explanation_en": "Companion と (with friend), object を (saw a movie), location-of-action で (at the cafe), object を (drank coffee). All four particles in a connected narrative: distinguishes companion-と from subject-が, location-で from time-に, and reinforces を for direct objects.",
       "high_confusion": true,
       "difficulty": 3,
-      "explanation_hi": "साथी と + कर्म を + क्रिया-स्थान で — एक जुड़े वर्णन में चार कण।",
+      "explanation_hi": "साथी と + कर्म を + क्रिया-स्थान で: एक जुड़े वर्णन में चार कण।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
@@ -5707,7 +5707,7 @@
       "explanation_en": "たくさん = いっぱい (a lot, plenty). Both adverbs of quantity meaning 'a large amount'.",
       "high_confusion": false,
       "difficulty": 2,
-      "explanation_hi": "たくさん = いっぱい (बहुत, ख़ूब)। दोनों मात्रा-सूचक क्रियाविशेषण हैं — \"बड़ी मात्रा\" का अर्थ देते हैं।",
+      "explanation_hi": "たくさん = いっぱい (बहुत, ख़ूब)। दोनों मात्रा-सूचक क्रियाविशेषण हैं: \"बड़ी मात्रा\" का अर्थ देते हैं।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
@@ -5850,7 +5850,7 @@
       "distractor_explanations_hi": {
         "を": "を पहले से ही プレゼント (दी जाने वाली वस्तु) सूचित कर रहा है। あげる एक を कर्म के लिए लेता है, दो नहीं। प्राप्तकर्ता-स्थान に लेता है।",
         "へ": "へ गति-क्रियाओं का गंतव्य सूचित करता है (जैसे, がっこうへ いく)। देने/लेने की क्रियाओं के प्राप्तकर्ता के लिए に का प्रयोग करें।",
-        "から": "から क्रिया का स्रोत सूचित करता है (\"से\")। \"दोस्त から\" का अर्थ होगा कि दोस्त ने मुझे कुछ दिया — あげる के विपरीत दिशा। \"किसको\" के लिए に।"
+        "から": "から क्रिया का स्रोत सूचित करता है (\"से\")। \"दोस्त から\" का अर्थ होगा कि दोस्त ने मुझे कुछ दिया: あげる के विपरीत दिशा। \"किसको\" के लिए に।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -5913,7 +5913,7 @@
       "high_confusion": false,
       "difficulty": 2,
       "auto": false,
-      "explanation_hi": "から स्रोत — जिस व्यक्ति से प्राप्त हुआ। पैटर्न: [प्राप्तकर्ता] は [स्रोत] から [वस्तु] を もらう।",
+      "explanation_hi": "から स्रोत: जिस व्यक्ति से प्राप्त हुआ। पैटर्न: [प्राप्तकर्ता] は [स्रोत] から [वस्तु] を もらう।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "へ": "へ सूचित करता है गति का गंतव्य क्रियाएँ। स्रोत का もらう ( giver) लेता है から (or に), कभी नहीं へ।",
@@ -6019,7 +6019,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "の": "雨のので अव्याकरणिक है। संज्ञा + ので के लिए जोड़क な है, の नहीं। (の सम्बंधसूचक/possessive कण है, अलग प्रयोग।)",
-        "だ": "雨だので ग़लत है। सादा-रूप कोपुला だ ので के सामने नहीं टिकता — यह な में बदल जाता है।",
+        "だ": "雨だので ग़लत है। सादा-रूप कोपुला だ ので के सामने नहीं टिकता: यह な में बदल जाता है।",
         "で": "雨でので で / な-रूप जोड़क दोहरा देता है और अव्याकरणिक है। निश्चित पैटर्न संज्ञा + な + ので है।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -6053,7 +6053,7 @@
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
         "きいて": "きいて (て-रूप) क्रमिक क्रियाओं को जोड़ता है: \"सुनो, फिर पढ़ो\"। एक साथ होने वाली क्रिया व्यक्त नहीं करता।",
-        "ききました": "ききました विनम्र भूत है — पूर्ण वाक्य का अंत। एक वाक्य के बीच में दो क्रियाओं को नहीं जोड़ सकता।",
+        "ききました": "ききました विनम्र भूत है: पूर्ण वाक्य का अंत। एक वाक्य के बीच में दो क्रियाओं को नहीं जोड़ सकता।",
         "きかない": "きかない नकारात्मक है (\"नहीं सुनता\"), जो ग़लत अर्थ देता है। यह simultaneous-action संरचना भी नहीं बनाता।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
@@ -6154,9 +6154,9 @@
       "explanation_hi": "महीने में एक बार = たまに (कभी-कभार)। आवृत्ति-पैमाना: いつも > たいてい > よく > ときどき > たまに।",
       "explanation_hi_provenance": "native_reviewed",
       "distractor_explanations_hi": {
-        "いつも": "हमेशा — \"महीने में एक बार\" से उल्टा।",
-        "とても": "मात्रा-सूचक क्रियाविशेषण (बहुत) — विशेषण/क्रियाविशेषण को संशोधित करता है, क्रिया की आवृत्ति को नहीं।",
-        "すぐに": "तुरंत / जल्दी से — एक घटना के समय का वर्णन, पुनरावृत्ति का नहीं।"
+        "いつも": "हमेशा: \"महीने में एक बार\" से उल्टा।",
+        "とても": "मात्रा-सूचक क्रियाविशेषण (बहुत): विशेषण/क्रियाविशेषण को संशोधित करता है, क्रिया की आवृत्ति को नहीं।",
+        "すぐに": "तुरंत / जल्दी से: एक घटना के समय का वर्णन, पुनरावृत्ति का नहीं।"
       },
       "distractor_explanations_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
@@ -6181,14 +6181,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6208,18 +6208,18 @@
       "correctAnswer": "から",
       "explanation_en": "から〜まで paired range marker -  'from Monday to Friday'. から marks the start point of a time range.",
       "difficulty": 1,
-      "explanation_hi": "から〜まで दायरा-सूचक — \"सोम से शुक्र तक\"। から प्रारंभ-बिंदु।",
+      "explanation_hi": "から〜まで दायरा-सूचक: \"सोम से शुक्र तक\"। から प्रारंभ-बिंदु।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "と": "と means 'with / and (exhaustive)' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "へ": "へ marks direction toward — not what fits here."
+        "と": "と means 'with / and (exhaustive)', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "へ": "へ marks direction toward, not what fits here."
       },
       "distractor_explanations_hi": {
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।"
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6243,14 +6243,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here.",
-        "は": "は marks the topic (known information) — does not fit the role required here.",
-        "を": "を marks the direct object — not the role required here."
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here.",
+        "は": "は marks the topic (known information): does not fit the role required here.",
+        "を": "を marks the direct object, not the role required here."
       },
       "distractor_explanations_hi": {
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।",
-        "は": "は विषय (ज्ञात-सूचना) चिह्नक — यहाँ अपेक्षित भूमिका के लिए नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।",
+        "は": "は विषय (ज्ञात-सूचना) चिह्नक: यहाँ अपेक्षित भूमिका के लिए नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6274,14 +6274,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "ところ": "ところ means 'place' or 'moment' — not what fits here.",
-        "もの": "もの means 'thing (concrete)' — not what fits here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "ところ": "ところ means 'place' or 'moment', not what fits here.",
+        "もの": "もの means 'thing (concrete)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "ところ": "ところ 'जगह' या 'क्षण' — यहाँ नहीं फिट।",
-        "もの": "もの 'वस्तु (मूर्त)' — यहाँ नहीं फिट।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "ところ": "ところ 'जगह' या 'क्षण': यहाँ नहीं फिट।",
+        "もの": "もの 'वस्तु (मूर्त)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6305,14 +6305,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "です": "です is the polite present copula — not what fits here.",
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "から": "から means 'from (origin)' or 'because' — not what fits here."
+        "です": "です is the polite present copula, not what fits here.",
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "から": "から means 'from (origin)' or 'because', not what fits here."
       },
       "distractor_explanations_hi": {
-        "です": "です विनम्र वर्तमान कोपुला — यहाँ नहीं फिट।",
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।"
+        "です": "です विनम्र वर्तमान कोपुला: यहाँ नहीं फिट।",
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6336,14 +6336,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "これ": "これ is 'this (thing here, near speaker)' — not what fits here.",
-        "それ": "それ is 'that (thing near listener)' — not what fits here.",
-        "ここ": "ここ is 'here (place near speaker)' — not what fits here."
+        "これ": "これ is 'this (thing here, near speaker)', not what fits here.",
+        "それ": "それ is 'that (thing near listener)', not what fits here.",
+        "ここ": "ここ is 'here (place near speaker)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "これ": "これ 'यह (बोलने वाले के पास)' — यहाँ नहीं फिट।",
-        "それ": "それ 'वह (सुनने वाले के पास)' — यहाँ नहीं फिट।",
-        "ここ": "ここ 'यहाँ' — यहाँ नहीं फिट।"
+        "これ": "これ 'यह (बोलने वाले के पास)': यहाँ नहीं फिट।",
+        "それ": "それ 'वह (सुनने वाले के पास)': यहाँ नहीं फिट।",
+        "ここ": "ここ 'यहाँ': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6367,14 +6367,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "どうやって": "どうやって is 'how (manner)?' — not what fits here.",
-        "どこ": "どこ is 'where?' — not what fits here.",
-        "いくら": "いくら is 'how much (price)?' — not what fits here."
+        "どうやって": "どうやって is 'how (manner)?', not what fits here.",
+        "どこ": "どこ is 'where?', not what fits here.",
+        "いくら": "いくら is 'how much (price)?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "どうやって": "どうやって 'कैसे (तरीक़ा)?' — यहाँ नहीं फिट।",
-        "どこ": "どこ 'कहाँ?' — यहाँ नहीं फिट।",
-        "いくら": "いくら 'कितना (मूल्य)?' — यहाँ नहीं फिट।"
+        "どうやって": "どうやって 'कैसे (तरीक़ा)?': यहाँ नहीं फिट।",
+        "どこ": "どこ 'कहाँ?': यहाँ नहीं फिट।",
+        "いくら": "いくら 'कितना (मूल्य)?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6398,14 +6398,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "どうして": "どうして is 'why?' — not what fits here.",
-        "なぜ": "なぜ is 'why?' — not what fits here.",
-        "どこ": "どこ is 'where?' — not what fits here."
+        "どうして": "どうして is 'why?', not what fits here.",
+        "なぜ": "なぜ is 'why?', not what fits here.",
+        "どこ": "どこ is 'where?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "どうして": "どうして 'क्यों?' — यहाँ नहीं फिट।",
-        "なぜ": "なぜ 'क्यों?' — यहाँ नहीं फिट।",
-        "どこ": "どこ 'कहाँ?' — यहाँ नहीं फिट।"
+        "どうして": "どうして 'क्यों?': यहाँ नहीं फिट।",
+        "なぜ": "なぜ 'क्यों?': यहाँ नहीं फिट।",
+        "どこ": "どこ 'कहाँ?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6430,14 +6430,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なんにち": "なんにち is 'what day (of month)?' — not what fits here.",
-        "なんがつ": "なんがつ is 'what month?' — not what fits here.",
-        "なんじ": "なんじ is 'what time?' — not what fits here."
+        "なんにち": "なんにち is 'what day (of month)?', not what fits here.",
+        "なんがつ": "なんがつ is 'what month?', not what fits here.",
+        "なんじ": "なんじ is 'what time?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "なんにち": "なんにち 'कौन-सी तारीख़?' — यहाँ नहीं फिट।",
-        "なんがつ": "なんがつ 'कौन-सा महीना?' — यहाँ नहीं फिट।",
-        "なんじ": "なんじ 'कितने बजे?' — यहाँ नहीं फिट।"
+        "なんにち": "なんにち 'कौन-सी तारीख़?': यहाँ नहीं फिट।",
+        "なんがつ": "なんがつ 'कौन-सा महीना?': यहाँ नहीं फिट।",
+        "なんじ": "なんじ 'कितने बजे?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6462,14 +6462,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なんようび": "なんようび is 'what day of week?' — not what fits here.",
-        "なんじ": "なんじ is 'what time?' — not what fits here.",
-        "なんねん": "なんねん is 'what year?' — not what fits here."
+        "なんようび": "なんようび is 'what day of week?', not what fits here.",
+        "なんじ": "なんじ is 'what time?', not what fits here.",
+        "なんねん": "なんねん is 'what year?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "なんようび": "なんようび 'सप्ताह का कौन-सा दिन?' — यहाँ नहीं फिट।",
-        "なんじ": "なんじ 'कितने बजे?' — यहाँ नहीं फिट।",
-        "なんねん": "なんねん 'कौन-सा वर्ष?' — यहाँ नहीं फिट।"
+        "なんようび": "なんようび 'सप्ताह का कौन-सा दिन?': यहाँ नहीं फिट।",
+        "なんじ": "なんじ 'कितने बजे?': यहाँ नहीं फिट।",
+        "なんねん": "なんねん 'कौन-सा वर्ष?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6527,14 +6527,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "います": "います is the verb 'to exist (animate)' — not what fits here.",
-        "あります": "あります is the verb 'to exist (inanimate)' — not what fits here.",
-        "ありません": "ありません is the negative of あります — not what fits here."
+        "います": "います is the verb 'to exist (animate)', not what fits here.",
+        "あります": "あります is the verb 'to exist (inanimate)', not what fits here.",
+        "ありません": "ありません is the negative of あります, not what fits here."
       },
       "distractor_explanations_hi": {
-        "います": "います 'होना (सजीव)' क्रिया — यहाँ नहीं फिट।",
-        "あります": "あります 'होना (निर्जीव)' क्रिया — यहाँ नहीं फिट।",
-        "ありません": "ありません あります का नकारात्मक — यहाँ नहीं फिट।"
+        "います": "います 'होना (सजीव)' क्रिया: यहाँ नहीं फिट।",
+        "あります": "あります 'होना (निर्जीव)' क्रिया: यहाँ नहीं फिट।",
+        "ありません": "ありません あります का नकारात्मक: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6558,14 +6558,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "て": "て is the te-form connector — not what fits here.",
-        "ても": "ても means 'even if / even though' — not what fits here.",
-        "ながら": "ながら means 'while doing simultaneously' — not what fits here."
+        "て": "て is the te-form connector, not what fits here.",
+        "ても": "ても means 'even if / even though', not what fits here.",
+        "ながら": "ながら means 'while doing simultaneously', not what fits here."
       },
       "distractor_explanations_hi": {
-        "て": "て -te जोड़क रूप — यहाँ नहीं फिट।",
-        "ても": "ても 'भले ही / अगर भी' — यहाँ नहीं फिट।",
-        "ながら": "ながら 'साथ-साथ करते हुए' — यहाँ नहीं फिट।"
+        "て": "て -te जोड़क रूप: यहाँ नहीं फिट।",
+        "ても": "ても 'भले ही / अगर भी': यहाँ नहीं फिट।",
+        "ながら": "ながら 'साथ-साथ करते हुए': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6589,14 +6589,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あたらしいの": "あたらしいの is 'the new one (substitute)' — not what fits here.",
-        "あたらしく": "あたらしく is the adverbial form of 'new' — not what fits here.",
-        "あたらしくて": "あたらしくて is the te-form connector of 'new' — not what fits here."
+        "あたらしいの": "あたらしいの is 'the new one (substitute)', not what fits here.",
+        "あたらしく": "あたらしく is the adverbial form of 'new', not what fits here.",
+        "あたらしくて": "あたらしくて is the te-form connector of 'new', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あたらしいの": "あたらしいの 'नया वाला (प्रतिस्थापन)' — यहाँ नहीं फिट।",
-        "あたらしく": "あたらしく 'नया' का क्रिया-विशेषण रूप — यहाँ नहीं फिट।",
-        "あたらしくて": "あたらしくて 'नया' का -te जोड़क रूप — यहाँ नहीं फिट।"
+        "あたらしいの": "あたらしいの 'नया वाला (प्रतिस्थापन)': यहाँ नहीं फिट।",
+        "あたらしく": "あたらしく 'नया' का क्रिया-विशेषण रूप: यहाँ नहीं फिट।",
+        "あたらしくて": "あたらしくて 'नया' का -te जोड़क रूप: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6620,14 +6620,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "きれい": "きれい is the dictionary/adjectival-stem form — not the form fitting here.",
-        "きれいで": "きれいで is the te-form connector of 'pretty / clean' — not what fits here.",
-        "きれいに": "きれいに is the adverbial form of 'pretty / clean' — not what fits here."
+        "きれい": "きれい is the dictionary/adjectival-stem form, not the form fitting here.",
+        "きれいで": "きれいで is the te-form connector of 'pretty / clean', not what fits here.",
+        "きれいに": "きれいに is the adverbial form of 'pretty / clean', not what fits here."
       },
       "distractor_explanations_hi": {
-        "きれい": "きれい शब्दकोश/विशेषण-तना रूप — यहाँ अपेक्षित रूप नहीं।",
-        "きれいで": "きれいで 'सुंदर / साफ़' का -te जोड़क रूप — यहाँ नहीं फिट।",
-        "きれいに": "きれいに 'सुंदर / साफ़' का क्रिया-विशेषण रूप — यहाँ नहीं फिट।"
+        "きれい": "きれい शब्दकोश/विशेषण-तना रूप: यहाँ अपेक्षित रूप नहीं।",
+        "きれいで": "きれいで 'सुंदर / साफ़' का -te जोड़क रूप: यहाँ नहीं फिट।",
+        "きれいに": "きれいに 'सुंदर / साफ़' का क्रिया-विशेषण रूप: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6651,14 +6651,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6682,14 +6682,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "と": "と means 'with / and (exhaustive)' — not what fits here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "を": "を marks the direct object — not the role required here."
+        "と": "と means 'with / and (exhaustive)', not what fits here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "を": "を marks the direct object, not the role required here."
       },
       "distractor_explanations_hi": {
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6713,14 +6713,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "から": "から means 'from (origin)' or 'because' — not what fits here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here.",
-        "は": "は marks the topic (known information) — does not fit the role required here."
+        "から": "から means 'from (origin)' or 'because', not what fits here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here.",
+        "は": "は marks the topic (known information): does not fit the role required here."
       },
       "distractor_explanations_hi": {
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।",
-        "は": "は विषय (ज्ञात-सूचना) चिह्नक — यहाँ अपेक्षित भूमिका के लिए नहीं।"
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।",
+        "は": "は विषय (ज्ञात-सूचना) चिह्नक: यहाँ अपेक्षित भूमिका के लिए नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6775,14 +6775,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6806,14 +6806,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6837,14 +6837,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6868,14 +6868,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "でかけたい": "でかけたい is 'want to go out (non-past)' — not the tense / form fitting here.",
-        "でかけたかった": "でかけたかった is 'wanted to go out (past)' — not the tense / form fitting here.",
-        "でかけた": "でかけた is 'went out (plain past)' — not what fits here."
+        "でかけたい": "でかけたい is 'want to go out (non-past)', not the tense / form fitting here.",
+        "でかけたかった": "でかけたかった is 'wanted to go out (past)', not the tense / form fitting here.",
+        "でかけた": "でかけた is 'went out (plain past)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "でかけたい": "でかけたい 'बाहर जाना चाहता हूँ (वर्तमान)' — यहाँ का काल/रूप नहीं।",
-        "でかけたかった": "でかけたかった 'बाहर जाना चाहता था (भूत)' — यहाँ का काल/रूप नहीं।",
-        "でかけた": "でかけた 'बाहर गया (सादा भूत)' — यहाँ नहीं फिट।"
+        "でかけたい": "でかけたい 'बाहर जाना चाहता हूँ (वर्तमान)': यहाँ का काल/रूप नहीं।",
+        "でかけたかった": "でかけたかった 'बाहर जाना चाहता था (भूत)': यहाँ का काल/रूप नहीं।",
+        "でかけた": "でかけた 'बाहर गया (सादा भूत)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6899,14 +6899,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6930,14 +6930,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "いくら": "いくら is 'how much (price)?' — not what fits here.",
-        "どれくらい": "どれくらい is 'how much / how long?' — not what fits here.",
-        "いくつ": "いくつ is 'how many?' — not what fits here."
+        "いくら": "いくら is 'how much (price)?', not what fits here.",
+        "どれくらい": "どれくらい is 'how much / how long?', not what fits here.",
+        "いくつ": "いくつ is 'how many?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "いくら": "いくら 'कितना (मूल्य)?' — यहाँ नहीं फिट।",
-        "どれくらい": "どれくらい 'कितना / कितनी देर?' — यहाँ नहीं फिट।",
-        "いくつ": "いくつ 'कितने?' — यहाँ नहीं फिट।"
+        "いくら": "いくら 'कितना (मूल्य)?': यहाँ नहीं फिट।",
+        "どれくらい": "どれくらい 'कितना / कितनी देर?': यहाँ नहीं फिट।",
+        "いくつ": "いくつ 'कितने?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6958,18 +6958,18 @@
       "correctAnswer": "の",
       "explanation_en": "Sentence-final no (rising intonation) marks an informal yes/no question. B-plain-negative reply confirms A asked a question. Distractors: yo (assertive), ne (confirmation-seeking), to (quote-marker, ungrammatical sentence-finally).",
       "difficulty": 1,
-      "explanation_hi": "अनौपचारिक प्रश्न-सूचक の (बढ़ते स्वर के साथ) — सादा-रूप-नकार उत्तर पुष्ट करता है।",
+      "explanation_hi": "अनौपचारिक प्रश्न-सूचक の (बढ़ते स्वर के साथ): सादा-रूप-नकार उत्तर पुष्ट करता है।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here."
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।"
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -6994,14 +6994,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7026,14 +7026,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7054,18 +7054,18 @@
       "correctAnswer": "じ",
       "explanation_en": "ima nan-ji = what time/oclock now? -  ji is the oclock counter. Distractors: fun (minutes), nichi (day), gatsu (month).",
       "difficulty": 1,
-      "explanation_hi": "いま なんじ = \"अभी कितने बजे?\" — じ बजे का काउंटर।",
+      "explanation_hi": "いま なんじ = \"अभी कितने बजे?\": じ बजे का काउंटर।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ふん": "ふん is the minute counter — not the unit fitting here.",
-        "にち": "にち is the day-of-month counter — not the unit fitting here.",
-        "がつ": "がつ is the month counter — not the unit fitting here."
+        "ふん": "ふん is the minute counter, not the unit fitting here.",
+        "にち": "にち is the day-of-month counter, not the unit fitting here.",
+        "がつ": "がつ is the month counter, not the unit fitting here."
       },
       "distractor_explanations_hi": {
-        "ふん": "ふん मिनट गणक — यहाँ की इकाई नहीं।",
-        "にち": "にち तारीख़ गणक — यहाँ की इकाई नहीं।",
-        "がつ": "がつ महीना गणक — यहाँ की इकाई नहीं।"
+        "ふん": "ふん मिनट गणक: यहाँ की इकाई नहीं।",
+        "にち": "にち तारीख़ गणक: यहाँ की इकाई नहीं।",
+        "がつ": "がつ महीना गणक: यहाँ की इकाई नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7090,14 +7090,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まえ": "まえ means 'before' (typically with verb-dictionary form) — not what fits here.",
-        "ばん": "ばん is the ordinal/sequence counter — not the unit fitting here.",
-        "あと": "あと means 'after' (typically with verb-た) — not what fits here."
+        "まえ": "まえ means 'before' (typically with verb-dictionary form), not what fits here.",
+        "ばん": "ばん is the ordinal/sequence counter, not the unit fitting here.",
+        "あと": "あと means 'after' (typically with verb-た), not what fits here."
       },
       "distractor_explanations_hi": {
-        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ) — यहाँ नहीं फिट।",
-        "ばん": "ばん क्रम गणक — यहाँ की इकाई नहीं।",
-        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ) — यहाँ नहीं फिट।"
+        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ): यहाँ नहीं फिट।",
+        "ばん": "ばん क्रम गणक: यहाँ की इकाई नहीं।",
+        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7122,14 +7122,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あした": "あした means 'tomorrow' — not what fits here.",
-        "きのう": "きのう means 'yesterday' — not what fits here.",
-        "こんばん": "こんばん means 'this evening' — not what fits here."
+        "あした": "あした means 'tomorrow', not what fits here.",
+        "きのう": "きのう means 'yesterday', not what fits here.",
+        "こんばん": "こんばん means 'this evening', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あした": "あした 'कल (आने वाला)' — यहाँ नहीं फिट।",
-        "きのう": "きのう 'कल (बीता)' — यहाँ नहीं फिट।",
-        "こんばん": "こんばん 'आज शाम' — यहाँ नहीं फिट।"
+        "あした": "あした 'कल (आने वाला)': यहाँ नहीं फिट।",
+        "きのう": "きのう 'कल (बीता)': यहाँ नहीं फिट।",
+        "こんばん": "こんばん 'आज शाम': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7154,14 +7154,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まだ": "まだ means 'still / not yet' — not what fits here.",
-        "いま": "いま means 'now' — not what fits here.",
-        "すぐ": "すぐ means 'right away / immediately' — not what fits here."
+        "まだ": "まだ means 'still / not yet', not what fits here.",
+        "いま": "いま means 'now', not what fits here.",
+        "すぐ": "すぐ means 'right away / immediately', not what fits here."
       },
       "distractor_explanations_hi": {
-        "まだ": "まだ 'अभी भी / अभी नहीं' — यहाँ नहीं फिट।",
-        "いま": "いま 'अभी' — यहाँ नहीं फिट।",
-        "すぐ": "すぐ 'तुरंत' — यहाँ नहीं फिट।"
+        "まだ": "まだ 'अभी भी / अभी नहीं': यहाँ नहीं फिट।",
+        "いま": "いま 'अभी': यहाँ नहीं फिट।",
+        "すぐ": "すぐ 'तुरंत': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7186,14 +7186,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あと": "あと means 'after' (typically with verb-た) — not what fits here.",
-        "うしろ": "うしろ means 'behind' — not what fits here.",
-        "うえ": "うえ means 'top / above' — not what fits here."
+        "あと": "あと means 'after' (typically with verb-た), not what fits here.",
+        "うしろ": "うしろ means 'behind', not what fits here.",
+        "うえ": "うえ means 'top / above', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ) — यहाँ नहीं फिट।",
-        "うしろ": "うしろ 'पीछे' — यहाँ नहीं फिट।",
-        "うえ": "うえ 'ऊपर' — यहाँ नहीं फिट।"
+        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ): यहाँ नहीं फिट।",
+        "うしろ": "うしろ 'पीछे': यहाँ नहीं फिट।",
+        "うえ": "うえ 'ऊपर': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7218,14 +7218,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "とき": "とき means 'when / at the time of' — not what fits here.",
-        "まえ": "まえ means 'before' (typically with verb-dictionary form) — not what fits here.",
-        "うち": "うち means 'home / inside / within' — not what fits here."
+        "とき": "とき means 'when / at the time of', not what fits here.",
+        "まえ": "まえ means 'before' (typically with verb-dictionary form), not what fits here.",
+        "うち": "うち means 'home / inside / within', not what fits here."
       },
       "distractor_explanations_hi": {
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।",
-        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ) — यहाँ नहीं फिट।",
-        "うち": "うち 'घर / अंदर' — यहाँ नहीं फिट।"
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।",
+        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ): यहाँ नहीं फिट।",
+        "うち": "うち 'घर / अंदर': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7246,18 +7246,18 @@
       "correctAnswer": "では",
       "explanation_en": "dewa (formal) / ja (casual) = well then -  transitions from a stated reason to a follow-up action. Distractors: demo (but/however) introduces contrast, not transition; keredo (but) similar contrast; dakara (therefore) is causal explanation, not transition.",
       "difficulty": 2,
-      "explanation_hi": "では (औपचारिक) / じゃ (अनौपचारिक) = \"तो फिर\" — कारण से अगली कार्रवाई।",
+      "explanation_hi": "では (औपचारिक) / じゃ (अनौपचारिक) = \"तो फिर\": कारण से अगली कार्रवाई।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "だから": "だから means 'so / therefore' — not what fits here.",
-        "でも": "でも means 'but (sentence-initial)' — not what fits here.",
-        "けれど": "けれど means 'but / however' — not what fits here."
+        "だから": "だから means 'so / therefore', not what fits here.",
+        "でも": "でも means 'but (sentence-initial)', not what fits here.",
+        "けれど": "けれど means 'but / however', not what fits here."
       },
       "distractor_explanations_hi": {
-        "だから": "だから 'इसलिए' — यहाँ नहीं फिट।",
-        "でも": "でも 'लेकिन (वाक्यारंभ)' — यहाँ नहीं फिट।",
-        "けれど": "けれど 'पर / हालाँकि' — यहाँ नहीं फिट।"
+        "だから": "だから 'इसलिए': यहाँ नहीं फिट।",
+        "でも": "でも 'लेकिन (वाक्यारंभ)': यहाँ नहीं फिट।",
+        "けれど": "けれど 'पर / हालाँकि': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7278,18 +7278,18 @@
       "correctAnswer": "けれど",
       "explanation_en": "keredo (or kedo informal) = but / although -  connects contrasting clauses. Distractors: kara/node are causal (because), made is endpoint.",
       "difficulty": 1,
-      "explanation_hi": "けれど (या けど अनौपचारिक) = \"लेकिन/यद्यपि\" — विरोधी खंड जोड़ता है।",
+      "explanation_hi": "けれど (या けど अनौपचारिक) = \"लेकिन/यद्यपि\": विरोधी खंड जोड़ता है।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "から": "から means 'from (origin)' or 'because' — not what fits here.",
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "ので": "ので means 'because (soft, factual)' — not what fits here."
+        "から": "から means 'from (origin)' or 'because', not what fits here.",
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "ので": "ので means 'because (soft, factual)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।",
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "ので": "ので 'क्योंकि (कोमल, तथ्यात्मक)' — यहाँ नहीं फिट।"
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।",
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "ので": "ので 'क्योंकि (कोमल, तथ्यात्मक)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7310,18 +7310,18 @@
       "correctAnswer": "どうして",
       "explanation_en": "doushite = why -  pairs with kara (because) in the answer. The B response gives a reason, so A asked why. Distractors: itsu (when), doko (where), dare (who) all expect different answer types.",
       "difficulty": 1,
-      "explanation_hi": "どうして = क्यों — उत्तर में から (क्योंकि) से युग्म।",
+      "explanation_hi": "どうして = क्यों: उत्तर में から (क्योंकि) से युग्म।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "いつ": "いつ is 'when?' — not what fits here.",
-        "どこ": "どこ is 'where?' — not what fits here.",
-        "だれ": "だれ is 'who?' — not what fits here."
+        "いつ": "いつ is 'when?', not what fits here.",
+        "どこ": "どこ is 'where?', not what fits here.",
+        "だれ": "だれ is 'who?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "いつ": "いつ 'कब?' — यहाँ नहीं फिट।",
-        "どこ": "どこ 'कहाँ?' — यहाँ नहीं फिट।",
-        "だれ": "だれ 'कौन?' — यहाँ नहीं फिट।"
+        "いつ": "いつ 'कब?': यहाँ नहीं फिट।",
+        "どこ": "どこ 'कहाँ?': यहाँ नहीं फिट।",
+        "だれ": "だれ 'कौन?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7346,14 +7346,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7378,14 +7378,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "こない": "こない is plain negative of 'come' — not what fits here.",
-        "きます": "きます is non-past 'come' — not what fits here.",
-        "きました": "きました is past tense of 'come' — not what fits here."
+        "こない": "こない is plain negative of 'come', not what fits here.",
+        "きます": "きます is non-past 'come', not what fits here.",
+        "きました": "きました is past tense of 'come', not what fits here."
       },
       "distractor_explanations_hi": {
-        "こない": "こない 'आना' का सादा नकार — यहाँ नहीं फिट।",
-        "きます": "きます 'आना' का वर्तमान — यहाँ नहीं फिट।",
-        "きました": "きました 'आना' का भूत — यहाँ नहीं फिट।"
+        "こない": "こない 'आना' का सादा नकार: यहाँ नहीं फिट।",
+        "きます": "きます 'आना' का वर्तमान: यहाँ नहीं फिट।",
+        "きました": "きました 'आना' का भूत: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7410,14 +7410,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "おもしろく": "おもしろく is adverbial form of 'interesting' — not what fits here.",
-        "おもしろくて": "おもしろくて is te-form of 'interesting' — not what fits here.",
-        "おもしろくない": "おもしろくない is negative form of 'interesting' — not what fits here."
+        "おもしろく": "おもしろく is adverbial form of 'interesting', not what fits here.",
+        "おもしろくて": "おもしろくて is te-form of 'interesting', not what fits here.",
+        "おもしろくない": "おもしろくない is negative form of 'interesting', not what fits here."
       },
       "distractor_explanations_hi": {
-        "おもしろく": "おもしろく 'रोचक' का क्रिया-विशेषण रूप — यहाँ नहीं फिट।",
-        "おもしろくて": "おもしろくて 'रोचक' का -te रूप — यहाँ नहीं फिट।",
-        "おもしろくない": "おもしろくない 'रोचक' का नकार — यहाँ नहीं फिट।"
+        "おもしろく": "おもしろく 'रोचक' का क्रिया-विशेषण रूप: यहाँ नहीं फिट।",
+        "おもしろくて": "おもしろくて 'रोचक' का -te रूप: यहाँ नहीं फिट।",
+        "おもしろくない": "おもしろくない 'रोचक' का नकार: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7442,14 +7442,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "へ": "へ marks direction toward — not what fits here."
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "へ": "へ marks direction toward, not what fits here."
       },
       "distractor_explanations_hi": {
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।"
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7474,14 +7474,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7506,14 +7506,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "しました": "しました is past of する (do) — not what fits here.",
-        "あります": "あります is the verb 'to exist (inanimate)' — not what fits here.",
-        "います": "います is the verb 'to exist (animate)' — not what fits here."
+        "しました": "しました is past of する (do), not what fits here.",
+        "あります": "あります is the verb 'to exist (inanimate)', not what fits here.",
+        "います": "います is the verb 'to exist (animate)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "しました": "しました する का भूत — यहाँ नहीं फिट।",
-        "あります": "あります 'होना (निर्जीव)' क्रिया — यहाँ नहीं फिट।",
-        "います": "います 'होना (सजीव)' क्रिया — यहाँ नहीं फिट।"
+        "しました": "しました する का भूत: यहाँ नहीं फिट।",
+        "あります": "あります 'होना (निर्जीव)' क्रिया: यहाँ नहीं फिट।",
+        "います": "います 'होना (सजीव)' क्रिया: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7538,14 +7538,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7570,14 +7570,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here."
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here."
       },
       "distractor_explanations_hi": {
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7602,14 +7602,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here."
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here."
       },
       "distractor_explanations_hi": {
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।"
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7634,14 +7634,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "と": "と means 'with / and (exhaustive)' — not what fits here."
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "と": "と means 'with / and (exhaustive)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "と": "と 'के साथ / और (पूर्ण-गणना)' — यहाँ नहीं फिट।"
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "と": "と 'के साथ / और (पूर्ण-गणना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7666,14 +7666,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7698,14 +7698,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "いま": "いま means 'now' — not what fits here.",
-        "もう": "もう means 'already' — not what fits here.",
-        "すぐ": "すぐ means 'right away / immediately' — not what fits here."
+        "いま": "いま means 'now', not what fits here.",
+        "もう": "もう means 'already', not what fits here.",
+        "すぐ": "すぐ means 'right away / immediately', not what fits here."
       },
       "distractor_explanations_hi": {
-        "いま": "いま 'अभी' — यहाँ नहीं फिट।",
-        "もう": "もう 'पहले से' — यहाँ नहीं फिट।",
-        "すぐ": "すぐ 'तुरंत' — यहाँ नहीं फिट।"
+        "いま": "いま 'अभी': यहाँ नहीं फिट।",
+        "もう": "もう 'पहले से': यहाँ नहीं फिट।",
+        "すぐ": "すぐ 'तुरंत': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7730,14 +7730,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あとで": "あとで means 'later (afterward)' — not what fits here.",
-        "まだ": "まだ means 'still / not yet' — not what fits here.",
-        "いま": "いま means 'now' — not what fits here."
+        "あとで": "あとで means 'later (afterward)', not what fits here.",
+        "まだ": "まだ means 'still / not yet', not what fits here.",
+        "いま": "いま means 'now', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あとで": "あとで 'बाद में' — यहाँ नहीं फिट।",
-        "まだ": "まだ 'अभी भी / अभी नहीं' — यहाँ नहीं फिट।",
-        "いま": "いま 'अभी' — यहाँ नहीं फिट।"
+        "あとで": "あとで 'बाद में': यहाँ नहीं फिट।",
+        "まだ": "まだ 'अभी भी / अभी नहीं': यहाँ नहीं फिट।",
+        "いま": "いま 'अभी': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7762,14 +7762,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "から": "から means 'from (origin)' or 'because' — not what fits here.",
-        "ので": "ので means 'because (soft, factual)' — not what fits here.",
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here."
+        "から": "から means 'from (origin)' or 'because', not what fits here.",
+        "ので": "ので means 'because (soft, factual)', not what fits here.",
+        "まで": "まで means 'until / up to (endpoint)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "から": "から 'से (मूल)' या 'क्योंकि' — यहाँ नहीं फिट।",
-        "ので": "ので 'क्योंकि (कोमल, तथ्यात्मक)' — यहाँ नहीं फिट।",
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।"
+        "から": "から 'से (मूल)' या 'क्योंकि': यहाँ नहीं फिट।",
+        "ので": "ので 'क्योंकि (कोमल, तथ्यात्मक)': यहाँ नहीं फिट।",
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7794,14 +7794,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "でした": "でした is the polite past copula — not what fits here.",
-        "ですか": "ですか turns the copula sentence into a question — not what's required here.",
-        "でして": "でして is a stiff/non-standard copula form — not what fits here."
+        "でした": "でした is the polite past copula, not what fits here.",
+        "ですか": "ですか turns the copula sentence into a question, not what's required here.",
+        "でして": "でして is a stiff/non-standard copula form, not what fits here."
       },
       "distractor_explanations_hi": {
-        "でした": "でした विनम्र भूत कोपुला — यहाँ नहीं फिट।",
-        "ですか": "ですか कोपुला-वाक्य को प्रश्न में बदलता है — यहाँ अपेक्षित नहीं।",
-        "でして": "でして अनौपचारिक/असामान्य कोपुला रूप — यहाँ नहीं फिट।"
+        "でした": "でした विनम्र भूत कोपुला: यहाँ नहीं फिट।",
+        "ですか": "ですか कोपुला-वाक्य को प्रश्न में बदलता है: यहाँ अपेक्षित नहीं।",
+        "でして": "でして अनौपचारिक/असामान्य कोपुला रूप: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7826,14 +7826,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "くん": "くん is a masculine honorific suffix (mostly for boys / juniors) — not what fits here.",
-        "ちゃん": "ちゃん is an intimate honorific suffix (children / close friends) — not what fits here.",
-        "さま": "さま is the highest honorific suffix (customers / deities) — not what fits here."
+        "くん": "くん is a masculine honorific suffix (mostly for boys / juniors), not what fits here.",
+        "ちゃん": "ちゃん is an intimate honorific suffix (children / close friends), not what fits here.",
+        "さま": "さま is the highest honorific suffix (customers / deities), not what fits here."
       },
       "distractor_explanations_hi": {
-        "くん": "くん पुल्लिंग सम्मानार्थक प्रत्यय (लड़कों/जूनियर के लिए) — यहाँ नहीं फिट।",
-        "ちゃん": "ちゃん अंतरंग सम्मानार्थक प्रत्यय (बच्चों/घनिष्ठ मित्रों के लिए) — यहाँ नहीं फिट।",
-        "さま": "さま उच्चतम सम्मानार्थक प्रत्यय (ग्राहक/देवता) — यहाँ नहीं फिट।"
+        "くん": "くん पुल्लिंग सम्मानार्थक प्रत्यय (लड़कों/जूनियर के लिए): यहाँ नहीं फिट।",
+        "ちゃん": "ちゃん अंतरंग सम्मानार्थक प्रत्यय (बच्चों/घनिष्ठ मित्रों के लिए): यहाँ नहीं फिट।",
+        "さま": "さま उच्चतम सम्मानार्थक प्रत्यय (ग्राहक/देवता): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7858,14 +7858,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "ご": "ご is an honorific prefix (for Sino-Japanese nouns) — not what fits here.",
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "ご": "ご is an honorific prefix (for Sino-Japanese nouns), not what fits here.",
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "ご": "ご सम्मानार्थक उपसर्ग (चीन-जापानी संज्ञाओं के लिए) — यहाँ नहीं फिट।",
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "ご": "ご सम्मानार्थक उपसर्ग (चीन-जापानी संज्ञाओं के लिए): यहाँ नहीं फिट।",
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7890,14 +7890,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あります": "あります is the verb 'to exist (inanimate)' — not what fits here.",
-        "います": "います is the verb 'to exist (animate)' — not what fits here.",
-        "なります": "なります is 'to become' polite non-past — not what fits here."
+        "あります": "あります is the verb 'to exist (inanimate)', not what fits here.",
+        "います": "います is the verb 'to exist (animate)', not what fits here.",
+        "なります": "なります is 'to become' polite non-past, not what fits here."
       },
       "distractor_explanations_hi": {
-        "あります": "あります 'होना (निर्जीव)' क्रिया — यहाँ नहीं फिट।",
-        "います": "います 'होना (सजीव)' क्रिया — यहाँ नहीं फिट।",
-        "なります": "なります 'बनना' विनम्र वर्तमान — यहाँ नहीं फिट।"
+        "あります": "あります 'होना (निर्जीव)' क्रिया: यहाँ नहीं फिट।",
+        "います": "います 'होना (सजीव)' क्रिया: यहाँ नहीं फिट।",
+        "なります": "なります 'बनना' विनम्र वर्तमान: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7922,14 +7922,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "もの": "もの means 'thing (concrete)' — not what fits here.",
-        "ところ": "ところ means 'place' or 'moment' — not what fits here.",
-        "とき": "とき means 'when / at the time of' — not what fits here."
+        "もの": "もの means 'thing (concrete)', not what fits here.",
+        "ところ": "ところ means 'place' or 'moment', not what fits here.",
+        "とき": "とき means 'when / at the time of', not what fits here."
       },
       "distractor_explanations_hi": {
-        "もの": "もの 'वस्तु (मूर्त)' — यहाँ नहीं फिट।",
-        "ところ": "ところ 'जगह' या 'क्षण' — यहाँ नहीं फिट।",
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।"
+        "もの": "もの 'वस्तु (मूर्त)': यहाँ नहीं फिट।",
+        "ところ": "ところ 'जगह' या 'क्षण': यहाँ नहीं फिट।",
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7954,14 +7954,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "こと": "こと means 'thing (abstract / matter)' — not what fits here.",
-        "もの": "もの means 'thing (concrete)' — not what fits here.",
-        "ところ": "ところ means 'place' or 'moment' — not what fits here."
+        "こと": "こと means 'thing (abstract / matter)', not what fits here.",
+        "もの": "もの means 'thing (concrete)', not what fits here.",
+        "ところ": "ところ means 'place' or 'moment', not what fits here."
       },
       "distractor_explanations_hi": {
-        "こと": "こと 'बात (अमूर्त)' — यहाँ नहीं फिट।",
-        "もの": "もの 'वस्तु (मूर्त)' — यहाँ नहीं फिट।",
-        "ところ": "ところ 'जगह' या 'क्षण' — यहाँ नहीं फिट।"
+        "こと": "こと 'बात (अमूर्त)': यहाँ नहीं फिट।",
+        "もの": "もの 'वस्तु (मूर्त)': यहाँ नहीं फिट।",
+        "ところ": "ところ 'जगह' या 'क्षण': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -7986,14 +7986,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "すぎない": "すぎない is plain negative of 'excessive' — not what fits here.",
-        "すぎる": "すぎる means 'too much / excessive' — not what fits here.",
-        "すぎて": "すぎて is te-form of 'excessive' — not what fits here."
+        "すぎない": "すぎない is plain negative of 'excessive', not what fits here.",
+        "すぎる": "すぎる means 'too much / excessive', not what fits here.",
+        "すぎて": "すぎて is te-form of 'excessive', not what fits here."
       },
       "distractor_explanations_hi": {
-        "すぎない": "すぎない 'अति' का सादा नकार — यहाँ नहीं फिट।",
-        "すぎる": "すぎる 'बहुत अधिक / अति' — यहाँ नहीं फिट।",
-        "すぎて": "すぎて 'अति' का -te रूप — यहाँ नहीं फिट।"
+        "すぎない": "すぎない 'अति' का सादा नकार: यहाँ नहीं फिट।",
+        "すぎる": "すぎる 'बहुत अधिक / अति': यहाँ नहीं फिट।",
+        "すぎて": "すぎて 'अति' का -te रूप: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8018,14 +8018,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "もの": "もの means 'thing (concrete)' — not what fits here.",
-        "こと": "こと means 'thing (abstract / matter)' — not what fits here.",
-        "とき": "とき means 'when / at the time of' — not what fits here."
+        "もの": "もの means 'thing (concrete)', not what fits here.",
+        "こと": "こと means 'thing (abstract / matter)', not what fits here.",
+        "とき": "とき means 'when / at the time of', not what fits here."
       },
       "distractor_explanations_hi": {
-        "もの": "もの 'वस्तु (मूर्त)' — यहाँ नहीं फिट।",
-        "こと": "こと 'बात (अमूर्त)' — यहाँ नहीं फिट।",
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।"
+        "もの": "もの 'वस्तु (मूर्त)': यहाँ नहीं फिट।",
+        "こと": "こと 'बात (अमूर्त)': यहाँ नहीं फिट।",
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8050,14 +8050,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ここ": "ここ is 'here (place near speaker)' — not what fits here.",
-        "そこ": "そこ is 'there (place near listener)' — not what fits here.",
-        "なに": "なに is 'what?' — not what fits here."
+        "ここ": "ここ is 'here (place near speaker)', not what fits here.",
+        "そこ": "そこ is 'there (place near listener)', not what fits here.",
+        "なに": "なに is 'what?', not what fits here."
       },
       "distractor_explanations_hi": {
-        "ここ": "ここ 'यहाँ' — यहाँ नहीं फिट।",
-        "そこ": "そこ 'वहाँ (सुनने वाले के पास)' — यहाँ नहीं फिट।",
-        "なに": "なに 'क्या?' — यहाँ नहीं फिट।"
+        "ここ": "ここ 'यहाँ': यहाँ नहीं फिट।",
+        "そこ": "そこ 'वहाँ (सुनने वाले के पास)': यहाँ नहीं फिट।",
+        "なに": "なに 'क्या?': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8082,14 +8082,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "もっと": "もっと means 'more' (comparative) — not what fits here.",
-        "とても": "とても means 'very' — not what fits here.",
-        "あまり": "あまり means 'not very (with negative)' — not what fits here."
+        "もっと": "もっと means 'more' (comparative), not what fits here.",
+        "とても": "とても means 'very', not what fits here.",
+        "あまり": "あまり means 'not very (with negative)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "もっと": "もっと 'और (तुलनात्मक)' — यहाँ नहीं फिट।",
-        "とても": "とても 'बहुत' — यहाँ नहीं फिट।",
-        "あまり": "あまり 'बहुत (नकारात्मक के साथ)' — यहाँ नहीं फिट।"
+        "もっと": "もっと 'और (तुलनात्मक)': यहाँ नहीं फिट।",
+        "とても": "とても 'बहुत': यहाँ नहीं फिट।",
+        "あまり": "あまり 'बहुत (नकारात्मक के साथ)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8114,14 +8114,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "へ": "へ marks direction toward — not what fits here."
+        "を": "を marks the direct object, not the role required here.",
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "へ": "へ marks direction toward, not what fits here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8146,14 +8146,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "けれど": "けれど means 'but / however' — not what fits here.",
-        "まで": "まで means 'until / up to (endpoint)' — not what fits here.",
-        "より": "より means 'than (comparison)' — not what fits here."
+        "けれど": "けれど means 'but / however', not what fits here.",
+        "まで": "まで means 'until / up to (endpoint)', not what fits here.",
+        "より": "より means 'than (comparison)', not what fits here."
       },
       "distractor_explanations_hi": {
-        "けれど": "けれど 'पर / हालाँकि' — यहाँ नहीं फिट।",
-        "まで": "まで 'तक (अंत-बिंदु)' — यहाँ नहीं फिट।",
-        "より": "より 'से (तुलना)' — यहाँ नहीं फिट।"
+        "けれど": "けれど 'पर / हालाँकि': यहाँ नहीं फिट।",
+        "まで": "まで 'तक (अंत-बिंदु)': यहाँ नहीं फिट।",
+        "より": "より 'से (तुलना)': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8178,14 +8178,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あまり": "あまり means 'not very (with negative)' — not what fits here.",
-        "ぜんぜん": "ぜんぜん means 'not at all (with negative)' — not what fits here.",
-        "ときどき": "ときどき means 'sometimes' — not what fits here."
+        "あまり": "あまり means 'not very (with negative)', not what fits here.",
+        "ぜんぜん": "ぜんぜん means 'not at all (with negative)', not what fits here.",
+        "ときどき": "ときどき means 'sometimes', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あまり": "あまり 'बहुत (नकारात्मक के साथ)' — यहाँ नहीं फिट।",
-        "ぜんぜん": "ぜんぜん 'बिल्कुल नहीं (नकारात्मक के साथ)' — यहाँ नहीं फिट।",
-        "ときどき": "ときどき 'कभी-कभी' — यहाँ नहीं फिट।"
+        "あまり": "あまり 'बहुत (नकारात्मक के साथ)': यहाँ नहीं फिट।",
+        "ぜんぜん": "ぜんぜん 'बिल्कुल नहीं (नकारात्मक के साथ)': यहाँ नहीं फिट।",
+        "ときどき": "ときどき 'कभी-कभी': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8210,14 +8210,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "すみません": "すみません is 'excuse me / sorry / thank you (apologetic)' — not what fits here.",
-        "どうも": "どうも is 'thanks (casual) / indeed' — not what fits here.",
-        "おねがい": "おねがい means 'please / request' — not what fits here."
+        "すみません": "すみません is 'excuse me / sorry / thank you (apologetic)', not what fits here.",
+        "どうも": "どうも is 'thanks (casual) / indeed', not what fits here.",
+        "おねがい": "おねがい means 'please / request', not what fits here."
       },
       "distractor_explanations_hi": {
-        "すみません": "すみません 'क्षमा करें / माफ़ी / धन्यवाद' — यहाँ नहीं फिट।",
-        "どうも": "どうも 'धन्यवाद (अनौपचारिक) / वास्तव में' — यहाँ नहीं फिट।",
-        "おねがい": "おねがい 'कृपया / अनुरोध' — यहाँ नहीं फिट।"
+        "すみません": "すみません 'क्षमा करें / माफ़ी / धन्यवाद': यहाँ नहीं फिट।",
+        "どうも": "どうも 'धन्यवाद (अनौपचारिक) / वास्तव में': यहाँ नहीं फिट।",
+        "おねがい": "おねがい 'कृपया / अनुरोध': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8242,14 +8242,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here.",
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "か": "か turns the sentence into a question — not what's required here."
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here.",
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "か": "か turns the sentence into a question, not what's required here."
       },
       "distractor_explanations_hi": {
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।",
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।"
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।",
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8274,14 +8274,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "だった": "だった is the plain past copula — not what fits here.",
-        "だ": "だ is the plain present copula — not what fits the register here.",
-        "じゃない": "じゃない is the plain negative copula — not what fits the register / form here."
+        "だった": "だった is the plain past copula, not what fits here.",
+        "だ": "だ is the plain present copula, not what fits the register here.",
+        "じゃない": "じゃない is the plain negative copula, not what fits the register / form here."
       },
       "distractor_explanations_hi": {
-        "だった": "だった सादा भूत कोपुला — यहाँ नहीं फिट।",
-        "だ": "だ सादा वर्तमान कोपुला — यहाँ रजिस्टर के लिए नहीं फिट।",
-        "じゃない": "じゃない सादा नकारात्मक कोपुला — यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
+        "だった": "だった सादा भूत कोपुला: यहाँ नहीं फिट।",
+        "だ": "だ सादा वर्तमान कोपुला: यहाँ रजिस्टर के लिए नहीं फिट।",
+        "じゃない": "じゃない सादा नकारात्मक कोपुला: यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8302,18 +8302,18 @@
       "correctAnswer": "ね",
       "explanation_en": "ね seeks confirmation; B's そうですね confirms agreement, which uniquely pairs with ね. Distractors: よ would assert; か would query; の is informal.",
       "difficulty": 2,
-      "explanation_hi": "ね पुष्टि माँगता है; そうですね सहमति देता है — विशिष्ट रूप से ね से जुड़ता है।",
+      "explanation_hi": "ね पुष्टि माँगता है; そうですね सहमति देता है: विशिष्ट रूप से ね से जुड़ता है।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "か": "か turns the sentence into a question — not what's required here.",
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here."
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "か": "か turns the sentence into a question, not what's required here.",
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here."
       },
       "distractor_explanations_hi": {
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।"
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8338,14 +8338,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here."
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here."
       },
       "distractor_explanations_hi": {
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।"
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8370,14 +8370,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "で": "で marks location of action or means / instrument — not the role required here.",
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "で": "で marks location of action or means / instrument, not the role required here.",
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "で": "で क्रिया-स्थान या साधन/उपकरण चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8402,14 +8402,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "あと": "あと means 'after' (typically with verb-た) — not what fits here.",
-        "とき": "とき means 'when / at the time of' — not what fits here.",
-        "うち": "うち means 'home / inside / within' — not what fits here."
+        "あと": "あと means 'after' (typically with verb-た), not what fits here.",
+        "とき": "とき means 'when / at the time of', not what fits here.",
+        "うち": "うち means 'home / inside / within', not what fits here."
       },
       "distractor_explanations_hi": {
-        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ) — यहाँ नहीं फिट।",
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।",
-        "うち": "うち 'घर / अंदर' — यहाँ नहीं फिट।"
+        "あと": "あと 'के बाद' (आमतौर पर क्रिया-た के साथ): यहाँ नहीं फिट।",
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।",
+        "うち": "うち 'घर / अंदर': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8434,14 +8434,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "まえ": "まえ means 'before' (typically with verb-dictionary form) — not what fits here.",
-        "とき": "とき means 'when / at the time of' — not what fits here.",
-        "ところ": "ところ means 'place' or 'moment' — not what fits here."
+        "まえ": "まえ means 'before' (typically with verb-dictionary form), not what fits here.",
+        "とき": "とき means 'when / at the time of', not what fits here.",
+        "ところ": "ところ means 'place' or 'moment', not what fits here."
       },
       "distractor_explanations_hi": {
-        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ) — यहाँ नहीं फिट।",
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।",
-        "ところ": "ところ 'जगह' या 'क्षण' — यहाँ नहीं फिट।"
+        "まえ": "まえ 'के पहले' (आमतौर पर शब्दकोश-रूप क्रिया के साथ): यहाँ नहीं फिट।",
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।",
+        "ところ": "ところ 'जगह' या 'क्षण': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8466,14 +8466,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "おはようございます": "おはようございます is 'good morning' — not the greeting fitting here.",
-        "ごちそうさま": "ごちそうさま is said AFTER eating — not the greeting fitting here.",
-        "おやすみなさい": "おやすみなさい is 'good night' (before sleep) — not the greeting fitting here."
+        "おはようございます": "おはようございます is 'good morning', not the greeting fitting here.",
+        "ごちそうさま": "ごちそうさま is said AFTER eating, not the greeting fitting here.",
+        "おやすみなさい": "おやすみなさい is 'good night' (before sleep), not the greeting fitting here."
       },
       "distractor_explanations_hi": {
-        "おはようございます": "おはようございます 'सुप्रभात' — यहाँ उपयुक्त अभिवादन नहीं।",
-        "ごちそうさま": "ごちそうさま खाने के बाद कहा जाता है — यहाँ उपयुक्त अभिवादन नहीं।",
-        "おやすみなさい": "おやすみなさい 'शुभ रात्रि' (सोने से पहले) — यहाँ उपयुक्त अभिवादन नहीं।"
+        "おはようございます": "おはようございます 'सुप्रभात': यहाँ उपयुक्त अभिवादन नहीं।",
+        "ごちそうさま": "ごちそうさま खाने के बाद कहा जाता है: यहाँ उपयुक्त अभिवादन नहीं।",
+        "おやすみなさい": "おやすみなさい 'शुभ रात्रि' (सोने से पहले): यहाँ उपयुक्त अभिवादन नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8498,14 +8498,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ました": "ました is the polite past verb ending — not the form required here.",
-        "ます": "ます is the polite non-past verb ending — not the form required here.",
-        "でした": "でした is the polite past copula — not what fits here."
+        "ました": "ました is the polite past verb ending, not the form required here.",
+        "ます": "ます is the polite non-past verb ending, not the form required here.",
+        "でした": "でした is the polite past copula, not what fits here."
       },
       "distractor_explanations_hi": {
-        "ました": "ました विनम्र भूत क्रिया-अंत — यहाँ अपेक्षित रूप नहीं।",
-        "ます": "ます विनम्र वर्तमान/भविष्य क्रिया-अंत — यहाँ अपेक्षित रूप नहीं।",
-        "でした": "でした विनम्र भूत कोपुला — यहाँ नहीं फिट।"
+        "ました": "ました विनम्र भूत क्रिया-अंत: यहाँ अपेक्षित रूप नहीं।",
+        "ます": "ます विनम्र वर्तमान/भविष्य क्रिया-अंत: यहाँ अपेक्षित रूप नहीं।",
+        "でした": "でした विनम्र भूत कोपुला: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8530,14 +8530,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ます": "ます is the polite non-past verb ending — not the form required here.",
-        "た": "た is the plain past form — not what fits here.",
-        "て": "て is the te-form connector — not what fits here."
+        "ます": "ます is the polite non-past verb ending, not the form required here.",
+        "た": "た is the plain past form, not what fits here.",
+        "て": "て is the te-form connector, not what fits here."
       },
       "distractor_explanations_hi": {
-        "ます": "ます विनम्र वर्तमान/भविष्य क्रिया-अंत — यहाँ अपेक्षित रूप नहीं।",
-        "た": "た सादा भूत रूप — यहाँ नहीं फिट।",
-        "て": "て -te जोड़क रूप — यहाँ नहीं फिट।"
+        "ます": "ます विनम्र वर्तमान/भविष्य क्रिया-अंत: यहाँ अपेक्षित रूप नहीं।",
+        "た": "た सादा भूत रूप: यहाँ नहीं फिट।",
+        "て": "て -te जोड़क रूप: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8562,14 +8562,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なくては": "なくては is 'must (do)' obligation — not the form required here.",
-        "ないと": "ないと is conditional 'if not' / casual obligation — not what fits here.",
-        "なくちゃ": "なくちゃ is casual 'must (do)' — not the register / form fitting here."
+        "なくては": "なくては is 'must (do)' obligation, not the form required here.",
+        "ないと": "ないと is conditional 'if not' / casual obligation, not what fits here.",
+        "なくちゃ": "なくちゃ is casual 'must (do)', not the register / form fitting here."
       },
       "distractor_explanations_hi": {
-        "なくては": "なくては 'करना ही पड़ेगा' बाध्यता — यहाँ अपेक्षित रूप नहीं।",
-        "ないと": "ないと सशर्त 'अगर नहीं' / अनौपचारिक बाध्यता — यहाँ नहीं फिट।",
-        "なくちゃ": "なくちゃ अनौपचारिक 'करना ही चाहिए' — यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
+        "なくては": "なくては 'करना ही पड़ेगा' बाध्यता: यहाँ अपेक्षित रूप नहीं।",
+        "ないと": "ないと सशर्त 'अगर नहीं' / अनौपचारिक बाध्यता: यहाँ नहीं फिट।",
+        "なくちゃ": "なくちゃ अनौपचारिक 'करना ही चाहिए': यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8594,14 +8594,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ないで": "ないで is the te-form negative used for 'without doing' or polite request — not what fits here.",
-        "なくても": "なくても means 'even without doing' — not what fits here.",
-        "なくて": "なくて is the negative te-form used for 'reason / cause' — not what fits here."
+        "ないで": "ないで is the te-form negative used for 'without doing' or polite request, not what fits here.",
+        "なくても": "なくても means 'even without doing', not what fits here.",
+        "なくて": "なくて is the negative te-form used for 'reason / cause', not what fits here."
       },
       "distractor_explanations_hi": {
-        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध) — यहाँ नहीं फिट।",
-        "なくても": "なくても 'बिना किए भी' — यहाँ नहीं फिट।",
-        "なくて": "なくて नकारात्मक -te रूप (कारण) — यहाँ नहीं फिट।"
+        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध): यहाँ नहीं फिट।",
+        "なくても": "なくても 'बिना किए भी': यहाँ नहीं फिट।",
+        "なくて": "なくて नकारात्मक -te रूप (कारण): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8626,14 +8626,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なくて": "なくて is the negative te-form used for 'reason / cause' — not what fits here.",
-        "なくても": "なくても means 'even without doing' — not what fits here.",
-        "ないで": "ないで is the te-form negative used for 'without doing' or polite request — not what fits here."
+        "なくて": "なくて is the negative te-form used for 'reason / cause', not what fits here.",
+        "なくても": "なくても means 'even without doing', not what fits here.",
+        "ないで": "ないで is the te-form negative used for 'without doing' or polite request, not what fits here."
       },
       "distractor_explanations_hi": {
-        "なくて": "なくて नकारात्मक -te रूप (कारण) — यहाँ नहीं फिट।",
-        "なくても": "なくても 'बिना किए भी' — यहाँ नहीं फिट।",
-        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध) — यहाँ नहीं फिट।"
+        "なくて": "なくて नकारात्मक -te रूप (कारण): यहाँ नहीं फिट।",
+        "なくても": "なくても 'बिना किए भी': यहाँ नहीं फिट।",
+        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध): यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8658,14 +8658,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なくて": "なくて is the negative te-form used for 'reason / cause' — not what fits here.",
-        "ないで": "ないで is the te-form negative used for 'without doing' or polite request — not what fits here.",
-        "なくちゃ": "なくちゃ is casual 'must (do)' — not the register / form fitting here."
+        "なくて": "なくて is the negative te-form used for 'reason / cause', not what fits here.",
+        "ないで": "ないで is the te-form negative used for 'without doing' or polite request, not what fits here.",
+        "なくちゃ": "なくちゃ is casual 'must (do)', not the register / form fitting here."
       },
       "distractor_explanations_hi": {
-        "なくて": "なくて नकारात्मक -te रूप (कारण) — यहाँ नहीं फिट।",
-        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध) — यहाँ नहीं फिट।",
-        "なくちゃ": "なくちゃ अनौपचारिक 'करना ही चाहिए' — यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
+        "なくて": "なくて नकारात्मक -te रूप (कारण): यहाँ नहीं फिट।",
+        "ないで": "ないで नकारात्मक -te रूप ('बिना किए' या विनम्र अनुरोध): यहाँ नहीं फिट।",
+        "なくちゃ": "なくちゃ अनौपचारिक 'करना ही चाहिए': यहाँ रजिस्टर/रूप के लिए नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8690,14 +8690,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "なくては": "なくては is 'must (do)' obligation — not the form required here.",
-        "ないと": "ないと is conditional 'if not' / casual obligation — not what fits here.",
-        "なくても": "なくても means 'even without doing' — not what fits here."
+        "なくては": "なくては is 'must (do)' obligation, not the form required here.",
+        "ないと": "ないと is conditional 'if not' / casual obligation, not what fits here.",
+        "なくても": "なくても means 'even without doing', not what fits here."
       },
       "distractor_explanations_hi": {
-        "なくては": "なくては 'करना ही पड़ेगा' बाध्यता — यहाँ अपेक्षित रूप नहीं।",
-        "ないと": "ないと सशर्त 'अगर नहीं' / अनौपचारिक बाध्यता — यहाँ नहीं फिट।",
-        "なくても": "なくても 'बिना किए भी' — यहाँ नहीं फिट।"
+        "なくては": "なくては 'करना ही पड़ेगा' बाध्यता: यहाँ अपेक्षित रूप नहीं।",
+        "ないと": "ないと सशर्त 'अगर नहीं' / अनौपचारिक बाध्यता: यहाँ नहीं फिट।",
+        "なくても": "なくても 'बिना किए भी': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8722,14 +8722,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here.",
-        "を": "を marks the direct object — not the role required here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here.",
+        "を": "を marks the direct object, not the role required here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8754,14 +8754,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ひと": "ひと means 'person' — not what fits here.",
-        "とき": "とき means 'when / at the time of' — not what fits here.",
-        "ばしょ": "ばしょ means 'place / location' — not what fits here."
+        "ひと": "ひと means 'person', not what fits here.",
+        "とき": "とき means 'when / at the time of', not what fits here.",
+        "ばしょ": "ばしょ means 'place / location', not what fits here."
       },
       "distractor_explanations_hi": {
-        "ひと": "ひと 'व्यक्ति' — यहाँ नहीं फिट।",
-        "とき": "とき 'जब / के समय' — यहाँ नहीं फिट।",
-        "ばしょ": "ばしょ 'जगह / स्थान' — यहाँ नहीं फिट।"
+        "ひと": "ひと 'व्यक्ति': यहाँ नहीं फिट।",
+        "とき": "とき 'जब / के समय': यहाँ नहीं फिट।",
+        "ばしょ": "ばしょ 'जगह / स्थान': यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8786,14 +8786,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "か": "か turns the sentence into a question — not what's required here."
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "か": "か turns the sentence into a question, not what's required here."
       },
       "distractor_explanations_hi": {
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।"
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8818,14 +8818,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "ね": "ね seeks agreement / shared feeling at sentence end — not what's required here.",
-        "よ": "よ emphasizes new information at sentence end — not what's required here.",
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here."
+        "ね": "ね seeks agreement / shared feeling at sentence end, not what's required here.",
+        "よ": "よ emphasizes new information at sentence end, not what's required here.",
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here."
       },
       "distractor_explanations_hi": {
-        "ね": "ね वाक्यांत में सहमति / साझा भावना — यहाँ अपेक्षित नहीं।",
-        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर — यहाँ अपेक्षित नहीं।",
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।"
+        "ね": "ね वाक्यांत में सहमति / साझा भावना: यहाँ अपेक्षित नहीं।",
+        "よ": "よ वाक्यांत में नई जानकारी पर ज़ोर: यहाँ अपेक्षित नहीं।",
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8850,14 +8850,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "を": "を marks the direct object — not the role required here.",
-        "も": "も means 'also / even' — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "を": "を marks the direct object, not the role required here.",
+        "も": "も means 'also / even', not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "も": "も 'भी / तक' — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "も": "も 'भी / तक': यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8882,14 +8882,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here.",
-        "か": "か turns the sentence into a question — not what's required here.",
-        "を": "を marks the direct object — not the role required here."
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here.",
+        "か": "か turns the sentence into a question, not what's required here.",
+        "を": "を marks the direct object, not the role required here."
       },
       "distractor_explanations_hi": {
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8914,14 +8914,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "か": "か turns the sentence into a question — not what's required here.",
-        "が": "が marks the grammatical subject (esp. with stative verbs / desire) — not what fits here.",
-        "に": "に marks time / destination / recipient — not the role required here."
+        "か": "か turns the sentence into a question, not what's required here.",
+        "が": "が marks the grammatical subject (esp. with stative verbs / desire), not what fits here.",
+        "に": "に marks time / destination / recipient, not the role required here."
       },
       "distractor_explanations_hi": {
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ) — यहाँ नहीं फिट।",
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "が": "が व्याकरणिक कर्ता चिह्नक (स्थिति-क्रिया / इच्छा के साथ): यहाँ नहीं फिट।",
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8946,14 +8946,14 @@
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "か": "か turns the sentence into a question — not what's required here.",
-        "へ": "へ marks direction toward — not what fits here.",
-        "を": "を marks the direct object — not the role required here."
+        "か": "か turns the sentence into a question, not what's required here.",
+        "へ": "へ marks direction toward, not what fits here.",
+        "を": "を marks the direct object, not the role required here."
       },
       "distractor_explanations_hi": {
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "へ": "へ की-ओर दिशा-चिह्नक — यहाँ नहीं फिट।",
-        "を": "を प्रत्यक्ष कर्म चिह्नक — यहाँ अपेक्षित भूमिका नहीं।"
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "へ": "へ की-ओर दिशा-चिह्नक: यहाँ नहीं फिट।",
+        "を": "を प्रत्यक्ष कर्म चिह्नक: यहाँ अपेक्षित भूमिका नहीं।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"
@@ -8974,18 +8974,18 @@
       "correctAnswer": "も",
       "explanation_en": "いつ + も = always (positive existence; differs from なに/だれ/どこ which need a negative verb to form 'nothing/no-one/nowhere'). Distractors: いつ + か = 'sometime' (would need a non-habitual context); に/の don't form Q-word compounds.",
       "difficulty": 2,
-      "explanation_hi": "いつ + も = \"हमेशा\" (सकारात्मक अस्तित्व — なに/だれ/どこ से अलग)।",
+      "explanation_hi": "いつ + も = \"हमेशा\" (सकारात्मक अस्तित्व: なに/だれ/どこ से अलग)।",
       "explanation_hi_provenance": "native_reviewed",
       "review_status": "ai_quality_reviewed",
       "distractor_explanations": {
-        "に": "に marks time / destination / recipient — not the role required here.",
-        "か": "か turns the sentence into a question — not what's required here.",
-        "の": "の links nouns (possessive / attributive) or nominalizes — not what fits here."
+        "に": "に marks time / destination / recipient, not the role required here.",
+        "か": "か turns the sentence into a question, not what's required here.",
+        "の": "の links nouns (possessive / attributive) or nominalizes, not what fits here."
       },
       "distractor_explanations_hi": {
-        "に": "に समय / गंतव्य / पात्र चिह्नक — यहाँ अपेक्षित भूमिका नहीं।",
-        "か": "か वाक्य को प्रश्न बनाता है — यहाँ अपेक्षित नहीं।",
-        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण — यहाँ नहीं फिट।"
+        "に": "に समय / गंतव्य / पात्र चिह्नक: यहाँ अपेक्षित भूमिका नहीं।",
+        "か": "か वाक्य को प्रश्न बनाता है: यहाँ अपेक्षित नहीं।",
+        "の": "の संज्ञा-जोड़क (सम्बन्ध) या नामकरण: यहाँ नहीं फिट।"
       },
       "distractor_explanations_hi_provenance": "llm_curated",
       "review_status_provenance": "claude_native_reviewer_persona"

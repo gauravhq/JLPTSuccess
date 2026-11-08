@@ -99,11 +99,11 @@
         "およぎます"
       ],
       "correctIndex": 1,
-      "rationale": "つかれた + やすむ — N5 canonical reason→action chain with から.",
+      "rationale": "つかれた + やすむ: N5 canonical reason→action chain with から.",
       "kbSourceId": "Q5",
       "id": "goi-1.5",
       "mondai": 3,
-      "rationale_hi": "つかれた + やすむ। つかれましたから (विनम्र भूत रूप + から) — कारण से क्रिया-कर्म तक की N5-मानक श्रृंखला।",
+      "rationale_hi": "つかれた + やすむ। つかれましたから (विनम्र भूत रूप + から): कारण से क्रिया-कर्म तक की N5-मानक श्रृंखला।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": "n5-009",
       "grammarPatternId_provenance": "auto_inferred"

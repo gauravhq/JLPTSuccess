@@ -88,7 +88,7 @@
       "passage_label": "Passage 17 (Q33, Q34)",
       "id": "dokkai-3.1",
       "mondai": 4,
-      "rationale_hi": "えいがは 三時から 五時まで — फ़िल्म 3 से 5 बजे तक चलती है; शुरू 3 बजे।",
+      "rationale_hi": "えいがは 三時から 五時まで: फ़िल्म 3 से 5 बजे तक चलती है; शुरू 3 बजे।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -108,7 +108,7 @@
       "passage_label": "Passage 17 (Q33, Q34)",
       "id": "dokkai-3.2",
       "mondai": 4,
-      "rationale_hi": "えいがが 終わったら、 こうちゃの きっさてんで — फ़िल्म के बाद चाय के कैफ़े जाते हैं।",
+      "rationale_hi": "えいがが 終わったら、 こうちゃの きっさてんで: फ़िल्म के बाद चाय के कैफ़े जाते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-188",
       "grammarPatternId_provenance": "auto_inferred"
@@ -128,7 +128,7 @@
       "passage_label": "Passage 18 (Q35, Q36)",
       "id": "dokkai-3.3",
       "mondai": 4,
-      "rationale_hi": "父は 大学生の とき、 中国に すんで いました — विश्वविद्यालय के दिनों में चीन में रहते थे।",
+      "rationale_hi": "父は 大学生の とき、 中国に すんで いました: विश्वविद्यालय के दिनों में चीन में रहते थे।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-028",
       "grammarPatternId_provenance": "auto_inferred"
@@ -148,7 +148,7 @@
       "passage_label": "Passage 18 (Q35, Q36)",
       "id": "dokkai-3.4",
       "mondai": 4,
-      "rationale_hi": "むずかしい (कठिन) + あまり 上手では ありません (बहुत अच्छी नहीं आती) — कथावाचक चीनी भाषा को कठिन मानता है और स्वयं को उसमें बहुत निपुण नहीं बताता।",
+      "rationale_hi": "むずかしい (कठिन) + あまり 上手では ありません (बहुत अच्छी नहीं आती): कथावाचक चीनी भाषा को कठिन मानता है और स्वयं को उसमें बहुत निपुण नहीं बताता।",
       "rationale_hi_provenance": "native_reviewed_2026_05_21",
       "grammarPatternId": "n5-147",
       "grammarPatternId_provenance": "auto_inferred"
@@ -168,7 +168,7 @@
       "passage_label": "Passage 19 (Q37, Q38)",
       "id": "dokkai-3.5",
       "mondai": 4,
-      "rationale_hi": "'月曜日と 水曜日と 金曜日に' — सोम/बुध/शुक्र = सप्ताह में 3 बार।",
+      "rationale_hi": "'月曜日と 水曜日と 金曜日に': सोम/बुध/शुक्र = सप्ताह में 3 बार।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -188,7 +188,7 @@
       "passage_label": "Passage 19 (Q37, Q38)",
       "id": "dokkai-3.6",
       "mondai": 4,
-      "rationale_hi": "日曜日は 学校が 休みですから、 プールも 使えません — रविवार को पूल उपलब्ध नहीं।",
+      "rationale_hi": "日曜日は 学校が 休みですから、 プールも 使えません: रविवार को पूल उपलब्ध नहीं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -208,7 +208,7 @@
       "passage_label": "Passage 20 (Q39, Q40)",
       "id": "dokkai-3.7",
       "mondai": 4,
-      "rationale_hi": "パンが ありませんでしたから、 ごはんを 食べました — रोटी नहीं थी, इसलिए चावल खाया।",
+      "rationale_hi": "パンが ありませんでしたから、 ごはんを 食べました: रोटी नहीं थी, इसलिए चावल खाया।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-165",
       "grammarPatternId_provenance": "auto_inferred"
@@ -228,7 +228,7 @@
       "passage_label": "Passage 20 (Q39, Q40)",
       "id": "dokkai-3.8",
       "mondai": 4,
-      "rationale_hi": "パンが ありませんでした — हमेशा का रोटी+दूध आज चावल+चाय से बदला गया।",
+      "rationale_hi": "パンが ありませんでした: हमेशा का रोटी+दूध आज चावल+चाय से बदला गया।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-090",
       "grammarPatternId_provenance": "auto_inferred"
@@ -248,7 +248,7 @@
       "passage_label": "Passage 21 (Q41, Q42)",
       "id": "dokkai-3.9",
       "mondai": 4,
-      "rationale_hi": "こんしゅうの 火曜日、 友だちの たんじょうびです — दोस्त का जन्मदिन इस मंगलवार है।",
+      "rationale_hi": "こんしゅうの 火曜日、 友だちの たんじょうびです: दोस्त का जन्मदिन इस मंगलवार है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-007",
       "grammarPatternId_provenance": "auto_inferred"
@@ -268,7 +268,7 @@
       "passage_label": "Passage 21 (Q41, Q42)",
       "id": "dokkai-3.10",
       "mondai": 4,
-      "rationale_hi": "大きい ケーキは 高いです — बड़े केक महँगे हैं, इसलिए छोटे चुने।",
+      "rationale_hi": "大きい ケーキは 高いです: बड़े केक महँगे हैं, इसलिए छोटे चुने।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -288,7 +288,7 @@
       "passage_label": "Passage 22 (Q43, Q44)",
       "id": "dokkai-3.11",
       "mondai": 4,
-      "rationale_hi": "妹は 日本語を べんきょうしたい — छोटी बहन जापानी पढ़ना चाहती है।",
+      "rationale_hi": "妹は 日本語を べんきょうしたい: छोटी बहन जापानी पढ़ना चाहती है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-188",
       "grammarPatternId_provenance": "auto_inferred"
@@ -308,7 +308,7 @@
       "passage_label": "Passage 22 (Q43, Q44)",
       "id": "dokkai-3.12",
       "mondai": 4,
-      "rationale_hi": "家は 大学から とおいですから、...アパートに ひっこします — घर विश्वविद्यालय से दूर है, इसलिए वह पास के अपार्टमेंट में जाएगी।",
+      "rationale_hi": "家は 大学から とおいですから、...アパートに ひっこします: घर विश्वविद्यालय से दूर है, इसलिए वह पास के अपार्टमेंट में जाएगी।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-009",
       "grammarPatternId_provenance": "auto_inferred"
@@ -328,7 +328,7 @@
       "passage_label": "Passage 23 (Q45, Q46)",
       "id": "dokkai-3.13",
       "mondai": 4,
-      "rationale_hi": "私の しゅみは しゃしんを とる こと — कथावाचक का शौक़ फ़ोटोग्राफ़ी है।",
+      "rationale_hi": "私の しゅみは しゃしんを とる こと: कथावाचक का शौक़ फ़ोटोग्राफ़ी है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-004",
       "grammarPatternId_provenance": "auto_inferred"
@@ -348,7 +348,7 @@
       "passage_label": "Passage 23 (Q45, Q46)",
       "id": "dokkai-3.14",
       "mondai": 4,
-      "rationale_hi": "はなや 木や そらの しゃしんを とります — फूलों, पेड़ों और आसमान की तस्वीरें लेते हैं।",
+      "rationale_hi": "はなや 木や そらの しゃしんを とります: फूलों, पेड़ों और आसमान की तस्वीरें लेते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-002",
       "grammarPatternId_provenance": "auto_inferred"
@@ -368,7 +368,7 @@
       "passage_label": "Passage 24 (Q47, Q48)",
       "id": "dokkai-3.15",
       "mondai": 4,
-      "rationale_hi": "あさ 七時の しんかんせんに のります — कल सुबह 7 बजे की शिनकानसेन लेते हैं।",
+      "rationale_hi": "あさ 七時の しんかんせんに のります: कल सुबह 7 बजे की शिनकानसेन लेते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-023",
       "grammarPatternId_provenance": "auto_inferred"
@@ -388,7 +388,7 @@
       "passage_label": "Passage 24 (Q47, Q48)",
       "id": "dokkai-3.16",
       "mondai": 4,
-      "rationale_hi": "大阪から 東京に かえるのは あさっての よる — परसों शाम को टोक्यो लौटते हैं।",
+      "rationale_hi": "大阪から 東京に かえるのは あさっての よる: परसों शाम को टोक्यो लौटते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-002",
       "grammarPatternId_provenance": "auto_inferred"

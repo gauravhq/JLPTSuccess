@@ -17,17 +17,17 @@ ISSUE-047 (audit round-5): the docs live in this directory. Quick map:
 
 | Doc | Purpose |
 |---|---|
-| [`specifications/JLPT-N5-Current-Implementation-Spec.md`](specifications/JLPT-N5-Current-Implementation-Spec.md) | The authoritative living spec — what the app actually does today (**v1.12.50**). |
+| [`specifications/JLPT-N5-Current-Implementation-Spec.md`](specifications/JLPT-N5-Current-Implementation-Spec.md) | The authoritative living spec: what the app actually does today (**v1.12.50**). |
 | [`CHANGELOG.md`](CHANGELOG.md) | User-visible release notes (currently at **v1.12.50**, post round-9). |
 | [`AUDIO.md`](AUDIO.md) | Audio pipeline (multi-provider auto-fallback: VOICEVOX → edge-tts → gtts). |
 | [`docs/SELF-HOST.md`](docs/SELF-HOST.md) / [`docs/SELF-HOST.hi.md`](docs/SELF-HOST.hi.md) | Fork → brand → deploy guide for institutional / school adopters (niche N3). |
-| [`docs/TRANSLATING.md`](docs/TRANSLATING.md) | Translator-contributor on-ramp for Hindi (niche N1; corpus-wide Hindi review **complete** at LLM-persona-Q33 quality bar — see CHANGELOG v1.12.40-50). |
+| [`docs/TRANSLATING.md`](docs/TRANSLATING.md) | Translator-contributor on-ramp for Hindi (niche N1; corpus-wide Hindi review **complete** at LLM-persona-Q33 quality bar: see CHANGELOG v1.12.40-50). |
 | [`docs/NATIVE-AUDIO-WORKFLOW.md`](docs/NATIVE-AUDIO-WORKFLOW.md) | How to swap synthesized audio for native-speaker recordings. |
 | [`docs/UNIFIED-REVIEW-QUEUE-DESIGN.md`](docs/UNIFIED-REVIEW-QUEUE-DESIGN.md) | Cross-skill FSRS-4.5 review queue design (round-9 IMP-092). |
 | [`prompts/N5Improvement.txt`](prompts/N5Improvement.txt) | Audit-only prompt that drives every audit round. Canonical strategic positioning + anti-items list. |
 | [`feedback/n5-audit-2026-05-04.xlsx`](feedback/n5-audit-2026-05-04.xlsx) | Cumulative audit tracker (rounds 1-9). **219 Done / 3 Avoid / 0 Open / 0 Open Questions.** |
 | [`feedback/audit-round9-2026-05-06.md`](feedback/audit-round9-2026-05-06.md) | Round-9 audit report (Sections 0-7, 27 findings registered). Historical snapshot. |
-| [`PRIVACY.md`](PRIVACY.md) | Privacy contract — no telemetry, no third-party scripts, no PII. |
+| [`PRIVACY.md`](PRIVACY.md) | Privacy contract: no telemetry, no third-party scripts, no PII. |
 | [`CONTENT-LICENSE.md`](CONTENT-LICENSE.md) | CC BY-SA 4.0 for the educational content corpus. |
 | [`NOTICES.md`](NOTICES.md) | Third-party content attributions (KanjiVG, Inter, Noto Sans JP, **VOICEVOX speakers**). |
 | [`../LICENSE`](../LICENSE) | MIT for the source code. |
@@ -115,7 +115,7 @@ specifications/JLPT-N5-Current-Implementation-Spec.md   canonical functional + i
 
 1. Edit rich content directly in the JSON files (single source of truth):
    - `data/grammar.json` (178 patterns)
-   - `data/vocab.json` (995 entries — post-BUG-018/019/024 dedup 2026-05-16/17)
+   - `data/vocab.json` (995 entries, post-BUG-018/019/024 dedup 2026-05-16/17)
    - `data/kanji.json` (106 entries)
    - `data/reading.json` / `data/listening.json` / `data/questions.json`
    - `data/papers/{moji,goi,bunpou,dokkai}/*.json` (paper questions)

@@ -2,7 +2,7 @@
   "_meta": {
     "purpose": "Per-pattern structural-markers catalog for JA-94. Every grammar example's ja must contain ≥1 marker from its parent pattern's list.",
     "authoring": "Auto-derived from each pattern's `pattern` field plus category-specific conjugational expansions, with per-pattern OVERRIDES for patterns whose examples demonstrate the pattern via forms not in the bare pattern field. Regenerate via `python tools/author_pattern_markers_2026_05_17.py` after grammar.json edits.",
-    "validation_contract": "JA-94: for each pattern, every example's ja must contain ≥1 marker as a literal substring. To fix a failing example: either expand the pattern's markers list (preferred — the form is canonical) or rewrite the example to use a canonical marker.",
+    "validation_contract": "JA-94: for each pattern, every example's ja must contain ≥1 marker as a literal substring. To fix a failing example: either expand the pattern's markers list (preferred, the form is canonical) or rewrite the example to use a canonical marker.",
     "regenerated": "2026-05-17"
   },
   "patterns": {

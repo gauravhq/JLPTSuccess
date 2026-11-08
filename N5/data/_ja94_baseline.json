@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "purpose": "Baseline allowlist for JA-94 (per-example structural-marker presence). RESOLVED 2026-05-17 (Phase A) — all 14 prior BUG-006-CANDIDATE entries addressed via example replacement. JA-94 enforces marker-presence unconditionally; this file's baseline_failing_examples array is empty and serves as a RESOLVED snapshot.",
+    "purpose": "Baseline allowlist for JA-94 (per-example structural-marker presence). RESOLVED 2026-05-17 (Phase A): all 14 prior BUG-006-CANDIDATE entries addressed via example replacement. JA-94 enforces marker-presence unconditionally; this file's baseline_failing_examples array is empty and serves as a RESOLVED snapshot.",
     "classification_legend": {
       "BUG-006-CANDIDATE": "The example's `ja` doesn't contain any structural marker for the parent pattern. Most likely the example was incorrectly filed under this pattern; the right fix is to either (a) replace the example with one that demonstrates the parent pattern, or (b) move the example to its correct pattern (if it demonstrates a different pattern's structure)."
     },

@@ -116,7 +116,7 @@
       "kbSourceId": "Q51",
       "id": "moji-4.6",
       "mondai": 2,
-      "rationale_hi": "学 (अध्ययन) + 生 (जीवन / छात्र) — '学生' = छात्र।",
+      "rationale_hi": "学 (अध्ययन) + 生 (जीवन / छात्र): '学生' = छात्र।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"
@@ -131,11 +131,11 @@
         "元生"
       ],
       "correctIndex": 2,
-      "rationale": "正解: 先生. 元の解説: 「先生 (teacher).」. 視覚的に 似ているが 意味が 違う候補: 先成, 先正, 元生 — それぞれ別の意味を持つ漢字。",
+      "rationale": "正解: 先生. 元の解説: 「先生 (teacher).」. 視覚的に 似ているが 意味が 違う候補: 先成, 先正, 元生, それぞれ別の意味を持つ漢字。",
       "kbSourceId": "Q52",
       "id": "moji-4.7",
       "mondai": 2,
-      "rationale_hi": "先生 (शिक्षक) — N5 शब्दावली।",
+      "rationale_hi": "先生 (शिक्षक): N5 शब्दावली।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography",
@@ -152,7 +152,7 @@
         "学校"
       ],
       "correctIndex": 3,
-      "rationale": "正解: 学校. 元の解説: 「学校 (school).」. 視覚的に 似ているが 意味が 違う候補: 字交, 字校, 学交 — それぞれ別の意味を持つ漢字。",
+      "rationale": "正解: 学校. 元の解説: 「学校 (school).」. 視覚的に 似ているが 意味が 違う候補: 字交, 字校, 学交, それぞれ別の意味を持つ漢字。",
       "kbSourceId": "Q53",
       "id": "moji-4.8",
       "mondai": 2,
@@ -177,7 +177,7 @@
       "kbSourceId": "Q54",
       "id": "moji-4.9",
       "mondai": 2,
-      "rationale_hi": "力 (ちから — शक्ति, N5 कान्जी)।",
+      "rationale_hi": "力 (ちから: शक्ति, N5 कान्जी)।",
       "rationale_hi_provenance": "native_reviewed_2026_05_18",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"
@@ -196,7 +196,7 @@
       "kbSourceId": "Q55",
       "id": "moji-4.10",
       "mondai": 2,
-      "rationale_hi": "大人 (おとな — वयस्क)। 熟字訓 (जुकुजिकुन, अर्थ-आधारित संयुक्त पठन): कान्जी 大 और 人 अलग-अलग N5 हैं, पर संयुक्त पठन おとな अनियमित है। यह यौगिक vocabulary_n5.md में N5 शब्दावली प्रविष्टि के रूप में दर्ज है; अनियमित-पठन का यह पैटर्न N5 परिवार/उम्र-संबंधी शब्दावली के लिए मानक है।",
+      "rationale_hi": "大人 (おとな: वयस्क)। 熟字訓 (जुकुजिकुन, अर्थ-आधारित संयुक्त पठन): कान्जी 大 और 人 अलग-अलग N5 हैं, पर संयुक्त पठन おとな अनियमित है। यह यौगिक vocabulary_n5.md में N5 शब्दावली प्रविष्टि के रूप में दर्ज है; अनियमित-पठन का यह पैटर्न N5 परिवार/उम्र-संबंधी शब्दावली के लिए मानक है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_21",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"
@@ -211,7 +211,7 @@
         "友"
       ],
       "correctIndex": 2,
-      "rationale": "正解: 父. 元の解説: 「父 (father).」. 視覚的に 似ているが 意味が 違う候補: 母, 兄, 友 — それぞれ別の意味を持つ漢字。",
+      "rationale": "正解: 父. 元の解説: 「父 (father).」. 視覚的に 似ているが 意味が 違う候補: 母, 兄, 友, それぞれ別の意味を持つ漢字。",
       "kbSourceId": "Q56",
       "id": "moji-4.11",
       "mondai": 2,
@@ -237,7 +237,7 @@
       "kbSourceId": "Q57",
       "id": "moji-4.12",
       "mondai": 2,
-      "rationale_hi": "母 (माँ)। नोट: विकर्षक 妹 कान्जी श्वेत-सूची में नहीं है — यह मोजी-संग्रह की कान्जी-स्कोप अपवाद-नीति के तहत केवल पहचान-विकर्षक के रूप में आता है (मोनदाइ 2 के विकर्षक श्वेत-सूची से बाहर के कान्जी प्रयोग कर सकते हैं जब वे विशिष्ट पारिवारिक-समूह पठन-समानार्थी हों)।",
+      "rationale_hi": "母 (माँ)। नोट: विकर्षक 妹 कान्जी श्वेत-सूची में नहीं है, यह मोजी-संग्रह की कान्जी-स्कोप अपवाद-नीति के तहत केवल पहचान-विकर्षक के रूप में आता है (मोनदाइ 2 के विकर्षक श्वेत-सूची से बाहर के कान्जी प्रयोग कर सकते हैं जब वे विशिष्ट पारिवारिक-समूह पठन-समानार्थी हों)।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_orthography"
@@ -252,7 +252,7 @@
         "手"
       ],
       "correctIndex": 3,
-      "rationale": "正解: 手. 元の解説: 「手 (hand, N5).」. 視覚的に 似ているが 意味が 違う候補: 千, 毛, 牛 — それぞれ別の意味を持つ漢字。",
+      "rationale": "正解: 手. 元の解説: 「手 (hand, N5).」. 視覚的に 似ているが 意味が 違う候補: 千, 毛, 牛, それぞれ別の意味を持つ漢字。",
       "kbSourceId": "Q58",
       "id": "moji-4.13",
       "mondai": 2,
@@ -273,7 +273,7 @@
         "大"
       ],
       "correctIndex": 1,
-      "rationale": "正解: 人. 元の解説: 「人 (person).」. 視覚的に 似ているが 意味が 違う候補: 入, 八, 大 — それぞれ別の意味を持つ漢字。",
+      "rationale": "正解: 人. 元の解説: 「人 (person).」. 視覚的に 似ているが 意味が 違う候補: 入, 八, 大, それぞれ別の意味を持つ漢字。",
       "kbSourceId": "Q59",
       "id": "moji-4.14",
       "mondai": 2,

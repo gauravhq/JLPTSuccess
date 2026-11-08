@@ -97,8 +97,8 @@
       ],
       "mnemonic": {
         "summary": "A single horizontal stroke = ONE.",
-        "visual": "A single horizontal stroke — ONE finger held up flat.",
-        "reading": "いち / いつ — counting \"ichi, ni, san\" starts with ichi. Kun ひと appears in 一つ (hitotsu, one thing).",
+        "visual": "A single horizontal stroke: ONE finger held up flat.",
+        "reading": "いち / いつ: counting \"ichi, ni, san\" starts with ichi. Kun ひと appears in 一つ (hitotsu, one thing).",
         "meaning": "A single horizontal stroke = ONE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -149,7 +149,7 @@
       "stroke_order_trap": {
         "trap": "一 has only 1 stroke; learners sometimes forget the stroke is left-to-right.",
         "correct_order_summary": "1: horizontal stroke (left → right).",
-        "why_it_matters": "Direction matters even for single strokes — calligraphic convention is L→R, not R→L."
+        "why_it_matters": "Direction matters even for single strokes: calligraphic convention is L→R, not R→L."
       },
       "stroke_order_trap_provenance": "llm_curated",
       "n5_compounds": [
@@ -237,7 +237,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "A single horizontal stroke representing the abstract concept of \"one\" — the most basic counting symbol in the Chinese-Japanese script."
+        "story": "A single horizontal stroke representing the abstract concept of \"one\": the most basic counting symbol in the Chinese-Japanese script."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -363,8 +363,8 @@
       ],
       "mnemonic": {
         "summary": "Two horizontal strokes = TWO.",
-        "visual": "Two horizontal strokes — TWO chopsticks resting parallel.",
-        "reading": "に — \"ni\" is the second beat in counting. Kun ふた lives in 二つ (futatsu, two things).",
+        "visual": "Two horizontal strokes: TWO chopsticks resting parallel.",
+        "reading": "に: \"ni\" is the second beat in counting. Kun ふた lives in 二つ (futatsu, two things).",
         "meaning": "Two horizontal strokes = TWO.",
         "provenance": {
           "summary": "native_reviewed",
@@ -485,7 +485,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "Two horizontal strokes — a direct doubling of 一. The top stroke is shorter by tradition."
+        "story": "Two horizontal strokes: a direct doubling of 一. The top stroke is shorter by tradition."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -574,8 +574,8 @@
       ],
       "mnemonic": {
         "summary": "Three horizontal strokes = THREE.",
-        "visual": "Three horizontal strokes — THREE fingers raised.",
-        "reading": "The sound *san* is everywhere in Japanese — 三月 (sangatsu, March), the honorific -さん, etc. — so the reading is easy to hold onto. (Note: the honorific さん comes from a separate root [様 → さま → さん]; the shared sound is coincidental.) Kun み in 三つ (mittsu).",
+        "visual": "Three horizontal strokes: THREE fingers raised.",
+        "reading": "The sound *san* is everywhere in Japanese: 三月 (sangatsu, March), the honorific -さん, etc., so the reading is easy to hold onto. (Note: the honorific さん comes from a separate root [様 → さま → さん]; the shared sound is coincidental.) Kun み in 三つ (mittsu).",
         "meaning": "Three horizontal strokes = THREE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -673,7 +673,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "Three horizontal strokes — extending the 一 / 二 series. Used since oracle-bone script (~1200 BCE)."
+        "story": "Three horizontal strokes: extending the 一 / 二 series. Used since oracle-bone script (~1200 BCE)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -765,8 +765,8 @@
       ],
       "mnemonic": {
         "summary": "Four legs (儿) inside a box = FOUR.",
-        "visual": "A box with two legs sticking down — FOUR legs of a table inside a frame.",
-        "reading": "し / よん — \"shi\" sounds like death so よん is preferred when counting people. Both readings are common.",
+        "visual": "A box with two legs sticking down: FOUR legs of a table inside a frame.",
+        "reading": "し / よん: \"shi\" sounds like death so よん is preferred when counting people. Both readings are common.",
         "meaning": "Four legs (儿) inside a box = FOUR.",
         "provenance": {
           "summary": "native_reviewed",
@@ -944,8 +944,8 @@
       ],
       "mnemonic": {
         "summary": "Roman numeral V tilted between two horizontal lines = FIVE.",
-        "visual": "A capital \"I\" with extra strokes — FIVE fingers locked in a tight grip.",
-        "reading": "ご — quick and clean, as in 五月 (gogatsu, May). Kun いつ in 五つ (itsutsu).",
+        "visual": "A capital \"I\" with extra strokes: FIVE fingers locked in a tight grip.",
+        "reading": "ご: quick and clean, as in 五月 (gogatsu, May). Kun いつ in 五つ (itsutsu).",
         "meaning": "Roman numeral V tilted between two horizontal lines = FIVE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -1041,7 +1041,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Two crossed sticks between sky (天) and earth (地) — representing the five elements / five directions in early Chinese cosmology."
+        "story": "Two crossed sticks between sky (天) and earth (地): representing the five elements / five directions in early Chinese cosmology."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -1128,8 +1128,8 @@
       ],
       "mnemonic": {
         "summary": "A lid (亠) over a split (八) = SIX.",
-        "visual": "A roof over a pair of legs — SIX is the legs of a SIX-pack of beer under a tavern roof.",
-        "reading": "ろく — like rolling a SIX on a die: \"rock and roll\" → roku.",
+        "visual": "A roof over a pair of legs: SIX is the legs of a SIX-pack of beer under a tavern roof.",
+        "reading": "ろく, like rolling a SIX on a die: \"rock and roll\" → roku.",
         "meaning": "A lid (亠) over a split (八) = SIX.",
         "provenance": {
           "summary": "native_reviewed",
@@ -1298,8 +1298,8 @@
       ],
       "mnemonic": {
         "summary": "A horizontal stroke crossed by a hook = SEVEN.",
-        "visual": "Imagine the horizontal stroke as the SEA's surface, with the diagonal hook pulling down — SEVEN waves crashing under the surface. Or: a sickle (鎌) cutting downward through the air.",
-        "reading": "しち / なな — \"shichi\" can be misheard, so なな is common spoken-language fallback.",
+        "visual": "Imagine the horizontal stroke as the SEA's surface, with the diagonal hook pulling down: SEVEN waves crashing under the surface. Or: a sickle (鎌) cutting downward through the air.",
+        "reading": "しち / なな: \"shichi\" can be misheard, so なな is common spoken-language fallback.",
         "meaning": "A horizontal stroke crossed by a hook = SEVEN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -1392,7 +1392,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "A cross-stroke indicating \"to cut\" — borrowed to represent the number seven. The cutting sense survives in 切 (cut)."
+        "story": "A cross-stroke indicating \"to cut\": borrowed to represent the number seven. The cutting sense survives in 切 (cut)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -1491,8 +1491,8 @@
       ],
       "mnemonic": {
         "summary": "Two strokes splitting outward like a fan = EIGHT.",
-        "visual": "Two strokes splaying outward — EIGHT legs of an OCTOPUS spread wide.",
-        "reading": "はち — visual hook: sharp like a bee sting. (Coincidence: 蜂 'bee' is also pronounced はち — a separate kanji with separate etymology; the shared sound is a useful memory hook, not a derivation.) Used in 8-hour: はちじかん.",
+        "visual": "Two strokes splaying outward: EIGHT legs of an OCTOPUS spread wide.",
+        "reading": "はち, visual hook: sharp like a bee sting. (Coincidence: 蜂 'bee' is also pronounced はち, a separate kanji with separate etymology; the shared sound is a useful memory hook, not a derivation.) Used in 8-hour: はちじかん.",
         "meaning": "Two strokes splitting outward like a fan = EIGHT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -1609,7 +1609,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Two strokes splaying outward like an object being split — the original meaning was \"to divide.\" The number-eight meaning came from phonetic loan."
+        "story": "Two strokes splaying outward like an object being split: the original meaning was \"to divide.\" The number-eight meaning came from phonetic loan."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -1701,8 +1701,8 @@
       ],
       "mnemonic": {
         "summary": "A diagonal hook curling like the digit 9 = NINE.",
-        "visual": "A hooked stroke meeting a vertical — NINE looks like a fishhook catching a fish.",
-        "reading": "きゅう / く — \"kyuu\" used in counting, \"ku\" used in dates (九月 kugatsu, September).",
+        "visual": "A hooked stroke meeting a vertical: NINE looks like a fishhook catching a fish.",
+        "reading": "きゅう / く: \"kyuu\" used in counting, \"ku\" used in dates (九月 kugatsu, September).",
         "meaning": "A diagonal hook curling like the digit 9 = NINE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -1911,8 +1911,8 @@
       ],
       "mnemonic": {
         "summary": "A plus sign - Roman numeral X rotated = TEN.",
-        "visual": "A perfect cross — TEN is two roads meeting; tally bars at TEN strokes.",
-        "reading": "じゅう / じっ — \"juu\" stretches to mean \"complete.\" Used in 十時 (juuji, 10 o'clock).",
+        "visual": "A perfect cross: TEN is two roads meeting; tally bars at TEN strokes.",
+        "reading": "じゅう / じっ: \"juu\" stretches to mean \"complete.\" Used in 十時 (juuji, 10 o'clock).",
         "meaning": "A plus sign - Roman numeral X rotated = TEN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -2036,7 +2036,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "A simple vertical stroke (originally) meaning \"completed counting on one hand\" — later the horizontal crossbar was added to distinguish from 一."
+        "story": "A simple vertical stroke (originally) meaning \"completed counting on one hand\": later the horizontal crossbar was added to distinguish from 一."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -2134,8 +2134,8 @@
       ],
       "mnemonic": {
         "summary": "One (一) over white (白) = a HUNDRED whitewashed walls.",
-        "visual": "One (一) stacked on white (白) — the FIRST WHITE coin: HUNDRED yen.",
-        "reading": "ひゃく — 100 of anything. Watch for sound shift: 三百 (sanbyaku), 六百 (roppyaku), 八百 (happyaku).",
+        "visual": "One (一) stacked on white (白), the FIRST WHITE coin: HUNDRED yen.",
+        "reading": "ひゃく: 100 of anything. Watch for sound shift: 三百 (sanbyaku), 六百 (roppyaku), 八百 (happyaku).",
         "meaning": "One (一) over white (白) = a HUNDRED whitewashed walls.",
         "provenance": {
           "summary": "native_reviewed",
@@ -2274,8 +2274,8 @@
       ],
       "mnemonic": {
         "summary": "A slash (丿) over ten (十) = a THOUSAND tally marks.",
-        "visual": "A slash crossing a ten — like THOUSAND sticks falling at a slight angle.",
-        "reading": "せん — bills come in 千円 notes (sen-en). Kun ち in names like 千葉 (Chiba).",
+        "visual": "A slash crossing a ten: like THOUSAND sticks falling at a slight angle.",
+        "reading": "せん: bills come in 千円 notes (sen-en). Kun ち in names like 千葉 (Chiba).",
         "meaning": "A slash (丿) over ten (十) = a THOUSAND tally marks.",
         "provenance": {
           "summary": "native_reviewed",
@@ -2465,8 +2465,8 @@
       ],
       "mnemonic": {
         "summary": "A swooping line tied off = TEN THOUSAND.",
-        "visual": "A flag with a pole and a swooping line — TEN THOUSAND flags waving in a parade.",
-        "reading": "まん — used in 一万 (ichiman, 10,000). Watch the price tags for 万 to denote ten-thousand.",
+        "visual": "A flag with a pole and a swooping line: TEN THOUSAND flags waving in a parade.",
+        "reading": "まん: used in 一万 (ichiman, 10,000). Watch the price tags for 万 to denote ten-thousand.",
         "meaning": "A swooping line tied off = TEN THOUSAND.",
         "provenance": {
           "summary": "native_reviewed",
@@ -2617,8 +2617,8 @@
       ],
       "mnemonic": {
         "summary": "Inside the box (冂) is earth (土) = round YEN coin.",
-        "visual": "A box with rounded inside — a coin in a wallet pocket. ROUND like the YEN coin.",
-        "reading": "えん — every yen price ends in 円. Also means \"round\" — an えんりょ-shaped coin.",
+        "visual": "A box with rounded inside: a coin in a wallet pocket. ROUND like the YEN coin.",
+        "reading": "えん: every yen price ends in 円. Also means \"round\": an えんりょ-shaped coin.",
         "meaning": "Inside the box (冂) is earth (土) = round YEN coin.",
         "provenance": {
           "summary": "native_reviewed",
@@ -2725,7 +2725,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Simplified form of 圓 (round / circle). The original 圓 = 囗 (enclosure) + 員 (member) — a circular grouping. Used for the Japanese yen since 1871 because coins are round."
+        "story": "Simplified form of 圓 (round / circle). The original 圓 = 囗 (enclosure) + 員 (member): a circular grouping. Used for the Japanese yen since 1871 because coins are round."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -2875,8 +2875,8 @@
       ],
       "mnemonic": {
         "summary": "A box with a stroke inside = the SUN, a DAY.",
-        "visual": "A box with a line through the middle — the SUN at noon, light splitting the sky.",
-        "reading": "にち / じつ / ひ / び — Sunday is にちようび. The kun ひ appears in 日 (hi, day) and 毎日 (mainichi, every day).",
+        "visual": "A box with a line through the middle: the SUN at noon, light splitting the sky.",
+        "reading": "にち / じつ / ひ / び: Sunday is にちようび. The kun ひ appears in 日 (hi, day) and 毎日 (mainichi, every day).",
         "meaning": "A box with a stroke inside = the SUN, a DAY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -3058,7 +3058,7 @@
       ],
       "reading_passages_provenance": "auto_derived",
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 日: 日 (ひ, kun, \"day\") — standalone. 日本 (にほん, on+on, \"Japan\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 日: 日 (ひ, kun, \"day\"), standalone. 日本 (にほん, on+on, \"Japan\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Bottom horizontal closes the box LAST.",
@@ -3330,8 +3330,8 @@
       ],
       "mnemonic": {
         "summary": "A crescent shape = the MOON, a MONTH.",
-        "visual": "A crescent shape with two horizontal lines — the MOON inside a window frame.",
-        "reading": "げつ / つき — Monday is げつようび. Kun つき: 月 (tsuki, moon).",
+        "visual": "A crescent shape with two horizontal lines: the MOON inside a window frame.",
+        "reading": "げつ / つき: Monday is げつようび. Kun つき: 月 (tsuki, moon).",
         "meaning": "A crescent shape = the MOON, a MONTH.",
         "provenance": {
           "summary": "native_reviewed",
@@ -3400,7 +3400,7 @@
         "曜"
       ],
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 月: 月 (つき, kun, \"moon\") — standalone. 月曜日 (げつようび, on, \"Monday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 月: 月 (つき, kun, \"moon\"), standalone. 月曜日 (げつようび, on, \"Monday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Left vertical FIRST (with hook); then frame; then two inside horizontals.",
@@ -3611,8 +3611,8 @@
       ],
       "mnemonic": {
         "summary": "Flames flickering upward = FIRE.",
-        "visual": "Sparks flying outward from a central point — FIRE leaping with two side flames.",
-        "reading": "か / ひ — Tuesday is かようび. Kun ひ: 火事 (kaji, fire emergency) but also ひ: 火 (hi, fire).",
+        "visual": "Sparks flying outward from a central point: FIRE leaping with two side flames.",
+        "reading": "か / ひ: Tuesday is かようび. Kun ひ: 火事 (kaji, fire emergency) but also ひ: 火 (hi, fire).",
         "meaning": "Flames flickering upward = FIRE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -3642,7 +3642,7 @@
         "水"
       ],
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 火: 火 (ひ, kun, \"fire\") — standalone. 火曜日 (かようび, on, \"Tuesday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 火: 火 (ひ, kun, \"fire\"), standalone. 火曜日 (かようび, on, \"Tuesday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Some write the central X first instead of the side dots.",
@@ -3763,8 +3763,8 @@
       ],
       "mnemonic": {
         "summary": "A central drop with splashes = WATER.",
-        "visual": "A central drop with splashes either side — WATER spreading on impact.",
-        "reading": "すい / みず — Wednesday is すいようび. Kun みず is the base word for \"water.\"",
+        "visual": "A central drop with splashes either side: WATER spreading on impact.",
+        "reading": "すい / みず: Wednesday is すいようび. Kun みず is the base word for \"water.\"",
         "meaning": "A central drop with splashes = WATER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -3798,7 +3798,7 @@
         "火"
       ],
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 水: 水 (みず, kun, \"water\") — standalone. 水曜日 (すいようび, on, \"Wednesday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 水: 水 (みず, kun, \"water\"), standalone. 水曜日 (すいようび, on, \"Wednesday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Many learners write the central vertical first.",
@@ -3837,7 +3837,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of flowing water — a central stream with drops/spray on either side. The vertical line is the water current."
+        "story": "Pictograph of flowing water: a central stream with drops/spray on either side. The vertical line is the water current."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -3931,8 +3931,8 @@
       ],
       "mnemonic": {
         "summary": "A trunk with branches and roots = TREE.",
-        "visual": "A vertical trunk with branches outward and roots downward — a TREE.",
-        "reading": "もく / き — Thursday is もくようび. Kun き: 木 (ki, tree); also 木曜日 (mokuyoubi).",
+        "visual": "A vertical trunk with branches outward and roots downward: a TREE.",
+        "reading": "もく / き: Thursday is もくようび. Kun き: 木 (ki, tree); also 木曜日 (mokuyoubi).",
         "meaning": "A trunk with branches and roots = TREE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -4005,7 +4005,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 木: 木 (き, kun, \"tree\") — standalone. 木曜日 (もくようび, on, \"Thursday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 木: 木 (き, kun, \"tree\"), standalone. 木曜日 (もくようび, on, \"Thursday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Top horizontal first, THEN vertical (not vertical first).",
@@ -4139,8 +4139,8 @@
       ],
       "mnemonic": {
         "summary": "A person (人) over a king (王) with two specks of gold = METAL/GOLD.",
-        "visual": "A roof with two diamonds inside — GOLD nuggets hidden under the roof of a cave.",
-        "reading": "きん / かね — Friday is きんようび. Kun かね: お金 (okane, money).",
+        "visual": "A roof with two diamonds inside: GOLD nuggets hidden under the roof of a cave.",
+        "reading": "きん / かね: Friday is きんようび. Kun かね: お金 (okane, money).",
         "meaning": "A person (人) over a king (王) with two specks of gold = METAL/GOLD.",
         "provenance": {
           "summary": "native_reviewed",
@@ -4183,7 +4183,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 金: 金 (かね, kun, \"money\") — standalone. 金曜日 (きんようび, on, \"Friday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 金: 金 (かね, kun, \"money\"), standalone. 金曜日 (きんようび, on, \"Friday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "今",
@@ -4194,7 +4194,7 @@
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "人-hat first (top dots), then horizontals, then 王 below.",
-        "correct_order_summary": "1-2: 人-shape (left ノ, right ╲ — converging hat). 3-4: two horizontals (top). 5: vertical. 6: middle horizontal. 7: ノ. 8: ╲ (bottom diagonals).",
+        "correct_order_summary": "1-2: 人-shape (left ノ, right ╲, converging hat). 3-4: two horizontals (top). 5: vertical. 6: middle horizontal. 7: ノ. 8: ╲ (bottom diagonals).",
         "why_it_matters": "8 strokes. Hat-first convention applied to a 人 element."
       },
       "stroke_order_trap_provenance": "llm_curated",
@@ -4229,7 +4229,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "A roof (人) over earth (土) holding two precious dots — representing metal ore buried in the ground. Came to mean \"gold\" specifically then \"money.\""
+        "story": "A roof (人) over earth (土) holding two precious dots: representing metal ore buried in the ground. Came to mean \"gold\" specifically then \"money.\""
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -4330,8 +4330,8 @@
       ],
       "mnemonic": {
         "summary": "A cross stuck in the ground = EARTH.",
-        "visual": "A cross with a bottom line — a stake driven into the EARTH with the line marking ground level.",
-        "reading": "ど / つち — Saturday is どようび. Kun つち: 土 (tsuchi, soil).",
+        "visual": "A cross with a bottom line: a stake driven into the EARTH with the line marking ground level.",
+        "reading": "ど / つち: Saturday is どようび. Kun つち: 土 (tsuchi, soil).",
         "meaning": "A cross stuck in the ground = EARTH.",
         "provenance": {
           "summary": "native_reviewed",
@@ -4384,7 +4384,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 土: 土 (つち, kun, \"earth\") — standalone. 土曜日 (どようび, on, \"Saturday\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 土: 土 (つち, kun, \"earth\"), standalone. 土曜日 (どようび, on, \"Saturday\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "上"
@@ -4430,7 +4430,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a small mound of earth on a baseline — the cross with a horizontal base. The horizontal line is the ground; the upright is the soil heap."
+        "story": "Pictograph of a small mound of earth on a baseline: the cross with a horizontal base. The horizontal line is the ground; the upright is the soil heap."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -4551,8 +4551,8 @@
       ],
       "mnemonic": {
         "summary": "Sun (日) + feathers (羽) + bird (隹) - DAY OF THE WEEK named after a celestial body.",
-        "visual": "Sun (日) + wings + bird (隹) — the day BIRD soars across the SKY each WEEKDAY.",
-        "reading": "よう — only meaningful in 曜日 (youbi, day-of-week). Memorize the chunk: 月曜日 / 火曜日 ...",
+        "visual": "Sun (日) + wings + bird (隹): the day BIRD soars across the SKY each WEEKDAY.",
+        "reading": "よう: only meaningful in 曜日 (youbi, day-of-week). Memorize the chunk: 月曜日 / 火曜日 ...",
         "meaning": "Sun (日) + feathers (羽) + bird (隹) - DAY OF THE WEEK named after a celestial body.",
         "provenance": {
           "summary": "native_reviewed",
@@ -4684,7 +4684,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "日 (sun) + 翟 (pheasant feathers) — the \"shining sun\" element. Originally meant \"to shine\"; came to denote weekdays because each day was named after a celestial body."
+        "story": "日 (sun) + 翟 (pheasant feathers): the \"shining sun\" element. Originally meant \"to shine\"; came to denote weekdays because each day was named after a celestial body."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -4777,8 +4777,8 @@
       ],
       "mnemonic": {
         "summary": "A stalk grown over time = a YEAR.",
-        "visual": "A person leaning on a stick — an old man carrying the weight of YEARS.",
-        "reading": "ねん / とし — 一年 (ichinen, one year). Kun とし: 今年 (kotoshi, this year).",
+        "visual": "A person leaning on a stick: an old man carrying the weight of YEARS.",
+        "reading": "ねん / とし: 一年 (ichinen, one year). Kun とし: 今年 (kotoshi, this year).",
         "meaning": "A stalk grown over time = a YEAR.",
         "provenance": {
           "summary": "native_reviewed",
@@ -4864,7 +4864,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Originally a person (人) carrying grain (禾) — a year was one harvest cycle. The modern simplification compresses the grain-bundle into the lower strokes."
+        "story": "Originally a person (人) carrying grain (禾): a year was one harvest cycle. The modern simplification compresses the grain-bundle into the lower strokes."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -4951,8 +4951,8 @@
       ],
       "mnemonic": {
         "summary": "Sun (日) + temple (寺, time-keeper) = TIME / hour.",
-        "visual": "Sun (日) + temple (寺) — the temple bell rings out the TIME of day.",
-        "reading": "じ / とき — clock times: 三時 (sanji, 3 o'clock). Kun とき: そのとき (sono toki, at that time).",
+        "visual": "Sun (日) + temple (寺): the temple bell rings out the TIME of day.",
+        "reading": "じ / とき, clock times: 三時 (sanji, 3 o'clock). Kun とき: そのとき (sono toki, at that time).",
         "meaning": "Sun (日) + temple (寺, time-keeper) = TIME / hour.",
         "provenance": {
           "summary": "native_reviewed",
@@ -5040,7 +5040,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 時: 時 (とき, kun, \"time, occasion\") — standalone. 時間 (じかん, on, \"time-duration\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 時: 時 (とき, kun, \"time, occasion\"), standalone. 時間 (じかん, on, \"time-duration\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "間"
@@ -5198,8 +5198,8 @@
       ],
       "mnemonic": {
         "summary": "Splitting (八) with a knife (刀) = MINUTE / divide.",
-        "visual": "Eight (八) over sword (刀) — divide a thing by cutting eight ways. A MINUTE is a divided slice of an hour.",
-        "reading": "ふん / ぷん / ぶん — minutes shift voicing: 一分 (ippun), 三分 (sanpun). Also ぶん in 自分 (jibun, oneself).",
+        "visual": "Eight (八) over sword (刀): divide a thing by cutting eight ways. A MINUTE is a divided slice of an hour.",
+        "reading": "ふん / ぷん / ぶん, minutes shift voicing: 一分 (ippun), 三分 (sanpun). Also ぶん in 自分 (jibun, oneself).",
         "meaning": "Splitting (八) with a knife (刀) = MINUTE / divide.",
         "provenance": {
           "summary": "native_reviewed",
@@ -5290,7 +5290,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "八 (split apart) + 刀 (knife / sword) — a knife splitting something into parts. Hence the meaning \"to divide / portion / minute (1/60 of an hour).\""
+        "story": "八 (split apart) + 刀 (knife / sword): a knife splitting something into parts. Hence the meaning \"to divide / portion / minute (1/60 of an hour).\""
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -5383,8 +5383,8 @@
       ],
       "mnemonic": {
         "summary": "Mark cutting in two = HALF.",
-        "visual": "Eight on top + cow below cut down the middle — HALF of a cow.",
-        "reading": "はん — 半分 (hanbun, half) and 三時半 (sanji-han, 3:30). Always はん.",
+        "visual": "Eight on top + cow below cut down the middle: HALF of a cow.",
+        "reading": "はん: 半分 (hanbun, half) and 三時半 (sanji-han, 3:30). Always はん.",
         "meaning": "Mark cutting in two = HALF.",
         "provenance": {
           "summary": "native_reviewed",
@@ -5453,7 +5453,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "八 (split) on top of 牛 (cow) — splitting a cow in two for shared sacrifice / banquet. Hence \"half.\""
+        "story": "八 (split) on top of 牛 (cow): splitting a cow in two for shared sacrifice / banquet. Hence \"half.\""
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -5554,8 +5554,8 @@
       ],
       "mnemonic": {
         "summary": "A person under a roof at this very instant = NOW.",
-        "visual": "A roof over a small mark — sheltering RIGHT NOW under the present moment.",
-        "reading": "こん / いま — 今日 (kyou, today!) and 今週 (konshuu, this week). Kun いま: 今 (ima, now).",
+        "visual": "A roof over a small mark: sheltering RIGHT NOW under the present moment.",
+        "reading": "こん / いま: 今日 (kyou, today!) and 今週 (konshuu, this week). Kun いま: 今 (ima, now).",
         "meaning": "A person under a roof at this very instant = NOW.",
         "provenance": {
           "summary": "native_reviewed",
@@ -5681,7 +5681,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "A roof (人) over a tongue/object (≡ inverted 口) — \"what is currently under cover / what is being uttered.\" Hence \"now / present moment.\""
+        "story": "A roof (人) over a tongue/object (≡ inverted 口): \"what is currently under cover / what is being uttered.\" Hence \"now / present moment.\""
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -5773,8 +5773,8 @@
       ],
       "mnemonic": {
         "summary": "A person (人) over a mother (母) - every child has one = EVERY.",
-        "visual": "A person bent forward + 母 mother — every mother bends to her child EVERY day.",
-        "reading": "まい — only in compounds: 毎日 (mainichi, every day), 毎週 (maishuu, every week), 毎年 (maitoshi).",
+        "visual": "A person bent forward + 母 mother: every mother bends to her child EVERY day.",
+        "reading": "まい, only in compounds: 毎日 (mainichi, every day), 毎週 (maishuu, every week), 毎年 (maitoshi).",
         "meaning": "A person (人) over a mother (母) - every child has one = EVERY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -5865,7 +5865,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "人 (person) over 母 (mother) — every person born of a mother, hence \"every / each one.\" The 母 element is the structural anchor."
+        "story": "人 (person) over 母 (mother): every person born of a mother, hence \"every / each one.\" The 母 element is the structural anchor."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -5951,8 +5951,8 @@
       ],
       "mnemonic": {
         "summary": "Walking (辶) around (周) the calendar = WEEK.",
-        "visual": "Walking radical (⻌) + 周 around — a WEEK is what you walk around in seven days.",
-        "reading": "しゅう — 今週 (konshuu, this week), 来週 (raishuu, next week). Always しゅう.",
+        "visual": "Walking radical (⻌) + 周 around: a WEEK is what you walk around in seven days.",
+        "reading": "しゅう: 今週 (konshuu, this week), 来週 (raishuu, next week). Always しゅう.",
         "meaning": "Walking (辶) around (周) the calendar = WEEK.",
         "provenance": {
           "summary": "native_reviewed",
@@ -6121,8 +6121,8 @@
       ],
       "mnemonic": {
         "summary": "A pestle pointing down at noon = NOON.",
-        "visual": "A horizontal line with a pestle below — at NOON the sun pounds straight down on the ground.",
-        "reading": "ご — only in 午前 (gozen, AM) and 午後 (gogo, PM). Solid ご.",
+        "visual": "A horizontal line with a pestle below: at NOON the sun pounds straight down on the ground.",
+        "reading": "ご: only in 午前 (gozen, AM) and 午後 (gogo, PM). Solid ご.",
         "meaning": "A pestle pointing down at noon = NOON.",
         "provenance": {
           "summary": "native_reviewed",
@@ -6205,7 +6205,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a pestle for grinding rice — originally meant \"to oppose / cross.\" Borrowed for the seventh earthly branch (representing noon, when the sun is \"crossed\" at zenith)."
+        "story": "Pictograph of a pestle for grinding rice: originally meant \"to oppose / cross.\" Borrowed for the seventh earthly branch (representing noon, when the sun is \"crossed\" at zenith)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -6301,8 +6301,8 @@
       ],
       "mnemonic": {
         "summary": "A person (亻) asking what is possible (可) = WHAT.",
-        "visual": "A person (亻) + 可 can — when a person CAN'T name something, they ask \"WHAT?\"",
-        "reading": "なに / なん — なに alone (何ですか) but なん before some sounds (何時, nanji). Watch the shift!",
+        "visual": "A person (亻) + 可 can, when a person CAN'T name something, they ask \"WHAT?\"",
+        "reading": "なに / なん: なに alone (何ですか) but なん before some sounds (何時, nanji). Watch the shift!",
         "meaning": "A person (亻) asking what is possible (可) = WHAT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -6324,7 +6324,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 何: 何 (なに/なん) — both kun. なに alone (何ですか), なん before counters (何時, なんじ).",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 何: 何 (なに/なん), both kun. なに alone (何ですか), なん before counters (何時, なんじ).",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [],
       "lookalikes_note": "何 has no close visual confusion partner among N5 kanji.",
@@ -6390,7 +6390,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "phono_semantic",
-        "story": "A person (亻) carrying something (可). Originally meant \"to carry\" — borrowed for \"what\" through phonetic loan in ancient Chinese."
+        "story": "A person (亻) carrying something (可). Originally meant \"to carry\": borrowed for \"what\" through phonetic loan in ancient Chinese."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -6527,8 +6527,8 @@
       ],
       "mnemonic": {
         "summary": "Two legs walking = a PERSON.",
-        "visual": "Two strokes leaning into each other — a PERSON walking on two legs.",
-        "reading": "じん / にん / ひと — country + 人 = nationality (日本人 nihonjin). Kun ひと: あの人 (ano hito).",
+        "visual": "Two strokes leaning into each other: a PERSON walking on two legs.",
+        "reading": "じん / にん / ひと: country + 人 = nationality (日本人 nihonjin). Kun ひと: あの人 (ano hito).",
         "meaning": "Two legs walking = a PERSON.",
         "provenance": {
           "summary": "native_reviewed",
@@ -6597,7 +6597,7 @@
       ],
       "reading_passages_provenance": "auto_derived",
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 人: 人 (ひと, kun, \"person\") — standalone. 日本人 (にほんじん, on, \"Japanese person\") — compound suffix.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 人: 人 (ひと, kun, \"person\"), standalone. 日本人 (にほんじん, on, \"Japanese person\"): compound suffix.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "人 starts with the LONG stroke (left-descending), opposite of 入.",
@@ -6678,7 +6678,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a standing person seen from the side — two legs forming a triangular figure. One of the oldest characters in the Chinese script."
+        "story": "Pictograph of a standing person seen from the side: two legs forming a triangular figure. One of the oldest characters in the Chinese script."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -6775,8 +6775,8 @@
       ],
       "mnemonic": {
         "summary": "Power (力) in the rice field (田) = MAN.",
-        "visual": "Field (田) on top + power (力) below — a MAN providing POWER to the FIELD.",
-        "reading": "だん / おとこ — 男の人 (otoko no hito, man). Also 男性 (dansei, male).",
+        "visual": "Field (田) on top + power (力) below: a MAN providing POWER to the FIELD.",
+        "reading": "だん / おとこ: 男の人 (otoko no hito, man). Also 男性 (dansei, male).",
         "meaning": "Power (力) in the rice field (田) = MAN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -6846,7 +6846,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "田 (rice field) + 力 (strength/plow) — the one who works the fields with strength. Captures the ancient division of agricultural labor by gender."
+        "story": "田 (rice field) + 力 (strength/plow): the one who works the fields with strength. Captures the ancient division of agricultural labor by gender."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -6933,8 +6933,8 @@
       ],
       "mnemonic": {
         "summary": "A figure with crossed legs sitting gracefully = WOMAN.",
-        "visual": "A figure with crossed legs gracefully kneeling — a WOMAN sitting in seiza.",
-        "reading": "じょ / おんな — 女の人 (onna no hito, woman). 女性 (josei, female).",
+        "visual": "A figure with crossed legs gracefully kneeling: a WOMAN sitting in seiza.",
+        "reading": "じょ / おんな: 女の人 (onna no hito, woman). 女性 (josei, female).",
         "meaning": "A figure with crossed legs sitting gracefully = WOMAN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7005,7 +7005,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a kneeling figure with arms folded — the traditional posture of women in ancient East Asian seated etiquette. Highly stylized over time."
+        "story": "Pictograph of a kneeling figure with arms folded: the traditional posture of women in ancient East Asian seated etiquette. Highly stylized over time."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -7096,8 +7096,8 @@
       ],
       "mnemonic": {
         "summary": "A baby with arms outstretched and swaddled = CHILD.",
-        "visual": "A baby with arms out and legs swaddled — a CHILD bundled tight.",
-        "reading": "し / こ — kun こ in 子供 (kodomo, child). On し in 男子 (danshi).",
+        "visual": "A baby with arms out and legs swaddled: a CHILD bundled tight.",
+        "reading": "し / こ: kun こ in 子供 (kodomo, child). On し in 男子 (danshi).",
         "meaning": "A baby with arms outstretched and swaddled = CHILD.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7182,12 +7182,12 @@
           "reading": "こども",
           "gloss": "child (kun+kun)"
         },
-        "contrast_note": "子 kun=こ standalone or compound. on=し (e.g. 椅子 いす — N4+)."
+        "contrast_note": "子 kun=こ standalone or compound. on=し (e.g. 椅子 いす: N4+)."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a swaddled infant — head + arms + bundled lower body. The horizontal stroke represents the swaddling."
+        "story": "Pictograph of a swaddled infant: head + arms + bundled lower body. The horizontal stroke represents the swaddling."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -7276,8 +7276,8 @@
       ],
       "mnemonic": {
         "summary": "Two crossing strokes - paternal authority figure = FATHER.",
-        "visual": "Two crossed arms over a base — FATHER holding everything together.",
-        "reading": "ふ / ちち / とう — Polite お父さん (otousan), humble 父 (chichi). On ふ in 父母 (fubo).",
+        "visual": "Two crossed arms over a base: FATHER holding everything together.",
+        "reading": "ふ / ちち / とう: Polite お父さん (otousan), humble 父 (chichi). On ふ in 父母 (fubo).",
         "meaning": "Two crossing strokes - paternal authority figure = FATHER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7307,7 +7307,7 @@
         "母"
       ],
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 父: 父 (ちち, kun, humble \"my father\") — standalone. お父さん (おとうさん, kun-based polite) — used about others.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 父: 父 (ちち, kun, humble \"my father\"), standalone. お父さん (おとうさん, kun-based polite): used about others.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Two top dots first (left then right), then long X.",
@@ -7346,7 +7346,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a hand holding an axe / staff — symbol of authority. The \"axe-wielder\" came to mean \"father\" as the patriarchal head of the household."
+        "story": "Pictograph of a hand holding an axe / staff: symbol of authority. The \"axe-wielder\" came to mean \"father\" as the patriarchal head of the household."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -7430,10 +7430,10 @@
         "母"
       ],
       "mnemonic": {
-        "summary": "A figure of a nursing mother — the two emphasized dots originally depicted breasts, signaling \"mother\" by the act of nursing.",
-        "visual": "A figure with two prominent dots — MOTHER with caring eyes (or feeding her child).",
-        "reading": "ぼ / はは / かあ — Polite お母さん (okaasan), humble 母 (haha). On ぼ in 母国 (bokoku, motherland).",
-        "meaning": "A figure of a nursing mother — the two emphasized dots originally depicted breasts, signaling \"mother\" by the act of nursing.",
+        "summary": "A figure of a nursing mother: the two emphasized dots originally depicted breasts, signaling \"mother\" by the act of nursing.",
+        "visual": "A figure with two prominent dots: MOTHER with caring eyes (or feeding her child).",
+        "reading": "ぼ / はは / かあ: Polite お母さん (okaasan), humble 母 (haha). On ぼ in 母国 (bokoku, motherland).",
+        "meaning": "A figure of a nursing mother: the two emphasized dots originally depicted breasts, signaling \"mother\" by the act of nursing.",
         "provenance": {
           "summary": "native_reviewed",
           "visual": "llm_curated",
@@ -7476,7 +7476,7 @@
         "父"
       ],
       "lookalikes_provenance": "llm_curated",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 母: 母 (はは, kun, humble) — standalone. お母さん (おかあさん, kun-based polite) — about others.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 母: 母 (はは, kun, humble), standalone. お母さん (おかあさん, kun-based polite): about others.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "5 strokes. Outer box first, then horizontals.",
@@ -7515,7 +7515,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a kneeling woman (女) with two added dots for breasts — emphasizing the nursing / maternal aspect that distinguishes mother from other women."
+        "story": "Pictograph of a kneeling woman (女) with two added dots for breasts: emphasizing the nursing / maternal aspect that distinguishes mother from other women."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -7606,8 +7606,8 @@
       ],
       "mnemonic": {
         "summary": "Two hands clasped = FRIEND.",
-        "visual": "Two crossed hands — FRIENDS shaking hands or high-fiving.",
-        "reading": "ゆう / とも — 友達 (tomodachi, friend). On ゆう in 友人 (yuujin).",
+        "visual": "Two crossed hands: FRIENDS shaking hands or high-fiving.",
+        "reading": "ゆう / とも: 友達 (tomodachi, friend). On ゆう in 友人 (yuujin).",
         "meaning": "Two hands clasped = FRIEND.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7643,7 +7643,7 @@
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "一 first (top diagonal), then 又.",
-        "correct_order_summary": "1: top horizontal. 2: ノ (top-left descent). 3: 又 (right curve+ノ — 2 strokes).",
+        "correct_order_summary": "1: top horizontal. 2: ノ (top-left descent). 3: 又 (right curve+ノ, 2 strokes).",
         "why_it_matters": "Distinguishes from 反 (similar shape)."
       },
       "stroke_order_trap_provenance": "llm_curated",
@@ -7672,7 +7672,7 @@
       "n5_compounds_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Two hands (又) reaching toward each other — the gesture of friendship and mutual support. Originally written with two full hands."
+        "story": "Two hands (又) reaching toward each other: the gesture of friendship and mutual support. Originally written with two full hands."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -7766,8 +7766,8 @@
       ],
       "mnemonic": {
         "summary": "A person (儿) striding ahead = PREVIOUS / earlier.",
-        "visual": "A leg stepping forward, leading the way — going FIRST and AHEAD.",
-        "reading": "せん / さき — 先生 (sensei, teacher = \"born ahead\"). Kun さき: 先 (saki, ahead).",
+        "visual": "A leg stepping forward, leading the way: going FIRST and AHEAD.",
+        "reading": "せん / さき: 先生 (sensei, teacher = \"born ahead\"). Kun さき: 先 (saki, ahead).",
         "meaning": "A person (儿) striding ahead = PREVIOUS / earlier.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7870,7 +7870,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "人 (person) with a vertical stroke and 之 (going) — a person walking ahead of others. Hence \"ahead, previous, first, tip\"."
+        "story": "人 (person) with a vertical stroke and 之 (going): a person walking ahead of others. Hence \"ahead, previous, first, tip\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -7972,8 +7972,8 @@
       ],
       "mnemonic": {
         "summary": "A plant sprouting from the soil = LIFE / birth.",
-        "visual": "A sprout pushing through the earth — LIFE BEING BORN.",
-        "reading": "せい / しょう / い / う / なま — 学生 (gakusei, student), 生まれる (umareru, to be born). Hugely flexible kanji.",
+        "visual": "A sprout pushing through the earth: LIFE BEING BORN.",
+        "reading": "せい / しょう / い / う / なま: 学生 (gakusei, student), 生まれる (umareru, to be born). Hugely flexible kanji.",
         "meaning": "A plant sprouting from the soil = LIFE / birth.",
         "provenance": {
           "summary": "native_reviewed",
@@ -7987,7 +7987,7 @@
         "जन्म"
       ],
       "recognition_priority": 2,
-      "stroke_order_mistakes": "Common mistake: writing the bottom-horizontal before the middle-horizontals. Correct: top to bottom, building the kanji like a stack — (1) upper short slash, (2) top horizontal, (3) middle slash going down, (4) middle horizontal, (5) bottom horizontal LAST. The bottom is written last.",
+      "stroke_order_mistakes": "Common mistake: writing the bottom-horizontal before the middle-horizontals. Correct: top to bottom, building the kanji like a stack, (1) upper short slash, (2) top horizontal, (3) middle slash going down, (4) middle horizontal, (5) bottom horizontal LAST. The bottom is written last.",
       "stroke_order_mistakes_provenance": "llm_curated",
       "reading_passages": [
         {
@@ -8027,7 +8027,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 生: 生 (い-きる/うまれる, kun) — standalone verbs. 学生 (がくせい, on, \"student\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 生: 生 (い-きる/うまれる, kun), standalone verbs. 学生 (がくせい, on, \"student\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "生:まれる"
@@ -8086,7 +8086,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a plant sprouting from the ground (土) — a young shoot pushing up. Hence the broad sense of \"life / birth / produce / grow / raw\"."
+        "story": "Pictograph of a plant sprouting from the ground (土): a young shoot pushing up. Hence the broad sense of \"life / birth / produce / grow / raw\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -8184,8 +8184,8 @@
       ],
       "mnemonic": {
         "summary": "Five fingers spreading from a wrist = HAND.",
-        "visual": "A hand with three fingers and a thumb — HAND raised.",
-        "reading": "しゅ / て — 手 (te, hand) — direct and frequent. On しゅ in 手段 (shudan, method).",
+        "visual": "A hand with three fingers and a thumb: HAND raised.",
+        "reading": "しゅ / て, 手 (te, hand), direct and frequent. On しゅ in 手段 (shudan, method).",
         "meaning": "Five fingers spreading from a wrist = HAND.",
         "provenance": {
           "summary": "native_reviewed",
@@ -8345,8 +8345,8 @@
       ],
       "mnemonic": {
         "summary": "Mouth-shape (口) over stop (止) = FOOT (where you stop).",
-        "visual": "Top mouth + bottom path — using your FEET to walk and TALK.",
-        "reading": "そく / あし / た — 足 (ashi, foot/leg). 足りる (tariru, to be enough).",
+        "visual": "Top mouth + bottom path: using your FEET to walk and TALK.",
+        "reading": "そく / あし / た: 足 (ashi, foot/leg). 足りる (tariru, to be enough).",
         "meaning": "Mouth-shape (口) over stop (止) = FOOT (where you stop).",
         "provenance": {
           "summary": "native_reviewed",
@@ -8506,8 +8506,8 @@
       ],
       "mnemonic": {
         "summary": "A vertical eye with pupil-bars = EYE.",
-        "visual": "A vertical eye, the iris in the middle — EYE rotated 90°.",
-        "reading": "もく / め — Kun め: 目 (me, eye), very common. 目的 (mokuteki, purpose) for the on.",
+        "visual": "A vertical eye, the iris in the middle: EYE rotated 90°.",
+        "reading": "もく / め, Kun め: 目 (me, eye), very common. 目的 (mokuteki, purpose) for the on.",
         "meaning": "A vertical eye with pupil-bars = EYE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -8595,7 +8595,7 @@
       "n5_compounds_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of an eye seen sideways — originally drawn horizontally, then rotated 90 degrees in the script standardization. The horizontal strokes inside represent the iris/pupil."
+        "story": "Pictograph of an eye seen sideways: originally drawn horizontally, then rotated 90 degrees in the script standardization. The horizontal strokes inside represent the iris/pupil."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -8684,8 +8684,8 @@
       ],
       "mnemonic": {
         "summary": "A square opening = MOUTH.",
-        "visual": "A square box opening — an open MOUTH.",
-        "reading": "こう / くち / ぐち — 入り口 (iriguchi, entrance), 人口 (jinkou, population).",
+        "visual": "A square box opening: an open MOUTH.",
+        "reading": "こう / くち / ぐち: 入り口 (iriguchi, entrance), 人口 (jinkou, population).",
         "meaning": "A square opening = MOUTH.",
         "provenance": {
           "summary": "native_reviewed",
@@ -8783,7 +8783,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of an open mouth — a square enclosure representing the opening. Used as both a character and a radical in many other characters."
+        "story": "Pictograph of an open mouth: a square enclosure representing the opening. Used as both a character and a radical in many other characters."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -8869,8 +8869,8 @@
       ],
       "mnemonic": {
         "summary": "A flexed arm muscle = POWER.",
-        "visual": "A bicep flexed — pure muscle POWER.",
-        "reading": "りょく / ちから — 力 (chikara, strength). 体力 (tairyoku, physical strength).",
+        "visual": "A bicep flexed: pure muscle POWER.",
+        "reading": "りょく / ちから: 力 (chikara, strength). 体力 (tairyoku, physical strength).",
         "meaning": "A flexed arm muscle = POWER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -8934,7 +8934,7 @@
       "n5_compounds_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a plow / muscular arm — strength in action. The bent shape represents the plow handle or a flexed bicep, depending on the etymological school."
+        "story": "Pictograph of a plow / muscular arm: strength in action. The bent shape represents the plow handle or a flexed bicep, depending on the etymological school."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -9028,8 +9028,8 @@
       ],
       "mnemonic": {
         "summary": "A child (子) under a roof (冖) with knowledge crowning down = STUDY.",
-        "visual": "A roof over a child reaching for knowledge — STUDYING under a school.",
-        "reading": "がく / まな — 学校 (gakkou, school), 学生 (gakusei, student). Kun まな: 学ぶ (manabu).",
+        "visual": "A roof over a child reaching for knowledge: STUDYING under a school.",
+        "reading": "がく / まな: 学校 (gakkou, school), 学生 (gakusei, student). Kun まな: 学ぶ (manabu).",
         "meaning": "A child (子) under a roof (冖) with knowledge crowning down = STUDY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -9101,7 +9101,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 学: 学 (まな-ぶ, kun, \"to learn\") — verb. 学校 (がっこう, on, \"school\") — compound noun.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 学: 学 (まな-ぶ, kun, \"to learn\"), verb. 学校 (がっこう, on, \"school\"): compound noun.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "校"
@@ -9150,7 +9150,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Simplified from 學 — hands handling sticks (used for counting/divination) above a roof and a child (子). The image of teaching the young to count or write."
+        "story": "Simplified from 學: hands handling sticks (used for counting/divination) above a roof and a child (子). The image of teaching the young to count or write."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -9238,8 +9238,8 @@
       ],
       "mnemonic": {
         "summary": "Tree (木) where people meet (交) = SCHOOL.",
-        "visual": "Tree (木) + 交 cross — buildings made of wood standing in CROSSED rows: a SCHOOL campus.",
-        "reading": "こう — 学校 (gakkou). Always こう.",
+        "visual": "Tree (木) + 交 cross: buildings made of wood standing in CROSSED rows: a SCHOOL campus.",
+        "reading": "こう: 学校 (gakkou). Always こう.",
         "meaning": "Tree (木) where people meet (交) = SCHOOL.",
         "provenance": {
           "summary": "native_reviewed",
@@ -9285,7 +9285,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 校: 校 (こう, on) — appears in compounds: 学校, 高校 — rarely standalone.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 校: 校 (こう, on), appears in compounds: 学校, 高校, rarely standalone.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "学"
@@ -9322,7 +9322,7 @@
         "standalone": {
           "form": "校",
           "reading": "こう",
-          "gloss": "(on; school — appears mostly in compounds)"
+          "gloss": "(on; school: appears mostly in compounds)"
         },
         "compound": {
           "form": "高校",
@@ -9334,7 +9334,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "phono_semantic",
-        "story": "木 (wood/tree) + 交 (cross/exchange) — phonetic component. Originally \"wooden lattice/frame\" then specialized to \"place of crossed activities / school\"."
+        "story": "木 (wood/tree) + 交 (cross/exchange): phonetic component. Originally \"wooden lattice/frame\" then specialized to \"place of crossed activities / school\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -9430,8 +9430,8 @@
       ],
       "mnemonic": {
         "summary": "A line at the root of a tree (木) = ORIGIN / book.",
-        "visual": "A tree (木) with a bar at the base — the ROOT of the tree, the ORIGIN, a BOOK at its core.",
-        "reading": "ほん / もと / ぼん / ぽん — 日本 (Nihon, Japan), 本 (hon, book). Kun もと: 本 (moto, origin).",
+        "visual": "A tree (木) with a bar at the base: the ROOT of the tree, the ORIGIN, a BOOK at its core.",
+        "reading": "ほん / もと / ぼん / ぽん: 日本 (Nihon, Japan), 本 (hon, book). Kun もと: 本 (moto, origin).",
         "meaning": "A line at the root of a tree (木) = ORIGIN / book.",
         "provenance": {
           "summary": "native_reviewed",
@@ -9573,7 +9573,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 本: 本 (ほん, on, \"book\") — standalone (irregular: uses on even alone). 日本 (にほん, on) — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 本: 本 (ほん, on, \"book\"), standalone (irregular: uses on even alone). 日本 (にほん, on): compound.",
       "reading_rule_provenance": "llm_curated",
       "stroke_order_trap": {
         "trap": "Same as 木 + ONE extra short horizontal at the bottom (5 strokes total, NOT 4).",
@@ -9625,7 +9625,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "木 (tree) with a horizontal stroke at the BASE — pointing to the root / origin of the tree. Hence \"origin, source, main thing, book (as a primary source)\"."
+        "story": "木 (tree) with a horizontal stroke at the BASE: pointing to the root / origin of the tree. Hence \"origin, source, main thing, book (as a primary source)\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -9716,8 +9716,8 @@
       ],
       "mnemonic": {
         "summary": "Speech (言) of myself (吾) = LANGUAGE.",
-        "visual": "Speech (言) + 五 five + 口 mouth — five mouths SPEAKING a LANGUAGE.",
-        "reading": "ご — 日本語 (nihongo), 英語 (eigo). Always ご.",
+        "visual": "Speech (言) + 五 five + 口 mouth: five mouths SPEAKING a LANGUAGE.",
+        "reading": "ご: 日本語 (nihongo), 英語 (eigo). Always ご.",
         "meaning": "Speech (言) of myself (吾) = LANGUAGE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -9825,7 +9825,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "言 (word/speech) + 吾 (I/me) — what I say. The 言 radical anchors it as a speech-related kanji."
+        "story": "言 (word/speech) + 吾 (I/me): what I say. The 言 radical anchors it as a speech-related kanji."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -9928,8 +9928,8 @@
       ],
       "mnemonic": {
         "summary": "A jewel (玉) inside borders (囗) = COUNTRY.",
-        "visual": "Border (囗) around 玉 jade — a COUNTRY is a treasure surrounded by a border.",
-        "reading": "こく / ごく / くに — 国 (kuni, country). 中国 (chuugoku, China).",
+        "visual": "Border (囗) around 玉 jade: a COUNTRY is a treasure surrounded by a border.",
+        "reading": "こく / ごく / くに: 国 (kuni, country). 中国 (chuugoku, China).",
         "meaning": "A jewel (玉) inside borders (囗) = COUNTRY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10018,7 +10018,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Simplified from 國 — 囗 (enclosure / borders) containing 玉 (jade / king's treasure). A bordered land with a treasure inside = a country."
+        "story": "Simplified from 國: 囗 (enclosure / borders) containing 玉 (jade / king's treasure). A bordered land with a treasure inside = a country."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -10088,7 +10088,7 @@
       "sentences": [
         {
           "ja": "ヤマダさんへ\nあした 1時に えきの まえで 会いましょう。",
-          "translation_en": "Dear Yamada-san — let's meet tomorrow at 1 in front of the station."
+          "translation_en": "Dear Yamada-san: let's meet tomorrow at 1 in front of the station."
         }
       ],
       "additional_readings": {
@@ -10110,8 +10110,8 @@
       ],
       "mnemonic": {
         "summary": "People (人) gathering in clouds (云) = MEET.",
-        "visual": "A roof over 云 cloud — people MEETING under a roof, MEETING at the cloud level.",
-        "reading": "かい / あ — 会社 (kaisha, company), 会議 (kaigi, meeting). Kun あ: 会う (au, to meet).",
+        "visual": "A roof over 云 cloud: people MEETING under a roof, MEETING at the cloud level.",
+        "reading": "かい / あ: 会社 (kaisha, company), 会議 (kaigi, meeting). Kun あ: 会う (au, to meet).",
         "meaning": "People (人) gathering in clouds (云) = MEET.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10153,7 +10153,7 @@
       ],
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "Many learners draw the bottom 云 first because it's the more prominent element. The top 人-hat (ノ then ╲) must come first — the same rule as 入 / 八 / 全.",
+        "trap": "Many learners draw the bottom 云 first because it's the more prominent element. The top 人-hat (ノ then ╲) must come first: the same rule as 入 / 八 / 全.",
         "correct_order_summary": "1: left ノ. 2: right ╲ (hat). 3-6: 云 (top horizontal, dot, hook+curl).",
         "why_it_matters": "6 strokes."
       },
@@ -10195,7 +10195,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Simplified from 會 — pictograph of a steamer with layers + a lid coming together. Hence \"to come together / meeting\"."
+        "story": "Simplified from 會: pictograph of a steamer with layers + a lid coming together. Hence \"to come together / meeting\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -10284,8 +10284,8 @@
       ],
       "mnemonic": {
         "summary": "Altar (礻) on the earth (土) where people gather = COMPANY / shrine.",
-        "visual": "Spirit altar (示) + 土 earth — the COMPANY shrine where workers pray to the earth-god.",
-        "reading": "しゃ — 会社 (kaisha, company), 社員 (shain, employee). Always しゃ.",
+        "visual": "Spirit altar (示) + 土 earth: the COMPANY shrine where workers pray to the earth-god.",
+        "reading": "しゃ: 会社 (kaisha, company), 社員 (shain, employee). Always しゃ.",
         "meaning": "Altar (礻) on the earth (土) where people gather = COMPANY / shrine.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10313,7 +10313,7 @@
       ],
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "The left radical 示 (ねへん) must finish completely before 土 starts. A common slip is interleaving — drawing 示's leftmost ノ, then jumping to 土's top horizontal.",
+        "trap": "The left radical 示 (ねへん) must finish completely before 土 starts. A common slip is interleaving: drawing 示's leftmost ノ, then jumping to 土's top horizontal.",
         "correct_order_summary": "1-4: 示 (left half: dot, two horizontals, two ノ). 5-7: 土.",
         "why_it_matters": "7 strokes. Left radical 示 first."
       },
@@ -10337,7 +10337,7 @@
         "standalone": {
           "form": "社",
           "reading": "しゃ",
-          "gloss": "(on — appears in compounds)"
+          "gloss": "(on: appears in compounds)"
         },
         "compound": {
           "form": "会社",
@@ -10349,7 +10349,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "示 (altar / divine) + 土 (earth) — an earthen altar where the community gathered. Originally \"village shrine\"; came to mean \"society / association / company\"."
+        "story": "示 (altar / divine) + 土 (earth): an earthen altar where the community gathered. Originally \"village shrine\"; came to mean \"society / association / company\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -10430,8 +10430,8 @@
       ],
       "mnemonic": {
         "summary": "Mouth (口) over shell-money (貝) - a paid speaker = MEMBER / employee.",
-        "visual": "Mouth (口) over 貝 shell-money — the MEMBER who counts shells with mouth open.",
-        "reading": "いん — 会社員 (kaishain), 駅員 (ekiin, station-staff), 店員 (tenin, shop clerk).",
+        "visual": "Mouth (口) over 貝 shell-money: the MEMBER who counts shells with mouth open.",
+        "reading": "いん: 会社員 (kaishain), 駅員 (ekiin, station-staff), 店員 (tenin, shop clerk).",
         "meaning": "Mouth (口) over shell-money (貝) - a paid speaker = MEMBER / employee.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10492,7 +10492,7 @@
         "standalone": {
           "form": "員",
           "reading": "いん",
-          "gloss": "(on — member-suffix)"
+          "gloss": "(on: member-suffix)"
         },
         "compound": {
           "form": "会社員",
@@ -10504,7 +10504,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "口 (mouth) above 貝 (shell / money) — a counted member with status. Originally \"round number / count\"; came to mean \"member, staff (a counted person)\"."
+        "story": "口 (mouth) above 貝 (shell / money): a counted member with status. Originally \"round number / count\"; came to mean \"member, staff (a counted person)\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -10601,8 +10601,8 @@
       ],
       "mnemonic": {
         "summary": "A person with arms stretched wide = BIG.",
-        "visual": "A person (人) with arms outstretched — \"It was THIS BIG!\"",
-        "reading": "だい / たい / おお — 大学 (daigaku, university), 大きい (ookii, big).",
+        "visual": "A person (人) with arms outstretched: \"It was THIS BIG!\"",
+        "reading": "だい / たい / おお: 大学 (daigaku, university), 大きい (ookii, big).",
         "meaning": "A person with arms stretched wide = BIG.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10776,7 +10776,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a person standing with arms outstretched wide — the BIG gesture. Captures \"large\" through the human reference frame."
+        "story": "Pictograph of a person standing with arms outstretched wide: the BIG gesture. Captures \"large\" through the human reference frame."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -10871,8 +10871,8 @@
       ],
       "mnemonic": {
         "summary": "A line through the middle of a box = MIDDLE.",
-        "visual": "A box with a vertical line piercing through the MIDDLE — bull's eye.",
-        "reading": "ちゅう / なか — 中国 (chuugoku, China), 中 (naka, inside).",
+        "visual": "A box with a vertical line piercing through the MIDDLE: bull's eye.",
+        "reading": "ちゅう / なか: 中国 (chuugoku, China), 中 (naka, inside).",
         "meaning": "A line through the middle of a box = MIDDLE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -10954,7 +10954,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a flag/pole stuck through the middle of a square — marking the CENTER of a place. Hence \"middle / inside / center\"."
+        "story": "Pictograph of a flag/pole stuck through the middle of a square: marking the CENTER of a place. Hence \"middle / inside / center\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -11046,8 +11046,8 @@
       ],
       "mnemonic": {
         "summary": "Three small specks scattered = SMALL.",
-        "visual": "A central stroke with two flecks — SMALL grains of rice on either side.",
-        "reading": "しょう / ちい / こ / お — 小さい (chiisai, small), 小学校 (shougakkou, primary school).",
+        "visual": "A central stroke with two flecks: SMALL grains of rice on either side.",
+        "reading": "しょう / ちい / こ / お: 小さい (chiisai, small), 小学校 (shougakkou, primary school).",
         "meaning": "Three small specks scattered = SMALL.",
         "provenance": {
           "summary": "native_reviewed",
@@ -11225,8 +11225,8 @@
       ],
       "mnemonic": {
         "summary": "A mark above the baseline = UP.",
-        "visual": "A bar above the ground line — UP, ABOVE.",
-        "reading": "じょう / うえ / あ / のぼ — 上 (ue, above), 上手 (jouzu, skilled), 上る (noboru, to climb).",
+        "visual": "A bar above the ground line: UP, ABOVE.",
+        "reading": "じょう / うえ / あ / のぼ: 上 (ue, above), 上手 (jouzu, skilled), 上る (noboru, to climb).",
         "meaning": "A mark above the baseline = UP.",
         "provenance": {
           "summary": "native_reviewed",
@@ -11323,7 +11323,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "A short horizontal stroke ABOVE a long base line — representing \"what is on top\". One of the earliest abstract positional ideographs."
+        "story": "A short horizontal stroke ABOVE a long base line: representing \"what is on top\". One of the earliest abstract positional ideographs."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -11425,8 +11425,8 @@
       ],
       "mnemonic": {
         "summary": "A mark below the baseline = DOWN.",
-        "visual": "A bar below the ground line — DOWN, BELOW.",
-        "reading": "か / げ / した / さ / お — 下 (shita, below), 地下 (chika, underground).",
+        "visual": "A bar below the ground line: DOWN, BELOW.",
+        "reading": "か / げ / した / さ / お: 下 (shita, below), 地下 (chika, underground).",
         "meaning": "A mark below the baseline = DOWN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -11458,7 +11458,7 @@
       "stroke_order_trap": {
         "trap": "LONG horizontal FIRST, then vertical, then dot.",
         "correct_order_summary": "1: long horizontal (top). 2: vertical (down). 3: short dot (top-right).",
-        "why_it_matters": "3 strokes. Mirror-pair with 上 — STROKE 1 IS THE DIFFERENCE."
+        "why_it_matters": "3 strokes. Mirror-pair with 上: STROKE 1 IS THE DIFFERENCE."
       },
       "stroke_order_trap_provenance": "llm_curated",
       "n5_compounds": [
@@ -11494,7 +11494,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "ideograph",
-        "story": "A short horizontal stroke BELOW a long top line — the mirror of 上. Represents \"what is underneath\" — positional ideograph."
+        "story": "A short horizontal stroke BELOW a long top line: the mirror of 上. Represents \"what is underneath\": positional ideograph."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -11589,8 +11589,8 @@
       ],
       "mnemonic": {
         "summary": "A hand (ナ) holding a tool (工) - natural left-hand grip = LEFT.",
-        "visual": "A hand sweeping left over a workbench — your LEFT hand at the workshop.",
-        "reading": "さ / ひだり — 左 (hidari, left). 左右 (sayuu, left and right).",
+        "visual": "A hand sweeping left over a workbench: your LEFT hand at the workshop.",
+        "reading": "さ / ひだり: 左 (hidari, left). 左右 (sayuu, left and right).",
         "meaning": "A hand (ナ) holding a tool (工) - natural left-hand grip = LEFT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -11653,7 +11653,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "又 (hand) + 工 (work/tool) — the LEFT hand traditionally held the tools while the right hand worked them. The 工 element pins down \"left\"."
+        "story": "又 (hand) + 工 (work/tool): the LEFT hand traditionally held the tools while the right hand worked them. The 工 element pins down \"left\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -11734,8 +11734,8 @@
       ],
       "mnemonic": {
         "summary": "A hand (ナ) over a mouth (口) - natural right-hand bite = RIGHT.",
-        "visual": "A hand bringing food to the mouth — your RIGHT hand eats for you.",
-        "reading": "ゆう / う / みぎ — 右 (migi, right). 右側 (migigawa, right side).",
+        "visual": "A hand bringing food to the mouth: your RIGHT hand eats for you.",
+        "reading": "ゆう / う / みぎ: 右 (migi, right). 右側 (migigawa, right side).",
         "meaning": "A hand (ナ) over a mouth (口) - natural right-hand bite = RIGHT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -11764,7 +11764,7 @@
       ],
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "右 starts with the SHORT stroke (descending-left); 左 starts with the LONG horizontal — easy to swap.",
+        "trap": "右 starts with the SHORT stroke (descending-left); 左 starts with the LONG horizontal: easy to swap.",
         "correct_order_summary": "1: short ノ (descending-left). 2: long horizontal. 3-5: 口 (left, top-right, bottom).",
         "why_it_matters": "Mirror-pair with 左; opposite stroke 1 is the only visual cue distinguishing the calligraphic balance."
       },
@@ -11798,7 +11798,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "又 (hand) + 口 (mouth) — the RIGHT hand was used to eat (bring food to the mouth). The 口 element pins down \"right\"."
+        "story": "又 (hand) + 口 (mouth): the RIGHT hand was used to eat (bring food to the mouth). The 口 element pins down \"right\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -11885,8 +11885,8 @@
       ],
       "mnemonic": {
         "summary": "In FRONT, knife (刂) ready, sharing meat (月) with a smile (丷一).",
-        "visual": "Horns (or a moon) in BEFORE-sky — what comes BEFORE.",
-        "reading": "ぜん / まえ — 前 (mae, in front). 午前 (gozen, AM), 前回 (zenkai, previous time).",
+        "visual": "Horns (or a moon) in BEFORE-sky: what comes BEFORE.",
+        "reading": "ぜん / まえ: 前 (mae, in front). 午前 (gozen, AM), 前回 (zenkai, previous time).",
         "meaning": "In FRONT, knife (刂) ready, sharing meat (月) with a smile (丷一).",
         "provenance": {
           "summary": "native_reviewed",
@@ -11967,7 +11967,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "止 (foot) above a boat (舟) — originally \"to advance / go forward.\" Came to mean \"front / in front\" and \"before (in time).\""
+        "story": "止 (foot) above a boat (舟): originally \"to advance / go forward.\" Came to mean \"front / in front\" and \"before (in time).\""
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -12070,8 +12070,8 @@
       ],
       "mnemonic": {
         "summary": "A traveler (彳) trailing behind = AFTER.",
-        "visual": "Walking radical + thread + bottom — the THREAD comes BEHIND on the path.",
-        "reading": "ご / こう / あと / うし / おく — 後 (ato, after). 午後 (gogo, PM), 後ろ (ushiro, behind).",
+        "visual": "Walking radical + thread + bottom: the THREAD comes BEHIND on the path.",
+        "reading": "ご / こう / あと / うし / おく: 後 (ato, after). 午後 (gogo, PM), 後ろ (ushiro, behind).",
         "meaning": "A traveler (彳) trailing behind = AFTER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12153,7 +12153,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "彳 (walking) + 幺 (small) + 夂 (footprint) — slow walker lagging behind. Came to mean \"after / behind\" in space and time."
+        "story": "彳 (walking) + 幺 (small) + 夂 (footprint): slow walker lagging behind. Came to mean \"after / behind\" in space and time."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -12266,8 +12266,8 @@
       ],
       "mnemonic": {
         "summary": "Evening (夕) divination (卜) - done OUTSIDE the home.",
-        "visual": "Evening (夕) + divination (卜) — fortune-telling done OUTSIDE.",
-        "reading": "がい / げ / そと / ほか — 外国 (gaikoku, foreign country), 外 (soto, outside).",
+        "visual": "Evening (夕) + divination (卜): fortune-telling done OUTSIDE.",
+        "reading": "がい / げ / そと / ほか: 外国 (gaikoku, foreign country), 外 (soto, outside).",
         "meaning": "Evening (夕) divination (卜) - done OUTSIDE the home.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12343,7 +12343,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "夕 (evening) + 卜 (divination) — evening divination done OUTSIDE the proper ritual schedule. Hence \"outside / external\"."
+        "story": "夕 (evening) + 卜 (divination): evening divination done OUTSIDE the proper ritual schedule. Hence \"outside / external\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -12431,8 +12431,8 @@
       ],
       "mnemonic": {
         "summary": "Sun (日) rising behind a tree (木) = EAST.",
-        "visual": "Sun (日) caught in a tree (木) — the sun rising in the EAST through the trees.",
-        "reading": "とう / ひがし — 東京 (Toukyou, Tokyo, \"Eastern capital\"). Kun ひがし: 東 (higashi).",
+        "visual": "Sun (日) caught in a tree (木): the sun rising in the EAST through the trees.",
+        "reading": "とう / ひがし: 東京 (Toukyou, Tokyo, \"Eastern capital\"). Kun ひがし: 東 (higashi).",
         "meaning": "Sun (日) rising behind a tree (木) = EAST.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12496,7 +12496,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of the sun (日) rising behind a tree (木) — the eastern horizon. Combined element captures sunrise direction."
+        "story": "Pictograph of the sun (日) rising behind a tree (木): the eastern horizon. Combined element captures sunrise direction."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -12582,8 +12582,8 @@
       ],
       "mnemonic": {
         "summary": "A bird returning to its nest at sunset = WEST.",
-        "visual": "A bird-cage at sunset — birds returning to the cage in the WEST.",
-        "reading": "せい / さい / にし — 西 (nishi, west). 西洋 (seiyou, the West/Western).",
+        "visual": "A bird-cage at sunset: birds returning to the cage in the WEST.",
+        "reading": "せい / さい / にし: 西 (nishi, west). 西洋 (seiyou, the West/Western).",
         "meaning": "A bird returning to its nest at sunset = WEST.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12637,14 +12637,14 @@
         "compound": {
           "form": "関西",
           "reading": "かんさい",
-          "gloss": "Kansai region (on) — N4"
+          "gloss": "Kansai region (on): N4"
         },
         "contrast_note": "西 kun=にし, on=さい/せい in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a bird in its nest (settling at sunset) — the direction the sun sets toward, \"west\"."
+        "story": "Pictograph of a bird in its nest (settling at sunset): the direction the sun sets toward, \"west\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -12732,8 +12732,8 @@
       ],
       "mnemonic": {
         "summary": "A bell-shape facing the warm sun direction = SOUTH.",
-        "visual": "A roof, a samurai banner — banners flying SOUTH in summer wind.",
-        "reading": "なん / みなみ — 南 (minami, south). 南極 (nankyoku, Antarctica).",
+        "visual": "A roof, a samurai banner: banners flying SOUTH in summer wind.",
+        "reading": "なん / みなみ: 南 (minami, south). 南極 (nankyoku, Antarctica).",
         "meaning": "A bell-shape facing the warm sun direction = SOUTH.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12878,8 +12878,8 @@
       ],
       "mnemonic": {
         "summary": "Two figures back-to-back facing away from the cold = NORTH.",
-        "visual": "Two figures back-to-back — turning their backs to the cold NORTH wind.",
-        "reading": "ほく / きた — 北 (kita, north). 東北 (Touhoku, the northeast region).",
+        "visual": "Two figures back-to-back: turning their backs to the cold NORTH wind.",
+        "reading": "ほく / きた: 北 (kita, north). 東北 (Touhoku, the northeast region).",
         "meaning": "Two figures back-to-back facing away from the cold = NORTH.",
         "provenance": {
           "summary": "native_reviewed",
@@ -12911,7 +12911,7 @@
       "stroke_order_trap": {
         "trap": "Left side (匕 mirrored), then right 匕.",
         "correct_order_summary": "1: vertical (left). 2: ╲ (left side). 3: ノ (right). 4: hook (right). 5: bottom curve.",
-        "why_it_matters": "5 strokes. The mirror symmetry is misleading — different stroke counts each half."
+        "why_it_matters": "5 strokes. The mirror symmetry is misleading: different stroke counts each half."
       },
       "stroke_order_trap_provenance": "llm_curated",
       "n5_compounds": [
@@ -12939,7 +12939,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of two people sitting back-to-back — the COLD direction one turns away from. Hence \"north\" (with the secondary connotation \"to flee\" surviving in 敗北)."
+        "story": "Pictograph of two people sitting back-to-back: the COLD direction one turns away from. Hence \"north\" (with the secondary connotation \"to flee\" surviving in 敗北)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -13030,8 +13030,8 @@
       ],
       "mnemonic": {
         "summary": "Sun (日) shining through a gate (門) = INTERVAL / between.",
-        "visual": "Gate (門) with sun (日) inside — the SPACE BETWEEN two walls where light enters.",
-        "reading": "かん / けん / あいだ / ま — 時間 (jikan, time-space), 間 (aida, between).",
+        "visual": "Gate (門) with sun (日) inside: the SPACE BETWEEN two walls where light enters.",
+        "reading": "かん / けん / あいだ / ま: 時間 (jikan, time-space), 間 (aida, between).",
         "meaning": "Sun (日) shining through a gate (門) = INTERVAL / between.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13075,7 +13075,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 間: 間 (あいだ, kun, \"between\"). 時間 (じかん, on) — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 間: 間 (あいだ, kun, \"between\"). 時間 (じかん, on): compound.",
       "reading_rule_provenance": "llm_curated",
       "lookalikes": [
         "外",
@@ -13113,7 +13113,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "門 (gate) + 日 (sun) — sunlight visible BETWEEN the gate doors. The \"in-between\" sense extended to time intervals."
+        "story": "門 (gate) + 日 (sun): sunlight visible BETWEEN the gate doors. The \"in-between\" sense extended to time intervals."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -13207,8 +13207,8 @@
       ],
       "mnemonic": {
         "summary": "Three peaks of a MOUNTAIN range.",
-        "visual": "Three peaks rising in a row — MOUNTAIN ridge.",
-        "reading": "さん / やま — 富士山 (Fujisan, Mt. Fuji), 山 (yama, mountain).",
+        "visual": "Three peaks rising in a row: MOUNTAIN ridge.",
+        "reading": "さん / やま: 富士山 (Fujisan, Mt. Fuji), 山 (yama, mountain).",
         "meaning": "Three peaks of a MOUNTAIN range.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13276,7 +13276,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of three mountain peaks rising — central peak tallest, two flanking peaks. One of the oldest oracle-bone characters."
+        "story": "Pictograph of three mountain peaks rising: central peak tallest, two flanking peaks. One of the oldest oracle-bone characters."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -13359,8 +13359,8 @@
       ],
       "mnemonic": {
         "summary": "Three flowing lines of a RIVER.",
-        "visual": "Three flowing vertical strokes — water FLOWING DOWN a RIVER.",
-        "reading": "せん / かわ / がわ — 川 (kawa, river). 川辺 (kawabe, riverside).",
+        "visual": "Three flowing vertical strokes: water FLOWING DOWN a RIVER.",
+        "reading": "せん / かわ / がわ: 川 (kawa, river). 川辺 (kawabe, riverside).",
         "meaning": "Three flowing lines of a RIVER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13425,7 +13425,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of three flowing streams — central current with two side waters. Captures the linear flow of a river."
+        "story": "Pictograph of three flowing streams: central current with two side waters. Captures the linear flow of a river."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -13507,8 +13507,8 @@
       ],
       "mnemonic": {
         "summary": "A grid of irrigation channels = RICE PADDY.",
-        "visual": "A grid of four rice paddies — RICE FIELDS divided by levees.",
-        "reading": "でん / た / だ — common in surnames: 田中 (Tanaka), 山田 (Yamada).",
+        "visual": "A grid of four rice paddies: RICE FIELDS divided by levees.",
+        "reading": "でん / た / だ, common in surnames: 田中 (Tanaka), 山田 (Yamada).",
         "meaning": "A grid of irrigation channels = RICE PADDY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13573,7 +13573,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a rice paddy divided into four sections by levees — birds-eye view of cultivated land. The internal cross IS the paddy walls."
+        "story": "Pictograph of a rice paddy divided into four sections by levees: birds-eye view of cultivated land. The internal cross IS the paddy walls."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -13660,8 +13660,8 @@
       ],
       "mnemonic": {
         "summary": "Drops falling from a cloud-shaped roof = RAIN.",
-        "visual": "A roof with four drops falling — RAIN coming down outside.",
-        "reading": "う / あめ — 雨 (ame, rain). 大雨 (ooame, heavy rain).",
+        "visual": "A roof with four drops falling: RAIN coming down outside.",
+        "reading": "う / あめ: 雨 (ame, rain). 大雨 (ooame, heavy rain).",
         "meaning": "Drops falling from a cloud-shaped roof = RAIN.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13757,10 +13757,7 @@
       "pitch_minimal_pair_provenance": "native_reviewed",
       "pitch_minimal_pair_audit_wave": "imp-165-minimal-pairs-2026-05-13",
       "n5_compounds_audit_wave": "imp-d3-kana-cross-2026-05-13",
-      "review_status_provenance": "claude_native_reviewer_persona",
-      "mnemonic_image": "img/kanji/雨.png",
-      "mnemonic_image_alt": "Memory-aid illustration for the kanji 雨 (rain): four raindrops falling beneath a cloud-shaped roof, with the reading あめ and the compound 大雨 (heavy rain).",
-      "mnemonic_image_provenance": "ai_generated_illustration"
+      "review_status_provenance": "claude_native_reviewer_persona"
     },
     {
       "id": "n5.kanji.天",
@@ -13825,8 +13822,8 @@
       ],
       "mnemonic": {
         "summary": "The biggest thing (大) under the line (一) = HEAVEN / sky.",
-        "visual": "A person (大) reaching above — touching the SKY/HEAVENS.",
-        "reading": "てん / あま / あめ — 天気 (tenki, weather), 天才 (tensai, genius).",
+        "visual": "A person (大) reaching above: touching the SKY/HEAVENS.",
+        "reading": "てん / あま / あめ: 天気 (tenki, weather), 天才 (tensai, genius).",
         "meaning": "The biggest thing (大) under the line (一) = HEAVEN / sky.",
         "provenance": {
           "summary": "native_reviewed",
@@ -13899,7 +13896,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "大 (big/person with arms outstretched) + a horizontal stroke above the head = \"what is ABOVE the person\" — heaven / sky."
+        "story": "大 (big/person with arms outstretched) + a horizontal stroke above the head = \"what is ABOVE the person\": heaven / sky."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -13983,8 +13980,8 @@
       ],
       "mnemonic": {
         "summary": "Steam (气) rising = SPIRIT / mood / air.",
-        "visual": "Steam rising — the air ENERGY surrounding things.",
-        "reading": "き / け — 元気 (genki, energetic), 天気 (tenki, weather), 病気 (byouki, sickness).",
+        "visual": "Steam rising: the air ENERGY surrounding things.",
+        "reading": "き / け: 元気 (genki, energetic), 天気 (tenki, weather), 病気 (byouki, sickness).",
         "meaning": "Steam (气) rising = SPIRIT / mood / air.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14047,7 +14044,7 @@
         "compound": {
           "form": "元気",
           "reading": "げんき",
-          "gloss": "energetic (on+on) — N4 for 元"
+          "gloss": "energetic (on+on): N4 for 元"
         },
         "contrast_note": "気 only on=き/け; very common compound element."
       },
@@ -14058,7 +14055,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Simplified from 氣 — 气 (steam / vapor rising) + 米 (rice). Steam rising from cooked rice = invisible essence / spirit / mood / air."
+        "story": "Simplified from 氣: 气 (steam / vapor rising) + 米 (rice). Steam rising from cooked rice = invisible essence / spirit / mood / air."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -14136,8 +14133,8 @@
       ],
       "mnemonic": {
         "summary": "Grass (艹) transforming (化) = FLOWER.",
-        "visual": "Grass (艹) + 化 change — a sprout CHANGED into a FLOWER.",
-        "reading": "か / はな — 花 (hana, flower). 花見 (hanami, flower viewing).",
+        "visual": "Grass (艹) + 化 change: a sprout CHANGED into a FLOWER.",
+        "reading": "か / はな: 花 (hana, flower). 花見 (hanami, flower viewing).",
         "meaning": "Grass (艹) transforming (化) = FLOWER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14203,7 +14200,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "phono_semantic",
-        "story": "艹 (grass / plant radical) + 化 (change, phonetic) — the part of a plant that transforms (blooms). Hence \"flower\"."
+        "story": "艹 (grass / plant radical) + 化 (change, phonetic): the part of a plant that transforms (blooms). Hence \"flower\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -14300,8 +14297,8 @@
       ],
       "mnemonic": {
         "summary": "A cave (穴) of work (工) - empty above = SKY / empty.",
-        "visual": "Cave (穴) + 工 work — the EMPTY SKY carved out above.",
-        "reading": "くう / そら / から / あ — 空 (sora, sky), 空気 (kuuki, air), 空く (aku, to become empty).",
+        "visual": "Cave (穴) + 工 work: the EMPTY SKY carved out above.",
+        "reading": "くう / そら / から / あ: 空 (sora, sky), 空気 (kuuki, air), 空く (aku, to become empty).",
         "meaning": "A cave (穴) of work (工) - empty above = SKY / empty.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14330,7 +14327,7 @@
       ],
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "Learners often start 工 before closing 穴 on top. The 穴 cap (5 strokes) is a single self-contained unit that must finish first — same hat-first rule as 究 / 突.",
+        "trap": "Learners often start 工 before closing 穴 on top. The 穴 cap (5 strokes) is a single self-contained unit that must finish first: same hat-first rule as 究 / 突.",
         "correct_order_summary": "1-5: 穴 (top hat structure). 6-8: 工.",
         "why_it_matters": "8 strokes. Hat-first structure."
       },
@@ -14361,14 +14358,14 @@
         "compound": {
           "form": "空港",
           "reading": "くうこう",
-          "gloss": "airport (on+on) — 港 is N4"
+          "gloss": "airport (on+on): 港 is N4"
         },
         "contrast_note": "空 kun=そら, on=くう in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "穴 (hole / cave) + 工 (work / craft / pierce) — a hollowed-out, empty space. Came to mean \"sky\" (the vast empty above) and \"empty\"."
+        "story": "穴 (hole / cave) + 工 (work / craft / pierce): a hollowed-out, empty space. Came to mean \"sky\" (the vast empty above) and \"empty\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -14467,8 +14464,8 @@
       ],
       "mnemonic": {
         "summary": "Rain (雨) hitting a paddy (田) - lightning = ELECTRICITY.",
-        "visual": "Rain (雨) + 田 lightning streak — ELECTRICITY: lightning in the rain.",
-        "reading": "でん — 電車 (densha, train), 電話 (denwa, phone), 電気 (denki, electricity).",
+        "visual": "Rain (雨) + 田 lightning streak, ELECTRICITY: lightning in the rain.",
+        "reading": "でん: 電車 (densha, train), 電話 (denwa, phone), 電気 (denki, electricity).",
         "meaning": "Rain (雨) hitting a paddy (田) - lightning = ELECTRICITY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14545,7 +14542,7 @@
         "standalone": {
           "form": "電",
           "reading": "でん",
-          "gloss": "(on — electricity element)"
+          "gloss": "(on: electricity element)"
         },
         "compound": {
           "form": "電車",
@@ -14561,7 +14558,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "雨 (rain) + 申 (lightning bolt) — a lightning bolt during rain. Originally \"lightning\"; in modern Japanese, extended to \"electricity\"."
+        "story": "雨 (rain) + 申 (lightning bolt): a lightning bolt during rain. Originally \"lightning\"; in modern Japanese, extended to \"electricity\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -14635,8 +14632,8 @@
       ],
       "mnemonic": {
         "summary": "A wheel with axle and bed = VEHICLE / car.",
-        "visual": "A wagon viewed from above — the body and two wheels of a CAR.",
-        "reading": "しゃ / くるま — 自動車 (jidousha, automobile), 車 (kuruma, car).",
+        "visual": "A wagon viewed from above: the body and two wheels of a CAR.",
+        "reading": "しゃ / くるま: 自動車 (jidousha, automobile), 車 (kuruma, car).",
         "meaning": "A wheel with axle and bed = VEHICLE / car.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14709,7 +14706,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a chariot seen from above — two wheels (the dots on each side, now simplified into the framing strokes) and an axle (vertical line)."
+        "story": "Pictograph of a chariot seen from above: two wheels (the dots on each side, now simplified into the framing strokes) and an axle (vertical line)."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -14797,8 +14794,8 @@
       ],
       "mnemonic": {
         "summary": "Walking (辶) with one's head (首) up = ROAD / way.",
-        "visual": "Walking radical + neck (首) — keeping your NECK aimed at the ROAD ahead.",
-        "reading": "どう / みち — 道 (michi, road), 北海道 (Hokkaidou). 茶道 (sadou, tea ceremony \"way\").",
+        "visual": "Walking radical + neck (首): keeping your NECK aimed at the ROAD ahead.",
+        "reading": "どう / みち: 道 (michi, road), 北海道 (Hokkaidou). 茶道 (sadou, tea ceremony \"way\").",
         "meaning": "Walking (辶) with one's head (首) up = ROAD / way.",
         "provenance": {
           "summary": "native_reviewed",
@@ -14857,7 +14854,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "辶 (move / walk) + 首 (head / neck) — to walk WITH ONE'S HEAD AHEAD on a path. Came to mean \"road / way / the Way (philosophy)\"."
+        "story": "辶 (move / walk) + 首 (head / neck): to walk WITH ONE'S HEAD AHEAD on a path. Came to mean \"road / way / the Way (philosophy)\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -14948,8 +14945,8 @@
       ],
       "mnemonic": {
         "summary": "Under a roof (广), claim a spot (占) = SHOP.",
-        "visual": "Shed (广) + 占 fortune — fortune-tellers SET UP SHOP under a roof.",
-        "reading": "てん / みせ — 店 (mise, shop). 店員 (tenin, shop clerk), 喫茶店 (kissaten, café).",
+        "visual": "Shed (广) + 占 fortune: fortune-tellers SET UP SHOP under a roof.",
+        "reading": "てん / みせ: 店 (mise, shop). 店員 (tenin, shop clerk), 喫茶店 (kissaten, café).",
         "meaning": "Under a roof (广), claim a spot (占) = SHOP.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15014,7 +15011,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "广 (roofed structure) + 占 (occupy / claim a spot) — a roofed place where someone has claimed a spot to sell goods. Hence \"shop\"."
+        "story": "广 (roofed structure) + 占 (occupy / claim a spot): a roofed place where someone has claimed a spot to sell goods. Hence \"shop\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -15095,8 +15092,8 @@
       ],
       "mnemonic": {
         "summary": "Horse (馬) measured (尺) - a relay STATION.",
-        "visual": "Horse (馬) + 尺 measure — STATIONS are where horses were measured/changed.",
-        "reading": "えき — 駅 (eki, station). 東京駅 (Toukyou-eki). Always えき.",
+        "visual": "Horse (馬) + 尺 measure: STATIONS are where horses were measured/changed.",
+        "reading": "えき: 駅 (eki, station). 東京駅 (Toukyou-eki). Always えき.",
         "meaning": "Horse (馬) measured (尺) - a relay STATION.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15160,7 +15157,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "Simplified from 驛 — 馬 (horse) + 尺 (measure / station post). A relay station where horses were swapped. Modern: train station."
+        "story": "Simplified from 驛: 馬 (horse) + 尺 (measure / station post). A relay station where horses were swapped. Modern: train station."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -15252,8 +15249,8 @@
       ],
       "mnemonic": {
         "summary": "A roof over good things to eat = EAT.",
-        "visual": "A roof over rice — sheltering the FOOD beneath.",
-        "reading": "しょく / く / た — 食べる (taberu, to eat), 食事 (shokuji, meal).",
+        "visual": "A roof over rice: sheltering the FOOD beneath.",
+        "reading": "しょく / く / た: 食べる (taberu, to eat), 食事 (shokuji, meal).",
         "meaning": "A roof over good things to eat = EAT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15290,7 +15287,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 食: 食 (た-べる, kun, \"to eat\") — verb. 食事 (しょくじ, on, \"meal\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 食: 食 (た-べる, kun, \"to eat\"), verb. 食事 (しょくじ, on, \"meal\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "食:べもの",
@@ -15361,7 +15358,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a covered vessel of cooked food — top is the lid, body is the container holding rice or grain. Hence \"to eat / food\"."
+        "story": "Pictograph of a covered vessel of cooked food: top is the lid, body is the container holding rice or grain. Hence \"to eat / food\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -15449,8 +15446,8 @@
       ],
       "mnemonic": {
         "summary": "Food (飠) and a yawn (欠) - DRINK to wash it down.",
-        "visual": "Eat-radical (食) + 欠 lack — you lack water, so you DRINK.",
-        "reading": "いん / の — 飲む (nomu, to drink), 飲み物 (nomimono, drink).",
+        "visual": "Eat-radical (食) + 欠 lack: you lack water, so you DRINK.",
+        "reading": "いん / の: 飲む (nomu, to drink), 飲み物 (nomimono, drink).",
         "meaning": "Food (飠) and a yawn (欠) - DRINK to wash it down.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15477,7 +15474,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 飲: 飲 (の-む, kun, \"to drink\") — verb. 飲料 (いんりょう, on) — compound (N4+).",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 飲: 飲 (の-む, kun, \"to drink\"), verb. 飲料 (いんりょう, on): compound (N4+).",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "飲:みもの",
@@ -15520,14 +15517,14 @@
         "compound": {
           "form": "飲料",
           "reading": "いんりょう",
-          "gloss": "drinks (on) — N4"
+          "gloss": "drinks (on): N4"
         },
         "contrast_note": "飲 kun=の-む (verb), on=いん in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "食 (food / drink) + 欠 (open mouth / yawn) — the action of opening one's mouth to take in fluid. Specifically \"to drink\" (vs eat)."
+        "story": "食 (food / drink) + 欠 (open mouth / yawn): the action of opening one's mouth to take in fluid. Specifically \"to drink\" (vs eat)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -15618,8 +15615,8 @@
       ],
       "mnemonic": {
         "summary": "Eye (目) on legs (儿) - looking around = SEE.",
-        "visual": "An eye (目) on legs (儿) — eyes that walk around to SEE everything.",
-        "reading": "けん / み — 見る (miru, to see/watch). 意見 (iken, opinion).",
+        "visual": "An eye (目) on legs (儿): eyes that walk around to SEE everything.",
+        "reading": "けん / み: 見る (miru, to see/watch). 意見 (iken, opinion).",
         "meaning": "Eye (目) on legs (儿) - looking around = SEE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15680,7 +15677,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 見: 見 (み-る, kun, \"to see\") — verb. 意見 (いけん, on, \"opinion\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 見: 見 (み-る, kun, \"to see\"), verb. 意見 (いけん, on, \"opinion\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "見:おくる",
@@ -15722,14 +15719,14 @@
         "compound": {
           "form": "意見",
           "reading": "いけん",
-          "gloss": "opinion (on) — N4"
+          "gloss": "opinion (on): N4"
         },
         "contrast_note": "見 kun=み-る (verb), on=けん in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "目 (eye) on top of 人 (legs/person) — a person with prominent eye, the act of LOOKING. The eye stands tall."
+        "story": "目 (eye) on top of 人 (legs/person): a person with prominent eye, the act of LOOKING. The eye stands tall."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -15826,8 +15823,8 @@
       ],
       "mnemonic": {
         "summary": "Ear (耳) at the gate (門) = HEAR.",
-        "visual": "Gate (門) + ear (耳) — putting your EAR to the GATE to LISTEN.",
-        "reading": "ぶん / もん / き — 聞く (kiku, to listen/ask). 新聞 (shinbun, newspaper).",
+        "visual": "Gate (門) + ear (耳): putting your EAR to the GATE to LISTEN.",
+        "reading": "ぶん / もん / き: 聞く (kiku, to listen/ask). 新聞 (shinbun, newspaper).",
         "meaning": "Ear (耳) at the gate (門) = HEAR.",
         "provenance": {
           "summary": "native_reviewed",
@@ -15855,7 +15852,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 聞: 聞 (き-く, kun, \"to listen/ask\") — verb. 新聞 (しんぶん, on, \"newspaper\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 聞: 聞 (き-く, kun, \"to listen/ask\"), verb. 新聞 (しんぶん, on, \"newspaper\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "聞:く",
@@ -15864,7 +15861,7 @@
       "okurigana_cuts_provenance": "auto_derived",
       "stroke_order_trap": {
         "trap": "門 (gate) frame OUTSIDE first, then 耳 (ear) INSIDE.",
-        "correct_order_summary": "1-8: 門 (gate frame: left half, then right half — each 4 strokes). 9-14: 耳 (ear) inside.",
+        "correct_order_summary": "1-8: 門 (gate frame: left half, then right half, each 4 strokes). 9-14: 耳 (ear) inside.",
         "why_it_matters": "Universal enclosed-kanji rule: outside-frame first, inside last."
       },
       "stroke_order_trap_provenance": "llm_curated",
@@ -15909,7 +15906,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "門 (gate) + 耳 (ear) — listening at the gate. Came to mean \"hear / listen / ask\"."
+        "story": "門 (gate) + 耳 (ear): listening at the gate. Came to mean \"hear / listen / ask\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -16006,8 +16003,8 @@
       ],
       "mnemonic": {
         "summary": "Speech (言) selling (売) ideas = READ.",
-        "visual": "Speech (言) + 売 sell — READING ALOUD to sell the words to the audience.",
-        "reading": "どく / よ — 読む (yomu, to read). 読書 (dokusho, reading books).",
+        "visual": "Speech (言) + 売 sell: READING ALOUD to sell the words to the audience.",
+        "reading": "どく / よ: 読む (yomu, to read). 読書 (dokusho, reading books).",
         "meaning": "Speech (言) selling (売) ideas = READ.",
         "provenance": {
           "summary": "native_reviewed",
@@ -16073,7 +16070,7 @@
         "compound": {
           "form": "読書",
           "reading": "どくしょ",
-          "gloss": "reading (books) (on) — N4"
+          "gloss": "reading (books) (on): N4"
         },
         "contrast_note": "読 kun=よ-む (verb), on=どく in compounds."
       },
@@ -16166,8 +16163,8 @@
       ],
       "mnemonic": {
         "summary": "A brush over a writing surface in daylight = WRITE / book.",
-        "visual": "Brush (聿) + 日 page — a BRUSH WRITING on the page.",
-        "reading": "しょ / か — 書く (kaku, to write). 図書館 (toshokan, library).",
+        "visual": "Brush (聿) + 日 page: a BRUSH WRITING on the page.",
+        "reading": "しょ / か: 書く (kaku, to write). 図書館 (toshokan, library).",
         "meaning": "A brush over a writing surface in daylight = WRITE / book.",
         "provenance": {
           "summary": "native_reviewed",
@@ -16235,14 +16232,14 @@
         "compound": {
           "form": "書道",
           "reading": "しょどう",
-          "gloss": "calligraphy (on) — N4"
+          "gloss": "calligraphy (on): N4"
         },
         "contrast_note": "書 kun=か-く (verb), on=しょ in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "聿 (brush) + 者 (person / object) — a person holding a brush. Hence \"to write\" and \"writing / book / document\"."
+        "story": "聿 (brush) + 者 (person / object): a person holding a brush. Hence \"to write\" and \"writing / book / document\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -16343,8 +16340,8 @@
       ],
       "mnemonic": {
         "summary": "Speech (言) using the tongue (舌) = TALK / story.",
-        "visual": "Speech (言) + tongue (舌) — words spoken with the tongue: TALK.",
-        "reading": "わ / はな — 話す (hanasu, to talk). 電話 (denwa, phone), 会話 (kaiwa, conversation).",
+        "visual": "Speech (言) + tongue (舌), words spoken with the tongue: TALK.",
+        "reading": "わ / はな: 話す (hanasu, to talk). 電話 (denwa, phone), 会話 (kaiwa, conversation).",
         "meaning": "Speech (言) using the tongue (舌) = TALK / story.",
         "provenance": {
           "summary": "native_reviewed",
@@ -16444,7 +16441,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "言 (speech) + 舌 (tongue) — the act of moving the tongue to speak. Hence \"to talk / story / conversation\"."
+        "story": "言 (speech) + 舌 (tongue): the act of moving the tongue to speak. Hence \"to talk / story / conversation\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -16543,8 +16540,8 @@
       ],
       "mnemonic": {
         "summary": "Like a tree growing toward you = COME.",
-        "visual": "A person (人) under a tree — COME under the shade.",
-        "reading": "らい / く / き / こ — 来る (kuru, to come). 来週 (raishuu, next week).",
+        "visual": "A person (人) under a tree: COME under the shade.",
+        "reading": "らい / く / き / こ: 来る (kuru, to come). 来週 (raishuu, next week).",
         "meaning": "Like a tree growing toward you = COME.",
         "provenance": {
           "summary": "native_reviewed",
@@ -16603,7 +16600,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 来: 来 (く-る, kun, \"to come\") — verb. 来年 (らいねん, on, \"next year\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 来: 来 (く-る, kun, \"to come\"), verb. 来年 (らいねん, on, \"next year\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "来:る"
@@ -16662,7 +16659,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a ripening grain plant (wheat / barley) — originally meant the grain itself. Borrowed phonetically for \"to come\" in ancient Chinese; the grain meaning migrated to other characters."
+        "story": "Pictograph of a ripening grain plant (wheat / barley): originally meant the grain itself. Borrowed phonetically for \"to come\" in ancient Chinese; the grain meaning migrated to other characters."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -16764,8 +16761,8 @@
       ],
       "mnemonic": {
         "summary": "Two walking-man halves = GO.",
-        "visual": "A crossroads viewed from above — choose where to GO.",
-        "reading": "こう / ぎょう / い / おこな — 行く (iku, to go). 銀行 (ginkou, bank), 行事 (gyouji, event).",
+        "visual": "A crossroads viewed from above: choose where to GO.",
+        "reading": "こう / ぎょう / い / おこな: 行く (iku, to go). 銀行 (ginkou, bank), 行事 (gyouji, event).",
         "meaning": "Two walking-man halves = GO.",
         "provenance": {
           "summary": "native_reviewed",
@@ -16862,7 +16859,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 行: 行 (い-く, kun, \"to go\") — verb. 銀行 (ぎんこう, on, \"bank\") — compound.",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 行: 行 (い-く, kun, \"to go\"), verb. 銀行 (ぎんこう, on, \"bank\"): compound.",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "行:きかた",
@@ -16920,7 +16917,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a crossroads / intersection — two paths crossing. Originally meant \"intersection / road\"; came to mean \"to go / conduct\" via the road sense."
+        "story": "Pictograph of a crossroads / intersection: two paths crossing. Originally meant \"intersection / road\"; came to mean \"to go / conduct\" via the road sense."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -17034,8 +17031,8 @@
       ],
       "mnemonic": {
         "summary": "Stacked containers - sticking OUT.",
-        "visual": "A mountain on top of a mountain — climbing OUT of the valley.",
-        "reading": "しゅつ / すい / で / だ — 出る (deru, to leave). 出口 (deguchi, exit), 出発 (shuppatsu).",
+        "visual": "A mountain on top of a mountain: climbing OUT of the valley.",
+        "reading": "しゅつ / すい / で / だ: 出る (deru, to leave). 出口 (deguchi, exit), 出発 (shuppatsu).",
         "meaning": "Stacked containers - sticking OUT.",
         "provenance": {
           "summary": "native_reviewed",
@@ -17092,8 +17089,8 @@
       ],
       "okurigana_cuts_provenance": "auto_derived",
       "stroke_order_trap": {
-        "trap": "Bottom 山 first, then top 山 — built from the inside out.",
-        "correct_order_summary": "1: middle vertical (top half). 2: top-left mini-hook. 3: top horizontal closing top-山. 4: middle vertical (bottom half — extends down from top). 5: bottom-left mini-hook of bottom-山.",
+        "trap": "Bottom 山 first, then top 山: built from the inside out.",
+        "correct_order_summary": "1: middle vertical (top half). 2: top-left mini-hook. 3: top horizontal closing top-山. 4: middle vertical (bottom half, extends down from top). 5: bottom-left mini-hook of bottom-山.",
         "why_it_matters": "NOT two separate 山 stacked; the central verticals connect, making it 5 strokes (not 6+)."
       },
       "stroke_order_trap_provenance": "llm_curated",
@@ -17144,7 +17141,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a plant emerging from the ground — vertical stroke up + horizontal base. Captures \"to come out / exit / produce\"."
+        "story": "Pictograph of a plant emerging from the ground: vertical stroke up + horizontal base. Captures \"to come out / exit / produce\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -17246,8 +17243,8 @@
       ],
       "mnemonic": {
         "summary": "Two strokes meeting at a point - going INSIDE = ENTER.",
-        "visual": "Two strokes meeting at a point — entering through a doorway, GOING IN.",
-        "reading": "にゅう / い / はい — 入る (hairu, to enter). 入口 (iriguchi, entrance), 入学 (nyuugaku).",
+        "visual": "Two strokes meeting at a point: entering through a doorway, GOING IN.",
+        "reading": "にゅう / い / はい: 入る (hairu, to enter). 入口 (iriguchi, entrance), 入学 (nyuugaku).",
         "meaning": "Two strokes meeting at a point - going INSIDE = ENTER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -17310,7 +17307,7 @@
       ],
       "okurigana_cuts_provenance": "auto_derived",
       "stroke_order_trap": {
-        "trap": "入 starts with the SHORT stroke (left-descending), 人 starts with the LONG one — easy to swap.",
+        "trap": "入 starts with the SHORT stroke (left-descending), 人 starts with the LONG one: easy to swap.",
         "correct_order_summary": "1: short ノ (left-descending, with curl at bottom). 2: long ╲ (right-descending).",
         "why_it_matters": "Visual identity vs 人: 入 has the short-then-long order; 人 has long-then-short. Reversed order produces the wrong character."
       },
@@ -17350,7 +17347,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of an arrow or pointed object entering — two strokes converging downward. Captures \"to enter / put in\"."
+        "story": "Pictograph of an arrow or pointed object entering: two strokes converging downward. Captures \"to enter / put in\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -17439,8 +17436,8 @@
       ],
       "mnemonic": {
         "summary": "A person planted on the ground = STAND.",
-        "visual": "A person standing tall on the ground — STAND UP straight.",
-        "reading": "りつ / りゅう / た — 立つ (tatsu, to stand). 国立 (kokuritsu, national).",
+        "visual": "A person standing tall on the ground: STAND UP straight.",
+        "reading": "りつ / りゅう / た: 立つ (tatsu, to stand). 国立 (kokuritsu, national).",
         "meaning": "A person planted on the ground = STAND.",
         "provenance": {
           "summary": "native_reviewed",
@@ -17495,7 +17492,7 @@
         "compound": {
           "form": "国立",
           "reading": "こくりつ",
-          "gloss": "national (on) — N4"
+          "gloss": "national (on): N4"
         },
         "contrast_note": "立 kun=た-つ, on=りつ in compounds."
       },
@@ -17597,8 +17594,8 @@
       ],
       "mnemonic": {
         "summary": "A person (亻) leaning on a tree (木) = REST.",
-        "visual": "A person (亻) leaning against a tree (木) — REST against the trunk.",
-        "reading": "きゅう / やす — 休む (yasumu, to rest). 休日 (kyuujitsu, day off).",
+        "visual": "A person (亻) leaning against a tree (木): REST against the trunk.",
+        "reading": "きゅう / やす: 休む (yasumu, to rest). 休日 (kyuujitsu, day off).",
         "meaning": "A person (亻) leaning on a tree (木) = REST.",
         "provenance": {
           "summary": "native_reviewed",
@@ -17703,7 +17700,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "亻 (person) + 木 (tree) — a person resting under a tree. Captures \"to rest / take a break\"."
+        "story": "亻 (person) + 木 (tree): a person resting under a tree. Captures \"to rest / take a break\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -17792,8 +17789,8 @@
       ],
       "mnemonic": {
         "summary": "Words (言) leaving the mouth = SAY.",
-        "visual": "A mouth with words coming out in layered lines — SPEAKING multiple ideas.",
-        "reading": "げん / ごん / い / こと — 言う (iu, to say). 言葉 (kotoba, word), 言語 (gengo, language).",
+        "visual": "A mouth with words coming out in layered lines: SPEAKING multiple ideas.",
+        "reading": "げん / ごん / い / こと: 言う (iu, to say). 言葉 (kotoba, word), 言語 (gengo, language).",
         "meaning": "Words (言) leaving the mouth = SAY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -17870,14 +17867,14 @@
         "compound": {
           "form": "言語",
           "reading": "げんご",
-          "gloss": "language (on) — N4"
+          "gloss": "language (on): N4"
         },
         "contrast_note": "言 kun=い-う (verb), on=げん/ごん in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "辛 (knife / sharp) + 口 (mouth) — words come out of the mouth like cuts from a blade. Hence \"to say / word\"."
+        "story": "辛 (knife / sharp) + 口 (mouth): words come out of the mouth like cuts from a blade. Hence \"to say / word\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -17972,8 +17969,8 @@
       ],
       "mnemonic": {
         "summary": "Net (四) for shell-money (貝) = BUY.",
-        "visual": "A net (罒) over shell-money (貝) — netting up coins to BUY something.",
-        "reading": "ばい / か — 買う (kau, to buy). 売買 (baibai, buying-and-selling).",
+        "visual": "A net (罒) over shell-money (貝): netting up coins to BUY something.",
+        "reading": "ばい / か: 買う (kau, to buy). 売買 (baibai, buying-and-selling).",
         "meaning": "Net (四) for shell-money (貝) = BUY.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18055,14 +18052,14 @@
         "compound": {
           "form": "売買",
           "reading": "ばいばい",
-          "gloss": "buying/selling (on) — N4"
+          "gloss": "buying/selling (on): N4"
         },
         "contrast_note": "買 kun=か-う (verb), on=ばい in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "罒 (net / catch) + 貝 (shell / money) — to catch / acquire something using money. Hence \"to buy\"."
+        "story": "罒 (net / catch) + 貝 (shell / money): to catch / acquire something using money. Hence \"to buy\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -18150,8 +18147,8 @@
       ],
       "mnemonic": {
         "summary": "A tall pavilion silhouette = TALL / expensive.",
-        "visual": "A tall pagoda silhouette — TALL/HIGH/EXPENSIVE building.",
-        "reading": "こう / たか — 高い (takai, tall/expensive). 高校 (koukou, high school).",
+        "visual": "A tall pagoda silhouette: TALL/HIGH/EXPENSIVE building.",
+        "reading": "こう / たか: 高い (takai, tall/expensive). 高校 (koukou, high school).",
         "meaning": "A tall pavilion silhouette = TALL / expensive.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18327,8 +18324,8 @@
       ],
       "mnemonic": {
         "summary": "A woman (女) under a roof (宀) - peaceful and CHEAP.",
-        "visual": "A roof over a woman — woman safe at home: PEACEFUL, also CHEAP.",
-        "reading": "あん / やす — 安い (yasui, cheap). 安心 (anshin, peace of mind).",
+        "visual": "A roof over a woman, woman safe at home: PEACEFUL, also CHEAP.",
+        "reading": "あん / やす: 安い (yasui, cheap). 安心 (anshin, peace of mind).",
         "meaning": "A woman (女) under a roof (宀) - peaceful and CHEAP.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18363,7 +18360,7 @@
       ],
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "Drawing 女 before fully closing 宀 (うかんむり) is one slip; the other is reversing 女's own internal order — 女's long horizontal cross-stroke comes LAST, not first.",
+        "trap": "Drawing 女 before fully closing 宀 (うかんむり) is one slip; the other is reversing 女's own internal order: 女's long horizontal cross-stroke comes LAST, not first.",
         "correct_order_summary": "1-3: 宀 (dot, horizontal+hook). 4-6: 女 (cross-stroke last in 女).",
         "why_it_matters": "6 strokes. Roof-first."
       },
@@ -18393,7 +18390,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "宀 (roof / house) + 女 (woman) — a woman safely at home under a roof. Originally \"peaceful / safe\"; extended to \"cheap / inexpensive (no risk)\"."
+        "story": "宀 (roof / house) + 女 (woman): a woman safely at home under a roof. Originally \"peaceful / safe\"; extended to \"cheap / inexpensive (no risk)\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -18486,8 +18483,8 @@
       ],
       "mnemonic": {
         "summary": "A standing tree freshly cut by an axe = NEW.",
-        "visual": "Stand (立) + tree (木) + axe (斤) — chopping NEW wood with a fresh axe.",
-        "reading": "しん / あたら / あら / にい — 新しい (atarashii, new). 新聞 (shinbun, newspaper).",
+        "visual": "Stand (立) + tree (木) + axe (斤): chopping NEW wood with a fresh axe.",
+        "reading": "しん / あたら / あら / にい: 新しい (atarashii, new). 新聞 (shinbun, newspaper).",
         "meaning": "A standing tree freshly cut by an axe = NEW.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18561,7 +18558,7 @@
       "authentic_refs_provenance": "auto_derived",
       "etymology": {
         "origin_type": "phono_semantic",
-        "story": "木 (tree) + 斤 (axe) + 立 (stand) — chopping NEW wood with an axe. Hence \"new / fresh\"."
+        "story": "木 (tree) + 斤 (axe) + 立 (stand): chopping NEW wood with an axe. Hence \"new / fresh\"."
       },
       "etymology_provenance": "llm_curated",
       "audio_yomi": {
@@ -18658,8 +18655,8 @@
       ],
       "mnemonic": {
         "summary": "Ten (十) generations of stories (口) = OLD.",
-        "visual": "Ten (十) + mouth (口) — ten generations of mouths talking: this is OLD news.",
-        "reading": "こ / ふる — 古い (furui, old). 中古 (chuuko, used/secondhand).",
+        "visual": "Ten (十) + mouth (口), ten generations of mouths talking: this is OLD news.",
+        "reading": "こ / ふる: 古い (furui, old). 中古 (chuuko, used/secondhand).",
         "meaning": "Ten (十) generations of stories (口) = OLD.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18711,7 +18708,7 @@
       "okurigana_cuts_provenance": "auto_derived",
       "lookalikes_provenance": "llm_curated",
       "stroke_order_trap": {
-        "trap": "Writing 口 first is the common mistake. The 十 on top (horizontal then vertical) precedes the 口 box — top-down assembly. Inside 口, follow standard box rule (left side / top+right bracket / bottom horizontal).",
+        "trap": "Writing 口 first is the common mistake. The 十 on top (horizontal then vertical) precedes the 口 box: top-down assembly. Inside 口, follow standard box rule (left side / top+right bracket / bottom horizontal).",
         "correct_order_summary": "1: horizontal. 2: vertical. 3-5: 口 (with box rule).",
         "why_it_matters": "5 strokes. Cross + box."
       },
@@ -18734,14 +18731,14 @@
         "compound": {
           "form": "中古",
           "reading": "ちゅうこ",
-          "gloss": "used (item) (on) — N4"
+          "gloss": "used (item) (on): N4"
         },
         "contrast_note": "古 kun=ふる-い (adj), on=こ in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "十 (ten) + 口 (mouth) — what has been spoken (mouth) for ten generations. Captures \"old / antique\"."
+        "story": "十 (ten) + 口 (mouth): what has been spoken (mouth) for ten generations. Captures \"old / antique\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -18825,8 +18822,8 @@
       ],
       "mnemonic": {
         "summary": "Long flowing hair on an elder = LONG.",
-        "visual": "A figure with long flowing hair down the back — LONG and the HEAD/CHIEF.",
-        "reading": "ちょう / なが — 長い (nagai, long). 社長 (shachou, company president).",
+        "visual": "A figure with long flowing hair down the back: LONG and the HEAD/CHIEF.",
+        "reading": "ちょう / なが: 長い (nagai, long). 社長 (shachou, company president).",
         "meaning": "Long flowing hair on an elder = LONG.",
         "provenance": {
           "summary": "native_reviewed",
@@ -18895,7 +18892,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "pictograph",
-        "story": "Pictograph of a long-haired elder with a staff — captures \"long\" (physical length) and \"leader / elder\" (the long-haired one in authority)."
+        "story": "Pictograph of a long-haired elder with a staff: captures \"long\" (physical length) and \"leader / elder\" (the long-haired one in authority)."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -18988,8 +18985,8 @@
       ],
       "mnemonic": {
         "summary": "A ray (丿) shining on the sun (日) = WHITE.",
-        "visual": "A simple kanji with a tail — a candle's WHITE flame casting light.",
-        "reading": "はく / びゃく / しろ / しら — 白い (shiroi, white). 白人 (hakujin, white person).",
+        "visual": "A simple kanji with a tail: a candle's WHITE flame casting light.",
+        "reading": "はく / びゃく / しろ / しら: 白い (shiroi, white). 白人 (hakujin, white person).",
         "meaning": "A ray (丿) shining on the sun (日) = WHITE.",
         "provenance": {
           "summary": "native_reviewed",
@@ -19051,7 +19048,7 @@
       ],
       "okurigana_cuts_provenance": "auto_derived",
       "stroke_order_trap": {
-        "trap": "Omitting the leading ノ turns 白 into 日 — a different kanji entirely. The short ノ at the very top is stroke #1, and is what distinguishes 白 from 日 visually and orthographically.",
+        "trap": "Omitting the leading ノ turns 白 into 日: a different kanji entirely. The short ノ at the very top is stroke #1, and is what distinguishes 白 from 日 visually and orthographically.",
         "correct_order_summary": "1: short ノ (top). 2: left vertical. 3: top + right (bracket). 4: middle horizontal. 5: bottom horizontal.",
         "why_it_matters": "5 strokes. The leading ノ distinguishes from 日."
       },
@@ -19080,7 +19077,7 @@
         "compound": {
           "form": "白人",
           "reading": "はくじん",
-          "gloss": "white person (on) — N4+"
+          "gloss": "white person (on): N4+"
         },
         "contrast_note": "白 kun=しろ/しろ-い (adj), on=はく/びゃく in compounds."
       },
@@ -19182,8 +19179,8 @@
       ],
       "mnemonic": {
         "summary": "In the evening (夕), call out (口) the NAME.",
-        "visual": "Evening (夕) + mouth (口) — at evening you speak your NAME.",
-        "reading": "めい / みょう / な — 名前 (namae, name). 有名 (yuumei, famous).",
+        "visual": "Evening (夕) + mouth (口): at evening you speak your NAME.",
+        "reading": "めい / みょう / な: 名前 (namae, name). 有名 (yuumei, famous).",
         "meaning": "In the evening (夕), call out (口) the NAME.",
         "provenance": {
           "summary": "native_reviewed",
@@ -19242,14 +19239,14 @@
         "compound": {
           "form": "有名",
           "reading": "ゆうめい",
-          "gloss": "famous (on) — N4"
+          "gloss": "famous (on): N4"
         },
         "contrast_note": "名 kun=な (name), on=めい in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "夕 (evening) + 口 (mouth) — in the evening dark you must SAY your NAME to be recognized. Hence \"name\"."
+        "story": "夕 (evening) + 口 (mouth): in the evening dark you must SAY your NAME to be recognized. Hence \"name\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -19340,8 +19337,8 @@
       ],
       "mnemonic": {
         "summary": "A claw (釆) ordering rice paddies (田) by NUMBER.",
-        "visual": "Rice (米) + field (田) — taking your TURN in the rice field.",
-        "reading": "ばん — 番号 (bangou, number), 一番 (ichiban, #1, first). Always ばん.",
+        "visual": "Rice (米) + field (田): taking your TURN in the rice field.",
+        "reading": "ばん: 番号 (bangou, number), 一番 (ichiban, #1, first). Always ばん.",
         "meaning": "A claw (釆) ordering rice paddies (田) by NUMBER.",
         "provenance": {
           "summary": "native_reviewed",
@@ -19419,7 +19416,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "釆 (animal tracks pattern) + 田 (field) — taking turns walking the field paths. Came to mean \"ordinal number / turn / one's position in a sequence\"."
+        "story": "釆 (animal tracks pattern) + 田 (field): taking turns walking the field paths. Came to mean \"ordinal number / turn / one's position in a sequence\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -19494,8 +19491,8 @@
       ],
       "mnemonic": {
         "summary": "Mouth (口) shouting a NUMBER / call sign.",
-        "visual": "Mouth (口) + bent breath — calling out a NUMBER/CALL-SIGN.",
-        "reading": "ごう — 番号 (bangou, number), 信号 (shingou, traffic signal). Always ごう.",
+        "visual": "Mouth (口) + bent breath: calling out a NUMBER/CALL-SIGN.",
+        "reading": "ごう: 番号 (bangou, number), 信号 (shingou, traffic signal). Always ごう.",
         "meaning": "Mouth (口) shouting a NUMBER / call sign.",
         "provenance": {
           "summary": "native_reviewed",
@@ -19560,7 +19557,7 @@
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "口 (mouth) + 丂 (signal flag / breath) — making a signal by mouth. Hence \"to call out / number / signal\"."
+        "story": "口 (mouth) + 丂 (signal flag / breath): making a signal by mouth. Hence \"to call out / number / signal\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [
@@ -19641,8 +19638,8 @@
       ],
       "mnemonic": {
         "summary": "My (厶) grain (禾) = PRIVATE / I.",
-        "visual": "Rice (禾) + 厶 private — your PRIVATE rice supply: I, ME.",
-        "reading": "し / わたし / わたくし — 私 (watashi, I). On し in 私生活 (shiseikatsu, private life).",
+        "visual": "Rice (禾) + 厶 private, your PRIVATE rice supply: I, ME.",
+        "reading": "し / わたし / わたくし: 私 (watashi, I). On し in 私生活 (shiseikatsu, private life).",
         "meaning": "My (厶) grain (禾) = PRIVATE / I.",
         "provenance": {
           "summary": "native_reviewed",
@@ -19704,7 +19701,7 @@
         }
       ],
       "reading_passages_provenance": "auto_derived",
-      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 私: 私 (わたし/わたくし, kun, \"I\") — standalone. 私生活 (しせいかつ, on, \"private life\") — compound (N4+).",
+      "reading_rule": "Generic rule: standalone kanji → typically kun-yomi; compound kanji → typically on-yomi. For 私: 私 (わたし/わたくし, kun, \"I\"), standalone. 私生活 (しせいかつ, on, \"private life\"): compound (N4+).",
       "reading_rule_provenance": "llm_curated",
       "okurigana_cuts": [
         "私:たち"
@@ -19743,14 +19740,14 @@
         "compound": {
           "form": "私立",
           "reading": "しりつ",
-          "gloss": "private (school) (on) — N4"
+          "gloss": "private (school) (on): N4"
         },
         "contrast_note": "私 kun=わたし (informal わたくし), on=し in compounds."
       },
       "on_kun_pair_drill_provenance": "llm_curated",
       "etymology": {
         "origin_type": "compound_ideograph",
-        "story": "禾 (grain plant) + 厶 (self / private) — one's own private grain (vs the lord's public grain). Hence \"I / private / personal\"."
+        "story": "禾 (grain plant) + 厶 (self / private): one's own private grain (vs the lord's public grain). Hence \"I / private / personal\"."
       },
       "etymology_provenance": "llm_curated",
       "authentic_refs": [

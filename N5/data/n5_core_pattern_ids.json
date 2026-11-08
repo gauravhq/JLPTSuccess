@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "doc": "ISSUE-033 (audit round-4) + ISSUE-005 + 2026-05-14 merge: explicit list of pattern IDs that are strictly within JLPT N5 scope (core_n5 — flat strings), borderline N5/N4 (late_n5 — array of objects with rationale + sources_n5 + sources_n4 per pattern), and deliberately-deferred-to-N4 (deferred_to_n4 — array of objects, SAME SHAPE as late_n5). The deferred patterns ship in grammar.json with tier='deferred_to_n4' — they remain accessible to learners but are flagged as N4-equivalent in the tier classification. Schema-merge 2026-05-14: standalone data/n5_deferred_to_n4.json was merged into this file to eliminate three-file drift risk; the index now carries the rationale + source attribution that previously lived in the standalone file.",
+    "doc": "ISSUE-033 (audit round-4) + ISSUE-005 + 2026-05-14 merge: explicit list of pattern IDs that are strictly within JLPT N5 scope (core_n5, flat strings), borderline N5/N4 (late_n5, array of objects with rationale + sources_n5 + sources_n4 per pattern), and deliberately-deferred-to-N4 (deferred_to_n4, array of objects, SAME SHAPE as late_n5). The deferred patterns ship in grammar.json with tier='deferred_to_n4': they remain accessible to learners but are flagged as N4-equivalent in the tier classification. Schema-merge 2026-05-14: standalone data/n5_deferred_to_n4.json was merged into this file to eliminate three-file drift risk; the index now carries the rationale + source attribution that previously lived in the standalone file.",
     "schema_version": 1,
     "lastUpdated": "2026-05-23",
-    "id_space_policy": "The grammar.json ID space is sparse — IDs n5-012, n5-020, n5-022, n5-032, n5-047, n5-128, n5-138, n5-139, n5-140, n5-141 are NOT in grammar.json (and therefore NOT in either core_n5 or late_n5 list). They are deliberately retired/unused slots from earlier authoring iterations. The lists are 100% in sync with grammar.json: total = 178 = 153 core + 25 late, no orphans either way. Verified by JA-34 invariant in tools/check_content_integrity.py.",
+    "id_space_policy": "The grammar.json ID space is sparse: IDs n5-012, n5-020, n5-022, n5-032, n5-047, n5-128, n5-138, n5-139, n5-140, n5-141 are NOT in grammar.json (and therefore NOT in either core_n5 or late_n5 list). They are deliberately retired/unused slots from earlier authoring iterations. The lists are 100% in sync with grammar.json: total = 178 = 153 core + 25 late, no orphans either way. Verified by JA-34 invariant in tools/check_content_integrity.py.",
     "see_also": [
       "data/grammar.json",
       "tools/check_content_integrity.py (JA-34)"
@@ -167,7 +167,7 @@
     {
       "id": "n5-052",
       "pattern": "どうやって",
-      "rationale": "Compound question word (どう+やって). Genki I L3 introduces in dialogue; appears in MnN L4 vocabulary. Try!/So-matome treat as boundary. Keep as late_n5 — usage is N5 but the compound form is sometimes flagged N4.",
+      "rationale": "Compound question word (どう+やって). Genki I L3 introduces in dialogue; appears in MnN L4 vocabulary. Try!/So-matome treat as boundary. Keep as late_n5: usage is N5 but the compound form is sometimes flagged N4.",
       "sources_n5": [
         "Genki I L3",
         "Minna no Nihongo I L4"
@@ -204,7 +204,7 @@
     {
       "id": "n5-146",
       "pattern": "〜と言いました",
-      "rationale": "Reported speech. Parallel to #145 — Genki I L8 (N5), MnN L21 (N4). Boundary.",
+      "rationale": "Reported speech. Parallel to #145: Genki I L8 (N5), MnN L21 (N4). Boundary.",
       "sources_n5": [
         "Genki I L8"
       ],
@@ -260,7 +260,7 @@
     {
       "id": "n5-171",
       "pattern": "Verb-ない + ほうがいい",
-      "rationale": "Recommendation (negative). Paired with #170 — same N5/N4 split.",
+      "rationale": "Recommendation (negative). Paired with #170: same N5/N4 split.",
       "sources_n5": [
         "Genki I L12"
       ],
@@ -357,7 +357,7 @@
     {
       "id": "n5-182",
       "pattern": "Verb-plain + な",
-      "rationale": "Casual prohibition. N5/N4 boundary — appears in N5 dialogues but formally taught at N4. Casual register.",
+      "rationale": "Casual prohibition. N5/N4 boundary: appears in N5 dialogues but formally taught at N4. Casual register.",
       "sources_n5": [
         "Genki I (dialogue)"
       ],

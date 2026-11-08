@@ -1581,6 +1581,7 @@ CHECKS: list[tuple[str, str, callable]] = [
     ("JA-177", "grammar.json wrong/correct pairs: correct/right field must not admit the wrong form is itself correct (no 'already correct'/'IS valid'/'(correct)') (BUG-247 false-negative malformed guard, 2026-05-31)", lambda: _check_ja_177_no_already_correct_admission()),
     ("JA-178", "vocab.json verb entries: particle_examples must not contain the malformed conjugation artifact <dictionary-form>+ます / <dictionary-form>+ました (you cannot append ます to a dictionary form). Blocks regression of the template-generation bug that produced べんきょうするます/かすました/あるます across 110 verbs (BUG-266 batch J guard, 2026-06-04)", lambda: _check_ja_178_no_malformed_verb_masu_in_particle_examples()),
     ("JA-179", "kanji.json mnemonic_image (if present) resolves to a file on disk AND carries a non-trivial mnemonic_image_alt (broken-src + accessibility guard; 雨 mnemonic-image POC, 2026-06-07)", lambda: _check_ja_179_mnemonic_image_refs_resolve_with_alt()),
+    ("JA-180", "no em dash (U+2014) in learner-facing N5 files: data/*.json, static mirror pages, dist/, rendered Markdown, READMEs, llms.txt, js/min, locales, main.min.css (TYPO-1 close-out guard, 2026-11-08; fix with tools/emdash_normalize.py --apply)", lambda: _check_ja_180_no_em_dash_in_learner_facing_files()),
     # JA-80 was attempted (2026-05-13 run-4) and removed: heuristic
     # "meaning_ja must share ≥1 Japanese substring with meaning_en" had
     # 19 false positives on legitimate patterns where meaning_ja
@@ -9908,6 +9909,44 @@ def _check_ja_179_mnemonic_image_refs_resolve_with_alt() -> list:
                 "(accessibility: screen readers need a description >= 12 chars)"
                 % (e.get("glyph") or e.get("id"))
             )
+    return failures
+
+
+JA180_MAX_LISTED = 25
+
+
+def _check_ja_180_no_em_dash_in_learner_facing_files() -> list:
+    """TYPO-1 close-out guard (2026-11-08): no learner-facing N5 file carries an
+    em dash (U+2014). The owner decided the site shows none; v1.17.48 cleaned
+    the UI chrome and v1.17.52 the content (data, mirrors, rendered docs).
+
+    Scope comes from tools/emdash_normalize.in_scope() so the guard and the
+    fixer cannot drift: tracked data/*.json, static mirror pages, dist/, the
+    Markdown the SPA renders (CHANGELOG / PRIVACY / NOTICES), READMEs,
+    llms.txt, js/min, locales and css/main.min.css. Internal tooling, audit
+    docs, prompts and specs are out of scope. The katakana long-vowel mark
+    (U+30FC) and the horizontal bar (U+2015) are different characters.
+    Fix a hit with `python tools/emdash_normalize.py --apply`.
+    """
+    import subprocess
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import emdash_normalize as en
+    try:
+        files = en.tracked_scope_files()
+    except (OSError, subprocess.CalledProcessError) as e:
+        return ["JA-180 could not list tracked files via git (needed to scope the scan): %s" % e]
+    hits = []
+    for rel in files:
+        try:
+            n = (en.REPO_ROOT / rel).read_text(encoding="utf-8").count(en.EM_DASH)
+        except (UnicodeDecodeError, FileNotFoundError):
+            continue
+        if n:
+            hits.append((rel, n))
+    failures = ["JA-180 %s has %d em dash(es); run python tools/emdash_normalize.py --apply" % h
+                for h in hits[:JA180_MAX_LISTED]]
+    if len(hits) > JA180_MAX_LISTED:
+        failures.append("JA-180 ... and %d more files" % (len(hits) - JA180_MAX_LISTED))
     return failures
 
 

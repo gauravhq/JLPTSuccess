@@ -17,7 +17,7 @@
       "correctAnswer": "カフェの 前",
       "explanation_en": "Initially they planned to meet at the station, but the woman suggested the cafe instead, and the man agreed.",
       "review_status": "ai_quality_reviewed",
-      "explanation_hi": "पुरुष ने पहले स्टेशन के सामने मिलने का सुझाव दिया, पर महिला ने भीड़ का बहाना देकर कैफ़े के सामने का प्रस्ताव रखा — पुरुष ने मान लिया। उत्तर: कैफ़े के सामने।",
+      "explanation_hi": "पुरुष ने पहले स्टेशन के सामने मिलने का सुझाव दिया, पर महिला ने भीड़ का बहाना देकर कैफ़े के सामने का प्रस्ताव रखा: पुरुष ने मान लिया। उत्तर: कैफ़े के सामने।",
       "cultural_context": "जापान में मिलने का स्थान बदलने का अनुरोध करना सामान्य; भीड़ या मौसम का हवाला देना विनम्र तरीक़ा है। मूल योजना पर ज़ोर देना थोड़ा अशिष्ट लगता है।",
       "pacing_morae_per_min": 226.0,
       "pacing_status": "in_range",
@@ -190,9 +190,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -232,8 +232,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "4 question(s) — rising intonation expected on か.",
-        "2 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "4 question(s): rising intonation expected on か.",
+        "2 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -365,7 +365,7 @@
       "explanation_en": "The woman first asked for bread and eggs, then added milk.",
       "review_status": "ai_quality_reviewed",
       "explanation_hi": "महिला ने पहले पाव (パン) और अंडे (たまご) माँगे, फिर \"あ、ぎゅうにゅうも おねがいします\" कहकर दूध भी जोड़ा। पुरुष को तीनों चीज़ें ख़रीदनी हैं। उत्तर: पाव, अंडे और दूध।",
-      "cultural_context": "जापानी फ़ोन-कॉल पर वस्तुएँ माँगते समय \"〜も おねがいします\" से बाद में याद आई वस्तु जोड़ना सामान्य है — \"あ\" का अंत:क्षेप संकेत देता है कि यह बाद में सूझा। श्रोता को सूची की पूरी एकत्रित गिनती याद रखनी होती है।",
+      "cultural_context": "जापानी फ़ोन-कॉल पर वस्तुएँ माँगते समय \"〜も おねがいします\" से बाद में याद आई वस्तु जोड़ना सामान्य है: \"あ\" का अंत:क्षेप संकेत देता है कि यह बाद में सूझा। श्रोता को सूची की पूरी एकत्रित गिनती याद रखनी होती है।",
       "pacing_morae_per_min": 229.3,
       "pacing_status": "in_range",
       "lines": [
@@ -528,9 +528,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -570,8 +570,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か.",
-        "1 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "2 question(s): rising intonation expected on か.",
+        "1 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -707,7 +707,7 @@
       "correctAnswer": "8時半",
       "explanation_en": "They agreed to leave at 8:30 to catch the 9 o'clock train.",
       "review_status": "ai_quality_reviewed",
-      "explanation_hi": "पुरुष 9:00 बजे की ट्रेन (九時の でんしゃ) पकड़ना चाहता है, इसलिए महिला ने घर से 8:30 बजे (八時半) निकलने का सुझाव दिया, और दोनों सहमत हुए। प्रश्न \"घर से कब निकलेंगे\" का है — ट्रेन का समय नहीं। उत्तर: 8時半 (8:30)।",
+      "explanation_hi": "पुरुष 9:00 बजे की ट्रेन (九時の でんしゃ) पकड़ना चाहता है, इसलिए महिला ने घर से 8:30 बजे (八時半) निकलने का सुझाव दिया, और दोनों सहमत हुए। प्रश्न \"घर से कब निकलेंगे\" का है: ट्रेन का समय नहीं। उत्तर: 8時半 (8:30)।",
       "cultural_context": "जापानी ट्रेनें मिनटों की सटीकता से चलती हैं, इसलिए स्टेशन तक की 30-मिनट की पैदल/संक्रमण-समय बफ़र की योजना बनाना सामान्य है। \"何時に うちを 出ますか\" (घर से कब निकलेंगे) जापानी अनुसूची-संवाद का बुनियादी प्रश्न है।",
       "pacing_morae_per_min": 224.8,
       "pacing_status": "in_range",
@@ -863,9 +863,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -914,8 +914,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か.",
-        "2 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "2 question(s): rising intonation expected on か.",
+        "2 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -1078,7 +1078,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Japanese cafés default to hot drinks — staff will ask あつい (atsui, hot)? if you order a coffee/tea without specifying. Saying つめたい (cold) explicitly avoids ambiguity.",
+      "cultural_context": "Japanese cafés default to hot drinks: staff will ask あつい (atsui, hot)? if you order a coffee/tea without specifying. Saying つめたい (cold) explicitly avoids ambiguity.",
       "cultural_context_provenance": "native_reviewed",
       "audio_render_meta": {
         "voice_provider": "voicevox",
@@ -1226,9 +1226,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -1268,8 +1268,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か.",
-        "1 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "2 question(s): rising intonation expected on か.",
+        "1 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -1396,7 +1396,7 @@
       ],
       "_curriculum_note": "Choice 1 uses nominalizing の + が (n5-030). Sequence after n5-030 in any curriculum that uses prerequisites.",
       "review_status": "ai_quality_reviewed",
-      "explanation_hi": "छात्र ने स्पष्ट कहा \"あさ、でんしゃが おくれました\" (सुबह ट्रेन देर से आई)। बस की देरी, देर से उठना, सिरदर्द — ये भी विद्यालय में देर के सामान्य कारण हैं, पर इस छात्र ने इनमें से कोई नहीं कहा। उत्तर: でんしゃが おくれたから (क्योंकि ट्रेन देर थी)।",
+      "explanation_hi": "छात्र ने स्पष्ट कहा \"あさ、でんしゃが おくれました\" (सुबह ट्रेन देर से आई)। बस की देरी, देर से उठना, सिरदर्द: ये भी विद्यालय में देर के सामान्य कारण हैं, पर इस छात्र ने इनमें से कोई नहीं कहा। उत्तर: でんしゃが おくれたから (क्योंकि ट्रेन देर थी)।",
       "cultural_context": "जापानी विद्यालय में देर के लिए \"すみません\" से शुरू करना अनिवार्य; \"でんしゃが おくれました\" (ट्रेन देर थी) सबसे सामान्य कारण है क्योंकि जापानी रेल देरी का प्रमाण-पत्र (遅延証明書) भी जारी करती है, जिसे शिक्षक सहज स्वीकार करते हैं।",
       "pacing_morae_per_min": 237.3,
       "pacing_status": "in_range",
@@ -1628,14 +1628,14 @@
         {
           "category": "sokuon",
           "surface": "がっこう",
-          "note": "sokuon: gakkou (school) — small tsu before voiceless k"
+          "note": "sokuon: gakkou (school), small tsu before voiceless k"
         }
       ],
       "phonological_target_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -1680,7 +1680,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "4 question(s) — rising intonation expected on か."
+        "4 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -1980,9 +1980,9 @@
       ],
       "pitch_minimal_pair_focus_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -2027,7 +2027,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "4 question(s) — rising intonation expected on か."
+        "4 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -2366,16 +2366,16 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
       "speech_rate_classification": {
         "category": "fast",
         "morae_per_min": 273.3,
-        "note": "Faster than JLPT N5 — approaching N4 listening speed."
+        "note": "Faster than JLPT N5: approaching N4 listening speed."
       },
       "speech_rate_classification_provenance": "auto_derived",
       "register_signal_l": {
@@ -2404,7 +2404,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -2427,7 +2427,7 @@
           {
             "prompt_ja": "この 人は どの きせつが いちばん きらいですか。",
             "prompt_en": "Which season does this person dislike the most?",
-            "hint": "They mention reasons for disliking summer and winter — compare.",
+            "hint": "They mention reasons for disliking summer and winter: compare.",
             "type": "implication"
           },
           {
@@ -2678,9 +2678,9 @@
         "いいえ"
       ],
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -2720,7 +2720,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "6 question(s) — rising intonation expected on か."
+        "6 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -2941,7 +2941,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "numerical_off_by_one",
-        "note": "Choices are numerical — track exact numbers heard. Common distractor: a number near the correct one."
+        "note": "Choices are numerical: track exact numbers heard. Common distractor: a number near the correct one."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -3036,7 +3036,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Train ticket purchase at まどぐち (window): standard pattern — destination + 大人 (adult) X枚, 子供 (child) Y枚. Card readers are everywhere; tourists often use IC cards (Suica/PASMO) instead.",
+      "cultural_context": "Train ticket purchase at まどぐち (window): standard pattern, destination + 大人 (adult) X枚, 子供 (child) Y枚. Card readers are everywhere; tourists often use IC cards (Suica/PASMO) instead.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "टिकट खरीदने का मानक रूप: गंतव्य + काउंटर + おねがいします।",
       "audio_render_meta": {
@@ -3124,7 +3124,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -3325,7 +3325,7 @@
         {
           "category": "sokuon",
           "surface": "いっぱい",
-          "note": "sokuon: ippai (one cup / full) — small tsu doubles p"
+          "note": "sokuon: ippai (one cup / full), small tsu doubles p"
         }
       ],
       "phonological_target_provenance": "auto_derived",
@@ -3352,7 +3352,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -3539,7 +3539,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -3751,14 +3751,14 @@
         {
           "category": "sokuon",
           "surface": "がっこう",
-          "note": "sokuon: gakkou (school) — small tsu before voiceless k"
+          "note": "sokuon: gakkou (school), small tsu before voiceless k"
         }
       ],
       "phonological_target_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -3798,7 +3798,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -3992,9 +3992,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -4034,7 +4034,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -4267,9 +4267,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -4305,7 +4305,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -4562,9 +4562,9 @@
         "そうです"
       ],
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -4595,7 +4595,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -4815,9 +4815,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -4861,7 +4861,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -5083,9 +5083,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -5116,7 +5116,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -5371,9 +5371,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -5418,7 +5418,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -5649,9 +5649,9 @@
       ],
       "fillers_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -5682,9 +5682,9 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か.",
-        "1 sentence-final ね — confirmation-seeking, soft rise+fall expected.",
-        "1 sentence-final よ — assertive, slight fall expected."
+        "1 question(s): rising intonation expected on か.",
+        "1 sentence-final ね: confirmation-seeking, soft rise+fall expected.",
+        "1 sentence-final よ: assertive, slight fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -5796,7 +5796,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Library hours change between weekdays and weekends — typical Japanese pattern: weekday 9-5, Saturday 1-4, Sunday closed. School libraries differ from public libraries.",
+      "cultural_context": "Library hours change between weekdays and weekends, typical Japanese pattern: weekday 9-5, Saturday 1-4, Sunday closed. School libraries differ from public libraries.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "सोमवार सप्ताह के दिनों की सीमा (月-金) में आता है, जो 9-5 है। 1-4 घंटे केवल शनिवार पर लागू होते हैं।",
       "audio_render_meta": {
@@ -5870,9 +5870,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -5925,7 +5925,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -6155,9 +6155,9 @@
         "そうです"
       ],
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -6197,7 +6197,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -6319,7 +6319,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Homework due-dates: 火よう日 / 木よう日 (Tuesday / Thursday) — Japanese teachers often give M-W-F or T-Th cycles. ありますか? confirms whether a particular day has homework.",
+      "cultural_context": "Homework due-dates: 火よう日 / 木よう日 (Tuesday / Thursday), Japanese teachers often give M-W-F or T-Th cycles. ありますか? confirms whether a particular day has homework.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "महिला स्पष्ट रूप से मंगलवार और गुरुवार कहती है, और पुष्टि करती है कि बुधवार को नहीं है।",
       "audio_render_meta": {
@@ -6393,9 +6393,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -6448,7 +6448,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -6637,9 +6637,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -6680,7 +6680,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -6731,7 +6731,7 @@
         "prompts": [
           {
             "prompt_ja": "こん夜は どんな パーティーに なりますか。",
-            "prompt_en": "What kind of gathering does this sound like — formal or casual?",
+            "prompt_en": "What kind of gathering does this sound like: formal or casual?",
             "type": "inference"
           },
           {
@@ -6867,7 +6867,7 @@
         {
           "category": "sokuon",
           "surface": "がっこう",
-          "note": "sokuon: gakkou (school) — small tsu before voiceless k"
+          "note": "sokuon: gakkou (school), small tsu before voiceless k"
         }
       ],
       "phonological_target_provenance": "auto_derived",
@@ -6894,7 +6894,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -7076,7 +7076,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -7236,7 +7236,7 @@
       "speech_rate_classification": {
         "category": "fast",
         "morae_per_min": 255.4,
-        "note": "Faster than JLPT N5 — approaching N4 listening speed."
+        "note": "Faster than JLPT N5: approaching N4 listening speed."
       },
       "speech_rate_classification_provenance": "auto_derived",
       "register_signal_l": {
@@ -7249,7 +7249,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -7350,7 +7350,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Entering a teacher's room or superior's office: しつれいします ('I beg your pardon' / 'excuse me for intruding') — said when entering and again when leaving. For casual contexts (friend's home), おじゃまします is the equivalent. Distinguishing the two registers is a core N5 pragmatics skill.",
+      "cultural_context": "Entering a teacher's room or superior's office: しつれいします ('I beg your pardon' / 'excuse me for intruding'), said when entering and again when leaving. For casual contexts (friend's home), おじゃまします is the equivalent. Distinguishing the two registers is a core N5 pragmatics skill.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "किसी और के घर में प्रवेश करते समय しつれいします कहा जाता है। ただいま अपने घर के लिए है।",
       "audio_render_meta": {
@@ -7416,7 +7416,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -7613,7 +7613,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -8066,9 +8066,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -8108,9 +8108,9 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か.",
-        "1 sentence-final ね — confirmation-seeking, soft rise+fall expected.",
-        "1 sentence-final よ — assertive, slight fall expected."
+        "2 question(s): rising intonation expected on か.",
+        "1 sentence-final ね: confirmation-seeking, soft rise+fall expected.",
+        "1 sentence-final よ: assertive, slight fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -8333,9 +8333,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -8371,7 +8371,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "3 question(s) — rising intonation expected on か."
+        "3 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -8516,7 +8516,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Class scheduling: 月よう日と 水よう日 (Monday and Wednesday) — Japanese university classes often run on alternating days. 〜時から 〜時まで (from X to Y) is the standard time-range pattern.",
+      "cultural_context": "Class scheduling: 月よう日と 水よう日 (Monday and Wednesday), Japanese university classes often run on alternating days. 〜時から 〜時まで (from X to Y) is the standard time-range pattern.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "'レストランは 一かいに あります' (रेस्तरां पहली मंज़िल पर है)।",
       "audio_render_meta": {
@@ -8611,9 +8611,9 @@
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -8644,7 +8644,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "2 question(s) — rising intonation expected on か."
+        "2 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -8782,9 +8782,9 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Restaurant order checks: ぜんぶで 〜円 (X yen total) closes the bill. Tipping does not exist in Japan — paying the exact bill amount or with bills/coins is normal.",
+      "cultural_context": "Restaurant order checks: ぜんぶで 〜円 (X yen total) closes the bill. Tipping does not exist in Japan: paying the exact bill amount or with bills/coins is normal.",
       "cultural_context_provenance": "native_reviewed",
-      "explanation_hi": "'はやく かおを あらって' — पहले चेहरा धोएं, फिर नाश्ता।",
+      "explanation_hi": "'はやく かおを あらって': पहले चेहरा धोएं, फिर नाश्ता।",
       "audio_render_meta": {
         "voice_provider": "voicevox",
         "voices_used": [
@@ -8891,14 +8891,14 @@
         {
           "category": "sokuon",
           "surface": "がっこう",
-          "note": "sokuon: gakkou (school) — small tsu before voiceless k"
+          "note": "sokuon: gakkou (school), small tsu before voiceless k"
         }
       ],
       "phonological_target_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -8918,7 +8918,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -8928,7 +8928,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -9040,7 +9040,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Birthday party invitation: いっしょに ケーキを 食べませんか? (wont you eat cake with us?) — the negative-question form (-ませんか) is the standard polite invitation.",
+      "cultural_context": "Birthday party invitation: いっしょに ケーキを 食べませんか? (wont you eat cake with us?): the negative-question form (-ませんか) is the standard polite invitation.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "'中国人は 四人で' (चार चीनी लोग)।",
       "audio_render_meta": {
@@ -9178,9 +9178,9 @@
       ],
       "pitch_minimal_pair_focus_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -9438,9 +9438,9 @@
       ],
       "aizuchi_present_provenance": "auto_derived",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -9579,7 +9579,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Train delays: 電車が おくれて (the train is delayed) — train staff often issue a 遅延証明書 (delay certificate) so commuters can present it to teachers/employers.",
+      "cultural_context": "Train delays: 電車が おくれて (the train is delayed), train staff often issue a 遅延証明書 (delay certificate) so commuters can present it to teachers/employers.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "बड़ी किताब 2000 येन है, आज आधी कीमत = 1000 येन।",
       "audio_render_meta": {
@@ -9684,9 +9684,9 @@
         "あの"
       ],
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -9918,7 +9918,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10023,7 +10023,7 @@
         }
       ],
       "voice_variety_status": "rendered",
-      "cultural_context": "Apartment-search vocabulary: 駅から ちかい (close to the station), へやが 大きい (big rooms), 家ちんは X円 (rent is Y) — these are the standard housing-search criteria in Japanese.",
+      "cultural_context": "Apartment-search vocabulary: 駅から ちかい (close to the station), へやが 大きい (big rooms), 家ちんは X円 (rent is Y), these are the standard housing-search criteria in Japanese.",
       "cultural_context_provenance": "native_reviewed",
       "explanation_hi": "ごちそうさまでした भोजन के बाद रेस्तरां छोड़ते समय कहा जाता है।",
       "audio_render_meta": {
@@ -10153,7 +10153,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10163,7 +10163,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -10357,7 +10357,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10444,8 +10444,8 @@
       ],
       "correctAnswer": "おつかれさまでした。",
       "explanation_en": "When a colleague says 'お先に失礼します' (leaving work first), the standard reply is 'お疲れさまでした' (you've worked hard). 'はじめまして' is a first-meeting greeting; 'ごちそうさまでした' is for after meals.",
-      "explanation_hi": "कार्यालय छोड़ते समय \"お先に失礼します\" का जवाब \"お疲れさまでした\" — सहकर्मी की मेहनत की पहचान। अन्य विकल्प (पहली बार मिलना, खाने के बाद) ग़लत संदर्भ हैं।",
-      "cultural_context": "जापानी कार्यस्थल में \"お先に失礼します\" (पहले निकलने के लिए विनती) कहना अनिवार्य शिष्टाचार है — दूसरों को बता देना कि आप पहले जा रहे हैं। बिना यह कहे चले जाना अशिष्ट माना जाता है। साथी इसका उत्तर \"お疲れさまでした\" (आपने मेहनत की) से देते हैं।",
+      "explanation_hi": "कार्यालय छोड़ते समय \"お先に失礼します\" का जवाब \"お疲れさまでした\": सहकर्मी की मेहनत की पहचान। अन्य विकल्प (पहली बार मिलना, खाने के बाद) ग़लत संदर्भ हैं।",
+      "cultural_context": "जापानी कार्यस्थल में \"お先に失礼します\" (पहले निकलने के लिए विनती) कहना अनिवार्य शिष्टाचार है: दूसरों को बता देना कि आप पहले जा रहे हैं। बिना यह कहे चले जाना अशिष्ट माना जाता है। साथी इसका उत्तर \"お疲れさまでした\" (आपने मेहनत की) से देते हैं।",
       "pacing_status": "in_range",
       "voice_variety_status": "rendered",
       "lines": [
@@ -10555,7 +10555,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10656,7 +10656,7 @@
       ],
       "correctAnswer": "ありがとうございます。",
       "explanation_en": "Standard reply when someone congratulates you on your birthday: 'thank you'. 'すみません' apologises; 'いただきます' is said before eating.",
-      "explanation_hi": "जन्मदिन की बधाई पर मानक उत्तर \"ありがとうございます\" (धन्यवाद)। \"すみません\" क्षमा माँगना है, \"いただきます\" खाने से पहले बोलते हैं — ग़लत।",
+      "explanation_hi": "जन्मदिन की बधाई पर मानक उत्तर \"ありがとうございます\" (धन्यवाद)। \"すみません\" क्षमा माँगना है, \"いただきます\" खाने से पहले बोलते हैं: ग़लत।",
       "pacing_status": "in_range",
       "voice_variety_status": "rendered",
       "lines": [
@@ -10723,7 +10723,7 @@
       "ambient_context": "general",
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
-      "cultural_context": "सामान्य N5-स्तरीय बातचीत — कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
+      "cultural_context": "सामान्य N5-स्तरीय बातचीत: कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
       "cultural_context_provenance": "llm_curated",
       "listening_strategy_hints": [
         "Identify the SPEECH ACT of the first utterance: greeting / request / question / offer.",
@@ -10747,7 +10747,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10923,7 +10923,7 @@
       "ambient_context": "station",
       "ambient_context_provenance": "auto_derived",
       "aizuchi_present": false,
-      "cultural_context": "सामान्य N5-स्तरीय बातचीत — कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
+      "cultural_context": "सामान्य N5-स्तरीय बातचीत: कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
       "cultural_context_provenance": "llm_curated",
       "listening_strategy_hints": [
         "Identify the SPEECH ACT of the first utterance: greeting / request / question / offer.",
@@ -10947,7 +10947,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -10957,7 +10957,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -11168,7 +11168,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -11178,7 +11178,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か."
+        "1 question(s): rising intonation expected on か."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -11266,7 +11266,7 @@
       "correctAnswer": "おはようございます。",
       "explanation_en": "Greeting echoes greeting: 'good morning' is met with 'good morning'. 'おやすみなさい' is good-night; 'さようなら' is goodbye.",
       "explanation_hi": "अभिवादन की प्रतिक्रिया अभिवादन ही है: \"おはよう\" → \"おはよう\"। शुभ-रात्रि या अलविदा संदर्भ-विरुद्ध।",
-      "cultural_context": "日本में \"おはようございます\" (विनम्र) कार्यालय में लगभग 11 बजे तक प्रयोग होता है — हिंदी में जैसे दोपहर तक \"नमस्ते\" कह सकते हैं। दिन के बाद \"こんにちは\" शुरू होता है।",
+      "cultural_context": "日本में \"おはようございます\" (विनम्र) कार्यालय में लगभग 11 बजे तक प्रयोग होता है: हिंदी में जैसे दोपहर तक \"नमस्ते\" कह सकते हैं। दिन के बाद \"こんにちは\" शुरू होता है।",
       "pacing_status": "in_range",
       "voice_variety_status": "rendered",
       "lines": [
@@ -11362,7 +11362,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -11455,7 +11455,7 @@
       "correctAnswer": "はい、どうぞ。",
       "explanation_en": "When asked to lend a pen, the natural reply is 'yes, here you go' ('どうぞ' = please take it). 'わかりました' (understood) doesn't fit a request for an object; 'いいえ、けっこうです' (no thank you) refuses.",
       "explanation_hi": "पेन उधार माँगने पर उत्तर: \"はい、どうぞ\" (हाँ, लीजिए)। \"わかりました\" वस्तु के अनुरोध पर फ़िट नहीं; \"けっこうです\" मना करना है।",
-      "cultural_context": "\"どうぞ\" (कृपया, यहाँ है) — जापानी संस्कृति का बहुत महत्वपूर्ण शब्द। केवल वस्तु देते समय ही नहीं, अंदर आने के लिए, बैठने के लिए, खाने के लिए — हर मेहमानवाज़ी संकेत में प्रयोग होता है।",
+      "cultural_context": "\"どうぞ\" (कृपया, यहाँ है): जापानी संस्कृति का बहुत महत्वपूर्ण शब्द। केवल वस्तु देते समय ही नहीं, अंदर आने के लिए, बैठने के लिए, खाने के लिए: हर मेहमानवाज़ी संकेत में प्रयोग होता है।",
       "pacing_status": "in_range",
       "voice_variety_status": "rendered",
       "lines": [
@@ -11551,7 +11551,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -11644,7 +11644,7 @@
       "correctAnswer": "いいえ、だいじょうぶです。",
       "explanation_en": "When someone apologises 'sorry', the gracious reply is 'no, it's fine'. 'おねがいします' (please) is unrelated; 'こちらこそ' (likewise) fits 'thank you' contexts.",
       "explanation_hi": "क्षमा-निवेदन (\"すみませんでした\") का दयालु उत्तर: \"いいえ、だいじょうぶです\" (नहीं, ठीक है)। \"おねがいします\" अनुरोध है; \"こちらこそ\" धन्यवाद के संदर्भ में।",
-      "cultural_context": "जापानी क्षमा-संस्कृति में \"いいえ\" (नहीं) से ज़्यादा महत्वपूर्ण है \"だいじょうぶ\" (ठीक है) जोड़ना। \"इसकी ज़रूरत नहीं थी\" का भाव — हिंदी \"कोई बात नहीं\" के समान।",
+      "cultural_context": "जापानी क्षमा-संस्कृति में \"いいえ\" (नहीं) से ज़्यादा महत्वपूर्ण है \"だいじょうぶ\" (ठीक है) जोड़ना। \"इसकी ज़रूरत नहीं थी\" का भाव: हिंदी \"कोई बात नहीं\" के समान।",
       "pacing_status": "in_range",
       "voice_variety_status": "rendered",
       "lines": [
@@ -11747,7 +11747,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -11919,18 +11919,18 @@
         {
           "category": "sokuon",
           "surface": "がっこう",
-          "note": "sokuon: gakkou (school) — small tsu before voiceless k"
+          "note": "sokuon: gakkou (school), small tsu before voiceless k"
         }
       ],
       "phonological_target_provenance": "auto_derived",
       "pacing_status": "in_range",
       "pacing_status_note": "pacing_morae_per_min not yet measured for this item",
-      "cultural_context": "सामान्य N5-स्तरीय बातचीत — कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
+      "cultural_context": "सामान्य N5-स्तरीय बातचीत: कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
       "cultural_context_provenance": "llm_curated",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -11949,7 +11949,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -11959,8 +11959,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か.",
-        "2 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "1 question(s): rising intonation expected on か.",
+        "2 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -12193,12 +12193,12 @@
       ],
       "pacing_status": "in_range",
       "pacing_status_note": "pacing_morae_per_min not yet measured for this item",
-      "cultural_context": "सामान्य N5-स्तरीय बातचीत — कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
+      "cultural_context": "सामान्य N5-स्तरीय बातचीत: कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
       "cultural_context_provenance": "llm_curated",
       "listening_strategy_hints": [
-        "Pre-read the QUESTION before audio plays — anchor on what to find.",
+        "Pre-read the QUESTION before audio plays: anchor on what to find.",
         "Listen specifically for the requested information; ignore other facts.",
-        "Numbers, times, places are common targets — note them as you hear.",
+        "Numbers, times, places are common targets: note them as you hear.",
         "Common distractor: a number mentioned but rejected. Wait for the FINAL answer."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -12233,7 +12233,7 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 trailing ellipsis — hesitation, pause expected."
+        "1 trailing ellipsis: hesitation, pause expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -12484,12 +12484,12 @@
       ],
       "pacing_status": "in_range",
       "pacing_status_note": "pacing_morae_per_min not yet measured for this item",
-      "cultural_context": "सामान्य N5-स्तरीय बातचीत — कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
+      "cultural_context": "सामान्य N5-स्तरीय बातचीत: कोई विशेष सांस्कृतिक पृष्ठभूमि नहीं।",
       "cultural_context_provenance": "llm_curated",
       "listening_strategy_hints": [
-        "Listen for the SPEAKER'S TASK — what action will they take.",
+        "Listen for the SPEAKER'S TASK: what action will they take.",
         "Note imperative or volitional markers (てください, ましょう, つもりです).",
-        "The CORRECT answer is what the speaker decides AT THE END — not first proposals.",
+        "The CORRECT answer is what the speaker decides AT THE END, not first proposals.",
         "Watch for change-of-mind cues: でも / じゃ / そうですか."
       ],
       "listening_strategy_hints_provenance": "llm_curated",
@@ -12508,7 +12508,7 @@
       "register_signal_l_provenance": "auto_derived",
       "distractor_pattern_hint": {
         "pattern": "semantic_contrast",
-        "note": "Choices represent semantically different options — comprehension matters more than aural distinction."
+        "note": "Choices represent semantically different options: comprehension matters more than aural distinction."
       },
       "distractor_pattern_hint_provenance": "auto_derived",
       "speaker_demographics": {
@@ -12518,8 +12518,8 @@
       },
       "speaker_demographics_provenance": "auto_derived",
       "prosody_hints": [
-        "1 question(s) — rising intonation expected on か.",
-        "1 sentence-final ね — confirmation-seeking, soft rise+fall expected."
+        "1 question(s): rising intonation expected on か.",
+        "1 sentence-final ね: confirmation-seeking, soft rise+fall expected."
       ],
       "prosody_hints_provenance": "auto_derived",
       "time_target_seconds": {
@@ -12729,7 +12729,7 @@
       }
     },
     "transcript_alignment": {
-      "note": "IMP-090 + IMP-105 round-9 fix (2026-05-06): transcript line timestamps populated programmatically from audio duration (mutagen) + per-line character counts. Approximation only — kanji counted as 2 morae; speaker labels stripped before timing. Accurate to ~80% at line boundaries; sufficient for line-level karaoke highlighting. Word-level alignment would require a forced-aligner (whisper-timestamped, aeneas) — deferred to a separate cycle.",
+      "note": "IMP-090 + IMP-105 round-9 fix (2026-05-06): transcript line timestamps populated programmatically from audio duration (mutagen) + per-line character counts. Approximation only: kanji counted as 2 morae; speaker labels stripped before timing. Accurate to ~80% at line boundaries; sufficient for line-level karaoke highlighting. Word-level alignment would require a forced-aligner (whisper-timestamped, aeneas): deferred to a separate cycle.",
       "method": "Proportional distribution: line[i].startMs = cumulative_speakable_chars_before_i / total_speakable_chars * dur_ms",
       "coverage": {
         "multi_line_aligned": 27,
@@ -12740,7 +12740,7 @@
     },
     "voice_variety_plan": {
       "status": "completed_2026_05_12",
-      "note": "BUG-052/053 fix 2026-05-17 — VOICEVOX migration COMPLETED on 2026-05-12 (per audio_render_meta.rendered_at on all 50 items). 6 distinct VOICEVOX speakers observed in production vs the 8 target; see voicevox_speaker_catalog below for the *corrected* speaker_id → character mappings (the prior catalog had wrong character names: ID 8 was labeled 'hau-tsumugi' but is actually 春日部つむぎ; ID 11 was 'shirakami-kotaro' but is actually 玄野武宏; ID 13 was filed under '12' as 'aoyama-ryusei' but the correct ID is 13).",
+      "note": "BUG-052/053 fix 2026-05-17: VOICEVOX migration COMPLETED on 2026-05-12 (per audio_render_meta.rendered_at on all 50 items). 6 distinct VOICEVOX speakers observed in production vs the 8 target; see voicevox_speaker_catalog below for the *corrected* speaker_id → character mappings (the prior catalog had wrong character names: ID 8 was labeled 'hau-tsumugi' but is actually 春日部つむぎ; ID 11 was 'shirakami-kotaro' but is actually 玄野武宏; ID 13 was filed under '12' as 'aoyama-ryusei' but the correct ID is 13).",
       "target_voices": 8,
       "observed_distinct_voices": 6,
       "target_dialogue_voices_per_item": 2,
@@ -12829,7 +12829,7 @@
       ],
       "voice_count": 4,
       "plan_authored_by": "tools/fix_issue_062_voice_variety_2026_05_07.py",
-      "render_step": "Run python tools/build_audio_voicevox.py --provider edge-tts on a machine with network access to speech.platform.bing.com to render the MP3s per voice_planned. Idempotent — only re-renders items whose voice_planned changed.",
+      "render_step": "Run python tools/build_audio_voicevox.py --provider edge-tts on a machine with network access to speech.platform.bing.com to render the MP3s per voice_planned. Idempotent: only re-renders items whose voice_planned changed.",
       "render_status": "pending_user_machine_execution",
       "superseded_by": "voice_variety_plan (2026-05-12 VOICEVOX render)",
       "superseded_at": "2026-05-17"
@@ -12839,7 +12839,7 @@
       "bug": "BUG-049",
       "status": "fixed_2026_05_17",
       "filed": "2026-05-17",
-      "issue": "Pacing systematically too slow: 26/50 items below the JLPT N5 target band of 180-240 mora/min. Mean observed = 160.2 mpm; some items (e.g. n5.listen.012) around 38 mpm — roughly 5× slower than exam pace.",
+      "issue": "Pacing systematically too slow: 26/50 items below the JLPT N5 target band of 180-240 mora/min. Mean observed = 160.2 mpm; some items (e.g. n5.listen.012) around 38 mpm: roughly 5× slower than exam pace.",
       "fix_action_required": "Re-render the 26 too-slow items at audio_render_meta.speed_scale ~1.3 (currently 1.0 by default). VOICEVOX must be running locally; ~30 min budget.",
       "current_distribution": {
         "in_range": 50,
@@ -12853,7 +12853,7 @@
         180,
         240
       ],
-      "last_action": "2026-05-17 — re-measured all 50 items + applied ffmpeg atempo speedup",
+      "last_action": "2026-05-17: re-measured all 50 items + applied ffmpeg atempo speedup",
       "resolution": "All items in JLPT N5 target band 180-240 mpm after re-measure + ffmpeg atempo."
     },
     "phase2_voicevox_rerender_2026_05_17": {

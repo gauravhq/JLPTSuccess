@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JLPT N5 Tutor — Home</title>
+<title>JLPT N5 Tutor: Home</title>
 <meta name="description" content="Browser-based static web app for JLPT N5: grammar, vocab, kanji, reading, and listening. No server. No accounts. No third-party scripts.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://gauravaccentureproducts.github.io/JLPTSuccess/N5/#/home">
 
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://gauravaccentureproducts.github.io/JLPTSuccess/N5/#/home">
-<meta property="og:title" content="JLPT N5 Tutor — Home">
+<meta property="og:title" content="JLPT N5 Tutor: Home">
 <meta property="og:description" content="Browser-based static web app for JLPT N5: grammar, vocab, kanji, reading, and listening. No server. No accounts. No third-party scripts.">
 <meta property="og:site_name" content="JLPT N5 Tutor">
 <meta property="og:image" content="https://gauravaccentureproducts.github.io/JLPTSuccess/N5/icons/icon-512.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JLPT N5 Tutor — Home">
+<meta name="twitter:title" content="JLPT N5 Tutor: Home">
 <meta name="twitter:description" content="Browser-based static web app for JLPT N5: grammar, vocab, kanji, reading, and listening. No server. No accounts. No third-party scripts.">
 <style>
   :root { --green: #14452a; --green-soft: #1a5c38; --bg: #ffffff; --bg-soft: #f6f8f6; --text: #1a1a1a; --muted: #555; --border: #ddd; }
@@ -36,7 +36,7 @@
   .ex .en { color: var(--muted); font-size: 0.93em; margin-top: 0.2em; }
   .wrong { color: #a33; }
   .right { color: var(--green-soft); }
-  /* BUG-011: register-variant entries — neutral framing (no strike/check) */
+  /* BUG-011: register-variant entries, neutral framing (no strike/check) */
   .variant-pair { border-left-color: #a66a1f; }
   .variant-row { display: flex; align-items: baseline; gap: 0.5em; margin: 0.2em 0; }
   .variant-label { display: inline-block; background: #f7efe0; color: #a66a1f; border-radius: 3px; padding: 1px 6px; font-size: 0.78em; font-weight: 500; white-space: nowrap; flex-shrink: 0; }
@@ -103,7 +103,7 @@
 <p>Browser-based static web app for studying JLPT N5: grammar, vocabulary, kanji, reading, and listening. <strong>No server. No accounts. No third-party scripts.</strong> Author-side build tools (Python) live under <code>/tools/</code>; the learner runs only the browser.</p>
 <h2>Documentation</h2>
 <p>ISSUE-047 (audit round-5): the docs live in this directory. Quick map:</p>
-<p>| Doc | Purpose | |---|---| | <a href="specifications/JLPT-N5-Current-Implementation-Spec.md"><code>specifications/JLPT-N5-Current-Implementation-Spec.md</code></a> | The authoritative living spec — what the app actually does today (<strong>v1.12.50</strong>). | | <a href="CHANGELOG.md"><code>CHANGELOG.md</code></a> | User-visible release notes (currently at <strong>v1.12.50</strong>, post round-9). | | <a href="AUDIO.md"><code>AUDIO.md</code></a> | Audio pipeline (multi-provider auto-fallback: VOICEVOX → edge-tts → gtts). | | <a href="docs/SELF-HOST.md"><code>docs/SELF-HOST.md</code></a> / <a href="docs/SELF-HOST.hi.md"><code>docs/SELF-HOST.hi.md</code></a> | Fork → brand → deploy guide for institutional / school adopters (niche N3). | | <a href="docs/TRANSLATING.md"><code>docs/TRANSLATING.md</code></a> | Translator-contributor on-ramp for Hindi (niche N1; corpus-wide Hindi review <strong>complete</strong> at LLM-persona-Q33 quality bar — see CHANGELOG v1.12.40-50). | | <a href="docs/NATIVE-AUDIO-WORKFLOW.md"><code>docs/NATIVE-AUDIO-WORKFLOW.md</code></a> | How to swap synthesized audio for native-speaker recordings. | | <a href="docs/UNIFIED-REVIEW-QUEUE-DESIGN.md"><code>docs/UNIFIED-REVIEW-QUEUE-DESIGN.md</code></a> | Cross-skill FSRS-4.5 review queue design (round-9 IMP-092). | | <a href="prompts/N5Improvement.txt"><code>prompts/N5Improvement.txt</code></a> | Audit-only prompt that drives every audit round. Canonical strategic positioning + anti-items list. | | <a href="feedback/n5-audit-2026-05-04.xlsx"><code>feedback/n5-audit-2026-05-04.xlsx</code></a> | Cumulative audit tracker (rounds 1-9). <strong>219 Done / 3 Avoid / 0 Open / 0 Open Questions.</strong> | | <a href="feedback/audit-round9-2026-05-06.md"><code>feedback/audit-round9-2026-05-06.md</code></a> | Round-9 audit report (Sections 0-7, 27 findings registered). Historical snapshot. | | <a href="PRIVACY.md"><code>PRIVACY.md</code></a> | Privacy contract — no telemetry, no third-party scripts, no PII. | | <a href="CONTENT-LICENSE.md"><code>CONTENT-LICENSE.md</code></a> | CC BY-SA 4.0 for the educational content corpus. | | <a href="NOTICES.md"><code>NOTICES.md</code></a> | Third-party content attributions (KanjiVG, Inter, Noto Sans JP, <strong>VOICEVOX speakers</strong>). | | <a href="../LICENSE"><code>../LICENSE</code></a> | MIT for the source code. | | <a href="../CONTRIBUTING.md"><code>../CONTRIBUTING.md</code></a> | Contribution workflow + anti-features list. |</p>
+<p>| Doc | Purpose | |---|---| | <a href="specifications/JLPT-N5-Current-Implementation-Spec.md"><code>specifications/JLPT-N5-Current-Implementation-Spec.md</code></a> | The authoritative living spec: what the app actually does today (<strong>v1.12.50</strong>). | | <a href="CHANGELOG.md"><code>CHANGELOG.md</code></a> | User-visible release notes (currently at <strong>v1.12.50</strong>, post round-9). | | <a href="AUDIO.md"><code>AUDIO.md</code></a> | Audio pipeline (multi-provider auto-fallback: VOICEVOX → edge-tts → gtts). | | <a href="docs/SELF-HOST.md"><code>docs/SELF-HOST.md</code></a> / <a href="docs/SELF-HOST.hi.md"><code>docs/SELF-HOST.hi.md</code></a> | Fork → brand → deploy guide for institutional / school adopters (niche N3). | | <a href="docs/TRANSLATING.md"><code>docs/TRANSLATING.md</code></a> | Translator-contributor on-ramp for Hindi (niche N1; corpus-wide Hindi review <strong>complete</strong> at LLM-persona-Q33 quality bar: see CHANGELOG v1.12.40-50). | | <a href="docs/NATIVE-AUDIO-WORKFLOW.md"><code>docs/NATIVE-AUDIO-WORKFLOW.md</code></a> | How to swap synthesized audio for native-speaker recordings. | | <a href="docs/UNIFIED-REVIEW-QUEUE-DESIGN.md"><code>docs/UNIFIED-REVIEW-QUEUE-DESIGN.md</code></a> | Cross-skill FSRS-4.5 review queue design (round-9 IMP-092). | | <a href="prompts/N5Improvement.txt"><code>prompts/N5Improvement.txt</code></a> | Audit-only prompt that drives every audit round. Canonical strategic positioning + anti-items list. | | <a href="feedback/n5-audit-2026-05-04.xlsx"><code>feedback/n5-audit-2026-05-04.xlsx</code></a> | Cumulative audit tracker (rounds 1-9). <strong>219 Done / 3 Avoid / 0 Open / 0 Open Questions.</strong> | | <a href="feedback/audit-round9-2026-05-06.md"><code>feedback/audit-round9-2026-05-06.md</code></a> | Round-9 audit report (Sections 0-7, 27 findings registered). Historical snapshot. | | <a href="PRIVACY.md"><code>PRIVACY.md</code></a> | Privacy contract: no telemetry, no third-party scripts, no PII. | | <a href="CONTENT-LICENSE.md"><code>CONTENT-LICENSE.md</code></a> | CC BY-SA 4.0 for the educational content corpus. | | <a href="NOTICES.md"><code>NOTICES.md</code></a> | Third-party content attributions (KanjiVG, Inter, Noto Sans JP, <strong>VOICEVOX speakers</strong>). | | <a href="../LICENSE"><code>../LICENSE</code></a> | MIT for the source code. | | <a href="../CONTRIBUTING.md"><code>../CONTRIBUTING.md</code></a> | Contribution workflow + anti-features list. |</p>
 <h2>Storage (privacy)</h2>
 <p>All learner state lives in browser <strong>localStorage</strong> under the namespace <code>jlpt-n5-tutor:*</code> (e.g. <code>jlpt-n5-tutor:settings</code>, <code>jlpt-n5-tutor:history</code>). No cookies, no IndexedDB, no third-party scripts, no remote API calls. The only writable storage is the user&#x27;s own browser. To audit, open DevTools → Application → Storage → Local Storage. The CI invariant <strong>JA-37</strong> enforces that <code>js/storage.js</code> and <code>PRIVACY.md</code> agree on the namespace; doc-vs-code drift fails the release gate.</p>
 <h2>Run locally</h2>
@@ -167,7 +167,7 @@ specifications/JLPT-N5-Current-Implementation-Spec.md   canonical functional + i
 <ol>
 <li>Edit rich content directly in the JSON files (single source of truth):</li>
 </ol>
-<p>- <code>data/grammar.json</code> (178 patterns) - <code>data/vocab.json</code> (995 entries — post-BUG-018/019/024 dedup 2026-05-16/17) - <code>data/kanji.json</code> (106 entries) - <code>data/reading.json</code> / <code>data/listening.json</code> / <code>data/questions.json</code> - <code>data/papers/{moji,goi,bunpou,dokkai}/*.json</code> (paper questions)</p>
+<p>- <code>data/grammar.json</code> (178 patterns) - <code>data/vocab.json</code> (995 entries: post-BUG-018/019/024 dedup 2026-05-16/17) - <code>data/kanji.json</code> (106 entries) - <code>data/reading.json</code> / <code>data/listening.json</code> / <code>data/questions.json</code> - <code>data/papers/{moji,goi,bunpou,dokkai}/*.json</code> (paper questions)</p>
 <ol>
 <li>Edit scope whitelists in <code>data/n5_*_whitelist.json</code> if adding to N5 scope.</li>
 <li>Edit <code>docs/N5-syllabus-methodology.md</code> if changing methodology, source citations, or authoring conventions.</li>

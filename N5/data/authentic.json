@@ -15,7 +15,7 @@
       "weather"
     ],
     "review_status": "native_reviewed",
-    "license": "Same as the rest of this project's content (CC BY-SA 4.0). Items are paraphrases / typical phrasings of public-space Japanese — no specific establishment trademark or proprietary signage is reproduced.",
+    "license": "Same as the rest of this project's content (CC BY-SA 4.0). Items are paraphrases / typical phrasings of public-space Japanese: no specific establishment trademark or proprietary signage is reproduced.",
     "review_status_note": "review_status='ai_quality_reviewed' means: Claude (LLM) applied a native-reviewer persona during corpus authoring. Not equivalent to review by a human native Japanese teacher. See review_status_provenance for the specific signal. A future human-native review pass is queued; BUG-012 fix renames the field from 'native_reviewed' to make the AI origin visible at the point of use."
   },
   "items": [
@@ -97,8 +97,8 @@
       "category": "menu",
       "ja": "ごちそうさまでした",
       "reading": "ごちそうさまでした",
-      "gloss_en": "(said after eating) — thank you for the meal",
-      "gloss_hi": "(खाने के बाद) — आहार के लिए धन्यवाद",
+      "gloss_en": "(said after eating): thank you for the meal",
+      "gloss_hi": "(खाने के बाद): आहार के लिए धन्यवाद",
       "context": "Closing ritual for a meal; pairs with いただきます.",
       "context_hi": "भोजन की समापन रस्म; いただきます के साथ जोड़ी।",
       "review_status": "ai_quality_reviewed",
@@ -115,8 +115,8 @@
       "reading": "ごちゅうもんは",
       "gloss_en": "(May I take) your order?",
       "gloss_hi": "क्या मैं आपका ऑर्डर ले लूँ?",
-      "context": "Server question — opens the order-taking interaction.",
-      "context_hi": "वेटर का प्रश्न — ऑर्डर-लेने की शुरुआत।",
+      "context": "Server question: opens the order-taking interaction.",
+      "context_hi": "वेटर का प्रश्न: ऑर्डर-लेने की शुरुआत।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -127,8 +127,8 @@
       "reading": "ごはん おかわり できます",
       "gloss_en": "Free rice refills available",
       "gloss_hi": "चावल का मुफ़्त रीफ़िल उपलब्ध",
-      "context": "Restaurant sign — frequent at teishoku-style places.",
-      "context_hi": "रेस्तराँ संकेत — टेइशोकू-शैली में बार-बार।",
+      "context": "Restaurant sign: frequent at teishoku-style places.",
+      "context_hi": "रेस्तराँ संकेत: टेइशोकू-शैली में बार-बार।",
       "review_status": "ai_quality_reviewed",
       "vocab_refs": [
         "n5.vocab.16-food-and-drink-genera.ごはん"
@@ -161,8 +161,8 @@
       "category": "menu",
       "ja": "いただきます",
       "reading": "いただきます",
-      "gloss_en": "(said before eating) — let's eat / thank you for the meal",
-      "gloss_hi": "(खाना शुरू करने से पहले) — खाना शुरू करें / आहार के लिए धन्यवाद",
+      "gloss_en": "(said before eating): let's eat / thank you for the meal",
+      "gloss_hi": "(खाना शुरू करने से पहले): खाना शुरू करें / आहार के लिए धन्यवाद",
       "context": "Said before every meal in Japan; cultural staple.",
       "context_hi": "जापान में हर भोजन से पहले कहा जाता है; सांस्कृतिक रिवाज।",
       "review_status": "ai_quality_reviewed",
@@ -177,8 +177,8 @@
       "category": "menu",
       "ja": "コーヒー 350円",
       "reading": "コーヒー さんびゃくごじゅうえん",
-      "gloss_en": "Coffee — 350 yen",
-      "gloss_hi": "कॉफ़ी — 350 येन",
+      "gloss_en": "Coffee: 350 yen",
+      "gloss_hi": "कॉफ़ी: 350 येन",
       "context": "Café drink list.",
       "context_hi": "कैफ़े के पेय की सूची।",
       "review_status": "ai_quality_reviewed",
@@ -241,8 +241,8 @@
       "category": "menu",
       "ja": "おちゃ 200円",
       "reading": "おちゃ にひゃくえん",
-      "gloss_en": "Tea — 200 yen",
-      "gloss_hi": "चाय — 200 येन",
+      "gloss_en": "Tea: 200 yen",
+      "gloss_hi": "चाय: 200 येन",
       "context": "Drink listed with price on a menu / vending machine.",
       "context_hi": "मेन्यू / वेंडिंग मशीन पर पेय और मूल्य।",
       "review_status": "ai_quality_reviewed",
@@ -264,7 +264,7 @@
       "gloss_en": "Refill / Another helping",
       "gloss_hi": "रीफ़िल / एक और हिस्सा",
       "context": "Free-refill option common with rice or tea at teishoku shops.",
-      "context_hi": "चावल या चाय पर मुफ़्त रीफ़िल — टेइशोकू दुकानों में सामान्य।",
+      "context_hi": "चावल या चाय पर मुफ़्त रीफ़िल: टेइशोकू दुकानों में सामान्य।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -331,8 +331,8 @@
       "reading": "おもちかえり",
       "gloss_en": "Take out / Take away",
       "gloss_hi": "घर ले जाने के लिए",
-      "context": "Counter question: \"Eat in or take out?\" — the takeout option.",
-      "context_hi": "काउंटर पर: \"यहाँ खाएँगे या ले जाएँगे?\" — ले जाने का विकल्प।",
+      "context": "Counter question: \"Eat in or take out?\", the takeout option.",
+      "context_hi": "काउंटर पर: \"यहाँ खाएँगे या ले जाएँगे?\", ले जाने का विकल्प।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -344,7 +344,7 @@
       "gloss_en": "Eat in / Dine in",
       "gloss_hi": "दुकान में बैठकर खाने के लिए",
       "context": "The \"eat in\" counterpart to おもちかえり.",
-      "context_hi": "おもちかえり का विपरीत — दुकान में खाना।",
+      "context_hi": "おもちかえり का विपरीत: दुकान में खाना।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -379,8 +379,8 @@
       "reading": "ちゅうい",
       "gloss_en": "Caution",
       "gloss_hi": "सावधान",
-      "context": "Yellow warning sign — generic caution notice.",
-      "context_hi": "पीला चेतावनी बोर्ड — सामान्य सावधानी सूचना।",
+      "context": "Yellow warning sign: generic caution notice.",
+      "context_hi": "पीला चेतावनी बोर्ड: सामान्य सावधानी सूचना।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -419,8 +419,8 @@
       "reading": "きけん",
       "gloss_en": "Danger",
       "gloss_hi": "ख़तरा",
-      "context": "Red sign — strong warning (high voltage, drop, etc.).",
-      "context_hi": "लाल बोर्ड — उच्च चेतावनी (विद्युत, गिरना, आदि)।",
+      "context": "Red sign: strong warning (high voltage, drop, etc.).",
+      "context_hi": "लाल बोर्ड: उच्च चेतावनी (विद्युत, गिरना, आदि)।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -455,8 +455,8 @@
       "reading": "しゃしんを とらないで ください",
       "gloss_en": "Please do not take photos",
       "gloss_hi": "कृपया फ़ोटो न लें",
-      "context": "Museum, shrine, or shop request — uses N5 〜ないで ください form.",
-      "context_hi": "संग्रहालय, मंदिर या दुकान में अनुरोध — N5 〜ないで ください रूप का प्रयोग।",
+      "context": "Museum, shrine, or shop request: uses N5 〜ないで ください form.",
+      "context_hi": "संग्रहालय, मंदिर या दुकान में अनुरोध: N5 〜ないで ください रूप का प्रयोग।",
       "review_status": "ai_quality_reviewed",
       "vocab_refs": [
         "n5.vocab.24-school-and-study.しゃしん"
@@ -597,10 +597,10 @@
       "category": "shop",
       "ja": "ありがとうございました",
       "reading": "ありがとうございました",
-      "gloss_en": "Thank you (past polite — closing)",
+      "gloss_en": "Thank you (past polite: closing)",
       "gloss_hi": "धन्यवाद (विदाई पर)",
-      "context": "Spoken when a customer leaves — past tense.",
-      "context_hi": "ग्राहक के जाते समय — भूतकाल।",
+      "context": "Spoken when a customer leaves: past tense.",
+      "context_hi": "ग्राहक के जाते समय: भूतकाल।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -653,8 +653,8 @@
       "category": "shop",
       "ja": "いらっしゃいませ",
       "reading": "いらっしゃいませ",
-      "gloss_en": "Welcome (to our store) — ritual greeting",
-      "gloss_hi": "(दुकान में) स्वागत — पारंपरिक अभिवादन",
+      "gloss_en": "Welcome (to our store): ritual greeting",
+      "gloss_hi": "(दुकान में) स्वागत: पारंपरिक अभिवादन",
       "context": "Spoken every time a customer enters; not actually expected to be replied to.",
       "context_hi": "हर ग्राहक के प्रवेश पर कहा जाता है; उत्तर अपेक्षित नहीं।",
       "review_status": "ai_quality_reviewed",
@@ -748,8 +748,8 @@
       "reading": "おつり",
       "gloss_en": "Change (money returned)",
       "gloss_hi": "बाक़ी (वापस की गई राशि)",
-      "context": "「おつりです」 — handed back at register with the receipt.",
-      "context_hi": "「おつりです」 — रसीद के साथ काउंटर पर लौटाया जाता।",
+      "context": "「おつりです」: handed back at register with the receipt.",
+      "context_hi": "「おつりです」: रसीद के साथ काउंटर पर लौटाया जाता।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -809,7 +809,7 @@
       "gloss_en": "Open / In business",
       "gloss_hi": "खुला / कारोबार जारी",
       "context": "Shop-front board. 営業中 in real signage, but 営業 is N4-level so kana is safer.",
-      "context_hi": "दुकान के बोर्ड पर। असली में 営業中, पर 営業 N4 है — कana सुरक्षित।",
+      "context_hi": "दुकान के बोर्ड पर। असली में 営業中, पर 営業 N4 है: कana सुरक्षित।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -890,8 +890,8 @@
       "reading": "ひだり",
       "gloss_en": "Left",
       "gloss_hi": "बाएँ",
-      "context": "Direction sign — turn-left indicator.",
-      "context_hi": "दिशा-संकेत — बाएँ-मोड़ चिह्न।",
+      "context": "Direction sign: turn-left indicator.",
+      "context_hi": "दिशा-संकेत: बाएँ-मोड़ चिह्न।",
       "review_status": "ai_quality_reviewed",
       "vocab_refs": [
         "n5.vocab.13-locations-and-places-.左"
@@ -910,8 +910,8 @@
       "reading": "みぎ",
       "gloss_en": "Right",
       "gloss_hi": "दाएँ",
-      "context": "Direction sign — turn-right indicator on stations and roads.",
-      "context_hi": "दिशा-संकेत — स्टेशन और सड़कों पर दाएँ-मोड़ चिह्न।",
+      "context": "Direction sign: turn-right indicator on stations and roads.",
+      "context_hi": "दिशा-संकेत: स्टेशन और सड़कों पर दाएँ-मोड़ चिह्न।",
       "review_status": "ai_quality_reviewed",
       "vocab_refs": [
         "n5.vocab.13-locations-and-places-.右"
@@ -1215,8 +1215,8 @@
       "reading": "みなみでぐち",
       "gloss_en": "South exit",
       "gloss_hi": "दक्षिणी निकास-द्वार",
-      "context": "Pair of きた出口 (north exit) — direction-labelled station exits.",
-      "context_hi": "きた出口 (उत्तरी निकास) का जोड़ा — दिशा-लेबल वाला स्टेशन निकास।",
+      "context": "Pair of きた出口 (north exit): direction-labelled station exits.",
+      "context_hi": "きた出口 (उत्तरी निकास) का जोड़ा: दिशा-लेबल वाला स्टेशन निकास।",
       "review_status": "ai_quality_reviewed",
       "kanji_refs": [
         "n5.kanji.出",
@@ -1476,8 +1476,8 @@
       "reading": "きおん",
       "gloss_en": "Temperature",
       "gloss_hi": "तापमान",
-      "context": "Forecast: 「きおん 25ど」 — temperature 25 degrees.",
-      "context_hi": "पूर्वानुमान: 「きおん 25ど」 — तापमान 25 डिग्री।",
+      "context": "Forecast: 「きおん 25ど」, temperature 25 degrees.",
+      "context_hi": "पूर्वानुमान: 「きおん 25ど」, तापमान 25 डिग्री।",
       "review_status": "ai_quality_reviewed",
       "review_status_provenance": "claude_native_reviewer_persona"
     },
@@ -1546,7 +1546,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "ट्रांज़िट साइनेज पर दिशा-लेबल — स्टेशन के अंदर की दुकानों / सुविधाओं को इंगित करता है (कियोस्क, सैलून, अंडरग्राउंड कैफ़े)।"
+      "context_hi": "ट्रांज़िट साइनेज पर दिशा-लेबल: स्टेशन के अंदर की दुकानों / सुविधाओं को इंगित करता है (कियोस्क, सैलून, अंडरग्राउंड कैफ़े)।"
     },
     {
       "id": "auth.transit.kita-eki",
@@ -1607,7 +1607,7 @@
       "reading": "がっこう",
       "gloss_en": "School",
       "gloss_hi": "विद्यालय",
-      "context": "Generic school signage — common on school-zone road signs and on the front gate of any educational facility.",
+      "context": "Generic school signage: common on school-zone road signs and on the front gate of any educational facility.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.学",
@@ -1615,7 +1615,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "सामान्य स्कूल साइनेज — स्कूल-ज़ोन रोड-संकेतों और किसी भी शैक्षिक संस्थान के सामने गेट पर देखा जाता है।"
+      "context_hi": "सामान्य स्कूल साइनेज: स्कूल-ज़ोन रोड-संकेतों और किसी भी शैक्षिक संस्थान के सामने गेट पर देखा जाता है।"
     },
     {
       "id": "auth.signs.kaisha",
@@ -1624,7 +1624,7 @@
       "reading": "かいしゃ",
       "gloss_en": "Company / office",
       "gloss_hi": "कंपनी",
-      "context": "Generic company-building label — common suffix on corporate signage (○○会社) and in office-park directories.",
+      "context": "Generic company-building label: common suffix on corporate signage (○○会社) and in office-park directories.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.会",
@@ -1632,7 +1632,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "सामान्य कंपनी-भवन लेबल — कॉर्पोरेट साइनेज पर सामान्य प्रत्यय (○○会社) और ऑफ़िस-पार्क डायरेक्ट्रियों में।"
+      "context_hi": "सामान्य कंपनी-भवन लेबल: कॉर्पोरेट साइनेज पर सामान्य प्रत्यय (○○会社) और ऑफ़िस-पार्क डायरेक्ट्रियों में।"
     },
     {
       "id": "auth.signs.honten",
@@ -1658,14 +1658,14 @@
       "reading": "ほんや",
       "gloss_en": "Bookstore",
       "gloss_hi": "किताबों की दुकान",
-      "context": "Bookstore signage — small independent shops often write 本や rather than the kanji-only 本屋 (屋 is N4). The kana 'や' is common in shop names.",
+      "context": "Bookstore signage: small independent shops often write 本や rather than the kanji-only 本屋 (屋 is N4). The kana 'や' is common in shop names.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.本"
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "किताबों की दुकान का साइनेज — छोटी स्वतंत्र दुकानें अक्सर 本屋 की बजाय 本や (कांजी + हीरागाना) लिखती हैं।"
+      "context_hi": "किताबों की दुकान का साइनेज: छोटी स्वतंत्र दुकानें अक्सर 本屋 की बजाय 本や (कांजी + हीरागाना) लिखती हैं।"
     },
     {
       "id": "auth.shop.furuhonya",
@@ -1707,7 +1707,7 @@
       "reading": "やまみち",
       "gloss_en": "Mountain trail",
       "gloss_hi": "पहाड़ी रास्ता",
-      "context": "Hiking-trail signage in mountain parks — wooden post markers with carved 山道 indicating a footpath.",
+      "context": "Hiking-trail signage in mountain parks: wooden post markers with carved 山道 indicating a footpath.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.山",
@@ -1715,7 +1715,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "पहाड़ी पार्कों में पर्वत-पथ साइनेज — लकड़ी की खूँटियों पर 山道 अंकित होता है, जो पैदल-यात्रा का पथ दर्शाता है।"
+      "context_hi": "पहाड़ी पार्कों में पर्वत-पथ साइनेज: लकड़ी की खूँटियों पर 山道 अंकित होता है, जो पैदल-यात्रा का पथ दर्शाता है।"
     },
     {
       "id": "auth.signs.kawa",
@@ -1782,7 +1782,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "रेस्तरां-बोर्ड का उपसर्ग — दैनिक विशेष व्यंजनों के लिए (今日のおすすめ = आज की सिफ़ारिश)। समाचार-पत्रों के शीर्षकों में भी।"
+      "context_hi": "रेस्तरां-बोर्ड का उपसर्ग: दैनिक विशेष व्यंजनों के लिए (今日のおすすめ = आज की सिफ़ारिश)। समाचार-पत्रों के शीर्षकों में भी।"
     },
     {
       "id": "auth.signs.mainichi",
@@ -1815,7 +1815,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "हस्तलिखित मेनू-बोर्ड या डिस्काउंट-शॉप लेबल पर मूल्य-विशेषण — महँगा का संकेत। 安い का विपरीत।"
+      "context_hi": "हस्तलिखित मेनू-बोर्ड या डिस्काउंट-शॉप लेबल पर मूल्य-विशेषण: महँगा का संकेत। 安い का विपरीत।"
     },
     {
       "id": "auth.menu.yasui",
@@ -1831,7 +1831,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave1-2026-05-12",
-      "context_hi": "हस्तलिखित मेनू-बोर्ड और डिस्काउंट-शॉप बैनरों पर मूल्य-विशेषण (安い! 100円!) — सस्ता का संकेत।"
+      "context_hi": "हस्तलिखित मेनू-बोर्ड और डिस्काउंट-शॉप बैनरों पर मूल्य-विशेषण (安い! 100円!): सस्ता का संकेत।"
     },
     {
       "id": "auth.signs.onamae",
@@ -1898,7 +1898,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "100-येन दुकानों के बैनरों और सस्ते बिन-लेबलों (100円) पर मूल्य-अंकन — जापान में सर्वव्यापी।"
+      "context_hi": "100-येन दुकानों के बैनरों और सस्ते बिन-लेबलों (100円) पर मूल्य-अंकन: जापान में सर्वव्यापी।"
     },
     {
       "id": "auth.menu.sen-en",
@@ -1924,7 +1924,7 @@
       "reading": "いちまんえん",
       "gloss_en": "10,000 yen",
       "gloss_hi": "10,000 येन",
-      "context": "Major-purchase denomination — the largest single Japanese banknote. Seen on cash-deposit ATM screens and high-tier menu/sake-bottle prices.",
+      "context": "Major-purchase denomination: the largest single Japanese banknote. Seen on cash-deposit ATM screens and high-tier menu/sake-bottle prices.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.一",
@@ -1933,7 +1933,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "बड़े-खर्च मूल्यवर्ग — सबसे बड़ा एकल जापानी नोट। ATM जमा-स्क्रीन और वेतन-गणना दस्तावेज़ों पर।"
+      "context_hi": "बड़े-खर्च मूल्यवर्ग: सबसे बड़ा एकल जापानी नोट। ATM जमा-स्क्रीन और वेतन-गणना दस्तावेज़ों पर।"
     },
     {
       "id": "auth.menu.ichi-ninmae",
@@ -1942,7 +1942,7 @@
       "reading": "いちにんまえ",
       "gloss_en": "One serving",
       "gloss_hi": "एक हिस्सा",
-      "context": "Menu-board quantity label — '1 portion for 1 person'. Often paired with prices (一人前 1,200円) for set meals.",
+      "context": "Menu-board quantity label: '1 portion for 1 person'. Often paired with prices (一人前 1,200円) for set meals.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.一",
@@ -1951,7 +1951,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "मेनू-बोर्ड पर मात्रा-लेबल — '1 व्यक्ति के लिए 1 हिस्सा'। अक्सर मूल्य के साथ (一人前 1,200円)।"
+      "context_hi": "मेनू-बोर्ड पर मात्रा-लेबल: '1 व्यक्ति के लिए 1 हिस्सा'। अक्सर मूल्य के साथ (一人前 1,200円)।"
     },
     {
       "id": "auth.menu.san-ninmae",
@@ -1960,7 +1960,7 @@
       "reading": "さんにんまえ",
       "gloss_en": "Three servings",
       "gloss_hi": "तीन हिस्से",
-      "context": "Family-size or shareable-portion label — common on takeout-bento promotional banners (三人前 2,800円).",
+      "context": "Family-size or shareable-portion label: common on takeout-bento promotional banners (三人前 2,800円).",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.三",
@@ -1969,7 +1969,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "परिवार-आकार / साझा-हिस्सा लेबल — टेकआउट-बेंतो प्रचार बैनरों पर आम (三人前 = 3 हिस्से)।"
+      "context_hi": "परिवार-आकार / साझा-हिस्सा लेबल: टेकआउट-बेंतो प्रचार बैनरों पर आम (三人前 = 3 हिस्से)।"
     },
     {
       "id": "auth.signs.ichi-getsu",
@@ -1995,7 +1995,7 @@
       "reading": "しがつ",
       "gloss_en": "April",
       "gloss_hi": "अप्रैल",
-      "context": "April marks the start of the Japanese fiscal/school year — 4月 banners on new-employee welcome signs, school-entrance ceremonies, cherry-blossom-season menus.",
+      "context": "April marks the start of the Japanese fiscal/school year: 4月 banners on new-employee welcome signs, school-entrance ceremonies, cherry-blossom-season menus.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.四",
@@ -2003,7 +2003,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "अप्रैल जापानी वित्तीय/स्कूल वर्ष की शुरुआत है — 4月 बैनर नए-कर्मचारी स्वागत साइनेज पर।"
+      "context_hi": "अप्रैल जापानी वित्तीय/स्कूल वर्ष की शुरुआत है: 4月 बैनर नए-कर्मचारी स्वागत साइनेज पर।"
     },
     {
       "id": "auth.signs.go-getsu",
@@ -2012,7 +2012,7 @@
       "reading": "ごがつ",
       "gloss_en": "May",
       "gloss_hi": "मई",
-      "context": "May features Golden Week 5月の連休 — multiple national holidays. Travel-promotion signs and koinobori (carp-streamer) displays carry this date prominently.",
+      "context": "May features Golden Week 5月の連休: multiple national holidays. Travel-promotion signs and koinobori (carp-streamer) displays carry this date prominently.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.五",
@@ -2020,7 +2020,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "मई में गोल्डन वीक 5月の連休 — कई राष्ट्रीय अवकाश। यात्रा-प्रचार साइन और कोइनोबोरी (お祝い मछली पताका) सजावट।"
+      "context_hi": "मई में गोल्डन वीक 5月の連休: कई राष्ट्रीय अवकाश। यात्रा-प्रचार साइन और कोइनोबोरी (お祝い मछली पताका) सजावट।"
     },
     {
       "id": "auth.signs.roku-getsu",
@@ -2029,7 +2029,7 @@
       "reading": "ろくがつ",
       "gloss_en": "June",
       "gloss_hi": "जून",
-      "context": "Rainy-season starts in June — 6月の梅雨 forecasts on weather-board displays. Also seen on rainy-season umbrella-shop promotional banners.",
+      "context": "Rainy-season starts in June: 6月の梅雨 forecasts on weather-board displays. Also seen on rainy-season umbrella-shop promotional banners.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.六",
@@ -2037,7 +2037,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "जून में वर्षा-ऋतु शुरू — 6月の梅雨 मौसम-बोर्ड पर। रेन-गियर रिटेल साइनेज पर भी।"
+      "context_hi": "जून में वर्षा-ऋतु शुरू: 6月の梅雨 मौसम-बोर्ड पर। रेन-गियर रिटेल साइनेज पर भी।"
     },
     {
       "id": "auth.signs.shichi-getsu",
@@ -2046,7 +2046,7 @@
       "reading": "しちがつ",
       "gloss_en": "July",
       "gloss_hi": "जुलाई",
-      "context": "Summer-festival 七夕 (Tanabata) on July 7 is heavily signed — 7月7日 wishes on bamboo decorations in shops and stations.",
+      "context": "Summer-festival 七夕 (Tanabata) on July 7 is heavily signed: 7月7日 wishes on bamboo decorations in shops and stations.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.七",
@@ -2054,7 +2054,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "जुलाई 7 को 七夕 (तानाबाता) ग्रीष्म-त्योहार — 7月7日 इच्छाएँ बाँस पर लगती हैं; मॉल-डिस्प्ले पर साइनेज।"
+      "context_hi": "जुलाई 7 को 七夕 (तानाबाता) ग्रीष्म-त्योहार: 7月7日 इच्छाएँ बाँस पर लगती हैं; मॉल-डिस्प्ले पर साइनेज।"
     },
     {
       "id": "auth.signs.hachi-getsu",
@@ -2063,7 +2063,7 @@
       "reading": "はちがつ",
       "gloss_en": "August",
       "gloss_hi": "अगस्त",
-      "context": "August = obon-festival month (お盆) — train-station signs announce holiday-period schedules; 8月のお盆 fireworks-festival banners.",
+      "context": "August = obon-festival month (お盆): train-station signs announce holiday-period schedules; 8月のお盆 fireworks-festival banners.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.八",
@@ -2071,7 +2071,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "अगस्त = ओबोन (お盆) त्योहार माह — ट्रेन-स्टेशन साइन छुट्टी-काल समय-सारिणी की घोषणा करते हैं।"
+      "context_hi": "अगस्त = ओबोन (お盆) त्योहार माह: ट्रेन-स्टेशन साइन छुट्टी-काल समय-सारिणी की घोषणा करते हैं।"
     },
     {
       "id": "auth.signs.kyuu-getsu",
@@ -2080,7 +2080,7 @@
       "reading": "くがつ",
       "gloss_en": "September",
       "gloss_hi": "सितंबर",
-      "context": "September starts autumn — autumn-foods menu rotations and 9月の秋祭り (autumn-festival) banners replace summer signage.",
+      "context": "September starts autumn: autumn-foods menu rotations and 9月の秋祭り (autumn-festival) banners replace summer signage.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.九",
@@ -2088,7 +2088,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "सितंबर शरद की शुरुआत — शरद-व्यंजन मेनू-घुमाव और 9月の秋祭り (शरद-त्योहार) बैनर शॉपिंग-आर्केड में।"
+      "context_hi": "सितंबर शरद की शुरुआत: शरद-व्यंजन मेनू-घुमाव और 9月の秋祭り (शरद-त्योहार) बैनर शॉपिंग-आर्केड में।"
     },
     {
       "id": "auth.signs.juu-getsu",
@@ -2105,7 +2105,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "じゅうがつ पढ़ा जाता है (じゅう + がつ का अनियमित संकुचन — じゅうげつ नहीं)। अक्टूबर में खेल-दिवस 体育の日 ।"
+      "context_hi": "じゅうがつ पढ़ा जाता है (じゅう + がつ का अनियमित संकुचन: じゅうげつ नहीं)। अक्टूबर में खेल-दिवस 体育の日 ।"
     },
     {
       "id": "auth.signs.kayoubi",
@@ -2150,7 +2150,7 @@
       "reading": "きんようび",
       "gloss_en": "Friday",
       "gloss_hi": "शुक्रवार",
-      "context": "End-of-workweek day — 金曜日のハッピーアワー (Friday happy hour) on izakaya promotional signs; also payday-related (金 = money).",
+      "context": "End-of-workweek day: 金曜日のハッピーアワー (Friday happy hour) on izakaya promotional signs; also payday-related (金 = money).",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.日",
@@ -2159,7 +2159,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "कार्य-सप्ताह का अंतिम दिन — 金曜日のハッピーアワー (शुक्रवार हैप्पी आवर) इज़ाकाया प्रचार-साइन पर; वेतन-दिवस।"
+      "context_hi": "कार्य-सप्ताह का अंतिम दिन: 金曜日のハッピーアワー (शुक्रवार हैप्पी आवर) इज़ाकाया प्रचार-साइन पर; वेतन-दिवस।"
     },
     {
       "id": "auth.signs.doyoubi",
@@ -2186,7 +2186,7 @@
       "reading": "ことし",
       "gloss_en": "This year",
       "gloss_hi": "इस वर्ष",
-      "context": "Seasonal promotional banner prefix — 今年もよろしくお願いします (this year too, please favor us). Common on New Year's shopfront greetings.",
+      "context": "Seasonal promotional banner prefix: 今年もよろしくお願いします (this year too, please favor us). Common on New Year's shopfront greetings.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.今",
@@ -2194,7 +2194,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "मौसमी प्रचार बैनर का उपसर्ग — 今年もよろしくお願いします (इस वर्ष भी कृपया साथ दें)। नव-वर्ष ग्रीटिंग-कार्ड पर भी आम।"
+      "context_hi": "मौसमी प्रचार बैनर का उपसर्ग: 今年もよろしくお願いします (इस वर्ष भी कृपया साथ दें)। नव-वर्ष ग्रीटिंग-कार्ड पर भी आम।"
     },
     {
       "id": "auth.signs.juppun",
@@ -2219,7 +2219,7 @@
       "reading": "はちじはん",
       "gloss_en": "8:30",
       "gloss_hi": "8:30",
-      "context": "Casual time-of-day label on shop signs — 8時半から (from 8:30) is common on morning-hours boards. The kanji 半 = half, paired with 時 to mean 'half-hour past'.",
+      "context": "Casual time-of-day label on shop signs: 8時半から (from 8:30) is common on morning-hours boards. The kanji 半 = half, paired with 時 to mean 'half-hour past'.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.半",
@@ -2227,7 +2227,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "दुकान-साइन पर अनौपचारिक समय-लेबल — 8時半から (8:30 से) सुबह-घंटे बोर्ड पर सामान्य।"
+      "context_hi": "दुकान-साइन पर अनौपचारिक समय-लेबल: 8時半から (8:30 से) सुबह-घंटे बोर्ड पर सामान्य।"
     },
     {
       "id": "auth.signs.kodomo",
@@ -2286,14 +2286,14 @@
       "reading": "ともだち",
       "gloss_en": "Friend",
       "gloss_hi": "मित्र",
-      "context": "Friendship-themed retail signage — 友だち と一緒に (with friends) on group-discount banners at restaurants and entertainment venues.",
+      "context": "Friendship-themed retail signage: 友だち と一緒に (with friends) on group-discount banners at restaurants and entertainment venues.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.友"
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "मैत्री-थीम वाली रिटेल साइनेज — 友だちと一緒に (दोस्तों के साथ) रेस्तरां-चेन की समूह-छूट बैनरों पर।"
+      "context_hi": "मैत्री-थीम वाली रिटेल साइनेज: 友だちと一緒に (दोस्तों के साथ) रेस्तरां-चेन की समूह-छूट बैनरों पर।"
     },
     {
       "id": "auth.signs.chichi-no-hi",
@@ -2336,7 +2336,7 @@
       "reading": "ちゅうごく",
       "gloss_en": "China",
       "gloss_hi": "चीन",
-      "context": "中国 = China — common prefix on restaurant signs 中国料理 (Chinese cuisine) and tourism-info boards. Reads ちゅうごく; 中 is also Japan's western Chuugoku region.",
+      "context": "中国 = China: common prefix on restaurant signs 中国料理 (Chinese cuisine) and tourism-info boards. Reads ちゅうごく; 中 is also Japan's western Chuugoku region.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.中",
@@ -2344,7 +2344,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "中国 = चीन — रेस्तरां साइन 中国料理 (चीनी व्यंजन) पर सामान्य उपसर्ग; पर्यटन-सूचना बोर्ड पर भी।"
+      "context_hi": "中国 = चीन: रेस्तरां साइन 中国料理 (चीनी व्यंजन) पर सामान्य उपसर्ग; पर्यटन-सूचना बोर्ड पर भी।"
     },
     {
       "id": "auth.signs.shiritsu-gakkou",
@@ -2353,7 +2353,7 @@
       "reading": "しりつがっこう",
       "gloss_en": "Private school",
       "gloss_hi": "निजी विद्यालय",
-      "context": "School-classification label — 私立 (private) vs 公立 (public, N4). The 私 (I / private) appears on school-gate plaques and admission-document headers.",
+      "context": "School-classification label: 私立 (private) vs 公立 (public, N4). The 私 (I / private) appears on school-gate plaques and admission-document headers.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.学",
@@ -2363,7 +2363,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave2-2026-05-12",
-      "context_hi": "स्कूल-वर्गीकरण लेबल — 私立 (निजी) बनाम 公立 (सार्वजनिक, N4)। 私 (मैं / निजी) कांजी प्रकट होता है।"
+      "context_hi": "स्कूल-वर्गीकरण लेबल: 私立 (निजी) बनाम 公立 (सार्वजनिक, N4)। 私 (मैं / निजी) कांजी प्रकट होता है।"
     },
     {
       "id": "auth.signs.nanji-kara",
@@ -2389,7 +2389,7 @@
       "reading": "にがつ",
       "gloss_en": "February",
       "gloss_hi": "फ़रवरी",
-      "context": "Month header. February features Setsubun (節分, beans-throwing day) and Valentine's Day — chocolate displays and seasonal-menu boards prominently show 2月.",
+      "context": "Month header. February features Setsubun (節分, beans-throwing day) and Valentine's Day: chocolate displays and seasonal-menu boards prominently show 2月.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.二",
@@ -2397,7 +2397,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "महीना-शीर्षक। फरवरी में Setsubun (節分, बीन-फेंकने का दिन) और वैलेंटाइन्स डे — चॉकलेट-दुकान बैनर।"
+      "context_hi": "महीना-शीर्षक। फरवरी में Setsubun (節分, बीन-फेंकने का दिन) और वैलेंटाइन्स डे: चॉकलेट-दुकान बैनर।"
     },
     {
       "id": "auth.signs.juuichi-getsu",
@@ -2424,7 +2424,7 @@
       "reading": "じゅうにがつ",
       "gloss_en": "December",
       "gloss_hi": "दिसंबर",
-      "context": "Year-end month — シーズン中 (peak season) for shopfront 十二月の福袋 (December lucky-bag) promotions, and year-end-cleaning service labels.",
+      "context": "Year-end month: シーズン中 (peak season) for shopfront 十二月の福袋 (December lucky-bag) promotions, and year-end-cleaning service labels.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.十",
@@ -2433,7 +2433,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "वर्षांत महीना — शीर्ष-मौसम 十二月の福袋 (दिसंबर लकी-बैग) प्रचार दुकान-सामने; वर्षांत-बोनस संदर्भ।"
+      "context_hi": "वर्षांत महीना: शीर्ष-मौसम 十二月の福袋 (दिसंबर लकी-बैग) प्रचार दुकान-सामने; वर्षांत-बोनस संदर्भ।"
     },
     {
       "id": "auth.signs.getsuyoubi",
@@ -2530,7 +2530,7 @@
       "reading": "えきいん",
       "gloss_en": "Station staff",
       "gloss_hi": "स्टेशन कर्मचारी",
-      "context": "Sign on staff-only doors and information-desk signage at train stations. 駅員 means JR/metro employee — typically the person to ask for help.",
+      "context": "Sign on staff-only doors and information-desk signage at train stations. 駅員 means JR/metro employee: typically the person to ask for help.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.駅",
@@ -2597,7 +2597,7 @@
       "reading": "した",
       "gloss_en": "Down / lower",
       "gloss_hi": "नीचे",
-      "context": "Single-character directional sign on stair signage. Paired with arrow (↓) to indicate 'downstairs' or 'lower floor' — opposite of 上.",
+      "context": "Single-character directional sign on stair signage. Paired with arrow (↓) to indicate 'downstairs' or 'lower floor': opposite of 上.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.下"
@@ -2647,7 +2647,7 @@
       "reading": "にしぐち",
       "gloss_en": "West exit",
       "gloss_hi": "पश्चिमी निकास",
-      "context": "Compass-direction station exit. Tokyo's Shinjuku 新宿西口 is the iconic west-exit example — major bus terminus + office-tower district.",
+      "context": "Compass-direction station exit. Tokyo's Shinjuku 新宿西口 is the iconic west-exit example: major bus terminus + office-tower district.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.西",
@@ -2655,7 +2655,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "दिशा-स्टेशन निकास। टोक्यो का शिंजुकु 新宿西口 आइकनिक पश्चिम-निकास उदाहरण — विशाल यात्री प्रवाह।"
+      "context_hi": "दिशा-स्टेशन निकास। टोक्यो का शिंजुकु 新宿西口 आइकनिक पश्चिम-निकास उदाहरण: विशाल यात्री प्रवाह।"
     },
     {
       "id": "auth.transit.minami-guchi",
@@ -2716,7 +2716,7 @@
       "reading": "たなか",
       "gloss_en": "Tanaka (common surname)",
       "gloss_hi": "तानाका (सामान्य उपनाम)",
-      "context": "Most common surname on doorplate signs (表札 / hyoosatsu). 田 (rice field) + 中 (middle) — literally 'middle of the rice field'. About 1.3 million people share this name.",
+      "context": "Most common surname on doorplate signs (表札 / hyoosatsu). 田 (rice field) + 中 (middle): literally 'middle of the rice field'. About 1.3 million people share this name.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.田",
@@ -2724,7 +2724,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "दरवाज़ा-पट्टिका साइन (表札) पर सबसे सामान्य उपनाम। 田 (खेत) + 中 (बीच) — शब्दशः 'खेतों के बीच'।"
+      "context_hi": "दरवाज़ा-पट्टिका साइन (表札) पर सबसे सामान्य उपनाम। 田 (खेत) + 中 (बीच): शब्दशः 'खेतों के बीच'।"
     },
     {
       "id": "auth.signs.yamamoto",
@@ -2733,7 +2733,7 @@
       "reading": "やまもと",
       "gloss_en": "Yamamoto (common surname)",
       "gloss_hi": "यामामोतो (सामान्य उपनाम)",
-      "context": "Common surname on doorplate signs. 山 (mountain) + 本 (origin/main) — literally 'base of the mountain'. Frequent in central / western Japan.",
+      "context": "Common surname on doorplate signs. 山 (mountain) + 本 (origin/main): literally 'base of the mountain'. Frequent in central / western Japan.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.山",
@@ -2741,7 +2741,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "सामान्य दरवाज़ा-पट्टिका उपनाम। 山 (पर्वत) + 本 (मूल/मुख्य) — शब्दशः 'पर्वत का आधार'।"
+      "context_hi": "सामान्य दरवाज़ा-पट्टिका उपनाम। 山 (पर्वत) + 本 (मूल/मुख्य): शब्दशः 'पर्वत का आधार'।"
     },
     {
       "id": "auth.signs.hanami",
@@ -2750,7 +2750,7 @@
       "reading": "はなみ",
       "gloss_en": "Cherry-blossom viewing",
       "gloss_hi": "वसंत में फूल देखना",
-      "context": "Spring promotion banner (花見特集 / 花見弁当). 花見 is the iconic spring activity — picnic under cherry blossoms; signage peaks in late March / early April.",
+      "context": "Spring promotion banner (花見特集 / 花見弁当). 花見 is the iconic spring activity: picnic under cherry blossoms; signage peaks in late March / early April.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.花",
@@ -2758,7 +2758,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "वसंत प्रचार बैनर (花見特集 / 花見弁当)। 花見 आइकनिक वसंत गतिविधि — चेरी-ब्लॉसम के नीचे पिकनिक।"
+      "context_hi": "वसंत प्रचार बैनर (花見特集 / 花見弁当)। 花見 आइकनिक वसंत गतिविधि: चेरी-ब्लॉसम के नीचे पिकनिक।"
     },
     {
       "id": "auth.signs.sora",
@@ -2834,7 +2834,7 @@
       "reading": "らいげつ",
       "gloss_en": "Next month",
       "gloss_hi": "अगले महीने",
-      "context": "Forward-looking promotion banner — 来月オープン (opening next month) on under-construction shop signs; also on event-announcement posters.",
+      "context": "Forward-looking promotion banner: 来月オープン (opening next month) on under-construction shop signs; also on event-announcement posters.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.来",
@@ -2842,7 +2842,7 @@
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "आगामी-योजना प्रचार बैनर — 来月オープン (अगले महीने खुल रहा है) निर्माणाधीन दुकान बाड़ों पर।"
+      "context_hi": "आगामी-योजना प्रचार बैनर: 来月オープン (अगले महीने खुल रहा है) निर्माणाधीन दुकान बाड़ों पर।"
     },
     {
       "id": "auth.signs.yasumi",
@@ -2851,14 +2851,14 @@
       "reading": "やすみ",
       "gloss_en": "Closed / day off",
       "gloss_hi": "बंद",
-      "context": "Shopfront closure notice — 本日休み (closed today) on dangling cardboard signs. Distinct from 定休日 (fixed closure day, slightly more formal).",
+      "context": "Shopfront closure notice: 本日休み (closed today) on dangling cardboard signs. Distinct from 定休日 (fixed closure day, slightly more formal).",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.休"
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "दुकान-सामने बंद-सूचना — 本日休み (आज बंद) लटकते कार्डबोर्ड साइन पर। 休業 (अधिक औपचारिक) से भिन्न।"
+      "context_hi": "दुकान-सामने बंद-सूचना: 本日休み (आज बंद) लटकते कार्डबोर्ड साइन पर। 休業 (अधिक औपचारिक) से भिन्न।"
     },
     {
       "id": "auth.signs.hitokoto",
@@ -2901,14 +2901,14 @@
       "reading": "はくまい",
       "gloss_en": "White rice",
       "gloss_hi": "सफेद चावल",
-      "context": "Restaurant menu category label. 白米 = plain white rice — the default rice option, contrasted with 玄米 (brown rice, 玄 is N4) on healthier menu boards.",
+      "context": "Restaurant menu category label. 白米 = plain white rice: the default rice option, contrasted with 玄米 (brown rice, 玄 is N4) on healthier menu boards.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.白"
       ],
       "kanji_refs_provenance": "llm_curated",
       "audit_wave": "issue-122-wave3-2026-05-12",
-      "context_hi": "रेस्तरां मेनू श्रेणी लेबल। 白米 = सादा सफ़ेद चावल — डिफ़ॉल्ट चावल विकल्प (赤米 / 玄米 के विपरीत)।"
+      "context_hi": "रेस्तरां मेनू श्रेणी लेबल। 白米 = सादा सफ़ेद चावल: डिफ़ॉल्ट चावल विकल्प (赤米 / 玄米 के विपरीत)।"
     },
     {
       "id": "auth.signs.shuwa",
@@ -2966,7 +2966,7 @@
       "reading": "とうきょうゆき",
       "gloss_en": "Bound for Tokyo (train/bus destination)",
       "gloss_hi": "टोक्यो जाने वाली (ट्रेन/बस)",
-      "context": "Destination label on intercity bus departure boards and commuter train head-signs. The 行 (read ゆき in this context) marks 'bound for' — 大阪行 / 京都行 follow the same pattern.",
+      "context": "Destination label on intercity bus departure boards and commuter train head-signs. The 行 (read ゆき in this context) marks 'bound for': 大阪行 / 京都行 follow the same pattern.",
       "review_status": "llm_curated",
       "kanji_refs": [
         "n5.kanji.東",

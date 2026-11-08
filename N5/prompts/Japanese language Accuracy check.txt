@@ -6666,3 +6666,13 @@ A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on e
      invariant (Playwright tests guard each item). Cross-ref: procedure-manual F.71; N5Improvement
      "Phase-0 CI-recovery round 2 regression block".
 ================================================================================
+TYPOGRAPHY ADDENDUM (no em dashes, 2026-11-08): the owner ruled that learner-facing text carries no
+     em dash (U+2014). v1.17.52 replaced 15,156 in data/*.json, the static mirror pages, dist/ and
+     the rendered CHANGELOG / PRIVACY / NOTICES with tools/emdash_normalize.py: term-gloss dash to a
+     colon (あつい: hot), a dash pair around an aside to commas, a title suffix to " | ", a
+     two-speaker Japanese line to 「A」「B」. When auditing, flag any new em dash in a corpus
+     string as a typography defect and rewrite it with those rules, not with a hyphen. The katakana
+     long-vowel mark (ー) and the horizontal bar (―) are different characters and stay.
+     CI invariants at this checkpoint: 182 (was 181; +JA-180 no em dash in learner-facing files).
+     Cross-ref: procedure-manual F.72; N5Improvement "Phase-0 em-dash-free learner text block".
+================================================================================

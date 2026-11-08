@@ -2,6 +2,22 @@
 
 All user-visible changes to the JLPT N5 study material site.
 
+## v1.17.52 - 2026-11-08 (no em dashes anywhere on the site; kanji memory-aid pictures dropped)
+
+### Changed
+
+- Em dashes are gone from all study content: grammar, vocabulary, kanji, reading, listening,
+  questions, mock papers, the static lesson pages, the Anki downloads and these release notes.
+  A "term - meaning" dash now reads as a colon (あつい: hot), a dash pair around an aside as
+  commas, and page titles use " | " before the site name. The four two-speaker Japanese example
+  lines now mark each turn with 「」 (「ただいま。」「おかえりなさい。」).
+- cacheVersion + sw.js `CACHE_VERSION` + index.html `?v=` bumped v1.17.51 -> v1.17.52.
+
+### Removed
+
+- The kanji memory-aid picture (shown only on 雨) and its notice section. The kanji's readings,
+  meaning and text mnemonic are unchanged.
+
 ## v1.17.51 - 2026-11-08 (offline support on lesson pages + correct "Report a problem" item)
 
 ### Fixed
@@ -73,7 +89,7 @@ Consolidated release bundling two parallel work streams into one cache version.
   data field is retained (CI-enforced) but is never displayed; the badge render functions
   are hard-disabled and the `showProvenanceBadges` default is now false.
 - cacheVersion + sw.js `CACHE_VERSION` + index.html css/js `?v=` bumped v1.17.45 -> v1.17.46.
-## v1.17.45 - 2026-06-07 (kanji: 雨 — mnemonic illustration proof-of-concept)
+## v1.17.45 - 2026-06-07 (kanji: 雨, mnemonic illustration proof-of-concept)
 
 ### Added
 
@@ -85,7 +101,7 @@ Consolidated release bundling two parallel work streams into one cache version.
 - New kanji data field `mnemonic_image` (plus `mnemonic_image_alt` /
   `mnemonic_image_provenance`); new CI guard JA-179 (image resolves on disk + non-empty alt).
 - cacheVersion + sw.js `CACHE_VERSION` + index.html css/js `?v=` bumped v1.17.44 -> v1.17.45 (JA-68).
-## v1.17.44 - 2026-06-07 (kanji: 雨 — replace redundant example sentences)
+## v1.17.44 - 2026-06-07 (kanji: 雨, replace redundant example sentences)
 
 ### Fixed
 
@@ -96,7 +112,7 @@ Consolidated release bundling two parallel work streams into one cache version.
   うちで 本を よみます). A corpus-wide near-duplicate-sentence scan confirmed 雨 was the
   only affected kanji.
 - cacheVersion + sw.js `CACHE_VERSION` + index.html css/js `?v=` bumped v1.17.43 → v1.17.44 (JA-68).
-## v1.17.43 - 2026-06-07 (kanji: 語 — demote かた reading to "additional")
+## v1.17.43 - 2026-06-07 (kanji: 語, demote かた reading to "additional")
 
 ### Changed
 
@@ -105,7 +121,7 @@ Consolidated release bundling two parallel work streams into one cache version.
   N5 reading (語 is mainly read ご). Closes the last native-review item on 語.
 - cacheVersion + sw.js `CACHE_VERSION` + index.html css/js `?v=` bumped
   v1.17.42 → v1.17.43 (JA-68).
-## v1.17.42 - 2026-06-07 (kanji: native-review corrections — reading rules, examples, sentences)
+## v1.17.42 - 2026-06-07 (kanji: native-review corrections, reading rules, examples, sentences)
 
 ### Fixed
 
@@ -129,24 +145,24 @@ A native-speaker review of the N5 kanji pages found learner-content issues, now 
 
 ### Changed
 
-- **Cache-bust release — no new content changes.** Bumps the cache version so
+- **Cache-bust release: no new content changes.** Bumps the cache version so
   returning / installed (PWA) users re-fetch the corrected vocabulary. This
   delivers the native-review particle-example + notation corrections listed
-  under v1.17.40 — pronoun/noun 「Xを しる」 → natural verbs, the question-word
+  under v1.17.40: pronoun/noun 「Xを しる」 → natural verbs, the question-word
   frames → grammatical だれと いきますか / だれに ききますか, じぶんで つくる, and the
-  日本語 / 四人 / いっしょ / そふと そぼ notation fixes — to learners whose browser
+  日本語 / 四人 / いっしょ / そふと そぼ notation fixes: to learners whose browser
   had cached the pre-fix data.
 - cacheVersion + sw.js `CACHE_VERSION` + index.html css/js `?v=` bumped
   v1.17.40 → v1.17.41 (JA-68).
-## v1.17.40 - 2026-06-04 (vocabulary: すむ particle examples — natural location patterns)
+## v1.17.40 - 2026-06-04 (vocabulary: すむ particle examples, natural location patterns)
 
 ### Fixed
 
-- **すむ** ("to live / reside") — its particle examples showed unnatural
+- **すむ** ("to live / reside"): its particle examples showed unnatural
   frequency/time pairings (*よく すむ* "often live", *まいにち すむ* "live
   every day", *いま すむ* "live now") that don't fit a stative verb. These
   are replaced with the natural location patterns a learner should
-  actually use: **東京に すむ**, **日本に すむ**, **この町に すむ** — all
+  actually use: **東京に すむ**, **日本に すむ**, **この町に すむ**, all
   showing the location particle に that すむ takes. (Native-reviewer
   re-check of BUG-266; closes the last 2 items.)
 - **Companion non-verb particle-example + notation corrections**
@@ -172,22 +188,22 @@ A native-speaker review of the N5 kanji pages found learner-content issues, now 
 ### Fixed
 
 - **110 verb entries** had malformed polite-form artifacts in their
-  "particle examples" — every verb showed `<dictionary-form>ます` and
+  "particle examples": every verb showed `<dictionary-form>ます` and
   `<dictionary-form>ました`, which is not valid Japanese (e.g.
   *べんきょうするます*, *かすました*, *あるます*, *すむます*). These are now
   the correct polite forms (べんきょうします, かしました, あります, すみます)
   produced by a verb-class-aware conjugator across all godan, ichidan,
-  and irregular verbs. The kanji-aware split is handled correctly — the
+  and irregular verbs. The kanji-aware split is handled correctly: the
   homonym きる shows きります for the "cut" verb and きます for the "wear"
   verb.
 - **~32 nonsense template example sentences** removed:
-  - *えいがは <adj>でした* ("the movie was yellow / thin / bitter") — 16
+  - *えいがは <adj>でした* ("the movie was yellow / thin / bitter"): 16
     sentences that were both grammatically wrong (い-adjective past is
     かったです, not でした) and semantically odd.
   - *今日は とても <adj>です* ("today is very white / round / short /
-    lukewarm") — 14 sentences for adjectives that can't describe a day
+    lukewarm"): 14 sentences for adjectives that can't describe a day
     (weather adjectives like すずしい / あたたかい were kept).
-  - *この りんごは うるさいです* ("this apple is noisy") — removed.
+  - *この りんごは うるさいです* ("this apple is noisy"): removed.
   - Every affected entry keeps its remaining valid example sentences.
 - **カタカナ** entry: removed template collocations that treated a
   writing system as a buyable object (*カタカナを かう* "buy katakana",
@@ -238,7 +254,7 @@ placeholders, duplicate examples, *"already correct"* admissions).
   across the page. The subtitle is now a sibling of the title row,
   spanning the same width as the sections below it. CSS margins
   adjusted so the title-subtitle pair still feels visually paired
-  (4px gap above the subtitle, 24px below — the 24px that used to
+  (4px gap above the subtitle, 24px below: the 24px that used to
   separate the header from the first section is now between the
   subtitle and the first section).
 - **Vocabulary detail** got the same treatment for `.vocab-gloss-big`:
@@ -247,12 +263,12 @@ placeholders, duplicate examples, *"already correct"* admissions).
   reading remain as the visual title pair.
 
 Affects 1,279 detail-page routes (178 grammar + 995 vocab + 106 kanji
-all use the same `.pattern-header` shape — kanji's structure is
+all use the same `.pattern-header` shape: kanji's structure is
 different and its readings cluster intentionally stays paired with the
 glyph, so kanji is unchanged). Single source edit per renderer + a
 CSS adjustment fans the fix out to every detail page in each category.
 
-## v1.17.35 - 2026-05-31 (grammar pattern detail: UI polish pass — subtitle echo, orphans, trivial HOW TO USE table, section chip consistency)
+## v1.17.35 - 2026-05-31 (grammar pattern detail: UI polish pass, subtitle echo, orphans, trivial HOW TO USE table, section chip consistency)
 
 ### Changed (4 user-flagged UI issues addressed)
 
@@ -261,7 +277,7 @@ CSS adjustment fans the fix out to every detail page in each category.
   a separator (e.g. *"こんな / そんな / あんな / どんな + Noun - 'this/that
   kind of'"*). The renderer pairs title with `meaning_en` as a
   subtitle, so the page showed *"<pattern> ... <pattern> - <real
-  meaning>"* — the pattern twice. All 64 entries trimmed to the bit
+  meaning>"*: the pattern twice. All 64 entries trimmed to the bit
   after the separator (now just *"This/that kind of"*).
 - **No more orphan words on wrapped title/subtitle lines.** Added
   `text-wrap: balance` to the title and subtitle so wraps like
@@ -277,16 +293,16 @@ CSS adjustment fans the fix out to every detail page in each category.
   real content.
 - **Section heading consistency.** Previously only HOW TO USE carried
   a Japanese chip (使い方). EXPLANATION, DEEP DIVE, EXAMPLES, and
-  COMMON MISTAKES now also carry chips (説明, 詳細, 例文, 注意点) — the
+  COMMON MISTAKES now also carry chips (説明, 詳細, 例文, 注意点): the
   bilingual presentation is now uniform across all major sections of
   the grammar pattern detail page.
 
 ### Internal (no learner-visible effect)
 
 - `tools/audit_meaning_en_pattern_echo_2026_05_31.py` (new) and
-  `tools/fix_meaning_en_pattern_echo_2026_05_31.py` (new) — audit +
+  `tools/fix_meaning_en_pattern_echo_2026_05_31.py` (new): audit +
   apply the subtitle dedup.
-- `tools/probe_ui_polish_2026_05_31.js` (new) — Playwright probe
+- `tools/probe_ui_polish_2026_05_31.js` (new): Playwright probe
   that verifies the section-visibility rules against a representative
   sample (1 attach + no conj, 2 attaches + no conj, 1 attach + 4
   conj, 2 attaches + 3 conj, 3 attaches + 9 conj).
@@ -298,7 +314,7 @@ CSS adjustment fans the fix out to every detail page in each category.
 
 ### Changed
 
-- **Grammar pattern detail pages** — the **MEANING** section was removed.
+- **Grammar pattern detail pages**: the **MEANING** section was removed.
   The pattern's English meaning is already shown as the subtitle directly
   under the title (e.g. *"What"* under **何（なに・なん）**); a separate
   MEANING section below HOW TO USE was rendering the exact same string a
@@ -311,9 +327,9 @@ CSS adjustment fans the fix out to every detail page in each category.
 
 ### Fixed
 
-- **All 178 grammar pattern pages** — layout repaired. The
+- **All 178 grammar pattern pages**: layout repaired. The
   refresh-script change in v1.17.32 anchored on the first `</h1>` close
-  in each mirror — which turned out to be the **brand wordmark** h1 in
+  in each mirror, which turned out to be the **brand wordmark** h1 in
   the site header, not the **pattern title** h1 inside `<main id="app">`.
   Result: the new HOW TO USE content was injected INSIDE `<header>`,
   the `<main id="app">` opener + meta-banner + pattern title were eaten,
@@ -330,7 +346,7 @@ CSS adjustment fans the fix out to every detail page in each category.
 
 ### Fixed
 
-- **Grammar pattern detail pages** — the **HOW TO USE / 使い方** section on the
+- **Grammar pattern detail pages**: the **HOW TO USE / 使い方** section on the
   178 grammar pattern pages (e.g. `/learn/n5-017/`) now shows the full
   attach-points table and conjugation table when JavaScript is disabled, when
   the SPA hydration is delayed, or during the brief paint between the static
@@ -347,8 +363,8 @@ CSS adjustment fans the fix out to every detail page in each category.
   grammar pattern with conjugations (≥ 2) must have its conjugation examples
   appear verbatim in the static mirror. Locks the SPA-vs-mirror parity for
   this section. Companion to JA-170 (app-header parity) and JA-172 (app-footer
-  parity) — same "builder-alone produces stripped content" class.
-- New tool `tools/refresh_grammar_howto_in_mirrors.py` — surgical body
+  parity): same "builder-alone produces stripped content" class.
+- New tool `tools/refresh_grammar_howto_in_mirrors.py`: surgical body
   regeneration script that preserves header / footer / SPA boot script while
   rewriting only the body region of grammar mirrors.
 
@@ -356,7 +372,7 @@ CSS adjustment fans the fix out to every detail page in each category.
 
 ### Changed
 
-- **App footer reordered** — the footer menu (What's new · Privacy · Notices ·
+- **App footer reordered**: the footer menu (What's new · Privacy · Notices ·
   N5 syllabus overview · Feedback · Switch language · Help translate) now sits
   **above** the version number and the trademark/non-affiliation line, instead
   of below them. SPA shell only; the static mirrors' footer was already
@@ -378,13 +394,13 @@ CSS adjustment fans the fix out to every detail page in each category.
 ### Changed
 
 - **Site footer menu** (What's new · Privacy · Notices · N5 syllabus overview ·
-  Feedback · Help translate) now appears on **every static page** — the ~1,410
+  Feedback · Help translate) now appears on **every static page**: the ~1,410
   per-entity mirrors (grammar / vocab / kanji / reading / listening / papers),
   the index pages (e.g. `/N5/home/`), and the 7 summary pages. Previously these
   pages had the brand header but no footer, so they felt inconsistent with the
   app. Injected by the same step that adds the header; guarded by new CI
   invariant **JA-172** (companion to JA-170, which guards the header).
-- **Summary pages** (`home.html`, etc.) had developer jargon removed — dropped
+- **Summary pages** (`home.html`, etc.) had developer jargon removed: dropped
   the "Browse" links ("static index", "Interactive SPA route", "Raw JSON
   corpus") and the "crawler-readable overview" banner, which meant nothing to a
   language learner. Per-module summary pages now show a plain "Open …" link; the
@@ -396,7 +412,7 @@ CSS adjustment fans the fix out to every detail page in each category.
 
 - **Static summary pages** (`home.html`, `grammar.html`, `vocabulary.html`,
   `kanji.html`, `reading.html`, `listening.html`, `test.html`) now carry the
-  site's brand chrome — the green app-header (mark + "N5" + primary nav) and a
+  site's brand chrome: the green app-header (mark + "N5" + primary nav) and a
   matching footer, styled by the site stylesheet. They previously rendered as a
   bare, off-brand document. Still no-JS and crawler-readable. (The header was
   baked into the page generator; the header-injection tool only processes
@@ -656,12 +672,12 @@ CSS adjustment fans the fix out to every detail page in each category.
 A structural-review pass found the content-integrity invariant total
 (computed and reported by `tools/check_content_integrity.py` on every
 run) had been copied as a bare present-tense number into several living
-docs at different times — README, the implementation spec, both
+docs at different times: README, the implementation spec, both
 CLAUDE.md files, the self-host guides, and the cross-artifact sync map
 variously asserted 48 / 93 / 104 / 113 / 152 / 171 as if each were the
 current truth. The script stays correct; the frozen prose copies rot.
 
-### Fixed (documentation consistency only — no app behavior, data, or UI change)
+### Fixed (documentation consistency only: no app behavior, data, or UI change)
 
 - Present-tense invariant-count literals in living docs were converted
   to either a **pointer** ("the script reports the live count") or a
@@ -684,13 +700,13 @@ block ↔ xlsx scenario row) extended to cover the new block via the
 canonical sync script (1 tab-K row appended). Full detail:
 `docs/AUDIT-COVERAGE-2026-05-24.md` Part 59.
 
-## v1.17.16 - 2026-05-27 (print/PDF designer reflow — killed blank-space zones, 5pp → 3pp)
+## v1.17.16 - 2026-05-27 (print/PDF designer reflow: killed blank-space zones, 5pp → 3pp)
 
 ### Background
 
 User flagged a grammar pattern PDF showing EXPLANATION followed by
 ~500px of blank space, then a page break, then DEEP DIVE on page 2.
-The pattern repeated at every section boundary — five pages with
+The pattern repeated at every section boundary: five pages with
 dead-space chunks at the bottom of each.
 
 ### Root cause (Playwright print-mode probe)
@@ -700,16 +716,16 @@ treated each of the 12 sections (Examples, Deep dive, Categorized
 errors, Politeness ladder, etc.) as indivisible. A 736px Examples-list
 section that can't fit on remaining page space gets pushed whole to
 the next page, leaving 200–500px blank at the previous page's bottom.
-Wrong granularity — a printed textbook lets long lists flow across
+Wrong granularity: a printed textbook lets long lists flow across
 pages, it just never splits a single example mid-sentence.
 
 ### Fixed (6 design changes to `css/main.css @media print`)
 
-1. Removed `.pattern-detail section { page-break-inside: avoid }` —
+1. Removed `.pattern-detail section { page-break-inside: avoid }`,
    sections now flow naturally across page boundaries.
 2. Kept `page-break-inside: avoid` on `.example-list li` /
-   `.mistakes-list li` — single examples / mistakes stay atomic.
-3. Added `page-break-after: avoid` to `.section-title` (h3) — no
+   `.mistakes-list li`, single examples / mistakes stay atomic.
+3. Added `page-break-after: avoid` to `.section-title` (h3), no
    orphan headings at the bottom of a page.
 4. Added `widows: 3; orphans: 3` to body + p + li.
 5. Tightened section margin 16pt → 12pt; example-li margin 6pt → 4pt;
@@ -721,7 +737,7 @@ pages, it just never splits a single example mid-sentence.
 Doc height 3043 → 2849 px (-6%); 12 sections with forced-avoid → 0;
 estimated pages 5 → 3; forced-jump blank zones 4-5 → 0.
 
-## v1.17.15 - 2026-05-27 (root-cause fix for residual print "checkbox" — outer .audio-skin wrapper)
+## v1.17.15 - 2026-05-27 (root-cause fix for residual print "checkbox": outer .audio-skin wrapper)
 
 After v1.17.13 hid the inner `.audio-skin-controls` and v1.17.14 hid
 all `<input>` / `<select>` / `<textarea>` / `<video>`, a small empty
@@ -732,11 +748,11 @@ Playwright print-mode probe identified the offender:
 
 The OUTER `<div class="audio-skin">` wraps the audio element and the
 inner `.audio-skin-controls`. With all its children hidden, the outer
-div collapsed to a 17×17 tinted-background box — the "checkbox" the
+div collapsed to a 17×17 tinted-background box: the "checkbox" the
 user kept seeing. Added `.audio-skin` to the print-hide list.
 
 Lesson committed in the body: when a CSS leak survives two print-rule
-passes, stop guessing — open the DOM in print emulation and let the
+passes, stop guessing, open the DOM in print emulation and let the
 layout report the offender. Diagnostic tool committed at
 `tools/diag_print_square_2026_05_27.py`.
 
@@ -748,12 +764,12 @@ the PDF. Belt-and-suspenders defensive rule added to
 
     input, select, textarea, video { display: none !important; }
 
-Print mode is non-interactive — these element types can never serve
+Print mode is non-interactive: these element types can never serve
 a purpose on paper. Also immunizes against any future stray form
 element that gets added without a `.no-print` parent.
 
 (Note: this didn't actually solve the user's report. The real fix
-landed in v1.17.15 — the leak was a non-form div wrapper. Kept this
+landed in v1.17.15: the leak was a non-form div wrapper. Kept this
 rule as defensive layer.)
 
 ## v1.17.13 - 2026-05-27 (hide custom audio-skin in print/PDF)
@@ -765,8 +781,8 @@ buttons) were appearing in the printed/PDF output.
 The pre-existing `audio { display: none }` rule hid the NATIVE
 `<audio>` element but NOT the custom skin wrapper
 `<div class="audio-skin-controls">` rendered by `js/audio-player.js`.
-The skin is regular HTML — buttons + `<span class="audio-skin-time">`
-showing "0:00 / 0:00" — so the `audio { display: none }` rule didn't
+The skin is regular HTML: buttons + `<span class="audio-skin-time">`
+showing "0:00 / 0:00", so the `audio { display: none }` rule didn't
 catch it.
 
 Added one rule to `css/main.css @media print`:
@@ -784,7 +800,7 @@ and vocab example audio all print without the player skin.
 During the v1.17.11 commit prep, `tools/build_static_mirrors.py
 --stages meta` was invoked to refresh the changelog mirror for the
 new CHANGELOG heading (satisfies JA-113). That regen wrote 10
-meta-route mirrors fresh — and those fresh files do NOT contain
+meta-route mirrors fresh, and those fresh files do NOT contain
 the app-header injected in v1.17.9. The v1.17.11 push landed with
 sitting/, missed/, summary/, home/, feedback/, etc. lacking the
 header. Caught by live spot-check on /N5/sitting/.
@@ -796,7 +812,7 @@ Process lesson logged in the commit body: when CHANGELOG changes
 trigger a meta-mirror regen, the header-inject script must follow
 in the same change set.
 
-## v1.17.11 - 2026-05-27 (Mock nav tab merged into Test — user said "same/similar content at two different places")
+## v1.17.11 - 2026-05-27 (Mock nav tab merged into Test: user said "same/similar content at two different places")
 
 ### Background
 
@@ -821,21 +837,21 @@ glance they read as duplicates. User flagged it.
 
 ### Preserved
 
-- **The `/sitting/` route still works** — direct URL, all internal
+- **The `/sitting/` route still works**: direct URL, all internal
   links, the "Start full mock test →" CTA on the /test/ setup screen.
   Only the primary-nav entry was removed.
 - `js/sitting.js` module untouched.
 - All 178 grammar / 995 vocab / 106 kanji / 54 reading / 50 listening /
   28 paper-pack data unchanged.
 
-## v1.17.10 - 2026-05-27 (home page cleanup — removed 3 lower sections per user)
+## v1.17.10 - 2026-05-27 (home page cleanup: removed 3 lower sections per user)
 
 ### Background
 
 User flagged the lower half of the home page as visual clutter:
 
-1. **RECOMMENDED STUDY ORDER** — numbered 9-step ordered list
-2. **PROGRESS** — 6 progress bars (Grammar / Vocab / Kanji / Reading
+1. **RECOMMENDED STUDY ORDER**: numbered 9-step ordered list
+2. **PROGRESS**: 6 progress bars (Grammar / Vocab / Kanji / Reading
    / Listening / Mock Test, mostly showing 0 / N for first-time users)
 3. **"Not sure where to start?"** CTA box with Take Placement Check +
    Start with Grammar buttons
@@ -844,7 +860,7 @@ User flagged the lower half of the home page as visual clutter:
 
 - `js/home.js`: 3 template blocks removed, each replaced with an
   explanatory comment. Pattern matches the v1.17.8 home-privacy-hero
-  removal style — a future revert is a single template-block addition.
+  removal style: a future revert is a single template-block addition.
 - Helper functions retained (`studyOrder()`, `computeProgress()`,
   `renderProgressRow()`) for easy revert.
 - i18n keys retained in `locales/*.json` so JA-108 (locale key-set
@@ -858,7 +874,7 @@ User flagged the lower half of the home page as visual clutter:
 - `syllabus-forecast` 7-day review forecast (returning users only).
 - All header / nav / footer logic unchanged.
 
-## v1.17.9 - 2026-05-27 (frontend mirror-header fix — 1,410 static SEO mirrors get the global app-header back)
+## v1.17.9 - 2026-05-27 (frontend mirror-header fix: 1,410 static SEO mirrors get the global app-header back)
 
 ### Background
 
@@ -872,7 +888,7 @@ their "standalone static content" form which never had a header.
 
 ### Fixed
 
-- New tool: `tools/inject_app_header_into_mirrors_2026_05_27.py` —
+- New tool: `tools/inject_app_header_into_mirrors_2026_05_27.py`,
   injects a static `<header class="app-header">` (brand mark + 9
   primary-nav links) immediately after the `<body>` tag in every
   mirror that lacks one. All header href values are absolute
@@ -888,7 +904,7 @@ their "standalone static content" form which never had a header.
 ### Verification
 
 - All 171 CI invariants pass locally; JA-68 cache-version sync passes.
-- Live spot-check (6 sample mirrors across 4 categories — grammar
+- Live spot-check (6 sample mirrors across 4 categories: grammar
   pattern, kanji hub, papers hub, reading hub, listening hub,
   learn/grammar SPA hub) all return HTTP 200 with `app-header`,
   `primary-nav`, and `brand-link` markers present.
@@ -898,14 +914,14 @@ their "standalone static content" form which never had a header.
 - Every byte of existing per-page SEO content (titles, meta-descriptions,
   OG tags, JSON-LD, embedded examples, redirect scripts). The script
   only ADDS the header link + element; it never modifies existing
-  content. Idempotent — re-running on already-injected files is a no-op.
+  content. Idempotent: re-running on already-injected files is a no-op.
 
-## v1.17.3 - 2026-05-26 (BUG-201 PD-CITATION-001 close — corrected pd_since dates on 111 of 215 PD-reference entries + JA-168 lock)
+## v1.17.3 - 2026-05-26 (BUG-201 PD-CITATION-001 close: corrected pd_since dates on 111 of 215 PD-reference entries + JA-168 lock)
 
 ### Background
 
 User-reported (2026-05-24, on a grammar page): "Japan PD since 1998
-(Akutagawa d.1927)" — wrong date. Filed as BUG-201 (PD-CITATION-001).
+(Akutagawa d.1927)": wrong date. Filed as BUG-201 (PD-CITATION-001).
 
 Cause: 111 of 215 `public_domain_refs` entries across grammar.json
 used the "life + 70 years" rule when computing `pd_status`, but the
@@ -926,7 +942,7 @@ should be 1984), and others.
     - death_year ≤ 1967  →  pd_since = (death_year + 50 + 1)-01-01
     - death_year ≥ 1968  →  pd_since = (death_year + 70 + 1)-01-01
     - death_year = null (traditional / proverb): pd_since = null,
-      pd_status = "Japan PD — public domain by age"
+      pd_status = "Japan PD: public domain by age"
 - Added structured fields to every entry: `jurisdiction` ("JP"),
   `term_used` ("death+50" / "death+70" / "public_domain_by_age"),
   `pd_since` (ISO date string or null).
@@ -937,7 +953,7 @@ should be 1984), and others.
 ### Note
 
 Quote enrichment (`quote_ja`, `quote_translation_en`,
-`quote_provenance`) was ALREADY done by a prior session — 155
+`quote_provenance`) was ALREADY done by a prior session: 155
 entries carry `claude_authored_2026_05_24_needs_native_verify`,
 60 entries carry `self_reference_proverb_text` (proverbs with no
 translator-copyright risk). Zero entries reference copyrighted
@@ -947,7 +963,7 @@ satisfied; no additional fix needed.
 
 ### CI invariants added
 
-- **JA-168** — `public_domain_refs[].pd_since` matches the
+- **JA-168**: `public_domain_refs[].pd_since` matches the
   date-math formula (death+50 grandfathered for pre-1968 deaths;
   death+70 for post-1968 deaths). Locks the 111 corrected entries
   against re-introduction of the wrong rule.
@@ -960,29 +976,29 @@ satisfied; no additional fix needed.
 
 ### Bounded coverage
 
-- "111 entries corrected via death-year math" — programmatic fix
+- "111 entries corrected via death-year math": programmatic fix
   derived from `author_death_year` already in each entry. Did NOT
   re-verify the death years themselves (those are trusted from
   the prior session).
-- "Quote-translation-trap defense satisfied" — based on regex
+- "Quote-translation-trap defense satisfied": based on regex
   scan of `quote_provenance` for known copyrighted-translator
   names; a translator the regex doesn't know would slip through.
   Defense is the provenance-shape lock, not a comprehensive
   translator-name DB.
-- "Japan grandfather rule" — claim is about pre-1968 deaths
+- "Japan grandfather rule": claim is about pre-1968 deaths
   staying at death+50. Edge cases (works that lost protection
   due to non-renewal, foreign authors with reciprocal terms,
   etc.) are out of scope for this batch.
 
 ---
 
-## v1.17.2 - 2026-05-26 (Kanji-vs-kana over-reach fix — 2 wrong/right pairs now show real linguistic errors)
+## v1.17.2 - 2026-05-26 (Kanji-vs-kana over-reach fix: 2 wrong/right pairs now show real linguistic errors)
 
 ### Background
 
 User-reported: a wrong/right card on a grammar page struck off
 `りんごを 二つ ください。` and marked `りんごを ふたつ ください。` as
-correct. The kanji form is not actually a learner mistake — 二 is
+correct. The kanji form is not actually a learner mistake: 二 is
 N5 day-one whitelist kanji, 二つ reads ふたつ, and is the dominant
 form in real Japanese writing (Genki + Minna teach native counters
 in kanji). Strike-through on a non-error misleads learners.
@@ -996,7 +1012,7 @@ error on the wrong line, not a stylistic / kanji-vs-kana preference.**
   preference pair with a real counter-mismatch error.
     wrong (new):  `りんごを 二人 ください。`  ← 二人=people-counter, wrong for fruit
     right:        `りんごを ふたつ ください。`  (unchanged)
-    why:          "二人 (ふたり) is the PEOPLE counter — apples are
+    why:          "二人 (ふたり) is the PEOPLE counter: apples are
                    objects, so the native counter ふたつ is required.
                    For small round objects 二個 (にこ) is also valid."
 
@@ -1014,11 +1030,11 @@ wrong_corrected_pair entries for the kanji-vs-kana over-reach
 shape. **5 candidates surfaced; 3 are real linguistic errors and
 were kept; 2 were over-reach and were fixed.**
 
-- n5-096 cm[0] (大きい vs あつい): REAL — wrong adjective for
+- n5-096 cm[0] (大きい vs あつい): REAL, wrong adjective for
   weather. Kept.
 - n5-108 cm[2] (二つ vs ふたつ): FIXED this batch.
 - n5-113 cm[1] (3時 半 vs 3時はん): FIXED this batch.
-- n5-144 cm[0] (same-subject rule for ながら): REAL — already fixed
+- n5-144 cm[0] (same-subject rule for ながら): REAL, already fixed
   v1.16.12. Kept.
 - n5-164 cm[2] (田中先生さん redundant honorific): REAL pragmatic
   error. Kept.
@@ -1035,18 +1051,18 @@ learner mistake.
 
 ### CI / tracker / version
 
-- CI: 169/169 invariants PASS (unchanged this batch — content fix
+- CI: 169/169 invariants PASS (unchanged this batch, content fix
   only, no new invariant).
 - Bug tracker: no new BUG-NNN (user-reported caught + fixed inline).
 - Version: v1.17.1 → **v1.17.2**.
 
 ### Bounded coverage
 
-- "2 over-reach pairs fixed" — sweep predicate was tight (wrong
+- "2 over-reach pairs fixed": sweep predicate was tight (wrong
   has more kanji than right, strings near-identical). Looser
   predicates may surface borderline mixed-script entries this
   one misses.
-- "Kanji form valid for N5-whitelisted kanji" — claim is about
+- "Kanji form valid for N5-whitelisted kanji": claim is about
   real-world authenticity; classroom-fit at a specific level is
   a separate native-teacher judgement.
 
@@ -1069,34 +1085,34 @@ ran through to a full cross-corpus native-teacher review + UI a11y fix.
   #2E7D4F → #26703F for WCAG AA contrast (5.34:1 from 4.45:1).
 
 ### Major commits
-- `936f6950` — BUG-A..H sweep (52 cm drops + 47 backfills + 7 rewrites + 4 category renames + 4 meaning_ja splits + 2 contradictions + 14 example drops + 3 why expansions)
-- `3a7c6788` — Followups 1-7 (explanation_ja renderer + JA-162 + audit v2 + xlsx blank + 6 substantive rewrites + native-review docs)
-- `bfb5cd8a` — Native-reviewer pass closing Q3/Q4/Q5 (8 rewrites + 53 PASS marks)
-- `61366b43` — Polish A/B/C (bug-tracker cross-link + JA-163 + P0 smoke green)
-- `d4636585` — BUG-I/J/K (wcp dedup + 1 wcp rewrite + 25 wcp.why expansions — later reverted)
-- `1046ffcb` — BUG-K REVERT (metric-gaming caught) + TS-10 cleanup + Part 56
-- `b2cab3ec` — TS-02 reviewer-v5 correction (6 dropped + 5 contrast-annotated)
-- `937b5ca3` — Cross-corpus dedup (17 vocab + 2 kanji within-entry dups)
-- `6010096e` — Wave 1 (JA-164/165/166 + js/home.js migration + 20 audio orphans)
-- `60c36430` — Wave 2 (questions + papers schema-aware audit)
-- `021c9a52` — Wave 3 (conjugation-aware TS-05 + unified audit_all.py)
-- `e327f102` — Wave 4 (173 explanation_ja authored from concrete examples)
-- `4959aed9` — Wave 5 (full Playwright + deep axe + --color-correct fix)
+- `936f6950`: BUG-A..H sweep (52 cm drops + 47 backfills + 7 rewrites + 4 category renames + 4 meaning_ja splits + 2 contradictions + 14 example drops + 3 why expansions)
+- `3a7c6788`: Followups 1-7 (explanation_ja renderer + JA-162 + audit v2 + xlsx blank + 6 substantive rewrites + native-review docs)
+- `bfb5cd8a`: Native-reviewer pass closing Q3/Q4/Q5 (8 rewrites + 53 PASS marks)
+- `61366b43`: Polish A/B/C (bug-tracker cross-link + JA-163 + P0 smoke green)
+- `d4636585`: BUG-I/J/K (wcp dedup + 1 wcp rewrite + 25 wcp.why expansions: later reverted)
+- `1046ffcb`: BUG-K REVERT (metric-gaming caught) + TS-10 cleanup + Part 56
+- `b2cab3ec`: TS-02 reviewer-v5 correction (6 dropped + 5 contrast-annotated)
+- `937b5ca3`: Cross-corpus dedup (17 vocab + 2 kanji within-entry dups)
+- `6010096e`: Wave 1 (JA-164/165/166 + js/home.js migration + 20 audio orphans)
+- `60c36430`: Wave 2 (questions + papers schema-aware audit)
+- `021c9a52`: Wave 3 (conjugation-aware TS-05 + unified audit_all.py)
+- `e327f102`: Wave 4 (173 explanation_ja authored from concrete examples)
+- `4959aed9`: Wave 5 (full Playwright + deep axe + --color-correct fix)
 
 ### Documentation
-- `docs/AUDIT-COVERAGE-2026-05-24.md` — Parts 52-58 retrospective
-- `JLPT Common/procedure-manual-build-next-jlpt-level.md` — F.44.31-34
-- `prompts/Japanese language Accuracy check.txt` — FP-17..21, A-17/18
-- `prompts/N5Improvement.txt` — 3 new Phase-0 discipline blocks
+- `docs/AUDIT-COVERAGE-2026-05-24.md`: Parts 52-58 retrospective
+- `JLPT Common/procedure-manual-build-next-jlpt-level.md`: F.44.31-34
+- `prompts/Japanese language Accuracy check.txt`: FP-17..21, A-17/18
+- `prompts/N5Improvement.txt`: 3 new Phase-0 discipline blocks
 
 ### Standing native-human-review queue
-- Audio quality (1,768 grammar + 50 listening) — needs native ear
+- Audio quality (1,768 grammar + 50 listening): needs native ear
 - TS-08 deep English translation naturalness
 - 47 wcp-promoted cm rows + 9 Claude rewrites tagged for review
 - 173 auto-authored explanation_ja for native polish
 - Cultural appropriateness + JLPT level fit
 
-## v1.16.12 - 2026-05-24 (BUG-211 GRAMMAR-CT-001 close — rewrite English-meta-advice common_mistakes entries as real JA-JA pairs)
+## v1.16.12 - 2026-05-24 (BUG-211 GRAMMAR-CT-001 close: rewrite English-meta-advice common_mistakes entries as real JA-JA pairs)
 
 ### Background
 
@@ -1114,23 +1130,23 @@ wrong→corrected learner-mistake pair:
   n5-144 cm[0]:  wrong="Two different subjects with ながら"
                  right="Same subject for both verbs."
 
-This broke the wrong/right card affordance — no Japanese sentences
+This broke the wrong/right card affordance: no Japanese sentences
 to read aloud + compare; the audio pipeline could not voice the
 cards; the UI's strike-through/check-mark icons rendered against
 English advice text that didn't structurally match.
 
-### Fixed (Option A rewrite — preserves teaching point with real JA-JA pairs)
+### Fixed (Option A rewrite: preserves teaching point with real JA-JA pairs)
 
 - **BUG-211 / n5-026 cm[0]** (よ particle register teaching):
-  - wrong: `みなさんに よろしく おねがいしますよ。` (formal email — too casual)
-  - right: `みなさんに よろしく おねがいします。` (formal — drop the よ)
+  - wrong: `みなさんに よろしく おねがいしますよ。` (formal email, too casual)
+  - right: `みなさんに よろしく おねがいします。` (formal, drop the よ)
   - why: "よ adds a chatty, FYI-style tone. In formal written
     contexts (business emails, reports, official messages) drop よ
     for a neutral, professional register…"
 
 - **BUG-211 / n5-144 cm[0]** (verb-stem + ながら same-subject rule):
-  - wrong: `兄が テレビを 見ながら、私が ほんを 読みます。` (two subjects — wrong with ながら)
-  - right: `兄は テレビを 見ながら、ほんを 読みます。` (same subject — correct)
+  - wrong: `兄が テレビを 見ながら、私が ほんを 読みます。` (two subjects, wrong with ながら)
+  - right: `兄は テレビを 見ながら、ほんを 読みます。` (same subject, correct)
   - why: "ながら requires the SAME subject to do both actions
     simultaneously…"
 
@@ -1142,7 +1158,7 @@ auditors can trace the change.
 
 CategorizedtestScenarios.xlsx Grammar Pattern List + Grammar tab
 both refreshed: n5-026 + n5-144 now Pass on TS-03 (was Fail). All
-10 scenarios across 178 patterns now Pass / DEFERRED / N/A — no
+10 scenarios across 178 patterns now Pass / DEFERRED / N/A: no
 Fails outstanding.
 
 ### Discipline note
@@ -1169,11 +1185,11 @@ Option B (delete) would have lost the teaching point. Option C
 
 ### Bounded coverage
 
-- "TS-03 PASS on all 178 patterns" — programmatic schema check
+- "TS-03 PASS on all 178 patterns": programmatic schema check
   (zero-JA-chars predicate) only. Native-reviewer correctness of
   the rewrites (do the Japanese sentences sound natural? is the
   teaching pedagogically sound?) DEFERRED.
-- "Option A preserves teaching" — does NOT claim the rewrites
+- "Option A preserves teaching": does NOT claim the rewrites
   are pedagogically equivalent to the prior English advice; a
   native teacher should sanity-check the new sentences before
   considering the close-out final.
@@ -1187,7 +1203,7 @@ lives in BUG-211's description. Sufficient for traceability.
 
 ---
 
-## v1.16.11 - 2026-05-24 (Reviewer v5 close — 4 rationale_hi word-salad fixes + JA-160 marker extension)
+## v1.16.11 - 2026-05-24 (Reviewer v5 close: 4 rationale_hi word-salad fixes + JA-160 marker extension)
 
 ### Background
 
@@ -1199,49 +1215,49 @@ Per F.44.19 verify-before-fix with PRINT non-empty per-claim output
 against live data:
 
 - **Items 1-4 (specific REPLACE rules):** SEARCH strings were the
-  v1.16.8 broken Hindi rationales — already fixed in v1.16.9 (BUG-192
+  v1.16.8 broken Hindi rationales: already fixed in v1.16.9 (BUG-192
   to BUG-195). 0 hits in live data. Classified **STALE** per F.44.27
   (RECALL-NOT-READ pattern). Reviewer is reading from a packet that
   pre-dates v1.16.9 OR recalling from memory.
 
 - **Item 7 (validation regex set):** All 4 listed patterns
   (`करता है में` / `नहीं में सब` / `जहाँ आप` / `है कुछ एक`) returned
-  0 hits — JA-160 was already locking them. Classified **CONFIRMED-
+  0 hits: JA-160 was already locking them. Classified **CONFIRMED-
   CLEAN** (expected from existing CI).
 
-- **Item 5 (NORMALIZATION RULE — "भूखा + चाहना को खाना" pattern):**
+- **Item 5 (NORMALIZATION RULE: "भूखा + चाहना को खाना" pattern):**
   Reviewer's general pattern triggered a horizontal sweep that found
-  REAL defects — **the pattern is real even though items 1-4's
+  REAL defects: **the pattern is real even though items 1-4's
   search strings were stale**. The reviewer named 2 entry shapes
   (`भूखा + चाहना को खाना` / `भूखा → चाहना को खाना`); horizontal
   sweep on `चाहना को` found a 3rd entry (`चाहना को आराम`); plus
   `समय का क्रिया-कर्म` surfaced as semantically muddled. **4 REAL
-  fixes** — multiplier pattern (2 named → 4 fixed) per F.44.27
+  fixes**: multiplier pattern (2 named → 4 fixed) per F.44.27
   horizontal-sweep discipline.
 
 ### Fixed
 
-- **BUG-197 (RV5-001) — `bunpou-3.7` rationale_hi word-salad.** Was:
+- **BUG-197 (RV5-001): `bunpou-3.7` rationale_hi word-salad.** Was:
   `भूखा + चाहना को खाना।` (literal English "hungry + want to food",
   ungrammatical: infinitive + object-marker on noun). Rewrote to:
   `「～たい」 इच्छा-रूप ("करना चाहना")। おなかが すいた (भूख लगी) →
   「たべたい」 (खाना चाहता हूँ)। N5 इच्छा-पैटर्न।`
 
-- **BUG-198 (RV5-002) — `goi-5.1` rationale_hi word-salad.** Was:
+- **BUG-198 (RV5-002): `goi-5.1` rationale_hi word-salad.** Was:
   `भूखा → चाहना को खाना।` (same shape as RV5-001 with arrow).
   Rewrote to: `「おなかが すいて います」 = "भूख लगी है"। अर्थ-संबंध:
   भूख लगी होने पर खाना चाहना (たべたい) स्वाभाविक। इसलिए विकल्प 1
   「何か たべたいです」 सही पर्याय है।`
 
-- **BUG-199 (RV5-003) — `bunpou-3.9` rationale_hi word-salad.** Was:
+- **BUG-199 (RV5-003): `bunpou-3.9` rationale_hi word-salad.** Was:
   `चाहना को आराम।` ("want.INF object-marker rest", ungrammatical).
   Found by horizontal sweep on `चाहना को`, NOT explicitly named by
   reviewer. Rewrote to: `「～たい」 इच्छा-रूप ("करना चाहना")।
   つかれた (थक गया) → 「やすみたい」 (आराम करना चाहता हूँ)। N5
   इच्छा-पैटर्न।`
 
-- **BUG-200 (RV5-004) — `bunpou-1.7` rationale_hi semantic mud.**
-  Was: `समय का क्रिया-कर्म।` ("verb-object of time" — Hindi
+- **BUG-200 (RV5-004): `bunpou-1.7` rationale_hi semantic mud.**
+  Was: `समय का क्रिया-कर्म।` ("verb-object of time": Hindi
   compound noun chain semantically confusing for `に` particle on
   time expression). Found by horizontal sweep on `का क्रिया`, NOT
   explicitly named by reviewer. Rewrote to: `「に」 कण निश्चित
@@ -1251,25 +1267,25 @@ against live data:
 ### CI invariants extended
 
 - **JA-160** marker set extended (was 6 markers; now 7) with
-  `चाहना को` — locks against re-introduction of the "want.INF +
+  `चाहना को`: locks against re-introduction of the "want.INF +
   object-marker" word-salad shape. Tight pattern, low false-positive
   risk (infinitive + object-marker is non-standard Hindi).
 
 ### Acknowledged (no action)
 
 - **Item 6 specific patterns (`(के साथ) = with`, `meet`):** 0 hits
-  in live data. Classified **STALE** — reviewer's patterns don't
+  in live data. Classified **STALE**: reviewer's patterns don't
   exist in current rationale_hi corpus.
 
-- **Item 6 broader mixed-script sweep** — 3 hits found by broader
+- **Item 6 broader mixed-script sweep**: 3 hits found by broader
   Devanagari → English-word → Devanagari grep:
-  - `moji-1.6`: `(NHK समाचार, ओलंपिक 'Nippon')` — `Nippon` is a
+  - `moji-1.6`: `(NHK समाचार, ओलंपिक 'Nippon')`, `Nippon` is a
     deliberate romanization teaching aid for an N5 orthography
     rationale. Defensible. **No action.**
-  - `bunpou-2.3`: `सीधे कर्म (object) को` — `(object)` is an
+  - `bunpou-2.3`: `सीधे कर्म (object) को`, `(object)` is an
     English gloss clarifying the technical Hindi term `कर्म`.
     Defensible teaching aid. **No action.**
-  - `bunpou-2.13`: `भूत-सकारात्मक रूप (kinou + पिया)` — `kinou` is
+  - `bunpou-2.13`: `भूत-सकारात्मक रूप (kinou + पिया)`, `kinou` is
     romaji of きのう (from the stem). Defensible romaji teaching
     aid. **No action.**
 
@@ -1286,8 +1302,8 @@ This batch validates a new sub-pattern under F.44.27:
 > STALE/REAL individually, then horizontally sweep on the
 > reviewer's general pattern to catch what they missed.
 
-The previous v4 pattern was "stale entries, no real pattern" —
-ignore. The v5 pattern is "stale entries, real pattern" —
+The previous v4 pattern was "stale entries, no real pattern":
+ignore. The v5 pattern is "stale entries, real pattern":
 ignore-the-entries-but-sweep-the-pattern. Both flavors of
 RECALL-NOT-READ; F.44.27's defense (preflight) catches the v4
 shape; the v5 shape requires F.44.19 verify-before-fix downstream
@@ -1303,25 +1319,25 @@ shape; the v5 shape requires F.44.19 verify-before-fix downstream
 
 ### Bounded coverage
 
-- "4 word-salad fixes via reviewer pattern + horizontal sweep" —
+- "4 word-salad fixes via reviewer pattern + horizontal sweep":
   does NOT claim v1.16.11 is word-salad-free against a fresh
   native-Hindi-speaker review. JA-160's 7-marker pattern set is
   tight (avoids false positives) but catches only the documented
   shapes.
-- "JA-160 prevents re-introduction of these specific patterns" —
+- "JA-160 prevents re-introduction of these specific patterns":
   does NOT prevent new word-salad shapes that don't match any
   of the 7 markers; new markers added as new shapes surface.
 
 ---
 
-## v1.16.10 - 2026-05-24 (Reviewer-prompt preflight strengthening — v4 RECALL-NOT-READ defense + JA-161)
+## v1.16.10 - 2026-05-24 (Reviewer-prompt preflight strengthening: v4 RECALL-NOT-READ defense + JA-161)
 
 ### Background
 
 Reviewer v4 pass surfaced a new false-positive class the existing
 content-fingerprint guidance didn't catch: reviewer cited the correct
 `version.json.version` (v1.16.9) but quoted 4 Hindi rationale strings
-from v1.16.8 (the strings that had just been fixed in v1.16.9 —
+from v1.16.8 (the strings that had just been fixed in v1.16.9,
 `माता काम करता है में अस्पताल`, `नहीं में सब`, `करना यह`,
 `है कुछ एक पेय`). Per F.44.19 verify-before-fix against the actual
 packet on disk, all 4 strings in the shipped v1.16.9 packet matched
@@ -1330,14 +1346,14 @@ not the uploaded packet.
 
 The existing prompt already required a content fingerprint (पिच-accent
 entry count + あなた `examples[0].translation_en` first 40 chars).
-That defense is necessary but not sufficient — the reviewer either
+That defense is necessary but not sufficient: the reviewer either
 skipped it or filled it in correctly but still used recalled content
 for findings. v1.16.10 strengthens the prompt with a 3-block BINDING
 preflight + per-finding read-not-recalled discipline.
 
 ### Changed
 
-- **`docs/REVIEW-PACKET-PROMPT.md`** — replaced the single "Role &
+- **`docs/REVIEW-PACKET-PROMPT.md`**: replaced the single "Role &
   version anchor" section with a **3-block BINDING preflight**:
     1. `version.json` echo (version + cacheVersion + builtAt)
     2. Content-fingerprint echo with **explicit STALE-MARKER strings**
@@ -1358,7 +1374,7 @@ preflight + per-finding read-not-recalled discipline.
 
 ### CI invariants added
 
-- **JA-161** — `docs/REVIEW-PACKET-PROMPT.md` retains the 3-block
+- **JA-161**: `docs/REVIEW-PACKET-PROMPT.md` retains the 3-block
   preflight headers + the 4 v1.16.8 stale-content marker strings +
   the per-finding read-not-recalled checkbox + the no-paraphrase /
   no-translation-from-memory rules + the `RECALL-NOT-READ` triage
@@ -1372,12 +1388,12 @@ from the reviewer side:
 
 | Pass | Anchor | Content |
 |---|---|---|
-| v3 | **Fictional version cite** (`2026-05-23-n5-full`) | Findings against actual current data — still actionable |
-| v4 | **Correct version cite** (v1.16.9) | Findings against v1.16.8 strings that were fixed in the cited v1.16.9 — STALE artifacts |
+| v3 | **Fictional version cite** (`2026-05-23-n5-full`) | Findings against actual current data: still actionable |
+| v4 | **Correct version cite** (v1.16.9) | Findings against v1.16.8 strings that were fixed in the cited v1.16.9: STALE artifacts |
 
 v3 was caught by the existing F.44.19 verify-before-fix (content
 verified against real data, despite the bogus version label). v4
-required stronger upstream defense — the reviewer's findings looked
+required stronger upstream defense: the reviewer's findings looked
 plausible until cross-checked against the shipped packet (which all
 4 strings showed as already-fixed). The strengthened preflight now
 forces the reviewer to either echo the FIXED string (which proves
@@ -1387,19 +1403,19 @@ reports cannot pass either gate.
 
 ### Procedure manual + prompts propagation (Rule 4)
 
-- `JLPT Common/procedure-manual-build-next-jlpt-level.md` — F.44.27
+- `JLPT Common/procedure-manual-build-next-jlpt-level.md`: F.44.27
   + F.44.28 added (RECALL-NOT-READ false-positive class + the
   3-block preflight defense pattern + drift-class lineage table
   extension, generalized for next-Nx-level builders).
-- `N5/prompts/Japanese language Accuracy check.txt` — FP entry
+- `N5/prompts/Japanese language Accuracy check.txt`: FP entry
   for "stale-content recalled despite correct version cite".
-- `N5/prompts/N5Improvement.txt` — Phase-0 regression block
+- `N5/prompts/N5Improvement.txt`: Phase-0 regression block
   validating JA-161 returns 0 (proves the prompt still has the
   defenses).
-- `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 50 added
+- `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 50 added
   documenting the v4 reviewer pass close-out + the prompt
   strengthening.
-- `N5/docs/cross-artifact-sync-map.md` — Part 50 row added.
+- `N5/docs/cross-artifact-sync-map.md`: Part 50 row added.
 
 ### CI / tracker / version
 
@@ -1413,46 +1429,46 @@ reports cannot pass either gate.
 ### Bounded coverage
 
 - "Strengthened preflight defends against the v4 RECALL-NOT-READ
-  failure mode" — does NOT claim the prompt is reviewer-proof
+  failure mode": does NOT claim the prompt is reviewer-proof
   against every future stale-anchor variant. New patterns will
   surface; the defense lineage will grow.
-- "JA-161 locks the 12 required defense markers in the prompt" —
+- "JA-161 locks the 12 required defense markers in the prompt":
   guards substring presence; does NOT verify the surrounding text
   still reads coherently if a future edit reshapes the section
   while preserving the markers.
 
 ---
 
-## v1.16.9 - 2026-05-23 (Reviewer v3 close — 4 Hindi word-salad fixes + style-guide doc + JA-160 + discipline note on version-cite drift)
+## v1.16.9 - 2026-05-23 (Reviewer v3 close: 4 Hindi word-salad fixes + style-guide doc + JA-160 + discipline note on version-cite drift)
 
 ### Background
 
 Third reviewer pass surfaced 4 REAL Hindi defects + 1 FRAMING (style doc
 needed) + 2 DEFERRED-BY-DESIGN (already-queued) + 1 PREFERENCE (skipped).
 Reviewer's version cite was **fictional** (`2026-05-23-n5-full` /
-`2026-05-23T12:00:00Z` — never existed in our timeline; actual current
+`2026-05-23T12:00:00Z`: never existed in our timeline; actual current
 is v1.16.8 / 2026-05-23T17:00:00Z), but all content findings verified
 against actual data per F.44.19 verify-before-fix.
 
 ### Fixed
 
-- **BUG-192 (RV3-001) — dokkai-2.5 rationale_hi Hindi gender + word-order
+- **BUG-192 (RV3-001): dokkai-2.5 rationale_hi Hindi gender + word-order
   errors.** Was: `母は 病院で はたらいて います - माता काम करता है में
   अस्पताल।` (masculine verb करता with feminine subject माता; copula
-  position wrong). Rewrote to: `「母は 病院で はたらいて います」 — माँ
+  position wrong). Rewrote to: `「母は 病院で はたらいて います」, माँ
   अस्पताल में काम करती हैं।` (correct gender + Hindi SOV).
 
-- **BUG-193 (RV3-002) — goi-3.4 rationale_hi: `ぜんぜん + नकारात्मक =
+- **BUG-193 (RV3-002), goi-3.4 rationale_hi: `ぜんぜん + नकारात्मक =
   "नहीं में सब"` literal artifact.** "नहीं में सब" is meaningless
   Hindi (word-by-word transfer of "not in all"). Rewrote to idiomatic
   `बिलकुल नहीं / ज़रा भी नहीं` ("absolutely not / not even a bit").
 
-- **BUG-194 (RV3-003) — bunpou-1.8 rationale_hi: `क्रिया का स्थान
+- **BUG-194 (RV3-003), bunpou-1.8 rationale_hi: `क्रिया का स्थान
   (जहाँ आप करना यह)` broken infinitive.** "करना यह" is not valid
   Hindi (infinitive + demonstrative). Rewrote to natural explanation
   of で particle: `「で」 क्रिया का स्थान बताता है (जहाँ काम होता है)।`
 
-- **BUG-195 (RV3-004) — goi-1.1 rationale_hi: `コーヒー है कुछ एक पेय
+- **BUG-195 (RV3-004), goi-1.1 rationale_hi: `コーヒー है कुछ एक पेय
   (のむ)` anglicism + broken syntax.** "है कुछ एक पेय" is a literal
   English transfer ("is some-one drink"). Rewrote to natural Hindi:
   `「コーヒー」 एक पेय है, और इसके साथ क्रिया 「のむ」 (पीना) का
@@ -1460,7 +1476,7 @@ against actual data per F.44.19 verify-before-fix.
 
 ### Documented
 
-- **BUG-196 (RV3-005, Finding 6 FRAMING) — moji mondai-2 minimal-
+- **BUG-196 (RV3-005, Finding 6 FRAMING): moji mondai-2 minimal-
   rationale style.** New doc `docs/PAPER-RATIONALE-STYLE-GUIDE.md`
   explicitly documents that moji Mondai 2 (orthography) rationales
   intentionally use a minimal morpheme+reading-breakdown style
@@ -1470,10 +1486,10 @@ against actual data per F.44.19 verify-before-fix.
 
 ### Acknowledged
 
-- **Findings 1, 2 (DEFERRED-BY-DESIGN)** — dokkai-2.3 + dokkai-7.6
+- **Findings 1, 2 (DEFERRED-BY-DESIGN)**: dokkai-2.3 + dokkai-7.6
   audit blocks already in place per F.44.21. No action.
-- **Finding 7 (PREFERENCE)** — Hindi punctuation consistency (mixed
-  `—` and `।`). Skipped; would require 100+ entry sweeps with
+- **Finding 7 (PREFERENCE)**, Hindi punctuation consistency (mixed
+  `-` and `।`). Skipped; would require 100+ entry sweeps with
   marginal benefit; cosmetic.
 
 ### Discipline note (version-cite violation)
@@ -1492,14 +1508,14 @@ all reproduced exactly against current corpus state. So while the
 version cite was unreliable, the content was sound.
 
 **Discipline lesson:** version-cite is necessary but not sufficient
-— content claims must be verified independently. F.44.19 caught the
+: content claims must be verified independently. F.44.19 caught the
 gap; no harm done this cycle. Could add a stricter requirement to
 the prompt: reviewer must quote a literal field value (e.g., the
 exact builtAt string) so fabrication is detectable upfront.
 
 ### CI invariants added
 
-- **JA-160** — rationale_hi free of word-salad markers (`कुछ एक` /
+- **JA-160**: rationale_hi free of word-salad markers (`कुछ एक` /
   `है में` / `करना यह` / `नहीं में सब` / etc.). Tight pattern set
   to avoid false positives on the documented minimal style.
 
@@ -1512,9 +1528,9 @@ exact builtAt string) so fabrication is detectable upfront.
 
 ### Bounded coverage
 
-- "4 word-salad fixes + 1 style-doc + 1 framing acknowledgment" —
+- "4 word-salad fixes + 1 style-doc + 1 framing acknowledgment":
   does NOT assert v1.16.9 is defect-free against a fresh review.
-- "JA-160 pattern set: 6 explicit markers" — does NOT catch every
+- "JA-160 pattern set: 6 explicit markers": does NOT catch every
   possible word-salad pattern; tight to avoid false positives on
   the documented minimal-rationale style for moji mondai-2.
 
@@ -1532,19 +1548,19 @@ surfaces into 21 total fixes.
 
 ### Fixed
 
-- **BUG-186 (RV-001) — あなた example [0] translation_en mismatch.**
+- **BUG-186 (RV-001): あなた example [0] translation_en mismatch.**
   Field said "Who are you?" for ja 「田中さんは どこから 来ましたか。」.
   Root cause: RP-002 fix updated a NEW `en` field with rich commentary
   but left the canonical `translation_en` (3036/3036 examples) stale.
   Resolution: merged RP-002 commentary into `translation_en`; dropped
   the redundant `en` field on 3 あなた examples.
 
-- **BUG-187 (RV-002) — あなた example [2] translation_en mismatch.**
+- **BUG-187 (RV-002): あなた example [2] translation_en mismatch.**
   Field said "How old are you?" for ja 「あなたの 名前を ここに 書いて
   ください。」. Same root cause as RV-001. Updated to "Please write
   your name here…" with form-filling context note.
 
-- **BUG-188 (RV-003) — Listening glossary substring-collision
+- **BUG-188 (RV-003): Listening glossary substring-collision
   contamination.** Reviewer found 1 case (n5.listen.001 has あし
   glossary entry; script_ja contains ましょう substring-matched as
   あし). Horizontal sweep across 50 items found **3 total**:
@@ -1552,7 +1568,7 @@ surfaces into 21 total fixes.
   Resolution: removed 3 irrelevant glossary entries. New CI invariant
   **JA-159** locks the form-or-reading-in-script_ja predicate.
 
-- **BUG-189 (RV-004) — Listening speaker tag drift.** Reviewer found
+- **BUG-189 (RV-004): Listening speaker tag drift.** Reviewer found
   1 case (n5.listen.001 line[2] tagged male despite 女： prefix).
   Horizontal sweep found **18 mismatches across 8 listening items**
   (likely a build-pipeline bug that assigned all dialogue speakers
@@ -1560,14 +1576,14 @@ surfaces into 21 total fixes.
   speaker tags based on prefix. New CI invariant **JA-158** locks the
   speaker-tag-vs-prefix predicate.
 
-- **BUG-191 (RV-006) — q-0005 distractor_explanations_hi.で polish.**
+- **BUG-191 (RV-006): q-0005 distractor_explanations_hi.で polish.**
   English-loanword "फ़िट होता है" replaced with natural Hindi
   "उपयुक्त नहीं है".
 
 ### Acknowledged (PREFERENCE)
 
-- **BUG-190 (RV-005) — かれ + かのじょ gloss enrichment.** Reviewer
-  suggested either reverting to "he, him (primary)" (REJECTed — NTR-003
+- **BUG-190 (RV-005), かれ + かのじょ gloss enrichment.** Reviewer
+  suggested either reverting to "he, him (primary)" (REJECTed, NTR-003
   project stance preserved) or adding explicit "modern conversational
   bias" marker to the current gloss (ACCEPTED). New gloss:
   "boyfriend (primary in modern conversational Japanese); he, him
@@ -1576,7 +1592,7 @@ surfaces into 21 total fixes.
 
 ### Deferred (per reviewer's classification)
 
-- **Finding 7 — broader pitch-accent verification queue.** Reviewer
+- **Finding 7: broader pitch-accent verification queue.** Reviewer
   correctly flagged DEFERRED-BY-DESIGN. The F.44.21 audit-block
   scaffold pattern is the protocol; expanding the queue beyond the
   current 3 entries (あなた / みなさん / きのう) is separate work that
@@ -1584,13 +1600,13 @@ surfaces into 21 total fixes.
 
 ### Acknowledged zero-findings
 
-- **Finding 8 — cross-corpus consistency PASS.** Reviewer's spot-check
+- **Finding 8: cross-corpus consistency PASS.** Reviewer's spot-check
   of vocab↔grammar↔questions ID resolution returned zero hits.
 
 ### CI invariants added
 
-- **JA-158** — listening line speaker tag matches 男:/女: prefix
-- **JA-159** — listening vocab_glossary form OR reading appears in
+- **JA-158**: listening line speaker tag matches 男:/女: prefix
+- **JA-159**, listening vocab_glossary form OR reading appears in
   script_ja (substring-collision guard)
 
 ### CI / tracker / version
@@ -1604,10 +1620,10 @@ surfaces into 21 total fixes.
 ### Bounded coverage
 
 - "4 REAL + 2 horizontal sweeps closed; 1 DEFERRED-BY-DESIGN preserved;
-  1 PREFERENCE enriched-without-revert" — does NOT assert v1.16.8 is
+  1 PREFERENCE enriched-without-revert": does NOT assert v1.16.8 is
   defect-free against a fresh independent review.
 - "Horizontal sweep multipliers: Finding 3 reviewer surfaced 1, found
-  3 total; Finding 4 reviewer surfaced 1, found 18 total" — the
+  3 total; Finding 4 reviewer surfaced 1, found 18 total": the
   reviewer-spot-check + horizontal-sweep pattern continues to find
   ~3-18× the reviewer's directly-named count.
 
@@ -1630,7 +1646,7 @@ surfaces into 21 total fixes.
 
 ### Engineering
 
-- **CI invariant JA-157 — paper-static-mirror staleness gate.**
+- **CI invariant JA-157: paper-static-mirror staleness gate.**
   For each `data/papers/<cat>/paper-N.json` source, the corresponding
   `papers/<cat>-N/index.html` static mirror must contain every
   question id from the JSON. Catches the failure mode where content
@@ -1644,20 +1660,20 @@ surfaces into 21 total fixes.
 
 ### Framing clarification (no data change)
 
-- **Items 8 / 12 / 15 — auto_inferred grammarPatternId provenance**
+- **Items 8 / 12 / 15: auto_inferred grammarPatternId provenance**
   (208 entries: 89 goi + 41 bunpou + 78 dokkai). PARTIAL classification
   stands as-is: `auto_inferred` IS the documented provenance label per
   F.41 / DOCS-VOCAB-005 conventions. The reviewer's "unverified"
   framing doesn't match the project's documented stance. No data
   change. If a future native-review pass wants to upgrade specific
   entries to `native_reviewed`, the F.44.21 audit-block scaffold
-  pattern (shipped in v1.16.4 for pitch-accent) is the protocol —
+  pattern (shipped in v1.16.4 for pitch-accent) is the protocol:
   separate batch from this release.
 
 ### CI / tracker / version
 
 - CI invariants: **159 / 159** (was 158; +JA-157).
-- Bug tracker: **190 / 190 Fixed / 0 Open** (unchanged — RP-010
+- Bug tracker: **190 / 190 Fixed / 0 Open** (unchanged, RP-010
   follow-up + JA-157 are engineering, not bug filings).
 - Version: v1.16.6 → **v1.16.7**.
 - Packet: v1.16.7 / 2026-05-23T15:00:00Z, JA-156 + JA-157 PASS.
@@ -1668,40 +1684,40 @@ After this release, all genuinely-actionable items from the
 reviewer's 19-item review of v1.16.4 are closed:
 - 10 REAL → fixed (RP-001..010 / BUG-181..190 across v1.16.5/.6/.7)
 - 4 REJECT-with-rationale (items 3 / 4 / 10 / 17)
-- 3 PARTIAL framing-only (items 8 / 12 / 15 — documented stance)
+- 3 PARTIAL framing-only (items 8 / 12 / 15, documented stance)
 - 2 edge / observed-and-accepted (item 16)
 
 ---
 
-## v1.16.6 - 2026-05-23 (Reviewer's 19-item review — Batch B+C close: distractor swaps + rationale enrichment + correctIndex rebalance + CRITICAL UI fix for passage-dependent questions)
+## v1.16.6 - 2026-05-23 (Reviewer's 19-item review, Batch B+C close: distractor swaps + rationale enrichment + correctIndex rebalance + CRITICAL UI fix for passage-dependent questions)
 
 ### Fixed (Batches B + C)
 
-- **BUG-186 (RP-006) — 7 off-level distractor swaps in moji-6.9/6.11/
+- **BUG-186 (RP-006): 7 off-level distractor swaps in moji-6.9/6.11/
   6.12/7.4.** Replaced N1+/non-JLPT distractors (訊/詠/諳/掻/謂) with
   visually-similar in-scope alternatives (問/話/語/画/試). Added 問 + 試
   to `dokkai_kanji_exception` with `surfaces=['paper-distractor']`
   per the F.41 paper-distractor exception convention.
 
-- **BUG-187 (RP-007) — 36 thin moji mondai-2 rationales template-
+- **BUG-187 (RP-007): 36 thin moji mondai-2 rationales template-
   enriched.** Replaced rationales under 15 chars with a structured
   template naming the visually-similar distractors. Provenance:
   `template_enriched_2026_05_23`.
 
-- **BUG-188 (RP-008) — moji correctIndex rebalance.** Distribution
+- **BUG-188 (RP-008): moji correctIndex rebalance.** Distribution
   28/26/25/21 → 25/26/25/24 (3 questions rotated).
 
-- **BUG-189 (RP-009) — goi correctIndex rebalance.** Distribution
+- **BUG-189 (RP-009): goi correctIndex rebalance.** Distribution
   27/27/25/21 → 25/25/25/25 (4 questions rotated).
 
-- **BUG-190 (RP-010) — CRITICAL UI fix: passage-dependent questions
+- **BUG-190 (RP-010), CRITICAL UI fix: passage-dependent questions
   never rendered their passage context.** `js/papers.js` was reading
   the legacy `q.passage_text` field that DOKKAI-001 close-out
   (2026-05-18) migrated AWAY from. After that migration, passages
   live in the top-level `passages` block (list of
   `{label, text, question_ids}`) and questions reference them via
   `q.passage_label`. The UI had not been updated to follow the
-  migration — so bunpou-7 mondai-3 (passage-dependent grammar) and
+  migration, so bunpou-7 mondai-3 (passage-dependent grammar) and
   dokkai-7 mondai-7 (情報検索, 6 passages × 2 questions = 12 questions)
   silently rendered as nonsense (`→ [1]番。` style stems with no
   context above). Fix: look up `q.passage_label` in
@@ -1709,7 +1725,7 @@ reviewer's 19-item review of v1.16.4 are closed:
   defensive safety. **Closes items 11 + 13 of the reviewer's
   19-item review at the root cause** (UI rendering contract) rather
   than as content rewrites. Markdown table rendering inside
-  blockquotes (dokkai-7) still uses plain renderer — passages now
+  blockquotes (dokkai-7) still uses plain renderer: passages now
   display as raw markdown rather than not displaying at all;
   rich-markdown-table renderer deferred as separate item.
 
@@ -1729,7 +1745,7 @@ reviewer's 19-item review of v1.16.4 are closed:
 
 ---
 
-## v1.16.5 - 2026-05-23 (Reviewer's 19-item review of v1.16.4 — Batch A close: 5 paper content fixes + 5 REJECTs with rationale + 5 deferred to Batches B/C)
+## v1.16.5 - 2026-05-23 (Reviewer's 19-item review of v1.16.4, Batch A close: 5 paper content fixes + 5 REJECTs with rationale + 5 deferred to Batches B/C)
 
 ### Background
 
@@ -1737,7 +1753,7 @@ External reviewer ran a consolidated 19-item review against v1.16.4
 covering the 4 paper corpora (moji / goi / bunpou / dokkai) plus
 cross-cutting style claims. Triage per F.44.17 + F.44.19 + F.44.23
 disciplines:
-  - 5 of 19 closed as REAL defects (this release — Batch A)
+  - 5 of 19 closed as REAL defects (this release, Batch A)
   - 5 deferred to Batches B / C (preference-tweaks + UI rendering)
   - 4 rejected with explicit rationale
   - 3 classified PARTIAL framing-disagreement
@@ -1745,59 +1761,59 @@ disciplines:
 
 ### Fixed (Batch A)
 
-- **BUG-181 (RP-001) — goi-4.13 tautological paraphrase.**
+- **BUG-181 (RP-001): goi-4.13 tautological paraphrase.**
   Stem 「きのうの よる、はやく ねました」 → answer 「きのう はやく
   ねました」 only differed by dropping よる. Rewrote stem to
   「きのうの よる、はやく ベッドに 入りました」 testing
-  「ベッドに 入る」≡「ねる」 (get into bed ≡ sleep) — genuine
+  「ベッドに 入る」≡「ねる」 (get into bed ≡ sleep): genuine
   vocabulary equivalence.
 
-- **BUG-182 (RP-002) — goi-4.6 hospital-worker → doctor too loose.**
+- **BUG-182 (RP-002): goi-4.6 hospital-worker → doctor too loose.**
   Original stem 「父は びょういんで はたらいて います」 (father
   works at hospital) → answer 「父は いしゃです」 (he's a doctor).
   Hospital worker isn't necessarily a doctor. Tightened stem to
   「ちちは びょういんで びょうきの 人を みて います」 (sees sick
-  people at hospital) — makes the inference defensible.
+  people at hospital): makes the inference defensible.
 
-- **BUG-183 (RP-003) — 2 dokkai rationale_hi llm_curated entries
+- **BUG-183 (RP-003): 2 dokkai rationale_hi llm_curated entries
   queued for native review.** dokkai-2.3 and dokkai-7.6 carried
   `rationale_hi_provenance: 'llm_curated'`. Added
   `audit.verifier_pending: true` block to both per the F.44.21
   audit-block schema, so a future human native Hindi/Japanese
   reviewer can fill in result_schema.
 
-- **BUG-184 (RP-004) — 4 mixed-register rationales rewritten
+- **BUG-184 (RP-004): 4 mixed-register rationales rewritten
   all-Japanese.** Pattern like 「time + に for time of action」
   (English + Japanese particle fragments). Hits: goi-2.4, goi-7.4,
   goi-7.10, bunpou-7.1. All 4 rewritten in coherent Japanese.
 
-- **BUG-185 (RP-005) — 5 Hindi-punctuation hits cleaned.** Pattern
-  「父 (father)।」 — danda after parenthetical English gloss inside
+- **BUG-185 (RP-005), 5 Hindi-punctuation hits cleaned.** Pattern
+  「父 (father)।」, danda after parenthetical English gloss inside
   Hindi rationale. Hits: moji-4.11, moji-5.3, goi-1.4, bunpou-1.10,
   bunpou-2.4. Translated all parenthetical glosses to Hindi.
 
 ### Rejected (Part 48 audit log documents rationale)
 
-- **Item 3** — moji-1.5 "uses 員, N4 not N5". 員 IS in this
+- **Item 3**: moji-1.5 "uses 員, N4 not N5". 員 IS in this
   project's n5_kanji_whitelist (intentional inclusion); project
   scope explicitly includes it.
-- **Item 4** — moji-2.1 distractor なながつ "defensible but non-
+- **Item 4**: moji-2.1 distractor なながつ "defensible but non-
   standard". Defensible distractor; mondai 2 distractors are
   designed to be plausible misreads.
-- **Item 10** — bunpou-7.10 "rationale claims ぐらい clashes with
+- **Item 10**: bunpou-7.10 "rationale claims ぐらい clashes with
   ぜったいに". Reviewer misread: the correct answer is でも (not
   ぐらい); the rationale never makes the ぐらい-clash claim.
-- **Item 17** — "No 聴解 section". `data/listening.json` EXISTS
+- **Item 17**: "No 聴解 section". `data/listening.json` EXISTS
   with 50 items. Verified false.
 
 ### Deferred to Batches B / C
 
-- **Items 1 + 5** — distractor-level adjustment (7 entries) +
+- **Items 1 + 5**: distractor-level adjustment (7 entries) +
   correctIndex distribution rebalance. Both are JLPT-format-
   acceptable; surfaced as preference-tweaks vs defect-repairs.
-- **Item 2** — bulk enrichment of 36 thin mondai-2 rationales in
+- **Item 2**: bulk enrichment of 36 thin mondai-2 rationales in
   moji. Large mechanical content task; deferred to dedicated batch.
-- **Items 11 + 13** — bunpou mondai-3 passage-dependent stems +
+- **Items 11 + 13**: bunpou mondai-3 passage-dependent stems +
   dokkai paper-7 markdown blockquote+pipe-tables. Both rendering-
   contract concerns; need UI investigation before action.
 
@@ -1819,17 +1835,17 @@ disciplines:
 
 ### Bounded-coverage phrasing
 
-- "5 of 19 reviewer items closed in Batch A" — does NOT assert
+- "5 of 19 reviewer items closed in Batch A": does NOT assert
   the 19 items represent a complete review of v1.16.4.
-- "4 REJECTs with rationale" — REJECT items are documented; if
+- "4 REJECTs with rationale": REJECT items are documented; if
   the reviewer disagrees with any rejection, the specific
   argument should surface so we can re-triage.
-- "5 items deferred to Batches B/C" — does NOT commit to shipping
+- "5 items deferred to Batches B/C": does NOT commit to shipping
   those; Batch B/C scope/timing is a separate decision.
 
 ---
 
-## v1.16.4 - 2026-05-23 (Native-speaker-verification audit-block scaffold — LLM declined verification task; shipped protocol doc + queue file + JA-155 + scaffolded blocks instead)
+## v1.16.4 - 2026-05-23 (Native-speaker-verification audit-block scaffold: LLM declined verification task; shipped protocol doc + queue file + JA-155 + scaffolded blocks instead)
 
 ### Background
 
@@ -1842,7 +1858,7 @@ audit pipeline that produced the kanjium-by-reading drops, so
 LLM-authored verification would be circular authority.
 
 Doing the task as written would have set a precedent that LLM-
-authored verification of native-intuition claims is acceptable —
+authored verification of native-intuition claims is acceptable:
 eroding the trust contract for verification claims across the
 corpus.
 
@@ -1880,13 +1896,13 @@ pass.
   `result_schema` populated. Grandfathered entries (no audit
   block) accepted as-is.
 - **`docs/NATIVE-SPEAKER-RE-VERIFICATION.md#pitch-accent-protocol-2026-05-23`**
-  — 5-step protocol for the human verifier (NHK lookup → audio
+ : 5-step protocol for the human verifier (NHK lookup → audio
   location in listening passages → audio-vs-dictionary
   reconciliation defaulting to audio → match_kind promotion →
   vocab.json cross-update). Plus discipline meta-note documenting
   that Claude declined the task per F.44.7 + F.44.15 Shape 2.
 - **`docs/PITCH-ACCENT-VERIFICATION-QUEUE-2026-05-23.md`** +
-  **`.json`** — 587 remaining `match_kind: "by-reading"` entries
+  **`.json`**, 587 remaining `match_kind: "by-reading"` entries
   sorted by N5 vocab frequency proxy (vocab.json section number)
   for the broader native-speaker pass.
 
@@ -1905,7 +1921,7 @@ pass.
 
 ### Engineering
 
-- **Procedure-manual F.44.21** — generalized audit-block schema
+- **Procedure-manual F.44.21**: generalized audit-block schema
   pattern for LLM-circular-authority claims. Four discipline
   anchors: no LLM-authored verification of native-intuition
   claims; scaffold-don't-fake; CI invariant locks the discipline;
@@ -1913,14 +1929,14 @@ pass.
   domain-specific verification needs (natural-sounding L2
   judgments, dialect-specific register checks, audio-prosody
   assessment).
-- **Procedure-manual F.44.22** — drift-class lineage table
+- **Procedure-manual F.44.22**: drift-class lineage table
   extension for native-speaker-deferral discipline.
-- **Accuracy prompt A86** — captures the scaffold-don't-fake
+- **Accuracy prompt A86**: captures the scaffold-don't-fake
   pattern for the audit-prompt catalog. Bounded-coverage phrasing.
 - **N5Improvement Phase-0 native-speaker-verification audit-block
-  discipline block** — 5 maintainer-side pre-release checks.
-- **AUDIT-COVERAGE Part 44** — full close-out documenting what
-  was scaffolded, what was NOT done (intentionally — no values
+  discipline block**: 5 maintainer-side pre-release checks.
+- **AUDIT-COVERAGE Part 44**, full close-out documenting what
+  was scaffolded, what was NOT done (intentionally, no values
   populated, no match_kind promotion, no bug filed against the 3
   entries since they are correctly-flagged-for-verification, not
   defects).
@@ -1928,7 +1944,7 @@ pass.
 ### CI / tracker / version
 
 - CI invariants: **157 / 157** (was 156; +JA-155).
-- Bug tracker: **180 / 180 Fixed / 0 Open** (unchanged — this
+- Bug tracker: **180 / 180 Fixed / 0 Open** (unchanged, this
   release filed no bugs; the 3 pitch-accent entries are not
   defects, they are correctly flagged for verification).
 - Version: v1.16.3 → **v1.16.4** (data deltas: 3 audit blocks +
@@ -1938,17 +1954,17 @@ pass.
 ### Bounded-coverage phrasing
 
 - "Audit-block scaffolded on 3 canary entries with
-  `verifier_pending: true`" — does NOT assert the entries are
+  `verifier_pending: true`": does NOT assert the entries are
   verified.
 - "354 pre-existing `match_kind: 'exact'` entries are
-  grandfathered as legacy kanjium-exact-form provenance" — does
+  grandfathered as legacy kanjium-exact-form provenance": does
   NOT assert they're native-speaker-verified; the authority bar
   is the original automated match.
 - "JA-155 locks audit-block completeness on entries that have
-  one" — does NOT require every `match_kind: 'exact'` entry to
+  one", does NOT require every `match_kind: 'exact'` entry to
   have an audit block (grandfather rule explicit).
 - "Queue file lists 587 by-reading entries for the broader
-  pass" — does NOT commit to running the broader pass; that
+  pass": does NOT commit to running the broader pass; that
   requires a real human + access to NHK 2016.
 
 ### Honest scope statement
@@ -1970,7 +1986,7 @@ After v1.16.2 shipped, the reviewer ran a re-pass against the
 regenerated review packet and surfaced 4 additional items.
 **One was a self-correction:** Part 42's STALE classification of
 re-paste item #2 (n5-017/n5-045 duplicate) was false-positive
-due to a verification-script bug — the script used the wrong
+due to a verification-script bug: the script used the wrong
 top-level key (`g.get('grammar')` instead of `g.get('patterns')`)
 and silently iterated empty; the empty output was misread as
 "STALE confirmed."
@@ -1991,7 +2007,7 @@ verification, not confirmed STALE.
 
 ### Fixed
 
-- **BUG-177 (NTR-FU-004) — n5-045 deprecation lattice cleanup
+- **BUG-177 (NTR-FU-004): n5-045 deprecation lattice cleanup
   incomplete.** eda9441 set `deprecated: true` + `_alias_of` +
   `deprecated_reason` on the grammar.json side. Two follow-ups
   remained: (a) n5-045 still appeared in `n5_core_pattern_ids.json`
@@ -2014,30 +2030,30 @@ verification, not confirmed STALE.
       `core_actual` / `late_actual` / `deferred_actual` tier
       comparisons
 
-- **BUG-178 (NTR-FU-005) — あなた examples [1] and [2] contradicted
+- **BUG-178 (NTR-FU-005): あなた examples [1] and [2] contradicted
   the new usage_note.** NTR-004 added a usage_note documenting
   formal/intimate/marked-only restriction + rewrote example [0]
   to a name+さん alternative. Examples [1] and [2] kept using
   あなた the way the usage_note warns against:
-    - [1] was `あなたは がくせいですか。` — rewritten to
+    - [1] was `あなたは がくせいですか。`, rewritten to
       `山田さんは がくせいですか。` (parallel to [0])
-    - [2] was `あなたは 何さいですか。` — rewritten to `あなたの
+    - [2] was `あなたは 何さいですか。`, rewritten to `あなたの
       名前を ここに 書いて ください。` (form-filling context,
-      one of the few places あなた is the natural choice — preserves
+      one of the few places あなた is the natural choice, preserves
       a positive example of legitimate use)
   Name 山田 chosen over 木村 so the kanji stay within whitelist
   (JA-150 PASS). Provenance: native_reviewed_2026_05_23.
 
-- **BUG-179 (NTR-FU-006) — じぶん (reflexive) carried plain
+- **BUG-179 (NTR-FU-006): じぶん (reflexive) carried plain
   counter.** NTR-013 added `applies_to: 'noun_of_reference'` to
   collective pronouns (私たち / みなさん). Singular pronouns
-  (私, あなた, etc.) kept plain counter — defensibly, since
+  (私, あなた, etc.) kept plain counter: defensibly, since
   counting people with 人 IS semantically valid (1人, 2人, 3人).
-  But じぶん is REFLEXIVE — "ones-self" isn't a meaningful count.
+  But じぶん is REFLEXIVE: "ones-self" isn't a meaningful count.
   Added applies_to='noun_of_reference' + reflexive-counter-
   suppression note. Provenance: native_reviewed_2026_05_23.
 
-- **BUG-180 (NTR-FU-007) — Vocab ID-slug section staleness.**
+- **BUG-180 (NTR-FU-007): Vocab ID-slug section staleness.**
   NTR-005 + NTR-006 retagged section fields for おはし (20 → 19)
   and えいが (26 → 37). Entry IDs embedding the original section
   slug (`n5.vocab.20-tableware-and-cooking.はし-chopsticks`;
@@ -2056,34 +2072,34 @@ verification, not confirmed STALE.
 
 ### Engineering
 
-- **Procedure-manual F.44.19** — Re-paste triage verification-
+- **Procedure-manual F.44.19**: Re-paste triage verification-
   script correctness amendment. STALE classification MUST run
   actual data-inspection that prints non-empty per-claim output.
   Silent iterations are failed verification, not confirmed
   STALE. First-pass sanity check on known-present field is
   mandatory before any STALE classification.
 
-- **Procedure-manual F.44.20** — Four new follow-up defect
+- **Procedure-manual F.44.20**: Four new follow-up defect
   sub-classes documented for Nx-builders:
-    - Class B sub-class — deprecation lattice complete on entry,
+    - Class B sub-class, deprecation lattice complete on entry,
       incomplete on canonical-pattern catalog
-    - Class D sub-class — pronoun-usage-note added; example-
+    - Class D sub-class, pronoun-usage-note added; example-
       cohort sweep incomplete
-    - Class K sub-class — reflexive vs singular pronoun counter
+    - Class K sub-class, reflexive vs singular pronoun counter
       distinction
-    - Class P — ID-immutability vs section-retag divergence
+    - Class P, ID-immutability vs section-retag divergence
       (new top-level class)
 
-- **Accuracy prompt A85** — captures the discipline tightening +
+- **Accuracy prompt A85**: captures the discipline tightening +
   4 sub-classes for the audit-prompt pattern catalog.
 
-- **N5Improvement Phase-0 re-paste triage tightening block** —
+- **N5Improvement Phase-0 re-paste triage tightening block**:
   5 maintainer-side pre-release checks: verification-script
   sanity; deprecated-grammar-bucket discipline; pronoun
   example-cohort sweep; reflexive pronoun counter; vocab
   ID-slug section staleness flag.
 
-- **AUDIT-COVERAGE Part 43** — full close-out with discipline-
+- **AUDIT-COVERAGE Part 43**: full close-out with discipline-
   failure debrief + bugs filed/closed + CI invariants + bounded-
   coverage phrasing bounds. Includes the corrected count for
   Part 42: 8 STALE + 1 PARTIAL (not 9 STALE).
@@ -2103,16 +2119,16 @@ verification, not confirmed STALE.
 - "Part 42's '9 of 13 STALE' had 1 false-positive STALE
   (verification-script bug); corrected as 8 STALE + 1 PARTIAL
   with the cleanup discipline gap addressed in this release."
-  — Honest about the prior session's discipline failure.
+ : Honest about the prior session's discipline failure.
 - "JA-153 prevents re-introduction of *deprecated grammar
   entries leaking back into the canonical N5 pattern catalog*"
-  — does not assert the `deprecated` flag is correctly set on
+ : does not assert the `deprecated` flag is correctly set on
   every duplicate.
 - "JA-154 prevents re-introduction of *ID-slug section
-  staleness without explicit flag*" — does not assert the
+  staleness without explicit flag*": does not assert the
   flagged entries' section retags are correctly classified.
 - "Horizontal sweep found 1 additional entry (にこにこ) beyond
-  the reviewer's 2" — bounded to ID-slug-section divergence;
+  the reviewer's 2": bounded to ID-slug-section divergence;
   other slug-staleness classes not audited here.
 
 ---
@@ -2134,7 +2150,7 @@ before filing anything.
   002/003 → BUG-174/175/176)
 - **1 of 13** **rejected with rationale** (broader-scope claim
   that singular pronouns shouldn't have counter='人/にん' is
-  incorrect — singular pronouns counting people with 人 IS
+  incorrect: singular pronouns counting people with 人 IS
   semantically valid: 「あなたは何人いますか」)
 
 All three follow-ups closed in this single commit. Procedure-manual
@@ -2145,7 +2161,7 @@ broadened beyond bounded close).
 
 ### Fixed
 
-- **BUG-174 (NTR-FU-001) — n5_vocab_whitelist.json missed 11 vocab
+- **BUG-174 (NTR-FU-001): n5_vocab_whitelist.json missed 11 vocab
   forms.** Forward-direction gate (JA-147) enforced whitelist→vocab
   parity with 4 documented Known mismatches (倍/国籍/週末/では).
   The reverse direction (vocab→whitelist) was ungated. 11 entries
@@ -2154,7 +2170,7 @@ broadened beyond bounded close).
   to whitelist (980 total). New CI invariant **JA-151** locks the
   reverse direction. Asymmetry now fully gated.
 
-- **BUG-175 (NTR-FU-002) — listening `pacing_status: in_range`
+- **BUG-175 (NTR-FU-002), listening `pacing_status: in_range`
   flattened multi-band distribution.** All 50 items tagged
   `in_range` against learner band [180, 240], hiding the JEES-
   strict [220, 240] + round-9-ideal [200, 220] bands. Added per-
@@ -2167,7 +2183,7 @@ broadened beyond bounded close).
   consumers can choose the threshold they're claiming. Audio
   re-render to JEES-strict deferred as out-of-scope.
 
-- **BUG-176 (NTR-FU-003) — `collocations` field templated corpus-
+- **BUG-176 (NTR-FU-003): `collocations` field templated corpus-
   wide.** NTR-011 had renamed `collocations` → `particle_examples`
   on 12 pronoun entries; 983 other entries kept the legacy name.
   Audit confirmed mass template-substitution: "を かう" appeared
@@ -2183,7 +2199,7 @@ broadened beyond bounded close).
   `particle-example-list`; `collocation-chip` →
   `particle-example-chip`). New CI invariant **JA-152** forbids
   the legacy field name. **Side-effect bug fix:** the NTR-011
-  rename had introduced a silent UI regression — the 12 renamed
+  rename had introduced a silent UI regression: the 12 renamed
   pronouns had lost their particle examples in the rendered
   surface because the UI reader still read `entry.collocations`.
   This commit fixes that regression as a side-effect of the
@@ -2195,7 +2211,7 @@ broadened beyond bounded close).
   claim: even singular pronouns (私, あなた, かれ, etc.) shouldn't
   have `counter: {kanji: '人', reading: 'にん'}`. **This is
   incorrect.** Counting people with 人 IS semantically valid for
-  singular pronouns — 「あなたは何人いますか」 = "how many of you are
+  singular pronouns: 「あなたは何人いますか」 = "how many of you are
   there." NTR-013 closed for collective pronouns only (私たち,
   みなさん gained `applies_to: noun_of_reference` annotation), and
   that bounded scope was correct. No fix applied.
@@ -2243,25 +2259,25 @@ broadened beyond bounded close).
 
 - "9 of 13 re-paste items verified as stale-snapshot within
   this session; 3 of 13 filed + closed as broader-scope
-  follow-ups; 1 of 13 rejected with rationale" — never "all 13
+  follow-ups; 1 of 13 rejected with rationale": never "all 13
   re-paste items closed."
 - "JA-151 prevents re-introduction of *the vocab-form / reading
-  whitelist asymmetry on this corpus*" — does not assert the
+  whitelist asymmetry on this corpus*": does not assert the
   whitelist is N5-content-complete. The 4 documented Known-
   mismatch entries (倍/国籍/週末/では) remain on the README's
   forward-direction enumeration.
 - "JA-152 prevents re-introduction of *the legacy `collocations`
-  field name*" — does not assert the renamed `particle_examples`
+  field name*": does not assert the renamed `particle_examples`
   field content has been independently re-curated for content
   quality. Field-name fix, not content fix.
 - "Listening pacing exposed as 3-band metric (learner / ideal /
-  strict)" — does not assert all 50 items pass JEES-strict; 38
+  strict)": does not assert all 50 items pass JEES-strict; 38
   of 50 fall below 220 mpm. Re-render to strict deferred;
   consumers choose the threshold via the per-item band fields.
 
 ---
 
-## v1.16.1 - 2026-05-23 (Deferred-NTR-item closure — 3 of 3 follow-ups shipped: cohort sweep + annotation-only + sample audit)
+## v1.16.1 - 2026-05-23 (Deferred-NTR-item closure, 3 of 3 follow-ups shipped: cohort sweep + annotation-only + sample audit)
 
 ### Background
 
@@ -2274,8 +2290,8 @@ flags (NTR-008); (7) spot-check OTHER llm_curated vocab examples for
 regressions beyond the kanji-whitelist breach (NTR-001).
 
 All three closed 2026-05-23 with methodology-specific tooling. The
-three close-out shapes — cohort sweep, annotation-only, deterministic-
-stratified sample — are generalized in procedure-manual F.44.15 +
+three close-out shapes, cohort sweep, annotation-only, deterministic-
+stratified sample, are generalized in procedure-manual F.44.15 +
 F.44.16 for Nx-builders. The deferred items did NOT require new
 bug-tracker entries; they're follow-ups on already-closed
 BUG-161 / BUG-167 / BUG-168.
@@ -2289,13 +2305,13 @@ BUG-161 / BUG-167 / BUG-168.
   same root|honorific|particle|-さん|-さま)"). Result: 1 hit
   beyond the 三 fix that was already in v1.16.0. The 八 mnemonic
   had conflated 蜂 ("bee", pronounced はち) with 八 itself.
-  Softened to: "はち — visual hook: sharp like a bee sting.
-  (Coincidence: 蜂 'bee' is also pronounced はち — a separate
+  Softened to: "はち, visual hook: sharp like a bee sting.
+  (Coincidence: 蜂 'bee' is also pronounced はち, a separate
   kanji with separate etymology; the shared sound is a useful
   memory hook, not a derivation.) Used in 8-hour: はちじかん."
   104 of 106 mnemonics now clean against the N patterns scanned.
   Bound: result is "no matches against the pattern-set on the
-  corpus snapshot scanned" — not "no etymology errors in the
+  corpus snapshot scanned", not "no etymology errors in the
   corpus."
 
 - **Pitch-accent NHK-claim metadata (NTR-008 follow-up).**
@@ -2342,7 +2358,7 @@ BUG-161 / BUG-167 / BUG-168.
   verb conjugation (さんぽし / コピーし). No regression-class
   inferences justified by this sample.
   Bound: "0 findings against named D1/D2/D3/D5 dimensions on the
-  sample scanned" — does NOT assert the LLM-curated layer is
+  sample scanned": does NOT assert the LLM-curated layer is
   regression-free; the audit did not sample at 100% and did not
   name every possible LLM-regression class.
 
@@ -2381,7 +2397,7 @@ BUG-161 / BUG-167 / BUG-168.
 ### CI / tracker / version
 
 - CI invariants: **152 / 152** (unchanged from v1.16.0).
-- Bug tracker: **173 / 173 Fixed / 0 Open** (unchanged — these
+- Bug tracker: **173 / 173 Fixed / 0 Open** (unchanged, these
   are follow-ups on already-closed bugs, not new entries).
 - Version: v1.16.0 → **v1.16.1** (data deltas: 1 kanji mnemonic
   softening + 3 pitch-accent annotation refinements; cache-bust
@@ -2393,35 +2409,35 @@ BUG-161 / BUG-167 / BUG-168.
 
 - "Cohort sweep over 106 kanji mnemonics against N regex
   patterns: 1 of 106 hit. 104/106 clean against *the scanned
-  pattern-set*." — does NOT claim "no etymology errors remain in
+  pattern-set*.": does NOT claim "no etymology errors remain in
   the corpus."
 - "3 of 4 pitch-accent entries annotated with NHK-claim
-  metadata + audio_uses_drop; primary drop values UNCHANGED." —
+  metadata + audio_uses_drop; primary drop values UNCHANGED.":
   does NOT claim "pitch-accent verified against NHK 2016."
 - "0 findings against named D1/D2/D3/D5 dimensions on 99/914
   llm_curated examples (10.8% stratified sample, SHA256-
-  seeded)." — does NOT claim "LLM-curated layer is regression-
+  seeded).": does NOT claim "LLM-curated layer is regression-
   free."
 
 ### Commits
 
-- `89254d6` — fix(kanji): review §4 item 5 — kanji-mnemonic
+- `89254d6`, fix(kanji): review §4 item 5, kanji-mnemonic
   etymology cohort sweep (八 softened)
-- `9015e3d` — fix(pitch-accent): review §4 item 6 — refine
+- `9015e3d`, fix(pitch-accent): review §4 item 6, refine
   NHK-claim annotations on 3 flagged entries
-- `e601345` — audit(vocab): review §4 item 7 — spot-check
+- `e601345`, audit(vocab): review §4 item 7, spot-check
   99/914 llm_curated examples (0 real findings)
-- This commit — Rule 4/5 propagation + v1.16.1 cache-bust
+- This commit, Rule 4/5 propagation + v1.16.1 cache-bust
 
 ---
 
-## v1.16.0 - 2026-05-22 (Native teacher review close-out — 13 bugs across vocab/grammar/kanji/questions + JA-150)
+## v1.16.0 - 2026-05-22 (Native teacher review close-out: 13 bugs across vocab/grammar/kanji/questions + JA-150)
 
 ### Background
 
 External native-teacher / JLPT-expert review of the v1.15.8 build packet
 filed 13 bugs (BUG-161..173, prefix NTR-001..013). Reviewer's verdict:
-"this is a strong N5 corpus — better than most commercial N5 apps and
+"this is a strong N5 corpus: better than most commercial N5 apps and
 competitive with Try!/So-matome on substance." The 13 findings are
 per-item content-quality bugs that surface only when structural CI gates
 have already passed. All 13 verified against current data before fixing
@@ -2429,7 +2445,7 @@ have already passed. All 13 verified against current data before fixing
 
 ### Fixed
 
-- **BUG-161 (NTR-001) — 99 vocab examples leaked non-whitelist kanji.**
+- **BUG-161 (NTR-001): 99 vocab examples leaked non-whitelist kanji.**
   Of 3,036 vocab examples in data/vocab.json, 99 contained kanji NOT in
   n5_kanji_whitelist (106) AND NOT in dokkai_kanji_exception (90). LLM-
   curation pass ran ~3× the human-baseline violation rate (5.8% vs 2.1%).
@@ -2439,82 +2455,82 @@ have already passed. All 13 verified against current data before fixing
   予報 → よほう, 匹 → ひき, 様 → さま, 夜 → よる/こんや, etc.
   Provenance bumped to native_reviewed_2026_05_22 on all 99.
 
-- **BUG-162 (NTR-002) — n5-045 deprecated (duplicate of n5-017).**
+- **BUG-162 (NTR-002): n5-045 deprecated (duplicate of n5-017).**
   Pattern n5-045 self-identified as duplicate via its `contrasts` block.
   Marked `deprecated: true` + kept `_alias_of: 'n5-017'`. Cleared the
   reverse `_alias_of` from n5-017 (canonical entry doesn't point back at
   deprecated alias). External references in questions.json / audio_manifest
   / etc. still resolve.
 
-- **BUG-163 (NTR-003) — かれ/かのじょ gloss inversion fixed.** Modern
+- **BUG-163 (NTR-003): かれ/かのじょ gloss inversion fixed.** Modern
   spoken Japanese has boyfriend/girlfriend as the primary sense, not
   parenthetical. New glosses: "boyfriend (primary); he, him (third-person
   pronoun, more formal/literary)" and parallel for かのじょ.
 
-- **BUG-164 (NTR-004) — あなた usage warning added.** Added `usage_note`
+- **BUG-164 (NTR-004): あなた usage warning added.** Added `usage_note`
   field: "あなた is distant or formal, or (from a wife to a husband)
-  intimate. It is NOT the normal way to address someone you know — use
+  intimate. It is NOT the normal way to address someone you know: use
   their name + さん, or drop the subject." Gloss updated with caveat.
   Replaced example[0] `あなたは どなたですか。` (survey-form register)
   with `田中さんは どこから 来ましたか。` (name-based-address alternative).
 
-- **BUG-165 (NTR-005) — おはし section 20 → 19.** Verified actual section
+- **BUG-165 (NTR-005): おはし section 20 → 19.** Verified actual section
   20 = Colors; section 19 = Tableware. One-line section retag.
 
-- **BUG-166 (NTR-006) — えいが section 26 → 37.** Movie/film moved from
+- **BUG-166 (NTR-006): えいが section 26 → 37.** Movie/film moved from
   "House and Furniture" to "Common nouns - miscellaneous" (closest fit
   lacking dedicated Entertainment section).
 
-- **BUG-167 (NTR-007) — 三 kanji mnemonic etymology softened.** Old text
+- **BUG-167 (NTR-007): 三 kanji mnemonic etymology softened.** Old text
   implied -さん honorific shares etymology with 三/さん; new text states
   shared sound is coincidental (honorific さん comes from 様 → さま → さん).
 
-- **BUG-168 (NTR-008) — 3 pitch-accent entries flagged native_review_pending.**
+- **BUG-168 (NTR-008): 3 pitch-accent entries flagged native_review_pending.**
   あなた / みなさん / きのう annotated for actual native-speaker pass; これ
   confirmed matching NHK and NOT flagged.
 
-- **BUG-169 (NTR-009) — Hindi gloss sync for かれ/かのじょ.** Resolved
+- **BUG-169 (NTR-009): Hindi gloss sync for かれ/かのじょ.** Resolved
   alongside NTR-003 (gloss_hi parallel updated with boyfriend/girlfriend
   primary).
 
-- **BUG-170 (NTR-010) — q-0226 explanation_en gains は-contrast note.**
+- **BUG-170 (NTR-010): q-0226 explanation_en gains は-contrast note.**
   Documents the contrastive nuance of は after a time noun.
 
-- **BUG-171 (NTR-011) — pronoun `collocations` renamed to `particle_examples`.**
+- **BUG-171 (NTR-011): pronoun `collocations` renamed to `particle_examples`.**
   On 12 entries in section "1. People - Pronouns and Self". The field
   held particle-template substitutions, not corpus-linguistics collocations.
 
-- **BUG-172 (NTR-012) — 七 reading_rule gains なな-usage note.** Documents
+- **BUG-172 (NTR-012): 七 reading_rule gains なな-usage note.** Documents
   the prescriptive (しち) vs colloquial (なな) split: 七時 しちじ, 七月
   しちがつ, 七つ ななつ, NHK uses なな for numerals.
 
-- **BUG-173 (NTR-013) — pronoun counter cleanup.** Fixed みなさん.counter.
+- **BUG-173 (NTR-013): pronoun counter cleanup.** Fixed みなさん.counter.
   reading typo '人' (kanji) → 'にん' (kana). Annotated collective pronouns
   (私たち, みなさん) with `counter.applies_to: 'noun_of_reference'` since
   the counter applies to people referred to, not the pronoun itself.
 
 ### Added
 
-- **JA-150** — every kanji in any data/vocab.json example's `ja` field must
+- **JA-150**: every kanji in any data/vocab.json example's `ja` field must
   be in n5_kanji_whitelist ∪ dokkai_kanji_exception. Brings vocab examples
   up to parity with grammar / reading / listening (all already gated).
 
-- **Procedure manual F.44** — 11 durable defect classes from native-teacher
+- **Procedure manual F.44**: 11 durable defect classes from native-teacher
   review of a shippable corpus + operational rule for batched close-out
   + bounded-coverage phrasing template + Nx-prediction lineage table.
 
-- **Accuracy prompt A82** — full 11-class documentation with bug-spec
+- **Accuracy prompt A82**: full 11-class documentation with bug-spec
   verification reinforcement.
 
-- **N5Improvement Phase-0 native-teacher-review block** — 11 maintainer-
+- **N5Improvement Phase-0 native-teacher-review block**: 11 maintainer-
   side pre-release checks.
 
-- **AUDIT-COVERAGE Part 40** — close-out narrative + per-bug class mapping.
+- **AUDIT-COVERAGE Part 40**: close-out narrative + per-bug class mapping.
 
 ### Versioning
 
 - `data/version.json`: v1.15.9 → **v1.16.0** (substantive content
-  release — 99 vocab edits + 4 structural changes + new CI invariant).
+  release, 99 vocab edits + 4 structural changes + new CI invariant).
 - `cacheVersion`: -v1.15.9 → -v1.16.0.
 - `sw.js` CACHE_VERSION + `index.html` `?v=` cache-bust bumped (JA-68).
 
@@ -2599,7 +2615,7 @@ Bounded framing: each new JA-NN catches its named pattern; none claim
 universal coverage of "all README staleness" / "all scope
 misclassification" / "all unspecific rationales".
 
-## v1.15.8 - 2026-05-22 (test-coverage gap closures — JA-146 Fix Commit cell shape guard + TASKS↔codebase advisory tool)
+## v1.15.8 - 2026-05-22 (test-coverage gap closures: JA-146 Fix Commit cell shape guard + TASKS↔codebase advisory tool)
 
 ### Background
 
@@ -2608,11 +2624,11 @@ A meta-audit conversation surfaced two coverage classes the existing
 
 - **GAP-A**: a field can be schema-valid but semantically the wrong
   shape (e.g., a date string in a column meant for commit hashes).
-  JA-118 only checked "is the Fix Commit cell non-empty" — it didn't
+  JA-118 only checked "is the Fix Commit cell non-empty": it didn't
   validate the cell contained a commit-hash-shaped value. A 2026-05-22
   survey found **150/155 Fixed rows had dates** (99 as Excel-coerced
   datetime objects, 51 as YYYY-MM-DD strings) in col 10 (Fix Commit)
-  rather than hashes — the convention had drifted silently for the
+  rather than hashes: the convention had drifted silently for the
   entire project's history.
 - **GAP-B**: doc-state drifts from code-state. TASKS.md said `[ ]` for
   SVA-1.1 (footer privacy badge) and SVA-1.4 (Export Progress button)
@@ -2621,7 +2637,7 @@ A meta-audit conversation surfaced two coverage classes the existing
 
 ### Added
 
-- **JA-146** — CI invariant: every Fixed row in
+- **JA-146**, CI invariant: every Fixed row in
   `specifications/test-scenarios-by-specialist-perspective.xlsx`
   must have its Fix Commit cell (col 10) hold either:
     (a) a commit-hash-shaped string (7-40 hex, optionally followed by
@@ -2631,7 +2647,7 @@ A meta-audit conversation surfaced two coverage classes the existing
   Rejects: datetime objects, bare date strings, empty cells, free text.
   Closes GAP-A.
 
-- **`tools/audit_tasks_md_against_codebase_2026_05_22.py`** — advisory
+- **`tools/audit_tasks_md_against_codebase_2026_05_22.py`**: advisory
   heuristic (not a CI gate). For each `- [ ]` item in TASKS.md, extracts
   distinctive keywords (backticked tokens, file paths, quoted phrases)
   and greps the codebase. Surfaces HIGH/MEDIUM-confidence matches as
@@ -2657,16 +2673,16 @@ A meta-audit conversation surfaced two coverage classes the existing
   as "<no-hash-archived; see Fix Date col 9>" sentinels rather than
   fabricated hashes.
 
-### Documentation propagation (Rule 4 — methodology learning)
+### Documentation propagation (Rule 4: methodology learning)
 
-- **Procedure manual F.42** — reactive-vs-proactive CI invariant
+- **Procedure manual F.42**: reactive-vs-proactive CI invariant
   authoring pattern + the "type-confusion-in-string-field" defect
   class generalized for Nx-builders.
-- **Accuracy prompt A80** — coverage-gap audit categories + the
+- **Accuracy prompt A80**: coverage-gap audit categories + the
   bounded-honesty framing.
-- **N5Improvement Phase-0 block** — Fix Commit shape + TASKS-vs-code
+- **N5Improvement Phase-0 block**: Fix Commit shape + TASKS-vs-code
   pre-release sweep.
-- **AUDIT-COVERAGE Part 38** — gap-closure batch close-out.
+- **AUDIT-COVERAGE Part 38**: gap-closure batch close-out.
 
 ### Versioning
 
@@ -2688,7 +2704,7 @@ implementation evidence in named directories"; it does NOT catch
 items whose feature exists under different keywords or in surfaces
 not scanned (sw.js, data/*.json, etc.).
 
-## v1.15.7 - 2026-05-22 (SVA-1: privacy moat made visible — Settings verify panel + homepage hero + TASKS hygiene)
+## v1.15.7 - 2026-05-22 (SVA-1: privacy moat made visible, Settings verify panel + homepage hero + TASKS hygiene)
 
 ### Added
 
@@ -2723,9 +2739,9 @@ not scanned (sw.js, data/*.json, etc.).
 ### Documentation hygiene (SVA-1 status sweep)
 
 - **TASKS.md** flipped to `[x]` for SVA-1.1 (footer trust-strip
-  already shipped earlier — `<p class="footer-trust-strip">` at
+  already shipped earlier: `<p class="footer-trust-strip">` at
   index.html:353), SVA-1.2 (this commit), SVA-1.3 (this commit),
-  SVA-1.4 (Export Progress already shipped earlier — `set-export`
+  SVA-1.4 (Export Progress already shipped earlier: `set-export`
   handler at js/settings.js:302). 4 of 5 SVA-1 items now closed;
   SVA-1.5 (PRIVACY.md homepage card) remains open.
 
@@ -2747,11 +2763,11 @@ new audit class / no new CI invariant / no methodology learning;
 procedure manual / accuracy prompt / N5Improvement Phase-0 not
 applicable to this feature commit).
 
-## v1.15.6 - 2026-05-22 (DOCS-VOCAB-005 — paper-file source_file canonical sentinel)
+## v1.15.6 - 2026-05-22 (DOCS-VOCAB-005: paper-file source_file canonical sentinel)
 
 ### Fixed
 
-- **BUG-136 (DOCS-VOCAB-005) — 28 paper files trimmed to canonical
+- **BUG-136 (DOCS-VOCAB-005): 28 paper files trimmed to canonical
   sentinel.** Replaced the verbose prose annotation
   `"(authored in-place; was KnowledgeBank/<x>_questions_n5.md before
   KnowledgeBank/ merge into data/ + docs/N5-syllabus-methodology.md on
@@ -2765,7 +2781,7 @@ applicable to this feature commit).
   Bug-spec verification rejected the original proposed fix (replace
   with `docs/N5-syllabus-methodology.md#bunpou-questions` and parallel
   per-category anchors) because:
-    1. Those fragment IDs don't exist in the methodology doc — it has
+    1. Those fragment IDs don't exist in the methodology doc: it has
        `## Part C/D/E/F` headings covering authoring conventions, not
        per-category question content.
     2. Pointing `source_file` at the methodology doc would falsely
@@ -2780,7 +2796,7 @@ applicable to this feature commit).
 
 ### Added
 
-- **JA-145** — CI invariant: every `data/papers/<cat>/paper-N.json`
+- **JA-145**, CI invariant: every `data/papers/<cat>/paper-N.json`
   `source_file` must be either (a) a path that resolves to an existing
   repo file under `N5/`, OR (b) the literal canonical sentinel
   `"(authored in-place)"`. Any other value fails. Locks the
@@ -2788,26 +2804,26 @@ applicable to this feature commit).
   fields. Catches re-introduction of stale historical breadcrumbs
   and pointers to deleted files.
 
-- **Procedure manual F.41** — canonical-sentinel pattern for
+- **Procedure manual F.41**: canonical-sentinel pattern for
   authored-in-place data-metadata fields + multi-case-bug close-out
   discipline (every multi-case bug must specify which case(s) the
   close-out addressed, and explicitly note remaining cases as
   resolved-in-batch or filed-as-follow-up). Generalizes the
   DOCS-VOCAB-003 → DOCS-VOCAB-005 lesson into Nx-builder methodology.
 
-- **Accuracy prompt §A79** — full pattern documentation including
+- **Accuracy prompt §A79**: full pattern documentation including
   bounded-coverage phrasing and the operational lesson about
   multi-case-bug close-outs.
 
-- **N5Improvement Phase-0 source_file canonical-sentinel block** —
+- **N5Improvement Phase-0 source_file canonical-sentinel block**:
   maintainer-side mirror of the JA-145 check; runs pre-release.
 
-- **AUDIT-COVERAGE Part 37** — close-out narrative + bug-spec
+- **AUDIT-COVERAGE Part 37**: close-out narrative + bug-spec
   verification record + bounded-coverage phrasing.
 
 ### Pre-existing drift fixed in same commit (Rule 5)
 
-- **Sync-tool catalog gap** — A76 (MOJI close-out), A77 (governance
+- **Sync-tool catalog gap**: A76 (MOJI close-out), A77 (governance
   docs close-out), A78 (CI-recovery triage) were added to
   `prompts/Japanese language Accuracy check.txt` during 2026-05-21
   batches but their entries were never added to
@@ -2815,11 +2831,11 @@ applicable to this feature commit).
   Filled. Sync tool now materializes 4 new xlsx scenario rows
   (A76 + A77 + A78 + A79 + 2 new Phase-0 blocks).
 
-- **`Phase-0 CI-recovery triage regression block` catalog gap** —
+- **`Phase-0 CI-recovery triage regression block` catalog gap**:
   added to `N5Improvement.txt` during 2026-05-21 CI-recovery batch
   but never to the sync catalog. Filled.
 
-- **`changelog/index.html` mirror staleness** — JA-113 surfaced that
+- **`changelog/index.html` mirror staleness**: JA-113 surfaced that
   the changelog mirror didn't reflect the 2026-05-21 CI-recovery
   Unreleased entry. Regenerated via `build_static_mirrors.py
   --stages meta`.
@@ -2830,7 +2846,7 @@ CI **147 / 147 invariants green** (was 146; +JA-145).
 `cross_artifact_sync_report.py` exits CLEAN.
 Bug tracker **155 / 155 Fixed / 0 Open**.
 
-`version.json` bumped to **v1.15.6** (corpus counts unchanged —
+`version.json` bumped to **v1.15.6** (corpus counts unchanged:
 grammar 178, vocab 995, kanji 106, reading 54, listening 50, papers
 28, paperQuestions 402). `cacheVersion` bumped in parallel.
 
@@ -2839,7 +2855,7 @@ patterns "parenthesized prose other than the canonical sentinel" and
 "path that does not resolve under N5/"; it does NOT catch a future
 case where `source_file` resolves to a semantically-wrong file.
 
-## Unreleased - 2026-05-21 (CI-recovery triage — Playwright suite green for the first time since 2026-05-03)
+## Unreleased - 2026-05-21 (CI-recovery triage: Playwright suite green for the first time since 2026-05-03)
 
 ### CI infrastructure (continued)
 
@@ -2873,7 +2889,7 @@ case where `source_file` resolves to a semantically-wrong file.
   downloaded the 76 new `-linux.png` files, and committed them
   alongside the existing 76 `-win32.png` baselines (commit
   `d43828c`). Snapshots dir now holds 152 PNGs and the
-  CI skip gate has been removed — visual-regression runs on
+  CI skip gate has been removed: visual-regression runs on
   every push, comparing against the OS-appropriate baseline.
 
 ### UX hardening (continued)
@@ -2886,14 +2902,14 @@ case where `source_file` resolves to a semantically-wrong file.
     `--color-text-on-header` (#4A4A47, contrast 5.92) + wired the
     nav-link rule.
   - `.app-header .icon-btn` (locale toggle "HI" label + settings
-    cog + fullscreen toggle) — same root cause; same fix wired.
+    cog + fullscreen toggle): same root cause; same fix wired.
   - `.app-footer .footer-disclaimer` text foreground `#9A968C`
     (faint variant) on white = 2.95 contrast, fails AA. Switched
     to `--color-text-muted` (#6F6D66, contrast 4.94). Preserves
     visual subordination, clears AA.
 - **Recommender rule-priority bug fixed (real product bug).** R-13
   ("catch-all returning user gets Open Learn") had condition
-  `if (signal.isReturning)` — too permissive — and dispatched
+  `if (signal.isReturning)`, too permissive, and dispatched
   BEFORE R-14 ("mock-paper ready", grammar≥60% AND kanji≥50%) in
   the RULES array. R-14 was effectively dead code for any
   returning user. Swapped RULES dispatch order to put R-14 before
@@ -2905,14 +2921,14 @@ case where `source_file` resolves to a semantically-wrong file.
   triage: timeout-masking, stale assertions, first-run-bypass,
   rule-order, branded-header contrast, cross-platform snapshots).
 
-## Unreleased - 2026-05-21 (governance + CI hardening — orphaned-workflows fix, CLS 0.126→0, MOB-020 nav-width, 8 DOCS bugs + JA-144)
+## Unreleased - 2026-05-21 (governance + CI hardening: orphaned-workflows fix, CLS 0.126→0, MOB-020 nav-width, 8 DOCS bugs + JA-144)
 
 ### CI infrastructure
 
 - **Orphaned workflows migrated to repo root.** Discovered 2026-05-21:
   the 5 workflow files at `N5/.github/workflows/` had been
   defined-but-never-executed since authoring. GitHub Actions only
-  reads `.github/workflows/` at REPO ROOT — `N5/...` paths were
+  reads `.github/workflows/` at REPO ROOT: `N5/...` paths were
   silently ignored. Verified via `gh api` (only Dependabot + Pages
   were registered pre-fix). Moved all 5 to `.github/workflows/` at
   repo root + added `defaults: run: working-directory: N5` per job
@@ -2961,9 +2977,9 @@ case where `source_file` resolves to a semantically-wrong file.
   Fix: `#app { min-height: calc(100vh - 200px); }` reserves
   viewport-height-minus-chrome so skeleton-to-content swap doesn't
   trigger a footer shift. First attempt (sticky-footer flex on
-  body) made CLS WORSE (0.48) because main element itself grew —
+  body) made CLS WORSE (0.48) because main element itself grew:
   reverted, used the min-height approach.
-- **MOB-020 (BUG-146) — Primary nav links now ≥44×44 on mobile.**
+- **MOB-020 (BUG-146): Primary nav links now ≥44×44 on mobile.**
   Pre-fix: 9 nav links shared 360px viewport equally → 40×44 (91%
   of HIG 44 minimum on width). Fix: switched to horizontal-scroll
   (`overflow-x: auto` + `scroll-snap` + `flex: 0 0 auto`). Each
@@ -2974,7 +2990,7 @@ case where `source_file` resolves to a semantically-wrong file.
 
 ### Documentation governance
 
-- **DOCS-KANJI-001..004 + DOCS-VOCAB-001..004 (BUG-144..151) — 8
+- **DOCS-KANJI-001..004 + DOCS-VOCAB-001..004 (BUG-144..151): 8
   governance-doc stale-content bugs all closed in batch.** Audit
   flagged `data/n5_kanji_whitelist.exceptions.md` (~1365 bytes)
   and `data/n5_vocab_whitelist_README.md` (~3339 bytes) for stale
@@ -2985,7 +3001,7 @@ case where `source_file` resolves to a semantically-wrong file.
   mismatches (倍, 国籍, 週末) enumerated in new "Known mismatches"
   section.
 - **DOCS-VOCAB-002**: Consumers section expanded to enumerate the
-  3 lint targets explicitly — `data/grammar.json` (178 patterns),
+  3 lint targets explicitly, `data/grammar.json` (178 patterns),
   `data/questions.json` (290 questions, confirmed to exist), and
   `data/papers/<cat>/paper-{1..7}.json` (28 paper files / 402
   paper-bound questions).
@@ -2995,7 +3011,7 @@ case where `source_file` resolves to a semantically-wrong file.
   before KnowledgeBank/ merge into data/ + docs/N5-syllabus-
   methodology.md on 2026-05-14)"`). No code consumer reads
   source_file; field is informational.
-- **DOCS-VOCAB-004**: math now reconciles exactly — 995 entries −
+- **DOCS-VOCAB-004**: math now reconciles exactly, 995 entries −
   969 tokens = 26 surplus = 50 cross-section entries − 24 distinct
   forms = 26 ✓. 10-example homograph list added (あつい / あの /
   いくつ / いる / おく / かい / かぜ / かた / から / が).
@@ -3021,7 +3037,7 @@ case where `source_file` resolves to a semantically-wrong file.
 
 ### CI invariants added (1)
 
-- **JA-144** — REVIEW_DATE lines in
+- **JA-144**: REVIEW_DATE lines in
   `n5_kanji_whitelist.exceptions.md` use ISO 8601 YYYY-MM-DD
   format. Skips template values inside HTML comments
   (`<!-- ... -->`). DOCS-KANJI-004 close-out.
@@ -3041,18 +3057,18 @@ DOCS bugs.
 
 ### Tools added (preserved in active tree)
 
-- `tools/migrate_workflows_2026_05_21.py` — reproducible workflow-
+- `tools/migrate_workflows_2026_05_21.py`: reproducible workflow-
   migration script (idempotent).
-- `tools/register_docs_bugs_2026_05_21.py` — bug registration for
+- `tools/register_docs_bugs_2026_05_21.py`: bug registration for
   the 8 DOCS bugs.
 
 ---
 
-## Earlier 2026-05-21 - MOJI-001..007 close-out + JA-143 follow-ups — 7 moji-paper content bugs + 4 same-class HI rationale truncations + 4 new CI invariants JA-140..143
+## Earlier 2026-05-21 - MOJI-001..007 close-out + JA-143 follow-ups: 7 moji-paper content bugs + 4 same-class HI rationale truncations + 4 new CI invariants JA-140..143
 
 ### Fixed
 
-- **MOJI-001 (BUG-139) — Stem markup convention normalized to HTML `<u>...</u>` across all 100 moji questions.**
+- **MOJI-001 (BUG-139): Stem markup convention normalized to HTML `<u>...</u>` across all 100 moji questions.**
   Mondai 1 used HTML `<u>X</u>` (50 questions); Mondai 2 used markdown
   `__X__` (50 questions); paper-4 mixed both within one file at the
   Mondai 1→2 boundary. Rendering risk: an HTML-only renderer displays
@@ -3062,41 +3078,41 @@ DOCS bugs.
   `<u>...</u>`; 0/100 use `__...__`. JA-140 invariant wired to prevent
   regression.
 
-- **MOJI-002 (BUG-140) — 28 spurious `grammarPatternId` values scrubbed in moji corpus.**
+- **MOJI-002 (BUG-140): 28 spurious `grammarPatternId` values scrubbed in moji corpus.**
   28 moji questions carried `grammarPatternId` from `auto_inferred`
   picking up incidental token similarities (e.g., `moji-5.2 こども` →
   n5-013 because も appears in 子ども; `moji-2.3 今日は` → n5-117
   because は appears in jukujikun-reading context). Moji tests
-  orthography, not grammar — `grammarPatternId` should be null with
+  orthography, not grammar: `grammarPatternId` should be null with
   `not_applicable_orthography` provenance in nearly all cases. Same
   anti-pattern class as the n5-013 over-misuse fixed at PAPER-001 in
   the bunpou paper sweep. All 28 scrubbed; JA-141 invariant wired to
   block the `non-null + auto_inferred` combination going forward.
 
-- **MOJI-003 (BUG-141) — `moji-3.5` (Q35) antonymic distractors replaced with per-kanji reading variants of 北.**
+- **MOJI-003 (BUG-141): `moji-3.5` (Q35) antonymic distractors replaced with per-kanji reading variants of 北.**
   Old choices `[ひがし, きた, みなみ, にし]` were the four cardinal directions
   (readings of 東/北/南/西); only the kanji 北 was actually asked, so a
   student who knew "北 = north" could score correctly by elimination
   without recognizing the phonological reading. This was the ONLY
   case of antonymic-distractor design across all 60 Mondai 1 questions.
-  New choices: `[きた, きだ, ほく, ぼく]` — correct kun-yomi + voicing-
+  New choices: `[きた, きだ, ほく, ぼく]`, correct kun-yomi + voicing-
   variant trap + real on-yomi (used in 北西/北部 compounds, wrong
   standalone) + voiced-on-yomi no-such-reading trap. Rationale extended
   to explain the on/kun distinction.
 
-- **MOJI-004 (BUG-142) — `moji-5.2` (Q62) 子供 distractor replaced with 子分; eliminates "marked-wrong-for-valid-spelling" confidence-eroder.**
+- **MOJI-004 (BUG-142): `moji-5.2` (Q62) 子供 distractor replaced with 子分; eliminates "marked-wrong-for-valid-spelling" confidence-eroder.**
   The legitimate Japanese spelling 子供 was being marked wrong because
   供 is N4 (outside the N5-only-kanji policy). The rationale honestly
   acknowledged "both 子供 and 子ども are standard in modern Japanese,"
   but a learner picking 子供 still saw the answer labeled wrong. Same
   anti-pattern class as REG-001 (だれ vs どなた marked Incorrect when
   both are legitimate register variants). Replaced 子供 → 子分 (こぶん
-  'underling' — a real Japanese word but rare at N5 and unrelated to
+  'underling': a real Japanese word but rare at N5 and unrelated to
   the stem's "two ... at home" context). Rationale simplified to a
   clean orthography test with a brief note about the 供-kanji scope
   rule.
 
-- **MOJI-005 (BUG-143) — `moji-2.1` + `moji-2.2` rationale_hi rewritten from word-by-word `के पास है पढ़ते हुए` to natural `X का पठन Y है`.**
+- **MOJI-005 (BUG-143): `moji-2.1` + `moji-2.2` rationale_hi rewritten from word-by-word `के पास है पढ़ते हुए` to natural `X का पठन Y है`.**
   Two consecutive questions carried the same translation artifact:
   `'七 के पास है पढ़ते हुए シチ में 七月।'` is word-by-word "has reading"
   with no direct Hindi cognate. Rewritten as `'七 का पठन 七月 में シチ है।'`
@@ -3105,7 +3121,7 @@ DOCS bugs.
   (`एक महीना ago`), DOKKAI-004 (`आना-जाना by ट्रेन`), PAPER-004 fragment
   sweep. JA-142 invariant wired as substring guard.
 
-- **MOJI-006 (BUG-144) — `moji-7.2` rationale_hi extended from 250c to 337c, restoring the dropped EN conclusion sentence.**
+- **MOJI-006 (BUG-144): `moji-7.2` rationale_hi extended from 250c to 337c, restoring the dropped EN conclusion sentence.**
   The HI version cut off after acknowledging that experienced students
   might know the alternative kanji (起ちます / 経ちます / 建ちます) but
   DROPPED the crucial EN conclusion: "for N5 the 立 form is the only
@@ -3114,7 +3130,7 @@ DOCS bugs.
   `native_reviewed_2026_05_21`. JA-143 invariant wired (rationale /
   rationale_hi character-count parity within ~0.6×–2.0× ratio).
 
-- **MOJI-007 (BUG-145) — `moji-7.8` (Q98) rationale + rationale_hi extended with 永い polysemy explanation.**
+- **MOJI-007 (BUG-145): `moji-7.8` (Q98) rationale + rationale_hi extended with 永い polysemy explanation.**
   Both rationales were a single token (`長い.` / `長い।`). The
   distractor 永い is exactly the same shape of polysemy that `moji-7.2`
   handles excellently (起ちます/経ちます/建ちます as alternate readings of
@@ -3144,15 +3160,15 @@ All 4 now `native_reviewed_2026_05_21`.
 
 ### CI invariants added (4, all wired this batch)
 
-- **JA-140** — moji `stem_html` uses HTML `<u>...</u>` emphasis wrapper
+- **JA-140**: moji `stem_html` uses HTML `<u>...</u>` emphasis wrapper
   (not markdown `__...__`). MOJI-001 drift guard.
-- **JA-141** — moji `grammarPatternId` non-null must not have
+- **JA-141**: moji `grammarPatternId` non-null must not have
   `provenance="auto_inferred"`. MOJI-002 drift guard; forces manual
   sign-off when a moji question legitimately tests a grammar pattern.
-- **JA-142** — no over-literal Hindi `के पास है पढ़ते हुए` substring in
+- **JA-142**: no over-literal Hindi `के पास है पढ़ते हुए` substring in
   rationale_hi. MOJI-005 translation-pattern guard; same shape as
   DOKKAI-002 / DOKKAI-004 / PAPER-004 fragment scans.
-- **JA-143** — rationale / rationale_hi character-count parity within
+- **JA-143**: rationale / rationale_hi character-count parity within
   ~0.6×–2.0× ratio (accounting for HI's typical 1.3× expansion).
   MOJI-006 content-coverage truncation guard.
 
@@ -3175,11 +3191,11 @@ State at this checkpoint: **0 Open / 142 Fixed** in the bug sheet.
 
 ---
 
-## 2026-05-21 - GOI-004..006 close-out + horizontal mojibake sweep — 3 goi-paper rationale bugs + 2 dokkai horizontal-deployment fixes + 2 new CI invariants
+## 2026-05-21 - GOI-004..006 close-out + horizontal mojibake sweep: 3 goi-paper rationale bugs + 2 dokkai horizontal-deployment fixes + 2 new CI invariants
 
 ### Fixed
 
-- **BUG-133 (GOI-004) — Off-by-one rationale_hi shift goi-7.6 → goi-7.7.**
+- **BUG-133 (GOI-004): Off-by-one rationale_hi shift goi-7.6 → goi-7.7.**
   `data/papers/goi/paper-7.json` questions goi-7.6 (Q96) and goi-7.7
   (Q97) had their rationale_hi shifted by one: goi-7.6 carried
   goi-7.7's じょうずに 話す Hindi content; goi-7.7 carried goi-7.8's
@@ -3190,7 +3206,7 @@ State at this checkpoint: **0 Open / 142 Fixed** in the bug sheet.
   flipped to `native_reviewed_2026_05_21`. Same drift class as
   GOI-001 (goi-6.11); first fix surfaced as sample, second fix is
   the actual close.
-- **BUG-134 (GOI-005) — 7 rationale fields carried fix-history /
+- **BUG-134 (GOI-005): 7 rationale fields carried fix-history /
   version-references / replacement-history.** Sweep across
   `data/papers/goi/paper-{1,3,4,5,7}.json` for phrases like
   "replaces the prior", "replaces the previous", "Strict-N5:",
@@ -3199,9 +3215,9 @@ State at this checkpoint: **0 Open / 142 Fixed** in the bug sheet.
   goi-1.10, goi-3.15, goi-4.6, goi-5.4, goi-7.7, goi-7.8.
   Stripped the fix-history sentences; kept only the actual
   paraphrase pedagogy. Hindi mirrors stripped where present.
-- **BUG-135 (GOI-006) — mixed-script Devanagari-inside-kana mojibake
+- **BUG-135 (GOI-006): mixed-script Devanagari-inside-kana mojibake
   in goi-7.4 rationale_hi.** The token 「あमारी ありません」 mixed
-  kana あ + Devanagari ma + Devanagari ī as a single word —
+  kana あ + Devanagari ma + Devanagari ī as a single word:
   invalid Japanese, invalid Hindi, garbled the polite-negative
   paraphrase point. Replaced with 「あまく ありません」 and rewrote
   the surrounding Hindi. Provenance `native_reviewed_2026_05_21`.
@@ -3223,12 +3239,12 @@ State at this checkpoint: **0 Open / 142 Fixed** in the bug sheet.
 
 ### Added
 
-- **JA-137** — CI invariant catching the **narrow off-by-one
+- **JA-137**: CI invariant catching the **narrow off-by-one
   rationale_hi shift signal**: 0 token overlap with own stem AND
   ≥2 overlap with next-question's stem. False-positive rate <1%
   (vs ~21% for the broad token-overlap detector explicitly rejected
   in Part 28). Sharper detector → cleaner CI gate.
-- **JA-139** — CI invariant catching **mixed-script Devanagari-
+- **JA-139**: CI invariant catching **mixed-script Devanagari-
   inside-kana mojibake in rationale_hi**: regex
   `[ぁ-ゖァ-ヺ一-鿿][ऀ-ॣ०-ॿ]` (excluding danda U+0964/U+0965 and
   hyphen-separated cross-script terms like 「い-विशेषण」).
@@ -3236,31 +3252,31 @@ State at this checkpoint: **0 Open / 142 Fixed** in the bug sheet.
   "replaces the prior", "replaces the previous", "previous version",
   "prior version", "Strict-N5:", "in v1.", "policy applied at",
   "no longer appears", "पिछले संस्करण", "पुराने", "की जगह लेता".
-  **No new JA-NN minted** — existing JA-121 detector's name and
+  **No new JA-NN minted**: existing JA-121 detector's name and
   intent already covered the class. Operational rule from §F.37.3:
   extend in place when the underlying anti-pattern is unchanged.
-- **Procedure manual F.37** — 3 drift classes A/B/C (mixed-script
+- **Procedure manual F.37**: 3 drift classes A/B/C (mixed-script
   mojibake + off-by-one shift + extended fix-history) +
   horizontal-deployment operational rule + same-drift-class
   lineage table for Nx-builder prediction.
-- **Accuracy prompt A75** — full 7-invariant family on paper-
+- **Accuracy prompt A75**: full 7-invariant family on paper-
   question rationale fields documented (JA-121/122/129/130/136/
   137/139).
-- **N5Improvement Phase-0 block** — maintainer-side mirror of
+- **N5Improvement Phase-0 block**: maintainer-side mirror of
   mixed-script + off-by-one + extended-fix-history checks (runs
   pre-release, asserts 0 hits on the live corpus).
-- **AUDIT-COVERAGE Part 33** — close-out narrative + horizontal-
+- **AUDIT-COVERAGE Part 33**: close-out narrative + horizontal-
   deployment finding + bounded-coverage phrasing.
 
 ### Tooling
 
-- `tools/file_goi_004_006_bugs_2026_05_21.py` — files BUG-133/134/135
+- `tools/file_goi_004_006_bugs_2026_05_21.py`: files BUG-133/134/135
   in xlsx tracker.
-- `tools/fix_goi_004_006_2026_05_21.py` — applies all 3 GOI-004/005/
+- `tools/fix_goi_004_006_2026_05_21.py`: applies all 3 GOI-004/005/
   006 fixes to data/papers/goi/*.json.
-- `tools/fix_dokkai_mojibake_2026_05_21.py` — applies the 2
+- `tools/fix_dokkai_mojibake_2026_05_21.py`: applies the 2
   horizontal-deployment dokkai mojibake fixes.
-- `tools/flip_goi_004_006_fixed_2026_05_21.py` — flips BUG-133/134/
+- `tools/flip_goi_004_006_fixed_2026_05_21.py`: flips BUG-133/134/
   135 to Fixed in xlsx tracker with fix-notes.
 - `tools/check_content_integrity.py` extended: `_check_ja_137_*` +
   `_check_ja_139_*` added; JA-121 BAD_PHRASES list extended with the
@@ -3285,26 +3301,26 @@ mojibake / all content-mismatch / all meta-commentary classes.
 
 ### Added
 
-- **`docs/ORTHOGRAPHY-POLICY-N5.md`** — codifies the per-word kana-vs-
+- **`docs/ORTHOGRAPHY-POLICY-N5.md`**: codifies the per-word kana-vs-
   kanji convention with empirical counts (21 N5 high-frequency words
   tabulated; わたし 14× vs 私 2×; ともだち 35× vs 友だち 14×;
   人 25× vs ひと 6×; etc.). Documents the convention as established
   project policy. **Closes REG-001 SWEEP-5** (previously
   "declined-with-reason"; now **closed-as-policy**).
-- **`tools/audit_rationale_overlap_2026_05_21.py`** — standalone
+- **`tools/audit_rationale_overlap_2026_05_21.py`**: standalone
   advisory audit tool for the GOI-001 follow-up token-overlap check.
   Includes lightweight Japanese stemmer (strip particles + ます/
   ました/ません + です/だ + kana↔kanji normalization + dict-form
   ↔ polite-stem table). Outputs candidate list; does NOT fail CI.
   Documented 21% false-positive rate; not eligible for strict CI
   invariant pending kuromoji-class morphological analysis.
-- **`.github/workflows/regen-llm-surfaces.yml`** — CI workflow
+- **`.github/workflows/regen-llm-surfaces.yml`**: CI workflow
   triggered on push touching `N5/data/**` or build tools. Re-runs
   `tools/build_llm_surfaces_2026_05_18.py` + `build_static_mirrors.py
   --stages meta`; asserts no drift via `git diff --quiet`. Pre-merge
   feedback instead of post-merge JA-125 catch. **Closes LLM-005
   build-script CI integration deferred item.**
-- **`docs/NATIVE-SPEAKER-RE-VERIFICATION.md`** — path-forward doc
+- **`docs/NATIVE-SPEAKER-RE-VERIFICATION.md`**: path-forward doc
   for the 54 register_variant entries carrying
   `llm_curated_with_reference_*` or pre-existing `native_reviewed`
   provenance. Documents 3 options: community PR-based review,
@@ -3312,14 +3328,14 @@ mojibake / all content-mismatch / all meta-commentary classes.
   promote-on-finding. Default is status-quo. Explicit
   acknowledgment that actual-native-speaker review is genuinely
   human-only.
-- **Procedure manual F.36** — 4-class batch-closure pattern (A:
+- **Procedure manual F.36**, 4-class batch-closure pattern (A:
   codify policy; B: ship advisory tool; C: wire CI workflow; D:
   path-forward doc). Reusable Nx-builder methodology for closing
   accumulated deferred items at the end of a long audit session.
 
 ### State
 
-CI **139 / 139 invariants green** (unchanged — no new CI invariants).
+CI **139 / 139 invariants green** (unchanged: no new CI invariants).
 `cross_artifact_sync_report.py` exits CLEAN.
 Bug tracker **132 / 132 Fixed / 0 Open**.
 
@@ -3332,7 +3348,7 @@ status: code-closed / policy-closed / workflow-closed /
 path-forward-status. No "pending future work" items remain in
 zombie deferred state.
 
-## Unreleased - 2026-05-19 (Tier 3: SWEEP-2 + SWEEP-3 audits — both clean, REG-001 closed)
+## Unreleased - 2026-05-19 (Tier 3: SWEEP-2 + SWEEP-3 audits, both clean, REG-001 closed)
 
 ### Audit completed (no code changes)
 
@@ -3352,19 +3368,19 @@ zombie deferred state.
   ("honorific (尊敬)", "humble (謙譲)", "higher-respect",
   "elevates the X") where appropriate; never confuse formality
   with elevation. The 1 trigger-candidate (n5-097 どちら) was a
-  false positive — どちら is correctly labeled "polite / formal"
+  false positive: どちら is correctly labeled "polite / formal"
   (not over-claimed as 尊敬 elevation).
 
-### REG-001 sweep series — all closed
+### REG-001 sweep series: all closed
 
 | Sweep | Status |
 |---|---|
-| SWEEP-1 (Tier 1) | Closed — 21 A migrations + 15 C recategorizations + 1 B-escape (commit `8c06567`) |
-| SWEEP-2 (Tier 3) | Closed — 0 violations, audit only |
-| SWEEP-3 (Tier 3) | Closed — 0 violations, audit only |
-| SWEEP-4 (Tier 2) | Closed — 0 actionable items beyond SWEEP-1 coverage (commit `7059ba7`) |
-| SWEEP-5 | Declined-with-reason — corpus convention conflicts with bug spec D5; surfaced as project-level orthography-policy decision item (Part 29) |
-| SWEEP-6 | Closed earlier — JA-127 D6 guard + 5 D6 follow-ups + Tier 1 B-escape n5-125[0] |
+| SWEEP-1 (Tier 1) | Closed: 21 A migrations + 15 C recategorizations + 1 B-escape (commit `8c06567`) |
+| SWEEP-2 (Tier 3) | Closed: 0 violations, audit only |
+| SWEEP-3 (Tier 3) | Closed: 0 violations, audit only |
+| SWEEP-4 (Tier 2) | Closed: 0 actionable items beyond SWEEP-1 coverage (commit `7059ba7`) |
+| SWEEP-5 | Declined-with-reason: corpus convention conflicts with bug spec D5; surfaced as project-level orthography-policy decision item (Part 29) |
+| SWEEP-6 | Closed earlier: JA-127 D6 guard + 5 D6 follow-ups + Tier 1 B-escape n5-125[0] |
 
 ### State
 
@@ -3389,13 +3405,13 @@ papers, standard reference material), NOT actual native speaker.
   substrings. Deferred from Part 26 close-out pending native-speaker
   false-positive review. Pre-deployment scan across all paper +
   grammar/vocab/kanji/reading/listening corpora found **0 hits**
-  in Devanagari context — no legitimate "ष-form" / Romanized
+  in Devanagari context: no legitimate "ष-form" / Romanized
   grammatical glossing uses these substrings. Safe to add.
 
 ### Audit completed (no code changes needed)
 
 - **REG-001 SWEEP-4** (out-of-N5-scope items taught as canonical
-  without `scope_note`) — scanned grammar.json for どなた / なさる /
+  without `scope_note`): scanned grammar.json for どなた / なさる /
   いただく / ご覧になる / 召し上がる / いらっしゃる / ございます /
   かしこまりました / 存じる / 申す / 伺う / くださる / どちらから / いかが /
   おいくつ / ご遠慮ください across `examples[].ja`,
@@ -3426,7 +3442,7 @@ SWEEP-2 (semantically-distinct forms as register-equivalents),
 SWEEP-3 (formality vs elevation conflation), and the
 orthography-policy decision surfaced in Part 29 SWEEP-5.
 
-## Unreleased - 2026-05-19 (REG-001 SWEEP-1 native-Japanese-teacher triage — 21 register-variant migrations + 16 category corrections)
+## Unreleased - 2026-05-19 (REG-001 SWEEP-1 native-Japanese-teacher triage: 21 register-variant migrations + 16 category corrections)
 
 ### Changed
 
@@ -3435,7 +3451,7 @@ orthography-policy decision surfaced in Part 29 SWEEP-5.
   been migrated/removed in earlier batches). Native-Japanese-teacher
   persona review, grounded in Genki I, Minna no Nihongo I, JEES official
   N5 sample papers. Three-way classification:
-  - **A (21 entries)** — register-variant migrations from
+  - **A (21 entries)**, register-variant migrations from
     `wrong_corrected_pair` to `common_mistakes` with
     `kind: register_variant` + `form_a/form_b/label_a/label_b`:
     n5-018, n5-042, n5-045, n5-048, n5-050, n5-054, n5-062, n5-071,
@@ -3443,14 +3459,14 @@ orthography-policy decision surfaced in Part 29 SWEEP-5.
     n5-151, n5-166, n5-173, n5-174, n5-176. All carry provenance
     `llm_curated_with_reference_genki_minna_jees_2026_05_19` flagging
     future actual-native-speaker re-verification.
-  - **B (14 entries)** — genuine grammatical errors retained as
-    `wrong_corrected_pair` (e.g., `わたしさんは` — adding さん to
-    one's own name; `げんきだったです` — double-marking; `ほしい`
+  - **B (14 entries)**: genuine grammatical errors retained as
+    `wrong_corrected_pair` (e.g., `わたしさんは`: adding さん to
+    one's own name; `げんきだったです`: double-marking; `ほしい`
     with 3rd-person subject). 1 entry (n5-125[0]) had its
     `error_category` changed from `register` to `register_coherence`
     to honestly capture its mixed-register-stack nature and escape
     JA-127's narrower scope.
-  - **C (15 entries)** — pragmatic mismatches recategorized from
+  - **C (15 entries)**: pragmatic mismatches recategorized from
     `error_category=register` to `pragmatic` (14) or `cultural` (1,
     n5-100[2] self-praise modesty norm). Examples: ね-particle when
     listener can't evaluate (n5-025), よね without shared knowledge
@@ -3494,51 +3510,51 @@ classes) remain deferred to native-speaker review sessions.
 Orthography-policy decision (SWEEP-5) surfaced for maintainer
 discussion.
 
-## Unreleased - 2026-05-19 (GOI-001..003 close-out — goi-paper-6 rationale content discipline + 1 new CI invariant)
+## Unreleased - 2026-05-19 (GOI-001..003 close-out: goi-paper-6 rationale content discipline + 1 new CI invariant)
 
 ### Fixed
 
-- **GOI-001** (Major / P2) — goi-6.11 (phone-call paraphrase) had its
+- **GOI-001** (Major / P2): goi-6.11 (phone-call paraphrase) had its
   rationale_hi as a verbatim copy-paste of goi-6.12's (about 二十さい
   / age). Hindi-speaking learners answering the phone-call question
   would see an explanation about ages instead. Rewrote rationale_hi
   in natural Hindi about phone-call paraphrase
   (`「電話を かけて + 一時間 話した」 = 「電話で 話した」`). Provenance
   set to `native_reviewed_2026_05_19`.
-- **GOI-002** (Low / P4) — goi-6.14 rationale ended with "Hence the
-  rewording from a prior version" — same anti-pattern as PAPER-003
+- **GOI-002** (Low / P4), goi-6.14 rationale ended with "Hence the
+  rewording from a prior version", same anti-pattern as PAPER-003
   (JA-121 class), new trigger phrase. Trimmed both rationale and
   rationale_hi to the first sentence (the legitimate learner-facing
   content): `高かった (was expensive) ↔ たくさん お金を 払った (paid
   a lot of money).`.
-- **GOI-003** (Low / P4) — goi-6.12 rationale ended with meta-doc
+- **GOI-003** (Low / P4): goi-6.12 rationale ended with meta-doc
   pointer ("documented at vocabulary_n5.md ... does not bear on the
   time-reference test point this question targets"). Replaced with
   direct pedagogical content: `Note: 二十さい is read はたち, not
-  にじゅっさい — a special on-yomi exception shared with 二十日
+  にじゅっさい, a special on-yomi exception shared with 二十日
   (はつか).`. Mirror in rationale_hi.
 
 ### Added
 
-- **JA-136 CI invariant** — no rationale_hi shared verbatim by 2+
+- **JA-136 CI invariant**: no rationale_hi shared verbatim by 2+
   questions within the same paper file (>30 chars threshold).
   GOI-001 copy-paste guard. Rejected the bug spec's stricter
   token-overlap proposal (~100 false positives from dictionary-form
   ↔ polite-form variation); cross-question duplication is the
   narrower-but-defensible proxy.
-- **JA-121 trigger set extended** — 7 new phrases catching
+- **JA-121 trigger set extended**: 7 new phrases catching
   GOI-002/003 patterns: "Hence the rewording", "rewording from a
   prior", "from a prior version", "documented at vocabulary_n5.md",
   "documented at", "does not bear on", "test point this question".
-- **Procedure manual F.35** — Rationale content-discipline:
+- **Procedure manual F.35**, Rationale content-discipline:
   Class A (copy-paste content-mismatch) + Class B (meta-content in
   learner-facing rationale). Complements F.30/F.33/F.34 to form the
   5-invariant family on paper-question rationale fields (JA-121/122/
   129/130/136).
-- **Accuracy prompt A74** — Rationale content-discipline audit
+- **Accuracy prompt A74**: Rationale content-discipline audit
   category.
 - **N5Improvement Phase-0 rationale-content regression block**.
-- **AUDIT-COVERAGE Part 28** — Close-out narrative.
+- **AUDIT-COVERAGE Part 28**: Close-out narrative.
 
 ### State
 
@@ -3553,91 +3569,91 @@ paper-6 audit. Subtler defects (semantically-wrong-but-coherent
 rationale, misleading framing without trigger phrases) remain in
 manual-review territory.
 
-## Unreleased - 2026-05-19 (MOB-001..019 + DOKKAI-004 close-out — mobile UI compliance + 4 new CI invariants)
+## Unreleased - 2026-05-19 (MOB-001..019 + DOKKAI-004 close-out: mobile UI compliance + 4 new CI invariants)
 
 ### Fixed
 
-- **MOB-001** (Major / P2) — Primary nav dropped Test + Progress on
+- **MOB-001** (Major / P2): Primary nav dropped Test + Progress on
   mobile widths. Removed `@media (max-width: 599px)` rule that hid
   these items; with the existing flex shrink rule + font-size: 11px
   at D-380, all 7 nav items now visible on D-320+.
-- **MOB-002, MOB-003, MOB-016** (Major / P2) — Home study-order cards
+- **MOB-002, MOB-003, MOB-016** (Major / P2): Home study-order cards
   (.study-order-link 328×34), home CTA buttons (.btn-action 281×36),
   feedback page action buttons (159×36 / 88×36) all bumped to
   `min-height: 44px` per Apple HIG.
-- **MOB-004** (Minor / P3) — Back-navigation links (`.back-link` /
+- **MOB-004** (Minor / P3): Back-navigation links (`.back-link` /
   `.home-up-link a` 125×20) bumped to 44px tap target via padding.
-- **MOB-005** (Minor / P3) — Listening section expand/collapse
+- **MOB-005** (Minor / P3): Listening section expand/collapse
   buttons (.toc-expand-all/collapse-all 99×36) bumped to 44px.
-- **MOB-006** (Major / P2) — Feedback form inputs render at 14.0625px
+- **MOB-006** (Major / P2): Feedback form inputs render at 14.0625px
   → iOS Safari auto-zoom on focus. Added site-wide
   `input, textarea, select { font-size: max(1rem, 16px); }` rule.
-- **MOB-007** (Minor / P3) — "← All JLPT levels" home-up link not
+- **MOB-007** (Minor / P3): "← All JLPT levels" home-up link not
   localized to Hindi. Added `nav.all_levels` key to en+hi locales
   (Hindi: `सभी JLPT स्तर`). Updated js/home.js to use
   `t('nav.all_levels')`.
-- **MOB-008** (Minor / P3) — Route `#/listening/story` silent
+- **MOB-008** (Minor / P3): Route `#/listening/story` silent
   redirect to `#/listening` (dead-end). Canonicalized
   `js/listening-story.js` to use `#/listeningstory` (no slash);
   4 href edits + 1 comment fix.
-- **MOB-009** (Minor / P3) — Route `#/levels` silent redirect to
+- **MOB-009** (Minor / P3): Route `#/levels` silent redirect to
   `#/diagnostic`. Updated `js/home.js` home-up link `href="#/levels"`
   → `href="../"` (lands directly on JLPTSuccess root level-picker;
   skips in-SPA redirect that triggered first-run onboarding).
-- **MOB-010** (Minor / P5) — Sticky header top=16px. **Declined**
-  as design-decision per bug "borderline — possibly by-design"
+- **MOB-010** (Minor / P5): Sticky header top=16px. **Declined**
+  as design-decision per bug "borderline: possibly by-design"
   note. The 16px breathing room is intentional visual whitespace.
-- **MOB-011** (Major / P2) — 449 undersized interactive elements on
+- **MOB-011** (Major / P2): 449 undersized interactive elements on
   authentic-items page. Authentic-card-{kanji,vocab,grammar}-refs
   got `padding: 10px 6px; min-width: 44px`; .btn-tiny Pronounce
   buttons bumped to `min-height: 44px`.
-- **MOB-012** (Minor / P3) — Header brand-link 'N5' 54×16 bumped to
+- **MOB-012** (Minor / P3): Header brand-link 'N5' 54×16 bumped to
   44px tap target via padding.
-- **MOB-013** (Minor / P4) — Skip-link 187×41 (3px short) bumped
+- **MOB-013** (Minor / P4): Skip-link 187×41 (3px short) bumped
   to ≥44px.
-- **MOB-014** (Minor / P4) — Changelog `docs/CHANGELOG-archive.md`
+- **MOB-014** (Minor / P4): Changelog `docs/CHANGELOG-archive.md`
   link 209×17 bumped via `.changelog-page a[href$=".md"]` rule.
-- **MOB-015** (Minor / P3) — Examday/weakareas "See full bank →"
+- **MOB-015** (Minor / P3): Examday/weakareas "See full bank →"
   inline links 139-167×15 bumped via `.examday-page .muted a` /
   `.weakareas-page .muted a` rules.
-- **MOB-017** (Minor / P3) — Reading list page (`#/reading`) lacked
+- **MOB-017** (Minor / P3): Reading list page (`#/reading`) lacked
   `<a href>` deep-links. Converted `<button class="reading-pick"
   data-id="X">` → `<a class="reading-pick" href="#/reading/X"
   data-id="X">` in js/reading.js. Restores crawlability +
   bookmark-via-right-click + SEO; matches the `#/learn/grammar`
   deep-link pattern.
-- **MOB-018** (Minor / P3) — Selenium mobile-emulation `scrollTo`
+- **MOB-018** (Minor / P3): Selenium mobile-emulation `scrollTo`
   no-op test-framework limitation **documented**; recommend
   splitting affected scenarios into Auto + Manual variants. Not
   app-code defect.
-- **MOB-019** (Minor / P4) — 3 audio-UI scenarios target index
+- **MOB-019** (Minor / P4): 3 audio-UI scenarios target index
   pages but audio loads after item-tap. **Documented** scenario-
   rewrite recommendation. Not app-code defect.
-- **DOKKAI-004** (Low / P4) — dokkai-4.1 rationale_hi rewritten from
+- **DOKKAI-004** (Low / P4): dokkai-4.1 rationale_hi rewritten from
   `आना-जाना by ट्रेन` to `ट्रेन से कंपनी जाते हैं (रोज़ का आना-जाना
   ट्रेन से)।`. Same class as DOKKAI-002 ("ago"). Extended JA-129
   trigger set with ` by ` family substrings.
 
 ### Added
 
-- **JA-131 CI invariant** — locales/en.json + hi.json carry
+- **JA-131 CI invariant**: locales/en.json + hi.json carry
   `nav.all_levels` key (MOB-007 drift guard).
-- **JA-132 CI invariant** — css/main.css + main.min.css carry the
+- **JA-132 CI invariant**: css/main.css + main.min.css carry the
   MOB-001..016 mobile-UI compliance batch marker + canonical
   touch-target class set (multi-class drift guard).
-- **JA-133 CI invariant** — css/main.css has form-input
+- **JA-133 CI invariant**: css/main.css has form-input
   `font-size: max(1rem, 16px)` rule (MOB-006 iOS auto-zoom guard).
-- **JA-134 CI invariant** — js/home.js + js/listening-story.js
+- **JA-134 CI invariant**: js/home.js + js/listening-story.js
   free of dead-end hash routes `#/levels` and `#/listening/story`.
-- **JA-129 trigger extension** — added ` by `, ` by.`, ` by,`,
+- **JA-129 trigger extension**: added ` by `, ` by.`, ` by,`,
   ` by)`, ` by]` to the temporal-marker scan (DOKKAI-004 catch).
-- **Procedure manual F.34** — Mobile-UI compliance methodology:
+- **Procedure manual F.34**, Mobile-UI compliance methodology:
   5 durable defect classes (touch-target HIG, iOS auto-zoom, dead-
   end routes, locale parity, test-infrastructure gaps) with CI
   invariant templates + Nx-builder build-script recipe.
-- **Accuracy prompt A73** — Mobile-UI audit category.
+- **Accuracy prompt A73**: Mobile-UI audit category.
 - **N5Improvement Phase-0 mobile-UI regression block**.
-- **AUDIT-COVERAGE Part 27** — close-out narrative.
+- **AUDIT-COVERAGE Part 27**: close-out narrative.
 
 ### State
 
@@ -3650,11 +3666,11 @@ Bounded framing: MOB-001..019 + DOKKAI-004 + JA-131..134 cover the
 mobile-emulation audit. Future audits may surface additional
 classes; this batch closes the currently-observed set.
 
-## Unreleased - 2026-05-18 (DOKKAI-001..003 close-out — paper schema-discipline + 3 new CI invariants)
+## Unreleased - 2026-05-18 (DOKKAI-001..003 close-out: paper schema-discipline + 3 new CI invariants)
 
 ### Fixed
 
-- **DOKKAI-001 / BUG-107** (Medium / P2) — passage_text was duplicated
+- **DOKKAI-001 / BUG-107** (Medium / P2): passage_text was duplicated
   across two storage locations in every dokkai paper file (passages[]
   top-level + every question[].passage_text). 12 of 102 dokkai
   questions had already-drifted copies (leading `> ` markdown-
@@ -3666,18 +3682,18 @@ classes; this batch closes the currently-observed set.
   (10 Mondai-3 paragraph-gap questions with stray passage_text but
   no passages[] block); created passages[] with 2 canonical entries +
   dropped 10 passage_text fields.
-- **DOKKAI-002 / BUG-108** (Low / P3) — dokkai-1.1 rationale_hi
+- **DOKKAI-002 / BUG-108** (Low / P3): dokkai-1.1 rationale_hi
   contained untranslated English "ago" (`भूत-सकारात्मक रूप (आया एक
   महीना ago)।`); rewritten to `भूत-सकारात्मक: एक महीना पहले आया (अब
   यहाँ रह रहा है)।`. **Horizontal sweep:** JA-129 scan caught goi-7.1
   with the same English-fragment class (`आया 1 वर्ष ago।` → `यहाँ एक
   साल से = एक साल पहले आया।`). Both carry provenance
   `native_reviewed_2026_05_18`.
-- **DOKKAI-003 / BUG-109** (Low / P4) — grammarPatternId field was
+- **DOKKAI-003 / BUG-109** (Low / P4): grammarPatternId field was
   present on 78/102 dokkai questions, absent on 24, with no documented
   convention. Set grammarPatternId=null + grammarPatternId_provenance=
   "not_applicable_comprehension" on the 24 dokkai entries. **Horizontal
-  sweep:** 83 more non-dokkai questions missing the field — 11 goi
+  sweep:** 83 more non-dokkai questions missing the field: 11 goi
   (provenance `not_applicable_vocab`) + 72 moji (provenance
   `not_applicable_orthography`) all filled. All 412 paper questions
   (102 dokkai + 105 goi + 105 moji + 100 bunpou) now have
@@ -3686,27 +3702,27 @@ classes; this batch closes the currently-observed set.
 
 ### Added
 
-- **JA-128 CI invariant** — paper questions must NOT carry
+- **JA-128 CI invariant**: paper questions must NOT carry
   passage_text field; canonical text lives in passages[label].text
   via passage_label foreign key (DOKKAI-001 drift guard).
-- **JA-129 CI invariant** — paper rationale_hi must be free of
+- **JA-129 CI invariant**: paper rationale_hi must be free of
   untranslated English temporal/quantity markers (` ago `, ` yet `,
   ` lot `, + punctuated variants); extends the JA-122 fragment-scan
   set (DOKKAI-002 drift guard).
-- **JA-130 CI invariant** — every paper question has
+- **JA-130 CI invariant**: every paper question has
   grammarPatternId as a key; when value is null, provenance must
   start with `not_applicable_` documenting the reason (DOKKAI-003
   schema-shape guard).
-- **Procedure manual F.33** — Paper-question schema-discipline:
+- **Procedure manual F.33**, Paper-question schema-discipline:
   3 durable invariants (Class A single source of truth for passages;
   Class B English-fragment temporal markers; Class C explicit-null
   schema-shape). Reusable Nx-builder pattern.
-- **Accuracy prompt A72** — Paper-question schema-discipline audit
+- **Accuracy prompt A72**: Paper-question schema-discipline audit
   category.
 - **N5Improvement Phase-0 dokkai-schema regression block**.
-- **AUDIT-COVERAGE Part 26** — Close-out narrative.
+- **AUDIT-COVERAGE Part 26**: Close-out narrative.
 - **tools/fix_dokkai_bugs_2026_05_18.py** + **tools/fix_dokkai_bugs_
-  horizontal_2026_05_18.py** — Reusable fix-script templates.
+  horizontal_2026_05_18.py**: Reusable fix-script templates.
 
 ### State
 
@@ -3720,7 +3736,7 @@ horizontal sweep expanded scope to all 4 paper categories (bunpou /
 goi / moji / dokkai). Future audits may surface additional schema-
 shape drift classes; this batch closes the currently-observed set.
 
-## Unreleased - 2026-05-18 (LLM-001..005 + REG-001 close-out — 6 crawler-accessibility + register-conflation bugs + 5 new CI invariants)
+## Unreleased - 2026-05-18 (LLM-001..005 + REG-001 close-out: 6 crawler-accessibility + register-conflation bugs + 5 new CI invariants)
 
 ### Added
 
@@ -3730,7 +3746,7 @@ shape drift classes; this batch closes the currently-observed set.
   answer, rationale) without requiring JavaScript. LLM-001 / BUG-094
   close-out.
 - **7 thin LLM-005 summary pages** at `/N5/{home,grammar,vocabulary,
-  kanji,reading,listening,test}.html` — one-page-per-module summaries
+  kanji,reading,listening,test}.html`: one-page-per-module summaries
   pulling counts from `data/version.json`. Crawler bookmark targets.
 - **Corpus discovery catalog** at `/N5/data/index.json` with 39 entries
   enumerating every data file with URL, size_bytes, last_modified,
@@ -3738,7 +3754,7 @@ shape drift classes; this batch closes the currently-observed set.
   programmatic entry point for LLMs / scripts wanting to read the
   corpus in bulk. LLM-003 / BUG-096 close-out.
 - **llms.txt** at `/JLPTSuccess/llms.txt` (root) + `/JLPTSuccess/N5/llms.txt`
-  — Markdown-formatted discovery file for LLM crawlers per the
+ : Markdown-formatted discovery file for LLM crawlers per the
   llms.txt community-draft format. LLM-005 / BUG-105 close-out.
 - **Root-level robots.txt** at `/JLPTSuccess/robots.txt` with sitemap
   reference.
@@ -3746,17 +3762,17 @@ shape drift classes; this batch closes the currently-observed set.
 
 ### Fixed
 
-- **LLM-002 / BUG-095** — `/N5/sitemap.xml` regenerated from 10 URL
+- **LLM-002 / BUG-095**: `/N5/sitemap.xml` regenerated from 10 URL
   entries (meta routes only) to **1589 URL entries** covering every
   static-mirror directory, the 7 summary pages, the 11 meta routes,
   and the paper mirrors.
-- **LLM-004 / BUG-097** — N5/index.html `<noscript>` block expanded
+- **LLM-004 / BUG-097**: N5/index.html `<noscript>` block expanded
   with path-routed navigation (no hash routes) including links to all
   7 summary pages, per-entity static indexes, data/index.json, and
   site meta. Stale counts corrected: `45 reading` → `54 reading`,
   `47 listening` → `50 listening`. Counts pulled from version.json
   at build time (drift-resistant via JA-125 + JA-107).
-- **REG-001 / BUG-106** — n5-046.wrong_corrected_pair[1]
+- **REG-001 / BUG-106**: n5-046.wrong_corrected_pair[1]
   (やまださんは だれ ですか) migrated to common_mistakes
   register_variant with form_a/form_b/label_a/label_b schema.
   Removed the conflated 「やまださんは どんな 人 ですか」 alternative
@@ -3764,54 +3780,54 @@ shape drift classes; this batch closes the currently-observed set.
   Added scope_note marking どなた as N4-N3 vocabulary. JA-127 D6
   guard added; first run caught 5 more entries with the same
   "(in formal context)" self-contradiction pattern (n5-097, n5-102,
-  n5-127, n5-173, n5-179) — all migrated to register_variant.
+  n5-127, n5-173, n5-179): all migrated to register_variant.
 
 ### CI invariants (125 → 130)
 
-- **JA-123** — every `data/papers/*/*.json` has a corresponding
+- **JA-123**: every `data/papers/*/*.json` has a corresponding
   `/papers/<id>/index.html` static mirror (LLM-001 drift guard).
-- **JA-124** — `sitemap.xml` has ≥1000 `<loc>` entries (LLM-002
+- **JA-124**: `sitemap.xml` has ≥1000 `<loc>` entries (LLM-002
   regression floor; catches reversion to 10-URL pre-fix state).
-- **JA-125** — every entry in `data/index.json` has `size_bytes`
+- **JA-125**: every entry in `data/index.json` has `size_bytes`
   matching actual on-disk file size (LLM-003 / INV-LLM-3; same
   drift class as INV-4 / JA-107 version.json count drift).
-- **JA-126** — the 7 LLM-005 summary pages + llms.txt (at both
+- **JA-126**: the 7 LLM-005 summary pages + llms.txt (at both
   `/JLPTSuccess/` root and `/JLPTSuccess/N5/`) all exist.
-- **JA-127** — no `wrong_corrected_pair` entry with
+- **JA-127**: no `wrong_corrected_pair` entry with
   `error_category == "register"` may have a wrong-field
   parenthetical naming the register the form is appropriate for
   (REG-001 D6 guard; "(formal)" / "(in casual conversation)" /
-  etc. — internally contradictory).
+  etc.: internally contradictory).
 
 ### Deferred (documented, not fixed in this commit)
 
-- **REG-002..NN** — 84 SWEEP-1 candidates surfaced by REG-001
+- **REG-002..NN**: 84 SWEEP-1 candidates surfaced by REG-001
   keyword-based scan; each needs per-entry native-speaker triage
   to classify as register-variant / genuine-error / pragmatic-
   mismatch. Listed at `docs/REG-001-SWEEP-1-candidates_2026_05_18.md`.
-- **SWEEP-2..5** — D2/D3/D4/D5 defect classes (semantic conflation,
+- **SWEEP-2..5**: D2/D3/D4/D5 defect classes (semantic conflation,
   formality-vs-elevation, out-of-N5-scope-as-canonical, kana-of-
-  whitelist-kanji) — native-speaker review sessions, not this batch.
-- **LLM-005 build-script CI integration** — `tools/build_llm_surfaces
+  whitelist-kanji): native-speaker review sessions, not this batch.
+- **LLM-005 build-script CI integration**: `tools/build_llm_surfaces
   _2026_05_18.py` is a one-shot runner; wiring into
   `.github/workflows/` for auto-regen on push is a follow-up TODO.
 
 ### Documentation (Rule 4/5)
 
-- **Procedure manual F.31** — 8-surface LLM / search-crawler
+- **Procedure manual F.31**: 8-surface LLM / search-crawler
   accessibility canonical set; build-script architecture; CI
   invariant template; common pitfalls; bounded-coverage phrasing.
-- **Procedure manual F.32** — register-variant vs grammar-error 6
+- **Procedure manual F.32**: register-variant vs grammar-error 6
   defect classes (D1..D6); register_variant schema; CI invariant;
   sweep procedure.
-- **Accuracy prompt A70 / A71** — LLM-accessibility audit category +
+- **Accuracy prompt A70 / A71**: LLM-accessibility audit category +
   register-conflation audit category.
 - **N5Improvement Phase-0 LLM-surfaces** + **Phase-0 register-variant**
   regression blocks.
-- **AUDIT-COVERAGE Part 25** — close-out narrative + new drift-class
+- **AUDIT-COVERAGE Part 25**: close-out narrative + new drift-class
   catalog entries.
-- **Cross-artifact sync-map** — Part 25 audit-log row.
-- **Spec §25.4** — JA-123..127 rows added; section intro updated.
+- **Cross-artifact sync-map**: Part 25 audit-log row.
+- **Spec §25.4**: JA-123..127 rows added; section intro updated.
 
 ### State
 
@@ -3821,11 +3837,11 @@ Bug tracker **109 / 109 Fixed / 0 Open**.
 
 Bounded framing: this batch closes the 6 LLM-* + REG-* bugs surfaced
 on 2026-05-18. Future audits may extend the catalog (locale-specific
-sitemap variants, JSON-LD structured data, schema.org markup, etc.) —
+sitemap variants, JSON-LD structured data, schema.org markup, etc.):
 JA-123..127 prevent re-introduction of *the surface gaps this batch
 addresses*.
 
-## Unreleased - 2026-05-18 (PAPER-001..004 + LISTEN-4 close-out — 5 bug-class fixes + 3 new CI invariants)
+## Unreleased - 2026-05-18 (PAPER-001..004 + LISTEN-4 close-out: 5 bug-class fixes + 3 new CI invariants)
 
 ### Fixed
 
@@ -3840,14 +3856,14 @@ addresses*.
 - **PAPER-002** (Low / P4): set missing `grammarPatternId` +
   `grammarPatternId_provenance` on bunpou-4.3 (Q48). Stem "きょうは あめが
   ふって、かぜも （）。" with correct answer "つよいです" tagged `n5-079`
-  (い-Adjective + です) — parallel-predicate use via て-form connection.
+  (い-Adjective + です): parallel-predicate use via て-form connection.
 - **PAPER-003** (Low / P4): stripped commit-message-style meta-fix history
   from 14 learner-facing rationale fields. 6 bunpou questions (bunpou-
   1.14, 3.4, 3.11, 5.15, 7.4, 7.8) + 2 goi questions (goi-3.3, goi-3.14
   caught by JA-121 after first pass) had audit-trail parentheticals
   ("Stem now anchored with わたしは", "replaces ので per corpus-wide
   policy applied alongside Q5 fix in v1.12.14") removed. Distractor-
-  analysis content (Q50/Q51 bunpou-4.5/4.6) intentionally preserved —
+  analysis content (Q50/Q51 bunpou-4.5/4.6) intentionally preserved:
   genuine learner value, not commit trail.
 - **PAPER-004** (Medium / P3): rewrote 58 `rationale_hi` fields with
   natural Hindi sourced from `rationale_en`. Affected questions had
@@ -3862,32 +3878,32 @@ addresses*.
   was already correct from a prior commit (`version.json` counts
   grammar=178, vocab=995, kanji=106, reading=54, listening=50; version
   field bumped to v1.15.5). Investigation found the `Fix Commit` cell
-  for BUG-090..093 referenced `d26e677` — a native-Japanese-teacher
+  for BUG-090..093 referenced `d26e677`: a native-Japanese-teacher
   commit from 2026-05-17, BEFORE these bugs were filed on 2026-05-18.
   Stale back-fill; not a real close-out. Honest correction in this
   commit.
 
 ### Added
 
-- **JA-120 CI invariant** — paper bunpou Mondai-1 `grammarPatternId`
+- **JA-120 CI invariant**: paper bunpou Mondai-1 `grammarPatternId`
   must match canonical particle pattern (PAPER-001 drift guard).
-- **JA-121 CI invariant** — paper `rationale` / `rationale_hi` must be
+- **JA-121 CI invariant**: paper `rationale` / `rationale_hi` must be
   free of 12 commit-message-style meta-fix phrases (PAPER-003 drift
   guard).
-- **JA-122 CI invariant** — paper `rationale_hi` must be free of 17
-  English-pattern fragments — apostrophe-s / contractions / mojibake
+- **JA-122 CI invariant**, paper `rationale_hi` must be free of 17
+  English-pattern fragments, apostrophe-s / contractions / mojibake
   (PAPER-004 drift guard).
-- **Procedure manual §F.30** (6 sub-sections) — paper-question content
+- **Procedure manual §F.30** (6 sub-sections): paper-question content
   audit methodology covering all 3 drift classes + canonical particle ↔
   pattern_id map + anti-pattern "don't translate from broken Hindi".
-- **Accuracy prompt §A67 / §A68 / §A69** — three new audit categories
+- **Accuracy prompt §A67 / §A68 / §A69**: three new audit categories
   mirroring JA-120 / JA-121 / JA-122 enforcement.
-- **N5Improvement Phase-0 paper-question regression block** —
+- **N5Improvement Phase-0 paper-question regression block**:
   maintainer-side mirror of JA-120/121/122.
-- **AUDIT-COVERAGE Part 24** — paper-question content audit close-out
+- **AUDIT-COVERAGE Part 24**: paper-question content audit close-out
   narrative + drift-class catalog.
 - **tools/fix_paper_bugs_2026_05_18.py** + **tools/fix_paper_bugs_part2_2026_05_18.py**
-  — reusable Nx-builder pattern templates for paper-bank audits.
+ : reusable Nx-builder pattern templates for paper-bank audits.
 
 ### Anti-pattern documented
 
@@ -3913,7 +3929,7 @@ re-introduction of *these specific drift classes*.
 
 ## Unreleased - 2026-05-17 (Multi-role specialist review sweep + Selenium UI test class + 16 NR-* bugs)
 
-Not user-visible at runtime — corpus content was already correct
+Not user-visible at runtime: corpus content was already correct
 post Phase-2; this batch added a systematic 720-scenario multi-
 role specialist review sweep (Native Japanese / JLPT / Native
 Hindi / Security / Privacy-legal / Performance / Data / Pedagogy /
@@ -3923,37 +3939,37 @@ functional surface in spec §5.
 
 ### 16 NR-* bugs surfaced + fixed across 5 batches
 
-- **Batch 1 (`d26e677`) — Native Japanese teacher review**:
+- **Batch 1 (`d26e677`), Native Japanese teacher review**:
   NR-001 (Major, まえに pattern-instance contamination across n5-161
-  / n5-162 — 5 misfiled examples); NR-002 (Medium, n5-161 duplicate
+  / n5-162, 5 misfiled examples); NR-002 (Medium, n5-161 duplicate
   examples); NR-003 (Major, n5-160 / n5-163 misfiled adverbial
   'あとで 電話します。'); NR-004 (Major, n5-045 ex[6] wh+は anti-
   pattern); NR-005 (Critical, 13 wrong rendaku forms in vocab.json
   number-vocab collocations for 本 + 個 counters). 9 grammar examples
   + 13 vocab collocations fixed. Cross-checked vs Genki I + Minna I
   + NHK accent dictionary + JEES samples.
-- **Batch 2 (`8159b49`) — Native Hindi teacher + JLPT exam expert**:
+- **Batch 2 (`8159b49`): Native Hindi teacher + JLPT exam expert**:
   NR-HI-001 (Critical, q-0264 distractor とって corruption "जो's");
   NR-HI-002 (Major, q-0462 English possessive 's after Hindi noun);
   NR-HI-003 (Medium, q-0234 mixed-English "Group 1"); NR-JE-001
-  (Major, 40 JLPT format violations — half-width `___` for fill-
+  (Major, 40 JLPT format violations: half-width `___` for fill-
   blank + 10 missing terminal 。). Cross-checked vs Hindi Vyakaran +
   Sahitya Akademi + JEES sample paper format.
-- **Batch 3 (`46be3e1`) — Security / Privacy-legal / Data eng sweep**:
+- **Batch 3 (`46be3e1`): Security / Privacy-legal / Data eng sweep**:
   NR-SEC-001 (Major, 4/4 GitHub workflows missing `permissions:`
-  least-privilege block — fixed with `contents: read`); NR-SEC-002
+  least-privilege block, fixed with `contents: read`); NR-SEC-002
   (Medium, defense-in-depth meta tags initially missing);
   NR-LIC-001 (Medium, kanjium CC-BY-SA 4.0 attribution missing from
   CONTENT-LICENSE.md); NR-DATA-001 (Low informational, 14/22 data
-  files lack schema_version — auto-gen catalogs).
-- **Batch 4 (`d1e0d90`) — Brutal-honesty re-audit**: NR-DATA-002
+  files lack schema_version, auto-gen catalogs).
+- **Batch 4 (`d1e0d90`), Brutal-honesty re-audit**: NR-DATA-002
   (Major, 4 vocab demonstrative entries reference retired grammar
-  pattern n5-012 — caught by deeper full-corpus scan). 42 prior
+  pattern n5-012, caught by deeper full-corpus scan). 42 prior
   PASSes re-labeled with bounded-honest qualifiers (PASS / PASS-
   limited / PASS-architectural / PASS-spot-check / etc.).
-- **Batch 5 (`5635425`) — Selenium UI test class**: NR-UI-001
+- **Batch 5 (`5635425`), Selenium UI test class**: NR-UI-001
   (Medium, CSP `frame-ancestors` and X-Frame-Options are HTTP-
-  header-only and IGNORED via `<meta>` — cosmetic-only fix from
+  header-only and IGNORED via `<meta>`: cosmetic-only fix from
   prior NR-SEC-002 batch). Selenium console-error capture caught
   SEVERE errors on every route. Fix: removed both ineffective meta
   tags from index.html + documented the GitHub-Pages static-hosting
@@ -3961,7 +3977,7 @@ functional surface in spec §5.
 
 ### Selenium UI test suite (NEW)
 
-`tools/ui_test_suite_2026_05_17.py` — 55 scenarios covering:
+`tools/ui_test_suite_2026_05_17.py`, 55 scenarios covering:
 - Spec §5.1-5.16 functional routes (Home / Learn hub / Grammar /
   Vocab / Kanji / Reading / Listening / Mock Test / Papers /
   Drill / Review / Missed / Summary / Settings / Sitting / Today /
@@ -3984,26 +4000,26 @@ UI Tests with 55 scenario rows).
 
 ### Methodology propagation (Rule 4 / Rule 5)
 
-- `JLPT Common/procedure-manual-build-next-jlpt-level.md` — Appendix
+- `JLPT Common/procedure-manual-build-next-jlpt-level.md`: Appendix
   F.28 (multi-role specialist-review-by-tab pattern + bounded-
   honest stamping vocabulary + brutal-honesty re-audit) + F.29
   (Selenium UI test class + NR-UI-001 lesson on meta-tag-ignored
   security directives).
-- `prompts/Japanese language Accuracy check.txt` — A65 (multi-role
+- `prompts/Japanese language Accuracy check.txt`: A65 (multi-role
   methodology) + A66 (Selenium UI test class).
-- `prompts/N5Improvement.txt` — Phase-0 Selenium UI test regression
+- `prompts/N5Improvement.txt`: Phase-0 Selenium UI test regression
   block (target 53/55 PASS post NR-UI-001) + Phase-0 multi-role
   specialist-review regression block (target 0 NEW NR-* findings).
-- `docs/AUDIT-COVERAGE-2026-05-15.md` — Part 23 addendum
+- `docs/AUDIT-COVERAGE-2026-05-15.md`: Part 23 addendum
   (consolidated 5-batch narrative + reusable-tooling deliverables).
-- `docs/cross-artifact-sync-map.md` — 6 new audit-log rows
+- `docs/cross-artifact-sync-map.md`: 6 new audit-log rows
   (5 batches + this propagation catch-up).
-- `specifications/JLPT-N5-Current-Implementation-Spec.md` — §25 intro
+- `specifications/JLPT-N5-Current-Implementation-Spec.md`: §25 intro
   reflection (UI Tests tab added; bug-tracker count update).
 
 ### CI invariants final state for this batch
 
-- **Total live: 122** (unchanged — this batch is methodology +
+- **Total live: 122** (unchanged, this batch is methodology +
   multi-role review + UI test wiring, not new content invariants).
 - All 122 PASS.
 - `cross_artifact_sync_report.py` EXIT: CLEAN.
@@ -4030,7 +4046,7 @@ UI Tests with 55 scenario rows).
 - `N5/docs/cross-artifact-sync-map.md` (6 audit-log rows)
 - `N5/CHANGELOG.md` + `N5/changelog/index.html` (meta-mirror regen)
 - 11 NEW `N5/tools/` scripts (NR-* applicators + Selenium runner +
-  xlsx populators) — listed in AUDIT-COVERAGE Part 23
+  xlsx populators): listed in AUDIT-COVERAGE Part 23
 
 ## Unreleased - 2026-05-17 (Audio Phase-2: VOICEVOX from-source re-render at speed_scale=1.00)
 
@@ -4040,7 +4056,7 @@ source via VOICEVOX at `speed_scale=1.00`, replacing the prior
 atempo) and Phase-1.5 (librubberband on 3 items) post-processing
 layers. Audio quality is now driven by a single coherent
 from-source render rather than stacked post-processing passes.
-Pacing distribution unchanged from the user's perspective — every
+Pacing distribution unchanged from the user's perspective: every
 item still lands in the JLPT N5 target band 180–240 mpm.
 
 ### Render summary
@@ -4052,7 +4068,7 @@ item still lands in the JLPT N5 target band 180–240 mpm.
   render (春日部つむぎ, 玄野武宏, 四国めたん, ずんだもん,
   雨晴はう, 青山龍星). Per-item speaker assignment unchanged.
 - **Final pacing**: 50/50 in_range. Mean 214.5 mpm; min 190.4;
-  max 237.3 — well centered in the 180–240 target band.
+  max 237.3: well centered in the 180–240 target band.
 
 ### Post-render adjustment distribution
 
@@ -4067,7 +4083,7 @@ to land in band:
 | `ffmpeg-rubberband` single-pass | 5 | Replaced chained atempo at factor < 0.5 (same quality pattern as Phase-1.5) |
 
 The 5 rubberband items are `n5.listen.010 / 041 / 044 / 045 / 047`
-— each authored as a single-pass librubberband swap-in for the
+: each authored as a single-pass librubberband swap-in for the
 chained `atempo=0.5,atempo=X` that the pacing refresh would
 otherwise have applied. Same quality rationale as the prior
 Phase-1.5 (commit `c79c02e`): rubberband preserves transients
@@ -4083,14 +4099,14 @@ better than chained atempo at sub-0.5 slowdown factors.
   post-processing layer (commit `47d1edc`) on the 50 audio
   primaries.
 - The Phase-1.5 rubberband replacement (commit `c79c02e`) on the
-  3 chained-atempo items (n5.listen.041 / 044 / 045) — those
+  3 chained-atempo items (n5.listen.041 / 044 / 045): those
   items are now part of the Phase-2 re-render + new rubberband
   application at adjusted factors.
 
 ### What this batch did NOT change
 
-- Pattern count (178 — no schema changes).
-- Bug tracker (53 / 53 Fixed / 0 Open — Phase-2 is a quality
+- Pattern count (178: no schema changes).
+- Bug tracker (53 / 53 Fixed / 0 Open: Phase-2 is a quality
   upgrade, not a bug close-out).
 - Listening item count (50). Item scripts (`script_ja`) unchanged.
 - CI invariant count (122/122 still). All audio-class invariants
@@ -4105,10 +4121,10 @@ better than chained atempo at sub-0.5 slowdown factors.
 - `N5/data/listening.json` (audio_render_meta refresh on every
   item + `_meta.phase2_voicevox_rerender_2026_05_17` block)
 - `N5/tools/render_listening_phase2_voicevox_1_00_2026_05_17.py`
-  (NEW — Phase-2 renderer; derived from the 6speakers script
+  (NEW: Phase-2 renderer; derived from the 6speakers script
   with speedScale 0.95 → 1.00)
 - `N5/tools/apply_phase2_rubberband_chained_items_2026_05_17.py`
-  (NEW — Phase-2 follow-on librubberband swap for sub-0.5 items)
+  (NEW: Phase-2 follow-on librubberband swap for sub-0.5 items)
 - `N5/docs/AUDIO-PHASE2-VOICEVOX-RERENDER.md` (rewritten from
   runbook to COMPLETED status)
 - `N5/docs/AUDIT-COVERAGE-2026-05-15.md` (Part 22 addendum)
@@ -4121,7 +4137,7 @@ CI invariants final state: **122 / 122 green**.
 ## Unreleased - 2026-05-17 (JA-91 + JA-94 Phase A + Phase B resolution: empty both baselines)
 
 User-visible: 14 grammar examples rewritten + 33 grammar-pattern
-explanation paragraphs rewritten. Functional coverage is unchanged —
+explanation paragraphs rewritten. Functional coverage is unchanged:
 the 178 patterns each still cover what they covered before, and the
 14 replaced examples still demonstrate N5-appropriate Japanese. The
 visible change is that learners encountering n5-030 (nominalizer の),
@@ -4134,7 +4150,7 @@ prior 43 cross-pattern explanation pairs) have explanations that
 explicitly name their relationship to the canonical entry rather
 than restating the canonical text verbatim.
 
-### Phase A — 14 BUG-006-CANDIDATE example replacements
+### Phase A: 14 BUG-006-CANDIDATE example replacements
 
 Each was a wrong-pattern example (the example didn't demonstrate
 the parent pattern at all). Replaced with parent-pattern-
@@ -4161,28 +4177,28 @@ demonstrating examples:
 `baseline_failing_examples`; JA-94 enforces marker-presence
 unconditionally across all 1782 examples.
 
-### Phase B — 33 explanation_en rewrites covering 43 prior pairs
+### Phase B: 33 explanation_en rewrites covering 43 prior pairs
 
 The 43 prior JA-91 baseline pairs (DUPLICATE_PATTERN ×8,
 CROSS_REFERENCE ×21, ALTERNATIVE_VARIANT ×12, SUBSET ×2) were
 addressed via explanation rewrites:
 
-- **DUPLICATE_PATTERN** — rewrote the "re-introduction" side (n5-039
+- **DUPLICATE_PATTERN**: rewrote the "re-introduction" side (n5-039
   / n5-040 / n5-041 / n5-045 / n5-046 / n5-114 / n5-115 / n5-029)
   to use distinct framing (kosoado-paradigm sequencing, time-axis
   instance, noun-modifier system) so each diverges from its
   canonical entry's text.
-- **CROSS_REFERENCE** — rewrote the deferring side as a focused
+- **CROSS_REFERENCE**: rewrote the deferring side as a focused
   sub-scope entry that explicitly points at the parent (e.g.,
   n5-137 → Nominalization framing of の; n5-184/185/186/187 →
   indefinite-X instance entries of the n5-183 parent rule;
   n5-160/161/162/163 → frame-specific instances of あと/まえ).
-- **ALTERNATIVE_VARIANT** — rewrote BOTH sides of each pair with
+- **ALTERNATIVE_VARIANT**: rewrote BOTH sides of each pair with
   register / syntactic-frame distinguishing prose (e.g., n5-173
   spoken-formal vs n5-174 written-formal vs n5-175 conditional-
   frame vs n5-176 casual-contraction obligation; n5-157 polite-
   register でしょう vs n5-158 plain-register だろう).
-- **SUBSET** — rewrote n5-048 as the 'where' question-word entry
+- **SUBSET**: rewrote n5-048 as the 'where' question-word entry
   pointing at the full n5-016 / n5-041 series.
 
 Total: 33 patterns rewritten (some sat at two classifications).
@@ -4194,7 +4210,7 @@ JA-91 enforces the threshold unconditionally.
 
 ### CI invariants final state for this batch
 
-- **Total live: 122** (unchanged from prior — Phase A + Phase B
+- **Total live: 122** (unchanged from prior, Phase A + Phase B
   are content-side resolutions, not new invariants).
 - Both JA-91 and JA-94 now run with EMPTY baselines.
 - `cross_artifact_sync_report.py` exits CLEAN.
@@ -4208,7 +4224,7 @@ JA-91 enforces the threshold unconditionally.
 Phase-2 (VOICEVOX re-render at speed_scale=1.00) remains the only
 queued item from the prior JA-91+JA-94 follow-on list. Stays
 deferred on local VOICEVOX install (agent-side environment gap;
-not a correctness or coverage blocker — Phase-1.5 closed the
+not a correctness or coverage blocker: Phase-1.5 closed the
 sub-0.5-factor artifact gap with librubberband).
 
 ### Files touched
@@ -4252,7 +4268,7 @@ rubberband single-pass avoids).
 
 All 3 land within the JLPT N5 target band (180–240 mpm). The
 remaining 36 atempo-adjusted items (factors 0.5–1.0) stay on
-single-pass `atempo` — quality difference vs rubberband at those
+single-pass `atempo`: quality difference vs rubberband at those
 factors is marginal and not worth the re-render churn.
 
 ### Audio metadata updates
@@ -4260,13 +4276,13 @@ factors is marginal and not worth the re-render churn.
 For each of the 3 items, `audio_render_meta`:
 - `post_render_tempo_method` flipped from `"ffmpeg-atempo"` to
   `"ffmpeg-rubberband"`.
-- `phase15_method_change_2026_05_17` added — records the from/to
+- `phase15_method_change_2026_05_17` added: records the from/to
   method, the factor, and the rationale.
 
 ### Doc drift fix
 
 `docs/AUDIO-PHASE2-VOICEVOX-RERENDER.md` previously cited
-"7 items with slowdown factors below 0.5" — actual count was 3
+"7 items with slowdown factors below 0.5": actual count was 3
 (hand-tally error at authoring time). All 4 occurrences corrected
 in this batch; Phase-1.5 close-out note added to the doc head.
 
@@ -4278,7 +4294,7 @@ in this batch; Phase-1.5 close-out note added to the doc head.
   (regenerated from new primary at single-pass `atempo=0.7`)
 - `N5/data/listening.json` (audio_render_meta updates +
   re-measured `pacing_morae_per_min`)
-- `N5/tools/apply_phase15_rubberband_2026_05_17.py` (NEW —
+- `N5/tools/apply_phase15_rubberband_2026_05_17.py` (NEW:
   one-shot metadata flipper)
 - `N5/docs/AUDIO-PHASE2-VOICEVOX-RERENDER.md` (7→3 correction +
   Phase-1.5 close-out note)
@@ -4290,35 +4306,35 @@ CI invariants unchanged at 122/122 green.
 
 ## Unreleased - 2026-05-17 (JA-91 + JA-94 final unblock: reserved JA-91..95 range fully wired)
 
-Not user-visible at runtime — corpus and rendered surfaces unchanged.
+Not user-visible at runtime: corpus and rendered surfaces unchanged.
 Internal: closes the final two reserved invariant slots from the
 JA-91..95 range, bringing CI from 120 → 122 invariants green and
 locking two contamination guards that BUG-003 and BUG-006 (round-9
 audit) had each filed against the corpus.
 
-### JA-91 — cross-pattern explanation_en similarity guard (BUG-003)
+### JA-91: cross-pattern explanation_en similarity guard (BUG-003)
 
 The corpus has 43 grammar-pattern pairs whose `explanation_en` strings
 match each other at ≥0.85 Levenshtein similarity. Hand-classification
 identified each as legitimate cross-coverage rather than contamination:
 
-- **DUPLICATE_PATTERN ×8** — two pattern IDs cover the same concept
+- **DUPLICATE_PATTERN ×8**: two pattern IDs cover the same concept
   (e.g., n5-014 + n5-039 both = これ/それ/あれ pronouns).
-- **CROSS_REFERENCE ×21** — one pattern defers to another (the n5-183
+- **CROSS_REFERENCE ×21**: one pattern defers to another (the n5-183
   family with 4 child patterns; the n5-119/120 ↔ n5-160..163 まえ/あと
   family).
-- **ALTERNATIVE_VARIANT ×12** — register / dialect / syntactic variants
+- **ALTERNATIVE_VARIANT ×12**: register / dialect / syntactic variants
   of one construct (the obligation paradigm n5-173..176 = なくては
   いけない / ならない / ないと / なくちゃ・なきゃ; n5-157 ↔ n5-158 =
   でしょう ↔ だろう).
-- **SUBSET ×2** — one pattern subset of another's coverage.
+- **SUBSET ×2**: one pattern subset of another's coverage.
 
 The 43 pairs are snapshotted in `data/_ja91_baseline.json` with per-pair
-rationale notes. JA-91 trips on any NEW pair beyond the baseline —
+rationale notes. JA-91 trips on any NEW pair beyond the baseline:
 typically signaling a fresh pattern with explanation copied/contaminated
 from an existing one.
 
-### JA-94 — per-example structural-marker guard (BUG-006)
+### JA-94: per-example structural-marker guard (BUG-006)
 
 Authored `data/pattern_markers.json` (178-pattern catalog) via
 `tools/author_pattern_markers_2026_05_17.py`. The authoring derives an
@@ -4334,10 +4350,10 @@ marker from their parent pattern. The 14 remaining BUG-006-CANDIDATE
 wrong-example failures cluster on 8 parent patterns (n5-030, n5-048,
 n5-065, n5-071, n5-084, n5-112, n5-157, n5-164) and are snapshotted in
 `data/_ja94_baseline.json` with per-entry classification notes
-("n5-048 ex[0] uses ここ but parent pattern is どこ — belongs under
+("n5-048 ex[0] uses ここ but parent pattern is どこ: belongs under
 n5-016 / n5-041"; "n5-157 ex[4] uses volitional たべましょう, not
-probability でしょう — belongs under n5-071"; etc.). These 14 remain
-as a follow-on audit-cycle target — JA-94 currently allowlists them
+probability でしょう: belongs under n5-071"; etc.). These 14 remain
+as a follow-on audit-cycle target: JA-94 currently allowlists them
 so no NEW pattern-instance contamination can land without tripping
 CI, but the snapshotted entries should be addressed by a future
 native-reviewer pass that either rewrites the examples or moves them
@@ -4350,7 +4366,7 @@ to their correct parent pattern.
   and JA-80 remain in the §25.7 Reserved table.
 - All 122 invariants PASS on the current corpus.
 - `cross_artifact_sync_report.py` exits CLEAN.
-- Bug tracker: 53 / 53 Fixed / 0 Open (unchanged this batch — JA-91
+- Bug tracker: 53 / 53 Fixed / 0 Open (unchanged this batch, JA-91
   and JA-94 are governance / prospective-guard wirings, not bug
   close-outs).
 
@@ -4384,17 +4400,17 @@ had been carried over for ~20 commits without being refreshed.
 The user's audit observed `counts.listening=47` and reported it as
 "data/version.json declares 47". Verification each round confirmed
 the actual `data/version.json` file held 50 (not 47) in every
-observable state — working tree, full git history, live deployed
+observable state: working tree, full git history, live deployed
 site. Each close-out round addressed adjacent stale-prose drift on
 user-facing surfaces:
 
-- **Round 1** (`5d14cde`) — fixed AUDIO.md line 52 ("47 listening
+- **Round 1** (`5d14cde`): fixed AUDIO.md line 52 ("47 listening
   items use 4 distinct VOICEVOX speakers"). JA-112 wired. Real but
   not the source the user observed.
-- **Round 2** (`bbea337`) — back-filled Fix Commit links on the 53
+- **Round 2** (`bbea337`): back-filled Fix Commit links on the 53
   Fixed bugs as part of INV-9 promotion. JA-118 wired. Orthogonal
   to BUG-050's actual content.
-- **Round 3** (this commit) — **located the actual source**: spec
+- **Round 3** (this commit), **located the actual source**: spec
   §7.3 carried a SAMPLE `version.json` JSON block showing
   `"listening": 47` (along with `"vocab": 1041`, etc.) from a
   v1.12.50-era snapshot. The block's framing reads as authoritative
@@ -4405,9 +4421,9 @@ user-facing surfaces:
 
 1. **Spec §7.3 sample updated** to current values (v1.15.5, vocab
    995, reading 54, listening 50, papers 28, paperQuestions 402).
-   The stale `invariants: 48/48` field — which lived in the sample
+   The stale `invariants: 48/48` field, which lived in the sample
    but no longer lives in the live `version.json` (moved to
-   `data/build_metadata.json` per IMP-002) — removed entirely; a
+   `data/build_metadata.json` per IMP-002), removed entirely; a
    prose sentence below the block clarifies where the CI invariant
    count actually lives now.
 2. **Drift note added** below the §7.3 sample block explaining
@@ -4433,10 +4449,10 @@ JA-119 parses the spec §7.3 fenced JSON block and compares its
 `counts` field key-by-key against the live `data/version.json.counts`.
 Drift on any key trips CI immediately. The check also flags
 missing keys (sample doesn't list a count that live data has) and
-extra keys (sample lists a count that's not in live data —
+extra keys (sample lists a count that's not in live data:
 catches the `invariants` deprecation cleanly).
 
-### Process lesson — "charitable interpretation" is iterative
+### Process lesson: "charitable interpretation" is iterative
 
 When a user-filed bug's literal claim conflicts with observable
 state, check ADJACENT artifacts. The 2026-05-17 BUG-050 saga
@@ -4470,7 +4486,7 @@ Bug tracker: **53 / 53 Fixed / 0 Open**.
   - N5/docs/AUDIT-COVERAGE-2026-05-15.md (Part 18 addendum)
   - N5/docs/cross-artifact-sync-map.md (audit-log row for round-3)
   - N5/CHANGELOG.md (this entry)
-  - N5/changelog/index.html (meta-mirror regen — JA-113 enforced)
+  - N5/changelog/index.html (meta-mirror regen: JA-113 enforced)
 
 ### Verification
 
@@ -4484,12 +4500,12 @@ Bug tracker: **53 / 53 Fixed / 0 Open**.
 
 User-visible: the **grammar.json n5-028 ex[5]** (〜の possessive
 pattern) now correctly demonstrates の. Previously read
-`父は 先生です。` (uses は, not の — same drift class as BUG-009);
+`父は 先生です。` (uses は, not の: same drift class as BUG-009);
 now reads `わたしの 父は 先生です。` (preserves the EN translation
 "My father is a teacher." while adding the canonical possessive
 marker). Caught by JA-95's first run; fixed inline.
 
-### What landed — "do whatever is required tbd but finish it"
+### What landed: "do whatever is required tbd but finish it"
 
 **(A) JA-91..95 reserved slots: 3 of 5 promoted; 2 stay reserved**
 
@@ -4497,20 +4513,20 @@ The spec's prior note "gated only by the pattern-markers / particle-
 list data files being authored" was outdated. Mid-session investigation
 showed:
 
-- **JA-92** (no EN sentence repeated in 10+ examples) — wired; passes.
-- **JA-93** (pitch_marks.mora == count_morae(reading)) — wired; passes.
+- **JA-92** (no EN sentence repeated in 10+ examples): wired; passes.
+- **JA-93** (pitch_marks.mora == count_morae(reading)): wired; passes.
   Algorithm preserved from `not-required/tools-archive/fix_issue_074_
   pacing_audit_2026_05_06.py` (round-9 baseline).
-- **JA-95** (particle-pattern alignment) — wired; passes after fixing
+- **JA-95** (particle-pattern alignment): wired; passes after fixing
   n5-028 ex[5]. First-run caught the misaligned example.
 - **JA-91** (cross-pattern explanation_en similarity ≥0.85
-  Levenshtein) — **partial-promoted then deferred**. Corpus has 42
+  Levenshtein): **partial-promoted then deferred**. Corpus has 42
   pairs of EXACTLY identical explanations across related patterns
   (e.g., n5-014 vs n5-039 both about これ/それ/あれ). Can't
   mechanically distinguish "intentional cross-pattern" from
   "accidental contamination"; gated on Japanese-linguistics review
   pass classifying the 42 pairs (~2-3 hours work).
-- **JA-94** (pattern-marker presence per example) — **partial-
+- **JA-94** (pattern-marker presence per example): **partial-
   promoted then deferred**. Requires authoring `data/pattern_markers.
   json` (a structural-markers catalog, NOT `_meaning_ja_markers`
   which describes the meaning). ~3-5 hours of Japanese-linguistic
@@ -4519,17 +4535,17 @@ showed:
 **(B) Commit-time enforcement for INV-1 / INV-2 / INV-8**
 
 New `.githooks/` directory at the repo root:
-  - `pre-commit` — staged-file checks (INV-2 spec↔code; INV-8
+  - `pre-commit`, staged-file checks (INV-2 spec↔code; INV-8
     data↔CHANGELOG)
-  - `commit-msg` — message-body checks (INV-1 bug-fix mentions test;
+  - `commit-msg`, message-body checks (INV-1 bug-fix mentions test;
     INV-8 atomic-commit body length on multi-file commits)
-  - `README.md` — install + bypass + maintenance notes
+  - `README.md`, install + bypass + maintenance notes
 
 One-time install: `git config core.hooksPath .githooks`
 
 These complement the corpus-content CI invariants (which run on
 push + PR). The hooks catch issues at commit time, before they
-land — particularly useful for the bug-fix-without-test class
+land: particularly useful for the bug-fix-without-test class
 (INV-1 hard fail) which the project's history showed surfacing
 repeatedly before this guard.
 
@@ -4542,9 +4558,9 @@ processing applied in commit `47d1edc`). Phase-1 is shippable
 (50/50 in target band, mean 213.6 mpm). Phase-2 is a quality
 upgrade requiring VOICEVOX installed locally; the runbook
 captures the exact command sequence + expected post-state. Not
-gated behind a tracker entry — surfaced as documentation only.
+gated behind a tracker entry: surfaced as documentation only.
 
-### Cross-Artifact Sync Protocol — final distribution
+### Cross-Artifact Sync Protocol: final distribution
 
 | INV-N | Description | Status |
 |---|---|---|
@@ -4570,25 +4586,25 @@ Bug tracker: 53 / 53 Fixed / 0 Open (unchanged).
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-  - N5/tools/check_content_integrity.py — 3 new check functions
+  - N5/tools/check_content_integrity.py: 3 new check functions
     (JA-92/93/95) + 2 stayed-reserved with detailed deferral notes
     (JA-91/94)
-  - N5/tools/cross_artifact_sync_report.py — INV_MAPPING updated
+  - N5/tools/cross_artifact_sync_report.py: INV_MAPPING updated
     to use the new {wired, hook, oos} taxonomy
   - .githooks/pre-commit + commit-msg + README.md (NEW directory)
-  - N5/docs/AUDIT-COVERAGE-2026-05-15.md — Part 17 addendum
-  - N5/docs/cross-artifact-sync-map.md — INV-1/2/8 rows updated to
+  - N5/docs/AUDIT-COVERAGE-2026-05-15.md: Part 17 addendum
+  - N5/docs/cross-artifact-sync-map.md: INV-1/2/8 rows updated to
     Convention+Hook status; audit-log row added; strategy
     rewritten to 9-of-10 distribution
-  - N5/specifications/JLPT-N5-Current-Implementation-Spec.md —
+  - N5/specifications/JLPT-N5-Current-Implementation-Spec.md:
     §25.1/3/4 rows for JA-92/93/95; §25.7 deferral notes for
     JA-91/94; §25.10 INV-1/2/8 status update + summary rewritten;
     section-header counts 116→119; next-free JA-NN = 119
-  - N5/data/grammar.json — n5-028 ex[5] ja fix
+  - N5/data/grammar.json: n5-028 ex[5] ja fix
     (父は 先生です。 → わたしの 父は 先生です。)
   - N5/docs/AUDIO-PHASE2-VOICEVOX-RERENDER.md (NEW)
-  - N5/CHANGELOG.md — this entry
-  - N5/changelog/index.html — meta-mirror regen (JA-113 enforced)
+  - N5/CHANGELOG.md, this entry
+  - N5/changelog/index.html, meta-mirror regen (JA-113 enforced)
 
 ### Verification
 
@@ -4623,10 +4639,10 @@ Governance / CI release. No user-visible changes. Promotes the last
 three "Partial" Cross-Artifact Sync Protocol invariants to **Wired**.
 With these three wire-ups, **6 of 10 INV-N classes are now
 hard-enforced at CI**; the remaining 3 are pure commit-time tooling
-(pre-commit hooks / PR-title parsers — outside the corpus-content
+(pre-commit hooks / PR-title parsers: outside the corpus-content
 CI domain); 1 stays out of scope (no API).
 
-### JA-116 — INV-6 promotion: prompts ↔ xlsx coverage check
+### JA-116, INV-6 promotion: prompts ↔ xlsx coverage check
 
 Every A-NN audit category, every Phase-0 regression block, and every
 FP-NN false-positive class in `N5/prompts/*` must have ≥1 matching
@@ -4642,7 +4658,7 @@ inline in this commit: A-115 scenario added to tab A; the sync
 script's match logic upgraded from substring to word-boundary regex
 so re-runs are safe.
 
-### JA-117 — INV-7 extension: passage_id / pattern_id cross-corpus refs
+### JA-117, INV-7 extension: passage_id / pattern_id cross-corpus refs
 
 Two cross-corpus reference classes that were previously relying on
 manual checks:
@@ -4654,10 +4670,10 @@ manual checks:
 
 All 682 references verified to resolve. INV-7 now has 7 wired
 invariants covering audio / vocab_id / _meta refs / kanji↔vocab
-form / vocab_preview / meta-mirror freshness / cross-corpus IDs —
+form / vocab_preview / meta-mirror freshness / cross-corpus IDs:
 the canonical cross-file reference fields are fully locked.
 
-### JA-118 — INV-9 promotion: closed-bug → fix-commit link
+### JA-118, INV-9 promotion: closed-bug → fix-commit link
 
 Every Fixed-status row in the xlsx User Reported Bugs sheet must have
 a non-empty Fix Commit cell. The check verifies the link; the
@@ -4695,26 +4711,26 @@ Bug tracker: 53 / 53 Fixed / 0 Open (unchanged); all Fix Commit cells populated.
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-- `N5/tools/check_content_integrity.py` — JA-116 + JA-117 + JA-118
+- `N5/tools/check_content_integrity.py`: JA-116 + JA-117 + JA-118
   check functions + registry entries
-- `N5/tools/populate_bug_fix_commits_2026_05_17.py` (NEW) — git-log
+- `N5/tools/populate_bug_fix_commits_2026_05_17.py` (NEW): git-log
   scanner + xlsx column-fill tool
-- `N5/tools/sync_test_scenarios_with_prompts_feedback_2026_05_17.py` —
+- `N5/tools/sync_test_scenarios_with_prompts_feedback_2026_05_17.py`:
   substring → word-boundary match fix (the bug that hid A5)
-- `N5/tools/cross_artifact_sync_report.py` — INV_MAPPING updated
+- `N5/tools/cross_artifact_sync_report.py`: INV_MAPPING updated
   with all wired/convention/OOS counts post-promotions
 - `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`
-  — A-115 scenario row added (the missing A5 coverage); Fix Commit
+ : A-115 scenario row added (the missing A5 coverage); Fix Commit
   + Fix Date columns added; 53 Fixed bugs back-filled
-- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` — §25.1
+- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md`: §25.1
   rows for JA-116/117/118; §25.10 INV→JA matrix updated with all
   promotions; section-header count bumped 113→116; next-free
   JA-NN = 119; summary text rewritten with end-of-session totals
-- `N5/docs/cross-artifact-sync-map.md` — audit-log rows for the 3
+- `N5/docs/cross-artifact-sync-map.md`: audit-log rows for the 3
   promotions; INV-6 / INV-7 / INV-9 rows updated; "Strategy"
   section rewritten with end-of-session distribution
-- `N5/CHANGELOG.md` — this entry
-- `N5/changelog/index.html` — meta-mirror regen (JA-113 would have
+- `N5/CHANGELOG.md`: this entry
+- `N5/changelog/index.html`: meta-mirror regen (JA-113 would have
   failed without it; the discipline JA-113 enforces, applied)
 
 ### Verification
@@ -4741,12 +4757,12 @@ Bug tracker: 53 / 53 Fixed / 0 Open (unchanged); all Fix Commit cells populated.
 
 User-visible: the README's "Content" section now correctly states **995
 vocabulary entries · 54 reading passages · 50 listening items** (was
-stale at 1041 / 40 / 40 — pre-dedup era values from v1.12.29). Pending-
+stale at 1041 / 40 / 40: pre-dedup era values from v1.12.29). Pending-
 items pass batch 2.
 
 ### What landed
 
-**(1) JA-114 — listening.json `pacing_status` closed-enum lock**
+**(1) JA-114: listening.json `pacing_status` closed-enum lock**
 
 After the BUG-048/049 close-out (commit `47d1edc`) every listening
 item has a measured pacing_morae_per_min + a status reflecting its
@@ -4756,21 +4772,21 @@ so future regressions (null re-introduction or new ad-hoc strings
 from pipeline changes) are blocked at CI.
 
 Same drift class as JA-106 (reading.json format_type) and JA-111
-(listening.json format_type) — closed-enum on a corpus field where
+(listening.json format_type): closed-enum on a corpus field where
 the value-domain is small and stable.
 
-**(2) JA-115 — README.md "Content" section count claims match live data**
+**(2) JA-115: README.md "Content" section count claims match live data**
 
 Fourth instance of the Cross-Artifact Sync Protocol INV-4 class:
 JA-47 (CONTENT-LICENSE.md), JA-107 (version.json), JA-112 (AUDIO.md),
-**JA-115 (README.md)** — the four user-facing surfaces where corpus
+**JA-115 (README.md)**, the four user-facing surfaces where corpus
 counts appear in prose are now all locked.
 
 The README's "Content (current as of v1.12.29): ..." line was caught
 stale during the pre-commit verification:
-  - "1041 vocabulary entries" — DRIFT (live: 995, post-BUG-018/019/024)
-  - "40 reading passages" — DRIFT (live: 54)
-  - "40 listening items" — DRIFT (live: 50)
+  - "1041 vocabulary entries", DRIFT (live: 995, post-BUG-018/019/024)
+  - "40 reading passages", DRIFT (live: 54)
+  - "40 listening items", DRIFT (live: 50)
   - Other counts: correct
 
 Fixed in this same commit: README's content line rewritten with current
@@ -4806,7 +4822,7 @@ Total live: **113** (was 111; +2 from JA-114 + JA-115).
     (§25.1 rows for JA-114 + JA-115; section-header count bumped
     111→113; next-free JA-NN = 116)
   - N5/CHANGELOG.md (this entry)
-  - N5/changelog/index.html (meta-mirror regen — JA-113 would have
+  - N5/changelog/index.html (meta-mirror regen: JA-113 would have
     failed otherwise; the discipline JA-113 enforces, applied to
     its own follow-on commit)
 
@@ -4818,7 +4834,7 @@ Total live: **113** (was 111; +2 from JA-114 + JA-115).
 
 ---
 
-## Unreleased - 2026-05-17 (JA-113 wired — meta-route static-mirror freshness CI guard)
+## Unreleased - 2026-05-17 (JA-113 wired: meta-route static-mirror freshness CI guard)
 
 Governance / CI release. No user-visible changes. Wires a new CI
 invariant (JA-113) that prevents the recurring drift class observed
@@ -4853,8 +4869,8 @@ Routes checked:
   - `notices/index.html` ↔ `NOTICES.md`
 
 The 6 stub-body meta routes (feedback / settings / test / sitting /
-missed / summary) have no source-of-truth markdown — they're
-hand-authored stub HTML in `META_ROUTES` of build_static_mirrors.py —
+missed / summary) have no source-of-truth markdown, they're
+hand-authored stub HTML in `META_ROUTES` of build_static_mirrors.py,
 so they're out of JA-113's scope. Drift in those would be visible at
 build_static_mirrors.py runtime instead.
 
@@ -4882,11 +4898,11 @@ the 6th invariant under INV-7 alongside JA-15 (audio), JA-17
 (vocab_id), JA-82 (_meta refs), JA-100 (kanji↔vocab form), JA-105
 (vocab_preview refs). INV-7 stays at "Partial" overall because
 `passage_id` and `pattern_id` cross-corpus references are still
-relying on manual checks — a future audit cycle could promote those
+relying on manual checks: a future audit cycle could promote those
 to wired.
 
 Updated `cross-artifact-sync-map.md`'s per-class cheatsheet for
-"Editing User-Facing Docs?" — now explicitly mentions running
+"Editing User-Facing Docs?": now explicitly mentions running
 `tools/build_static_mirrors.py --stages meta` for docs that have
 meta-route mirrors.
 
@@ -4894,15 +4910,15 @@ meta-route mirrors.
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-- `N5/tools/check_content_integrity.py` — `_check_ja_113_*` function +
+- `N5/tools/check_content_integrity.py`: `_check_ja_113_*` function +
   registry entry
-- `N5/docs/cross-artifact-sync-map.md` — audit-log row + INV-7 row
+- `N5/docs/cross-artifact-sync-map.md`: audit-log row + INV-7 row
   updated to list JA-113 + per-class cheatsheet for "Editing
   User-Facing Docs?" updated
-- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` —
+- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md`:
   §25.4 row for JA-113; §25.8 lineage row; §25.10 INV-7 row updated;
   section-header count bumped 110→111; next-free JA-NN = 114
-- `N5/CHANGELOG.md` — this entry
+- `N5/CHANGELOG.md`: this entry
 
 ### Coverage of the fix
 
@@ -4914,17 +4930,17 @@ Sync-script idempotent.
 Bounded-coverage note: JA-113 catches drift in the 4 markdown-
 sourced meta routes only; the 6 stub-body routes have no source-of-
 truth markdown so the drift class doesn't apply to them. JA-113 is
-a heuristic check (first H1/H2 must appear in mirror) — false
+a heuristic check (first H1/H2 must appear in mirror): false
 negatives possible if a heading is edited in-place without text
 change, but the common drift case (new entry added) is caught.
 
 ---
 
-## Unreleased - 2026-05-17 (BUG-048 + BUG-049 close-out — listening pacing refresh; ALL 50 items in target band; tracker hits zero open)
+## Unreleased - 2026-05-17 (BUG-048 + BUG-049 close-out: listening pacing refresh; ALL 50 items in target band; tracker hits zero open)
 
 User-visible: every JLPT N5 listening drill now plays at JLPT exam pace
 (180–240 morae/min target band). The 2026-05-12 VOICEVOX render at
-speed_scale=1.30 had overshot the target — re-measurement against
+speed_scale=1.30 had overshot the target: re-measurement against
 current audio showed 38 of 50 items above the band (too fast) and 1
 below (too slow). ffmpeg atempo post-processing pulled every item
 into the band: post-fix mean 213.6 mpm (exactly target midpoint), 50/50
@@ -4933,14 +4949,14 @@ in_range, 0 out-of-band.
 ### BUG-048 + BUG-049 close-out (listening pacing)
 
 User asked "fix these open items as well". Investigation revealed
-both bugs were tied to the same root cause — stale `pacing_morae_per_min`
+both bugs were tied to the same root cause: stale `pacing_morae_per_min`
 data carried over from the 2026-05-06 edge-tts era. After the
 2026-05-12 VOICEVOX re-render shortened audio durations, those
 values weren't refreshed, so the tracker still showed "26 items too
 slow" when current audio was actually too FAST on most items. One
 tool fixed both:
 
-`tools/refresh_listening_pacing_2026_05_17.py` — four-pass workflow:
+`tools/refresh_listening_pacing_2026_05_17.py`: four-pass workflow:
 
   1. **Re-measure all 50 items** against current audio using the
      canonical count_morae() algorithm (preserved from round-9
@@ -4967,7 +4983,7 @@ Final pacing distribution:
 
 Per-item provenance: every item that had ffmpeg atempo applied
 carries `audio_render_meta.post_render_tempo_change_2026_05_17`
-(float — the factor applied) + `post_render_tempo_method` =
+(float, the factor applied) + `post_render_tempo_method` =
 "ffmpeg-atempo". Future native-listener review can identify
 tempo-adjusted items vs direct VOICEVOX output.
 
@@ -4976,7 +4992,7 @@ algorithms; quality is near-transparent at factors [0.5×, 2.0×]
 single-pass, slightly degraded for the 7 chained items (factors
 0.476–0.499). For institutional-grade audio, a Phase-2 VOICEVOX
 re-render at speed_scale=1.00 (instead of the over-shooting 1.30)
-would produce cleaner audio — surfaced in AUDIT-COVERAGE Part 16
+would produce cleaner audio: surfaced in AUDIT-COVERAGE Part 16
 but not gated behind a tracker entry.
 
 ### Bug tracker
@@ -4986,28 +5002,28 @@ but not gated behind a tracker entry.
 | BUG-048 | **Fixed 2026-05-17** | All 50 items have accurate pacing measurements |
 | BUG-049 | **Fixed 2026-05-17** | 50/50 items in target band; 0 deferred |
 
-Bug tracker totals: **53 / 53 Fixed / 0 Open** — first time the
+Bug tracker totals: **53 / 53 Fixed / 0 Open**, first time the
 project has had zero open user-reported bugs since BUG-001 was
 filed on 2026-05-16. (Two days from project's first user-bug to
 zero-open inbox.)
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-- `N5/data/listening.json` — pacing fields refreshed on all 50
+- `N5/data/listening.json`: pacing fields refreshed on all 50
   items; audio_render_meta gains `post_render_tempo_change_*`
   provenance on the 39 tempo-changed items; _meta.pacing_audit.
   summary refreshed; _meta.pacing_fix_status status =
   "fixed_2026_05_17"
-- `N5/audio/listening/n5.listen.{NNN}.mp3` — 39 MP3 files
+- `N5/audio/listening/n5.listen.{NNN}.mp3`: 39 MP3 files
   modified in place (38 slowdowns + 1 speedup); matching
   `.slow.mp3` variants also adjusted
-- `N5/tools/refresh_listening_pacing_2026_05_17.py` (NEW) — the
+- `N5/tools/refresh_listening_pacing_2026_05_17.py` (NEW): the
   four-pass refresh tool; supports `--apply-speedup` (default
   off) + `--dry-run`
 - `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`
-  — BUG-048 + BUG-049 marked Fixed with close-out narrative
-- `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 16 addendum
-- `N5/CHANGELOG.md` — this entry
+ : BUG-048 + BUG-049 marked Fixed with close-out narrative
+- `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 16 addendum
+- `N5/CHANGELOG.md`: this entry
 
 ### Coverage of the fix
 
@@ -5021,17 +5037,17 @@ Bounded-coverage note (per writing discipline): every item in the
 direct measurement after the fix. A future audio re-render (e.g.,
 new VOICEVOX engine version, new speakers, new items) would need
 this tool re-run to verify the band still holds. The tool is
-idempotent — re-running on the current corpus is a no-op (every
+idempotent: re-running on the current corpus is a no-op (every
 item would already test as in_range, so Pass 2 finds nothing to
 change).
 
 ---
 
-## Unreleased - 2026-05-17 (BUG-050 charitable close-out — AUDIO.md count + speaker-table drift; JA-112 wired)
+## Unreleased - 2026-05-17 (BUG-050 charitable close-out: AUDIO.md count + speaker-table drift; JA-112 wired)
 
 User-visible: the `AUDIO.md` developer doc now correctly states
 **50 listening items use 6 distinct VOICEVOX speakers** (was
-incorrectly "47 items / 4 speakers" — pre-2026-05-12 round-9
+incorrectly "47 items / 4 speakers": pre-2026-05-12 round-9
 baseline carried over after the actual 2026-05-12 VOICEVOX render
 landed 50 items / 6 speakers). Speaker-attribution table in
 AUDIO.md also corrected (same character-name-mismatch class as
@@ -5056,7 +5072,7 @@ drift to version.json. Charitable interpretation: the drift IS
 real, just in a different file than named.
 
   - `N5/AUDIO.md` lines 50-65 rewritten (header + prose claim +
-    speaker table — 50 items, 6 speakers, corrected character
+    speaker table: 50 items, 6 speakers, corrected character
     names: 春日部つむぎ at ID 8 / 玄野武宏 at ID 11 / etc., plus
     the previously-missing ID 3 ずんだもん and ID 10 雨晴はう
     rows added)
@@ -5067,7 +5083,7 @@ real, just in a different file than named.
 
 ### CI invariant added
 
-  - **JA-112** — `AUDIO.md` "N listening items use M distinct
+  - **JA-112**: `AUDIO.md` "N listening items use M distinct
     VOICEVOX speakers" claim matches live data: N ==
     len(listening.json.items); M == |distinct
     audio_render_meta.voices_used|. Third instance of the
@@ -5079,28 +5095,28 @@ Total CI invariants live: **110** (was 109).
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-  - `N5/AUDIO.md` — line 50-65 (claim + speaker table) + line 126
+  - `N5/AUDIO.md`: line 50-65 (claim + speaker table) + line 126
     (code-block comment)
-  - `N5/tools/check_content_integrity.py` — new check function
+  - `N5/tools/check_content_integrity.py`: new check function
     `_check_ja_112_audio_md_listening_counts()` + registry entry
   - `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`
-    — BUG-050 marked Fixed; description + title appended with
+   : BUG-050 marked Fixed; description + title appended with
     charitable-interpretation close-out note
-  - `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` —
+  - `N5/specifications/JLPT-N5-Current-Implementation-Spec.md`:
     §25.1 row for JA-112; §25.8 lineage row; section-header count
     bumped 109→110; next-free JA-NN = 113
-  - `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 15 addendum
-  - `N5/CHANGELOG.md` — this entry
+  - `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 15 addendum
+  - `N5/CHANGELOG.md`: this entry
 
 ### Coverage of the fix
 
 CI: 110/110 invariants green post-fix.
 `cross_artifact_sync_report.py` exits CLEAN.
 Bug tracker: 53 / **51 Fixed / 2 Open**:
-  - **BUG-048** (Open, PARTIAL) — field-state contradiction was
+  - **BUG-048** (Open, PARTIAL), field-state contradiction was
     fixed in `04bd8f4`; actual pacing **measurement** still
     pending (all 10 items 041-050 have `pacing_morae_per_min=null`).
-  - **BUG-049** (Open) — 26/50 items pacing too slow; needs
+  - **BUG-049** (Open): 26/50 items pacing too slow; needs
     audio re-render at VOICEVOX speed_scale ~1.3. Depends on
     BUG-048 measurement for accurate count.
 
@@ -5108,7 +5124,7 @@ Bounded-coverage note (per writing discipline): JA-112 anchors on
 a single canonical prose pattern in AUDIO.md ("N listening items
 use M distinct VOICEVOX speakers"). Other count claims elsewhere
 in the project's docs (e.g., "1782 grammar examples", "999
-vocab entries") are NOT yet locked by this invariant — future
+vocab entries") are NOT yet locked by this invariant: future
 drift on those phrasings would not trip JA-112. Extending coverage
 is queued behind the next user-reported instance.
 
@@ -5121,7 +5137,7 @@ real AUDIO.md drift untouched until a future audit re-found it.
 **Charitable interpretation pattern:** assume the user observed
 a real drift but mis-located it; verify the literal claim; then
 search the doc neighborhood for the actual matching value. (Full
-write-up: AUDIT-COVERAGE-2026-05-15.md Part 15 "Process lesson —
+write-up: AUDIT-COVERAGE-2026-05-15.md Part 15 "Process lesson:
 re-audit triage" section.)
 
 ---
@@ -5131,7 +5147,7 @@ re-audit triage" section.)
 Governance / audit-trail release. No content changes for end
 users; this batch makes the existing-corpus coverage of every
 audit-prompt category, Phase-0 regression block, false-positive
-class, and audit document explicit in the test-scenarios xlsx —
+class, and audit document explicit in the test-scenarios xlsx:
 closing the gap the Cross-Artifact Sync Protocol's INV-6 flagged.
 
 ### Scope
@@ -5153,7 +5169,7 @@ present in test scenarios") and chosen Option 1 (structured items
 
 Tools added:
   - `N5/tools/sync_test_scenarios_with_prompts_feedback_2026_05_17.py`
-    (NEW; idempotent — re-running on the post-sync corpus adds 0
+    (NEW; idempotent, re-running on the post-sync corpus adds 0
     rows because every new ID is unique).
 
 ### Counts
@@ -5189,25 +5205,25 @@ cross-artifact-sync-map.md INV table, and the
 `cross_artifact_sync_report.py` status output. The remaining gap
 to "Wired" is a parsability check (a CI invariant that re-extracts
 A-NN / Phase-0 / FP-NN from the prompts and asserts each has at
-least one matching xlsx row) — queued for a future audit cycle.
+least one matching xlsx row): queued for a future audit cycle.
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
 - `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`
-  — 134 new scenario rows + Unit Tests sheet refresh
+ : 134 new scenario rows + Unit Tests sheet refresh
 - `N5/tools/sync_test_scenarios_with_prompts_feedback_2026_05_17.py`
-  (NEW) — the bulk sync tool
-- `N5/tools/cross_artifact_sync_report.py` — INV-6 status updated
-- `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 14 addendum
-- `N5/docs/cross-artifact-sync-map.md` — audit-log row + INV-6 row
-- `N5/CHANGELOG.md` — this entry
+  (NEW): the bulk sync tool
+- `N5/tools/cross_artifact_sync_report.py`: INV-6 status updated
+- `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 14 addendum
+- `N5/docs/cross-artifact-sync-map.md`: audit-log row + INV-6 row
+- `N5/CHANGELOG.md`: this entry
 
 ### Coverage at this checkpoint
 
 CI: 109/109 invariants green post-sync.
 `cross_artifact_sync_report.py` exits CLEAN.
 Bug tracker: 53 / 52 Fixed / 1 Open (BUG-049 still awaiting audio
-re-render — no change this batch).
+re-render, no change this batch).
 
 Bounded-coverage note (per writing discipline): the sync covers
 the EXISTING content of `prompts/` + `feedback/` as of the
@@ -5233,41 +5249,41 @@ BUG-041..046 (corpus-migration drift) but on a different corpus
 event (2026-05-12 edge-tts → VOICEVOX render). Fix script:
 `tools/fix_bugs_047_to_053_listening_json_2026_05_17.py`.
 
-  - **BUG-047** (Fixed) — voice_planned.engine="edge-tts" on all 50
+  - **BUG-047** (Fixed): voice_planned.engine="edge-tts" on all 50
     items contradicted audio_render_meta.voice_provider="voicevox".
     The voice-attribution UI in the listening detail page was
     showing the wrong vendor. Fix: drop voice_planned (audio_render
     _meta is canonical); UI re-wired to read from
     audio_render_meta.voice_provider +
     audio_render_meta.voice_planned_for_engine.{F,M}.character.
-  - **BUG-048** (Fixed) — audit-status fields stale on items 41-50:
+  - **BUG-048** (Fixed): audit-status fields stale on items 41-50:
     7 items had pacing_status="no_audio" + 3 had
     voice_variety_status=None despite audio_render_meta.rendered_at
     being set on all 10. Refreshed to "unmeasured" (pacing) and
     "rendered" (voice_variety) to match actual render state.
-  - **BUG-049** (Open) — 26/50 items pacing systematically too
+  - **BUG-049** (Open): 26/50 items pacing systematically too
     slow: mean 160.2 mpm vs JLPT N5 target 180-240; some items 5×
     slower than exam pace. Surface-only fix: _meta.pacing_fix_status
     block added documenting the bug ID, observed distribution, and
-    required action (audio re-render at speed_scale ~1.3 — needs
+    required action (audio re-render at speed_scale ~1.3, needs
     VOICEVOX install on maintainer's machine). Bug stays Open in
     the tracker.
-  - **BUG-050** (Already-Fixed by cdef185) — version.json.counts.
+  - **BUG-050** (Already-Fixed by cdef185): version.json.counts.
     listening declared 47 vs actual 50. Resolved in the Cross-Artifact
     Sync Protocol install commit (Rule-5) when version.json was
     bumped alongside the vocab 1009→995 drift fix. JA-107 (INV-4)
     locks the count parity.
-  - **BUG-051** (Fixed) — format and format_type were 1:1
+  - **BUG-051** (Fixed): format and format_type were 1:1
     bijective (task↔task_understanding etc.). Same dual-field
     redundancy class as BUG-044 (reading) and BUG-047. Fix: drop
     format; format_type canonical with closed enum.
-  - **BUG-052** (Fixed) — _meta.voice_variety_plan described
+  - **BUG-052** (Fixed): _meta.voice_variety_plan described
     VOICEVOX as "to be authored when VOICEVOX is installed" even
     though the render had completed on 2026-05-12. Rewrote as
     past-tense completion record (status="completed_2026_05_12");
     captured observed-vs-target voice distribution; marked legacy
     voice_variety_plan_2026_05_07 as superseded.
-  - **BUG-053** (Fixed) — voicevox_speaker_catalog had wrong
+  - **BUG-053** (Fixed): voicevox_speaker_catalog had wrong
     character→ID mappings (ID 8 was listed as "hau-tsumugi" but
     is actually 春日部つむぎ; ID 11 was "shirakami-kotaro" but is
     玄野武宏; ID 13 was mis-filed under "12"). Rewrote catalog from
@@ -5277,27 +5293,27 @@ event (2026-05-12 edge-tts → VOICEVOX render). Fix script:
 
 ### CI invariants added (2 hard CI gates)
 
-  - **JA-110** — listening.json items deprecate legacy
+  - **JA-110**: listening.json items deprecate legacy
     `voice_planned`. Strict "field absent" check (BUG-047 guard).
-  - **JA-111** — listening.json drops legacy `format`; format_type
+  - **JA-111**: listening.json drops legacy `format`; format_type
     ∈ {task_understanding, point_understanding, utterance_expression,
     immediate_response} strict closed enum (BUG-051 guard).
 
 Additional CI change: JA-13 SKIP_SUBTREE_FIELDS extended with
 `voice_variety_plan`, `pacing_fix_status`, and
 `voice_variety_plan_2026_05_07` (same rationale as the existing
-audio_render_meta + public_domain_refs exemptions — rendering
+audio_render_meta + public_domain_refs exemptions, rendering
 metadata, not learner-facing content).
 
 Total CI invariants live: 109 (was 107).
 
 ### JS / UI updates
 
-  - `N5/js/listening.js` — voice-attribution surface (F-10 legal-
+  - `N5/js/listening.js`: voice-attribution surface (F-10 legal-
     vetting requirement) re-wired from voice_planned to
     audio_render_meta. FORMATS map rekeyed from short keys to
     format_type values. byFormat grouping uses format_type.
-  - `N5/js/search.js` — listening haystack + gloss read format_type
+  - `N5/js/search.js`: listening haystack + gloss read format_type
     (was reading the dropped `format` field).
   - Minified `js/min/listening.js` + `js/min/search.js` regenerated
     via `npm run build:js`.
@@ -5308,47 +5324,47 @@ Total CI invariants live: 109 (was 107).
 ### Files touched (Rule 5 atomic-commit discipline)
 
 Data + JS:
-  - `N5/data/listening.json` — voice_planned dropped (50 items);
+  - `N5/data/listening.json`, voice_planned dropped (50 items);
     audit-status fields refreshed (10 items); format dropped (50
     items); _meta.voice_variety_plan rewritten; _meta.pacing_fix_
     status added.
-  - `N5/js/listening.js`, `N5/js/search.js` — consumer updates.
-  - `N5/js/min/listening.js`, `N5/js/min/search.js` — minified
+  - `N5/js/listening.js`, `N5/js/search.js`: consumer updates.
+  - `N5/js/min/listening.js`, `N5/js/min/search.js`: minified
     regenerated.
-  - 50× `N5/listening/<id>/index.html` — static mirrors regen.
+  - 50× `N5/listening/<id>/index.html`: static mirrors regen.
 
 CI tooling:
-  - `N5/tools/check_content_integrity.py` — 2 new check functions
+  - `N5/tools/check_content_integrity.py`, 2 new check functions
     + 2 registry entries + skip-list extension.
   - `N5/tools/fix_bugs_047_to_053_listening_json_2026_05_17.py`
-    (NEW) — the per-bug fix functions.
-  - `N5/tools/mark_bugs_047_to_053_fixed_2026_05_17.py` (NEW) —
+    (NEW): the per-bug fix functions.
+  - `N5/tools/mark_bugs_047_to_053_fixed_2026_05_17.py` (NEW):
     xlsx status updater.
 
 Governance docs (Rule 4 propagation):
-  - `JLPT Common/procedure-manual-build-next-jlpt-level.md` — §F.24
+  - `JLPT Common/procedure-manual-build-next-jlpt-level.md`, §F.24
     added (7 sub-classes + §F.24.7 cross-corpus generalization
     of §F.23.7).
-  - `N5/prompts/Japanese language Accuracy check.txt` — audit
+  - `N5/prompts/Japanese language Accuracy check.txt`: audit
     category A60 added (.1..7 sub-classes); 2026-05-17 ADDENDUM
     block appended.
-  - `N5/prompts/N5Improvement.txt` — Phase-0 listening migration-
+  - `N5/prompts/N5Improvement.txt`: Phase-0 listening migration-
     drift regression block (7 checks, validated 0/0/0/0/0/0/0); 6
     new Section-10 anti-items.
-  - `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 13 addendum.
-  - `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` —
+  - `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 13 addendum.
+  - `N5/specifications/JLPT-N5-Current-Implementation-Spec.md`:
     §25.1 + §25.4 rows for JA-110/111; §25.8 lineage extended;
     section-header counts bumped.
   - `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`
-    "User Reported Bugs" sheet — 6 rows marked Fixed; BUG-049
+    "User Reported Bugs" sheet: 6 rows marked Fixed; BUG-049
     stays Open.
-  - `N5/CHANGELOG.md` — this entry.
+  - `N5/CHANGELOG.md`: this entry.
 
 ### Coverage of the fix
 
 CI: 109/109 invariants green post-fix.
 `cross_artifact_sync_report.py` exits CLEAN. 1 of 53 user-reported
-bugs Open (BUG-049 pacing — surface-only this batch, awaiting
+bugs Open (BUG-049 pacing: surface-only this batch, awaiting
 audio re-render at VOICEVOX speed_scale ~1.3 on the maintainer's
 machine).
 
@@ -5387,15 +5403,15 @@ lives in §25.10 of the implementation spec.
 
 ### CI invariants added (3 hard CI gates)
 
-- **JA-107** (INV-4) — `data/version.json.counts` declared values
+- **JA-107** (INV-4): `data/version.json.counts` declared values
   must equal the actual array length of the referenced corpus
   file. Companion to JA-47 (CONTENT-LICENSE.md counts). Catches
   release-stamp drift after dedup/migration passes.
-- **JA-108** (INV-5) — `locales/*.json` strict full-key parity
+- **JA-108** (INV-5): `locales/*.json` strict full-key parity
   across all locales (including `_meta` block). Catches UI
   translation drift where a new surface ships with EN copy
   only.
-- **JA-109** (INV-10) — every `tools/<name>.py` script reference
+- **JA-109** (INV-10): every `tools/<name>.py` script reference
   in the N5 prompts + AUDIT-COVERAGE docs must resolve to a real
   file. (Scope decision: cross-level procedure manual excluded
   because its script refs are abstract Nx-builder targets, by
@@ -5409,17 +5425,17 @@ Total CI invariants live: 107 (was 104).
   BUG-018/019/024 dedup batches (2026-05-16/17) that reduced
   `vocab.json` from 1009 → 995 entries but never propagated to
   the version manifest. `builtAt` bumped to 2026-05-17.
-  `cacheVersion` bump deferred to the next js/css/sw release —
+  `cacheVersion` bump deferred to the next js/css/sw release:
   this batch is doc + tooling only, so a SW cache invalidation
   is not warranted.
-- **`locales/en.json`** — added `_meta` block (asymmetric with
+- **`locales/en.json`**: added `_meta` block (asymmetric with
   hi.json before this fix).
-- **`locales/hi.json`** — added 6 chokai_detail keys that were
+- **`locales/hi.json`**: added 6 chokai_detail keys that were
   present on EN side: back_to_list, correct, next_label,
   script_label, show_script, wrong (these intentionally carry
-  Japanese kana text — in-app pedagogy convention regardless of
+  Japanese kana text, in-app pedagogy convention regardless of
   UI locale).
-- **`prompts/N5Improvement.txt`** — "Reference implementation"
+- **`prompts/N5Improvement.txt`**: "Reference implementation"
   callout retargeted from the deleted
   `tools/register_dev_issue_list_deferrals_2026_05_05.py` to the
   still-extant `tools/register_audit_2026_05_12.py` (same
@@ -5427,33 +5443,33 @@ Total CI invariants live: 107 (was 104).
 
 ### Files touched (Rule 5 atomic-commit discipline)
 
-- `JLPTSuccess/.claude/CLAUDE.md` — BINDING Rule 5 added.
-- `N5/.claude/CLAUDE.md` — Documentation-propagation section
+- `JLPTSuccess/.claude/CLAUDE.md`: BINDING Rule 5 added.
+- `N5/.claude/CLAUDE.md`: Documentation-propagation section
   extended to reference Rule 5.
-- `N5/docs/cross-artifact-sync-map.md` — NEW (operational
+- `N5/docs/cross-artifact-sync-map.md`: NEW (operational
   handbook).
-- `N5/docs/AUDIT-COVERAGE-2026-05-15.md` — Part 12 addendum.
-- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` —
+- `N5/docs/AUDIT-COVERAGE-2026-05-15.md`: Part 12 addendum.
+- `N5/specifications/JLPT-N5-Current-Implementation-Spec.md`:
   §25.1 (JA-107/108 rows), §25.4 (JA-109 row), §25.8 lineage
   table updated, NEW §25.10 subsection (INV↔JA mapping table).
-- `N5/specifications/test-scenarios-by-specialist-perspective.xlsx` —
+- `N5/specifications/test-scenarios-by-specialist-perspective.xlsx`:
   rows added to K. QA testing tab for sync-drift detection
   scenarios.
-- `N5/tools/check_content_integrity.py` — 3 new check functions
+- `N5/tools/check_content_integrity.py`: 3 new check functions
   + 3 new registry entries.
-- `N5/tools/cross_artifact_sync_report.py` — NEW (structured
+- `N5/tools/cross_artifact_sync_report.py`: NEW (structured
   report emitter).
-- `N5/data/version.json` — vocab count 1009 → 995; builtAt
+- `N5/data/version.json`: vocab count 1009 → 995; builtAt
   bumped.
-- `N5/locales/en.json` — _meta block added.
-- `N5/locales/hi.json` — 6 chokai_detail keys added.
-- `N5/prompts/N5Improvement.txt` — script-ref retargeted.
-- `N5/CHANGELOG.md` — this entry.
+- `N5/locales/en.json`: _meta block added.
+- `N5/locales/hi.json`: 6 chokai_detail keys added.
+- `N5/prompts/N5Improvement.txt`: script-ref retargeted.
+- `N5/CHANGELOG.md`: this entry.
 
 ### Coverage of the fix
 
 CI: 107/107 invariants green post-install (was 104/104 green
-pre-install — the 3 new JA-NN gates pass on the same corpus
+pre-install, the 3 new JA-NN gates pass on the same corpus
 snapshot after the in-commit drift fixes landed).
 `cross_artifact_sync_report.py` exits CLEAN.
 
@@ -5462,27 +5478,27 @@ invariants prevent re-introduction of THESE specific drift
 shapes (count drift on version.json, locale-key parity gaps,
 unresolved script references in N5 governance docs). The
 4 convention-only INV-N (bug-fix-test, spec-code, prompt-golden,
-CHANGELOG-completeness) remain commit-discipline targets —
+CHANGELOG-completeness) remain commit-discipline targets:
 future audit cycles may promote them to hard CI gates following
 the convention→partial→wired progression documented in §25.10.
 
 ---
 
-## v1.15.5 - 2026-05-14 (Autonomous bug-fix audit pass — ISSUE-001/002 closed)
+## v1.15.5 - 2026-05-14 (Autonomous bug-fix audit pass: ISSUE-001/002 closed)
 
 Maintenance / audit-cycle release. No learner-facing content changes; the
 fixes target metadata accuracy, version-file drift, and documentation
 gaps surfaced by the 2026-05-14 autonomous bug-fix audit.
 
-### ISSUE-001 — Whitelist count drift (RESOLVED-ALREADY-CLEAN)
+### ISSUE-001: Whitelist count drift (RESOLVED-ALREADY-CLEAN)
 
 Audit symptom: whitelist.json declared 103 entries while meta and
 version.json declared 106. Verified at the time of this fix that all
 five sources (whitelist.json, meta.expected_count, version.json kanji
 count, n5_kanji_readings.json, kanji.json) agree on 106. Resolution
-predated this audit pass — no edits required.
+predated this audit pass: no edits required.
 
-### ISSUE-002 — Standard N5 kanji missing from whitelist (DOCUMENTED)
+### ISSUE-002: Standard N5 kanji missing from whitelist (DOCUMENTED)
 
 Audit found 6 mainstream-N5 kanji absent from the whitelist: 多, 少, 帰,
 早, 物, 魚. Per the audit's permitted alternative ("if your scope policy
@@ -5493,7 +5509,7 @@ with per-kanji rationale, on/kun/primary readings, and source
 attribution (Genki I lesson, Minna no Nihongo I lesson, etc.). Each
 kanji is honestly recorded as N5 (not mis-classified as N4).
 
-Full content authoring deferred to a future pass — adding a kanji
+Full content authoring deferred to a future pass, adding a kanji
 requires:
 - `data/n5_kanji_whitelist.json` entry (count → 107..112)
 - `data/n5_kanji_readings.json` on/kun entry
@@ -5515,7 +5531,7 @@ v1.14.x / v1.15.x releases. Synced to v1.15.5 with current counts:
 - listening: 47 → 50 (new chokai items in v1.14.x)
 - invariants: 50 → 84 (per CI gate growth)
 
-### ISSUE-003 — Vocab regression 1041 → 1000 (RESOLVED-ALREADY-CLEAN)
+### ISSUE-003: Vocab regression 1041 → 1000 (RESOLVED-ALREADY-CLEAN)
 
 The audit symptom (41 vocabulary entries removed without rationale) is
 fully documented in the v1.12.53 CHANGELOG entry under "Dedup applied
@@ -5526,7 +5542,7 @@ and the 90 vocab_id retargets in grammar.json are both documented.
 Post-dedup the count has grown back to 1009 via subsequent batch
 additions. No new edits required for ISSUE-003.
 
-### ISSUE-004 — Paper count regression 29 → 28; paperQuestions 426 → 402 (RESOLVED + MANIFEST FIX)
+### ISSUE-004: Paper count regression 29 → 28; paperQuestions 426 → 402 (RESOLVED + MANIFEST FIX)
 
 The on-disk regression (chokai paper data lost in a prior commit; per
 the v1.12.45 BUG-1 CHANGELOG entry) was already documented. Residual
@@ -5540,14 +5556,14 @@ drift fixed in this pass:
   as documented placeholder for a future content restoration; it does
   not add to totalPapers / totalQuestions until the data is restored.
 
-### ISSUE-008 — Build cadence without CHANGELOG entries (RESOLVED-ALREADY-CLEAN)
+### ISSUE-008: Build cadence without CHANGELOG entries (RESOLVED-ALREADY-CLEAN)
 
 Audit symptom: three patch bumps (v1.12.50 → v1.12.53) with no
 visible CHANGELOG entries. Verified all four entries (v1.12.50,
 v1.12.51, v1.12.52, v1.12.53) are present with detailed content.
 No action needed.
 
-### IMP-001 — Kanji display order not pedagogical (FILE CREATED)
+### IMP-001: Kanji display order not pedagogical (FILE CREATED)
 
 The audit identified the whitelist's author-curated order as confusing
 on first impression. `js/kanji.js` already supports three sort options
@@ -5559,7 +5575,7 @@ wants a single-criterion order without re-sorting kanji.json client-
 side. Ordering rule: sort by stroke_count ascending, ties broken by
 Unicode codepoint ascending. Sidecar metadata documents the rule.
 
-### P2 — closed in this release
+### P2: closed in this release
 
 - **ISSUE-005**: late_n5 evidence-based review. 25 patterns evaluated
   against Genki I+II / MnN / Try! N5 / Shin Kanzen Master N5. 5 deferred
@@ -5579,7 +5595,7 @@ Unicode codepoint ascending. Sidecar metadata documents the rule.
   field moved to sibling `data/build_metadata.json`. version.json now
   strictly public surface.
 
-### P3 — closed in this release
+### P3: closed in this release
 
 - **IMP-003**: branding empty-scaffold Playwright test added at
   `tests/branding.spec.js`. Verifies that empty-string branding.json
@@ -5606,7 +5622,7 @@ Unicode codepoint ascending. Sidecar metadata documents the rule.
 50/50 (pre-audit) → 84/84 (post-Phase-1/2 grammar audit) → **85/85**
 (post-this-audit pass). New: JA-82 (path-reference resolution).
 
-### Schema consolidation — `n5_deferred_to_n4.json` merged into index
+### Schema consolidation: `n5_deferred_to_n4.json` merged into index
 
 The standalone `data/n5_deferred_to_n4.json` file (created earlier in
 this same release under ISSUE-005) was promoted INTO
@@ -5628,10 +5644,10 @@ membership check.
 
 ### Files changed
 
-- data/n5_kanji_whitelist.meta.json — known-gaps field added
-- data/version.json — version/count/cache sync (v1.12.53 → v1.15.5)
-- sw.js — CACHE_VERSION bump
-- index.html — ?v= cachebuster bump
+- data/n5_kanji_whitelist.meta.json: known-gaps field added
+- data/version.json: version/count/cache sync (v1.12.53 → v1.15.5)
+- sw.js: CACHE_VERSION bump
+- index.html: ?v= cachebuster bump
 
 ### Validation
 
@@ -5643,7 +5659,7 @@ membership check.
 
 Two follow-on improvements to v1.15.0:
 
-### Public-domain references — expanded to all 178 patterns
+### Public-domain references: expanded to all 178 patterns
 
 The `public_domain_refs` field now covers every N5 grammar pattern
 (178/178, up from 36/178). 148 additional references were added,
@@ -5657,17 +5673,17 @@ distributed across the same five source tiers as v1.15.0:
   (d.1694). All authors died ≥70 years before 2026 = PD in Japan and
   most jurisdictions.
 - **Government works** (~12 refs): 日本国憲法 (Constitution), 教育基本法,
-  道路交通法 — PD under 著作権法 §13 (Works of the State).
-- **Traditional proverbs** (~30 refs): 諺 (ことわざ), folk wisdom — no
+  道路交通法, PD under 著作権法 §13 (Works of the State).
+- **Traditional proverbs** (~30 refs): 諺 (ことわざ), folk wisdom, no
   attributable author, public-domain by age.
-- **Folk songs** (~20 refs): わらべうた, 民謡 — same PD status as proverbs.
+- **Folk songs** (~20 refs): わらべうた, 民謡, same PD status as proverbs.
 - **NHK Easy News** (~19 refs): cited as recommendation-only (no quoted
   text), to direct learners to current authentic register.
 
 All entries vetted for the same legal posture as v1.15.0: zero
 copyrighted-work citations, full author/year/PD-status disclosure.
 
-### Phase 7 polish — 8 short explanations expanded
+### Phase 7 polish: 8 short explanations expanded
 
 Phase 6 (v1.15.0) tackled 13 truly-weak entries. Phase 7 takes a
 surgical pass at the remaining short `explanation_en` fields. Census
@@ -5675,16 +5691,16 @@ surfaced 43 entries under 80 chars; 35 were judged "accurate and
 concise" and left untouched. 8 were upgraded because adding context
 genuinely closes a learner gap:
 
-- **n5-027 (よね)** — when-to-use rule vs. plain よ / plain ね.
-- **n5-053 (いくら)** — full pattern これは いくらですか + おいくら formal variant.
-- **n5-099 (好き/嫌い)** — 大好き / 大嫌い superlative forms + negation.
-- **n5-148 (frequency adverbs)** — five-rung frequency ladder including
+- **n5-027 (よね)**: when-to-use rule vs. plain よ / plain ね.
+- **n5-053 (いくら)**: full pattern これは いくらですか + おいくら formal variant.
+- **n5-099 (好き/嫌い)**: 大好き / 大嫌い superlative forms + negation.
+- **n5-148 (frequency adverbs)**: five-rung frequency ladder including
   あまり/ぜんぜん (negative-only).
-- **n5-150 (おねがいします)** — explicit register difference vs. ください.
-- **n5-179 (って)** — three distinct functions (quotation / topic /
+- **n5-150 (おねがいします)**: explicit register difference vs. ください.
+- **n5-179 (って)**: three distinct functions (quotation / topic /
   hearsay), broken out with examples.
-- **n5-180 (Verb-stem + ～かた)** — worked examples (読み方, 書き方, 食べ方).
-- **n5-181 (～なあ)** — gender/register cue (male-leaning, casual).
+- **n5-180 (Verb-stem + ～かた)**: worked examples (読み方, 書き方, 食べ方).
+- **n5-181 (～なあ)**: gender/register cue (male-leaning, casual).
 
 All 8 carry `provenance: native_reviewed` and `audit_wave:
 phase-7-polish-2026-05-13`.
@@ -5700,19 +5716,19 @@ phase-7-polish-2026-05-13`.
 ### File counts
 
 `data/grammar.json`: 178 patterns × 184 PD ref entries (some patterns
-have 2 refs — typically one Aozora + one proverb or one government).
+have 2 refs, typically one Aozora + one proverb or one government).
 Source distribution: 101 aozora_bunko, 30 proverb, 20 folk_song,
 12 government, 19 nhk_easy, 2 fallback adjective-copula Aozora refs.
 
 ### Cache version
 
-v1.15.0 → v1.15.1 (patch bump — same surface, broader coverage).
+v1.15.0 → v1.15.1 (patch bump: same surface, broader coverage).
 
 ## v1.15.0 - 2026-05-13 (Public-domain media citations + Phase 6 polish)
 
 Two new content layers landed in this release:
 
-### Public-domain references — 36 grammar patterns
+### Public-domain references: 36 grammar patterns
 
 New `public_domain_refs` field on grammar patterns. 36 patterns now
 carry references to legally-safe authentic Japanese sources, displayed
@@ -5732,7 +5748,7 @@ All sources verified legally safe:
 - Aozora Bunko authors all died ≥ 70 years before 2026 (Japan PD threshold).
 - Government works are PD by Japanese 著作権法 §13 ('Works of the State' exception).
 - Proverbs and traditional folk songs are cultural commons (not copyrightable).
-- NHK Easy references are recommendation-only — no quotation, just resource pointer.
+- NHK Easy references are recommendation-only: no quotation, just resource pointer.
 
 This complements (does NOT replace) the audit's TOP-3 strategic-lever
 framing: copyrighted anime/drama/manga citations remain Avoid per
@@ -5744,12 +5760,12 @@ year for PD verification), pd_status, optional canonical URL, context
 (where the pattern appears in the source), and pattern_role (how
 the source illustrates the pattern).
 
-### Phase 6 polish — 13 lowest-quality entries upgraded
+### Phase 6 polish: 13 lowest-quality entries upgraded
 
 Bottom-quartile content lift on the only entries with clear quality gaps:
 
 - **3 placeholder contrast notes** (n5-029, n5-039, n5-040) that said
-  "This is a duplicate entry — see canonical pattern" expanded to
+  "This is a duplicate entry: see canonical pattern" expanded to
   proper cross-references explaining the alias relationship + the
   rule both patterns share.
 - **10 mistake `why` fields** that were terse one-liners (16-32 chars,
@@ -5786,7 +5802,7 @@ Third audio-cycle release. Closes ISSUE-117 via synthetic ambient
 mixing, and formally marks ISSUE-124 + IMP-147 as Avoid per the
 maintainer directive (zero-risk legal posture on anime/drama citations).
 
-### ISSUE-117 — Synthetic ambient context layers on listening (0/50 → 50/50)
+### ISSUE-117: Synthetic ambient context layers on listening (0/50 → 50/50)
 
 The 50 listening items now play with a low-volume ambient context
 layer mixed UNDER the VOICEVOX voice track. Generated procedurally
@@ -5806,7 +5822,7 @@ Per-context mix levels:
 | office | pink noise (light) | -30 dB | 1 |
 | clinic | brown noise (very quiet) | -34 dB | 1 |
 
-All ambient levels are well below dialogue volume — dialogue clarity
+All ambient levels are well below dialogue volume: dialogue clarity
 is unaffected. The intent is removing the "dead silent room" artifact
 that real exam audio doesn't have, not adding distracting effects.
 
@@ -5821,7 +5837,7 @@ real recordings once a sourcing path is established. The current
 implementation is the maximum achievable within the build environment
 without external assets.
 
-### ISSUE-124 + IMP-147 — Anime / drama citation layer (Avoid)
+### ISSUE-124 + IMP-147: Anime / drama citation layer (Avoid)
 
 Per maintainer directive (2026-05-12), the anime/drama citation layer
 is now formally **Avoid** rather than Defer. Rationale:
@@ -5865,7 +5881,7 @@ Second audio-cycle release: re-renders the 50 listening items with 6
 distinct VOICEVOX speakers across age bands, and adds per-yomi audio
 for all 106 kanji.
 
-### ISSUE-114 — Listening voice variety (4 → 6 speakers, age-band coverage)
+### ISSUE-114: Listening voice variety (4 → 6 speakers, age-band coverage)
 
 The 50 listening drills were previously rendered with 4 edge-TTS
 voices (Nanami / Keita / Aoi / Daichi, all adult). The audit's bar
@@ -5886,7 +5902,7 @@ every quartile. Each item's `audio_render_meta.voice_provider` is now
 `voice_planned_for_engine.{F,M}`. Slow versions re-rendered as well
 (50 normal + 50 slow = 100 mp3s under `audio/listening/`).
 
-### ISSUE-123 — Kanji per-yomi audio (0 → 106/106)
+### ISSUE-123: Kanji per-yomi audio (0 → 106/106)
 
 Added `audio_yomi` field to every kanji entry, with separate `on` and
 `kun` arrays where each entry has the reading + relative MP3 path:
@@ -5916,21 +5932,21 @@ grammar-example renders for consistency. Each file is short
   running between the v1.14.0 grammar render and this release; both
   renders share the engine and the `:50021` HTTP API.
 - **Characters used** (6 total across the two surfaces):
-  - 春日部つむぎ — used for grammar + half of listening + all kanji yomi
-  - 玄野武宏 — listening (male adult role)
-  - 四国めたん — listening (young female role)
-  - ずんだもん — listening (young male role)
-  - 雨晴はう — listening (adolescent female role)
-  - 青山龍星 — listening (mature young male role)
+  - 春日部つむぎ, used for grammar + half of listening + all kanji yomi
+  - 玄野武宏, listening (male adult role)
+  - 四国めたん, listening (young female role)
+  - ずんだもん, listening (young male role)
+  - 雨晴はう, listening (adolescent female role)
+  - 青山龍星, listening (mature young male role)
 - **Character licences**: all permit commercial + non-commercial use
   with attribution per <https://voicevox.hiroshiba.jp/term/>.
 
 ### Backups
 
-- `audio/_backup_edge_tts_listening_2026_05_12/listening/` — prior
+- `audio/_backup_edge_tts_listening_2026_05_12/listening/`: prior
   edge-TTS listening renders (100 files preserved). Untracked
   (gitignored).
-- `audio/_backup_gtts_2026_05_12/grammar/` — from v1.14.0; still
+- `audio/_backup_gtts_2026_05_12/grammar/`: from v1.14.0; still
   preserved.
 
 ### Audit registry follow-up
@@ -5939,8 +5955,8 @@ ISSUE-114 + ISSUE-123 in `feedback/n5-audit-2026-05-04.xlsx`
 flipped Defer → Done with full closure notes.
 
 After this release the audit Defer list narrows from 5 items to **3**:
-- ISSUE-117 (ambient context audio 0/50) — still Q3 gated (CC-0 asset sourcing)
-- ISSUE-124 + IMP-147 (anime/drama citations 0/178) — still Q4 gated (fair-use licensing posture)
+- ISSUE-117 (ambient context audio 0/50), still Q3 gated (CC-0 asset sourcing)
+- ISSUE-124 + IMP-147 (anime/drama citations 0/178), still Q4 gated (fair-use licensing posture)
 
 ### CI invariants
 
@@ -5963,13 +5979,13 @@ and consonant transitions.
 
 - **`audio/grammar/*.mp3` (1782 files)** re-rendered via VOICEVOX
   engine v0.25.2 (CPU build). File sizes ~30-60 KB vs prior gTTS
-  ~16-21 KB — roughly 2× higher fidelity. Total audio surface bumps
+  ~16-21 KB: roughly 2× higher fidelity. Total audio surface bumps
   from ~30 MB (gTTS) to ~60-70 MB (VOICEVOX) on disk.
 - **`data/grammar.json`**: every `patterns[].examples[].audio` field
   now populated with the relative path `audio/grammar/<id>.<i>.mp3`
   (was uniformly `null` despite the files existing on disk). The
   renderer in `js/learn-grammar.js` plays the example audio whenever
-  this field is set — so users get per-example audio on all 1782
+  this field is set, so users get per-example audio on all 1782
   examples across all 178 patterns starting with this release.
 - **`data/audio_manifest.json`**: backend bumped from `gtts` to
   `voicevox`, voice_default to `voicevox-speaker-8-tsumugi`. Per-item
@@ -5988,7 +6004,7 @@ and consonant transitions.
 
 This closes **ISSUE-111** (P1 / Section 0 TOP-1 of the 2026-05-12
 richness audit). Per-example grammar audio at 0/1782 was the single
-largest leadership-claim opportunity on the grammar surface — NO
+largest leadership-claim opportunity on the grammar surface: NO
 incumbent (Tofugu, Bunpro, JLPT Sensei, WaniKani) ships per-example
 audio on grammar. This release puts JLPTSuccess clearly ahead of every
 named competitor on this dimension.
@@ -6009,7 +6025,7 @@ already existed). This release does both: re-renders for quality lift
   speaker_uuid `35b2c544-660e-401e-b503-0e14c635303a`.
 - **Character licence**: commercial + non-commercial OK with attribution,
   per <https://voicevox.hiroshiba.jp/term/> (no R-rated / political-misuse
-  / defamatory contexts — all grammar examples are plain N5 study
+  / defamatory contexts: all grammar examples are plain N5 study
   content, no exclusions apply).
 
 ### CI invariants
@@ -6025,17 +6041,17 @@ quality lift, not just a polish patch).
 
 ## v1.13.6 - 2026-05-12 (anti-item CI lock-in + final polish batch)
 
-Continuation of the v1.13.5 audit close-out — locks the Section-10
+Continuation of the v1.13.5 audit close-out: locks the Section-10
 anti-items into CI enforcement and closes residual polish items.
 
 ### CI invariants added (65 → 69 green, +4)
 
 Round 2 of anti-item enforcement:
 
-- **JA-62** — No romaji in user-facing Japanese display fields (anti-item #9). Romaji INPUT via `js/romaji-kana.js` for typed-answer mode remains permitted; only DISPLAY fields (vocab.form/reading, vocab.examples[].ja, grammar.examples[].ja, authentic.ja/reading) are checked.
-- **JA-63** — Authentic cards' `kanji_refs` must list all N5 kanji in their `ja` text. Surfaces under-population (the integrity gap I manually fixed during wave-2/3 signage authoring).
-- **JA-64** — Common_mistakes entries must have non-empty `wrong` + `right` + `why` fields (renderer contract in `js/learn-grammar.js#renderMistakes`).
-- **JA-65** — Contrasts entry `note` field must be ≥30 chars (anchors substantive one-sentence explanation rather than trivial gloss).
+- **JA-62**: No romaji in user-facing Japanese display fields (anti-item #9). Romaji INPUT via `js/romaji-kana.js` for typed-answer mode remains permitted; only DISPLAY fields (vocab.form/reading, vocab.examples[].ja, grammar.examples[].ja, authentic.ja/reading) are checked.
+- **JA-63**: Authentic cards' `kanji_refs` must list all N5 kanji in their `ja` text. Surfaces under-population (the integrity gap I manually fixed during wave-2/3 signage authoring).
+- **JA-64**: Common_mistakes entries must have non-empty `wrong` + `right` + `why` fields (renderer contract in `js/learn-grammar.js#renderMistakes`).
+- **JA-65**: Contrasts entry `note` field must be ≥30 chars (anchors substantive one-sentence explanation rather than trivial gloss).
 
 ### Round 1 anti-item invariants from v1.13.5 confirmed
 
@@ -6048,7 +6064,7 @@ competitive gamification, no remote fetch, no discussion routes.
 
 - **n5-149 essay top-up** (496 → 572 chars; common_pitfalls extended with double-を warning). Enables JA-54 100% enforcement.
 - **3 short contrast notes** (n5-068 / n5-089 / n5-119) expanded from 25-27 chars to 124-143 chars. Enables JA-65 100% enforcement.
-- **sw.js PRECACHE** — `js/mining.js` and `js/min/mining.js` added to install-time precache (matches the pattern for #/authentic).
+- **sw.js PRECACHE**: `js/mining.js` and `js/min/mining.js` added to install-time precache (matches the pattern for #/authentic).
 - **pragmatic_functions enriched** on 6 entries (どうも×2 / どうぞ / ちょっと / けっこう / すみません) via canonical schema with native_reviewed provenance. Captures the N5 cultural traps (e.g., ちょっとできる usually means "I can do it well"; けっこうです can mean both acceptance and refusal).
 - **Cache version** v1.13.5 → v1.13.6 in index.html + sw.js CACHE_VERSION.
 
@@ -6061,7 +6077,7 @@ Every coverage gain from the 2026-05-12 audit cycle is now locked
 behind a CI invariant. A future careless edit cannot silently regress
 past any of today's bars.
 
-## v1.13.5 - 2026-05-12 (2026-05-12 richness audit close-out — all non-gated Fix items resolved)
+## v1.13.5 - 2026-05-12 (2026-05-12 richness audit close-out: all non-gated Fix items resolved)
 
 The 2026-05-12 richness audit cycle reached terminal state for all
 items not gated on external decisions: **15 audit items closed**, 5
@@ -6093,11 +6109,11 @@ print-cheatsheet column).
 
 ### New CI invariants (JA-49..53, 52→57 green)
 
-- **JA-49** — Every vocab has `register` in {neutral, polite, humble, respectful, casual}
-- **JA-50** — Every vocab has `register_origin` in {wago, kango, gairaigo}
-- **JA-51** — Every grammar pattern has ≥3 categorized common_mistakes (categories from the same 4-set)
-- **JA-52** — Every grammar pattern has ≥1 contrasts entry with a valid with_pattern_id
-- **JA-53** — Every grammar pattern has cultural_callout with non-trivial content (≥20 chars)
+- **JA-49**: Every vocab has `register` in {neutral, polite, humble, respectful, casual}
+- **JA-50**: Every vocab has `register_origin` in {wago, kango, gairaigo}
+- **JA-51**: Every grammar pattern has ≥3 categorized common_mistakes (categories from the same 4-set)
+- **JA-52**: Every grammar pattern has ≥1 contrasts entry with a valid with_pattern_id
+- **JA-53**: Every grammar pattern has cultural_callout with non-trivial content (≥20 chars)
 
 Plus 3 data fixes surfaced by JA-52 enforcement:
 - n5-008 (と): removed partner-less contrast referencing や (no N5 grammar entry)
@@ -6112,8 +6128,8 @@ notice, time, post, hospital, weather categories. Every N5 kanji
 
 ### UI changes
 
-- **#/mining** new route — sentence-mining discovery index. Lists every vocab/kanji/grammar entry that links to one or more authentic cards. Filter buttons (All / Vocab / Kanji / Grammar) + sort modes (skill / alphabetical / count desc). Mobile-responsive grid layout. Read-only.
-- **Textbook brand-name scrub** — removed `authentic_citations` section render on grammar detail pages, `pattern-lesson-tag` G1·L2 badge, and the print-cheatsheet lesson column. Data fields (genki_lesson, sources, authentic_citations) preserved internally for CC-BY-SA attribution; not rendered.
+- **#/mining** new route: sentence-mining discovery index. Lists every vocab/kanji/grammar entry that links to one or more authentic cards. Filter buttons (All / Vocab / Kanji / Grammar) + sort modes (skill / alphabetical / count desc). Mobile-responsive grid layout. Read-only.
+- **Textbook brand-name scrub**: removed `authentic_citations` section render on grammar detail pages, `pattern-lesson-tag` G1·L2 badge, and the print-cheatsheet lesson column. Data fields (genki_lesson, sources, authentic_citations) preserved internally for CC-BY-SA attribution; not rendered.
 - **Cache version** v1.12.27 → v1.13.5 (multiple bumps through the cycle).
 
 ### Template-quality follow-ups
@@ -6123,7 +6139,7 @@ notice, time, post, hospital, weather categories. Every N5 kanji
   family-specific llm_curated content.
 - Phase 2: 277 family-specific template entries flipped from
   `auto_generated_template` to `llm_curated` provenance (honest
-  re-labeling — the content was already family-specific quality).
+  re-labeling, the content was already family-specific quality).
 - All 554 common_mistakes entries across 178 patterns now carry
   `provenance: llm_curated`; the auto_generated_template label is
   retired from this corpus.
@@ -6141,7 +6157,7 @@ The 6 Defer-status audit items all require external decisions:
 Once any gate lifts, the dependent item becomes a focused one-session
 content batch.
 
-## v1.12.54 - 2026-05-09 (Hindi-content audit COMPLETE — 100% native_reviewed across all surfaces)
+## v1.12.54 - 2026-05-09 (Hindi-content audit COMPLETE: 100% native_reviewed across all surfaces)
 
 The Hindi-content audit cycle (started 2026-05-07) reached terminal state:
 **every Hindi-bearing field across the N5 sub-app is now 100% native_reviewed**,
@@ -6196,7 +6212,7 @@ reference for any future locale rollout.
 `not-required/tools-archive/_hindi_*.py` and
 `fix_hi_*_2026_05_07/09.py`. Re-runnable for regression testing.
 
-## v1.12.53 - 2026-05-08 (Vocab.json structural dedup — closes 164-case grammar.json double-tag root cause)
+## v1.12.53 - 2026-05-08 (Vocab.json structural dedup: closes 164-case grammar.json double-tag root cause)
 
 Follow-up to v1.12.52 native-teacher audit pass. Addresses the broader
 observation flagged in `feedback/native-teacher-audit-2026-05-08.md`:
@@ -6206,7 +6222,7 @@ in `grammar.json` examples.
 
 ### Dedup applied (41 entries removed: 38 + 3 in two commits)
 
-**Pass 1 — 2-entry duplicate pairs (38 removed)**:
+**Pass 1: 2-entry duplicate pairs (38 removed)**:
 - Cross-listings explicitly marked "(also in §X)" → kept canonical, removed copy.
 - Identical-gloss pairs without disambiguating parentheticals → kept lower-section-numbered entry.
 - 90 vocab_id references in grammar.json retargeted to canonical IDs.
@@ -6220,7 +6236,7 @@ in `grammar.json` examples.
   - `つくえ/いす` 26-House → 24-School
   - `もの/こと/名前/しごと/しゅみ` 40-Misc → 37-Common-Nouns
 
-**Pass 2 — 3+ entry groups (3 more removed)**:
+**Pass 2, 3+ entry groups (3 more removed)**:
 - `おゆ` (hot water) 3 entries → 1 canonical (§14-Nature).
 - `いる` (to exist) §30 cross-listing removed; §28.いる + §30.いる.2 (to need = 要る) preserved.
 
@@ -6248,11 +6264,11 @@ in `grammar.json` examples.
 
 ### Out of scope
 
-- vocab.json section misclassifications (e.g., えいが in §26-House) — requires section restructuring (would shift IDs); deferred.
-- Romaji deeper rewrite (mecab) — requires build dependency; deferred.
-- Listening pace (H-1) and Hindi rationales (H-5) — see v1.12.52 deferral notes.
+- vocab.json section misclassifications (e.g., えいが in §26-House): requires section restructuring (would shift IDs); deferred.
+- Romaji deeper rewrite (mecab): requires build dependency; deferred.
+- Listening pace (H-1) and Hindi rationales (H-5): see v1.12.52 deferral notes.
 
-## v1.12.52 - 2026-05-08 (Native-teacher audit pass — 13 of 16 findings closed)
+## v1.12.52 - 2026-05-08 (Native-teacher audit pass: 13 of 16 findings closed)
 
 Self-conducted audit of `data/` from a native Japanese JLPT teacher's
 perspective. Found 16 findings across CRITICAL/HIGH/MEDIUM/LOW tiers;
@@ -6284,7 +6300,7 @@ in `feedback/native-teacher-audit-2026-05-08.md`.
   arrays of 三/四/六/八 in both n5_kanji_readings.json and kanji.json;
   these are not separate readings, they are sokuon assimilation
   before counter morphemes.
-- **H-4**: 393/631 grammar.json romaji examples patched — particle
+- **H-4**: 393/631 grammar.json romaji examples patched, particle
   separation ("darega" → "dare ga"), sentence-final か/ね/よ split,
   time-digit transliteration ("7tokini" → "shichi-ji ni").
 
@@ -6295,10 +6311,10 @@ in `feedback/native-teacher-audit-2026-05-08.md`.
   swap); deduped redundant `additional_readings` against main on/kun
   for 24 kanji.
 - **M-2**: 母 mnemonic softened from "Two breasts inside a body =
-  MOTHER" to "A figure of a nursing mother — the two emphasized
+  MOTHER" to "A figure of a nursing mother: the two emphasized
   dots originally depicted breasts, signaling 'mother' by the act
   of nursing."
-- **M-4**: Time-format normalized — 時はん → 時半 across 9 fields in
+- **M-4**: Time-format normalized, 時はん → 時半 across 9 fields in
   2 listening items.
 - **M-5**: Legacy `voice: "synthetic-voicevox-shikoku-metan"` field
   removed from 18 listening items; `voice_planned` is canonical.
@@ -6320,7 +6336,7 @@ in `feedback/native-teacher-audit-2026-05-08.md`.
   each phase commit.
 - 5 phased commits with surgical scope per phase.
 
-## v1.12.51 - 2026-05-07 (Hindi quality+coverage audit cycle — HI-01..HI-19 closed + cycle 2 mechanical pass)
+## v1.12.51 - 2026-05-07 (Hindi quality+coverage audit cycle: HI-01..HI-19 closed + cycle 2 mechanical pass)
 
 The Hindi-content audit cycle 1 + cycle 2 mechanical pass completed.
 17 distinct issues catalogued (HI-01..HI-19) and remediated in 10
@@ -6375,7 +6391,7 @@ convention going forward.
 - ~213 single-English-word residuals in `llm_curated` content.
   These are the long tail; Phase 3 of the cycle-2 audit prompt
   (per-surface native-speaker review) will polish them.
-- HI-17: English-content bug — `data/reading.json` `passages[].
+- HI-17: English-content bug, `data/reading.json` `passages[].
   summary` has code-mixed Hindi-English in the EN field. Out of
   Hindi-audit scope; flagged for separate cycle.
 
@@ -6392,9 +6408,9 @@ Audit prompt for next cycle:
   `prompts/LocaleTransitionEnHi.txt` (refreshed with cycle-1+2
   learnings; serves as entry-point for cycle-3 polish)
 
-## v1.12.50 - 2026-05-07 (Listening voice variety — ACTUALLY rendered: ISSUE-062 + ISSUE-089 + IMP-122 closed)
+## v1.12.50 - 2026-05-07 (Listening voice variety, ACTUALLY rendered: ISSUE-062 + ISSUE-089 + IMP-122 closed)
 
-The "almost done" listening-audio render shipped — all 47 listening
+The "almost done" listening-audio render shipped: all 47 listening
 items are now multi-voice MP3s, no longer the single voicevox-shikoku-
 metan that drove the original ISSUE-062 finding. Closes 3 deferred
 items in one commit.
@@ -6407,9 +6423,9 @@ network egress to `speech.platform.bing.com` (the WSS endpoint
 edge-tts uses) is firewalled. Pivoted to the **VOICEVOX fallback
 path** (which the script auto-detects):
 
-- `winget install HiroshibaKazuyuki.VOICEVOX.CPU` — 1.88 GB, 3 min
+- `winget install HiroshibaKazuyuki.VOICEVOX.CPU`: 1.88 GB, 3 min
   download + extract.
-- `winget install Gyan.FFmpeg` — already installed in v1.12.49 work.
+- `winget install Gyan.FFmpeg`: already installed in v1.12.49 work.
 - Started VOICEVOX engine: `vv-engine\run.exe --port 50021`.
 - Verified up: `curl http://127.0.0.1:50021/version` → `"0.25.2"`.
 - Render script auto-detected VOICEVOX (preferred over edge-tts).
@@ -6443,12 +6459,12 @@ ISSUE-074 pacing residual on the 26 too-slow items).
 - **ISSUE-062** Listening voice variety = 1 → **4 distinct voices**
   across 47 items, with multi-speaker dialogue items rendered with
   2 voices each.
-- **ISSUE-089** (carry-over of ISSUE-062) — same fix.
-- **ISSUE-074-residual** (26 too-slow items) — speed-scale 1.30
+- **ISSUE-089** (carry-over of ISSUE-062): same fix.
+- **ISSUE-074-residual** (26 too-slow items): speed-scale 1.30
   brings them into target band.
-- **ISSUE-090** data-side (TTS variety) — done; native-recording
+- **ISSUE-090** data-side (TTS variety): done; native-recording
   side remains separate per IMP-094.
-- **IMP-122** Run VOICEVOX render — executed in this commit.
+- **IMP-122** Run VOICEVOX render: executed in this commit.
 
 ### Tracker state
 
@@ -6468,11 +6484,11 @@ manual cache clear.
 
 ### Generated files
 
-- `audio/listening/n5.listen.001.mp3` through `n5.listen.047.mp3` —
+- `audio/listening/n5.listen.001.mp3` through `n5.listen.047.mp3`:
   47 MP3s, ~64 kbps, multi-voice rendered
-- `data/audio_manifest_voice.json` — per-item voice plan + render
+- `data/audio_manifest_voice.json`: per-item voice plan + render
   metadata (voice IDs, render timestamp, hash for change-detection)
-- `data/listening.json` — `voice_variety_status: "rendered"` set on
+- `data/listening.json`, `voice_variety_status: "rendered"` set on
   all 47 items + `audio_render_meta` block
 
 ---
@@ -6544,14 +6560,14 @@ The audit cycle is effectively complete. Only operational maintenance
 
 ### Cache version
 
-No cache bump in this commit — no runtime code or content changed.
+No cache bump in this commit: no runtime code or content changed.
 Tracker / CHANGELOG only.
 
 ---
 
 ## v1.12.48 - 2026-05-07 (Q44 onboarding starter-set + tracker close-out: 3 questions Resolved)
 
-Q44 (Onboarding "your first 60 seconds" path) — Resolved with the
+Q44 (Onboarding "your first 60 seconds" path): Resolved with the
 **starter-set lane** (lowest-effort option from the original Q44
 proposal of tutorial-overlay vs starter-set vs curriculum-mode).
 
@@ -6590,14 +6606,14 @@ Mobile-responsive (collapses to 1-column grid on narrow viewports).
 
 Stamped 3 open questions Resolved in `feedback/n5-audit-2026-05-04.xlsx`:
 
-- **Q39** (Native-Hindi-review scaling) — closed in commit `e779c2e`:
+- **Q39** (Native-Hindi-review scaling), closed in commit `e779c2e`:
   all niche-N1 surfaces now at 100% Hindi coverage at LLM-persona
   quality bar.
-- **Q41** (Vocab counter scope) — top-50 path chosen + executed in
+- **Q41** (Vocab counter scope): top-50 path chosen + executed in
   commit `e779c2e`: 87/589 noun coverage (top-frequency subset).
 - **Q44** (this commit).
 
-Remaining open: **Q42** (listening voice variety budget) only —
+Remaining open: **Q42** (listening voice variety budget) only,
 the binary maintainer decision between VOICEVOX local install (free,
 IMP-122 script ready) vs ElevenLabs vs native recording.
 
@@ -6612,46 +6628,46 @@ IMP-122 script ready) vs ElevenLabs vs native recording.
 The home trust band ("No login · No tracking · Works offline · Open
 source · 100% on-device · Free, no ads, no paywall") was already the
 strongest single sales claim the app makes, but it was rendered as
-small hairline pills only on the N5 home page — invisible on every
+small hairline pills only on the N5 home page: invisible on every
 other surface a prospective user lands on. Promoted across all
 promotional surfaces:
 
 ### Where it now appears
 
-**Top-level JLPTSuccess root (level picker)** — added the same 6-pill
+**Top-level JLPTSuccess root (level picker)**: added the same 6-pill
 trust band under the subtitle. Self-contained CSS in `css/main.css`
 (the root has its own bundle separate from N5).
 
-**Footer trust strip on every page** — both root and N5 footers now
+**Footer trust strip on every page**: both root and N5 footers now
 carry a single-line `.footer-trust-strip` above the standard footer
 nav: visible the moment a user opens any route. Localized in N5 via
 `data-i18n-key="footer.trust_strip"` (translates Devanagari for Hindi
 locale).
 
-**N5 home band — promoted from hairline to readable** — same content,
+**N5 home band, promoted from hairline to readable**, same content,
 bigger pills (4×12 px padding instead of 2×10), thicker borders (1 px
 accent-tinted instead of 0.5 px line), centered band background tint,
 font-weight 500. The 6-pill row is now visually a focal point of the
 home header, not a footnote.
 
-**N5 Test page** — a `.trust-callout` aside renders before the test
+**N5 Test page**: a `.trust-callout` aside renders before the test
 configuration, reading "Your scores stay on this device. No account.
 No leaderboard. No data leaves your browser." Surfaces the niche-N2
 reassurance precisely at the moment a learner is about to submit
 results (the most reassurance-relevant moment).
 
-**N5 Privacy page** — hero callout above the markdown body: "This app
+**N5 Privacy page**, hero callout above the markdown body: "This app
 does NOT collect, transmit, or store any personal data on a remote
 server. Verifiable in the open-source code on GitHub." Shows up as
 the first content block on the page where users land when verifying
 trust claims.
 
-**N5 PWA install banner** — install pitch now leads with "No login.
+**N5 PWA install banner**: install pitch now leads with "No login.
 No tracking. No ads. Free, forever." sub-line under the existing
 "Install this app to use it offline" message. The trust messaging
 is what motivates an install vs sticking with a tab.
 
-**README.md (root + N5)** — both READMEs now have the trust line as
+**README.md (root + N5)**: both READMEs now have the trust line as
 a blockquote near the top, right under the title and live-site link.
 GitHub visitors / Show HN readers see the differentiators on first
 paint.
@@ -6683,13 +6699,13 @@ HTML propagate.
 ## v1.12.46 - 2026-05-07 (UI test bug fixes: 5 dead-data renderers + Hindi locale polish)
 
 A live UI-smoke test against v1.12.45 surfaced 8 bugs. 7 were fixable
-in this commit (the 8th — chokai paper data — turned out to have been
+in this commit (the 8th, chokai paper data, turned out to have been
 correctly cleaned up by an earlier commit; UI surface had no bug
 remaining there).
 
-### Dead-data fixes — fields populated in v1.12.43-44 but invisible to learners
+### Dead-data fixes: fields populated in v1.12.43-44 but invisible to learners
 
-**BUG-2 — Reading `cultural_context` callouts now render**
+**BUG-2: Reading `cultural_context` callouts now render**
 
 ISSUE-103 added cultural_context (English) on 16 reading passages
 (Kyoto/omiyage culture, ramen origins, sensei honorific, train
@@ -6698,7 +6714,7 @@ renders as a `<aside class="reading-cultural-context">` between
 the passage and the audio block, accent-tinted left border.
 File: `js/reading.js`, `css/main.css`.
 
-**BUG-3 — Vocab `verb_class` + `group1_exception` now render**
+**BUG-3: Vocab `verb_class` + `group1_exception` now render**
 
 ISSUE-099 populated `verb_class: godan|ichidan|irregular` on all 134
 verbs and `group1_exception: true` on the 6 X-6.6 verbs (入る, 帰る,
@@ -6707,10 +6723,10 @@ Godan (Group 1, u-verb)" + a "Group-1 exception" badge with a
 tooltip explanation when applicable.
 File: `js/learn-vocab.js`, `css/main.css`.
 
-**BUG-4 — Vocab examples fall back to `vocab.json` when no grammar xref**
+**BUG-4: Vocab examples fall back to `vocab.json` when no grammar xref**
 
 The 724 templated 2nd examples added in v1.12.44 (Phase-3 of ISSUE-096
-residual) were invisible — the renderer pulled examples ONLY from
+residual) were invisible: the renderer pulled examples ONLY from
 grammar.json via vocab_ids. Entries with no grammar xref (the entire
 target population) showed 0-1 examples even though their data file
 had 2. Added a fallback loop that ALSO pulls from `entry.examples[]`,
@@ -6719,7 +6735,7 @@ File: `js/learn-vocab.js`.
 
 ### Hindi locale polish
 
-**BUG-7 — Hindi locale option label "hi" → "हिन्दी"**
+**BUG-7: Hindi locale option label "hi" → "हिन्दी"**
 
 Settings → UI language showed "English" + bare ISO code "hi". A
 Devanagari-reading user couldn't recognize their own language in the
@@ -6728,10 +6744,10 @@ The 4 stale entries (vi/id/ne/zh) from before the locale-narrowing
 transition are removed (the locale set is closed at en+hi per JA-39).
 File: `js/settings.js`.
 
-**BUG-8 — `<html lang>` reactive on locale switch**
+**BUG-8: `<html lang>` reactive on locale switch**
 
 After switching to Hindi, settings persisted, Devanagari text rendered
-correctly — but `document.documentElement.lang` stayed `"en"`. Broke
+correctly, but `document.documentElement.lang` stayed `"en"`. Broke
 screen-reader pronunciation, browser spell-check, and "translate this
 page" prompts. Now `setLocale()` writes the new lang attribute on the
 root element so all language-dependent UA features stay in sync.
@@ -6739,7 +6755,7 @@ File: `js/i18n.js`.
 
 ### Version stamp
 
-**BUG-6 — `version.json` synced with `manifest.json`**
+**BUG-6: `version.json` synced with `manifest.json`**
 
 `version.json.counts.papers` was 28 / `paperQuestions` 402, but the
 manifest reads totalPapers=29 / totalQuestions=426 (chokai virtual
@@ -6749,7 +6765,7 @@ paper). Updated to match. Also bumped CACHE_VERSION on sw.js.
 
 **BUG-1 (chokai paper data missing):** the v1.12.45 UI test surfaced
 a 404 on `#/papers/chokai/1`. Root-cause investigation found commit
-`31a064d` (earlier in 2026-05-07) had cleaned up the chokai entry —
+`31a064d` (earlier in 2026-05-07) had cleaned up the chokai entry:
 moved from `manifest.categories[]` to `virtual_papers[]` and removed
 the `data/papers/chokai/` directory. The chokai card no longer renders
 on `#/papers` after that cleanup, so direct nav to `chokai/1` is
@@ -6773,7 +6789,7 @@ as-is.
 those blockers found 4 of 7 doable programmatically without paid
 services or external recruitment.
 
-### ISSUE-074 — Pacing audit (Done)
+### ISSUE-074: Pacing audit (Done)
 
 Programmatic morae-per-minute calculation using mutagen MP3 durations
 + kana-based morae counting. Each listening item now carries
@@ -6789,17 +6805,17 @@ Findings (47 items, 40 with audio):
 | `too_fast` | 2 | n5.listen.007 @ 273 mpm; n5.listen.027 @ 255 mpm |
 | `no_audio` | 7 | rendering pending |
 
-Mean pace **160.2 mpm** — below N5 ideal. Resolution: when the voice-
+Mean pace **160.2 mpm**: below N5 ideal. Resolution: when the voice-
 variety re-render runs (per ISSUE-062 plan), apply VOICEVOX
 `speed_scale` to bring per-item pace into 180-240 range.
 
-### IMP-090 + IMP-105 — Transcript line timestamps (Done)
+### IMP-090 + IMP-105: Transcript line timestamps (Done)
 
 Each listening item with audio + multi-line script now has
 `lines: [{text_ja, startMs}]` populated. Algorithm: distribute total
 audio duration proportionally across lines based on per-line
 speakable-character count (kanji = 2 morae, kana = 1 mora, speaker
-labels stripped). Approximation only — accurate to ~80% at line
+labels stripped). Approximation only: accurate to ~80% at line
 boundaries. Sufficient for the line-level karaoke highlighting that
 the round-6-shipped renderer expects.
 
@@ -6809,9 +6825,9 @@ Coverage:
 - no_audio: 7 (rendering pending)
 
 Word-level alignment would need a forced-aligner (whisper-timestamped,
-aeneas) — deferred to a separate cycle if line-level proves insufficient.
+aeneas): deferred to a separate cycle if line-level proves insufficient.
 
-### ISSUE-062 / ISSUE-089 / ISSUE-090 — Voice variety plan (Planned)
+### ISSUE-062 / ISSUE-089 / ISSUE-090: Voice variety plan (Planned)
 
 Did not install VOICEVOX (the maintainer's call) but populated all 47
 items with `voice_planned` mapping each labeled speaker (男 / 女 /
@@ -6831,7 +6847,7 @@ label classification + render-command template.
 
 ### Items still genuinely deferred
 
-- **IMP-094** Recruit native speakers to record 5-10 listening items —
+- **IMP-094** Recruit native speakers to record 5-10 listening items:
   purely external (recruitment outside dev scope).
 
 ### Cache version
@@ -6845,7 +6861,7 @@ label classification + render-command template.
 Closed all three round-9 residual deficits flagged in v1.12.43, taking
 every Japanese-content surface to its spec-floor depth:
 
-### Kanji — 35 corpus-limited kanji to 3+ examples (now 100%)
+### Kanji: 35 corpus-limited kanji to 3+ examples (now 100%)
 
 After v1.12.43 ISSUE-101 closed at 71/106 ≥3 examples, 35 kanji
 remained at exactly 2 because their N5-only compound forms looked
@@ -6863,7 +6879,7 @@ Distribution before/after:
 
 `kanji.json _meta.examples_corpus_constraint` updated to reflect closure.
 
-### Grammar — 77 patterns to ≥4 examples (now 100%)
+### Grammar: 77 patterns to ≥4 examples (now 100%)
 
 Hand-authored 77 4th-example sentences for the residual N5 patterns at
 the spec floor. Each new example uses different attachment surface,
@@ -6893,7 +6909,7 @@ JA-13 hygiene: where the natural compound contained an OOS kanji (時計,
 元気, 朝, 早く, 食事, etc.), the OOS kanji was written in kana per K-1
 rule (とけい, げんき, あさ, はやく). JA-17 vocab_ids auto-populated.
 
-### Vocab — 724 entries to ≥2 examples (now 100%)
+### Vocab: 724 entries to ≥2 examples (now 100%)
 
 Generated 2nd example sentences for 724 vocab entries via POS-aware
 template substitution. 5-6 templates per major POS, rotated by
@@ -6916,7 +6932,7 @@ Distribution before/after:
 
 Quality bar: generated sentences are grammatically valid N5 and
 demonstrate the target word in a syntactic context. Not best-in-class
-hand-authored quality (Bunpro-tier), but meets the spec floor —
+hand-authored quality (Bunpro-tier), but meets the spec floor:
 providing learners with at least one additional context per entry. A
 future round can promote selected entries to higher-quality
 hand-authored examples.
@@ -6925,7 +6941,7 @@ hand-authored examples.
 
 | Surface  | Spec floor | Coverage |
 |---|---|---|
-| Grammar  | ≥3 examples | 178/178 (100% — also ≥4 on 178/178) |
+| Grammar  | ≥3 examples | 178/178 (100%: also ≥4 on 178/178) |
 | Vocab    | ≥2 examples | **1041/1041** (100%, was 30%) |
 | Kanji    | ≥3 examples | **106/106** (100%, was 67%) |
 | Reading  | cultural_context where applicable | 16/45 (where culturally relevant) |
@@ -6949,7 +6965,7 @@ which remain deferred or are addressed by separate scaling cycles).
 
 ### Schema / metadata fixes
 
-**ISSUE-099 — Vocab verb_class on all 134 verbs**
+**ISSUE-099: Vocab verb_class on all 134 verbs**
 
 - `verb_class` derived from `pos`: verb-1 → godan (Group 1, 81),
   verb-2 → ichidan (Group 2, 39), verb-3 → irregular (Group 3, 14).
@@ -6960,10 +6976,10 @@ which remain deferred or are addressed by separate scaling cycles).
   ichidan from godan from irregular; the 6 exception verbs would
   have been conjugated incorrectly (as ichidan based on ru-ending).
 
-**ISSUE-100 — Vocab pair_id (transitivity) integrity**
+**ISSUE-100: Vocab pair_id (transitivity) integrity**
 
 Audit reported 22/1041 entries paired. Investigation revealed 3 of
-those 22 were data bugs — pair_id wrongly assigned to homonym
+those 22 were data bugs: pair_id wrongly assigned to homonym
 entries that share form+reading but aren't part of the transitivity
 pair semantically:
 
@@ -6972,12 +6988,12 @@ pair semantically:
 - きる "to wear" (verb-2) had pair_id=cut (only verb-1 "cut" pairs)
 
 After fix: 19 entries paired, 8 complete pairs, 3 asymmetric pairs
-(stop/wake/cut — partner verbs 止める/起こす/切れる absent from N5 corpus,
+(stop/wake/cut, partner verbs 止める/起こす/切れる absent from N5 corpus,
 documented in vocab.json `_meta.transitivity_pair_gaps`).
 
 ### Content-depth additions
 
-**ISSUE-101 — Kanji examples (corpus-realistic depth pass)**
+**ISSUE-101: Kanji examples (corpus-realistic depth pass)**
 
 Added 41 curated N5-scope compound words across 41 kanji. The audit's
 ≥5 target was over-optimistic given N5 corpus constraints (the actual
@@ -6993,7 +7009,7 @@ Distribution before/after:
 - =3 examples: 15 → 30
 - <3 examples: 60 → 35 (corpus-limited; documented in _meta)
 
-**ISSUE-103 — Reading cultural_context callouts**
+**ISSUE-103: Reading cultural_context callouts**
 
 Added cultural_context (English) on 16 of 45 passages where
 Japan-specific concepts may not be obvious to non-Japan-domiciled
@@ -7004,7 +7020,7 @@ summer heat + air-con habits, autumn momijigari, ekimae shops, more.
 The remaining 29 passages cover universal topics (weather, daily
 routine) that don't need cultural framing.
 
-**ISSUE-096 — Vocab examples ≥2 (auto-derive from grammar xrefs)**
+**ISSUE-096: Vocab examples ≥2 (auto-derive from grammar xrefs)**
 
 Auto-derived a second example for 203 vocab entries by pulling from
 grammar.json examples whose vocab_ids cross-reference the entry.
@@ -7017,7 +7033,7 @@ referenced 0 times in any grammar example) and need LLM-curated
 authoring outside this cycle's auto-derivable lift; logged as a
 follow-up.
 
-**ISSUE-102 — Grammar contrasts (11 mandatory N5 clusters)**
+**ISSUE-102: Grammar contrasts (11 mandatory N5 clusters)**
 
 Added 17 contrast cross-links across 9 mandatory N5 contrast clusters
 (audit-round9 §0.5 grammar dimension):
@@ -7028,13 +7044,13 @@ Added 17 contrast cross-links across 9 mandatory N5 contrast clusters
 - 〜たい vs 〜ほしい, あげる/くれる/もらう trio (3-way)
 
 Repaired 2 contrast data bugs (n5-008, n5-054 had `with_pattern_id:
-None` referring to patterns absent from corpus — converted to
+None` referring to patterns absent from corpus, converted to
 note-only entries).
 
 Coverage: 95/178 → 97/178 patterns with ≥1 contrast (the 11 mandatory
 N5 clusters are now fully cross-linked).
 
-**ISSUE-097 — Grammar examples (31 patterns at 3 → 4)**
+**ISSUE-097: Grammar examples (31 patterns at 3 → 4)**
 
 Hand-authored 31 4th-example sentences for high-priority N5 patterns
 at the spec floor. Each new example uses different attachment surface,
@@ -7055,7 +7071,7 @@ longer-term niche-N4 target).
 
 ### UI
 
-**IMP-119 — Vocab keigo-chain visualizer**
+**IMP-119: Vocab keigo-chain visualizer**
 
 Renders a 3-column politeness-register trio panel on vocab detail
 pages where the entry has `register_chain_id` (9 N5 verbs covering
@@ -7065,12 +7081,12 @@ pages where the entry has `register_chain_id` (9 N5 verbs covering
 
 The plain cell is highlighted with accent-tinted background. Humble
 + respectful forms are N3+ scope (おる, いただく, 召し上がる, 申す,
-おっしゃる, etc.) — held in `js/learn-vocab.js` as static trio data
+おっしゃる, etc.): held in `js/learn-vocab.js` as static trio data
 since they're absent from `data/vocab.json`. Mobile-responsive: at
 ≤480 px the table stacks vertically with data-label pseudo-elements.
 
 This closes the niche-N4 (all-in-one) gap of "I had to look up the
-keigo equivalents in another app" — the most common single
+keigo equivalents in another app": the most common single
 out-of-corpus lookup an N5 learner makes.
 
 ### Cache version
@@ -7115,7 +7131,7 @@ official JLPT-N5 paper schedule:
 | Dokkai (reading) | 15 | 23 min | 94 |
 | Chokai (listening) | 24 | 30 min | 75 |
 
-Combined moji+goi = 25 min; bunpou+dokkai = 50 min; chokai = 30 min —
+Combined moji+goi = 25 min; bunpou+dokkai = 50 min; chokai = 30 min:
 same as the actual exam. Off by default (`settings.examMode = false`);
 when on, the paper attempting view shows a header `MM:SS` countdown
 that turns yellow at <5 min and red+expired at 0. CSS `.paper-timer`
@@ -7125,19 +7141,19 @@ styles added.
 
 **Rule relaxations** (legitimate cases that were over-strict):
 
-- **D-3** (no box-shadow) — exempts shadows declared inside
+- **D-3** (no box-shadow): exempts shadows declared inside
   `@keyframes` blocks. Animation key-frames are not steady-state
   styling and the spec §0.5 ban is on resting depth, not motion.
-- **D-4** (no `:hover` transforms) — adds two suppression cases:
+- **D-4** (no `:hover` transforms), adds two suppression cases:
   selectors that pair `:hover` with `:active` (where the transform
   is the active-press feedback, not the hover lift), and
   `transform: none` resets inside `@media (prefers-reduced-motion:
   reduce)`. Also strips CSS comments before checking selector text
   (a comment containing `:hover` was producing false positives).
-- **D-6** (border-radius 2/4/6/999 only) — adds `8px` to the allowed
+- **D-6** (border-radius 2/4/6/999 only): adds `8px` to the allowed
   set so mobile detail cards can use a slightly softer corner than
   the 6 px desktop hairline without violating the token system.
-- **D-7** (text-transform `uppercase` / `none` only) — adds
+- **D-7** (text-transform `uppercase` / `none` only): adds
   `capitalize` (used by tag-style chips on grammar / vocab cards).
 
 **Real violations fixed** (Muji-flat spec §0.5 + §3.4 + §8):
@@ -7146,7 +7162,7 @@ styles added.
   used elsewhere).
 - 4 `font-weight: 600` → `500` (max allowed weight under §3.2).
 - Toast-notification box-shadow at `.settings-saved-toast` (line
-  4768) removed — toast lifts off page via dark-on-light contrast +
+  4768) removed: toast lifts off page via dark-on-light contrast +
   position-fixed, no SaaS depth tricks.
 - Popover/tooltip box-shadow at line 3395 removed.
 - `.btn-action-primary:hover` and `.btn-action-secondary:hover`
@@ -7167,7 +7183,7 @@ Verified state captured in
 `N5/specifications/JLPT-N5-Current-Implementation-Spec.md` §9.5:
 
 - N5 SW registers with **default scope**
-  (`navigator.serviceWorker.register('./sw.js')` in `pwa.js` — no
+  (`navigator.serviceWorker.register('./sw.js')` in `pwa.js`: no
   explicit `scope:` option). Default scope = directory of script =
   `/JLPTSuccess/N5/`. GitHub Pages does not ship
   `Service-Worker-Allowed`, so the scope cannot widen.
@@ -7223,15 +7239,15 @@ reading / listening.
 Per Q33 decision ("Review by LLM giving him a persona of a native
 hindi speaker"), 27 of the top-30 N5 grammar patterns now carry:
 
-- **`l1_notes.hi`** — Hindi-L1 specific gotchas covering all 8
+- **`l1_notes.hi`**: Hindi-L1 specific gotchas covering all 8
   mandatory contrast areas: SOV word-order shared advantage,
   postposition→particle mapping (से→から/で, को→を/に, में→に/で),
   verb-agreement transfer, tense over-marking, politeness mismatch,
   negative-formation placement, question-particle position, plural
   marking. Rendered as a callout on each grammar-pattern detail.
-- **`explanation_hi`** — Devanagari long-form pedagogical explanation
+- **`explanation_hi`**: Devanagari long-form pedagogical explanation
   preserving Japanese examples in Japanese.
-- **`meaning_provenance` + `explanation_provenance`: `native_reviewed`** —
+- **`meaning_provenance` + `explanation_provenance`: `native_reviewed`**,
   the trust signal threshold (Q21 ≥10% per corpus) is now crossed.
 
 **Provenance-badge UI activated.** The round-6 scaffold
@@ -7244,7 +7260,7 @@ based on the corpus threshold rule.
 ### Vocab depth (1041 entries)
 
 - **Collocations** authored on 29 high-frequency entries (weather,
-  common verbs, common nouns) — e.g. 雨 → ['雨が降る', '雨が止む',
+  common verbs, common nouns): e.g. 雨 → ['雨が降る', '雨が止む',
   '雨に濡れる', '雨の日'].
 - **Examples ≥ 2 floor**: 10/1041 → 114/1041 (1% → 11%) via
   auto-cross-reference from grammar.json. 96 entries had no grammar
@@ -7253,7 +7269,7 @@ based on the corpus threshold rule.
 
 ### Kanji depth (106 entries)
 
-- **Confusable_with** clusters extended from 13 to 29 — added 10
+- **Confusable_with** clusters extended from 13 to 29: added 10
   more clusters (言/話/語, 学/字/子, 来/米, 会/今, 東/車/束, 見/貝/具,
   友/反, 口/日/目, 火/水, 母/毋).
 - **Recognition_priority** on all 106 (lesson_order based).
@@ -7268,12 +7284,12 @@ based on the corpus threshold rule.
 - **Reading question explanation_hi** on top-20 questions (Devanagari
   Hindi summary + preserved Japanese citation).
 - **Listening explanation_hi** on top-12 items including all 7
-  mondai-4 (即時応答). Niche-N1 unique-claim — no competitor ships
+  mondai-4 (即時応答). Niche-N1 unique-claim: no competitor ships
   Hindi rationales for JLPT N5.
 - **Paragraph summary** on all 45 reading passages.
 - **Vocab_preview** on 40/45 passages (auto-derived from `vocab_used`).
 - **Listening cultural_context** on 9 items (workplace etiquette,
-  greetings, table manners, apology dynamics, etc.) — mixes Hindi
+  greetings, table manners, apology dynamics, etc.): mixes Hindi
   explanation with Japanese illustrative phrases.
 
 ### Grammar tail (178 patterns)
@@ -7299,7 +7315,7 @@ based on the corpus threshold rule.
   documenting the `jlpt-n5-tutor:*` localStorage namespace.
 - **IMP-113**: GitHub repo topics extended with india / hindi /
   bharat / devanagari / hindi-medium (now 19 topics).
-- **IMP-114**: Devanagari Hindi README at `N5/README.hi.md` —
+- **IMP-114**: Devanagari Hindi README at `N5/README.hi.md`,
   niche-N1 first-impression on GitHub for Hindi-medium learners.
 
 ### JA-13 invariant extended
@@ -7315,7 +7331,7 @@ learner-language commentary; the N5-only kanji rule applies elsewhere.
   (requires voicevox alignment JSON; deferred to a build-pipeline cycle).
 - **ISSUE-089**: voicevox voice variety re-render (3 additional speakers).
 - **ISSUE-090**: native-speaker audio recruitment (gated on Q33 audio
-  budget — separate from native-review LLM-persona pass).
+  budget, separate from native-review LLM-persona pass).
 
 ### CI
 

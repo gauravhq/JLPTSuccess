@@ -89,7 +89,7 @@
       "passage_label": "Passage A (Q61-Q63)",
       "id": "dokkai-5.2",
       "mondai": 5,
-      "rationale_hi": "大学の 二年生の とき、 はじめて 日本に 来ました — विश्वविद्यालय के दूसरे साल में पहली बार जापान आए।",
+      "rationale_hi": "大学の 二年生の とき、 はじめて 日本に 来ました: विश्वविद्यालय के दूसरे साल में पहली बार जापान आए।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-120",
       "grammarPatternId_provenance": "auto_inferred"
@@ -109,7 +109,7 @@
       "passage_label": "Passage A (Q61-Q63)",
       "id": "dokkai-5.3",
       "mondai": 5,
-      "rationale_hi": "'大学を そつぎょうしてから、日本に すんで しごとを するつもり' — स्नातक होने के बाद जापान में रहकर काम करने का इरादा है।",
+      "rationale_hi": "'大学を そつぎょうしてから、日本に すんで しごとを するつもり': स्नातक होने के बाद जापान में रहकर काम करने का इरादा है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-143",
       "grammarPatternId_provenance": "auto_inferred"
@@ -129,7 +129,7 @@
       "passage_label": "Passage B (Q64-Q66)",
       "id": "dokkai-5.4",
       "mondai": 5,
-      "rationale_hi": "ピアノを ならいはじめたのは、 五さいの ときです — पाँच साल की उम्र में पियानो सीखना शुरू किया।",
+      "rationale_hi": "ピアノを ならいはじめたのは、 五さいの ときです: पाँच साल की उम्र में पियानो सीखना शुरू किया।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -149,7 +149,7 @@
       "passage_label": "Passage B (Q64-Q66)",
       "id": "dokkai-5.5",
       "mondai": 5,
-      "rationale_hi": "'こわかったですが、とても いい けいけんでした' — डर लगा था पर अच्छा अनुभव रहा।",
+      "rationale_hi": "'こわかったですが、とても いい けいけんでした': डर लगा था पर अच्छा अनुभव रहा।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-025",
       "grammarPatternId_provenance": "auto_inferred"
@@ -169,7 +169,7 @@
       "passage_label": "Passage B (Q64-Q66)",
       "id": "dokkai-5.6",
       "mondai": 5,
-      "rationale_hi": "いまは ともだちに ピアノを 教えて います — अब दोस्तों को पियानो सिखाते हैं।",
+      "rationale_hi": "いまは ともだちに ピアノを 教えて います: अब दोस्तों को पियानो सिखाते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-005",
       "grammarPatternId_provenance": "auto_inferred"
@@ -189,7 +189,7 @@
       "passage_label": "Passage C (Q67-Q69)",
       "id": "dokkai-5.7",
       "mondai": 5,
-      "rationale_hi": "私の 母は りょうりが とても じょうずです — माँ खाना बनाने में बहुत निपुण हैं।",
+      "rationale_hi": "私の 母は りょうりが とても じょうずです: माँ खाना बनाने में बहुत निपुण हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-100",
       "grammarPatternId_provenance": "auto_inferred"
@@ -209,7 +209,7 @@
       "passage_label": "Passage C (Q67-Q69)",
       "id": "dokkai-5.8",
       "mondai": 5,
-      "rationale_hi": "'中に やさいが たくさん 入って います。にくは すこし だけです' — बहुत-सी सब्ज़ियाँ हैं, मांस केवल थोड़ा।",
+      "rationale_hi": "'中に やさいが たくさん 入って います。にくは すこし だけです': बहुत-सी सब्ज़ियाँ हैं, मांस केवल थोड़ा।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"
@@ -229,7 +229,7 @@
       "passage_label": "Passage C (Q67-Q69)",
       "id": "dokkai-5.9",
       "mondai": 5,
-      "rationale_hi": "'母から カレーの 作りかたを 教わって、友だちに 作って あげたいです' — माँ से रेसिपी सीखकर दोस्तों के लिए बनाना चाहते हैं।",
+      "rationale_hi": "'母から カレーの 作りかたを 教わって、友だちに 作って あげたいです': माँ से रेसिपी सीखकर दोस्तों के लिए बनाना चाहते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-004",
       "grammarPatternId_provenance": "auto_inferred"
@@ -249,7 +249,7 @@
       "passage_label": "Passage D (Q70-Q72)",
       "id": "dokkai-5.10",
       "mondai": 5,
-      "rationale_hi": "駅から あるいて 十五分 かかります — स्टेशन से पैदल 15 मिनट लगते हैं।",
+      "rationale_hi": "駅から あるいて 十五分 かかります: स्टेशन से पैदल 15 मिनट लगते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-009",
       "grammarPatternId_provenance": "auto_inferred"
@@ -269,7 +269,7 @@
       "passage_label": "Passage D (Q70-Q72)",
       "id": "dokkai-5.11",
       "mondai": 5,
-      "rationale_hi": "家を 出たのは 七時 五十分でした — घर से 7:50 पर निकले।",
+      "rationale_hi": "家を 出たのは 七時 五十分でした: घर से 7:50 पर निकले।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -289,7 +289,7 @@
       "passage_label": "Passage D (Q70-Q72)",
       "id": "dokkai-5.12",
       "mondai": 5,
-      "rationale_hi": "八時 十分の でんしゃに のれました — 8:10 की ट्रेन पकड़ पाए।",
+      "rationale_hi": "八時 十分の でんしゃに のれました: 8:10 की ट्रेन पकड़ पाए।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-007",
       "grammarPatternId_provenance": "auto_inferred"
@@ -309,7 +309,7 @@
       "passage_label": "Passage E (Q73-Q75)",
       "id": "dokkai-5.13",
       "mondai": 5,
-      "rationale_hi": "'ばしょは たなかさんの 家です' — आयोजन-स्थल तनाका जी का घर है।",
+      "rationale_hi": "'ばしょは たなかさんの 家です': आयोजन-स्थल तनाका जी का घर है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-058",
       "grammarPatternId_provenance": "auto_inferred"

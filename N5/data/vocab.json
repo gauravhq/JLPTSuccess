@@ -70,7 +70,7 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "'I' — often OMITTED in Japanese when context is clear",
+          "function": "'I': often OMITTED in Japanese when context is clear",
           "gloss": "私 means 'I' / 'me', but native Japanese speakers usually OMIT the subject when it's already clear from context. Saying 私 explicitly in every sentence sounds heavy or English-influenced.",
           "context": "Examples: 「日本語を勉強します」 (subject omitted, understood as 'I') is more natural than 「私は日本語を勉強します」 in everyday speech. Use 私 when contrasting ('わたしは行きません、あなたは…') or first introducing yourself. Reading 'わたくし' is the formal version; 'わたし' is everyday-polite."
         }
@@ -152,7 +152,7 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "'We' — often OMITTED in Japanese when context is clear",
+          "function": "'We': often OMITTED in Japanese when context is clear",
           "gloss": "私たち means 'we' / 'us'. Like 私, Japanese typically omits the subject when context is clear. Saying 私たち explicitly is more common when contrasting groups or introducing the group.",
           "context": "Examples: 「行きましょう」 (subject omitted, understood as 'let's go (we)') is more natural than 「私たちは行きましょう」. Use 私たち for explicit group contrast or formal-register introduction."
         }
@@ -163,7 +163,7 @@
       "id": "n5.vocab.1-people-pronouns-and-se.あなた",
       "form": "あなた",
       "reading": "あなた",
-      "gloss": "you (use with caution — Japanese typically uses the person's name + さん or drops the subject entirely)",
+      "gloss": "you (use with caution: Japanese typically uses the person's name + さん or drops the subject entirely)",
       "section": "1. People - Pronouns and Self",
       "pos": "pronoun",
       "examples": [
@@ -184,7 +184,7 @@
         },
         {
           "ja": "あなたの 名前を ここに 書いて ください。",
-          "translation_en": "Please write your name here. (Form-filling / generic-instruction context — one of the few places where あなた is the natural choice because the addressee is unspecified and the register is impersonal.)",
+          "translation_en": "Please write your name here. (Form-filling / generic-instruction context: one of the few places where あなた is the natural choice because the addressee is unspecified and the register is impersonal.)",
           "provenance": "native_reviewed_2026_05_23",
           "usage_context": "anata_appropriate_register",
           "translation_en_provenance": "native_reviewed_2026_05_23"
@@ -192,7 +192,7 @@
       ],
       "review_status": "ai_quality_reviewed",
       "gloss_provenance": "native_reviewed_2026_05_22",
-      "gloss_hi": "आप (सावधानी से प्रयोग करें — जापानी में आमतौर पर व्यक्ति का नाम + さん का प्रयोग किया जाता है, या विषय छोड़ दिया जाता है)",
+      "gloss_hi": "आप (सावधानी से प्रयोग करें: जापानी में आमतौर पर व्यक्ति का नाम + さん का प्रयोग किया जाता है, या विषय छोड़ दिया जाता है)",
       "pitch_accent": {
         "mora": 3,
         "drop": 2,
@@ -259,8 +259,8 @@
       "counter_provenance": "native_reviewed",
       "counter_audit_wave": "imp-162-people-2026-05-13",
       "review_status_provenance": "claude_native_reviewer_persona",
-      "usage_note": "あなた is distant or formal, or (from a wife to a husband) intimate. It is NOT the normal way to address someone you know — use their name + さん, or drop the subject. Appropriate contexts: form-filling, wedding vows, lyrics, addressing strangers respectfully.",
-      "usage_note_hi": "あなた का प्रयोग दूरी या औपचारिकता दर्शाता है, या (पत्नी से पति को) आत्मीयता। यह किसी परिचित को संबोधित करने का सामान्य तरीका नहीं है — उनके नाम + さん का प्रयोग करें, या विषय छोड़ दें। उपयुक्त संदर्भ: फ़ॉर्म भरना, विवाह की शपथ, गीत, अजनबियों को सम्मानपूर्वक संबोधित करना।",
+      "usage_note": "あなた is distant or formal, or (from a wife to a husband) intimate. It is NOT the normal way to address someone you know: use their name + さん, or drop the subject. Appropriate contexts: form-filling, wedding vows, lyrics, addressing strangers respectfully.",
+      "usage_note_hi": "あなた का प्रयोग दूरी या औपचारिकता दर्शाता है, या (पत्नी से पति को) आत्मीयता। यह किसी परिचित को संबोधित करने का सामान्य तरीका नहीं है: उनके नाम + さん का प्रयोग करें, या विषय छोड़ दें। उपयुक्त संदर्भ: फ़ॉर्म भरना, विवाह की शपथ, गीत, अजनबियों को सम्मानपूर्वक संबोधित करना।",
       "gloss_hi_provenance": "native_reviewed_2026_05_22",
       "usage_note_provenance": "native_reviewed_2026_05_22",
       "particle_examples": [
@@ -274,7 +274,7 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "'You' — use with caution; sounds blunt or intimate",
+          "function": "'You': use with caution; sounds blunt or intimate",
           "gloss": "あなた is grammatically 'you', but native speakers rarely use it. Defaults to direct/blunt with strangers, or intimate/married-couple between partners.",
           "context": "Safer alternatives: the person's name + さん, their job title (先生 / 店員さん / お客さん), a kinship term (お母さん / おじいさん), or simply omit the subject. Example: 「田中さんは どこから ですか」, not 「あなたは どこから ですか」."
         }
@@ -346,8 +346,8 @@
       "pragmatic_functions": [
         {
           "function": "Primary modern sense = boyfriend, not generic 'he'",
-          "gloss": "In everyday modern Japanese, かれ usually means 'boyfriend'. Used as a generic pronoun for 'he/him' it sounds formal or literary — and can imply romantic relationship if mis-applied.",
-          "context": "For a non-romantic 'he', native speakers usually use the person's name + さん, the job title, or just omit the subject entirely. Example: 「田中さんは 学生です」 'Tanaka-san is a student' — not 「かれは 学生です」."
+          "gloss": "In everyday modern Japanese, かれ usually means 'boyfriend'. Used as a generic pronoun for 'he/him' it sounds formal or literary, and can imply romantic relationship if mis-applied.",
+          "context": "For a non-romantic 'he', native speakers usually use the person's name + さん, the job title, or just omit the subject entirely. Example: 「田中さんは 学生です」 'Tanaka-san is a student', not 「かれは 学生です」."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -415,8 +415,8 @@
       "pragmatic_functions": [
         {
           "function": "Primary modern sense = girlfriend, not generic 'she'",
-          "gloss": "In everyday modern Japanese, かのじょ usually means 'girlfriend'. Used as a generic pronoun for 'she/her' it sounds formal or literary — and can imply romantic relationship if mis-applied.",
-          "context": "For a non-romantic 'she', native speakers usually use the person's name + さん, the job title, or just omit the subject entirely. Example: 「田中さんは 先生です」 'Tanaka-san is a teacher' — not 「かのじょは 先生です」."
+          "gloss": "In everyday modern Japanese, かのじょ usually means 'girlfriend'. Used as a generic pronoun for 'she/her' it sounds formal or literary, and can imply romantic relationship if mis-applied.",
+          "context": "For a non-romantic 'she', native speakers usually use the person's name + さん, the job title, or just omit the subject entirely. Example: 「田中さんは 先生です」 'Tanaka-san is a teacher', not 「かのじょは 先生です」."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -496,15 +496,15 @@
         "どの方も",
         "あの方に"
       ],
-      "particle_examples_provenance": "native_review_2026_06_04 (batch A: sense de-contamination — earlier particle_examples were shared with the way-of-doing 「〜かた」 entry and belonged to that sense; replaced with polite-person 「方」 collocations)",
+      "particle_examples_provenance": "native_review_2026_06_04 (batch A: sense de-contamination, earlier particle_examples were shared with the way-of-doing 「〜かた」 entry and belonged to that sense; replaced with polite-person 「方」 collocations)",
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「かた」 covers 2 distinct N5 meanings: かた — person (polite)  /  かた — way of doing (e.g., たべかた = how to eat)",
+          "gloss": "The kana 「かた」 covers 2 distinct N5 meanings: かた, person (polite)  /  かた, way of doing (e.g., たべかた = how to eat)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.1-people-pronouns-and-se.人",
@@ -657,7 +657,7 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "Everyone — polite address form for groups",
+          "function": "Everyone: polite address form for groups",
           "gloss": "みなさん (皆さん) is the polite-respectful form of 'everyone'. Used to address audiences, customers, students, anyone you want to show group-respect to.",
           "context": "Examples: 「みなさん、こんにちは」 (formal hello to a group), 「みなさんの ご意見を…」 (formal 'your collective opinions'). For casual peer-group reference, use みんな."
         }
@@ -901,9 +901,9 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "'Oneself' — most natural in 自分で / 自分の patterns",
+          "function": "'Oneself': most natural in 自分で / 自分の patterns",
           "gloss": "じぶん means 'oneself'. The most common N5 usage is in 自分で (by oneself) and 自分の (one's own / my own).",
-          "context": "Example: 「じぶんで します」 = 'I'll do it myself.' 「じぶんの ほん」 = 'my own book.' Note: 「じぶんは…」 as a generic subject can sound odd in conversation — Japanese typically drops the subject or uses わたし."
+          "context": "Example: 「じぶんで します」 = 'I'll do it myself.' 「じぶんの ほん」 = 'my own book.' Note: 「じぶんは…」 as a generic subject can sound odd in conversation, Japanese typically drops the subject or uses わたし."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -1060,7 +1060,7 @@
         {
           "function": "Own father (talking to outsiders)",
           "gloss": "Use 父 when referring to YOUR own father in conversation with people outside your family.",
-          "context": "Example: 「父は会社員です」 — 'My father is a company employee.' For someone else's father, use お父さん."
+          "context": "Example: 「父は会社員です」, 'My father is a company employee.' For someone else's father, use お父さん."
         },
         {
           "function": "Concise JA (native-reviewer wording)",
@@ -1149,7 +1149,7 @@
         {
           "function": "Own mother (talking to outsiders)",
           "gloss": "Use 母 when referring to YOUR own mother in conversation with people outside your family.",
-          "context": "Example: 「私の母は元気です」 — 'My mother is well.' Don't use お母さん in that position; that form is for someone else's mother or as a direct address."
+          "context": "Example: 「私の母は元気です」, 'My mother is well.' Don't use お母さん in that position; that form is for someone else's mother or as a direct address."
         },
         {
           "function": "Concise JA (native-reviewer wording)",
@@ -2130,7 +2130,7 @@
       },
       "pitch_accent_provenance": "kanjium_lookup",
       "minimal_pair": {
-        "partner": "おじさん (uncle) — short vowel",
+        "partner": "おじさん (uncle): short vowel",
         "distinguished_by": "vowel length",
         "note": "おじいさん (grandfather) has long vowel; おじさん (uncle) is short."
       },
@@ -2177,7 +2177,7 @@
         {
           "function": "Kinship / general elderly man / address",
           "gloss": "Used both for grandfathers (own or someone else's) and as a friendly term for an elderly man.",
-          "context": "Pragmatic caution: using おじいさん to address an unrelated elderly man you don't know can sound presumptuous about their age — many Japanese speakers avoid it in cold-call situations and switch to 「すみません」 + a job/role title where possible."
+          "context": "Pragmatic caution: using おじいさん to address an unrelated elderly man you don't know can sound presumptuous about their age, many Japanese speakers avoid it in cold-call situations and switch to 「すみません」 + a job/role title where possible."
         },
         {
           "function": "Concise JA pragmatic caution (native-reviewer wording)",
@@ -2227,7 +2227,7 @@
       },
       "pitch_accent_provenance": "kanjium_lookup",
       "minimal_pair": {
-        "partner": "おばさん (aunt) — short vowel",
+        "partner": "おばさん (aunt): short vowel",
         "distinguished_by": "vowel length",
         "note": "おばあさん (grandmother) has long vowel; おばさん (aunt) is short."
       },
@@ -2324,7 +2324,7 @@
       },
       "pitch_accent_provenance": "kanjium_lookup",
       "minimal_pair": {
-        "partner": "おじいさん (grandfather) — long vowel",
+        "partner": "おじいさん (grandfather): long vowel",
         "distinguished_by": "vowel length",
         "note": "おじさん (uncle) is short; おじいさん (grandfather) has long vowel."
       },
@@ -2369,7 +2369,7 @@
         {
           "function": "Uncle / middle-aged man / address",
           "gloss": "Used both for one's uncle (own or someone else's) and as a friendly term for a middle-aged man.",
-          "context": "Pragmatic caution: using おじさん to address a man who isn't actually your uncle can sound like you're calling him 'old' — children often use it freely; adults usually avoid it for strangers."
+          "context": "Pragmatic caution: using おじさん to address a man who isn't actually your uncle can sound like you're calling him 'old', children often use it freely; adults usually avoid it for strangers."
         },
         {
           "function": "Concise JA pragmatic caution (native-reviewer wording)",
@@ -2419,7 +2419,7 @@
       },
       "pitch_accent_provenance": "kanjium_lookup",
       "minimal_pair": {
-        "partner": "おばあさん (grandmother) — long vowel",
+        "partner": "おばあさん (grandmother): long vowel",
         "distinguished_by": "vowel length",
         "note": "おばさん (aunt) is short; おばあさん (grandmother) has long vowel."
       },
@@ -2455,7 +2455,7 @@
         {
           "function": "Aunt / middle-aged woman / address",
           "gloss": "Used both for one's aunt (own or someone else's) and as a friendly term for a middle-aged woman.",
-          "context": "Pragmatic caution: using おばさん to address an unrelated woman can sound rude — many Japanese women dislike being called おばさん because of the age implication. See おじさん for the same caveat."
+          "context": "Pragmatic caution: using おばさん to address an unrelated woman can sound rude, many Japanese women dislike being called おばさん because of the age implication. See おじさん for the same caveat."
         },
         {
           "function": "Concise JA pragmatic caution (native-reviewer wording)",
@@ -3076,8 +3076,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Older students — typically university / college / high-school age",
-          "gloss": "学生 (がくせい) usually refers to STUDENTS in higher education — university, college, sometimes high school. For elementary or junior-high schoolchildren, the more usual word is せいと (生徒).",
+          "function": "Older students: typically university / college / high-school age",
+          "gloss": "学生 (がくせい) usually refers to STUDENTS in higher education: university, college, sometimes high school. For elementary or junior-high schoolchildren, the more usual word is せいと (生徒).",
           "context": "English 'student' covers both, but Japanese typically reserves 学生 for the older end. Example: 「大学の 学生です」 = 'I'm a university student.' For a primary-schooler, prefer せいと or 小学生 (しょうがくせい)."
         }
       ],
@@ -3157,7 +3157,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Younger students / pupils — typically elementary, junior-high, or high school",
+          "function": "Younger students / pupils: typically elementary, junior-high, or high school",
           "gloss": "せいと (生徒) refers to pupils in compulsory education and high school. For university and college, use 学生 (がくせい).",
           "context": "Example: 「中学校の せいとです」 = 'I'm a junior-high-school pupil.' English 'student' translates to both 学生 and せいと depending on level."
         }
@@ -3246,8 +3246,8 @@
       "pragmatic_functions": [
         {
           "function": "Honorific title for teachers, doctors, masters, and certain professionals",
-          "gloss": "先生 isn't only 'teacher' — it's the respectful title used for any expert authority: teachers, doctors, lawyers, dentists, traditional-arts masters, novelists, politicians, etc.",
-          "context": "Used as a title attached to a name: 田中先生 = 'Dr./Prof./Sensei Tanaka'. Used standalone, 先生! is how a student calls a teacher in class, or a patient addresses their doctor. Don't translate it as just 'teacher' — the role is wider."
+          "gloss": "先生 isn't only 'teacher': it's the respectful title used for any expert authority: teachers, doctors, lawyers, dentists, traditional-arts masters, novelists, politicians, etc.",
+          "context": "Used as a title attached to a name: 田中先生 = 'Dr./Prof./Sensei Tanaka'. Used standalone, 先生! is how a student calls a teacher in class, or a patient addresses their doctor. Don't translate it as just 'teacher': the role is wider."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -3638,7 +3638,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Formal / descriptive — 'police officer'",
+          "function": "Formal / descriptive: 'police officer'",
           "gloss": "けいかん (警官) is the formal / written / news-register word for a police officer. Direct address or warm reference uses おまわりさん.",
           "context": "けいかん appears in news, official documents, signage. To call out to or warmly refer to an officer (especially in conversation with children), use おまわりさん."
         }
@@ -3713,7 +3713,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Warm / child-friendly / direct-address — 'the (friendly) police officer'",
+          "function": "Warm / child-friendly / direct-address: 'the (friendly) police officer'",
           "gloss": "おまわりさん is the everyday / child-friendly form for a police officer. Built from まわる ('to go around', as in patrolling) + the お…さん honorific frame.",
           "context": "Used when speaking to children about police, when directly addressing an officer, or in friendly conversational reference. For formal / written register, use けいかん (警官)."
         }
@@ -3872,8 +3872,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Pragmatic caution — 'foreigner' can sound exclusionary in direct address",
-          "gloss": "外国人 (がいこくじん) literally means 'foreign-country person'. The word is accurate but in direct address it can feel othering — many residents of Japan find it cold when applied to them personally.",
+          "function": "Pragmatic caution: 'foreigner' can sound exclusionary in direct address",
+          "gloss": "外国人 (がいこくじん) literally means 'foreign-country person'. The word is accurate but in direct address it can feel othering: many residents of Japan find it cold when applied to them personally.",
           "context": "For a more neutral / friendly tone: 海外から 来た方 (かいがいから きた かた) = 'a person from overseas', or just refer to the person by name + さん / nationality (アメリカ人 / フランス人). Used naturally in news, statistics, or general statements about non-Japanese people."
         }
       ],
@@ -4634,9 +4634,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "'Leg' AND 'foot' — Japanese 足 covers both",
-          "gloss": "Japanese 足 (あし) covers the entire lower limb — both 'leg' and 'foot'. English splits these; Japanese usually doesn't, unless you need to be specific.",
-          "context": "Examples: 「足が ながい」 = 'long legs'. 「足が いたい」 = 'my foot hurts' OR 'my leg hurts' — depending context. For 'foot specifically (sole)' you can say 足首 (あしくび, 'ankle') or 足の うら (sole) — N4+ vocabulary."
+          "function": "'Leg' AND 'foot': Japanese 足 covers both",
+          "gloss": "Japanese 足 (あし) covers the entire lower limb: both 'leg' and 'foot'. English splits these; Japanese usually doesn't, unless you need to be specific.",
+          "context": "Examples: 「足が ながい」 = 'long legs'. 「足が いたい」 = 'my foot hurts' OR 'my leg hurts': depending context. For 'foot specifically (sole)' you can say 足首 (あしくび, 'ankle') or 足の うら (sole): N4+ vocabulary."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -4784,7 +4784,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two meanings — 'back (of body)' AND 'height (stature)'",
+          "function": "Two meanings: 'back (of body)' AND 'height (stature)'",
           "gloss": "せ (背) covers both 'back' (the body part) and 'height / stature' (how tall someone is).",
           "context": "Examples: 「せが いたい」 = 'My back hurts.' 「せが たかい」 = 'They are tall' (literally: 'their stature is high'). Context disambiguates: pairs with verbs/adjectives of body sensation (痛い, ぶつける) → back; pairs with 高い / 低い → height."
         }
@@ -6821,7 +6821,7 @@
       "register": "neutral",
       "register_provenance": "auto_derived",
       "long_vowel_pair": "n5.vocab.8-native-counters-series.五つ",
-      "long_vowel_pair_note": "いつ (when, 2-mora) vs 五つ いつつ (five things, 3-mora long つ). Length-and-sokuon discrimination — question word vs counter.",
+      "long_vowel_pair_note": "いつ (when, 2-mora) vs 五つ いつつ (five things, 3-mora long つ). Length-and-sokuon discrimination: question word vs counter.",
       "long_vowel_pair_provenance": "native_reviewed",
       "long_vowel_pair_audit_wave": "imp-165-minimal-pairs-2026-05-13",
       "review_status_provenance": "claude_native_reviewer_persona",
@@ -7385,12 +7385,12 @@
         {
           "function": "how-means",
           "gloss": "by what means",
-          "context": "ambiguous — disambiguate with どうやって"
+          "context": "ambiguous: disambiguate with どうやって"
         },
         {
-          "function": "Two senses — 'why?' (most common) vs 'by what means?'",
+          "function": "Two senses: 'why?' (most common) vs 'by what means?'",
           "gloss": "何で (なんで) has two N5-level senses: (1) the casual 'why?' (synonymous with どうして / なぜ); (2) the literal 'by what means / by what method?'. Context disambiguates.",
-          "context": "Examples: 「何で 来ましたか」 — most often heard as 'Why did you come?' but literally could be 'By what means did you come?' (car/train/bus/etc.). 「何で 食べますか」 — 'Why do you eat?' OR 'With what do you eat?' (chopsticks/fork). For unambiguous 'why', prefer どうして. For unambiguous 'by what means', use なにで or その方法は? Note: なんで can also be more casual than どうして / なぜ."
+          "context": "Examples: 「何で 来ましたか」, most often heard as 'Why did you come?' but literally could be 'By what means did you come?' (car/train/bus/etc.). 「何で 食べますか」: 'Why do you eat?' OR 'With what do you eat?' (chopsticks/fork). For unambiguous 'why', prefer どうして. For unambiguous 'by what means', use なにで or その方法は? Note: なんで can also be more casual than どうして / なぜ."
         }
       ],
       "pragmatic_functions_provenance": "llm_curated | native_review_2026_06_04 (batch G: section-level P1/P2 fixes)",
@@ -8554,7 +8554,7 @@
         "note": "Generic counter 1-thing uses kun-stem ひと- (1-10: ひと/ふた/みっ/よっ/いつ/むっ/なな/やっ/ここの/とお)",
         "register_pair": {
           "casual_alt": "一個 (いっこ)",
-          "formal_same": "一品 (いっぴん — for goods)"
+          "formal_same": "一品 (いっぴん: for goods)"
         }
       },
       "particle_examples": [
@@ -8830,7 +8830,7 @@
       "devoiced_vowel": true,
       "devoiced_vowel_provenance": "auto_derived",
       "long_vowel_pair": "n5.vocab.6-question-words.いつ",
-      "long_vowel_pair_note": "いつ (when, 2-mora) vs 五つ いつつ (five things, 3-mora long つ). Length-and-sokuon discrimination — question word vs counter.",
+      "long_vowel_pair_note": "いつ (when, 2-mora) vs 五つ いつつ (five things, 3-mora long つ). Length-and-sokuon discrimination: question word vs counter.",
       "long_vowel_pair_provenance": "native_reviewed",
       "long_vowel_pair_audit_wave": "imp-165-minimal-pairs-2026-05-13",
       "frequent_patterns": [
@@ -9442,7 +9442,7 @@
         "note": "1-person uses irregular kun-reading ひとり (NOT いちにん). Standard for politeness.",
         "register_pair": {
           "casual_alt": "一人 (ひとり)",
-          "formal_same": "一名 (いちめい — very formal contexts only)"
+          "formal_same": "一名 (いちめい: very formal contexts only)"
         }
       },
       "particle_examples": [
@@ -10789,7 +10789,7 @@
           2
         ],
         "native_review_pending": "2026_05_22_NTR_008",
-        "native_review_note": "Reviewer-cited NHK 2016 lists drop=2 standard; drop=0 is the colloquial alternate. Current data lists drop=1 primary + alternates [0, 2] — drop=1 is unusual as primary. The audio file (if rendered) is at drop=1; mark which value the audio uses. Native-speaker pass needed to resolve.",
+        "native_review_note": "Reviewer-cited NHK 2016 lists drop=2 standard; drop=0 is the colloquial alternate. Current data lists drop=1 primary + alternates [0, 2]: drop=1 is unusual as primary. The audio file (if rendered) is at drop=1; mark which value the audio uses. Native-speaker pass needed to resolve.",
         "nhk_2016_claim_drop": 2,
         "nhk_2016_claim_alts": [
           0
@@ -11469,7 +11469,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "'Tonight' — the conversational default",
+          "function": "'Tonight': the conversational default",
           "gloss": "こんばん (今晩) is the everyday spoken word for 'tonight'. The greeting 「こんばんは」 ('good evening') is built from this word + the topic particle は.",
           "context": "More formal / written alternative: こんや (今夜). Pair: 「こんばん 何を しますか」 = 'What are you doing tonight?'"
         }
@@ -11549,7 +11549,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "'Tonight' — slightly more formal / written than こんばん",
+          "function": "'Tonight': slightly more formal / written than こんばん",
           "gloss": "こんや (今夜) and こんばん (今晩) both mean 'tonight', but こんや has a slightly more formal, written, or newscaster feel. Conversational everyday speech usually uses こんばん.",
           "context": "Examples: 「こんばんは 寒いです」 (informal, spoken) = 'It's cold tonight.' 「こんやの ニュースで…」 (newscast / formal) = 'In tonight's news...'"
         }
@@ -12041,9 +12041,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two readings — ついたち (1st day of month) vs いちにち (one day / whole day)",
+          "function": "Two readings: ついたち (1st day of month) vs いちにち (one day / whole day)",
           "gloss": "一日 has two readings with different meanings: ついたち = the 1st day of the month (a date); いちにち = one day or 'a whole day' (a duration).",
-          "context": "ついたち is irregular — the only date in the 1–10 sequence not formed by Sino-Japanese counting; etymologically from 月立ち (the start of the month). Examples: 「七月一日」(しちがつ ついたち) = July 1st. 「一日中」(いちにち じゅう) = 'all day long'. This entry covers the ついたち (1st-of-month) sense."
+          "context": "ついたち is irregular: the only date in the 1–10 sequence not formed by Sino-Japanese counting; etymologically from 月立ち (the start of the month). Examples: 「七月一日」(しちがつ ついたち) = July 1st. 「一日中」(いちにち じゅう) = 'all day long'. This entry covers the ついたち (1st-of-month) sense."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -12129,9 +12129,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two readings — ついたち (1st day of month) vs いちにち (one day / whole day)",
+          "function": "Two readings: ついたち (1st day of month) vs いちにち (one day / whole day)",
           "gloss": "一日 has two readings with different meanings: ついたち = the 1st day of the month (a date); いちにち = one day or 'a whole day' (a duration).",
-          "context": "ついたち is irregular — the only date in the 1–10 sequence not formed by Sino-Japanese counting; etymologically from 月立ち (the start of the month). Examples: 「七月一日」(しちがつ ついたち) = July 1st. 「一日中」(いちにち じゅう) = 'all day long'. This entry covers the いちにち (whole day) sense."
+          "context": "ついたち is irregular: the only date in the 1–10 sequence not formed by Sino-Japanese counting; etymologically from 月立ち (the start of the month). Examples: 「七月一日」(しちがつ ついたち) = July 1st. 「一日中」(いちにち じゅう) = 'all day long'. This entry covers the いちにち (whole day) sense."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -13839,7 +13839,7 @@
       "frequency_rank_provenance": "auto_extracted",
       "devoiced_vowels": {
         "positions": [],
-        "note": "no devoicing — voiced k initial",
+        "note": "no devoicing: voiced k initial",
         "rule": "no_devoicing"
       },
       "devoiced_vowels_provenance": "llm_curated",
@@ -16236,7 +16236,7 @@
         },
         {
           "ja": "すぐ 行きます。まって いて ください。",
-          "translation_en": "I'll come right away — please wait.",
+          "translation_en": "I'll come right away: please wait.",
           "provenance": "native_reviewed_2026_05_22"
         },
         {
@@ -17315,7 +17315,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Polite — 'restroom / washroom' (literal: お-hand-wash)",
+          "function": "Polite, 'restroom / washroom' (literal: お-hand-wash)",
           "gloss": "おてあらい (お手洗い) is the polite Japanese-style word for restroom. Slightly more euphemistic / refined than トイレ. Common on signage in restaurants, hotels, and businesses.",
           "context": "Example: 「おてあらいは どこですか」 = 'Where is the restroom?' (polite). For everyday casual conversation, トイレ is also fine and very common."
         }
@@ -17389,7 +17389,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Everyday — 'toilet / restroom' (loanword)",
+          "function": "Everyday: 'toilet / restroom' (loanword)",
           "gloss": "トイレ (from English 'toilet') is the everyday, direct, very common word for toilet/restroom. More casual / direct than おてあらい (お手洗い).",
           "context": "Example: 「トイレに 行きたいです」 = 'I want to go to the toilet.' Both トイレ and おてあらい are widely understood; choose by formality. In a fancy restaurant or business setting, おてあらい sounds more polished."
         }
@@ -17460,9 +17460,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Bath — Japanese-style tub-soaking bath",
+          "function": "Bath: Japanese-style tub-soaking bath",
           "gloss": "おふろ (お風呂) is a TUB-style bath. In Japanese homes, the tub is typically deep and used for soaking; you wash yourself OUTSIDE the tub first, then enter the clean water to soak.",
-          "context": "Example: 「おふろに 入ります」 = 'I take a bath' (literally 'enter the bath'). Note the verb — 入る (enter), not 取る (take). For a quick shower without soaking, use シャワー."
+          "context": "Example: 「おふろに 入ります」 = 'I take a bath' (literally 'enter the bath'). Note the verb: 入る (enter), not 取る (take). For a quick shower without soaking, use シャワー."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -20478,7 +20478,7 @@
       "pitch_accent_provenance": "kanjium_lookup",
       "devoiced_vowels": {
         "positions": [],
-        "note": "no standard devoicing — voiced m",
+        "note": "no standard devoicing: voiced m",
         "rule": "no_devoicing"
       },
       "devoiced_vowels_provenance": "llm_curated",
@@ -20726,11 +20726,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「はし」 covers 2 distinct N5 meanings: はし — bridge  /  はし — chopsticks",
+          "gloss": "The kana 「はし」 covers 2 distinct N5 meanings: はし, bridge  /  はし, chopsticks",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.13-locations-and-places-.まち",
@@ -22339,7 +22339,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Sea / ocean — NOT lake (use みずうみ for lake)",
+          "function": "Sea / ocean, NOT lake (use みずうみ for lake)",
           "gloss": "うみ = salt-water sea or ocean. For an inland fresh-water body of water, use みずうみ (湖).",
           "context": "Examples: 海に いきます = 'go to the sea/ocean'. 湖の そばに すみます = 'live near a lake'. Don't translate English 'lake' as うみ."
         }
@@ -22485,7 +22485,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Lake (fresh-water, inland) — NOT sea (use うみ for sea/ocean)",
+          "function": "Lake (fresh-water, inland), NOT sea (use うみ for sea/ocean)",
           "gloss": "みずうみ = inland fresh-water body. For salt-water ocean or sea, use うみ (海).",
           "context": "Examples: びわ湖は 日本で 一番 大きい みずうみです = 'Lake Biwa is the largest lake in Japan.'"
         }
@@ -23495,11 +23495,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「かぜ」 covers 2 distinct N5 meanings: かぜ — wind  /  かぜ — cold (illness)",
+          "gloss": "The kana 「かぜ」 covers 2 distinct N5 meanings: かぜ, wind  /  かぜ, cold (illness)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.14-nature-and-weather.天気",
@@ -25776,8 +25776,8 @@
       "particle_examples_provenance": "auto_derived",
       "pragmatic_functions": [
         {
-          "function": "Cooked rice — AND 'meal' more generally",
-          "gloss": "ごはん covers both 'cooked rice' (the white grain on your plate) AND 'a meal' (breakfast/lunch/dinner generally — even without rice).",
+          "function": "Cooked rice, AND 'meal' more generally",
+          "gloss": "ごはん covers both 'cooked rice' (the white grain on your plate) AND 'a meal' (breakfast/lunch/dinner generally, even without rice).",
           "context": "Examples: 「ごはんを たべます」 can mean 'I'll eat (a meal)' OR 'I'll eat (cooked) rice', depending context. 朝ごはん = breakfast; 夕ごはん = dinner. For uncooked rice grain, use 米 (こめ)."
         }
       ],
@@ -27642,9 +27642,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Uncooked rice grain — NOT a meal, NOT cooked rice",
+          "function": "Uncooked rice grain, NOT a meal, NOT cooked rice",
           "gloss": "こめ is rice as a commodity / raw grain (e.g., what farmers grow, what you buy at a shop). Cooked rice on your plate is ごはん.",
-          "context": "Example: 日本人は 米を たくさん たべます (literal: 'Japanese people eat a lot of rice' — fine because it speaks generically about rice as food). But at the table: ごはんを ください, not 米を ください."
+          "context": "Example: 日本人は 米を たくさん たべます (literal: 'Japanese people eat a lot of rice', fine because it speaks generically about rice as food). But at the table: ごはんを ください, not 米を ください."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -29565,7 +29565,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Alcohol generally — not only Japanese sake",
+          "function": "Alcohol generally, not only Japanese sake",
           "gloss": "おさけ (お酒) is the generic Japanese word for alcoholic beverages: beer, wine, whisky, sake (Japanese rice wine), all included.",
           "context": "If you specifically mean Japanese rice wine, you can say にほんしゅ (日本酒). 'Drinking alcohol' generally: おさけを のむ. English speakers often think おさけ = 'sake' but it's much broader."
         }
@@ -29615,7 +29615,7 @@
       "frequency_rank_source": "leeds_corpus_internet_jp",
       "frequency_rank_provenance": "auto_extracted",
       "minimal_pair": {
-        "partner": "ビル (building) — short vowel",
+        "partner": "ビル (building): short vowel",
         "distinguished_by": "vowel length",
         "note": "ビール (beer) 3 mora vs ビル (building) 2 mora."
       },
@@ -30085,11 +30085,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「はし」 covers 2 distinct N5 meanings: はし — bridge  /  はし — chopsticks",
+          "gloss": "The kana 「はし」 covers 2 distinct N5 meanings: はし, bridge  /  はし, chopsticks",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.19-tableware-and-cooking.スプーン",
@@ -30382,7 +30382,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Loanword 'cup/glass' — tumbler-shaped, typically for cold drinks",
+          "function": "Loanword 'cup/glass': tumbler-shaped, typically for cold drinks",
           "gloss": "コップ (from Dutch 'kop') is a tumbler-style drinking vessel, usually no handle, often glass. Used for water, juice, beer, etc.",
           "context": "Contrast with カップ (from English): handled, often porcelain, typically for hot drinks like coffee or tea. コーヒーは カップで のみます = 'drink coffee from a (handled) cup'."
         }
@@ -30462,7 +30462,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Loanword 'cup' — typically for warm drinks (tea, coffee) and with a handle",
+          "function": "Loanword 'cup': typically for warm drinks (tea, coffee) and with a handle",
           "gloss": "カップ (from English 'cup') is the type with a handle, often used for hot drinks: a coffee cup, a teacup. Also: trophy cup, measuring cup.",
           "context": "Contrast with コップ (from Dutch 'kop'): a tumbler-shaped glass without a handle, typically for cold drinks like water or juice. ジュースを コップで のみます = 'drink juice from a glass'."
         }
@@ -30756,7 +30756,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Noun form — pair with the い-adjective form '白い (しろい)'",
+          "function": "Noun form: pair with the い-adjective form '白い (しろい)'",
           "gloss": "白 (しろ) is the NOUN form of the color (the color itself, as a concept). The corresponding い-adjective form is 白い (しろい) (describes a thing as being that color).",
           "context": "Examples: 「白 (しろ)が すきです」 = 'I like 白 (しろ) (the color).' VS 「白い (しろい) ペン」 = 'a 白い (しろい) pen' (describing a pen). Use the noun when talking about the color itself; use the adjective when describing something's color."
         }
@@ -30824,7 +30824,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "い-adjective form — pair with the noun form '白 (しろ)'",
+          "function": "い-adjective form: pair with the noun form '白 (しろ)'",
           "gloss": "白い (しろい) is the い-ADJECTIVE form (describes a thing as being that color). The noun form (the color itself) is 白 (しろ).",
           "context": "Examples: 「白い (しろい) はな」 = 'a 白い (しろい) flower' (describing a flower). VS 「白 (しろ)が すきです」 = 'I like 白 (しろ) (the color).' Use the adjective when describing; use the noun for the color concept."
         }
@@ -30905,7 +30905,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Noun form — pair with the い-adjective form 'くろい (黒い)'",
+          "function": "Noun form: pair with the い-adjective form 'くろい (黒い)'",
           "gloss": "くろ (黒) is the NOUN form of the color (the color itself, as a concept). The corresponding い-adjective form is くろい (黒い) (describes a thing as being that color).",
           "context": "Examples: 「くろ (黒)が すきです」 = 'I like くろ (黒) (the color).' VS 「くろい (黒い) ペン」 = 'a くろい (黒い) pen' (describing a pen). Use the noun when talking about the color itself; use the adjective when describing something's color."
         }
@@ -30973,7 +30973,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "い-adjective form — pair with the noun form 'くろ (黒)'",
+          "function": "い-adjective form: pair with the noun form 'くろ (黒)'",
           "gloss": "くろい (黒い) is the い-ADJECTIVE form (describes a thing as being that color). The noun form (the color itself) is くろ (黒).",
           "context": "Examples: 「くろい (黒い) はな」 = 'a くろい (黒い) flower' (describing a flower). VS 「くろ (黒)が すきです」 = 'I like くろ (黒) (the color).' Use the adjective when describing; use the noun for the color concept."
         }
@@ -31054,7 +31054,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Noun form — pair with the い-adjective form 'あかい (赤い)'",
+          "function": "Noun form: pair with the い-adjective form 'あかい (赤い)'",
           "gloss": "あか (赤) is the NOUN form of the color (the color itself, as a concept). The corresponding い-adjective form is あかい (赤い) (describes a thing as being that color).",
           "context": "Examples: 「あか (赤)が すきです」 = 'I like あか (赤) (the color).' VS 「あかい (赤い) ペン」 = 'a あかい (赤い) pen' (describing a pen). Use the noun when talking about the color itself; use the adjective when describing something's color."
         }
@@ -31117,7 +31117,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "い-adjective form — pair with the noun form 'あか (赤)'",
+          "function": "い-adjective form: pair with the noun form 'あか (赤)'",
           "gloss": "あかい (赤い) is the い-ADJECTIVE form (describes a thing as being that color). The noun form (the color itself) is あか (赤).",
           "context": "Examples: 「あかい (赤い) はな」 = 'a あかい (赤い) flower' (describing a flower). VS 「あか (赤)が すきです」 = 'I like あか (赤) (the color).' Use the adjective when describing; use the noun for the color concept."
         }
@@ -31196,7 +31196,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Noun form — pair with the い-adjective form 'あおい (青い)'",
+          "function": "Noun form: pair with the い-adjective form 'あおい (青い)'",
           "gloss": "あお (青) is the NOUN form of the color (the color itself, as a concept). The corresponding い-adjective form is あおい (青い) (describes a thing as being that color).",
           "context": "Examples: 「あお (青)が すきです」 = 'I like あお (青) (the color).' VS 「あおい (青い) ペン」 = 'a あおい (青い) pen' (describing a pen). Use the noun when talking about the color itself; use the adjective when describing something's color."
         }
@@ -31271,7 +31271,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "い-adjective form — pair with the noun form 'あお (青)'",
+          "function": "い-adjective form: pair with the noun form 'あお (青)'",
           "gloss": "あおい (青い) is the い-ADJECTIVE form (describes a thing as being that color). The noun form (the color itself) is あお (青).",
           "context": "Examples: 「あおい (青い) はな」 = 'a あおい (青い) flower' (describing a flower). VS 「あお (青)が すきです」 = 'I like あお (青) (the color).' Use the adjective when describing; use the noun for the color concept."
         }
@@ -33898,7 +33898,7 @@
       "false_friends_provenance": "llm_curated",
       "devoiced_vowels": {
         "positions": [],
-        "note": "no devoicing — voiced consonants",
+        "note": "no devoicing: voiced consonants",
         "rule": "no_devoicing"
       },
       "devoiced_vowels_provenance": "llm_curated",
@@ -34745,7 +34745,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Legacy / archaic — use 電車 instead in modern Japanese",
+          "function": "Legacy / archaic: use 電車 instead in modern Japanese",
           "gloss": "きしゃ originally meant a steam-powered train. Today, ordinary trains are called 電車 (でんしゃ).",
           "context": "きしゃ still appears in older N5 wordlists and historical texts, but a modern speaker would say 電車. Recognize it for reading; prefer 電車 for speaking and writing."
         }
@@ -35792,7 +35792,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Broad scope — 'word', 'language', or 'speech / what someone said'",
+          "function": "Broad scope: 'word', 'language', or 'speech / what someone said'",
           "gloss": "ことば covers a wide range: a single word, a language (Japanese, English), or 'what someone said / their speech'. For 'vocabulary item / lexical entry' specifically, the narrower word is たんご.",
           "context": "Examples: 「日本語の ことば」 = 'a Japanese word' OR 'the Japanese language'. 「親切な ことば」 = 'kind words / kind speech'. For a vocabulary drill: 「たんごを おぼえる」 = 'memorize vocabulary'."
         }
@@ -35872,7 +35872,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Generic 'character / letter' — covers all writing systems",
+          "function": "Generic 'character / letter': covers all writing systems",
           "gloss": "じ (字) is the broadest term for a written character: kanji, kana (hiragana/katakana), even Roman letters can be called じ in everyday speech. もじ (文字) is a near-synonym.",
           "context": "Examples: 「じを 書きます」 = 'I write characters.' For a specific system, use the specific name: かんじ, ひらがな, カタカナ. Use じ when you don't need to specify."
         }
@@ -35946,7 +35946,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Chinese-origin characters — distinct from kana",
+          "function": "Chinese-origin characters: distinct from kana",
           "gloss": "かんじ (漢字) are the Chinese-origin characters used in Japanese writing. Each kanji has both meaning and (typically multiple) readings. N5 covers ~100 kanji.",
           "context": "Distinct from かな (the syllabic systems ひらがな / カタカナ). Example: 「漢字で 書きます」 = 'I'll write it in kanji.' On the JLPTSuccess kanji pages, each card shows the kanji's On/Kun readings, stroke order, and example words."
         }
@@ -36020,8 +36020,8 @@
       "particle_examples_provenance": "auto_derived",
       "pragmatic_functions": [
         {
-          "function": "Umbrella term — both ひらがな and カタカナ together",
-          "gloss": "かな is the umbrella term for the two Japanese syllabic systems: ひらがな (hiragana — rounded shapes, native words and grammatical particles) and カタカナ (katakana — angular shapes, loanwords and emphasis).",
+          "function": "Umbrella term: both ひらがな and カタカナ together",
+          "gloss": "かな is the umbrella term for the two Japanese syllabic systems: ひらがな (hiragana, rounded shapes, native words and grammatical particles) and カタカナ (katakana, angular shapes, loanwords and emphasis).",
           "context": "Examples: 「かなで 書いてください」 = 'Please write in kana' (= either hiragana or katakana, not kanji). When you need to specify, use ひらがな or カタカナ directly."
         }
       ],
@@ -36097,7 +36097,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Hiragana — rounded syllabic script for native Japanese words and grammar",
+          "function": "Hiragana: rounded syllabic script for native Japanese words and grammar",
           "gloss": "ひらがな is one of the two Japanese syllabaries (the other is カタカナ). 46 basic characters plus modifications. Used for native Japanese words, verb endings, particles, and as ruby (furigana) reading-hints above kanji.",
           "context": "First script that N5 learners typically master. Distinct from カタカナ (used for loanwords) and かんじ (Chinese-origin meaning-characters)."
         }
@@ -36165,10 +36165,10 @@
         "カタカナは どこ",
         "カタカナを みる"
       ],
-      "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J4: removed purchase/price/new template collocations — カタカナ is a writing system, not a buyable object)",
+      "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J4: removed purchase/price/new template collocations, カタカナ is a writing system, not a buyable object)",
       "pragmatic_functions": [
         {
-          "function": "Katakana — angular syllabic script for loanwords, names, emphasis",
+          "function": "Katakana: angular syllabic script for loanwords, names, emphasis",
           "gloss": "カタカナ is the other Japanese syllabary. Same sound system as ひらがな but with angular shapes. Used for: loanwords (コーヒー, テレビ), foreign names, scientific names, onomatopoeia, and stylistic emphasis.",
           "context": "An N5 learner needs to recognize both syllabaries. Pair with ひらがな (native words) and かんじ (Chinese-origin characters) to make up the three writing systems used in Japanese."
         }
@@ -36245,7 +36245,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Generic 'character / letter / script' — slightly more formal than じ",
+          "function": "Generic 'character / letter / script': slightly more formal than じ",
           "gloss": "もじ (文字) is a near-synonym of じ but feels slightly more formal / technical. Refers to written characters of any kind.",
           "context": "Examples: 「もじを ならいます」 = 'learn to write characters.' On a computer: もじ is also used for 'character' in the encoding sense (e.g., 文字化け = mojibake / garbled characters)."
         }
@@ -40293,7 +40293,7 @@
         },
         {
           "ja": "さむいから もうふを 一まい ください。",
-          "translation_en": "Please give me a blanket — it's cold.",
+          "translation_en": "Please give me a blanket: it's cold.",
           "provenance": "native_reviewed_2026_05_22"
         }
       ],
@@ -40937,9 +40937,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Orthography note — usually written 歯ブラシ in modern Japanese",
+          "function": "Orthography note: usually written 歯ブラシ in modern Japanese",
           "gloss": "はブラシ is the kana-headword form; in modern written Japanese this word is typically written as 歯ブラシ (kanji 歯 'tooth' + katakana ブラシ from English 'brush').",
-          "context": "Mixed kanji+katakana words like 歯ブラシ are common — the Japanese-origin part (歯) keeps its kanji, the loanword part (ブラシ) keeps its katakana. Recognize はブラシ in beginner kana-only texts; expect to see 歯ブラシ in real-world reading."
+          "context": "Mixed kanji+katakana words like 歯ブラシ are common: the Japanese-origin part (歯) keeps its kanji, the loanword part (ブラシ) keeps its katakana. Recognize はブラシ in beginner kana-only texts; expect to see 歯ブラシ in real-world reading."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -41901,7 +41901,7 @@
         "polite": "あいます",
         "humble": "おめにかかる",
         "respectful": "おあいになる",
-        "note": "Meet — humble お目にかかる."
+        "note": "Meet: humble お目にかかる."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42225,7 +42225,7 @@
         "polite": "うたいます",
         "humble": "おうたいする",
         "respectful": "おうたいになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -42296,7 +42296,7 @@
         "polite": "おもいます",
         "humble": "ぞんじる",
         "respectful": "おおもいになる (rare)",
-        "note": "Think — humble 存じる (formal writing)."
+        "note": "Think: humble 存じる (formal writing)."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -42397,7 +42397,7 @@
         "polite": "かいます",
         "humble": "おもとめする",
         "respectful": "おもとめになる",
-        "note": "Buy — humble お求めする."
+        "note": "Buy: humble お求めする."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42476,7 +42476,7 @@
         "polite": "かきます",
         "humble": "おかきする",
         "respectful": "おかきになる",
-        "note": "Write — regular o-stem."
+        "note": "Write: regular o-stem."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42564,7 +42564,7 @@
         "polite": "ききます",
         "humble": "うかがう / おききする",
         "respectful": "おききになる",
-        "note": "Listen / ask — humble 伺う."
+        "note": "Listen / ask: humble 伺う."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42642,7 +42642,7 @@
         "polite": "きます",
         "humble": "(varies)",
         "respectful": "おきになる",
-        "note": "Wear — uses regular o-stem form."
+        "note": "Wear: uses regular o-stem form."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -42668,11 +42668,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「きる」 covers 2 distinct N5 meanings: きる — to cut (Group 1 exception - looks like Group 2)  /  きる — to wear (upper body)",
+          "gloss": "The kana 「きる」 covers 2 distinct N5 meanings: きる, to cut (Group 1 exception - looks like Group 2)  /  きる, to wear (upper body)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.つくる",
@@ -42808,7 +42808,7 @@
         "polite": "しっています",
         "humble": "ぞんじる / ぞんじあげる",
         "respectful": "ごぞんじだ",
-        "note": "Know — humble 存じる, respectful ご存知."
+        "note": "Know: humble 存じる, respectful ご存知."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42883,7 +42883,7 @@
         "polite": "すんでいます",
         "humble": "おる",
         "respectful": "おすまいになる",
-        "note": "Live — respectful uses 住まい-based form."
+        "note": "Live: respectful uses 住まい-based form."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -42902,7 +42902,7 @@
         "日本に すむ",
         "この町に すむ"
       ],
-      "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J1: malformed conjugation <dict>ます/<dict>ました corrected to proper polite forms) | native_review_2026_06_04 (batch K: replaced frequency/time-adverb collocations (よく/まいにち/いま すむ) with reviewer-approved location-particle collocations — すむ is stative and takes に for location; broad adverb-collocation review across other verbs remains BUG-263 as it is per-verb, e.g. よくある is natural)"
+      "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J1: malformed conjugation <dict>ます/<dict>ました corrected to proper polite forms) | native_review_2026_06_04 (batch K: replaced frequency/time-adverb collocations (よく/まいにち/いま すむ) with reviewer-approved location-particle collocations, すむ is stative and takes に for location; broad adverb-collocation review across other verbs remains BUG-263 as it is per-verb, e.g. よくある is natural)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.立つ",
@@ -43037,7 +43037,7 @@
         "polite": "とります",
         "humble": "おとりする",
         "respectful": "おとりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -43059,11 +43059,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「とる」 covers 2 distinct N5 meanings: とる — to take, to pick up (general)  /  とる — to take (a photo or video) - homophone of the above; uses a different kanji (not in N5 syllabus); semantically a specialization of \"take\"",
+          "gloss": "The kana 「とる」 covers 2 distinct N5 meanings: とる, to take, to pick up (general)  /  とる, to take (a photo or video) - homophone of the above; uses a different kanji (not in N5 syllabus); semantically a specialization of \"take\"",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.とる.2",
@@ -43115,7 +43115,7 @@
         "polite": "とります",
         "humble": "おとりする",
         "respectful": "おとりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -43137,11 +43137,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「とる」 covers 2 distinct N5 meanings: とる — to take, to pick up (general)  /  とる — to take (a photo or video) - homophone of the above; uses a different kanji (not in N5 syllabus); semantically a specialization of \"take\"",
+          "gloss": "The kana 「とる」 covers 2 distinct N5 meanings: とる, to take, to pick up (general)  /  とる, to take (a photo or video) - homophone of the above; uses a different kanji (not in N5 syllabus); semantically a specialization of \"take\"",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.なく",
@@ -43198,7 +43198,7 @@
         "polite": "なきます",
         "humble": "おなきする",
         "respectful": "おなきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -43219,7 +43219,7 @@
       "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J1: malformed conjugation <dict>ます/<dict>ました corrected to proper polite forms)",
       "pragmatic_functions": [
         {
-          "function": "Animal/non-human sound vs human crying — different kanji",
+          "function": "Animal/non-human sound vs human crying: different kanji",
           "gloss": "Same kana なく, two different kanji: 鳴く is for animal sounds (a dog barks, a cat meows, a bird sings, an insect chirps); 泣く is for a human crying tears.",
           "context": "This entry covers the 鳴く sense (animals). For a person crying, use 泣く. Common N5 examples: 「いぬが なく」=  the dog barks (鳴く). 「あかちゃんが なく」 = the baby cries (泣く)."
         }
@@ -43387,7 +43387,7 @@
         "polite": "はいります",
         "humble": "はいらせていただく",
         "respectful": "おはいりになる",
-        "note": "Enter — humble uses causative-receive."
+        "note": "Enter: humble uses causative-receive."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -43550,7 +43550,7 @@
         "polite": "はなします",
         "humble": "もうす / おはなしする",
         "respectful": "おはなしになる / おっしゃる",
-        "note": "Talk — humble 申す."
+        "note": "Talk: humble 申す."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -43694,7 +43694,7 @@
         "polite": "はたらきます",
         "humble": "おはたらきする",
         "respectful": "おはたらきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -43778,7 +43778,7 @@
         "polite": "まちます",
         "humble": "おまちする",
         "respectful": "おまちになる",
-        "note": "Wait — regular o-stem."
+        "note": "Wait: regular o-stem."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -43860,7 +43860,7 @@
         "polite": "もちます",
         "humble": "おもちする",
         "respectful": "おもちになる",
-        "note": "Hold / have — humble お持ちする for carrying for others."
+        "note": "Hold / have: humble お持ちする for carrying for others."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -43935,7 +43935,7 @@
         "polite": "やすみます",
         "humble": "おやすみする",
         "respectful": "おやすみになる",
-        "note": "Rest / sleep — respectful お休みになる is very polite for \"sleep\"."
+        "note": "Rest / sleep: respectful お休みになる is very polite for \"sleep\"."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -44028,7 +44028,7 @@
         "polite": "よみます",
         "humble": "はいけんする",
         "respectful": "およみになる",
-        "note": "Read — humble shares with 見る (拝見)."
+        "note": "Read: humble shares with 見る (拝見)."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -44099,7 +44099,7 @@
         "polite": "わたります",
         "humble": "おわたりする",
         "respectful": "おわたりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -44183,7 +44183,7 @@
         "polite": "わかります",
         "humble": "おわかりする",
         "respectful": "おわかりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -44257,7 +44257,7 @@
         "polite": "おわります",
         "humble": "おおわりする",
         "respectful": "おおわりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -44426,7 +44426,7 @@
         "polite": "かえります",
         "humble": "もどる / おかえりする",
         "respectful": "おかえりになる",
-        "note": "Return — respectful お帰りになる."
+        "note": "Return: respectful お帰りになる."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -44498,7 +44498,7 @@
         "polite": "うります",
         "humble": "(rare)",
         "respectful": "おうりになる",
-        "note": "Sell — uses regular o-stem formation."
+        "note": "Sell: uses regular o-stem formation."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -44742,11 +44742,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「ひく」 covers 2 distinct N5 meanings: ひく — to play (a string instrument like guitar/piano)  /  ひく — to pull (homophone of the above; separate verb, separate kanji - both are common N5 readings of ひく)",
+          "gloss": "The kana 「ひく」 covers 2 distinct N5 meanings: ひく, to play (a string instrument like guitar/piano)  /  ひく, to pull (homophone of the above; separate verb, separate kanji - both are common N5 readings of ひく)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.ひく.2",
@@ -44828,11 +44828,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「ひく」 covers 2 distinct N5 meanings: ひく — to play (a string instrument like guitar/piano)  /  ひく — to pull (homophone of the above; separate verb, separate kanji - both are common N5 readings of ひく)",
+          "gloss": "The kana 「ひく」 covers 2 distinct N5 meanings: ひく, to play (a string instrument like guitar/piano)  /  ひく, to pull (homophone of the above; separate verb, separate kanji - both are common N5 readings of ひく)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.27-verbs-group-1-verbs.よぶ",
@@ -44883,7 +44883,7 @@
         "polite": "よびます",
         "humble": "およびする",
         "respectful": "およびになる",
-        "note": "Call (someone) — regular o-stem."
+        "note": "Call (someone): regular o-stem."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -44950,7 +44950,7 @@
         "polite": "とびます",
         "humble": "おとびする",
         "respectful": "おとびになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45027,7 +45027,7 @@
         "polite": "こまります",
         "humble": "おこまりする",
         "respectful": "おこまりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45104,7 +45104,7 @@
         "polite": "ならびます",
         "humble": "おならびする",
         "respectful": "おならびになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45328,7 +45328,7 @@
         "polite": "ぬぎます",
         "humble": "おぬぎする",
         "respectful": "おぬぎになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45413,7 +45413,7 @@
         "polite": "あらいます",
         "humble": "おあらいする",
         "respectful": "おあらいになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45490,7 +45490,7 @@
         "polite": "いそぎます",
         "humble": "おいそぎする",
         "respectful": "おいそぎになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45558,7 +45558,7 @@
         "polite": "しにます",
         "humble": "おしにする",
         "respectful": "おしにになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45712,7 +45712,7 @@
         "polite": "ちがいます",
         "humble": "おちがいする",
         "respectful": "おちがいになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45901,7 +45901,7 @@
         "polite": "つきます",
         "humble": "おつきする",
         "respectful": "おつきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -45969,7 +45969,7 @@
         "polite": "ならいます",
         "humble": "おならいする",
         "respectful": "おならいになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46130,7 +46130,7 @@
         "polite": "まがります",
         "humble": "おまがりする",
         "respectful": "おまがりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46215,7 +46215,7 @@
         "polite": "みがきます",
         "humble": "おみがきする",
         "respectful": "おみがきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46278,7 +46278,7 @@
         "polite": "もっていきます",
         "humble": "おもっていきする",
         "respectful": "おもっていきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46355,7 +46355,7 @@
         "polite": "もってくります",
         "humble": "おもってくりする",
         "respectful": "おもってくりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46528,7 +46528,7 @@
         "polite": "しまります",
         "humble": "おしまりする",
         "respectful": "おしまりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46613,7 +46613,7 @@
         "polite": "だします",
         "humble": "おだしする",
         "respectful": "おだしになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46694,7 +46694,7 @@
         "polite": "おとします",
         "humble": "おおとしする",
         "respectful": "おおとしになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46785,7 +46785,7 @@
         "polite": "ふきます",
         "humble": "おふきする",
         "respectful": "おふきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -46933,7 +46933,7 @@
         "polite": "くもります",
         "humble": "おくもりする",
         "respectful": "おくもりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47104,7 +47104,7 @@
         "polite": "のります",
         "humble": "のる",
         "respectful": "おのりになる",
-        "note": "Board/ride — respectful uses regular o-stem."
+        "note": "Board/ride: respectful uses regular o-stem."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -47175,7 +47175,7 @@
         "polite": "すわります",
         "humble": "おすわりする",
         "respectful": "おすわりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47252,7 +47252,7 @@
         "polite": "たのみます",
         "humble": "おねがいする",
         "respectful": "おたのみになる",
-        "note": "Request — humble usually おねがいする."
+        "note": "Request: humble usually おねがいする."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -47335,7 +47335,7 @@
         "polite": "とまります",
         "humble": "おとまりする",
         "respectful": "おとまりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47442,7 +47442,7 @@
         "polite": "おきます",
         "humble": "おおきする",
         "respectful": "おおきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47524,7 +47524,7 @@
         "polite": "さきます",
         "humble": "おさきする",
         "respectful": "おさきになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47593,7 +47593,7 @@
         "polite": "かかります",
         "humble": "おかかりする",
         "respectful": "おかかりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47660,7 +47660,7 @@
         "polite": "さします",
         "humble": "おさしする",
         "respectful": "おさしになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -47908,11 +47908,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「いる」 covers 2 distinct N5 meanings: いる — to exist (animate)  /  いる — to need (Group 1 exception - looks like Group 2; homophone of existence-いる which is Group 2)",
+          "gloss": "The kana 「いる」 covers 2 distinct N5 meanings: いる, to exist (animate)  /  いる, to need (Group 1 exception - looks like Group 2; homophone of existence-いる which is Group 2)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.28-verbs-group-2-verbs.食べる",
@@ -48218,7 +48218,7 @@
         "polite": "ねます",
         "humble": "やすむ",
         "respectful": "おやすみになる",
-        "note": "Sleep — respectful お休みになる; humble shares with rest verb."
+        "note": "Sleep: respectful お休みになる; humble shares with rest verb."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -48315,7 +48315,7 @@
         "polite": "おきます",
         "humble": "おきる",
         "respectful": "おおきになる (rare)",
-        "note": "Wake up — limited honorific elevation."
+        "note": "Wake up: limited honorific elevation."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -48387,7 +48387,7 @@
         "polite": "でます",
         "humble": "おでする",
         "respectful": "おでになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -48478,7 +48478,7 @@
         "polite": "いれます",
         "humble": "おいれする",
         "respectful": "おいれになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -48664,11 +48664,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「しめる」 covers 2 distinct N5 meanings: しめる — to close (transitive)  /  しめる — to tie / fasten / tighten (distinct from しめる \"to close\")",
+          "gloss": "The kana 「しめる」 covers 2 distinct N5 meanings: しめる, to close (transitive)  /  しめる, to tie / fasten / tighten (distinct from しめる \"to close\")",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.28-verbs-group-2-verbs.おしえる",
@@ -48718,7 +48718,7 @@
         "polite": "おしえます",
         "humble": "おしえる",
         "respectful": "おしえになる",
-        "note": "Teach — informal humble."
+        "note": "Teach: informal humble."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -48787,7 +48787,7 @@
         "polite": "おぼえます",
         "humble": "おおぼえする",
         "respectful": "おおぼえになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -48937,7 +48937,7 @@
         "polite": "かります",
         "humble": "おかりする",
         "respectful": "おかりになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49107,7 +49107,7 @@
         "polite": "でかけます",
         "humble": "おでかけする",
         "respectful": "おでかけになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49181,7 +49181,7 @@
         "polite": "かけます",
         "humble": "おかけする",
         "respectful": "おかけになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49255,7 +49255,7 @@
         "polite": "きます",
         "humble": "(varies)",
         "respectful": "おきになる",
-        "note": "Wear — uses regular o-stem form."
+        "note": "Wear: uses regular o-stem form."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -49280,11 +49280,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「きる」 covers 2 distinct N5 meanings: きる — to cut (Group 1 exception - looks like Group 2)  /  きる — to wear (upper body)",
+          "gloss": "The kana 「きる」 covers 2 distinct N5 meanings: きる, to cut (Group 1 exception - looks like Group 2)  /  きる, to wear (upper body)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.28-verbs-group-2-verbs.つける",
@@ -49349,7 +49349,7 @@
         "polite": "つけます",
         "humble": "おつけする",
         "respectful": "おつけになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49429,7 +49429,7 @@
         "polite": "ならべます",
         "humble": "おならべする",
         "respectful": "おならべになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49590,7 +49590,7 @@
         "polite": "みせます",
         "humble": "おみせする",
         "respectful": "おみせになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49673,7 +49673,7 @@
         "polite": "あびます",
         "humble": "おあびする",
         "respectful": "おあびになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49746,7 +49746,7 @@
         "polite": "いれます",
         "humble": "おいれする",
         "respectful": "おいれになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49825,7 +49825,7 @@
         "polite": "あつめます",
         "humble": "おあつめする",
         "respectful": "おあつめになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49912,7 +49912,7 @@
         "polite": "きえます",
         "humble": "おきえする",
         "respectful": "おきえになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -49998,7 +49998,7 @@
         "polite": "おちます",
         "humble": "おおちする",
         "respectful": "おおちになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -50076,7 +50076,7 @@
         "polite": "はれます",
         "humble": "おはれする",
         "respectful": "おはれになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "frequent_patterns": [
@@ -50227,7 +50227,7 @@
         "polite": "うまれます",
         "humble": "おうまれする",
         "respectful": "おうまれになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -50421,11 +50421,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「しめる」 covers 2 distinct N5 meanings: しめる — to close (transitive)  /  しめる — to tie / fasten / tighten (distinct from しめる \"to close\")",
+          "gloss": "The kana 「しめる」 covers 2 distinct N5 meanings: しめる, to close (transitive)  /  しめる, to tie / fasten / tighten (distinct from しめる \"to close\")",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.28-verbs-group-2-verbs.つとめる",
@@ -50471,7 +50471,7 @@
         "polite": "つとめます",
         "humble": "おつとめする",
         "respectful": "おつとめになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -51691,7 +51691,7 @@
         "polite": "あります",
         "humble": "おありする",
         "respectful": "おありになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -51729,7 +51729,7 @@
         },
         {
           "ja": "これは いりますか。いいえ、いりません。",
-          "translation_en": "Do you need this? — No, I don't need it.",
+          "translation_en": "Do you need this? No, I don't need it.",
           "provenance": "llm_curated"
         }
       ],
@@ -51802,11 +51802,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「いる」 covers 2 distinct N5 meanings: いる — to exist (animate)  /  いる — to need (Group 1 exception - looks like Group 2; homophone of existence-いる which is Group 2)",
+          "gloss": "The kana 「いる」 covers 2 distinct N5 meanings: いる, to exist (animate)  /  いる, to need (Group 1 exception - looks like Group 2; homophone of existence-いる which is Group 2)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.30-verbs-existence-and-p.やる",
@@ -51852,7 +51852,7 @@
         "polite": "やります",
         "humble": "(varies)",
         "respectful": "(use なさる)",
-        "note": "Do (casual) — usually replaced by する/なさる in formal."
+        "note": "Do (casual): usually replaced by する/なさる in formal."
       },
       "honorific_chain_provenance": "llm_curated",
       "false_friends": [
@@ -51944,8 +51944,8 @@
         "plain": "あげる",
         "polite": "あげます",
         "humble": "さしあげる",
-        "respectful": "(N/A — give is humble for self)",
-        "note": "Give to others — humble 差し上げる."
+        "respectful": "(N/A: give is humble for self)",
+        "note": "Give to others: humble 差し上げる."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -52029,7 +52029,7 @@
         "polite": "もらいます",
         "humble": "いただく / ちょうだいする",
         "respectful": "おもらいになる (rare)",
-        "note": "Receive — humble いただく / 頂戴."
+        "note": "Receive: humble いただく / 頂戴."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -52100,9 +52100,9 @@
       "honorific_chain": {
         "plain": "くれる",
         "polite": "くれます",
-        "humble": "(N/A — くれる is receive-by-me)",
+        "humble": "(N/A: くれる is receive-by-me)",
         "respectful": "くださる",
-        "note": "Give to me/in-group — respectful 下さる."
+        "note": "Give to me/in-group: respectful 下さる."
       },
       "honorific_chain_provenance": "llm_curated",
       "register_origin": "wago",
@@ -52703,11 +52703,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい — hot (weather)  /  あつい — hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい — thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
+          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい, hot (weather)  /  あつい, hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい, thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.31-adjectives.あつい.2",
@@ -52796,11 +52796,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい — hot (weather)  /  あつい — hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい — thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
+          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい, hot (weather)  /  あつい, hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい, thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.31-adjectives.つめたい",
@@ -52925,7 +52925,7 @@
       "frequent_patterns_provenance": "auto_derived",
       "devoiced_vowels": {
         "positions": [],
-        "note": "no devoicing — a/i are non-high vowels here",
+        "note": "no devoicing: a/i are non-high vowels here",
         "rule": "no_devoicing"
       },
       "devoiced_vowels_provenance": "llm_curated",
@@ -53551,11 +53551,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい — hot (weather)  /  あつい — hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい — thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
+          "gloss": "The kana 「あつい」 covers 3 distinct N5 meanings: あつい, hot (weather)  /  あつい, hot (to the touch; separate adjective and separate kanji - homophone of the hot-weather one)  /  あつい, thick (e.g., a thick book; separate adjective and separate kanji - third homophone of the あつい readings above)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.31-adjectives.うすい",
@@ -53964,7 +53964,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two kanji, two meanings — 早い (early) vs 速い (fast)",
+          "function": "Two kanji, two meanings: 早い (early) vs 速い (fast)",
           "gloss": "Same kana はやい, two different kanji: 早い means 'early' (time); 速い means 'fast' (speed). Context disambiguates when written in kana.",
           "context": "Examples: 「あさが はやい」 = '(my) morning is early' (= I get up early). 「はやく はしる」 = 'run fast'. When writing, prefer the kanji to remove ambiguity. When reading, look at what's being modified: time-related → 早い; motion-related → 速い."
         }
@@ -54722,9 +54722,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two kanji, two meanings — 易しい (easy) vs 優しい (kind/gentle)",
+          "function": "Two kanji, two meanings: 易しい (easy) vs 優しい (kind/gentle)",
           "gloss": "Same kana やさしい, two different kanji and meanings: 易しい = 'easy / simple'; 優しい = 'kind / gentle / considerate'. Context (modifying a person vs a task) usually disambiguates.",
-          "context": "Examples: 「やさしい もんだいです」 = 'It's an easy problem' (易しい). 「やさしい 人です」 = 'They are a kind person' (優しい). Same kana, very different meanings — when writing, prefer the kanji."
+          "context": "Examples: 「やさしい もんだいです」 = 'It's an easy problem' (易しい). 「やさしい 人です」 = 'They are a kind person' (優しい). Same kana, very different meanings, when writing, prefer the kanji."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -55247,7 +55247,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Primarily 'spicy / hot in taste' — occasionally 'salty' in some regions",
+          "function": "Primarily 'spicy / hot in taste': occasionally 'salty' in some regions",
           "gloss": "からい (辛い) primarily means 'spicy / hot' as in chili pepper, wasabi, mustard. In some regions and older usage it can also mean 'salty', but in modern standard Japanese 'salty' is しょっぱい.",
           "context": "Examples: 「カレーは からい」 = 'Curry is spicy.' 「わさびが からい」 = 'Wasabi is hot/spicy.' For 'salty', prefer しょっぱい in modern usage. からい can also figuratively mean 'harsh' (e.g., harsh criticism = 辛い 評価)."
         }
@@ -55692,9 +55692,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Approximation suffix — interchangeable with ぐらい",
+          "function": "Approximation suffix: interchangeable with ぐらい",
           "gloss": "くらい / ぐらい are the same particle in two voiced/unvoiced forms. くらい is slightly more common phrase-initially and after vowel-final words; ぐらい is slightly more common after consonant-final words.",
-          "context": "Same examples as ぐらい — see that entry. Standard textbooks treat them as free variants for N5 purposes."
+          "context": "Same examples as ぐらい: see that entry. Standard textbooks treat them as free variants for N5 purposes."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -55978,7 +55978,7 @@
         },
         {
           "ja": "よるは ひとりで あるかないで。あぶないですよ。",
-          "translation_en": "Don't walk alone at night — it's dangerous.",
+          "translation_en": "Don't walk alone at night: it's dangerous.",
           "provenance": "llm_curated"
         }
       ],
@@ -56085,7 +56085,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "い-adjective expressing desire — NOT a verb",
+          "function": "い-adjective expressing desire, NOT a verb",
           "gloss": "ほしい means 'want / desired' but is grammatically an い-adjective, not a verb. The thing wanted is marked with が (the grammatical subject), and the person wanting it is marked with は (the topic).",
           "context": "Pattern: 「Xは Yが ほしいです」 = 'X wants Y' (literally: 'as for X, Y is desired'). Example: 「わたしは くるまが ほしいです」 = 'I want a car.' Note: ほしい is for objects/things. For 'want to DO an action', use the Vたい form: 「行きたいです」 = 'I want to go'."
         }
@@ -57228,9 +57228,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "な-adjective, not a verb — 'liked' or 'pleasing'",
+          "function": "な-adjective, not a verb: 'liked' or 'pleasing'",
           "gloss": "English 'like' is a verb, but すき is a な-adjective in Japanese. The thing liked is the GRAMMATICAL SUBJECT marked with が; the person doing the liking is the topic marked with は.",
-          "context": "Pattern: 「Xは Yが すきです」 = 'X likes Y' (literally: 'as for X, Y is pleasing'). Example: 「わたしは すしが すきです」 = 'I like sushi.' Note the が — NOT を like an English 'like' verb."
+          "context": "Pattern: 「Xは Yが すきです」 = 'X likes Y' (literally: 'as for X, Y is pleasing'). Example: 「わたしは すしが すきです」 = 'I like sushi.' Note the が, NOT を like an English 'like' verb."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -57300,7 +57300,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "な-adjective, not a verb — 'disliked' or 'unpleasant'",
+          "function": "な-adjective, not a verb: 'disliked' or 'unpleasant'",
           "gloss": "Mirror of すき. The thing disliked is the grammatical subject marked with が; the person doing the disliking is the topic marked with は.",
           "context": "Pattern: 「Xは Yが きらいです」 = 'X dislikes Y' (literally: 'as for X, Y is unpleasant'). Example: 「わたしは なっとうが きらいです」 = 'I don't like natto.'"
         }
@@ -57376,9 +57376,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "な-adjective intensifier of すき — 'love' or 'really like'",
+          "function": "な-adjective intensifier of すき: 'love' or 'really like'",
           "gloss": "Built from だい (大, 'big') + すき. Same grammar as すき: thing-liked is marked with が, person-doing-the-liking with は. Translates loosely as 'love' but is more like 'really like / am very fond of'.",
-          "context": "Example: 「いぬが だいすきです」 = 'I love dogs.' For romantic love use 愛している (あいしている) — N3 vocabulary; だいすき in romance contexts is closer to 'I really like you' / 'I'm crazy about you'."
+          "context": "Example: 「いぬが だいすきです」 = 'I love dogs.' For romantic love use 愛している (あいしている), N3 vocabulary; だいすき in romance contexts is closer to 'I really like you' / 'I'm crazy about you'."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -57450,9 +57450,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "な-adjective intensifier of きらい — 'hate' or 'really dislike'",
-          "gloss": "Built from だい (大, 'big') + きらい. Same grammar as きらい. Stronger than 'don't like' — closer to 'hate' or 'really can't stand'.",
-          "context": "Example: 「むしが だいきらいです」 = 'I hate insects.' Use sparingly — it's a strong word, especially toward people."
+          "function": "な-adjective intensifier of きらい: 'hate' or 'really dislike'",
+          "gloss": "Built from だい (大, 'big') + きらい. Same grammar as きらい. Stronger than 'don't like': closer to 'hate' or 'really can't stand'.",
+          "context": "Example: 「むしが だいきらいです」 = 'I hate insects.' Use sparingly, it's a strong word, especially toward people."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch F: section-level fixes)"
@@ -57785,7 +57785,7 @@
         {
           "function": "polite-refusal",
           "gloss": "no thank you (I'm fine)",
-          "context": "けっこうです = no thank you (declining offer) — same words, opposite meaning"
+          "context": "けっこうです = no thank you (declining offer): same words, opposite meaning"
         },
         {
           "function": "degree-intensifier",
@@ -58371,17 +58371,17 @@
         {
           "function": "polite-refusal",
           "gloss": "um... that's a bit...",
-          "context": "ちょっと... trailing off — culturally clear refusal without saying no"
+          "context": "ちょっと... trailing off: culturally clear refusal without saying no"
         },
         {
           "function": "attention-getter",
           "gloss": "hey!",
-          "context": "ちょっと! sharp tone — calling someone over"
+          "context": "ちょっと! sharp tone: calling someone over"
         },
         {
           "function": "modest-understatement",
           "gloss": "rather well",
-          "context": "ちょっとできる typically means I can do it WELL, not poorly — N5 culture trap"
+          "context": "ちょっとできる typically means I can do it WELL, not poorly: N5 culture trap"
         }
       ],
       "pragmatic_functions_provenance": "native_reviewed",
@@ -62478,9 +62478,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "ALWAYS pairs with a negative predicate — 'only / nothing but'",
+          "function": "ALWAYS pairs with a negative predicate: 'only / nothing but'",
           "gloss": "しか is a restrictive particle that REQUIRES a negative predicate. Together they mean 'only X' with an implicit 'and not more'. Pattern: 「Xしか〜ない」.",
-          "context": "Examples: 「水しか のみません」 = 'I drink only water (and nothing else).' 「1000円しか ありません」 = 'I have only 1000 yen.' Note: the verb must be negative — you can't say 「水しか のみます」 (ungrammatical). Contrast with だけ (positive predicate OK): 「水だけ のみます」 = 'I drink only water.'"
+          "context": "Examples: 「水しか のみません」 = 'I drink only water (and nothing else).' 「1000円しか ありません」 = 'I have only 1000 yen.' Note: the verb must be negative, you can't say 「水しか のみます」 (ungrammatical). Contrast with だけ (positive predicate OK): 「水だけ のみます」 = 'I drink only water.'"
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch G: section-level P1/P2 fixes)"
@@ -62986,7 +62986,7 @@
           "context": "sense of finality (parents often avoid with children)"
         },
         {
-          "function": "'Goodbye' — surprisingly formal in modern usage; often NOT used among friends",
+          "function": "'Goodbye': surprisingly formal in modern usage; often NOT used among friends",
           "gloss": "Native speakers reserve さようなら for relatively formal goodbyes, school dismissals, or longer separations. Everyday casual 'bye' is じゃあね / じゃあ / バイバイ.",
           "context": "Saying さようなら to your roommate as you leave for the day sounds odd or even final (like 'farewell forever'). Use じゃあね or またね for casual. Use さようなら when leaving a job, parting at a station, formal ceremonies."
         }
@@ -63080,8 +63080,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Polite 'excuse me' — said BEFORE doing something potentially intrusive",
-          "gloss": "Used when entering a room, hanging up the phone, leaving someone's presence, or interrupting — to acknowledge that you're about to inconvenience or disturb someone.",
+          "function": "Polite 'excuse me': said BEFORE doing something potentially intrusive",
+          "gloss": "Used when entering a room, hanging up the phone, leaving someone's presence, or interrupting: to acknowledge that you're about to inconvenience or disturb someone.",
           "context": "Example contexts: knocking and entering a teacher's office (しつれいします); ending a phone call politely (それでは、しつれいします); leaving work before colleagues (おさきに しつれいします). The pair しつれいしました is said AFTER the inconvenience."
         }
       ],
@@ -63152,7 +63152,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Polite 'excuse me (for what I did)' — said AFTER the inconvenience",
+          "function": "Polite 'excuse me (for what I did)': said AFTER the inconvenience",
           "gloss": "Past-form pair to しつれいします. Said after the action that may have inconvenienced someone: after leaving a room, after taking up someone's time, after a small mistake.",
           "context": "Example: leaving the teacher's office after a meeting: しつれいしました. Bumping into someone: あ、しつれいしました. Don't confuse with しつれいします (BEFORE) and ごめんなさい (for fault/apology)."
         }
@@ -63308,8 +63308,8 @@
           "translation_en": "(I) said \"you're welcome\"."
         },
         {
-          "ja": "ありがとうございました。— どういたしまして。",
-          "translation_en": "Thank you. — You're welcome.",
+          "ja": "「ありがとうございました。」「どういたしまして。」",
+          "translation_en": "Thank you. You're welcome.",
           "provenance": "llm_curated"
         }
       ],
@@ -63408,7 +63408,7 @@
         {
           "function": "thanks-with-apology",
           "gloss": "thanks (for the trouble)",
-          "context": "すみません when receiving a favor — acknowledges the imposition"
+          "context": "すみません when receiving a favor: acknowledges the imposition"
         },
         {
           "function": "request-opener",
@@ -63718,7 +63718,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Said AFTER eating — closes the meal politely",
+          "function": "Said AFTER eating: closes the meal politely",
           "gloss": "Fixed-pair partner to いただきます (said BEFORE eating). Acknowledges the meal and the labour that produced it. Said even when eating alone, in restaurants, or after being treated.",
           "context": "Casual form: ごちそうさま (no でした). When someone treated you to a meal, said directly to them as thanks. Don't drop the verb past-form ending in formal situations: ごちそうさまでした is the polite version."
         }
@@ -63884,8 +63884,8 @@
           "translation_en": "(I) greeted with \"I'm home\"."
         },
         {
-          "ja": "ただいま。— おかえりなさい。",
-          "translation_en": "I'm home. — Welcome back.",
+          "ja": "「ただいま。」「おかえりなさい。」",
+          "translation_en": "I'm home. Welcome back.",
           "provenance": "llm_curated"
         }
       ],
@@ -64009,7 +64009,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "'Welcome back' — said TO someone arriving home, in response to ただいま",
+          "function": "'Welcome back': said TO someone arriving home, in response to ただいま",
           "gloss": "Used by people inside the home (family, host) to greet someone who has just come back. Forms a fixed pair: 「ただいま」 → 「おかえりなさい」.",
           "context": "Casual: おかえり (no なさい). Said in the home, not in shops (shops use いらっしゃいませ). Workplace return-from-trip equivalent: お疲れさま (おつかれさま)."
         }
@@ -64177,8 +64177,8 @@
           "translation_en": "Are your parents well?"
         },
         {
-          "ja": "おげんきですか。— はい、げんきです。",
-          "translation_en": "How are you? — I'm fine, thank you.",
+          "ja": "「おげんきですか。」「はい、げんきです。」",
+          "translation_en": "How are you? I'm fine, thank you.",
           "provenance": "llm_curated"
         }
       ],
@@ -64265,8 +64265,8 @@
         },
         {
           "function": "Polite acknowledgement when someone asks how you are",
-          "gloss": "Often a polite reply to 「お元気ですか」 or to 'How is your business / family / health?' — meaning roughly 'thanks to you / thanks to your kindness'.",
-          "context": "Example: 「お元気ですか」 → 「はい、おかげさまで。」 ('Yes, doing well thanks to you/kind support.') Implies humility — credits the asker or general circumstance for the speaker's good situation. Don't use it as a literal 'thank you for X'."
+          "gloss": "Often a polite reply to 「お元気ですか」 or to 'How is your business / family / health?': meaning roughly 'thanks to you / thanks to your kindness'.",
+          "context": "Example: 「お元気ですか」 → 「はい、おかげさまで。」 ('Yes, doing well thanks to you/kind support.') Implies humility, credits the asker or general circumstance for the speaker's good situation. Don't use it as a literal 'thank you for X'."
         }
       ],
       "pragmatic_functions_provenance": "llm_curated | native_review_2026_06_04 (batch F: section-level fixes)",
@@ -65867,11 +65867,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「かぜ」 covers 2 distinct N5 meanings: かぜ — wind  /  かぜ — cold (illness)",
+          "gloss": "The kana 「かぜ」 covers 2 distinct N5 meanings: かぜ, wind  /  かぜ, cold (illness)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.37-common-nouns-miscella.びょうき",
@@ -66149,8 +66149,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Shower — quick rinse (loanword, often distinct from soaking-bath)",
-          "gloss": "シャワー (from English 'shower') is the quick standing rinse. In Japanese culture, this is often a separate practice from おふろ (the soaking bath) — you might シャワー in the morning and おふろ at night.",
+          "function": "Shower: quick rinse (loanword, often distinct from soaking-bath)",
+          "gloss": "シャワー (from English 'shower') is the quick standing rinse. In Japanese culture, this is often a separate practice from おふろ (the soaking bath): you might シャワー in the morning and おふろ at night.",
           "context": "Example: 「シャワーを 浴びます」 = 'I take a shower' (literally 'bathe in shower'). Verb collocate is 浴びる (あびる, 'bathe / be exposed to'), not 入る."
         }
       ],
@@ -66229,7 +66229,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Lower-frequency — matchsticks are used less in daily life",
+          "function": "Lower-frequency: matchsticks are used less in daily life",
           "gloss": "マッチ (matchsticks for lighting). Less common day-to-day now that smoking has declined and electric lighters / induction stoves are standard. Still used in households for candles, incense (お線香), and some cooking.",
           "context": "Recognize but not high-priority. The 本 counter (long thin objects) is correct."
         }
@@ -66380,7 +66380,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Lower-frequency — ashtray, less common as smoking declines",
+          "function": "Lower-frequency: ashtray, less common as smoking declines",
           "gloss": "はいざら (灰皿) is an ashtray. Smoking rates in Japan have declined and most restaurants are now non-smoking, so the word is less daily-frequent than in older N5 lists.",
           "context": "Recognize but not high-priority. The 個 counter (generic object) is correct."
         }
@@ -66611,7 +66611,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Legacy / low-frequency — photographic film, mostly obsolete in daily life",
+          "function": "Legacy / low-frequency: photographic film, mostly obsolete in daily life",
           "gloss": "フィルム is photographic film (35mm rolls etc.). Smartphone cameras and digital photography have made it niche. Modern photography vocabulary: デジカメ, スマホ, しゃしん.",
           "context": "Recognize for older texts and analog-photography hobbyist contexts; not high-priority active vocabulary. The 本 counter (long/cylindrical) on フィルム is correct."
         }
@@ -66691,9 +66691,9 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Legacy / low-frequency — vinyl record, mostly obsolete in daily life",
-          "gloss": "レコード referred to a vinyl audio record. Modern music is digital — CD, ストリーミング, ダウンロード. Vinyl had a hobbyist revival but a typical N5 learner won't encounter it day-to-day.",
-          "context": "Recognize for older texts and music-history contexts; not high-priority active vocabulary. The 枚 counter on レコード is correct (flat object counter) — the legacy label is about modern frequency, not the counter."
+          "function": "Legacy / low-frequency: vinyl record, mostly obsolete in daily life",
+          "gloss": "レコード referred to a vinyl audio record. Modern music is digital: CD, ストリーミング, ダウンロード. Vinyl had a hobbyist revival but a typical N5 learner won't encounter it day-to-day.",
+          "context": "Recognize for older texts and music-history contexts; not high-priority active vocabulary. The 枚 counter on レコード is correct (flat object counter): the legacy label is about modern frequency, not the counter."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch H: mechanical closure of remaining OPEN items)"
@@ -67835,11 +67835,11 @@
       "pragmatic_functions": [
         {
           "function": "Same-kana homonym (multiple N5 senses)",
-          "gloss": "The kana 「かた」 covers 2 distinct N5 meanings: かた — person (polite)  /  かた — way of doing (e.g., たべかた = how to eat)",
+          "gloss": "The kana 「かた」 covers 2 distinct N5 meanings: かた, person (polite)  /  かた, way of doing (e.g., たべかた = how to eat)",
           "context": "Context (preceding particle, surrounding nouns, kanji where written) disambiguates which sense is intended. When writing, prefer the kanji form to remove ambiguity."
         }
       ],
-      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate — multi-sense summary surfaced here instead)"
+      "pragmatic_functions_provenance": "native_review_2026_06_04 (batch B: same-form homonym disambiguation; SPA routes by form so false_friends cannot disambiguate, multi-sense summary surfaced here instead)"
     },
     {
       "id": "n5.vocab.37-common-nouns-miscella.おくさん",
@@ -67915,7 +67915,7 @@
         {
           "function": "Someone else's wife",
           "gloss": "Use おくさん (奥さん) to refer to SOMEONE ELSE'S wife or to address a married woman politely.",
-          "context": "Don't use おくさん for your own wife when speaking to outsiders — say 妻 (つま) or 家内 (かない) instead. Using おくさん for one's own wife is a common learner mistake."
+          "context": "Don't use おくさん for your own wife when speaking to outsiders: say 妻 (つま) or 家内 (かない) instead. Using おくさん for one's own wife is a common learner mistake."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch D: uchi/soto + address-form guidance per reviewer recommendation on family terms)"
@@ -68063,7 +68063,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Legacy / older term — use スーツ instead in modern Japanese",
+          "function": "Legacy / older term: use スーツ instead in modern Japanese",
           "gloss": "せびろ is the older Japanese word for 'business suit'; modern Japanese uses the loanword スーツ.",
           "context": "せびろ appears in older texts and some N5 wordlists; a 20th-century salaryman novel might use it. Today's speaker says スーツ."
         }
@@ -68390,7 +68390,7 @@
         "positions": [
           0
         ],
-        "note": "さく — く marginally devoices",
+        "note": "さく: く marginally devoices",
         "rule": "between_voiceless"
       },
       "devoiced_vowels_provenance": "llm_curated",
@@ -68502,7 +68502,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Legacy / archaic — use じしょ instead in modern Japanese",
+          "function": "Legacy / archaic: use じしょ instead in modern Japanese",
           "gloss": "じびき is the older word for 'dictionary'; modern Japanese uses じしょ (辞書).",
           "context": "じびき still appears in some older N5 lists and pre-war literature; recognize it for reading but prefer じしょ in active vocabulary."
         }
@@ -70547,7 +70547,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Two senses — 'full' (container) vs 'a lot' (quantity)",
+          "function": "Two senses: 'full' (container) vs 'a lot' (quantity)",
           "gloss": "いっぱい covers both 'full / brimming' (a glass is いっぱい of water) AND 'a lot / many' (today there are いっぱい of people).",
           "context": "Examples: 「コップに 水が いっぱい あります」 = 'The cup is full of water.' 「公園に 人が いっぱい います」 = 'There are a lot of people in the park.' Context (specific container vs general scene) disambiguates."
         }
@@ -70598,7 +70598,7 @@
         "polite": "おくれます",
         "humble": "おおくれする",
         "respectful": "おおくれになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -71249,8 +71249,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Multiple senses — 'just / only / merely', 'free of charge', 'however / but'",
-          "gloss": "ただ has several meanings: (1) 'only / merely / just' — limits or restricts; (2) 'free of charge' — no cost; (3) 'however / but' — adversative connector at sentence start.",
+          "function": "Multiple senses: 'just / only / merely', 'free of charge', 'however / but'",
+          "gloss": "ただ has several meanings: (1) 'only / merely / just', limits or restricts; (2) 'free of charge', no cost; (3) 'however / but', adversative connector at sentence start.",
           "context": "Examples: 「ただの 学生です」 = 'I'm just a student.' 「ただで もらいました」 = 'I got it for free.' 「行きたいです。ただ、時間が ありません」 = 'I want to go. However, I don't have time.' Context disambiguates."
         }
       ],
@@ -71303,7 +71303,7 @@
         "polite": "ためます",
         "humble": "おためする",
         "respectful": "おためになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -71406,8 +71406,8 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Narrow scope — 'vocabulary item / individual word as a lexical entry'",
-          "gloss": "たんご (単語) means 'word' as an entry in a dictionary or vocabulary list — the unit you drill, memorize, or look up. ことば is the broader term covering language / speech / utterance.",
+          "function": "Narrow scope: 'vocabulary item / individual word as a lexical entry'",
+          "gloss": "たんご (単語) means 'word' as an entry in a dictionary or vocabulary list: the unit you drill, memorize, or look up. ことば is the broader term covering language / speech / utterance.",
           "context": "Examples: 「今日は たんごを 20個 おぼえました」 = 'Today I memorized 20 vocabulary words.' 「たんごテスト」 = 'vocabulary test'. Use ことば for the broader senses."
         }
       ],
@@ -71461,7 +71461,7 @@
         "polite": "はらいます",
         "humble": "おはらいする",
         "respectful": "おはらいになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -72421,7 +72421,7 @@
         "polite": "きこえます",
         "humble": "おきこえする",
         "respectful": "おきこえになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -72709,7 +72709,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Approximation suffix — 'about / approximately'",
+          "function": "Approximation suffix: 'about / approximately'",
           "gloss": "ぐらい / くらい attach to quantities and times to mean 'about / approximately'. The two forms are mostly interchangeable; ぐらい is slightly more common after consonant-final words, くらい slightly more common at the start of a phrase or for emphasis.",
           "context": "Examples: 「1時間ぐらい かかります」 = 'It takes about an hour.' 「100人くらい 来ました」 = 'About 100 people came.' Either form works in most contexts; rule of thumb: when in doubt, ぐらい."
         }
@@ -72822,7 +72822,7 @@
         "polite": "ござる / ございまします",
         "humble": "おござる / ございましする",
         "respectful": "おござる / ございましになる",
-        "note": "Productive forms (お+stem+する / お+stem+になる) — no suppletive honorific exists for this verb."
+        "note": "Productive forms (お+stem+する / お+stem+になる): no suppletive honorific exists for this verb."
       },
       "honorific_chain_provenance": "auto_derived",
       "register_origin": "wago",
@@ -72861,7 +72861,7 @@
       "particle_examples_provenance": "llm_curated | native_review_2026_06_04 (batch J1: malformed conjugation <dict>ます/<dict>ました corrected to proper polite forms)",
       "pragmatic_functions": [
         {
-          "function": "Very polite — almost always seen in the form ございます",
+          "function": "Very polite: almost always seen in the form ございます",
           "gloss": "ござる is the ultra-polite copula / existence verb. It is almost never used in its plain dictionary form; what you'll actually see is ございます (the polite-form conjugation).",
           "context": "Examples: 「ありがとう ございます」 = 'thank you (polite)'. 「おはよう ございます」 = 'good morning (polite)'. 「Xが ございます」 = 'there is X (very polite, often in shops/restaurants)'. As an N5 learner, recognize ござる as the root of these set phrases."
         }
@@ -73014,9 +73014,9 @@
       "particle_examples_provenance": "native_reviewed_2026_05_22 (NTR-011: renamed from `collocations`; these are particle-template-illustrative, not real corpus-linguistics collocations. Real collocations can override this field where they exist.)",
       "pragmatic_functions": [
         {
-          "function": "Everyone — casual, NOT a polite address",
+          "function": "Everyone: casual, NOT a polite address",
           "gloss": "みんな (皆) is the casual / informal 'everyone' or 'all of us'. For polite address to a group, use みなさん (皆さん).",
-          "context": "Examples: 「みんな来た?」 ('Did everyone come?', casual). To address a group politely: 「みなさん、こんにちは」 ('Hello everyone'). Don't use みんな in a formal speech or to address customers — switch to みなさん."
+          "context": "Examples: 「みんな来た?」 ('Did everyone come?', casual). To address a group politely: 「みなさん、こんにちは」 ('Hello everyone'). Don't use みんな in a formal speech or to address customers: switch to みなさん."
         }
       ],
       "pragmatic_functions_provenance": "native_review_2026_06_04 (batch H: mechanical closure of remaining OPEN items)"
@@ -73091,7 +73091,7 @@
       "particle_examples_provenance": "llm_curated",
       "pragmatic_functions": [
         {
-          "function": "Formal / written — colloquial spoken form is やっぱり",
+          "function": "Formal / written: colloquial spoken form is やっぱり",
           "gloss": "やはり ('as expected / after all / indeed') is the formal/written register. In casual conversation, native speakers usually say やっぱり.",
           "context": "Examples: 「やはり 来ましたね」 (slightly formal) = 'You came after all.' 「やっぱり おいしい!」 (casual) = 'It IS delicious, just like I thought!' Either form is grammatical; switch register depending on context."
         }
@@ -73297,7 +73297,7 @@
       ],
       "particle_examples_provenance": "llm_curated",
       "legacy_section_in_id": true,
-      "legacy_section_in_id_note": "Entry ID embeds section 31 (i-Adjectives) from earlier classification; section field is now 33 (Adverbs) — onomatopoeia/expressive モ moved into Adverbs section. ID kept immutable to preserve external references. Flagged 2026-05-23 per NTR-FU-007 horizontal sweep.",
+      "legacy_section_in_id_note": "Entry ID embeds section 31 (i-Adjectives) from earlier classification; section field is now 33 (Adverbs): onomatopoeia/expressive モ moved into Adverbs section. ID kept immutable to preserve external references. Flagged 2026-05-23 per NTR-FU-007 horizontal sweep.",
       "legacy_section_in_id_provenance": "native_reviewed_2026_05_23"
     },
     {
@@ -73755,9 +73755,9 @@
       "frequency_rank_source": "section_band_estimate",
       "frequency_rank_provenance": "auto_extracted",
       "minimal_pair": {
-        "partner": "ビール (beer) — long vowel",
+        "partner": "ビール (beer): long vowel",
         "distinguished_by": "vowel length",
-        "note": "ビル (building) 2 mora vs ビール (beer) 3 mora — listening discrimination by vowel length."
+        "note": "ビル (building) 2 mora vs ビール (beer) 3 mora: listening discrimination by vowel length."
       },
       "counter": {
         "kanji": "棟",
@@ -73822,7 +73822,7 @@
     "native_review_pass_2026_06_04": "Batches A-D applied from the consolidated native-reviewer report dated 2026-06-04: A) かた sense de-contamination (1 entry), B) homonym false_friends sweep (27 entries), C) counter cleanup (2 entries), D) family pragmatic notes (15 entries). Batch E (particle-example native re-audit, ~50-300 entries) deferred to a follow-up cycle and tracked in xlsx bug tracker.",
     "native_review_pass_2026_06_04_batch_f": "Batch F applied: 27 of 27 target entries received pragmatic_functions additions covering legacy markers (F1), なく animal/human kanji split (F2), pronoun usage cautions (F3), 先生 honorific scope (F4), greeting context (F5), key lexical contrasts (F6), な-adj predicate grammar (F7), and きれい dual-meaning (F8). Driver: tools/apply_native_review_batch_f_2026_06_04.py.",
     "native_review_pass_2026_06_04_batch_g": "Batch G applied: 45 entries received additional pragmatic_functions notes covering G1-G26 section-level recommendations from the 2026-06-04 native-reviewer report (student/police scope, foreigner caution, date readings, tonight, part-time, full-vs-lot, just/only, particle polarity, approximation, formality split, vocab scope, question-word ambiguity, adjective-of-desire, polite copula, early/fast + easy/kind splits, toilet/bath register, body-part duals, kanji/kana family, spicy/salty, color noun-vs-adj, hairbrush orthography). Driver: tools/apply_native_review_batch_g_2026_06_04.py.",
-    "native_human_review_status_2026_06_04": "PENDING — corpus has been AI-reviewed (provenance: claude_native_reviewer_persona) and has received two native-reviewer-report-driven cleanup cycles (2026-06-04 batches A-H, ~125 entries with new pragmatic_functions / false_friends / counter / disambiguation metadata). A FULL human-native-speaker per-entry review of all 995 entries with non-empty Reviewer notes (per the consolidated 2026-06-04 follow-up report OPEN-001) remains QUEUED. Until that pass closes, the corpus should be described in release docs as 'native review in progress', NOT 'native-reviewed complete'. The vocab review docx at docs/vocab-review/ is the operational artifact for that human pass.",
+    "native_human_review_status_2026_06_04": "PENDING: corpus has been AI-reviewed (provenance: claude_native_reviewer_persona) and has received two native-reviewer-report-driven cleanup cycles (2026-06-04 batches A-H, ~125 entries with new pragmatic_functions / false_friends / counter / disambiguation metadata). A FULL human-native-speaker per-entry review of all 995 entries with non-empty Reviewer notes (per the consolidated 2026-06-04 follow-up report OPEN-001) remains QUEUED. Until that pass closes, the corpus should be described in release docs as 'native review in progress', NOT 'native-reviewed complete'. The vocab review docx at docs/vocab-review/ is the operational artifact for that human pass.",
     "native_review_pass_2026_06_04_batch_h": "Batch H applied: H1 counter cleanup (1), H2 legacy markers (4), H4 pronoun cautions (4), H5 family-term concise JA (14), H6 review-status disclosure (1). Driver: tools/apply_native_review_batch_h_2026_06_04.py.",
     "native_review_pass_2026_06_04_batch_j": "Batch J applied: J1 fixed 110 verbs' malformed <dict>ます/<dict>ました conjugations (deterministic, verb-class-aware); J2 removed えいがは <i-adj>でした nonsense example sentences; J3 removed 今日は とても <X> nonsense for non-weather adjectives; J4 cleaned cited カタカナ purchase-template collocations + この りんごは うるさいです. Broad adjective-particle_examples + この-frame review remain in BUG-263 (native judgment). Driver: tools/apply_native_review_batch_j_2026_06_04.py.",
     "native_review_pass_2026_06_04_batch_k": "Batch K: closed the 2 remaining BUG-266 re-check items on すむ (まいにち すむ / いま すむ) + the same-class よく すむ, replaced with reviewer-approved location-particle collocations 東京に/日本に/この町に すむ. Driver: tools/apply_native_review_batch_k_2026_06_04.py."

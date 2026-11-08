@@ -33,7 +33,7 @@ This site is hosted on **GitHub Pages** (`github.io` domain). When your browser 
 - Your browser's **User-Agent** and **Referer** headers (sent automatically by your browser)
 - Approximate **request timestamp** and **bytes transferred**
 
-This information is processed and may be retained by GitHub on their servers, governed by [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) — not by us. We (the app authors) do not see, log, or have access to that data.
+This information is processed and may be retained by GitHub on their servers, governed by [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), not by us. We (the app authors) do not see, log, or have access to that data.
 
 For GDPR purposes (Articles 13/14 information-obligation), this means:
 
@@ -42,7 +42,7 @@ For GDPR purposes (Articles 13/14 information-obligation), this means:
 - **Legal basis:** GitHub's legitimate interests in operating a hosting service; their privacy statement details retention periods and your rights to access, rectify, or delete server-side logs.
 - **No data is shared between us and GitHub.** We do not query, request, or receive any user-level data from GitHub's logs.
 
-If this hosting-layer data flow is unacceptable for your use case, you can **self-host** the app (it ships as static files in this repository — see `docs/SELF-HOST.md`). Self-hosted instances eliminate the GitHub hosting layer entirely; the only logs would be whatever your chosen host produces.
+If this hosting-layer data flow is unacceptable for your use case, you can **self-host** the app (it ships as static files in this repository: see `docs/SELF-HOST.md`). Self-hosted instances eliminate the GitHub hosting layer entirely; the only logs would be whatever your chosen host produces.
 
 ## Independently verifiable
 
@@ -54,4 +54,4 @@ If this app's privacy posture ever changes, the change will be documented in the
 
 ---
 
-*Last updated: 2026-05-11 (legal-vetting F-9 — added Hosting section disclosing GitHub Pages server-side IP logging per GDPR Art 13/14 information-obligation).*
+*Last updated: 2026-05-11 (legal-vetting F-9, added Hosting section disclosing GitHub Pages server-side IP logging per GDPR Art 13/14 information-obligation).*

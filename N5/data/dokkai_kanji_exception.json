@@ -5,12 +5,12 @@
     "lastUpdated": "2026-05-08",
     "previous_schema": "v1 was {exception_kanji: [<kanji>]} flat array. v2 is [{kanji, addedAt, reason, surfaces, paper_occurrences?}]. Migrated 2026-05-08 per ISSUE-007 + IMP-005.",
     "rule_for_dokkai": "data/papers/dokkai/*.json passages MAY use kanji here with surfaces including \"dokkai-passage\". data/reading.json (older Reading-practice tab) STAYS strict N5.",
-    "rule_for_paper_distractor": "data/papers/{moji,goi,bunpou}/*.json questions MAY use kanji here with surfaces including \"paper-distractor\", but only as recognition-only distractors — never as the correct answer. JA-40 enforces both.",
+    "rule_for_paper_distractor": "data/papers/{moji,goi,bunpou}/*.json questions MAY use kanji here with surfaces including \"paper-distractor\", but only as recognition-only distractors: never as the correct answer. JA-40 enforces both.",
     "how_to_add": "When adding a new exception, include: kanji char, addedAt date, one-line reason, surfaces array. If the same kanji is allowed in multiple surfaces, list them all in the same entry. Re-run tools/check_content_integrity.py to confirm JA-28 + JA-40 still pass.",
     "see_also": [
       "tools/check_content_integrity.py (JA-28 dokkai enforcement, JA-40 paper-distractor enforcement)",
       "data/n5_kanji_whitelist.json (the strict whitelist)",
-      "data/papers/dokkai/ (current authoring location — KnowledgeBank source deleted 2026-05-14)"
+      "data/papers/dokkai/ (current authoring location: KnowledgeBank source deleted 2026-05-14)"
     ]
   },
   "exception_kanji": [
@@ -177,7 +177,7 @@
     {
       "kanji": "近",
       "addedAt": "2026-05-22-backfill",
-      "reason": "DOCS-DKE-001 backfill (2026-05-22): 近い / 近く proximity-adjective + adverb in dokkai location/distance contexts (e.g., paper-3.json Passage 22 '大学の ちかくの アパート' — kana form ちかく but the 近 kanji form also appears in dokkai location-description prose). N5 adjective 近い is core dokkai scope.",
+      "reason": "DOCS-DKE-001 backfill (2026-05-22): 近い / 近く proximity-adjective + adverb in dokkai location/distance contexts (e.g., paper-3.json Passage 22 '大学の ちかくの アパート', kana form ちかく but the 近 kanji form also appears in dokkai location-description prose). N5 adjective 近い is core dokkai scope.",
       "surfaces": [
         "dokkai-passage"
       ]

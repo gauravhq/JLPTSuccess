@@ -18,7 +18,7 @@
 //
 // Bump CACHE_VERSION whenever a release ships, so old caches get evicted on
 // the next visit.
-const CACHE_VERSION = 'jlptsuccess-n5-v1.17.51';  // bumped 2026-06-08 (v1.17.44: 雨 example sentences replaced; v1.17.43: 語 かた demoted to additional readings; v1.17.42: kanji native-review corrections - reading rules for on-dominant kanji + example/sentence fixes; v1.17.41: cache-bust delivering the native-review pronoun/noun/question-word particle-example + notation fixes to returning learners); prior bump 2026-06-04 — native-reviewer batch K: closed the last 2 BUG-266 re-check items on すむ — replaced unnatural frequency/time-adverb collocations (よく/まいにち/いま すむ) with reviewer-approved location-particle collocations (東京に/日本に/この町に すむ). Cache-bust so the corrected すむ entry reaches returning learners.
+const CACHE_VERSION = 'jlptsuccess-n5-v1.17.52';  // bumped 2026-06-08 (v1.17.44: 雨 example sentences replaced; v1.17.43: 語 かた demoted to additional readings; v1.17.42: kanji native-review corrections - reading rules for on-dominant kanji + example/sentence fixes; v1.17.41: cache-bust delivering the native-review pronoun/noun/question-word particle-example + notation fixes to returning learners); prior bump 2026-06-04 — native-reviewer batch K: closed the last 2 BUG-266 re-check items on すむ — replaced unnatural frequency/time-adverb collocations (よく/まいにち/いま すむ) with reviewer-approved location-particle collocations (東京に/日本に/この町に すむ). Cache-bust so the corrected すむ entry reaches returning learners.
 
 const PRECACHE = [
   './',

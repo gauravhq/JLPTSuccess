@@ -108,7 +108,7 @@
       "passage_label": "Passage 9 (Q17, Q18)",
       "id": "dokkai-2.2",
       "mondai": 4,
-      "rationale_hi": "水曜日は 病院に 行きました — बुधवार को अस्पताल गए।",
+      "rationale_hi": "水曜日は 病院に 行きました: बुधवार को अस्पताल गए।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-067",
       "grammarPatternId_provenance": "auto_inferred"
@@ -123,12 +123,12 @@
         "駅で あさごはんを 食べる"
       ],
       "correctIndex": 1,
-      "rationale": "Yamada's invitation says 来週の 土曜日、みんなで 山に のぼりに 行きませんか — 'Let's all go mountain climbing next Saturday.' That mountain-climbing trip is what Yamada is asking everyone to do.",
+      "rationale": "Yamada's invitation says 来週の 土曜日、みんなで 山に のぼりに 行きませんか: 'Let's all go mountain climbing next Saturday.' That mountain-climbing trip is what Yamada is asking everyone to do.",
       "kbSourceId": "Q19",
       "passage_label": "Passage 10 (Q19, Q20)",
       "id": "dokkai-2.3",
       "mondai": 4,
-      "rationale_hi": "यामादा का निमंत्रण कहता है 来週の 土曜日、みんなで 山に のぼりに 行きませんか — 'अगले शनिवार सब मिलकर पहाड़ चढ़ने चलें?' यही पहाड़-चढ़ाई वह गतिविधि है जो यामादा सबको करने को कह रहा है।",
+      "rationale_hi": "यामादा का निमंत्रण कहता है 来週の 土曜日、みんなで 山に のぼりに 行きませんか: 'अगले शनिवार सब मिलकर पहाड़ चढ़ने चलें?' यही पहाड़-चढ़ाई वह गतिविधि है जो यामादा सबको करने को कह रहा है।",
       "rationale_hi_provenance": "llm_curated",
       "grammarPatternId": "n5-069",
       "grammarPatternId_provenance": "auto_inferred",
@@ -137,7 +137,7 @@
         "pending_since": "2026-05-23",
         "pending_wave": "dokkai-rationale-hi-native-verify-2026-05-23",
         "current_state_at_audit_request": {
-          "rationale_hi": "यामादा का निमंत्रण कहता है 来週の 土曜日、みんなで 山に のぼりに 行きませんか — 'अगले शनिवार सब मिलकर पहाड़ चढ़ने चलें?' यही पहाड़-चढ़ाई वह गतिविधि है जो यामादा सबको करने को कह रहा है।",
+          "rationale_hi": "यामादा का निमंत्रण कहता है 来週の 土曜日、みんなで 山に のぼりに 行きませんか: 'अगले शनिवार सब मिलकर पहाड़ चढ़ने चलें?' यही पहाड़-चढ़ाई वह गतिविधि है जो यामादा सबको करने को कह रहा है।",
           "provenance": "llm_curated"
         },
         "review_question": "The Hindi rationale for this dokkai question is LLM-curated, not native-reviewed. Native Hindi/Japanese bilingual reviewer must confirm: (a) the Hindi explanation is grammatically natural, (b) the explanation correctly matches the Japanese rationale's intent, (c) any technical terms (particles, conjugations) are translated correctly.",
@@ -167,7 +167,7 @@
       "passage_label": "Passage 10 (Q19, Q20)",
       "id": "dokkai-2.4",
       "mondai": 4,
-      "rationale_hi": "弁当と 水を じぶんで もって 来て — दोपहर का खाना और पानी ख़ुद लाएँ।",
+      "rationale_hi": "弁当と 水を じぶんで もって 来て: दोपहर का खाना और पानी ख़ुद लाएँ।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-008",
       "grammarPatternId_provenance": "auto_inferred"
@@ -187,7 +187,7 @@
       "passage_label": "Passage 11 (Q21, Q22)",
       "id": "dokkai-2.5",
       "mondai": 4,
-      "rationale_hi": "「母は 病院で はたらいて います」 — माँ अस्पताल में काम करती हैं।",
+      "rationale_hi": "「母は 病院で はたらいて います」: माँ अस्पताल में काम करती हैं।",
       "rationale_hi_provenance": "native_reviewed_2026_05_23",
       "grammarPatternId": "n5-091",
       "grammarPatternId_provenance": "auto_inferred",
@@ -208,7 +208,7 @@
       "passage_label": "Passage 11 (Q21, Q22)",
       "id": "dokkai-2.6",
       "mondai": 4,
-      "rationale_hi": "'日曜日は いつも 家に いて 子どもと あそびます' — माता-पिता रविवार को घर पर बच्चों के साथ खेलते हैं।",
+      "rationale_hi": "'日曜日は いつも 家に いて 子どもと あそびます': माता-पिता रविवार को घर पर बच्चों के साथ खेलते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-065",
       "grammarPatternId_provenance": "auto_inferred"
@@ -228,7 +228,7 @@
       "passage_label": "Passage 12 (Q23, Q24)",
       "id": "dokkai-2.7",
       "mondai": 4,
-      "rationale_hi": "たくさん 雨が ふりました — कल रात ज़ोरदार बारिश हुई।",
+      "rationale_hi": "たくさん 雨が ふりました: कल रात ज़ोरदार बारिश हुई।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -248,7 +248,7 @@
       "passage_label": "Passage 12 (Q23, Q24)",
       "id": "dokkai-2.8",
       "mondai": 4,
-      "rationale_hi": "'こうえんで お弁当を 食べる つもり' — पार्क में बेंतो खाने का इरादा है।",
+      "rationale_hi": "'こうえんで お弁当を 食べる つもり': पार्क में बेंतो खाने का इरादा है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-069",
       "grammarPatternId_provenance": "auto_inferred"
@@ -268,7 +268,7 @@
       "passage_label": "Passage 13 (Q25, Q26)",
       "id": "dokkai-2.9",
       "mondai": 4,
-      "rationale_hi": "私は えいごの じゅぎょうが すきです — अंग्रेज़ी की कक्षा पसंद है।",
+      "rationale_hi": "私は えいごの じゅぎょうが すきです: अंग्रेज़ी की कक्षा पसंद है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"
@@ -308,7 +308,7 @@
       "passage_label": "Passage 14 (Q27, Q28)",
       "id": "dokkai-2.11",
       "mondai": 4,
-      "rationale_hi": "अनुच्छेद कहता है — समय की मात्रा लगभग 「एक घंटा」 (一時間ぐらい)। उत्तर पाठ में दिए गए समय-निर्देश से सीधे पढ़ा जाता है।",
+      "rationale_hi": "अनुच्छेद कहता है: समय की मात्रा लगभग 「एक घंटा」 (一時間ぐらい)। उत्तर पाठ में दिए गए समय-निर्देश से सीधे पढ़ा जाता है।",
       "rationale_hi_provenance": "native_reviewed_2026_05_21",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -328,7 +328,7 @@
       "passage_label": "Passage 14 (Q27, Q28)",
       "id": "dokkai-2.12",
       "mondai": 4,
-      "rationale_hi": "'ばんごはんは いつも かいしゃの ちかくの レストランで' — रात का खाना हमेशा दफ़्तर के पास के रेस्तराँ में होता है।",
+      "rationale_hi": "'ばんごはんは いつも かいしゃの ちかくの レストランで': रात का खाना हमेशा दफ़्तर के पास के रेस्तराँ में होता है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-187",
       "grammarPatternId_provenance": "auto_inferred"
@@ -348,7 +348,7 @@
       "passage_label": "Passage 15 (Q29, Q30)",
       "id": "dokkai-2.13",
       "mondai": 4,
-      "rationale_hi": "シロは 五さいです — シロ 5 साल का है।",
+      "rationale_hi": "シロは 五さいです: シロ 5 साल का है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": null,
       "grammarPatternId_provenance": "not_applicable_comprehension"
@@ -368,7 +368,7 @@
       "passage_label": "Passage 15 (Q29, Q30)",
       "id": "dokkai-2.14",
       "mondai": 4,
-      "rationale_hi": "白い 犬ですから、 シロです — कुत्ते का नाम シロ इसलिए रखा क्योंकि वह सफ़ेद है (しろい = सफ़ेद)।",
+      "rationale_hi": "白い 犬ですから、 シロです: कुत्ते का नाम シロ इसलिए रखा क्योंकि वह सफ़ेद है (しろい = सफ़ेद)।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-009",
       "grammarPatternId_provenance": "auto_inferred"
@@ -388,7 +388,7 @@
       "passage_label": "Passage 16 (Q31, Q32)",
       "id": "dokkai-2.15",
       "mondai": 4,
-      "rationale_hi": "まいばん、 ねる まえに 一時間 ピアノを ひきます — हर रात सोने से पहले अकेले एक घंटे पियानो बजाते हैं।",
+      "rationale_hi": "まいばん、 ねる まえに 一時間 ピアノを ひきます: हर रात सोने से पहले अकेले एक घंटे पियानो बजाते हैं।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-119",
       "grammarPatternId_provenance": "auto_inferred"
@@ -408,7 +408,7 @@
       "passage_label": "Passage 16 (Q31, Q32)",
       "id": "dokkai-2.16",
       "mondai": 4,
-      "rationale_hi": "こんしゅうの どようび、 がっこうで コンサートが あります — इस शनिवार को स्कूल में संगीत-समारोह है।",
+      "rationale_hi": "こんしゅうの どようび、 がっこうで コンサートが あります: इस शनिवार को स्कूल में संगीत-समारोह है।",
       "rationale_hi_provenance": "native_reviewed",
       "grammarPatternId": "n5-003",
       "grammarPatternId_provenance": "auto_inferred"

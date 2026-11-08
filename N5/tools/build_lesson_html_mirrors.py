@@ -37,6 +37,8 @@ import sys
 import io
 from pathlib import Path
 
+from emdash_normalize import normalize as normalize_emdash
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -236,7 +238,9 @@ def main() -> int:
         if not pid:
             continue
         out = OUT_DIR / f"{pid}.html"
-        new_content = render_pattern(p)
+        # No em dashes on the site (owner decision 2026-11-08): templates still
+        # hold some, so every page passes through the shared normalizer.
+        new_content = normalize_emdash(render_pattern(p), "html")
         if out.exists() and out.read_text(encoding="utf-8") == new_content:
             unchanged += 1
             continue
@@ -263,6 +267,7 @@ def main() -> int:
         tier="",
         category="index",
     ).replace('<link rel="canonical" href="../#/learn/index">', '<link rel="canonical" href="../#/learn/grammar">')
+    index_html = normalize_emdash(index_html, "html")
 
     idx_out = OUT_DIR / "index.html"
     if not idx_out.exists() or idx_out.read_text(encoding="utf-8") != index_html:

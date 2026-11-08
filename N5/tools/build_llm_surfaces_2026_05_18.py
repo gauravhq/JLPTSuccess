@@ -24,6 +24,9 @@ This script produces all of the above.
 """
 import sys, io, json, os, glob, datetime
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from emdash_normalize import mode_for as mode_for_emdash  # noqa: E402
+from emdash_normalize import normalize as normalize_emdash  # noqa: E402
 
 REPO_N5 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO_ROOT = os.path.dirname(REPO_N5)  # JLPTSuccess/
@@ -35,6 +38,10 @@ BASE_URL = "https://gauravaccentureproducts.github.io/JLPTSuccess"
 # Helpers
 # ---------------------------------------------------------------------------
 def write_atomically(path, content):
+    # No em dashes on the site (owner decision 2026-11-08): some templates in
+    # this file still contain them, so every surface passes through the
+    # shared normalizer before it is written.
+    content = normalize_emdash(content, mode_for_emdash(path))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
@@ -296,7 +303,7 @@ def stage_data_index(data):
 
     out_path = os.path.join(DATA_DIR, "index.json")
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
+        f.write(normalize_emdash(json.dumps(index, ensure_ascii=False, indent=2), "json"))
     print(f"  data/index.json: {len(entries)} entries · {index['totals']['total_bytes']:,} bytes total")
     return len(entries)
 

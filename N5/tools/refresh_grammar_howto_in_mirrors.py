@@ -44,6 +44,7 @@ from pathlib import Path
 # edit emits exactly the same markup as a wholesale rebuild.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_static_mirrors import _render_grammar_pattern_body  # type: ignore  # noqa: E402
+from emdash_normalize import normalize as normalize_emdash  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 GRAMMAR = ROOT / "data" / "grammar.json"
@@ -96,6 +97,8 @@ def _refresh_one(p: dict, dry_run: bool = False) -> str:
     # (line-break separates header from body), and a newline before
     # <footer> for cleanliness.
     new_section = src[: h1m.end()] + "\n" + new_body + "\n" + src[footm.start():]
+    # No em dashes on the site (owner decision 2026-11-08).
+    new_section = normalize_emdash(new_section, "html")
     if new_section == src:
         return "unchanged"
     if not dry_run:

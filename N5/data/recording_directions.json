@@ -5,7 +5,7 @@
     "related_brief_en": "docs/RECORDING-BRIEF.md",
     "related_brief_ja": "docs/RECORDING-BRIEF.ja.md",
     "pilot_count": 8,
-    "note": "Production-side metadata for IMP-094 future native-recording session. Not learner-facing — kept out of listening.json so JA-13 (N5-scope-kanji invariant) does not reject the technical Japanese vocabulary used in directions."
+    "note": "Production-side metadata for IMP-094 future native-recording session. Not learner-facing: kept out of listening.json so JA-13 (N5-scope-kanji invariant) does not reject the technical Japanese vocabulary used in directions."
   },
   "directions": {
     "n5.listen.001": {
@@ -34,11 +34,11 @@
         },
         {
           "line_index": 1,
-          "note": "Casual-friendly invitation. The 〜ませんか tag is rising, but only mildly — not gushing."
+          "note": "Casual-friendly invitation. The 〜ませんか tag is rising, but only mildly, not gushing."
         },
         {
           "line_index": 2,
-          "note": "Receptive いいですね then a clean 何時に — keep it neutral, no excitement."
+          "note": "Receptive いいですね then a clean 何時に: keep it neutral, no excitement."
         },
         {
           "line_index": 3,
@@ -46,11 +46,11 @@
         },
         {
           "line_index": 4,
-          "note": "This is the resolution turn. えきの前は人がおおい sets up the rejection; カフェの前で会いましょう lands the answer. Both halves equally clear, NO emphasis on カフェの前 — that would telegraph it."
+          "note": "This is the resolution turn. えきの前は人がおおい sets up the rejection; カフェの前で会いましょう lands the answer. Both halves equally clear, NO emphasis on カフェの前: that would telegraph it."
         },
         {
           "line_index": 5,
-          "note": "はい、わかりました — closing acknowledgement. Brisk, not slow."
+          "note": "はい、わかりました: closing acknowledgement. Brisk, not slow."
         }
       ],
       "pronunciation_callouts": [
@@ -72,8 +72,8 @@
         }
       ],
       "do_not": [
-        "Do not put extra emphasis on カフェの前 — that is the correct answer; emphasis is the listener's tell. Both location options must sound equally salient.",
-        "Do not pause inside えきの前は人がおおいですね — the comma is a written aid, not a vocalised pause longer than ~150ms."
+        "Do not put extra emphasis on カフェの前: that is the correct answer; emphasis is the listener's tell. Both location options must sound equally salient.",
+        "Do not pause inside えきの前は人がおおいですね: the comma is a written aid, not a vocalised pause longer than ~150ms."
       ]
     },
     "n5.listen.004": {
@@ -102,7 +102,7 @@
         },
         {
           "line_index": 1,
-          "note": "いらっしゃいませ — standard service-counter greeting. Bright but professional, NOT overly cheerful (no fake-anime lilt)."
+          "note": "いらっしゃいませ: standard service-counter greeting. Bright but professional, NOT overly cheerful (no fake-anime lilt)."
         },
         {
           "line_index": 2,
@@ -110,11 +110,11 @@
         },
         {
           "line_index": 3,
-          "note": "あついコーヒーですか — confirmation question. Rising tag, polite but slightly probing."
+          "note": "あついコーヒーですか: confirmation question. Rising tag, polite but slightly probing."
         },
         {
           "line_index": 4,
-          "note": "いいえ rejects あつい; つめたいコーヒーで is the actual answer. NO extra emphasis on つめたい — both temperatures must sound equally weighted."
+          "note": "いいえ rejects あつい; つめたいコーヒーで is the actual answer. NO extra emphasis on つめたい: both temperatures must sound equally weighted."
         },
         {
           "line_index": 5,
@@ -132,9 +132,9 @@
         }
       ],
       "do_not": [
-        "Do not over-emphasise つめたい — it is the correct answer; emphasis would telegraph it.",
+        "Do not over-emphasise つめたい: it is the correct answer; emphasis would telegraph it.",
         "Do not anglicise コーヒー. It is 4 morae in Japanese (こ・ー・ひ・ー), not 2 syllables in English.",
-        "Do not skip the long ー on コーヒー — that is the most common synthetic-engine error this brief is correcting."
+        "Do not skip the long ー on コーヒー: that is the most common synthetic-engine error this brief is correcting."
       ]
     },
     "n5.listen.005": {
@@ -167,7 +167,7 @@
         },
         {
           "line_index": 2,
-          "note": "Student's すみません apologetic, then あさ、でんしゃがおくれました — flat, factual. NO emotional colour."
+          "note": "Student's すみません apologetic, then あさ、でんしゃがおくれました: flat, factual. NO emotional colour."
         },
         {
           "line_index": 3,
@@ -175,7 +175,7 @@
         },
         {
           "line_index": 4,
-          "note": "はい、もうだいじょうぶです — student's reassurance. Calm."
+          "note": "はい、もうだいじょうぶです: student's reassurance. Calm."
         }
       ],
       "pronunciation_callouts": [
@@ -197,7 +197,7 @@
         }
       ],
       "do_not": [
-        "Do not under-emphasise でんしゃがおくれました — it is the correct reason; the listener should hear it just as clearly as the distractors. But also do NOT over-emphasise it.",
+        "Do not under-emphasise でんしゃがおくれました: it is the correct reason; the listener should hear it just as clearly as the distractors. But also do NOT over-emphasise it.",
         "Do not soften 先生 into a sympathetic tone. The pedagogical point is that the student must report the reason; the teacher's tone is neutral-authoritative throughout."
       ]
     },
@@ -231,7 +231,7 @@
         },
         {
           "line_index": 2,
-          "note": "男: 本もいいですが is concessive — gentle rising-falling on いいですが to mark \"but\". The もっとほしいものがあります sets up the reveal."
+          "note": "男: 本もいいですが is concessive, gentle rising-falling on いいですが to mark \"but\". The もっとほしいものがあります sets up the reveal."
         },
         {
           "line_index": 3,
@@ -239,11 +239,11 @@
         },
         {
           "line_index": 4,
-          "note": "男: いいえ rejects とけい. 新しいカメラがほしいです lands the answer. NO extra emphasis on カメラ — equal-weight rule."
+          "note": "男: いいえ rejects とけい. 新しいカメラがほしいです lands the answer. NO extra emphasis on カメラ: equal-weight rule."
         },
         {
           "line_index": 5,
-          "note": "そうですか — closing acknowledgement. Calm."
+          "note": "そうですか: closing acknowledgement. Calm."
         }
       ],
       "pronunciation_callouts": [
@@ -266,7 +266,7 @@
       ],
       "do_not": [
         "Do not over-emphasise カメラ. The distractors 本 and とけい must sound equally salient.",
-        "Do not anglicise カメラ — Japanese atamadaka, drop on め."
+        "Do not anglicise カメラ: Japanese atamadaka, drop on め."
       ]
     },
     "n5.listen.009": {
@@ -292,11 +292,11 @@
           "register": "polite-stranger-address"
         }
       ],
-      "pacing": "~180 morae/min — slow side of the band because each utterance is short.",
+      "pacing": "~180 morae/min: slow side of the band because each utterance is short.",
       "prosody_hints": [
         {
           "line_index": 0,
-          "note": "Narrator scene-set. Flat, slightly slower. The parenthetical aside should NOT sound like dialogue — it is stage direction."
+          "note": "Narrator scene-set. Flat, slightly slower. The parenthetical aside should NOT sound like dialogue: it is stage direction."
         },
         {
           "line_index": -1,
@@ -315,7 +315,7 @@
       ],
       "do_not": [
         "Do not give the correct candidate (すみません、いま何時ですか) any extra polish. The wrong candidates must be read just as fluently.",
-        "Do not vary speaker between candidates — that would add a non-content cue.",
+        "Do not vary speaker between candidates: that would add a non-content cue.",
         "Pre-roll the narrator scene-set with ~500ms of silence; this gives the listener the conventional \"now I should think\" moment."
       ]
     },
@@ -381,8 +381,8 @@
         }
       ],
       "do_not": [
-        "Do not make しつれいします sound more \"polite\" than the others — content already encodes that. The listener has to recognise the social context, not detect emphasis.",
-        "Do not laugh-track or warm-tone any of the candidates — Mondai 3 is decoy-heavy and tone-clean."
+        "Do not make しつれいします sound more \"polite\" than the others: content already encodes that. The listener has to recognise the social context, not detect emphasis.",
+        "Do not laugh-track or warm-tone any of the candidates: Mondai 3 is decoy-heavy and tone-clean."
       ]
     },
     "n5.listen.041": {
@@ -408,11 +408,11 @@
           "register": "polite-colleague"
         }
       ],
-      "pacing": "~200 morae/min — these items are short; do not rush, but also do not pad.",
+      "pacing": "~200 morae/min: these items are short; do not rush, but also do not pad.",
       "prosody_hints": [
         {
           "line_index": 0,
-          "note": "Stimulus: おさきにしつれいします — leaving the office. Slight politeness register but not overly formal. Crisp; ~2-3 seconds delivered."
+          "note": "Stimulus: おさきにしつれいします, leaving the office. Slight politeness register but not overly formal. Crisp; ~2-3 seconds delivered."
         },
         {
           "line_index": -1,
@@ -442,9 +442,9 @@
         }
       ],
       "do_not": [
-        "Do not warm おつかれさまでした relative to はじめまして — equal weight rule.",
+        "Do not warm おつかれさまでした relative to はじめまして: equal weight rule.",
         "Pre-roll on the stimulus is ~300ms (not the 500ms of mondai 3); these items are tight.",
-        "Inter-candidate pause: ~400-500ms — long enough that the listener registers the pivot from one candidate to the next."
+        "Inter-candidate pause: ~400-500ms, long enough that the listener registers the pivot from one candidate to the next."
       ]
     },
     "n5.listen.045": {
@@ -474,11 +474,11 @@
       "prosody_hints": [
         {
           "line_index": 0,
-          "note": "Stimulus: おはようございます — morning greeting. Bright but not overly cheerful. The brightness comes from the time-of-day register, not from the actor."
+          "note": "Stimulus: おはようございます, morning greeting. Bright but not overly cheerful. The brightness comes from the time-of-day register, not from the actor."
         },
         {
           "line_index": -1,
-          "note": "Three candidate responses by the SAME female voice. Critical: おはようございます (correct response) must NOT sound brighter than the wrong おやすみなさい — both are time-of-day greetings; the listener has to map the time, not detect tone."
+          "note": "Three candidate responses by the SAME female voice. Critical: おはようございます (correct response) must NOT sound brighter than the wrong おやすみなさい, both are time-of-day greetings; the listener has to map the time, not detect tone."
         }
       ],
       "pronunciation_callouts": [
@@ -497,7 +497,7 @@
       ],
       "do_not": [
         "Do not give おはようございます candidate any extra brightness vs おやすみなさい. Same time-of-day-greeting register means same prosodic profile.",
-        "さようなら is the universal farewell — keep it neutral, no sad lilt."
+        "さようなら is the universal farewell: keep it neutral, no sad lilt."
       ]
     }
   }
