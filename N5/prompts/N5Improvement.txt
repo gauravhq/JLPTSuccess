@@ -2761,6 +2761,8 @@ Section-10 anti-items (one-round review, 2026-11-08):
 - Never start a language review without a coverage reconciliation (every printed Japanese block maps
   to one checklist row) and a fixed check list applied to every row.
 - Never fix a reviewer's finding without adding (or extending) a script check for its issue type.
+- Never reword a 'should be X' answer-key label without reading the option with X substituted in;
+  the substituted sentence must be fully correct (F.70 point 7).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 

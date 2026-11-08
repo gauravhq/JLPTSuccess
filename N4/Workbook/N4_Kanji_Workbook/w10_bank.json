@@ -247,7 +247,7 @@
    "target_word": "春休み",
    "reading": "はるやすみ",
    "meaning": "spring break",
-   "sentence": "四月の（　　）に かぞくで りょこうに 行きます。",
+   "sentence": "四月の はじめの（　　）に かぞくで りょこうに 行きます。",
    "underline": "（　　）",
    "options": [
     "夏休み",
@@ -256,12 +256,12 @@
     "春休み"
    ],
    "correct": 4,
-   "explanation": "April is spring, so 四月の（　）= 春休み (spring break); New Year, summer, and winter breaks fall in other seasons.",
+   "explanation": "Early April is spring, so 四月の はじめの（　）= 春休み (spring break); New Year, summer, and winter breaks fall in other seasons.",
    "distractors": [
     "summer break (not April)",
     "New Year (January)",
     "winter break",
-    "CORRECT: 春休み = spring break (April)"
+    "CORRECT: 春休み = spring break (early April)"
    ],
    "review_status": "recheck-passed",
    "review_flag": "TC-C01: 朝食/運動 are not periods that can follow 四月の",

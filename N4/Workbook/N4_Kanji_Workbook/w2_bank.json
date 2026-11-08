@@ -382,7 +382,7 @@
    "target_word": "体",
    "reading": "からだ",
    "meaning": "body",
-   "sentence": "うみで およいで、体を じょうぶに して います。",
+   "sentence": "体を じょうぶに する ために、うみで およいで います。",
    "underline": "体",
    "options": [
     "からた",
@@ -393,7 +393,7 @@
    "correct": 3,
    "explanation": "「体」は「からだ」と読みます。",
    "distractors": [
-    "wrong voicing た",
+    "unvoices だ->た",
     "kana order swapped",
     "CORRECT: からだ = body",
     "wrong first kana た"

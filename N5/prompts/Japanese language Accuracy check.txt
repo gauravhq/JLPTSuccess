@@ -6647,6 +6647,9 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      (3) run one script check per issue type found so far over every row; (4) count only those
      checks as failures, style suggestions separately. A review that samples, or invents its
      criteria per round, finds new issues every round. Cross-ref: procedure-manual F.70.
+     Label rewording (added 2026-11-08): a 'should be X' answer-key label must make the WHOLE
+     option sentence correct when X is substituted in; a label shortened to the verb fix left a
+     particle error (ことが よく おぼえて います). Cross-ref: F.70 point 7.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

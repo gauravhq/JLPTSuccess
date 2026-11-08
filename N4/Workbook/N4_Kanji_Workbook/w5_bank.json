@@ -300,7 +300,7 @@
    "target_word": "朝食",
    "reading": "ちょうしょく",
    "meaning": "breakfast",
-   "sentence": "あさ たべる しょくじを（　　）と いいます。",
+   "sentence": "まいあさ 七時に ホテルで（　　）を 食べます。",
    "underline": "（　　）",
    "options": [
     "朝食",
@@ -309,9 +309,9 @@
     "おやつ"
    ],
    "correct": 1,
-   "explanation": "By definition, the meal eaten in the morning is called 朝食 (breakfast); lunch, dinner and a snack are eaten at other times.",
+   "explanation": "The meal eaten every morning at seven is 朝食 (breakfast); lunch, dinner and a snack are eaten at other times.",
    "distractors": [
-    "CORRECT: 朝食 = breakfast (the morning meal, by definition)",
+    "CORRECT: 朝食 = breakfast (the morning meal)",
     "lunch (midday)",
     "dinner (evening)",
     "snack (between meals)"

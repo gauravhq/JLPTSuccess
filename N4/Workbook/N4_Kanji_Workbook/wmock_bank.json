@@ -493,7 +493,7 @@
    "target_word": "意味",
    "reading": "いみ",
    "meaning": "meaning",
-   "sentence": "きょうかしょに 出て きた ことばが 何を あらわすか、その（　　）が わかりません。",
+   "sentence": "きょうかしょに 出て きた ことばの（　　）が わからないので、じしょで しらべました。",
    "underline": "（　　）",
    "options": [
     "意見",
@@ -502,10 +502,10 @@
     "問題"
    ],
    "correct": 2,
-   "explanation": "What a word represents is its 意味 (meaning); an opinion, preparation or problem is not what a word represents.",
+   "explanation": "What you look up in a dictionary for a word is its 意味 (meaning); an opinion, preparation or problem is not.",
    "distractors": [
     "opinion",
-    "CORRECT: 意味 = meaning (what a word represents)",
+    "CORRECT: 意味 = meaning (what you look up in a dictionary)",
     "preparation",
     "problem"
    ],

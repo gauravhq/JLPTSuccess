@@ -127,6 +127,13 @@ C1-C6 round 1 (all 947 rows, after a placement fix removed an unprinted worked e
 failures fixed (4 card meanings, 1 worked-example key); round 2 on the 5 changed rows: 0. Against
 these 6 checks and this reviewer setup only; 105 non-blocking style notes are listed separately.
 
+Later rounds the same day (F.70 points 6-7): 176 style notes recorded, 160 applied, 15 not applied
+with a reason, 1 open; each note now also shows on its own Checklist row. The last batch (40 notes
+from a fresh full round 7) reopened 39 rows; their recheck found 1 blocking failure (a reworded
+answer-key label), fixed, and the recheck of that row found 0. At this checkpoint the checklist
+records 947 of 947 rows reviewed with 0 C1-C6 failures against these checks and this AI reviewer
+setup; no native-speaker review is implied.
+
 ---
 
 ## Future native-human review

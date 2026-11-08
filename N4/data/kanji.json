@@ -638,7 +638,8 @@
       "meanings": [
         "question",
         "to ask",
-        "problem"
+        "problem",
+        "visit"
       ],
       "stroke_order_svg": "svg/kanji/問.svg",
       "examples": [
@@ -667,7 +668,7 @@
       "deck_order_rank": 11,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "question; to ask; problem"
+      "display_meaning": "question; to ask; problem; visit"
     },
     {
       "id": "n4.kanji.代",
@@ -1408,9 +1409,9 @@
           "gloss": "powerful; strong"
         },
         {
-          "form": "強化",
-          "reading": "きょうか",
-          "gloss": "strengthening; intensifying"
+          "form": "強さ",
+          "reading": "つよさ",
+          "gloss": "strength"
         }
       ],
       "notes": "The bug radical (虫) is the real part - it was a grain-weevil; 'strong' only borrowed the sound.",
@@ -1446,9 +1447,9 @@
           "gloss": "government worker"
         },
         {
-          "form": "公共",
-          "reading": "こうきょう",
-          "gloss": "public; communal"
+          "form": "公立",
+          "reading": "こうりつ",
+          "gloss": "public (run by the city or state)"
         },
         {
           "form": "公園",
@@ -1456,9 +1457,9 @@
           "gloss": "(public) park"
         },
         {
-          "form": "公式",
-          "reading": "こうしき",
-          "gloss": "official; formal"
+          "form": "主人公",
+          "reading": "しゅじんこう",
+          "gloss": "main character (of a story)"
         }
       ],
       "notes": "Split it open and share with everyone: that is PUBLIC.",
@@ -1554,7 +1555,7 @@
         {
           "form": "野原",
           "reading": "のはら",
-          "gloss": "plain; prairie"
+          "gloss": "meadow; field"
         }
       ],
       "notes": "Wide open land stretching past the village: a FIELD.",
@@ -1831,7 +1832,8 @@
       "meanings": [
         "correct",
         "justice",
-        "righteous"
+        "righteous",
+        "first"
       ],
       "stroke_order_svg": "svg/kanji/正.svg",
       "examples": [
@@ -1860,7 +1862,7 @@
       "deck_order_rank": 35,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "correct; justice; righteous"
+      "display_meaning": "correct; justice; righteous; first"
     },
     {
       "id": "n4.kanji.院",
@@ -3324,9 +3326,9 @@
           "gloss": "valid; effective"
         },
         {
-          "form": "有力",
-          "reading": "ゆうりょく",
-          "gloss": "influential; prominent"
+          "form": "有名人",
+          "reading": "ゆうめいじん",
+          "gloss": "famous person"
         },
         {
           "form": "有料",
@@ -4183,7 +4185,8 @@
       "primary_kind": "on",
       "meanings": [
         "wait",
-        "depend on"
+        "depend on",
+        "treat (guests)"
       ],
       "stroke_order_svg": "svg/kanji/待.svg",
       "examples": [
@@ -4212,7 +4215,7 @@
       "deck_order_rank": 84,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "wait; depend on"
+      "display_meaning": "wait; depend on; treat (guests)"
     },
     {
       "id": "n4.kanji.試",
@@ -4625,14 +4628,14 @@
           "gloss": "dentist"
         },
         {
-          "form": "医療",
-          "reading": "いりょう",
-          "gloss": "medical treatment; medical care"
+          "form": "医者",
+          "reading": "いしゃ",
+          "gloss": "doctor"
         },
         {
           "form": "医師",
           "reading": "いし",
-          "gloss": "doctor; physician"
+          "gloss": "physician; doctor"
         }
       ],
       "notes": "Pull the arrow out and tuck the wound safe in a box: the DOCTOR heals it.",
@@ -5903,9 +5906,9 @@
           "gloss": "autumnal equinox; autumn equinox"
         },
         {
-          "form": "晩秋",
-          "reading": "ばんしゅう",
-          "gloss": "late autumn (fall)"
+          "form": "春夏秋冬",
+          "reading": "しゅんかしゅうとう",
+          "gloss": "the four seasons"
         }
       ],
       "notes": "Modern-form memory reading: grain (禾) drying by fire (火) at harvest = AUTUMN. (The earliest 秋 was a cricket pictograph.)",
@@ -6580,7 +6583,7 @@
           "gloss": "lunch break; noon recess"
         },
         {
-          "form": "昼ごはん",
+          "form": "昼ご飯",
           "reading": "ひるごはん",
           "gloss": "lunch; midday meal"
         },
@@ -6658,7 +6661,8 @@
       "primary_reading": "おとうと",
       "primary_kind": "kun",
       "meanings": [
-        "younger brother"
+        "younger brother",
+        "pupil"
       ],
       "stroke_order_svg": "svg/kanji/弟.svg",
       "examples": [
@@ -6682,7 +6686,7 @@
       "deck_order_rank": 136,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "younger brother"
+      "display_meaning": "younger brother; pupil"
     },
     {
       "id": "n4.kanji.牛",
@@ -7632,7 +7636,8 @@
       "primary_kind": "kun",
       "meanings": [
         "foot",
-        "leg"
+        "leg",
+        "counter for pairs of shoes"
       ],
       "stroke_order_svg": "svg/kanji/足.svg",
       "examples": [
@@ -7661,7 +7666,7 @@
       "deck_order_rank": 158,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "foot; leg; be enough; add",
+      "display_meaning": "foot; leg; be enough; add; counter for pairs of shoes",
       "ported_from": "n5"
     },
     {

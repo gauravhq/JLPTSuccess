@@ -296,24 +296,24 @@
    "target_kanji": [
     "町"
    ],
-   "target_word": "下町",
-   "reading": "したまち",
-   "meaning": "the old-town (shitamachi) district",
-   "sentence": "東京の 下町を さんぽしました。",
-   "underline": "下町",
+   "target_word": "町",
+   "reading": "まち",
+   "meaning": "town",
+   "sentence": "東京の 町を さんぽしました。",
+   "underline": "町",
    "options": [
-    "しだまち",
-    "したまじ",
-    "したまち",
-    "じたまち"
+    "まじ",
+    "あち",
+    "まち",
+    "まつ"
    ],
    "correct": 3,
-   "explanation": "「下町」は「したまち」と読みます。",
+   "explanation": "「町」は「まち」と読みます。",
    "distractors": [
-    "wrong voicing: た -> だ",
-    "wrong final voicing: ち -> じ",
-    "CORRECT: したまち",
-    "wrong initial voicing: し -> じ"
+    "wrong final kana: ち -> じ",
+    "wrong first kana: ま -> あ",
+    "CORRECT: まち = town",
+    "wrong final kana: ち -> つ"
    ],
    "review_status": "revised"
   },

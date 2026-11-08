@@ -78,7 +78,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: モン
   - kun: と(う)
   - primary: モン  (kind: on)
-  - meanings: question, to ask, problem
+  - meanings: question, to ask, problem, visit
 
 - **代**  (tier: core_n4)
   - on: ダイ、タイ
@@ -228,7 +228,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: セイ、ショウ
   - kun: ただ(しい)、まさ(に)
   - primary: ただ(しい)  (kind: kun)
-  - meanings: correct, justice, righteous
+  - meanings: correct, justice, righteous, first
 
 - **院**  (tier: core_n4)
   - on: イン
@@ -528,7 +528,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: タイ
   - kun: ま(つ)
   - primary: タイ  (kind: on)
-  - meanings: wait, depend on
+  - meanings: wait, depend on, treat (guests)
 
 - **試**  (tier: core_n4)
   - on: シ
@@ -848,7 +848,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: テイ、ダイ、デ
   - kun: おとうと
   - primary: おとうと  (kind: kun)
-  - meanings: younger brother
+  - meanings: younger brother, pupil
 
 - **牛**  (tier: core_n4)
   - on: ギュウ
@@ -981,7 +981,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ソク
   - kun: あし、た(りる)、た(す)
   - primary: あし  (kind: kun)
-  - meanings: foot, leg
+  - meanings: foot, leg, counter for pairs of shoes
 
 - **空**  (tier: core_n4)
   - on: クウ

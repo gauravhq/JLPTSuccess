@@ -386,24 +386,24 @@
    "target_kanji": [
     "可"
    ],
-   "target_word": "可能",
-   "reading": "かのう",
-   "meaning": "possible",
-   "sentence": "インターネットで よやくが 可能です。",
-   "underline": "可能",
+   "target_word": "不可",
+   "reading": "ふか",
+   "meaning": "not allowed",
+   "sentence": "わたしの アパートでは、ペットは 不可です。",
+   "underline": "不可",
    "options": [
-    "かうん",
-    "かのお",
-    "かのう",
-    "がのう"
+    "ふが",
+    "ふうか",
+    "ふか",
+    "ふっか"
    ],
    "correct": 3,
-   "explanation": "「可能」は「かのう」と読みます。",
+   "explanation": "「不可」は「ふか」と読みます。",
    "distractors": [
-    "wrong かうん",
-    "long vowel written お (かのお)",
-    "CORRECT: かのう = possible",
-    "voiced がのう"
+    "voices か->が",
+    "adds a long vowel (ふう)",
+    "CORRECT: ふか = not allowed",
+    "adds a small っ (ふっか)"
    ],
    "review_status": "automated-check-passed"
   }
@@ -447,7 +447,7 @@
    "underline": "有名",
    "options": [
     "この レストランは だれも 知りません。",
-    "この レストランは みんな よく 知って います。",
+    "この レストランは みんなが よく 知って います。",
     "この レストランは とても 高いです。",
     "この レストランは とても 新しいです。"
    ],
