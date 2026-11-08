@@ -69,11 +69,12 @@ test.describe('Visual regression - homepage + canonical routes', () => {
         await page.goto(route.path);
         await page.waitForLoadState('networkidle');
         // Mask the streak / daily-status row on home: it changes daily,
-        // which would flake the baseline. Other routes have no
-        // time-dependent content.
-        const masks = route.slug === 'home'
-          ? [page.locator('.syllabus-daily-status')]
-          : [];
+        // which would flake the baseline. Mask the footer version label on
+        // every route: it changes on every release, so an unmasked label
+        // makes every baseline stale at the next version bump (the
+        // 2026-05-28 -linux baselines had "v1.17.16" baked in).
+        const masks = [page.locator('[data-footer-version]')];
+        if (route.slug === 'home') masks.push(page.locator('.syllabus-daily-status'));
         await expect(page).toHaveScreenshot(`${route.slug}-${vp.name}.png`, {
           fullPage: true,
           mask: masks,

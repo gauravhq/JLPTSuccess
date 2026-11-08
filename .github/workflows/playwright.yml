@@ -36,7 +36,15 @@ jobs:
     defaults:
       run:
         working-directory: N5
-    runs-on: ubuntu-latest
+    # 2026-11-08: pinned to ubuntu-24.04 instead of ubuntu-latest. The
+    # ubuntu-latest label moved to Ubuntu 26.04, which Playwright 1.59
+    # cannot install browser deps for ("Playwright does not support
+    # chromium on ubuntu26.04-x64"), so the job died at the install step.
+    # The pin also keeps the -linux.png visual baselines stable: they
+    # are rendered on this image, and a silent image move changes fonts
+    # and anti-aliasing. Move the pin deliberately, together with a
+    # Playwright bump and a baseline refresh (update_snapshots below).
+    runs-on: ubuntu-24.04
     # 2026-05-21: bumped from 8 → 12 → 15 minutes.
     #
     # First bump (8→12) was a wrong-cause guess: I assumed cold
@@ -141,12 +149,16 @@ jobs:
           path: N5/tests/visual-regression.spec.js-snapshots/
           retention-days: 14
 
+      # Artifact paths are relative to the repo root, not to the job's
+      # `working-directory: N5` (that default applies to `run:` steps
+      # only), so they need the N5/ prefix. Without it both uploads found
+      # no files and failed runs left no report, diffs or traces.
       - name: Upload Playwright HTML report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
-          path: playwright-report/
+          path: N5/playwright-report/
           retention-days: 14
 
       - name: Upload traces for failed tests
@@ -154,5 +166,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-traces
-          path: test-results/
+          path: N5/test-results/
           retention-days: 14

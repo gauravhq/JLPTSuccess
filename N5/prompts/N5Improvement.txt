@@ -2764,6 +2764,42 @@ Section-10 anti-items (one-round review, 2026-11-08):
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 
+### Phase-0 CI-recovery round 2 regression block (added 2026-11-08)
+
+playwright-p0-smoke was red on every master push from at least 2026-06-03
+to 2026-11-08. A red-by-default suite hides new failures: two real product
+bugs (service worker 404 on static mirrors; the "Report a problem" link
+always naming "(home)") sat behind months of known-red runs. Then the runner image
+moved (ubuntu-latest -> 26.04) and the job could not even install Chromium.
+
+Phase-0 checks (validated to return 0 against the current tree, 2026-11-08):
+1. `git grep -n "runs-on: ubuntu-latest" -- .github/workflows/playwright.yml`
+   -> 0. The Playwright job pins an image (ubuntu-24.04); move the pin only
+   together with a Playwright bump and a -linux.png baseline refresh.
+2. `git grep -nE "serviceWorker\.register\(['\"]\./" -- N5/js` -> 0. Code that
+   static mirrors also load must build URLs with router.js assetUrl(), never a
+   document-relative path (mirrors have no <base href>).
+3. `git grep -nE "^\s+path: (playwright-report|test-results)/" -- .github/workflows/playwright.yml`
+   -> 0. upload-artifact paths are repo-root-relative; the job's
+   `defaults.run.working-directory` does not apply to them.
+4. `git grep -c "data-footer-version" -- N5/tests/visual-regression.spec.js`
+   -> 1 or more. Release-varying text (the footer version) is masked in
+   every visual baseline, or every release makes every baseline stale.
+5. `npx playwright test coverage-inventory` passes: every js/*.js module is in
+   COVERAGE_MAP (with a real spec) or UTILITY_WHITELIST.
+
+Section-10 anti-items:
+- Never leave CI red as the accepted state; each failing test is fixed at
+  its root cause (app or stale test) before more work is pushed on top.
+- Never fix a stale test by skipping it; re-assert the current design, and
+  assert ABSENCE for features removed on purpose (e.g. the v1.17.34 MEANING
+  section).
+- Never put a regex inside a CSS-string selector (`:has-text(/x/i)` throws);
+  use `locator.filter({ hasText: /x/i })`.
+
+Source: CI recovery 2026-11-08 (runs 42426537895, 42373923032); accuracy
+prompt A78 ADDENDUM; procedure manual F.71.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

@@ -9,6 +9,7 @@
 //   (new shell version detected). Click "Reload" to skipWaiting + reload.
 
 import * as storage from './storage.js';
+import { assetUrl } from './router.js';
 
 const INSTALL_DISMISSED_KEY = 'pwa.installDismissed';
 let deferredPrompt = null;
@@ -18,14 +19,21 @@ export function initPwa() {
   // index.html, but that violated the CSP `script-src 'self'` directive
   // (CSP blocks inline scripts even when same-origin). Moving it here keeps
   // the strict CSP intact.
+  //
+  // The script URL is rebased to the SPA root with assetUrl(). A bare
+  // './sw.js' resolves against the document URL: fine on index.html (its
+  // <base href> is the root) but on a static mirror such as /learn/n5-001/
+  // (no <base>) it became /learn/n5-001/sw.js, a 404 that failed the
+  // registration and logged a console error on every mirror page.
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    const swUrl = assetUrl('sw.js');
     if (document.readyState === 'complete') {
-      navigator.serviceWorker.register('./sw.js').catch(err => {
+      navigator.serviceWorker.register(swUrl).catch(err => {
         console.warn('Service worker registration failed:', err);
       });
     } else {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').catch(err => {
+        navigator.serviceWorker.register(swUrl).catch(err => {
           console.warn('Service worker registration failed:', err);
         });
       });

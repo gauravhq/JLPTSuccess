@@ -85,6 +85,9 @@ const COVERAGE_MAP = {
   'listening-story.js':      ['listening-story.spec.js'],
   'listening-transcript.js': ['listening-transcript.spec.js'],
   'strategy-modal.js':       ['strategy-modal.spec.js'],
+  // IMP-2 / IMP-5 (shipped 2026-06-05, spec added 2026-11-08):
+  'error-monitor.js':        ['report-problem.spec.js'],
+  'report-problem.js':       ['report-problem.spec.js'],
 };
 
 // HIGH-risk uncovered modules (call out for IMP-6 priority).

@@ -22,10 +22,16 @@
   var REPO = "gauravaccentureproducts/JLPTSuccess";
 
   function currentItem() {
-    // Hash routes look like #/learn/grammar/n5-017, #/reading/n5.read.003, etc.
-    var h = location.hash || "";
-    var m = h.match(/(n5[-.][a-z0-9.\-]+)/i);
-    return m ? m[1] : (h.replace(/^#\/?/, "") || "(home)");
+    // Routes are history-mode paths since v1.17 (/JLPTSuccess/N5/learn/n5-017/,
+    // .../reading/n5.read.003/); the router rewrites legacy #/... hashes to that
+    // form on boot, so reading only location.hash reported "(home)" for every
+    // page. Strip the SPA root (same /N5/ marker as router.js getBasePath())
+    // and keep the hash as a fallback for a pre-boot legacy URL.
+    var route = (location.pathname || "").replace(/^.*\/N5\//, "/") + (location.hash || "");
+    var m = route.match(/(n5[-.][a-z0-9.\-]+)/i);
+    if (m) return m[1];
+    route = route.replace(/^[\/#]+/, "").replace(/\/+$/, "").replace(/\/?index\.html$/, "");
+    return route || "(home)";
   }
 
   function issueUrl() {

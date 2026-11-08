@@ -2,6 +2,17 @@
 
 All user-visible changes to the JLPT N5 study material site.
 
+## v1.17.51 - 2026-11-08 (offline support on lesson pages + correct "Report a problem" item)
+
+### Fixed
+
+- Offline support now installs when you open a lesson page directly (for example
+  `/learn/n5-001/`). Those pages asked the browser for the offline worker at the wrong address
+  (`/learn/n5-001/sw.js`, not found), so it never installed and the browser logged an error.
+- "Report a problem" now names the page you are on (for example `n5-017`) in the pre-filled
+  report. It said "(home)" on every page since lesson addresses moved from `#/...` to plain paths.
+- cacheVersion + sw.js `CACHE_VERSION` + index.html `?v=` bumped v1.17.50 -> v1.17.51.
+
 ## v1.17.50 - 2026-06-08 (header Print icon + weekly audit: PRECACHE + test-runner)
 
 Consolidated release bundling two parallel work streams into one cache version.

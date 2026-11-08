@@ -49,8 +49,12 @@ test.describe('feedback page — js/feedback.js', () => {
   test('submit button is present and wired (button or input[type=submit])', async ({ page }) => {
     await page.goto('/#/feedback');
     await page.waitForLoadState('networkidle');
-    // The submit affordance can be either <button> or <input type="submit">
-    const submitCandidates = page.locator('main button[type="submit"], main input[type="submit"], main button:has-text(/submit|send|送信/i)');
+    // The submit affordance can be either <button> or <input type="submit">,
+    // or a plain <button> labelled submit / send / 送信. A regex inside a
+    // CSS-string `:has-text(/.../i)` is not valid selector syntax (it threw
+    // "Unexpected token /"), so the text match goes through filter().
+    const submitCandidates = page.locator('main button[type="submit"], main input[type="submit"]')
+      .or(page.locator('main button').filter({ hasText: /submit|send|送信/i }));
     const n = await submitCandidates.count();
     expect(n, 'feedback form must have at least one submit affordance').toBeGreaterThanOrEqual(1);
   });

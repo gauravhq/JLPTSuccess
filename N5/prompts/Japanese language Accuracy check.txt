@@ -6648,3 +6648,21 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      checks as failures, style suggestions separately. A review that samples, or invents its
      criteria per round, finds new issues every round. Cross-ref: procedure-manual F.70.
 ================================================================================
+A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
+     from at least 2026-06-03. Four classes, in the A78 frame:
+     - Runner drift (new, operational): ubuntu-latest moved to 26.04 and Playwright 1.59 could not
+       install Chromium deps there. Pin the image; move it only with a Playwright bump and a
+       -linux.png baseline refresh.
+     - Stale assertions (A78 class B): a test still asserted the 意味 heading that v1.17.34 removed
+       on purpose; another still fetched /manifest.json after the file became manifest.webmanifest.
+       Re-assert the current design and assert ABSENCE of removed features; follow the page's own
+       <link rel="manifest"> instead of guessing a path.
+     - Real product bugs hidden by a red suite: app.js registered './sw.js' on static mirrors (no
+       <base href>), so /learn/n5-001/sw.js 404'd; the Report-a-problem link read location.hash
+       after the router had moved to history-mode paths, so every report said "(home)".
+     - Visual baselines (A78 class F): the footer version string was baked into every baseline, so
+       every release broke all of them. Mask release-varying text in every snapshot.
+     Not a Japanese-language class; logged here so the A78 lineage stays in one place. No new JA-NN
+     invariant (Playwright tests guard each item). Cross-ref: procedure-manual F.71; N5Improvement
+     "Phase-0 CI-recovery round 2 regression block".
+================================================================================

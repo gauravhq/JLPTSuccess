@@ -57,21 +57,39 @@ test.describe('pwa — js/pwa.js + sw.js', () => {
     expect(swState, 'service worker should be supported in test browser').not.toBe('unsupported');
   });
 
-  test('manifest.json fetched + carries required PWA fields', async ({ page, request }) => {
-    // The manifest link tag points to /manifest.json (or /N5/manifest.json
-    // depending on deploy). Fetch it via Playwright request to verify.
-    const candidates = ['/manifest.json', '/N5/manifest.json'];
-    let manifestData = null;
-    for (const candidate of candidates) {
-      try {
-        const resp = await request.get(candidate);
-        if (resp.ok()) {
-          manifestData = await resp.json();
-          break;
-        }
-      } catch (e) { /* try next */ }
-    }
-    expect(manifestData, 'PWA manifest.json must be fetchable').toBeTruthy();
+  test('static mirror page registers the root sw.js, not a page-relative 404', async ({ page }) => {
+    // Regression guard (2026-11-08): static mirrors such as /learn/n5-001/
+    // have no <base href>, and pwa.js used to register './sw.js', which
+    // resolved to /learn/n5-001/sw.js (404). The registration failed and
+    // Chrome logged "A bad HTTP response code (404) was received when
+    // fetching the script." on every mirror page.
+    await page.goto('/learn/n5-001/');
+    await page.waitForLoadState('networkidle');
+    const scriptPath = await page.evaluate(async () => {
+      for (let i = 0; i < 6; i++) {
+        const reg = await navigator.serviceWorker.getRegistration();
+        const w = reg && (reg.active || reg.installing || reg.waiting);
+        if (w) return new URL(w.scriptURL).pathname;
+        await new Promise(r => setTimeout(r, 500));
+      }
+      return null;
+    });
+    // The test server serves the SPA root at '/', so the root worker is /sw.js.
+    expect(scriptPath, 'mirror page should register the root /sw.js').toBe('/sw.js');
+  });
+
+  test('web manifest (link rel=manifest) fetched + carries required PWA fields', async ({ page, request }) => {
+    // Follow the page's own <link rel="manifest"> instead of guessing a
+    // filename. The file is manifest.webmanifest (since 2026-05-05); the
+    // earlier hardcoded /manifest.json candidates 404'd, so this test
+    // failed while the real manifest was fine.
+    await page.goto('/');
+    const href = await page.locator('link[rel="manifest"]').evaluate(el => el.href);
+    expect(href, 'index.html must declare <link rel="manifest">').toBeTruthy();
+    const resp = await request.get(href);
+    expect(resp.ok(), `manifest at ${href} must be fetchable (HTTP ${resp.status()})`).toBe(true);
+    const manifestData = JSON.parse(await resp.text());
+    expect(manifestData, 'PWA manifest must parse as JSON').toBeTruthy();
     // Required PWA install fields
     expect(manifestData).toHaveProperty('name');
     expect(manifestData).toHaveProperty('start_url');

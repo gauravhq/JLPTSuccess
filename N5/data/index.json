@@ -95,7 +95,7 @@
       "path": "data/version.json",
       "url": "https://gauravaccentureproducts.github.io/JLPTSuccess/N5/data/version.json",
       "content_type": "application/json",
-      "size_bytes": 4169,
+      "size_bytes": 4496,
       "schema_version": "1.0",
       "description": "Build version, cacheVersion, builtAt, content-count claims",
       "item_count": null

@@ -130,13 +130,18 @@ test.describe('P0 smoke - core navigation', () => {
     await expect(page.locator('.grammar-card')).toHaveCount(expectedCount);
   });
 
-  test('pattern detail (n5-001) shows pattern, EN + JA meaning, examples', async ({ page }) => {
+  test('pattern detail (n5-001) shows pattern, meaning subtitle, explanation, examples', async ({ page }) => {
     await page.goto('/#/learn/n5-001');
     await expect(page.locator('h2.pattern-name')).toBeVisible();
     await expect(page.locator('.meaning-en')).toBeVisible();
     await expect(page.locator('.example-list li')).not.toHaveCount(0);
-    // Japanese-meaning section heading is rendered with full-width parens
-    await expect(page.getByText('意味')).toBeVisible();
+    // EXPLANATION section with its Japanese chip.
+    await expect(page.locator('.pattern-usage-chip', { hasText: '説明' })).toBeVisible();
+    // v1.17.22 renamed the old 意味 heading to "Meaning"; v1.17.34 then
+    // dropped that section because it repeated the .meaning-en subtitle
+    // word for word. Assert it stays gone (neither label renders as a
+    // section title).
+    await expect(page.locator('h3.section-title', { hasText: /^(Meaning|意味)$/i })).toHaveCount(0);
   });
 
   test('Vocab list collapses 40 categories into 6 super-sections, all closed', async ({ page }) => {
