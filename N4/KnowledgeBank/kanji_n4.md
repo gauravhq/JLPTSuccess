@@ -90,7 +90,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: メイ、ミョウ
   - kun: あか(るい)、あ(かり)、あ(く)、あ(くる)、あ(ける)、あ(かす)、あき(らか)
   - primary: メイ  (kind: on)
-  - meanings: bright, light
+  - meanings: bright, light, clear
 
 - **動**  (tier: core_n4)
   - on: ドウ
@@ -522,7 +522,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - kun: (none)
   - secondary_kun: たち、ただ(す)
   - primary: シツ  (kind: on)
-  - meanings: substance, quality, matter, temperament
+  - meanings: substance, quality, matter, question
 
 - **待**  (tier: core_n4)
   - on: タイ
@@ -552,7 +552,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ソウ、サッ
   - kun: はや(い)
   - primary: はや(い)  (kind: kun)
-  - meanings: early, ahead of time
+  - meanings: early, ahead of time, quick
 
 - **映**  (tier: core_n4)
   - on: エイ

@@ -215,26 +215,26 @@
    "id": "W01-M2-Q09",
    "type": "orthography",
    "target_kanji": [
-    "開"
+    "方"
    ],
-   "target_word": "あく",
-   "reading": "あく",
-   "meaning": "to open (intransitive)",
-   "sentence": "かぜで まどが あく ことが あります。",
-   "underline": "あく",
+   "target_word": "かた",
+   "reading": "かた",
+   "meaning": "person (polite)",
+   "sentence": "あの かたは わたしの 日本語の 先生です。",
+   "underline": "かた",
    "options": [
-    "空く",
-    "開く",
-    "聞く",
-    "書く"
+    "人",
+    "方",
+    "者",
+    "手"
    ],
    "correct": 2,
-   "explanation": "「あく」は「開く」と書きます。",
+   "explanation": "「かた」は「方」と書きます。",
    "distractors": [
-    "空く = あく, 'become empty', wrong meaning for a window",
-    "CORRECT: 開く = open",
-    "聞く = きく, 'listen', wrong reading",
-    "書く = かく, 'write', wrong reading"
+    "人 = ひと, 'person', wrong reading",
+    "CORRECT: 方 = person (polite)",
+    "者 = もの, 'person', wrong reading",
+    "手 = て, 'hand', wrong reading"
    ]
   },
   {

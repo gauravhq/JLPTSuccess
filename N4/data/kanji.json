@@ -744,7 +744,8 @@
       "primary_kind": "on",
       "meanings": [
         "bright",
-        "light"
+        "light",
+        "clear"
       ],
       "stroke_order_svg": "svg/kanji/明.svg",
       "examples": [
@@ -773,7 +774,7 @@
       "deck_order_rank": 13,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "bright; light"
+      "display_meaning": "bright; light; clear"
     },
     {
       "id": "n4.kanji.動",
@@ -4130,7 +4131,7 @@
         "substance",
         "quality",
         "matter",
-        "temperament"
+        "question"
       ],
       "stroke_order_svg": "svg/kanji/質.svg",
       "examples": [
@@ -4169,7 +4170,7 @@
       "deck_order_rank": 83,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "substance; quality; matter"
+      "display_meaning": "quality; substance; question"
     },
     {
       "id": "n4.kanji.待",
@@ -4374,7 +4375,8 @@
       "primary_kind": "kun",
       "meanings": [
         "early",
-        "ahead of time"
+        "ahead of time",
+        "quick"
       ],
       "stroke_order_svg": "svg/kanji/早.svg",
       "examples": [
@@ -4403,7 +4405,7 @@
       "deck_order_rank": 88,
       "origin_disputed": true,
       "mnemonic_not_etymology": true,
-      "display_meaning": "early; ahead of time"
+      "display_meaning": "early; quick"
     },
     {
       "id": "n4.kanji.映",
@@ -6152,7 +6154,7 @@
       "deck_order_rank": 124,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "clothes; clothing"
+      "display_meaning": "clothes; clothing; obey"
     },
     {
       "id": "n4.kanji.夕",

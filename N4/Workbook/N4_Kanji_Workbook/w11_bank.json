@@ -7,27 +7,26 @@
    "id": "W11-M1-Q01",
    "type": "kanji_reading",
    "target_kanji": [
-    "洋",
-    "服"
+    "洋"
    ],
-   "target_word": "洋服",
-   "reading": "ようふく",
-   "meaning": "(Western-style) clothes",
-   "sentence": "デパートで あたらしい 洋服を 買いました。",
-   "underline": "洋服",
+   "target_word": "東洋",
+   "reading": "とうよう",
+   "meaning": "the East; the Orient",
+   "sentence": "わたしは 東洋の れきしに きょうみが あります。",
+   "underline": "東洋",
    "options": [
-    "ようぶく",
-    "よふく",
-    "ようふうく",
-    "ようふく"
+    "とうよ",
+    "どうよう",
+    "ひがしよう",
+    "とうよう"
    ],
    "correct": 4,
-   "explanation": "「洋服」は「ようふく」と読みます。",
+   "explanation": "「東洋」は「とうよう」と読みます。",
    "distractors": [
-    "voices ふ->ぶ",
-    "drops the long vowel よ",
-    "adds an extra う",
-    "CORRECT"
+    "drops the long vowel (よう->よ)",
+    "voices と->ど",
+    "kun ひがし for 東, wrong here",
+    "CORRECT: とうよう = the East"
    ]
   },
   {

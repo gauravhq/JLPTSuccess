@@ -68,7 +68,7 @@
    "underline": "帰国",
    "options": [
     "きくに",
-    "かえこく",
+    "きっこく",
     "きごく",
     "きこく"
    ],
@@ -76,7 +76,7 @@
    "explanation": "「帰国」は「きこく」と読みます。",
    "distractors": [
     "kun くに for 国",
-    "kun かえ for 帰",
+    "adds a sokuon (きっこく)",
     "voices こ->ご",
     "CORRECT"
    ]

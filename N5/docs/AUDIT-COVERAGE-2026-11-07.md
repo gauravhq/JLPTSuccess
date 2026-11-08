@@ -121,7 +121,11 @@ The N4 review workbook now has one Checklist row per Japanese item in the merged
 the PDF scanned: 170 cards, 245 practice items, 63 printed worked examples, 405 extended-set items,
 65 fixed-text blocks; 5,596 Japanese text blocks, 0 not covered). Six fixed checks per row; 19
 automated checks, one per issue type found so far: 6 open hits and 10 accepted hits at this
-checkpoint. No N5 artifact changed.
+checkpoint. No N5 artifact changed. The 6 open hits (4 answer leaks inside one test, 1 word tested twice,
+1 label) were fixed the same day; after the fix the checks report 0 open hits on the N4 data scanned.
+C1-C6 round 1 (all 947 rows, after a placement fix removed an unprinted worked example): 5 blocking
+failures fixed (4 card meanings, 1 worked-example key); round 2 on the 5 changed rows: 0. Against
+these 6 checks and this reviewer setup only; 105 non-blocking style notes are listed separately.
 
 ---
 

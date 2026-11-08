@@ -439,7 +439,7 @@
    "target_word": "運動",
    "reading": "うんどう",
    "meaning": "exercise",
-   "sentence": "からだを うごかす ために、まいあさ（　　）を はじめました。",
+   "sentence": "ふとって きたので、まいあさ（　　）を はじめました。",
    "underline": "（　　）",
    "options": [
     "運動",
@@ -448,9 +448,9 @@
     "勉強"
    ],
    "correct": 1,
-   "explanation": "To move the body you start 運動 (exercise); housework, errands and study do not move the body.",
+   "explanation": "Having put on weight, you start 運動 (exercise); housework, errands and study do not help with weight.",
    "distractors": [
-    "CORRECT: 運動 = exercise (moves the body)",
+    "CORRECT: 運動 = exercise",
     "housework",
     "errands",
     "study"

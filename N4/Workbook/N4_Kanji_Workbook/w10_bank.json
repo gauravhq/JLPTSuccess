@@ -119,7 +119,7 @@
    "sentence": "さいごの 走者が ゴールに つきました。",
    "underline": "走者",
    "options": [
-    "はしもの",
+    "そしゃ",
     "そうもの",
     "そうしゃ",
     "そうじゃ"
@@ -127,7 +127,7 @@
    "correct": 3,
    "explanation": "「走者」は「そうしゃ」と読みます。",
    "distractors": [
-    "kun はし+もの",
+    "drops the long vowel (そう->そ)",
     "kun もの for 者",
     "CORRECT",
     "voices しゃ->じゃ"
