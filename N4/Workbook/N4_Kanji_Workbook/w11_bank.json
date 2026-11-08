@@ -223,7 +223,7 @@
    "sentence": "にわの 木に かわいい ことりが います。",
    "underline": "ことり",
    "options": [
-    "野鳥",
+    "小川",
     "白鳥",
     "小鳥",
     "小屋"
@@ -231,7 +231,7 @@
    "correct": 3,
    "explanation": "「ことり」は「小鳥」と書きます。",
    "distractors": [
-    "野鳥 = やちょう, 'wild bird'",
+    "小川 = おがわ, 'stream'",
     "白鳥 = はくちょう, 'swan'",
     "CORRECT: 小鳥 = small bird",
     "小屋 = こや, 'hut'"
@@ -312,7 +312,7 @@
     "銀行"
    ],
    "correct": 1,
-   "explanation": "You stay overnight at a hot-spring 旅館 (inn); a school, a hospital, or a bank are not places you stay the night.",
+   "explanation": "You stay overnight as a guest at a hot-spring 旅館 (inn); a school or a bank is not a place to stay, and a hospital is not where you go for a hot spring.",
    "distractors": [
     "CORRECT: stayed at an inn",
     "school (no)",
@@ -434,11 +434,11 @@
    "correct": 1
   },
   "M4": {
-   "sentence": "この へやは とても きたないです。",
+   "sentence": "この へやは きたないです。",
    "underline": "きたない",
    "options": [
     "この へやは とても きれいです。",
-    "この へやは そうじが して ありません。",
+    "この へやは きれいでは ありません。",
     "この へやは とても ひろいです。",
     "この へやは とても あかるいです。"
    ],

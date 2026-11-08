@@ -272,7 +272,7 @@
    "target_word": "真ん中",
    "reading": "まんなか",
    "meaning": "the middle; center",
-   "sentence": "こうえんの 四つの 入口から おなじ きょりに ある（　　）に、大きな 木が あります。",
+   "sentence": "みちの（　　）を あるくと あぶないです。",
    "underline": "（　　）",
    "options": [
     "真ん中",
@@ -281,12 +281,12 @@
     "後ろ"
    ],
    "correct": 1,
-   "explanation": "The point equidistant from the four entrances is the 真ん中 (center); an entrance, front or back is not equidistant from all of them.",
+   "explanation": "Walking in the 真ん中 (middle) of the road, where cars drive, is dangerous; 入口 (entrance), 前 (front) and 後ろ (back) do not name the part of a road you walk along.",
    "distractors": [
-    "CORRECT: 真ん中 = the center (equidistant from all four entrances)",
-    "entrance",
-    "front",
-    "back"
+    "CORRECT: 真ん中 = the middle of the road",
+    "入口 = entrance, not the part of a road you walk along",
+    "前 = front, not a part of the road",
+    "後ろ = back, not a part of the road"
    ],
    "review_status": "revised"
   },

@@ -101,7 +101,7 @@
    "correct": 4,
    "explanation": "「正月」は「しょうがつ」と読みます。",
    "distractors": [
-    "on せい (as in 正解), wrong here",
+    "on せい, wrong here",
     "drops the long vowel しょ",
     "kun まさ + つき",
     "CORRECT"
@@ -168,7 +168,7 @@
    "target_word": "きもち",
    "reading": "きもち",
    "meaning": "feeling",
-   "sentence": "プレゼントを もらって、いい きもちに なりました。",
+   "sentence": "プレゼントを もらって、うれしい きもちに なりました。",
    "underline": "きもち",
    "options": [
     "自分",
@@ -249,17 +249,17 @@
    "sentence": "この えいがの（　　）は、話の ちゅうしんに なる わかい 女の人です。",
    "underline": "（　　）",
    "options": [
-    "かんとく",
-    "はいゆう",
-    "さくしゃ",
+    "名前",
+    "天気",
+    "時間",
     "主人公"
    ],
    "correct": 4,
-   "explanation": "The character the story centers on is the 主人公 (protagonist); a director, actor or author is not the character in the story.",
+   "explanation": "The character the story centers on is the 主人公 (protagonist); a name, the weather or the running time is not a person in the story.",
    "distractors": [
-    "director",
-    "actor",
-    "author",
+    "a name (not a person)",
+    "the weather (not a person)",
+    "the running time (not a person)",
     "CORRECT: 主人公 = the story's protagonist"
    ],
    "review_status": "revised"
@@ -432,7 +432,7 @@
    "correct": 1
   },
   "M4": {
-   "sentence": "この かばんは とても 高いです。",
+   "sentence": "この かばんは 高いです。",
    "underline": "高い",
    "options": [
     "この かばんは ねだんが やすいです。",

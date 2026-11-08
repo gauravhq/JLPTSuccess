@@ -142,28 +142,27 @@
    "id": "W13-M2-Q06",
    "type": "orthography",
    "target_kanji": [
-    "手"
+    "安"
    ],
-   "target_word": "てがみ",
-   "reading": "てがみ",
-   "meaning": "letter",
-   "sentence": "そぼに 長い てがみを 書きました。",
-   "underline": "てがみ",
+   "target_word": "あんしん",
+   "reading": "あんしん",
+   "meaning": "relief; peace of mind",
+   "sentence": "しけんに ごうかくして、あんしんしました。",
+   "underline": "あんしん",
    "options": [
-    "手本",
-    "切手",
-    "名手",
-    "手紙"
+    "用心",
+    "心理",
+    "中心",
+    "安心"
    ],
    "correct": 4,
-   "explanation": "「てがみ」は「手紙」と書きます。",
+   "explanation": "「あんしん」は「安心」と書きます。",
    "distractors": [
-    "手本 = てほん, 'model/example'",
-    "切手 = きって, 'postage stamp'",
-    "名手 = めいしゅ, 'expert'",
-    "CORRECT: 手紙 = letter"
-   ],
-   "review_status": "automated-check-passed"
+    "用心 = ようじん, 'caution'",
+    "心理 = しんり, 'psychology'",
+    "中心 = ちゅうしん, 'center'",
+    "CORRECT: 安心 = relief"
+   ]
   },
   {
    "id": "W13-M2-Q07",

@@ -358,14 +358,14 @@
           "gloss": "dentist"
         },
         {
-          "form": "患者",
-          "reading": "かんじゃ",
-          "gloss": "patient"
+          "form": "医者",
+          "reading": "いしゃ",
+          "gloss": "doctor"
         },
         {
-          "form": "業者",
-          "reading": "ぎょうしゃ",
-          "gloss": "trader; dealer"
+          "form": "若者",
+          "reading": "わかもの",
+          "gloss": "young people"
         },
         {
           "form": "記者",
@@ -443,7 +443,8 @@
         "business",
         "industry",
         "vocation",
-        "arts"
+        "arts",
+        "studies"
       ],
       "stroke_order_svg": "svg/kanji/業.svg",
       "examples": [
@@ -478,7 +479,7 @@
       "deck_order_rank": 7,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "business; industry; vocation; arts"
+      "display_meaning": "business; industry; work; studies"
     },
     {
       "id": "n4.kanji.方",
@@ -609,9 +610,9 @@
           "gloss": "opening to the public"
         },
         {
-          "form": "展開",
-          "reading": "てんかい",
-          "gloss": "development; evolution"
+          "form": "開店",
+          "reading": "かいてん",
+          "gloss": "opening of a shop"
         }
       ],
       "notes": "Two hands reach into the gate and lift the bar, so it swings OPEN.",
@@ -1112,7 +1113,7 @@
         {
           "form": "課題",
           "reading": "かだい",
-          "gloss": "subject; theme"
+          "gloss": "task; assignment"
         }
       ],
       "notes": "A big head bends over the page to think up the TOPIC.",
@@ -1195,9 +1196,9 @@
           "gloss": "inconvenient"
         },
         {
-          "form": "不況",
-          "reading": "ふきょう",
-          "gloss": "(economic) depression; recession"
+          "form": "不足",
+          "reading": "ふそく",
+          "gloss": "shortage; lack"
         },
         {
           "form": "不安",
@@ -1296,7 +1297,7 @@
         {
           "form": "利用",
           "reading": "りよう",
-          "gloss": "use; utilisation"
+          "gloss": "use; utilization"
         },
         {
           "form": "用事",
@@ -1386,7 +1387,8 @@
       "primary_reading": "つよ(い)",
       "primary_kind": "kun",
       "meanings": [
-        "strong"
+        "strong",
+        "strive"
       ],
       "stroke_order_svg": "svg/kanji/強.svg",
       "examples": [
@@ -1415,7 +1417,7 @@
       "deck_order_rank": 26,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "strong"
+      "display_meaning": "strong; strive"
     },
     {
       "id": "n4.kanji.公",
@@ -1801,7 +1803,7 @@
         {
           "form": "多少",
           "reading": "たしょう",
-          "gloss": "a little; some"
+          "gloss": "some; a little"
         }
       ],
       "notes": "Two cuts of meat stacked one on another - a generous pile means MANY.",
@@ -1882,7 +1884,7 @@
         {
           "form": "入院",
           "reading": "にゅういん",
-          "gloss": "hospitalisation"
+          "gloss": "hospitalization"
         },
         {
           "form": "退院",
@@ -1897,7 +1899,7 @@
         {
           "form": "美容院",
           "reading": "びよういん",
-          "gloss": "beauty parlour; beauty parlor"
+          "gloss": "beauty salon"
         }
       ],
       "notes": "A big walled building up on the hill, like a hospital: a large INSTITUTION.",
@@ -1983,14 +1985,9 @@
           "gloss": "business world; business circles"
         },
         {
-          "form": "限界",
-          "reading": "げんかい",
-          "gloss": "limit; bound"
-        },
-        {
-          "form": "境界",
-          "reading": "きょうかい",
-          "gloss": "boundary; border"
+          "form": "世界中",
+          "reading": "せかいじゅう",
+          "gloss": "all over the world"
         }
       ],
       "notes": "Fields split into zones by fences: each one a WORLD with its border.",
@@ -2379,9 +2376,9 @@
           "gloss": "seawater; saltwater"
         },
         {
-          "form": "海洋",
-          "reading": "かいよう",
-          "gloss": "ocean; sea"
+          "form": "海",
+          "reading": "うみ",
+          "gloss": "sea"
         }
       ],
       "notes": "Water on the left as far as you can see: the wide SEA.",
@@ -3261,7 +3258,8 @@
       "meanings": [
         "true",
         "real",
-        "reality"
+        "reality",
+        "exactly"
       ],
       "stroke_order_svg": "svg/kanji/真.svg",
       "examples": [
@@ -3282,16 +3280,16 @@
           "gloss": "photograph; photo"
         },
         {
-          "form": "真相",
-          "reading": "しんそう",
-          "gloss": "truth; real situation"
+          "form": "真っ白",
+          "reading": "まっしろ",
+          "gloss": "pure white"
         }
       ],
       "notes": "A precious pot filled right to the brim - full, so genuine and TRUE.",
       "deck_order_rank": 65,
       "origin_disputed": true,
       "mnemonic_not_etymology": true,
-      "display_meaning": "true; real; reality"
+      "display_meaning": "true; real; exactly; pure"
     },
     {
       "id": "n4.kanji.有",
@@ -3359,7 +3357,8 @@
       "primary_kind": "on",
       "meanings": [
         "few",
-        "little"
+        "little",
+        "young"
       ],
       "stroke_order_svg": "svg/kanji/少.svg",
       "examples": [
@@ -3381,14 +3380,14 @@
         {
           "form": "多少",
           "reading": "たしょう",
-          "gloss": "somewhat; some"
+          "gloss": "some; a little"
         }
       ],
       "notes": "A few tiny bits with one slice taken off: only a LITTLE.",
       "deck_order_rank": 67,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "few; little"
+      "display_meaning": "few; little; young"
     },
     {
       "id": "n4.kanji.町",
@@ -3667,9 +3666,9 @@
           "gloss": "prohibition; ban"
         },
         {
-          "form": "防止",
-          "reading": "ぼうし",
-          "gloss": "prevention; check"
+          "form": "中止",
+          "reading": "ちゅうし",
+          "gloss": "cancellation; calling off"
         }
       ],
       "notes": "One footprint planted firmly on the spot: STOP right here.",
@@ -3738,7 +3737,8 @@
       "meanings": [
         "cut",
         "cutoff",
-        "be sharp"
+        "be sharp",
+        "earnest"
       ],
       "stroke_order_svg": "svg/kanji/切.svg",
       "examples": [
@@ -3768,7 +3768,7 @@
       "deck_order_rank": 75,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "cut; cutoff; be sharp"
+      "display_meaning": "cut; be sharp; earnest"
     },
     {
       "id": "n4.kanji.転",
@@ -3893,9 +3893,9 @@
           "gloss": "laboratory"
         },
         {
-          "form": "究極",
-          "reading": "きゅうきょく",
-          "gloss": "ultimate; final"
+          "form": "研究者",
+          "reading": "けんきゅうしゃ",
+          "gloss": "researcher"
         }
       ],
       "notes": "穴 (cave/hole) carries the meaning; 九 gives the sound. Memory hook: dig deep into a winding cave to the end = RESEARCH.",
@@ -4044,9 +4044,9 @@
           "gloss": "to wear; to put on"
         },
         {
-          "form": "決着",
-          "reading": "けっちゃく",
-          "gloss": "conclusion; decision"
+          "form": "着く",
+          "reading": "つく",
+          "gloss": "to arrive"
         }
       ],
       "notes": "Memory device: picture grass/sprigs (艹) settling and sticking onto a spot; 者 gives only the sound. 着 is a later split of 著 - the attach/wear/arrive senses are the word's, not built from 艹.",
@@ -4144,11 +4144,6 @@
           "form": "質",
           "reading": "しつ",
           "gloss": "quality; value"
-        },
-        {
-          "form": "物質",
-          "reading": "ぶっしつ",
-          "gloss": "material; substance"
         },
         {
           "form": "品質",
@@ -4293,19 +4288,14 @@
           "gloss": "family"
         },
         {
-          "form": "民族",
-          "reading": "みんぞく",
-          "gloss": "ethnic group; people"
+          "form": "水族館",
+          "reading": "すいぞくかん",
+          "gloss": "aquarium"
         },
         {
-          "form": "親族",
-          "reading": "しんぞく",
-          "gloss": "relative; relation"
-        },
-        {
-          "form": "貴族",
-          "reading": "きぞく",
-          "gloss": "nobility; aristocracy"
+          "form": "大家族",
+          "reading": "だいかぞく",
+          "gloss": "large family"
         }
       ],
       "notes": "One flag and a shared bundle of arrows bring the whole FAMILY together.",
@@ -4396,9 +4386,9 @@
           "gloss": "fast-talking; rapid talking"
         },
         {
-          "form": "早々",
-          "reading": "はやばや",
-          "gloss": "promptly; quickly"
+          "form": "早速",
+          "reading": "さっそく",
+          "gloss": "at once; right away"
         }
       ],
       "notes": "One telling: the sun sits low at first light = EARLY. (The origin is genuinely disputed.)",
@@ -4595,16 +4585,16 @@
           "gloss": "English sentence; English text"
         },
         {
-          "form": "英雄",
-          "reading": "えいゆう",
-          "gloss": "hero; heroine"
+          "form": "英国",
+          "reading": "えいこく",
+          "gloss": "Britain; the UK"
         }
       ],
       "notes": "A bright flower among the grass (艹) is 'brilliant'; 央 gives only the sound (it also spells ENGLAND).",
       "deck_order_rank": 92,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "English; England; outstanding"
+      "display_meaning": "English; England"
     },
     {
       "id": "n4.kanji.医",
@@ -4772,9 +4762,9 @@
           "gloss": "taste; flavor"
         },
         {
-          "form": "味噌",
-          "reading": "みそ",
-          "gloss": "miso (soybean paste)"
+          "form": "意味",
+          "reading": "いみ",
+          "gloss": "meaning"
         },
         {
           "form": "興味",
@@ -5651,7 +5641,8 @@
       "primary_reading": "あお(い)",
       "primary_kind": "kun",
       "meanings": [
-        "blue"
+        "blue",
+        "young"
       ],
       "stroke_order_svg": "svg/kanji/青.svg",
       "examples": [
@@ -5675,7 +5666,7 @@
       "deck_order_rank": 114,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "blue"
+      "display_meaning": "blue; young"
     },
     {
       "id": "n4.kanji.館",
@@ -5813,9 +5804,9 @@
           "gloss": "brown"
         },
         {
-          "form": "色彩",
-          "reading": "しきさい",
-          "gloss": "color"
+          "form": "黄色",
+          "reading": "きいろ",
+          "gloss": "yellow"
         },
         {
           "form": "特色",
@@ -6262,7 +6253,8 @@
       "primary_reading": "ニク",
       "primary_kind": "on",
       "meanings": [
-        "meat"
+        "meat",
+        "flesh"
       ],
       "stroke_order_svg": "svg/kanji/肉.svg",
       "examples": [
@@ -6272,9 +6264,9 @@
           "gloss": "beef"
         },
         {
-          "form": "筋肉",
-          "reading": "きんにく",
-          "gloss": "muscle"
+          "form": "肉",
+          "reading": "にく",
+          "gloss": "meat"
         },
         {
           "form": "焼肉",
@@ -6282,16 +6274,16 @@
           "gloss": "grilled meat; yakiniku"
         },
         {
-          "form": "肉体",
-          "reading": "にくたい",
-          "gloss": "body"
+          "form": "肉屋",
+          "reading": "にくや",
+          "gloss": "butcher shop"
         }
       ],
       "notes": "A thick piece with cut lines running through it: that is MEAT.",
       "deck_order_rank": 127,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "meat"
+      "display_meaning": "meat; flesh"
     },
     {
       "id": "n4.kanji.貸",
@@ -6317,11 +6309,6 @@
           "form": "貸す",
           "reading": "かす",
           "gloss": "to lend; to loan"
-        },
-        {
-          "form": "賃貸",
-          "reading": "ちんたい",
-          "gloss": "leasing (out); renting out"
         },
         {
           "form": "貸家",
@@ -6452,9 +6439,9 @@
           "gloss": "cooked rice; meal"
         },
         {
-          "form": "炊飯器",
-          "reading": "すいはんき",
-          "gloss": "rice cooker"
+          "form": "昼ご飯",
+          "reading": "ひるごはん",
+          "gloss": "lunch"
         },
         {
           "form": "赤飯",
@@ -6853,11 +6840,6 @@
           "gloss": "dog"
         },
         {
-          "form": "盲導犬",
-          "reading": "もうどうけん",
-          "gloss": "guide dog; seeing-eye dog"
-        },
-        {
           "form": "愛犬",
           "reading": "あいけん",
           "gloss": "pet dog; beloved dog"
@@ -6982,11 +6964,6 @@
           "gloss": "kanji; Chinese character"
         },
         {
-          "form": "漢方薬",
-          "reading": "かんぽうやく",
-          "gloss": "Chinese herbal medicine"
-        },
-        {
           "form": "漢方",
           "reading": "かんぽう",
           "gloss": "traditional Chinese medicine"
@@ -7033,12 +7010,17 @@
         {
           "form": "言い方",
           "reading": "いいかた",
-          "gloss": "way of saying, expression"
+          "gloss": "way of saying; expression"
         },
         {
           "form": "一言",
           "reading": "ひとこと",
-          "gloss": "a word / a brief comment"
+          "gloss": "a word; a brief comment"
+        },
+        {
+          "form": "方言",
+          "reading": "ほうげん",
+          "gloss": "dialect"
         }
       ],
       "notes": "Words (言) leaving the mouth = SAY.",
@@ -7237,8 +7219,7 @@
       "n5_prerequisite": false,
       "lesson_order": 149,
       "on": [
-        "リツ",
-        "リュウ"
+        "リツ"
       ],
       "kun": [
         "た(つ)",
@@ -7247,7 +7228,9 @@
       "primary_reading": "た(つ)",
       "primary_kind": "kun",
       "meanings": [
-        "stand"
+        "stand",
+        "set up",
+        "establish"
       ],
       "stroke_order_svg": "svg/kanji/立.svg",
       "examples": [
@@ -7262,17 +7245,23 @@
           "gloss": "to stand up"
         },
         {
-          "form": "立ち入り",
-          "reading": "たちいり",
-          "gloss": "entry / entering (often \"立入禁止\" = no entry)"
+          "form": "国立",
+          "reading": "こくりつ",
+          "gloss": "national; state-run"
         }
       ],
       "notes": "A person planted on the ground = STAND.",
       "deck_order_rank": 149,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "stand",
-      "ported_from": "n5"
+      "display_meaning": "stand; set up; establish",
+      "ported_from": "n5",
+      "secondary_readings": {
+        "on": [
+          "リュウ"
+        ],
+        "kun": []
+      }
     },
     {
       "id": "n4.kanji.田",
@@ -7424,7 +7413,7 @@
         {
           "form": "力",
           "reading": "ちから",
-          "gloss": "power, strength"
+          "gloss": "power; strength"
         },
         {
           "form": "力持ち",
@@ -7432,14 +7421,14 @@
           "gloss": "strong person"
         },
         {
-          "form": "人力",
-          "reading": "じんりき",
-          "gloss": "human power"
+          "form": "人力車",
+          "reading": "じんりきしゃ",
+          "gloss": "rickshaw"
         },
         {
-          "form": "力学",
-          "reading": "りきがく",
-          "gloss": "mechanics / dynamics"
+          "form": "体力",
+          "reading": "たいりょく",
+          "gloss": "physical strength; stamina"
         }
       ],
       "notes": "A flexed arm muscle = POWER.",
@@ -7472,7 +7461,7 @@
         {
           "form": "道",
           "reading": "みち",
-          "gloss": "road, way"
+          "gloss": "road; way"
         },
         {
           "form": "車道",
@@ -7482,7 +7471,7 @@
         {
           "form": "山道",
           "reading": "やまみち",
-          "gloss": "mountain path / trail"
+          "gloss": "mountain path; trail"
         }
       ],
       "notes": "Walking (辶) with one's head (首) up = ROAD / way.",
@@ -7607,9 +7596,9 @@
           "gloss": "cheap"
         },
         {
-          "form": "安く",
-          "reading": "やすく",
-          "gloss": "cheaply (adverb)"
+          "form": "安心",
+          "reading": "あんしん",
+          "gloss": "relief; peace of mind"
         },
         {
           "form": "大安",
@@ -7649,7 +7638,7 @@
         {
           "form": "足",
           "reading": "あし",
-          "gloss": "foot, leg"
+          "gloss": "foot; leg"
         },
         {
           "form": "一足",
@@ -7664,7 +7653,7 @@
         {
           "form": "手足",
           "reading": "てあし",
-          "gloss": "hands and feet / limbs"
+          "gloss": "hands and feet; limbs"
         }
       ],
       "notes": "Mouth-shape (口) over stop (止) = FOOT (where you stop).",
@@ -7796,7 +7785,7 @@
         {
           "form": "中古",
           "reading": "ちゅうこ",
-          "gloss": "second-hand / used"
+          "gloss": "second-hand; used"
         }
       ],
       "notes": "Ten (十) generations of stories (口) = OLD.",
@@ -7838,7 +7827,12 @@
         {
           "form": "買い手",
           "reading": "かいて",
-          "gloss": "buyer / purchaser"
+          "gloss": "buyer; purchaser"
+        },
+        {
+          "form": "売買",
+          "reading": "ばいばい",
+          "gloss": "buying and selling"
         }
       ],
       "notes": "Net (罒) for shell-money (貝) = BUY.",
@@ -7917,12 +7911,17 @@
         {
           "form": "飲み物",
           "reading": "のみもの",
-          "gloss": "drink, beverage"
+          "gloss": "drink; beverage"
         },
         {
           "form": "飲み水",
           "reading": "のみみず",
           "gloss": "drinking water"
+        },
+        {
+          "form": "飲食",
+          "reading": "いんしょく",
+          "gloss": "eating and drinking"
         }
       ],
       "notes": "Food (飠) and a yawn (欠) - DRINK to wash it down.",
@@ -8089,9 +8088,9 @@
           "gloss": "purpose; goal"
         },
         {
-          "form": "一般的",
-          "reading": "いっぱんてき",
-          "gloss": "general; typical"
+          "form": "目的地",
+          "reading": "もくてきち",
+          "gloss": "destination"
         },
         {
           "form": "的",

@@ -867,8 +867,7 @@
   },
   "立": {
     "on": [
-      "リツ",
-      "リュウ"
+      "リツ"
     ],
     "kun": [
       "た(つ)",
@@ -876,7 +875,13 @@
     ],
     "primary": "た(つ)",
     "tier": "n5_prerequisite",
-    "primary_kind": "kun"
+    "primary_kind": "kun",
+    "secondary_readings": {
+      "on": [
+        "リュウ"
+      ],
+      "kun": []
+    }
   },
   "聞": {
     "on": [

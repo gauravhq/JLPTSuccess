@@ -54,7 +54,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - secondary_on: ゴウ
   - kun: わざ
   - primary: ギョウ  (kind: on)
-  - meanings: business, industry, vocation, arts
+  - meanings: business, industry, vocation, arts, studies
 
 - **方**  (tier: core_n4)
   - on: ホウ
@@ -173,7 +173,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: キョウ、ゴウ
   - kun: つよ(い)、つよ(まる)、つよ(める)、し(いる)
   - primary: つよ(い)  (kind: kun)
-  - meanings: strong
+  - meanings: strong, strive
 
 - **公**  (tier: core_n4)
   - on: コウ
@@ -410,7 +410,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: シン
   - kun: ま
   - primary: シン  (kind: on)
-  - meanings: true, real, reality
+  - meanings: true, real, reality, exactly
 
 - **有**  (tier: core_n4)
   - on: ユウ、ウ
@@ -422,7 +422,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ショウ
   - kun: すく(ない)、すこ(し)
   - primary: ショウ  (kind: on)
-  - meanings: few, little
+  - meanings: few, little, young
 
 - **町**  (tier: core_n4)
   - on: チョウ
@@ -470,7 +470,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: セツ、サイ
   - kun: き(る)
   - primary: セツ  (kind: on)
-  - meanings: cut, cutoff, be sharp
+  - meanings: cut, cutoff, be sharp, earnest
 
 - **転**  (tier: core_n4)
   - on: テン
@@ -714,7 +714,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: セイ、ショウ
   - kun: あお、あお(い)
   - primary: あお(い)  (kind: kun)
-  - meanings: blue
+  - meanings: blue, young
 
 - **館**  (tier: core_n4)
   - on: カン
@@ -793,7 +793,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ニク
   - kun: (none)
   - primary: ニク  (kind: on)
-  - meanings: meat
+  - meanings: meat, flesh
 
 - **貸**  (tier: core_n4)
   - on: タイ
@@ -923,10 +923,11 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - meanings: I, me
 
 - **立**  (tier: core_n4)
-  - on: リツ、リュウ
+  - on: リツ
+  - secondary_on: リュウ
   - kun: た(つ)、た(てる)
   - primary: た(つ)  (kind: kun)
-  - meanings: stand
+  - meanings: stand, set up, establish
 
 - **田**  (tier: core_n4)
   - on: デン

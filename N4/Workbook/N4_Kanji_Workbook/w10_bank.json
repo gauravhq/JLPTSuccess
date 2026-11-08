@@ -116,7 +116,7 @@
    "target_word": "走者",
    "reading": "そうしゃ",
    "meaning": "a runner",
-   "sentence": "さいごの 走者が ゴールに つきました。",
+   "sentence": "さいごの 走者が ゴールしました。",
    "underline": "走者",
    "options": [
     "そしゃ",
@@ -309,7 +309,7 @@
    "options": [
     "春",
     "秋",
-    "なつ",
+    "夏",
     "ふゆ"
    ],
    "correct": 2,
@@ -437,7 +437,7 @@
    "correct": 1
   },
   "M4": {
-   "sentence": "この かばんは とても かるいです。",
+   "sentence": "この かばんは かるいです。",
    "underline": "かるい",
    "options": [
     "この かばんは とても おもいです。",

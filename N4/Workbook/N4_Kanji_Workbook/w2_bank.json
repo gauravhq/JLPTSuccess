@@ -75,7 +75,7 @@
    "correct": 4,
    "explanation": "「地理」は「ちり」と読みます。",
    "distractors": [
-    "on じ (as in 地震), wrong here",
+    "on じ, wrong here",
     "changes り->りょう",
     "wrong kana し for ち",
     "CORRECT"
@@ -101,7 +101,7 @@
    "correct": 2,
    "explanation": "「体力」は「たいりょく」と読みます。",
    "distractors": [
-    "on りき (as in 人力), wrong here",
+    "on りき (as in 人力車), wrong here",
     "CORRECT",
     "voices the initial (たい->だい)",
     "wrong kana ろ for りょ (ろく)"
@@ -179,7 +179,7 @@
    "correct": 1,
    "explanation": "「あける」は「明ける」と書きます。",
    "distractors": [
-    "CORRECT: 夜が明ける = day breaks",
+    "CORRECT: 明ける = day breaks",
     "開ける = あける, 'open', wrong meaning here",
     "空ける = あける, 'make vacant', wrong meaning here",
     "分ける = わける, 'divide', different reading"
@@ -335,7 +335,7 @@
    "options": [
     "しあいの まえに、飲みものを 買いました。",
     "しあいの まえに、飲みものを じゅんびしました。",
-    "しあいの まえに、飲みものを のみました。",
+    "しあいの まえに、飲みものを 飲みました。",
     "しあいの まえに、飲みものを わすれました。"
    ],
    "correct": 2,
@@ -344,7 +344,7 @@
     "bought (not the same as prepared)",
     "CORRECT: prepared = 用意",
     "drank (no)",
-    "forgot (opposite)"
+    "forgot (different)"
    ]
   },
   {
@@ -438,10 +438,10 @@
    "sentence": "この えいがは ゆうめいです。",
    "underline": "ゆうめい",
    "options": [
-    "だれも しりません。",
-    "みんなが よく しって います。",
-    "だれも 見て いません。",
-    "とても つまらないです。"
+    "この えいがは だれも しりません。",
+    "この えいがは みんなが よく しって います。",
+    "この えいがは だれも 見て いません。",
+    "この えいがは とても つまらないです。"
    ],
    "correct": 2
   },
