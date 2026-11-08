@@ -6653,6 +6653,10 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      Recheck records (added 2026-11-08): a recheck PASS counts only when it is bound to the item's
      current text (hash) and names the reviewer type (AI agent or native speaker). Cross-ref: F.70
      point 8.
+     Card-meaning coverage (added 2026-11-08): a card meaning that leaves out a sense its own example
+     needs is a blocking key/gloss failure even when a reviewer files it as style (度 支度, 公 主人公,
+     色 特色, 口 入り口); a new example must be checked against the meaning (口 人口). Cross-ref: F.70
+     point 9.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

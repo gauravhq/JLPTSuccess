@@ -1351,10 +1351,9 @@
           "gloss": "this time; next time"
         },
         {
-          "form": "支度",
-          "reading": "したく",
-          "gloss": "preparation; getting ready",
-          "special": true
+          "form": "何度",
+          "reading": "なんど",
+          "gloss": "how many times; how many degrees"
         }
       ],
       "notes": "A hand measures the same thing again and again: each measure is one DEGREE, one time.",
@@ -1455,11 +1454,6 @@
           "form": "公園",
           "reading": "こうえん",
           "gloss": "(public) park"
-        },
-        {
-          "form": "主人公",
-          "reading": "しゅじんこう",
-          "gloss": "main character (of a story)"
         }
       ],
       "notes": "Split it open and share with everyone: that is PUBLIC.",
@@ -5791,7 +5785,9 @@
       "primary_reading": "ショク",
       "primary_kind": "on",
       "meanings": [
-        "color"
+        "color",
+        "appearance",
+        "character"
       ],
       "stroke_order_svg": "svg/kanji/色.svg",
       "examples": [
@@ -5821,7 +5817,7 @@
       "deck_order_rank": 117,
       "origin_disputed": true,
       "mnemonic_not_etymology": false,
-      "display_meaning": "color"
+      "display_meaning": "color; appearance; character"
     },
     {
       "id": "n4.kanji.走",
@@ -7501,7 +7497,8 @@
       "primary_reading": "くち",
       "primary_kind": "kun",
       "meanings": [
-        "mouth"
+        "mouth",
+        "opening"
       ],
       "stroke_order_svg": "svg/kanji/口.svg",
       "examples": [
@@ -7525,7 +7522,7 @@
       "deck_order_rank": 155,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "mouth",
+      "display_meaning": "mouth; opening",
       "ported_from": "n5"
     },
     {

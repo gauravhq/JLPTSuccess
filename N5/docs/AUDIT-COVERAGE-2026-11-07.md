@@ -142,6 +142,14 @@ AI recheck, attributed per item), 192 style notes with 0 open, Checklist 947 of 
 C1-C6 failures, against these checks and this AI reviewer setup only. Rendered-visual sign-offs
 R11C-R11J stay PENDING: they are human-only by the project's rule.
 
+Full checklist round 14 the same evening (all 947 rows, 8 fresh AI reviewers): 0 reported failures,
+18 style notes, of which 4 were card meanings missing a sense their examples need and were counted
+as C5 failures (度, 公, 色, 口) and fixed. Rechecks of the changed rows: round 15 (17 rows) 1 failure
+(色 still missing 'character'), round 16 (3 rows) 1 failure introduced by a fix (口 人口, removed),
+round 17 (2 rows) 0. At this checkpoint: Checklist 947 of 947 rows with 0 C1-C6 failures, 0 open
+automated hits, 215 style notes with 0 open, Review Items 245 of 245 PASS, against these checks and
+this AI reviewer setup only; no native-speaker review is implied.
+
 ---
 
 ## Future native-human review

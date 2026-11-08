@@ -341,15 +341,15 @@
     "これは 新しい 本です。",
     "これは とても 高い 本です。",
     "これは 大きい 本です。",
-    "これは 中古の 本です。"
+    "これは だれかが 前に 使った 本です。"
    ],
    "correct": 4,
-   "explanation": "古本 means a second-hand book, which matches 中古の 本.",
+   "explanation": "古本 means a second-hand book: a book someone used before.",
    "distractors": [
     "new (opposite)",
     "expensive (unrelated)",
     "big (unrelated)",
-    "CORRECT: 中古 = second-hand"
+    "CORRECT: someone used it before = 古本"
    ],
    "review_status": "automated-check-passed"
   },

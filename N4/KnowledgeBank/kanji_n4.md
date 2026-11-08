@@ -733,7 +733,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: ショク、シキ
   - kun: いろ
   - primary: ショク  (kind: on)
-  - meanings: color
+  - meanings: color, appearance, character
 
 - **走**  (tier: core_n4)
   - on: ソウ
@@ -963,7 +963,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: コウ
   - kun: くち
   - primary: くち  (kind: kun)
-  - meanings: mouth
+  - meanings: mouth, opening
 
 - **員**  (tier: core_n4)
   - on: イン

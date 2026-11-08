@@ -278,7 +278,7 @@
    "target_word": "夏休み",
    "reading": "なつやすみ",
    "meaning": "summer vacation",
-   "sentence": "学校が ない 七月から 八月までの 長い（　　）は とても 楽しみです。",
+   "sentence": "学校が ない 七月の おわりから 八月までの 長い（　　）は とても 楽しみです。",
    "underline": "（　　）",
    "options": [
     "夏休み",
@@ -287,7 +287,7 @@
     "たんじょう日"
    ],
    "correct": 1,
-   "explanation": "The July-August period is 夏休み (summer vacation); a weekend, a Sunday, or a birthday are not that long summer period.",
+   "explanation": "The long break from late July to August is 夏休み (summer vacation); a weekend, a Sunday, or a birthday are not that long summer period.",
    "distractors": [
     "CORRECT: summer vacation",
     "a weekend (not a summer period)",
@@ -404,7 +404,7 @@
  ],
  "examples": {
   "M1": {
-   "sentence": "山の うえに ゆきが つもって います。",
+   "sentence": "山の うえに ゆきが あります。",
    "underline": "山",
    "options": [
     "かわ",

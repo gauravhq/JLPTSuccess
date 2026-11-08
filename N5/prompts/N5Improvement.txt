@@ -2766,6 +2766,9 @@ Section-10 anti-items (one-round review, 2026-11-08):
 - Never leave a style note 'open' at the end of a round: apply it, or record why it is not applied.
 - Never record a recheck PASS that is not bound to the item's current text or that hides whether
   the reviewer was an AI agent or a native speaker (F.70 point 8).
+- Never accept a reviewer's 'style' label for a card meaning that misses a sense its own example
+  needs; that is a blocking failure. Never add a card example without checking its sense against the
+  card meaning (F.70 point 9).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 

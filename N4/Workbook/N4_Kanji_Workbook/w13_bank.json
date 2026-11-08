@@ -151,7 +151,7 @@
    "underline": "あんしん",
    "options": [
     "用心",
-    "心理",
+    "心",
     "中心",
     "安心"
    ],
@@ -159,7 +159,7 @@
    "explanation": "「あんしん」は「安心」と書きます。",
    "distractors": [
     "用心 = ようじん, 'caution'",
-    "心理 = しんり, 'psychology'",
+    "心 = こころ, 'heart'",
     "中心 = ちゅうしん, 'center'",
     "CORRECT: 安心 = relief"
    ]
@@ -178,7 +178,7 @@
    "underline": "しりつ",
    "options": [
     "国立",
-    "中立",
+    "私たち",
     "私立",
     "公立"
    ],
@@ -186,7 +186,7 @@
    "explanation": "「しりつ」は「私立」と書きます。",
    "distractors": [
     "国立 = こくりつ, 'national'",
-    "中立 = ちゅうりつ, 'neutral'",
+    "私たち = わたしたち, 'we'",
     "CORRECT: 私立 = private",
     "公立 = こうりつ, 'public'"
    ],
