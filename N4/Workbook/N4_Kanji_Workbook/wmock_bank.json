@@ -307,7 +307,7 @@
    "target_word": "かんがえる",
    "reading": "かんがえる",
    "meaning": "to think",
-   "sentence": "テストに 出た もんだいの こたえを、よく かんがえる ことが たいせつです。",
+   "sentence": "テストでは、こたえを 書く まえに よく かんがえる ことが たいせつです。",
    "underline": "かんがえる",
    "options": [
     "教える",
@@ -334,7 +334,7 @@
    "reading": "たかい",
    "meaning": "tall; high",
    "grammar_note": "i-adjective",
-   "sentence": "えきの まえの ビルは とても たかいです。",
+   "sentence": "駅の まえの ビルは とても たかいです。",
    "underline": "たかい",
    "options": [
     "高い",
@@ -720,10 +720,10 @@
     "よるの この 道は くらくて さむいです。"
    ],
    "correct": 2,
-   "explanation": "あぶない (dangerous) matches きけん (perilous).",
+   "explanation": "あぶない (dangerous) matches きけん (danger; dangerous).",
    "distractors": [
     "safe (opposite)",
-    "CORRECT: perilous = あぶない",
+    "CORRECT: きけん = あぶない (dangerous)",
     "quiet (no)",
     "cold (no)"
    ]

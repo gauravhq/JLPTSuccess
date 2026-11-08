@@ -134,6 +134,14 @@ answer-key label), fixed, and the recheck of that row found 0. At this checkpoin
 records 947 of 947 rows reviewed with 0 C1-C6 failures against these checks and this AI reviewer
 setup; no native-speaker review is implied.
 
+Queue closed the same day (F.70 point 8): the 123 Review Items awaiting recheck and 2 new worked
+examples were rechecked by 4 AI reviewer agents (round 11, 0 failures); 16 style notes from rounds
+11-12 were decided (14 applied, 2 not applied with the reason) and the 14 edited rows rechecked
+(rounds 12-13, 0 failures). At this checkpoint: Review Items 245 of 245 PASS (123 of them by the
+AI recheck, attributed per item), 192 style notes with 0 open, Checklist 947 of 947 rows with 0
+C1-C6 failures, against these checks and this AI reviewer setup only. Rendered-visual sign-offs
+R11C-R11J stay PENDING: they are human-only by the project's rule.
+
 ---
 
 ## Future native-human review

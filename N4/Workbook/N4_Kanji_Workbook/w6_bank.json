@@ -281,12 +281,12 @@
     "後ろ"
    ],
    "correct": 1,
-   "explanation": "Walking in the 真ん中 (middle) of the road, where cars drive, is dangerous; 入口 (entrance), 前 (front) and 後ろ (back) do not name the part of a road you walk along.",
+   "explanation": "Walking in the 真ん中 (middle) of the road, where cars drive, is dangerous; みちの 入口 (entrance), 前 (front) or 後ろ (back) does not say where on the road you are walking.",
    "distractors": [
     "CORRECT: 真ん中 = the middle of the road",
-    "入口 = entrance, not the part of a road you walk along",
-    "前 = front, not a part of the road",
-    "後ろ = back, not a part of the road"
+    "入口 = entrance; does not say where on the road you walk",
+    "前 = front; does not say where on the road you walk",
+    "後ろ = back; does not say where on the road you walk"
    ],
    "review_status": "revised"
   },

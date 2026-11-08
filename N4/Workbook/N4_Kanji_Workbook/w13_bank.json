@@ -27,7 +27,7 @@
     "CORRECT: かいしゃ = company",
     "adds an extra う",
     "on え (as in 会釈), wrong here",
-    "voices し->じ"
+    "voices しゃ->じゃ"
    ],
    "review_status": "automated-check-passed"
   },
@@ -307,7 +307,7 @@
    "target_word": "道",
    "reading": "みち",
    "meaning": "way; road",
-   "sentence": "えきへ 行く（　　）を まちがえて、ちがう ところに 出ました。",
+   "sentence": "駅へ 行く（　　）を まちがえて、ちがう ところに 出ました。",
    "underline": "（　　）",
    "options": [
     "天気",
@@ -442,15 +442,15 @@
    "correct": 1
   },
   "M4": {
-   "sentence": "この レストランは とても 有名です。",
-   "underline": "有名",
+   "sentence": "この へやは とても しずかです。",
+   "underline": "しずか",
    "options": [
-    "この レストランは だれも 知りません。",
-    "この レストランは みんなが よく 知って います。",
-    "この レストランは とても 高いです。",
-    "この レストランは とても 新しいです。"
+    "この へやは 人が たくさん います。",
+    "この へやは とても ひろいです。",
+    "この へやは おとが ほとんど しません。",
+    "この へやは とても あかるいです。"
    ],
-   "correct": 2
+   "correct": 3
   },
   "M5": {
    "sentence": "およぐ",

@@ -142,7 +142,7 @@
    "target_word": "うごく",
    "reading": "うごく",
    "meaning": "to move",
-   "sentence": "ロボットが ひとりで うごく のを 見ました。",
+   "sentence": "ロボットが うごく のを 見ました。",
    "underline": "うごく",
    "options": [
     "書く",
@@ -309,15 +309,15 @@
     "意見",
     "用事",
     "不安",
-    "主題"
+    "用意"
    ],
    "correct": 3,
-   "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or a theme are not feelings.",
+   "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or preparation are not feelings.",
    "distractors": [
     "opinion (no)",
     "errand (no)",
     "CORRECT: uneasy before a test",
-    "theme (no)"
+    "preparation (no)"
    ]
   },
   {
