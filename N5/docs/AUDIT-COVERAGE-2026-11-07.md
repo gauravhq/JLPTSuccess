@@ -150,6 +150,16 @@ round 17 (2 rows) 0. At this checkpoint: Checklist 947 of 947 rows with 0 C1-C6 
 automated hits, 215 style notes with 0 open, Review Items 245 of 245 PASS, against these checks and
 this AI reviewer setup only; no native-speaker review is implied.
 
+Checklist coverage review, 2026-11-09 (procedure-manual F.73): an external review found the test
+registry still aimed at the 245-item, 388-page component build. The workbook now has 316 test cases
+(30 final-release cases added: TC-FIN / WEX / WRT / ENG / PRD / GOV, none executed yet), a
+release_scope per registry case, the final PDF's checksum and page-order manifest in the run
+configuration, the extended-set sources in the manifest, and 28 coverage-matrix rows (7 existing
+rows corrected for relevance, 15 new component rows). Mode corrections: 3 grammar cases out of the visual mode, 5
+governance cases into a new MANUAL_GOVERNANCE mode. The self-audit's registry checks were found to
+read the wrong column and were fixed. These change what the checklist covers; they are not test
+results against the PDF.
+
 ---
 
 ## Future native-human review

@@ -2769,6 +2769,11 @@ Section-10 anti-items (one-round review, 2026-11-08):
 - Never accept a reviewer's 'style' label for a card meaning that misses a sense its own example
   needs; that is a blocking failure. Never add a card example without checking its sense against the
   card meaning (F.70 point 9).
+- Never finalize a test checklist that is bound to a component build instead of the release file:
+  every case needs a release scope, and the registry, configuration, coverage matrix and manifest
+  must name the same final file and page order (F.73).
+- Never close a whole-book claim with a sampled method, and never map a test to a component it does
+  not check (F.73 points 3-4).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 
