@@ -6640,3 +6640,11 @@ A95 ADDENDUM (fifth read, 2026-11-08): a label can hide a real reading without s
      must cover the sense its own examples teach (代 + 代金 = fee).
      Cross-ref: procedure-manual F.69.
 ================================================================================
+ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reconcile coverage:
+     every Japanese text block in the deliverable maps to exactly one checklist row (item or fixed
+     text), and items in the source that are not printed are listed; (2) apply the same fixed checks
+     to every row (reading, grammar, natural, one answer, key/gloss, level), decided in advance;
+     (3) run one script check per issue type found so far over every row; (4) count only those
+     checks as failures, style suggestions separately. A review that samples, or invents its
+     criteria per round, finds new issues every round. Cross-ref: procedure-manual F.70.
+================================================================================

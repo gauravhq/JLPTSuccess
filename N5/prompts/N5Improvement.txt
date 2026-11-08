@@ -2757,6 +2757,13 @@ Section-10 anti-items (A95 addendum, fifth read 2026-11-08):
 
 Source: N4 kanji book fifth language read 2026-11-08; procedure manual F.69.
 
+Section-10 anti-items (one-round review, 2026-11-08):
+- Never start a language review without a coverage reconciliation (every printed Japanese block maps
+  to one checklist row) and a fixed check list applied to every row.
+- Never fix a reviewer's finding without adding (or extending) a script check for its issue type.
+
+Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

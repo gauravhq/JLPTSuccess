@@ -115,6 +115,16 @@ bank was not swept at this checkpoint.
 
 ---
 
+## One-round review checklist, 2026-11-08 (procedure-manual F.70)
+
+The N4 review workbook now has one Checklist row per Japanese item in the merged PDF (948 rows in
+the PDF scanned: 170 cards, 245 practice items, 63 printed worked examples, 405 extended-set items,
+65 fixed-text blocks; 5,596 Japanese text blocks, 0 not covered). Six fixed checks per row; 19
+automated checks, one per issue type found so far: 6 open hits and 10 accepted hits at this
+checkpoint. No N5 artifact changed.
+
+---
+
 ## Future native-human review
 
 The mechanical check covers two frame shapes (blank + でした/だ/では, blank + noun; い-adjective + です
