@@ -920,7 +920,7 @@ https://gauravaccentureproducts.github.io/jlpt-n5-tutor/.
   - on: シ
   - kun: わたし、わたくし
   - primary: わたし  (kind: kun)
-  - meanings: I, me
+  - meanings: I, me, private
 
 - **立**  (tier: core_n4)
   - on: リツ

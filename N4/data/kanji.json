@@ -7185,7 +7185,8 @@
       "primary_kind": "kun",
       "meanings": [
         "I",
-        "me"
+        "me",
+        "private"
       ],
       "stroke_order_svg": "svg/kanji/私.svg",
       "examples": [
@@ -7209,7 +7210,7 @@
       "deck_order_rank": 148,
       "origin_disputed": false,
       "mnemonic_not_etymology": true,
-      "display_meaning": "I; me",
+      "display_meaning": "I; me; private",
       "ported_from": "n5"
     },
     {
