@@ -2777,6 +2777,9 @@ Section-10 anti-items (one-round review, 2026-11-08):
 - Never test a word in a reading item when the section heading prints its reading (問題 under
   もんだい); never print one item's answer in another item's sentence in the same section.
 - Never report a release-case FAIL without checking it is not a checker error (F.73 point 9).
+- Never rewrite a usage option without changing its label and explanation in the same edit, and
+  never leave a non-applied decision without the "not applied" prefix and an approval record
+  (approver, scope, re-decide condition) (F.73 points 11-13).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 

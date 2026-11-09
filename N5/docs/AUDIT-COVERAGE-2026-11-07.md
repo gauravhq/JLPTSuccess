@@ -173,6 +173,20 @@ cover files, previewer, qualified-teacher handwriting review. PENDING: per-occur
 inspection (R11C-R11J). Reviewers were AI agents; no native-speaker or qualified-teacher review
 is implied, and nothing was fixed in this run.
 
+Release-case fix pass, 2026-11-09/10 (F.73 points 11-14), run against the merged PDF with SHA-256
+08a0c45e...: 19 PASS, 2 FAIL, 8 BLOCKED, 1 PENDING of the 30 cases. Fixed and now PASS against
+the cases checked: the 5 answer leaks (TC-WEX03); the extended usage options and labels (TC-WEX04;
+a recheck of all 65 items found 0 violations, then checklist rounds 18-20 on the rows changed
+after it found 0 fails); the 9 English issues and the mock ribbon (TC-ENG01); How-to items 2-3
+(TC-ENG02, TC-WRT04); credits claims (TC-ENG06; all 170 kanji carry a Jōyō grade in KANJIDIC2);
+PDF metadata (TC-ENG04 script part). Checklist: 947 of 947 rows reviewed, 0 stale, 0 fails, 0
+open style notes. Still FAIL: TC-GOV02 (2 non-language waivers, dotted-rule pitch and PDF
+text-layer search, wait for an owner approval) and TC-GOV03 (closure). Still BLOCKED: production
+profile and its cases (TC-PRD01-06, TC-ENG04 platform record), mascot and cover-art provenance
+(TC-ENG05). PENDING: R11C-R11J human visual sign-off (TC-GOV01). The language and handwriting
+judgments were made by an AI in the native JLPT-expert reviewer role the owner assigned. No
+native-speaker or qualified-teacher review is implied.
+
 ---
 
 ## Future native-human review

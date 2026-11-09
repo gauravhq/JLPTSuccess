@@ -6667,6 +6667,11 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      headings (a reading item for 問題 under the heading もんだい1 shows its own answer); a usage
      distractor outside a transitivity subsection must be wrong by the target word alone, not by a
      particle or a second change; a subsection label must describe its items. Cross-ref: F.73 point 10.
+     Fix-round findings (added 2026-11-10): when you rewrite a usage option, check the new
+     distractor is not close to an idiom (目で 食べる "enjoy food with the eyes"), and check that its
+     fix word fits the noun type (行き先 names a place, not a direction such as 海の 方). The option,
+     its label and the explanation change in one edit. Re-review only the changed rows; expect
+     fewer notes each round. Cross-ref: F.73 points 11-14.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:
