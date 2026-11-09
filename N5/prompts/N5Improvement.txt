@@ -2774,6 +2774,9 @@ Section-10 anti-items (one-round review, 2026-11-08):
   must name the same final file and page order (F.73).
 - Never close a whole-book claim with a sampled method, and never map a test to a component it does
   not check (F.73 points 3-4).
+- Never test a word in a reading item when the section heading prints its reading (問題 under
+  もんだい); never print one item's answer in another item's sentence in the same section.
+- Never report a release-case FAIL without checking it is not a checker error (F.73 point 9).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 

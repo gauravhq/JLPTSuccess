@@ -160,6 +160,19 @@ governance cases into a new MANUAL_GOVERNANCE mode. The self-audit's registry ch
 read the wrong column and were fixed. These change what the checklist covers; they are not test
 results against the PDF.
 
+Release-case run, 2026-11-09 (F.73 points 9-10), against the merged PDF with SHA-256 3451c960...:
+13 PASS, 9 FAIL, 7 BLOCKED, 1 PENDING of the 30 cases. PASS includes the 650-question answer
+mapping, full content fidelity (5,588 Japanese blocks, 2,704 English fields), merge boundaries,
+build identity, all 340 stroke strips frame by frame, the 170 writing entries and their cells.
+FAIL: 5 same-unit answer leaks in the extended set, 20 extended usage options against their
+subsection rule (plus 6 label mismatches), 9 English issues, a How-to promise and running head the
+merged edition contradicts, 2 credits claims without current evidence, missing illustration
+provenance and an undelivered notices file, empty PDF metadata, waiver records without approver,
+and the closure case. BLOCKED: production profile, gutter, image PPI threshold, physical proof,
+cover files, previewer, qualified-teacher handwriting review. PENDING: per-occurrence visual
+inspection (R11C-R11J). Reviewers were AI agents; no native-speaker or qualified-teacher review
+is implied, and nothing was fixed in this run.
+
 ---
 
 ## Future native-human review

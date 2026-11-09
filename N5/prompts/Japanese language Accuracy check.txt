@@ -6663,6 +6663,10 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      production explicitly; and do not let a sampled method close a whole-book claim. Naturalness
      (stems, keys, worked examples, option frames) and controlled misuse (the misused word in a wrong
      usage option) are scoped so they cannot contradict. Cross-ref: procedure-manual F.73.
+     Release-case findings (added 2026-11-09): check leakage per assessment unit including section
+     headings (a reading item for 問題 under the heading もんだい1 shows its own answer); a usage
+     distractor outside a transitivity subsection must be wrong by the target word alone, not by a
+     particle or a second change; a subsection label must describe its items. Cross-ref: F.73 point 10.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:
