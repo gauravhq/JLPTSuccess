@@ -6672,6 +6672,10 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      fix word fits the noun type (行き先 names a place, not a direction such as 海の 方). The option,
      its label and the explanation change in one edit. Re-review only the changed rows; expect
      fewer notes each round. Cross-ref: F.73 points 11-14.
+     Full re-run (added 2026-11-10): check a kanji card's meaning against every example on the card,
+     not only the first, and flag literary standalone examples (夕 alone) or business words
+     (借り入れ) on a card for young learners. Not defects (false positives seen): 働きに 行く, rooftop
+     parks on department stores, the terse "(no)" answer-key label. Cross-ref: F.73 point 15.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

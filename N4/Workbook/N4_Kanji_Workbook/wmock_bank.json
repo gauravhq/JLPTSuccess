@@ -448,7 +448,7 @@
     "勉強"
    ],
    "correct": 1,
-   "explanation": "Having put on weight, you start 運動 (exercise); housework, errands and study do not help with weight.",
+   "explanation": "Having put on weight, you start 運動 (exercise); housework, errands and study are not what you start in order to lose weight.",
    "distractors": [
     "CORRECT: 運動 = exercise",
     "housework",
@@ -577,15 +577,15 @@
    "sentence": "きのうの テストの さいごの（　　）は、こたえを 出す ために むずかしい けいさんが ひつようでした。",
    "underline": "（　　）",
    "options": [
-    "話題",
+    "名前",
     "答え",
     "意見",
     "問題"
    ],
    "correct": 4,
-   "explanation": "A test item that needs a calculation to answer is a 問題 (problem); a topic, an answer or an opinion is not the thing you solve.",
+   "explanation": "A test item that needs a calculation to answer is a 問題 (problem); a name, an answer or an opinion is not the thing you solve.",
    "distractors": [
-    "a topic (no calculation)",
+    "a name (no calculation)",
     "an answer (you calculate to get it)",
     "an opinion (no calculation)",
     "CORRECT: 問題 = a test problem (needs a calculation to answer)"
@@ -693,7 +693,7 @@
     "この レストランは いつも こんで います。"
    ],
    "correct": 4,
-   "explanation": "お客が多い (many customers) means the place こんで いる (is crowded).",
+   "explanation": "おきゃくが 多い (many customers) means the place こんで いる (is crowded).",
    "distractors": [
     "is empty (opposite)",
     "is quiet (no)",

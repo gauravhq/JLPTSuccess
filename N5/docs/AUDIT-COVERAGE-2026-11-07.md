@@ -187,6 +187,14 @@ profile and its cases (TC-PRD01-06, TC-ENG04 platform record), mascot and cover-
 judgments were made by an AI in the native JLPT-expert reviewer role the owner assigned. No
 native-speaker or qualified-teacher review is implied.
 
+Full checklist re-run, 2026-11-10 (F.73 point 15). Round 21 (all 947 rows, 8 AI reviewer agents):
+0 fails against C1-C6, 27 style notes; 20 applied (6 kanji cards, 6 practice-test rows, 8
+extended-set rows), 7 declined with reasons and approval records. Round 22 (the 20 changed rows):
+0 fails, 2 style notes, both declined. Checklist state against the merged PDF with SHA-256
+6efb2cc9...: 947 of 947 rows reviewed, 0 stale, 0 fails, 0 open style notes;
+automated checks AC01-AC19: 0 open hits (10 accepted). Release cases unchanged at 19 PASS, 2 FAIL,
+8 BLOCKED, 1 PENDING (the same owner items as above).
+
 ---
 
 ## Future native-human review

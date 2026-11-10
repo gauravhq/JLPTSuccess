@@ -1448,7 +1448,7 @@
         {
           "form": "公立",
           "reading": "こうりつ",
-          "gloss": "public (run by the city or state)"
+          "gloss": "public (run by a city or prefecture)"
         },
         {
           "form": "公園",
@@ -2982,7 +2982,7 @@
       "deck_order_rank": 59,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "carry; luck; destiny"
+      "display_meaning": "carry; move; luck"
     },
     {
       "id": "n4.kanji.終",
@@ -3649,7 +3649,7 @@
         {
           "form": "止む",
           "reading": "やむ",
-          "gloss": "to stop"
+          "gloss": "to stop (of rain, wind)"
         },
         {
           "form": "止める",
@@ -3998,7 +3998,7 @@
       "deck_order_rank": 80,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "wake up; get up; rouse"
+      "display_meaning": "wake up; get up; happen"
     },
     {
       "id": "n4.kanji.着",
@@ -6166,9 +6166,9 @@
       "stroke_order_svg": "svg/kanji/夕.svg",
       "examples": [
         {
-          "form": "夕",
-          "reading": "ゆう",
-          "gloss": "evening"
+          "form": "夕日",
+          "reading": "ゆうひ",
+          "gloss": "the setting sun"
         },
         {
           "form": "夕方",
@@ -6226,11 +6226,6 @@
           "form": "借り物",
           "reading": "かりもの",
           "gloss": "borrowed thing"
-        },
-        {
-          "form": "借り入れ",
-          "reading": "かりいれ",
-          "gloss": "borrowing (money)"
         }
       ],
       "notes": "Ask a person to lend you something for a while, to BORROW it.",
