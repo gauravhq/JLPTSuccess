@@ -6676,6 +6676,13 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      not only the first, and flag literary standalone examples (夕 alone) or business words
      (借り入れ) on a card for young learners. Not defects (false positives seen): 働きに 行く, rooftop
      parks on department stores, the terse "(no)" answer-key label. Cross-ref: F.73 point 15.
+     Classification and sense (added 2026-11-12): judge on / kun class as language, not script; a
+     katakana reading under ON'YOMI must still be an on'yomi of that kanji (KANJIDIC2). Judge a printed
+     form, its reading and its gloss as one dictionary sense: a reading or meaning found elsewhere in
+     the same JMdict entry is not enough, and re_restr / stagk / stagr restrictions count. Not defects:
+     ateji / gikun spellings that are the standard everyday form (時計, 真面目, 試合, 風邪) when the
+     reading is printed. Level: apply one policy (assessed / incidental / enrichment / secondary
+     reading). An AI review does not replace the qualified-human gate. Cross-ref: F.73 point 16.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

@@ -195,6 +195,22 @@ extended-set rows), 7 declined with reasons and approval records. Round 22 (the 
 automated checks AC01-AC19: 0 open hits (10 accepted). Release cases unchanged at 19 PASS, 2 FAIL,
 8 BLOCKED, 1 PENDING (the same owner items as above).
 
+Checklist coverage feedback, 2026-11-12 (F.73 point 16). These changes affect what the checklist
+covers; they are not new test results against the PDF, except for the new automated checks.
+- Language Applicability sheet: 171 language cases x 15 content types, each cell APPLIES (969) or N/A
+  with a reason (1,596). The coverage-matrix rows CM01, CM02, CM05, CM07, CM14, CM17 and CM18-CM22
+  take their lists from it. Self-audit checks A14a-A14c pass, and each failed when its defect was
+  injected.
+- TC-JPN03 now checks classification against KANJIDIC2 (check AC20: 0 hits across 170 cards).
+- New TC-JPN05 checks form + reading + sense compatibility (check AC21: 6 hits, all ateji / gikun
+  standard spellings, accepted with reasons; 13 inflected 問題1 targets are left to TC-R01).
+- New TC-LVL06 is the shared level policy, and TC-G03, TC-K07 and TC-LVL01 now refer to it.
+- New TC-GOV04 is the qualified-human whole-book gate. It is BLOCKED: no qualified reviewer is
+  recorded, and the AI review does not count for it.
+- TC-QA10 / TC-GOV03 now clear a case only as PASS or with an approved exception (mutation-tested).
+- Test Checklist: 319 cases (288 + 31 final-release). Release cases: 19 PASS, 2 FAIL, 9 BLOCKED,
+  1 PENDING.
+
 ---
 
 ## Future native-human review

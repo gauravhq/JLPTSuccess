@@ -2782,6 +2782,9 @@ Section-10 anti-items (one-round review, 2026-11-08):
   (approver, scope, re-decide condition) (F.73 points 11-13).
 - Never start a review round without writing every earlier declined note into the reviewer rules,
   and never leave a card meaning that misses a sense one of its own examples needs (F.73 point 15).
+- Never add a language test case without deciding it for every content type (APPLIES or N/A with a
+  reason), never accept a dictionary flag by form alone (use form + reading), and never count FAIL,
+  BLOCKED, PENDING or NOT_EXECUTED as a cleared release gate (F.73 point 16).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 
