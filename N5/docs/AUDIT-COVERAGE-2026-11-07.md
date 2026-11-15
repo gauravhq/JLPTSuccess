@@ -211,6 +211,15 @@ covers; they are not new test results against the PDF, except for the new automa
 - Test Checklist: 319 cases (288 + 31 final-release). Release cases: 19 PASS, 2 FAIL, 9 BLOCKED,
   1 PENDING.
 
+Checklist coverage review, 2026-11-15: the external reviewer found the checklist's coverage enough
+to finalize, with no missing test category. This approves the checklist's coverage, not the PDF
+for publication. Two wording fixes were applied before the freeze:
+- TC-GOV04 now passes only when no correctness, naturalness, reading, meaning or answer-validity
+  judgment is left unresolved; listing an open judgment does not pass the gate.
+- The workbook's sheet-count statements now say 18 sheets. The Authoring Guide's 180-245 item
+  guidance is labelled as original-component guidance, next to the final-book review scope.
+The pass / fail / blocked / pending records are unchanged and are kept separate from this verdict.
+
 ---
 
 ## Future native-human review
