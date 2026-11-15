@@ -6683,6 +6683,12 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      ateji / gikun spellings that are the standard everyday form (時計, 真面目, 試合, 風邪) when the
      reading is printed. Level: apply one policy (assessed / incidental / enrichment / secondary
      reading). An AI review does not replace the qualified-human gate. Cross-ref: F.73 point 16.
+     Set-level audit categories (added 2026-11-15, full checklist run): answer-key positions on a
+     fixed cycle; the key as the only kanji option (or only adjective / verb in 表記, so the
+     okurigana gives it away); the key as the longest or only negative option; distractors that are
+     random kana changes instead of believable slips; kanji outside the book's list in explanations;
+     an on reading highlighted where a basic kun word is met first. Check these per test unit, not per
+     row. Cross-ref: F.73 point 17.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

@@ -220,6 +220,18 @@ for publication. Two wording fixes were applied before the freeze:
   guidance is labelled as original-component guidance, next to the final-book review scope.
 The pass / fail / blocked / pending records are unchanged and are kept separate from this verdict.
 
+Full checklist run, 2026-11-15 (F.73 point 17), against the merged PDF (SHA-256 6efb2cc9...). All 319
+cases: 229 PASS, 14 FAIL, 9 BLOCKED, 54 PENDING, 13 N/A (checklist_run_results.json; per-case
+results in the QA Test Registry sheet). Language parts: 14 AI reviewer batches covered all 947
+rows, each applying its detailed cases, plus one 170-card follow-up for TC-K03. FAIL, verified
+against the data: TC-X01 (fixed answer-position cycles), TC-SA05 (kanji-only or length cues),
+TC-JLPT02 (okurigana gives away 12 extended 表記 keys), TC-K03 (28 cards), TC-LEVEL01 (7
+explanations), TC-R03 (5 items), TC-LVL01 (2), TC-LVL02 (1), TC-P02 (2), TC-U14 (1), TC-M02 (8
+cumulative-test targets outside the stated core-143 pool; the validator allows all 170), TC-QA10,
+TC-GOV02 and TC-GOV03. PENDING: 51 rendered cases (human R11 sign-off) and TC-GOV01. BLOCKED: the
+production profile, rights and TC-GOV04 qualified-human gate. These are AI-executed results. They
+are not a qualified human's verdicts, and nothing was fixed in this run.
+
 ---
 
 ## Future native-human review

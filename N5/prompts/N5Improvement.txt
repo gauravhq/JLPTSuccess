@@ -2785,6 +2785,9 @@ Section-10 anti-items (one-round review, 2026-11-08):
 - Never add a language test case without deciding it for every content type (APPLIES or N/A with a
   reason), never accept a dictionary flag by form alone (use form + reading), and never count FAIL,
   BLOCKED, PENDING or NOT_EXECUTED as a cleared release gate (F.73 point 16).
+- Never generate answer keys on a fixed position cycle, never let the key be the only kanji (or only
+  same-part-of-speech) option, and never print a kanji outside the book's list in an explanation
+  without its reading (F.73 point 17).
 
 Source: N4 kanji book review workbook 2026-11-08; procedure manual F.70.
 
