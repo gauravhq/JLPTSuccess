@@ -210,9 +210,9 @@
       "stroke_order_svg": "svg/kanji/事.svg",
       "examples": [
         {
-          "form": "事故",
-          "reading": "じこ",
-          "gloss": "accident"
+          "form": "仕事",
+          "reading": "しごと",
+          "gloss": "work; job"
         },
         {
           "form": "大事",
@@ -278,9 +278,9 @@
           "gloss": "myself; yourself"
         },
         {
-          "form": "自宅",
-          "reading": "じたく",
-          "gloss": "one's home; one's house"
+          "form": "自然",
+          "reading": "しぜん",
+          "gloss": "nature"
         }
       ],
       "notes": "It's a picture of a NOSE; 'oneself' just borrowed its sound. (Japanese do point at their own nose for 'me' - a handy memory aid.)",
@@ -585,8 +585,8 @@
         "あ(ける)",
         "あ(く)"
       ],
-      "primary_reading": "カイ",
-      "primary_kind": "on",
+      "primary_reading": "あ(ける)",
+      "primary_kind": "kun",
       "meanings": [
         "open",
         "unfold",
@@ -610,9 +610,9 @@
           "gloss": "opening to the public"
         },
         {
-          "form": "開店",
-          "reading": "かいてん",
-          "gloss": "opening of a shop"
+          "form": "開ける",
+          "reading": "あける",
+          "gloss": "to open (something)"
         }
       ],
       "notes": "Two hands reach into the gate and lift the bar, so it swings OPEN.",
@@ -762,14 +762,15 @@
           "gloss": "light; bright"
         },
         {
-          "form": "明らか",
-          "reading": "あきらか",
-          "gloss": "clear; obvious"
+          "form": "明日",
+          "reading": "あした",
+          "gloss": "tomorrow",
+          "special": true
         },
         {
-          "form": "不明",
-          "reading": "ふめい",
-          "gloss": "unclear; obscure"
+          "form": "明ける",
+          "reading": "あける",
+          "gloss": "to dawn; (a new year) to begin"
         }
       ],
       "notes": "At DAWN the sun is rising while the moon still lingers - their two lights together = BRIGHT. (Both the sun+moon and the older window+moon forms are ancient; 說文's standard is the window form.)",
@@ -814,6 +815,11 @@
           "form": "動物園",
           "reading": "どうぶつえん",
           "gloss": "zoo"
+        },
+        {
+          "form": "動かす",
+          "reading": "うごかす",
+          "gloss": "to move (something)"
         }
       ],
       "notes": "It takes real strength to MOVE something heavy.",
@@ -898,14 +904,14 @@
           "gloss": "traffic"
         },
         {
-          "form": "普通",
-          "reading": "ふつう",
-          "gloss": "ordinary; normal"
+          "form": "通す",
+          "reading": "とおす",
+          "gloss": "to let (someone) through; to pass (something) through"
         },
         {
           "form": "通う",
           "reading": "かよう",
-          "gloss": "to commute"
+          "gloss": "to go to regularly; to commute"
         },
         {
           "form": "通る",
@@ -1058,7 +1064,7 @@
         {
           "form": "主語",
           "reading": "しゅご",
-          "gloss": "subject"
+          "gloss": "subject (of a sentence)"
         },
         {
           "form": "主役",
@@ -1209,7 +1215,7 @@
         {
           "form": "不明",
           "reading": "ふめい",
-          "gloss": "unclear; obscure"
+          "gloss": "unknown; unclear"
         }
       ],
       "notes": "It's a flower's calyx; the shape was simply borrowed to mean NO / not.",
@@ -1231,8 +1237,8 @@
       "kun": [
         "つく(る)"
       ],
-      "primary_reading": "サク",
-      "primary_kind": "on",
+      "primary_reading": "つく(る)",
+      "primary_kind": "kun",
       "meanings": [
         "make",
         "create",
@@ -1722,7 +1728,7 @@
       "kun": [
         "よ"
       ],
-      "primary_reading": "セイ",
+      "primary_reading": "セ",
       "primary_kind": "on",
       "meanings": [
         "generation",
@@ -1743,9 +1749,9 @@
           "gloss": "care; help"
         },
         {
-          "form": "世代",
-          "reading": "せだい",
-          "gloss": "generation"
+          "form": "世の中",
+          "reading": "よのなか",
+          "gloss": "society; the world we live in"
         },
         {
           "form": "世紀",
@@ -2030,9 +2036,9 @@
           "gloss": "classroom; lecture room"
         },
         {
-          "form": "教会",
-          "reading": "きょうかい",
-          "gloss": "church; congregation"
+          "form": "教わる",
+          "reading": "おそわる",
+          "gloss": "to be taught; to learn from someone"
         }
       ],
       "notes": "An elder guides a child with a gentle tap to help them learn: to TEACH.",
@@ -2078,6 +2084,11 @@
           "form": "文法",
           "reading": "ぶんぽう",
           "gloss": "grammar"
+        },
+        {
+          "form": "注文",
+          "reading": "ちゅうもん",
+          "gloss": "order (in a shop or restaurant)"
         }
       ],
       "notes": "Strokes crossed like a woven pattern make WRITING.",
@@ -2253,8 +2264,8 @@
       "kun": [
         "かんが(える)"
       ],
-      "primary_reading": "コウ",
-      "primary_kind": "on",
+      "primary_reading": "かんが(える)",
+      "primary_kind": "kun",
       "meanings": [
         "consider",
         "think over"
@@ -2348,8 +2359,8 @@
       "kun": [
         "うみ"
       ],
-      "primary_reading": "カイ",
-      "primary_kind": "on",
+      "primary_reading": "うみ",
+      "primary_kind": "kun",
       "meanings": [
         "sea",
         "ocean"
@@ -2396,8 +2407,8 @@
         "う(る)",
         "う(れる)"
       ],
-      "primary_reading": "バイ",
-      "primary_kind": "on",
+      "primary_reading": "う(る)",
+      "primary_kind": "kun",
       "meanings": [
         "sell"
       ],
@@ -2409,9 +2420,9 @@
           "gloss": "selling area"
         },
         {
-          "form": "売り",
-          "reading": "うり",
-          "gloss": "sale; selling"
+          "form": "売れる",
+          "reading": "うれる",
+          "gloss": "to sell (well)"
         },
         {
           "form": "売る",
@@ -2442,8 +2453,8 @@
       "kun": [
         "し(る)"
       ],
-      "primary_reading": "チ",
-      "primary_kind": "on",
+      "primary_reading": "し(る)",
+      "primary_kind": "kun",
       "meanings": [
         "know",
         "knowledge",
@@ -2452,9 +2463,9 @@
       "stroke_order_svg": "svg/kanji/知.svg",
       "examples": [
         {
-          "form": "承知",
-          "reading": "しょうち",
-          "gloss": "consent; acknowledgement"
+          "form": "知識",
+          "reading": "ちしき",
+          "gloss": "knowledge"
         },
         {
           "form": "知る",
@@ -2488,8 +2499,8 @@
         "あつ(める)",
         "つど(う)"
       ],
-      "primary_reading": "シュウ",
-      "primary_kind": "on",
+      "primary_reading": "あつ(まる)",
+      "primary_kind": "kun",
       "meanings": [
         "gather",
         "meet"
@@ -2557,7 +2568,7 @@
         {
           "form": "別れる",
           "reading": "わかれる",
-          "gloss": "to separate"
+          "gloss": "to part (from someone); to say goodbye"
         }
       ],
       "notes": "A knife slices it apart, to SEPARATE into pieces.",
@@ -2579,8 +2590,8 @@
       "kun": [
         "もの"
       ],
-      "primary_reading": "ブツ",
-      "primary_kind": "on",
+      "primary_reading": "もの",
+      "primary_kind": "kun",
       "meanings": [
         "thing",
         "object",
@@ -2599,9 +2610,9 @@
           "gloss": "organism; living thing"
         },
         {
-          "form": "着物",
-          "reading": "きもの",
-          "gloss": "kimono"
+          "form": "荷物",
+          "reading": "にもつ",
+          "gloss": "luggage; baggage"
         },
         {
           "form": "見物",
@@ -2627,8 +2638,8 @@
       "kun": [
         "つか(う)"
       ],
-      "primary_reading": "シ",
-      "primary_kind": "on",
+      "primary_reading": "つか(う)",
+      "primary_kind": "kun",
       "meanings": [
         "use",
         "order",
@@ -2704,7 +2715,7 @@
         {
           "form": "商品",
           "reading": "しょうひん",
-          "gloss": "commodity; article of commerce"
+          "gloss": "product; merchandise"
         }
       ],
       "notes": "Three little boxes stacked on the shelf: GOODS for sale.",
@@ -2747,9 +2758,9 @@
           "special": true
         },
         {
-          "form": "合計",
-          "reading": "ごうけい",
-          "gloss": "sum total; total amount"
+          "form": "計る",
+          "reading": "はかる",
+          "gloss": "to measure (time)"
         },
         {
           "form": "計算",
@@ -2775,8 +2786,8 @@
       "kun": [
         "し(ぬ)"
       ],
-      "primary_reading": "シ",
-      "primary_kind": "on",
+      "primary_reading": "し(ぬ)",
+      "primary_kind": "kun",
       "meanings": [
         "death",
         "die"
@@ -2852,8 +2863,8 @@
         "はじ(める)",
         "はじ(まる)"
       ],
-      "primary_reading": "シ",
-      "primary_kind": "on",
+      "primary_reading": "はじ(める)",
+      "primary_kind": "kun",
       "meanings": [
         "commence",
         "begin"
@@ -2997,8 +3008,8 @@
         "お(わる)",
         "お(える)"
       ],
-      "primary_reading": "シュウ",
-      "primary_kind": "on",
+      "primary_reading": "お(わる)",
+      "primary_kind": "kun",
       "meanings": [
         "end",
         "finish"
@@ -3168,7 +3179,7 @@
         {
           "form": "住む",
           "reading": "すむ",
-          "gloss": "to live (of humans); to reside"
+          "gloss": "to live (in a place); to reside"
         },
         {
           "form": "住宅",
@@ -3349,8 +3360,8 @@
         "すく(ない)",
         "すこ(し)"
       ],
-      "primary_reading": "ショウ",
-      "primary_kind": "on",
+      "primary_reading": "すこ(し)",
+      "primary_kind": "kun",
       "meanings": [
         "few",
         "little",
@@ -3461,7 +3472,7 @@
         {
           "form": "料理",
           "reading": "りょうり",
-          "gloss": "cooking; cookery"
+          "gloss": "cooking; dish; cuisine"
         },
         {
           "form": "料金",
@@ -3540,8 +3551,8 @@
         "た(てる)",
         "た(つ)"
       ],
-      "primary_reading": "ケン",
-      "primary_kind": "on",
+      "primary_reading": "た(てる)",
+      "primary_kind": "kun",
       "meanings": [
         "build"
       ],
@@ -3563,9 +3574,9 @@
           "gloss": "to be erected; to be built"
         },
         {
-          "form": "建設",
-          "reading": "けんせつ",
-          "gloss": "construction; establishment"
+          "form": "建物",
+          "reading": "たてもの",
+          "gloss": "building"
         }
       ],
       "notes": "Stand it up straight and tall, piece by piece: to BUILD.",
@@ -3662,9 +3673,9 @@
           "gloss": "prohibition; ban"
         },
         {
-          "form": "中止",
-          "reading": "ちゅうし",
-          "gloss": "cancellation; calling off"
+          "form": "止まる",
+          "reading": "とまる",
+          "gloss": "to stop; to come to a halt"
         }
       ],
       "notes": "One footprint planted firmly on the spot: STOP right here.",
@@ -3688,8 +3699,9 @@
       "primary_reading": "ソウ",
       "primary_kind": "on",
       "meanings": [
-        "escort",
-        "send"
+        "send",
+        "see off",
+        "escort"
       ],
       "stroke_order_svg": "svg/kanji/送.svg",
       "examples": [
@@ -3713,7 +3725,7 @@
       "deck_order_rank": 74,
       "origin_disputed": false,
       "mnemonic_not_etymology": false,
-      "display_meaning": "escort; send"
+      "display_meaning": "send; see off; escort"
     },
     {
       "id": "n4.kanji.切",
@@ -3746,7 +3758,7 @@
         {
           "form": "親切",
           "reading": "しんせつ",
-          "gloss": "kind; gentle"
+          "gloss": "kind; helpful"
         },
         {
           "form": "大切",
@@ -3756,8 +3768,7 @@
         {
           "form": "切手",
           "reading": "きって",
-          "gloss": "stamp (postage)",
-          "special": true
+          "gloss": "stamp (postage)"
         }
       ],
       "notes": "A blade chops down on the right to CUT it.",
@@ -3799,9 +3810,9 @@
           "gloss": "bicycle; bike"
         },
         {
-          "form": "回転",
-          "reading": "かいてん",
-          "gloss": "rotation; revolution"
+          "form": "転ぶ",
+          "reading": "ころぶ",
+          "gloss": "to fall down; to trip"
         },
         {
           "form": "転がる",
@@ -3939,9 +3950,9 @@
           "gloss": "music"
         },
         {
-          "form": "楽器",
-          "reading": "がっき",
-          "gloss": "musical instrument"
+          "form": "楽",
+          "reading": "らく",
+          "gloss": "easy; comfortable"
         }
       ],
       "notes": "Strings stretched across a wooden frame, played for MUSIC and fun (the top element is debated).",
@@ -3964,8 +3975,8 @@
         "お(こす)",
         "お(こる)"
       ],
-      "primary_reading": "キ",
-      "primary_kind": "on",
+      "primary_reading": "お(きる)",
+      "primary_kind": "kun",
       "meanings": [
         "wake up",
         "get up",
@@ -4015,8 +4026,8 @@
         "つ(く)",
         "つ(ける)"
       ],
-      "primary_reading": "チャク",
-      "primary_kind": "on",
+      "primary_reading": "き(る)",
+      "primary_kind": "kun",
       "meanings": [
         "arrive",
         "wear",
@@ -4175,8 +4186,8 @@
       "kun": [
         "ま(つ)"
       ],
-      "primary_reading": "タイ",
-      "primary_kind": "on",
+      "primary_reading": "ま(つ)",
+      "primary_kind": "kun",
       "meanings": [
         "wait",
         "depend on",
@@ -4474,7 +4485,7 @@
         {
           "form": "親切",
           "reading": "しんせつ",
-          "gloss": "kind; gentle"
+          "gloss": "kind; helpful"
         },
         {
           "form": "両親",
@@ -4895,8 +4906,8 @@
         "こた(え)",
         "こた(える)"
       ],
-      "primary_reading": "トウ",
-      "primary_kind": "on",
+      "primary_reading": "こた(える)",
+      "primary_kind": "kun",
       "meanings": [
         "solution",
         "answer"
@@ -4967,9 +4978,9 @@
           "gloss": "night"
         },
         {
-          "form": "深夜",
-          "reading": "しんや",
-          "gloss": "late at night"
+          "form": "夜中",
+          "reading": "よなか",
+          "gloss": "the middle of the night"
         }
       ],
       "notes": "A person under the roof with the evening moon out: it is NIGHT.",
@@ -5095,8 +5106,8 @@
         "かえ(る)",
         "かえ(す)"
       ],
-      "primary_reading": "キ",
-      "primary_kind": "on",
+      "primary_reading": "かえ(る)",
+      "primary_kind": "kun",
       "meanings": [
         "return",
         "homecoming",
@@ -5144,8 +5155,8 @@
         "うた",
         "うた(う)"
       ],
-      "primary_reading": "カ",
-      "primary_kind": "on",
+      "primary_reading": "うた",
+      "primary_kind": "kun",
       "meanings": [
         "song",
         "sing"
@@ -5307,7 +5318,7 @@
         {
           "form": "会議室",
           "reading": "かいぎしつ",
-          "gloss": "conference room; conference hall"
+          "gloss": "meeting room; conference room"
         },
         {
           "form": "研究室",
@@ -5368,9 +5379,9 @@
           "gloss": "(a) step; one step"
         },
         {
-          "form": "進歩",
-          "reading": "しんぽ",
-          "gloss": "progress; advance"
+          "form": "歩道",
+          "reading": "ほどう",
+          "gloss": "sidewalk"
         }
       ],
       "notes": "One foot, then the other foot: step by step, you WALK.",
@@ -5400,8 +5411,8 @@
         "かぜ",
         "かざ-"
       ],
-      "primary_reading": "フウ",
-      "primary_kind": "on",
+      "primary_reading": "かぜ",
+      "primary_kind": "kun",
       "meanings": [
         "wind",
         "air",
@@ -5416,9 +5427,9 @@
           "gloss": "typhoon"
         },
         {
-          "form": "風景",
-          "reading": "ふうけい",
-          "gloss": "scenery; scene"
+          "form": "風",
+          "reading": "かぜ",
+          "gloss": "wind"
         },
         {
           "form": "風邪",
@@ -5465,7 +5476,7 @@
         {
           "form": "手紙",
           "reading": "てがみ",
-          "gloss": "letter; note"
+          "gloss": "letter"
         },
         {
           "form": "折り紙",
@@ -5497,8 +5508,8 @@
         "くろ",
         "くろ(い)"
       ],
-      "primary_reading": "コク",
-      "primary_kind": "on",
+      "primary_reading": "くろ(い)",
+      "primary_kind": "kun",
       "meanings": [
         "black"
       ],
@@ -5507,7 +5518,7 @@
         {
           "form": "黒",
           "reading": "くろ",
-          "gloss": "black"
+          "gloss": "black (the colour)"
         },
         {
           "form": "黒板",
@@ -5518,6 +5529,11 @@
           "form": "白黒",
           "reading": "しろくろ",
           "gloss": "black and white; monochrome"
+        },
+        {
+          "form": "黒い",
+          "reading": "くろい",
+          "gloss": "black"
         }
       ],
       "notes": "Soot from the fire stains it all over: pitch BLACK.",
@@ -5730,8 +5746,8 @@
       "kun": [
         "や"
       ],
-      "primary_reading": "オク",
-      "primary_kind": "on",
+      "primary_reading": "や",
+      "primary_kind": "kun",
       "meanings": [
         "roof",
         "house",
@@ -5782,8 +5798,8 @@
       "kun": [
         "いろ"
       ],
-      "primary_reading": "ショク",
-      "primary_kind": "on",
+      "primary_reading": "いろ",
+      "primary_kind": "kun",
       "meanings": [
         "color",
         "appearance",
@@ -5831,8 +5847,8 @@
       "kun": [
         "はし(る)"
       ],
-      "primary_reading": "ソウ",
-      "primary_kind": "on",
+      "primary_reading": "はし(る)",
+      "primary_kind": "kun",
       "meanings": [
         "run"
       ],
@@ -5892,9 +5908,9 @@
           "gloss": "autumn; fall"
         },
         {
-          "form": "今秋",
-          "reading": "こんしゅう",
-          "gloss": "this autumn; this fall"
+          "form": "秋祭り",
+          "reading": "あきまつり",
+          "gloss": "autumn festival"
         },
         {
           "form": "秋分",
@@ -6084,14 +6100,14 @@
           "gloss": "travel; trip"
         },
         {
-          "form": "旅券",
-          "reading": "りょけん",
-          "gloss": "passport"
+          "form": "旅",
+          "reading": "たび",
+          "gloss": "journey; trip"
         },
         {
-          "form": "旅費",
-          "reading": "りょひ",
-          "gloss": "travel expenses"
+          "form": "旅人",
+          "reading": "たびびと",
+          "gloss": "traveler"
         }
       ],
       "notes": "Follow the flag with your group down the road: to TRAVEL.",
@@ -6204,8 +6220,8 @@
       "kun": [
         "か(りる)"
       ],
-      "primary_reading": "シャク",
-      "primary_kind": "on",
+      "primary_reading": "か(りる)",
+      "primary_kind": "kun",
       "meanings": [
         "borrow",
         "rent"
@@ -6292,8 +6308,8 @@
         "か(す)",
         "かし"
       ],
-      "primary_reading": "タイ",
-      "primary_kind": "on",
+      "primary_reading": "か(す)",
+      "primary_kind": "kun",
       "meanings": [
         "lend"
       ],
@@ -6576,7 +6592,7 @@
         {
           "form": "昼ご飯",
           "reading": "ひるごはん",
-          "gloss": "lunch; midday meal"
+          "gloss": "lunch"
         },
         {
           "form": "昼夜",
@@ -6621,7 +6637,7 @@
         {
           "form": "茶色",
           "reading": "ちゃいろ",
-          "gloss": "brown; light brown"
+          "gloss": "brown"
         },
         {
           "form": "喫茶店",
@@ -7151,9 +7167,9 @@
           "gloss": "one's superior; elder"
         },
         {
-          "form": "目下",
-          "reading": "めした",
-          "gloss": "one's subordinate; junior"
+          "form": "目的",
+          "reading": "もくてき",
+          "gloss": "purpose; aim"
         }
       ],
       "notes": "A vertical eye with pupil-bars = EYE.",
@@ -7244,6 +7260,11 @@
           "form": "国立",
           "reading": "こくりつ",
           "gloss": "national; state-run"
+        },
+        {
+          "form": "立てる",
+          "reading": "たてる",
+          "gloss": "to stand (something) up; to make (a plan)"
         }
       ],
       "notes": "A person planted on the ground = STAND.",
@@ -7511,6 +7532,11 @@
           "form": "口",
           "reading": "くち",
           "gloss": "mouth"
+        },
+        {
+          "form": "人口",
+          "reading": "じんこう",
+          "gloss": "population"
         }
       ],
       "notes": "A square opening = MOUTH.",
@@ -7644,14 +7670,14 @@
           "gloss": "one pair (footwear)"
         },
         {
-          "form": "足あと",
-          "reading": "あしあと",
-          "gloss": "footprints"
+          "form": "足す",
+          "reading": "たす",
+          "gloss": "to add"
         },
         {
-          "form": "手足",
-          "reading": "てあし",
-          "gloss": "hands and feet; limbs"
+          "form": "足りる",
+          "reading": "たりる",
+          "gloss": "to be enough"
         }
       ],
       "notes": "Mouth-shape (口) over stop (止) = FOOT (where you stop).",
@@ -7699,6 +7725,11 @@
           "form": "大空",
           "reading": "おおぞら",
           "gloss": "wide-open sky"
+        },
+        {
+          "form": "空く",
+          "reading": "あく",
+          "gloss": "to become empty; to be free (a seat)"
         }
       ],
       "notes": "A cave (穴) of work (工) - empty above = SKY / empty.",

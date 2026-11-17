@@ -15,18 +15,18 @@
    "sentence": "らいねん かぞくで 東京へ ひっこします。",
    "underline": "東京",
    "options": [
-    "とうきょ",
-    "どうきょう",
+    "とうきよう",
     "とうきょう",
-    "とうぎょう"
+    "とうきょ",
+    "とうきよ"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「東京」は「とうきょう」と読みます。",
    "distractors": [
-    "drops the long vowel (きょう->きょ)",
-    "voices the initial (とう->どう)",
-    "CORRECT",
-    "voices きょう->ぎょう"
+    "writes small ょ full-size (よ)",
+    "CORRECT: とうきょう = Tokyo",
+    "drops the long vowel (ょ)",
+    "writes small ょ full-size (よ), and drops the long vowel (よ)"
    ]
   },
   {
@@ -41,18 +41,18 @@
    "sentence": "まいにち バスで 通学して います。",
    "underline": "通学",
    "options": [
-    "つうがく",
-    "つがく",
-    "とうがく",
-    "つうかく"
+    "つうかく",
+    "つかく",
+    "つがぐ",
+    "つうがく"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "「通学」は「つうがく」と読みます。",
    "distractors": [
-    "CORRECT",
-    "drops the long vowel (つう->つ)",
-    "wrong initial と",
-    "unvoices がく->かく"
+    "unvoices が->か",
+    "drops the long vowel (つ), and unvoices が->か",
+    "drops the long vowel (つ), and voices く->ぐ",
+    "CORRECT: つうがく = commuting to school"
    ]
   },
   {
@@ -67,18 +67,18 @@
    "sentence": "わたしは 地理の べんきょうが すきです。",
    "underline": "地理",
    "options": [
-    "じり",
-    "ちりょう",
-    "しり",
-    "ちり"
+    "ちり",
+    "じいり",
+    "ちいり",
+    "じり"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「地理」は「ちり」と読みます。",
    "distractors": [
-    "on じ, wrong here",
-    "changes り->りょう",
-    "wrong kana し for ち",
-    "CORRECT"
+    "CORRECT: ちり = geography",
+    "on じ for 地, plus adds a long vowel (じい)",
+    "adds a long vowel (ちい)",
+    "on じ for 地, wrong here"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "スポーツで 体力を つけます。",
    "underline": "体力",
    "options": [
-    "たいりき",
-    "たいりょく",
+    "たいりよく",
     "だいりょく",
-    "たいろく"
+    "たいりょく",
+    "だいりよく"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「体力」は「たいりょく」と読みます。",
    "distractors": [
-    "on りき (as in 人力車), wrong here",
-    "CORRECT",
-    "voices the initial (たい->だい)",
-    "wrong kana ろ for りょ (ろく)"
+    "writes small ょ full-size (よ)",
+    "voices た->だ",
+    "CORRECT: たいりょく = stamina; physical strength",
+    "voices た->だ, and writes small ょ full-size (よ)"
    ]
   },
   {
@@ -120,17 +120,17 @@
    "underline": "意見",
    "options": [
     "いげん",
-    "えけん",
+    "いげ",
     "いけん",
     "いけ"
    ],
    "correct": 3,
    "explanation": "「意見」は「いけん」と読みます。",
    "distractors": [
-    "voices けん->げん",
-    "wrong initial え",
-    "CORRECT",
-    "drops the final ん"
+    "voices け->げ",
+    "voices け->げ, and drops the ん after げ",
+    "CORRECT: いけん = opinion",
+    "drops the ん after け"
    ]
   },
   {
@@ -145,18 +145,18 @@
    "sentence": "ロボットが うごく のを 見ました。",
    "underline": "うごく",
    "options": [
-    "書く",
     "動く",
+    "聞く",
     "開く",
-    "聞く"
+    "書く"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「うごく」は「動く」と書きます。",
    "distractors": [
-    "書く = かく, 'write', wrong reading",
     "CORRECT: 動く = move",
+    "聞く = きく, 'listen; hear; ask', wrong reading",
     "開く = あく, 'open', wrong reading",
-    "聞く = きく, 'listen', wrong reading"
+    "書く = かく, 'write', wrong reading"
    ]
   },
   {
@@ -171,17 +171,17 @@
    "sentence": "ふゆは よるが あける のが おそいです。",
    "underline": "あける",
    "options": [
-    "明ける",
-    "開ける",
     "空ける",
+    "開ける",
+    "明ける",
     "分ける"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「あける」は「明ける」と書きます。",
    "distractors": [
-    "CORRECT: 明ける = day breaks",
-    "開ける = あける, 'open', wrong meaning here",
     "空ける = あける, 'make vacant', wrong meaning here",
+    "開ける = あける, 'open', wrong meaning here",
+    "CORRECT: 明ける = day breaks",
     "分ける = わける, 'divide', different reading"
    ]
   },
@@ -198,17 +198,17 @@
    "underline": "もんだい",
    "options": [
     "話題",
-    "主題",
-    "題名",
-    "問題"
+    "問題",
+    "時間",
+    "名前"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「もんだい」は「問題」と書きます。",
    "distractors": [
     "話題 = わだい, 'topic of talk'",
-    "主題 = しゅだい, 'theme'",
-    "題名 = だいめい, 'title'",
-    "CORRECT: 問題 = problem/question"
+    "CORRECT: 問題 = problem/question",
+    "時間 = じかん, 'time'",
+    "名前 = なまえ, 'name'"
    ]
   },
   {
@@ -224,17 +224,17 @@
    "underline": "つくる",
    "options": [
     "通る",
-    "作る",
+    "上る",
     "入る",
-    "上る"
+    "作る"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「つくる」は「作る」と書きます。",
    "distractors": [
     "通る = とおる, 'pass through', wrong reading",
-    "CORRECT: 作る = make",
+    "上る = のぼる, 'go up', wrong reading",
     "入る = はいる, 'enter', wrong reading",
-    "上る = のぼる, 'go up', wrong reading"
+    "CORRECT: 作る = make"
    ]
   },
   {
@@ -249,18 +249,18 @@
    "sentence": "きょうは（　　）が あるので、はやく かえります。",
    "underline": "（　　）",
    "options": [
-    "用事",
-    "意見",
     "体力",
-    "地理"
+    "地理",
+    "意見",
+    "用事"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "Something you must go home early for is a 用事 (errand); an opinion, stamina, or geography does not fit.",
    "distractors": [
-    "CORRECT: an errand to do",
-    "opinion (no)",
     "stamina (no)",
-    "geography (no)"
+    "geography (no)",
+    "opinion (no)",
+    "CORRECT: 用事 = an errand to do"
    ]
   },
   {
@@ -275,18 +275,18 @@
    "sentence": "日本人の（　　）は、おこめです。",
    "underline": "（　　）",
    "options": [
+    "主食",
+    "水",
     "デザート",
-    "のみもの",
-    "おかし",
-    "主食"
+    "おかし"
    ],
-   "correct": 4,
-   "explanation": "The food that forms the base of the diet is the 主食 (staple food) - in Japan, rice; a dessert, a drink or sweets are not staple foods.",
+   "correct": 1,
+   "explanation": "The food that forms the base of the diet is the 主食 (staple food) - in Japan, rice; a dessert, water or sweets are not staple foods.",
    "distractors": [
+    "CORRECT: 主食 = staple food",
+    "water (a drink, not a staple food)",
     "dessert (not a staple)",
-    "drink (not a staple food)",
-    "sweets (not a staple)",
-    "CORRECT: 主食 = staple food"
+    "sweets (not a staple)"
    ],
    "review_status": "recheck-passed",
    "review_flag": "TC-C01/TC-C03/TC-CH12: 主に had no clean single-answer set; target replaced",
@@ -307,17 +307,17 @@
    "underline": "（　　）",
    "options": [
     "意見",
-    "用事",
     "不安",
-    "用意"
+    "用意",
+    "用事"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "Before a test you feel 不安 (uneasy); an opinion, an errand, or preparation is not a feeling.",
    "distractors": [
     "opinion (no)",
-    "errand (no)",
-    "CORRECT: uneasy before a test",
-    "preparation (no)"
+    "CORRECT: 不安 = uneasy (before a test)",
+    "preparation (no)",
+    "errand (no)"
    ]
   },
   {
@@ -333,18 +333,18 @@
    "sentence": "しあいの まえに、飲みものを 用意しました。",
    "underline": "用意しました",
    "options": [
-    "しあいの まえに、飲みものを 買いました。",
     "しあいの まえに、飲みものを じゅんびしました。",
     "しあいの まえに、飲みものを 飲みました。",
-    "しあいの まえに、飲みものを わすれました。"
+    "しあいの まえに、飲みものを 買いました。",
+    "しあいの まえに、飲みものを うちに わすれて きました。"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "用意する means 'to get ready / prepare', which matches じゅんびする.",
    "distractors": [
-    "bought (not the same as prepared)",
     "CORRECT: prepared = 用意",
     "drank (no)",
-    "forgot (different)"
+    "bought (not the same as prepared)",
+    "left them at home (different)"
    ]
   },
   {
@@ -359,18 +359,18 @@
    "sentence": "あねは まいにち でんしゃで 大学に 通って います。",
    "underline": "通って",
    "options": [
-    "かよって",
-    "かよて",
     "つうって",
-    "かよいて"
+    "かよって",
+    "つって",
+    "がよって"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「通って」は「かよって」と読みます。",
    "distractors": [
+    "on つう for 通, wrong here",
     "CORRECT: かよって = commute",
-    "missing っ",
-    "on-reading つう (as in 通学)",
-    "い instead of っ (かよいて)"
+    "on つう for 通, plus drops the long vowel (つ)",
+    "voices か->が"
    ]
   },
   {
@@ -385,24 +385,24 @@
    "sentence": "体を じょうぶに する ために、うみで およいで います。",
    "underline": "体",
    "options": [
+    "がらた",
     "からた",
-    "かだら",
     "からだ",
-    "たらだ"
+    "がらだ"
    ],
    "correct": 3,
    "explanation": "「体」は「からだ」と読みます。",
    "distractors": [
+    "voices か->が, and unvoices だ->た",
     "unvoices だ->た",
-    "kana order swapped",
     "CORRECT: からだ = body",
-    "wrong first kana た"
+    "voices か->が"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "たかい 山に のぼりました。",
+   "sentence": "まどから 山が 見えます。",
    "underline": "山",
    "options": [
     "かわ",
@@ -413,7 +413,7 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "がっこうで ほんを よみます。",
+   "sentence": "学校で ほんを 読みます。",
    "underline": "ほん",
    "options": [
     "木",

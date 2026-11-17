@@ -1250,8 +1250,8 @@
       "あ(ける)",
       "あ(く)"
     ],
-    "primary": "カイ",
-    "primary_kind": "on",
+    "primary": "あ(ける)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "問": {
@@ -1424,8 +1424,8 @@
     "kun": [
       "つく(る)"
     ],
-    "primary": "サク",
-    "primary_kind": "on",
+    "primary": "つく(る)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "用": {
@@ -1553,7 +1553,7 @@
     "kun": [
       "よ"
     ],
-    "primary": "セイ",
+    "primary": "セ",
     "primary_kind": "on",
     "tier": "core_n4"
   },
@@ -1683,8 +1683,8 @@
     "kun": [
       "かんが(える)"
     ],
-    "primary": "コウ",
-    "primary_kind": "on",
+    "primary": "かんが(える)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "画": {
@@ -1704,8 +1704,8 @@
     "kun": [
       "うみ"
     ],
-    "primary": "カイ",
-    "primary_kind": "on",
+    "primary": "うみ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "売": {
@@ -1716,8 +1716,8 @@
       "う(る)",
       "う(れる)"
     ],
-    "primary": "バイ",
-    "primary_kind": "on",
+    "primary": "う(る)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "知": {
@@ -1727,8 +1727,8 @@
     "kun": [
       "し(る)"
     ],
-    "primary": "チ",
-    "primary_kind": "on",
+    "primary": "し(る)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "集": {
@@ -1740,8 +1740,8 @@
       "あつ(める)",
       "つど(う)"
     ],
-    "primary": "シュウ",
-    "primary_kind": "on",
+    "primary": "あつ(まる)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "別": {
@@ -1763,8 +1763,8 @@
     "kun": [
       "もの"
     ],
-    "primary": "ブツ",
-    "primary_kind": "on",
+    "primary": "もの",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "使": {
@@ -1774,8 +1774,8 @@
     "kun": [
       "つか(う)"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "つか(う)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "品": {
@@ -1807,8 +1807,8 @@
     "kun": [
       "し(ぬ)"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "し(ぬ)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "特": {
@@ -1828,8 +1828,8 @@
       "はじ(める)",
       "はじ(まる)"
     ],
-    "primary": "シ",
-    "primary_kind": "on",
+    "primary": "はじ(める)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "朝": {
@@ -1862,8 +1862,8 @@
       "お(わる)",
       "お(える)"
     ],
-    "primary": "シュウ",
-    "primary_kind": "on",
+    "primary": "お(わる)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "台": {
@@ -1952,8 +1952,8 @@
       "すく(ない)",
       "すこ(し)"
     ],
-    "primary": "ショウ",
-    "primary_kind": "on",
+    "primary": "すこ(し)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "町": {
@@ -1995,8 +1995,8 @@
       "た(てる)",
       "た(つ)"
     ],
-    "primary": "ケン",
-    "primary_kind": "on",
+    "primary": "た(てる)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "急": {
@@ -2103,8 +2103,8 @@
       "お(こす)",
       "お(こる)"
     ],
-    "primary": "キ",
-    "primary_kind": "on",
+    "primary": "お(きる)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "着": {
@@ -2117,8 +2117,8 @@
       "つ(く)",
       "つ(ける)"
     ],
-    "primary": "チャク",
-    "primary_kind": "on",
+    "primary": "き(る)",
+    "primary_kind": "kun",
     "tier": "core_n4",
     "secondary_readings": {
       "on": [
@@ -2171,8 +2171,8 @@
     "kun": [
       "ま(つ)"
     ],
-    "primary": "タイ",
-    "primary_kind": "on",
+    "primary": "ま(つ)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "試": {
@@ -2349,8 +2349,8 @@
       "こた(え)",
       "こた(える)"
     ],
-    "primary": "トウ",
-    "primary_kind": "on",
+    "primary": "こた(える)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "夜": {
@@ -2403,8 +2403,8 @@
       "かえ(る)",
       "かえ(す)"
     ],
-    "primary": "キ",
-    "primary_kind": "on",
+    "primary": "かえ(る)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "歌": {
@@ -2415,8 +2415,8 @@
       "うた",
       "うた(う)"
     ],
-    "primary": "カ",
-    "primary_kind": "on",
+    "primary": "うた",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "悪": {
@@ -2487,8 +2487,8 @@
       "かぜ",
       "かざ-"
     ],
-    "primary": "フウ",
-    "primary_kind": "on",
+    "primary": "かぜ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "紙": {
@@ -2510,8 +2510,8 @@
       "くろ",
       "くろ(い)"
     ],
-    "primary": "コク",
-    "primary_kind": "on",
+    "primary": "くろ(い)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "春": {
@@ -2573,8 +2573,8 @@
     "kun": [
       "や"
     ],
-    "primary": "オク",
-    "primary_kind": "on",
+    "primary": "や",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "色": {
@@ -2585,8 +2585,8 @@
     "kun": [
       "いろ"
     ],
-    "primary": "ショク",
-    "primary_kind": "on",
+    "primary": "いろ",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "走": {
@@ -2596,8 +2596,8 @@
     "kun": [
       "はし(る)"
     ],
-    "primary": "ソウ",
-    "primary_kind": "on",
+    "primary": "はし(る)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "秋": {
@@ -2681,8 +2681,8 @@
     "kun": [
       "か(りる)"
     ],
-    "primary": "シャク",
-    "primary_kind": "on",
+    "primary": "か(りる)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "肉": {
@@ -2702,8 +2702,8 @@
       "か(す)",
       "かし"
     ],
-    "primary": "タイ",
-    "primary_kind": "on",
+    "primary": "か(す)",
+    "primary_kind": "kun",
     "tier": "core_n4"
   },
   "堂": {

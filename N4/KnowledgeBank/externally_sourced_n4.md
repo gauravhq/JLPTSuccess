@@ -502,7 +502,7 @@ For mock-test mode, the app's test engine MUST hide the `**Answer:**` line and r
 
 1. こうこう
 2. ひらく
-3. こにゃ
+3. こんや
 4. かわり
 
 **Answer: 1**

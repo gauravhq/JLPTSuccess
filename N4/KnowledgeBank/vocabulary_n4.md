@@ -315,7 +315,7 @@ them incorrectly. The full lemma + reading set lives in the N5 catalogue.
 - 木綿 (もめん) - [n.] cotton (material) [tier:core_n4] [examples:0]
 - 値段 (ねだん) - [n.] price; cost [tier:core_n4] [examples:0]
 - 手袋 (てぶくろ) - [n.] glove [tier:core_n4] [examples:0]
-- 店員 (てにん) - [n.] employee; shop assistant; clerk [tier:core_n4] [examples:0]
+- 店員 (てんいん) - [n.] employee; shop assistant; clerk [tier:core_n4] [examples:0]
 - 指輪 (ゆびわ) - [n.] finger ring [tier:core_n4] [examples:0]
 
 ## 7. Food and restaurants
@@ -387,7 +387,7 @@ them incorrectly. The full lemma + reading set lives in the N5 catalogue.
 - 時代 (じだい) - [n.] period [tier:core_n4] [examples:0]
 - 消しゴム (けしごむ) - [n.] eraser [tier:core_n4] [examples:0]
 - 今度 (こんど) - [n.] this time; next time [tier:core_n4] [examples:0]
-- 今夜 (こにゃ) - [n.] this evening; tonight [tier:core_n4] [examples:0]
+- 今夜 (こんや) - [n.] this evening; tonight [tier:core_n4] [examples:0]
 - 昔 (むかし) - [n.] olden days, former [tier:core_n4] [examples:0]
 - パート (パート) - [n.] part; part time [tier:core_n4] [examples:0]
 - 趣味 (しゅみ) - [n.] hobby; pastime; preference [tier:core_n4] [examples:0]

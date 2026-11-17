@@ -232,6 +232,42 @@ TC-GOV02 and TC-GOV03. PENDING: 51 rendered cases (human R11 sign-off) and TC-GO
 production profile, rights and TC-GOV04 qualified-human gate. These are AI-executed results. They
 are not a qualified human's verdicts, and nothing was fixed in this run.
 
+Fix-and-rerun cycle, 2026-11-15 (F.73 point 18). After the run-1 fixes and two external reviewer
+reports, the language part of the checklist was re-run in full (14 AI reviewer batches, all 947
+rows, each with its detailed cases) until the fails ran out, with a bug-fix verification script
+(bugfix_verify_20261115.py) after each fix round. Fails per run, against the rows scanned: run 2
+26; run 3 25; run 4 11. Classes found and fixed in the data scanned:
+- reading items where the key was the option closest to all the others (204 of 281); rebuilt as a
+  2x2 grid of two believable slips, or on / kun and same-field words (key-as-centre now 1 of 281);
+- stems printing another answer as an inflected form or a compound part (AC24 extended and
+  mutation-tested); kana / kanji mixing for one word in one extended section;
+- above-N4 tested words in the extended set: replaced where a level word on the same kanji exists,
+  otherwise recorded with the reason (作業, 題名, 公開, 下町, 同意);
+- answer order checked in printed order (a World test prints 問題5 reading items inside
+  もんだい1) and over the extended set's continuous numbering; 問題4 keys no longer systematically
+  the longest; World 6 and World 10 coverage (World 1 and World 6 logged at 8 chapter kanji);
+- one hand-set label that did not match its option, and a special reading (明日) tested before
+  the book printed it.
+These are AI-executed results against the patterns and rows scanned. They do not replace the
+qualified-human gate (TC-GOV04) or the rendered sign-off.
+
+Runs 5-27 (2026-11-15 to 2026-11-18), same method. Raw reviewer fails per run (before
+deduplication): 5: 13, 6: 10, 7: 7, 8: 12, 9: 5, 10: 11, 11: 7, 12: 8, 13: 13, 14: 6, 15: 5,
+16: 4, 17: 5, 18: 2, 19: 3, 20: 1, 21: 1, 22: 1, 23: 3, 24: 1, 25: 7, 26: 0. The run-26 full
+checklist run (checklist_run.py, 319 cases) then found 2 card-data fails in its script part
+(tools/verify_kanji_data.py: two examples sharing a first gloss word; 建物 documented as a
+常用漢字表 example of たてる); after the fix, run 27 re-reviewed the two changed card batches
+(0 fails) and carried the 12 unchanged batches from run 26. Classes added in runs 12-25, in the
+data scanned: worked examples held to the item rules; the key as the centre of its options per
+character and per kanji segment, including distractors that align to no reading; the everyday kun
+form missing from a card; 問題3 labels and 問題4 underlines; a counter spelled with the wrong sound
+change (三かい for the third floor). bugfix_verify_20261115.py holds 131 checks at this point
+(0 FAIL against the build of 2026-11-18). The 319-case run against that build: 240 PASS, 54
+PENDING (human rendered / language gates), 13 N/A, 9 BLOCKED (production and rights records), 3 FAIL
+(TC-GOV02: two visual / technical waivers await the owner's approval; TC-GOV03 and TC-QA10: the
+release gates above are still open). These are AI-executed results against the rows and patterns
+scanned; they do not replace the qualified-human gate (TC-GOV04).
+
 ---
 
 ## Future native-human review

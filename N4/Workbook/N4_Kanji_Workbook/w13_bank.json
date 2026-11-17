@@ -16,18 +16,18 @@
    "sentence": "父は 大きな 会社で はたらいて います。",
    "underline": "会社",
    "options": [
+    "がいしゃ",
+    "がいしや",
     "かいしゃ",
-    "かいしゃう",
-    "えしゃ",
-    "かいじゃ"
+    "かいしや"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「会社」は「かいしゃ」と読みます。",
    "distractors": [
+    "voices か->が",
+    "voices か->が, and writes small ゃ full-size (や)",
     "CORRECT: かいしゃ = company",
-    "adds an extra う",
-    "on え (as in 会釈), wrong here",
-    "voices しゃ->じゃ"
+    "writes small ゃ full-size (や)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -43,18 +43,18 @@
    "sentence": "みんなで 新年の あいさつを しました。",
    "underline": "新年",
    "options": [
-    "しんとし",
-    "あらねん",
     "しんねん",
+    "じねん",
+    "じんねん",
     "しねん"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「新年」は「しんねん」と読みます。",
    "distractors": [
-    "kun とし for 年",
-    "kun あら(た), wrong here",
     "CORRECT: しんねん = new year",
-    "drops ん (しねん)"
+    "voices し->じ, and drops the ん after じ",
+    "voices し->じ",
+    "drops the ん after し"
    ],
    "review_status": "automated-check-passed"
   },
@@ -70,18 +70,18 @@
    "sentence": "駅で 新聞を 買いました。",
    "underline": "新聞",
    "options": [
-    "しんもん",
     "しんぶん",
-    "あたらぶん",
-    "しんふん"
+    "じんぶん",
+    "しぶん",
+    "じぶん"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「新聞」は「しんぶん」と読みます。",
    "distractors": [
-    "on-reading もん for 聞",
     "CORRECT: しんぶん = newspaper",
-    "kun あたら for 新",
-    "unvoices ぶ->ふ"
+    "voices し->じ",
+    "drops the ん after し",
+    "voices し->じ, and drops the ん after じ"
    ]
   },
   {
@@ -93,21 +93,21 @@
    "target_word": "力",
    "reading": "ちから",
    "meaning": "strength; power",
-   "sentence": "重い にもつを 持ち上げる 力が ひつようです。",
+   "sentence": "重い にもつを 持つには 力が ひつようです。",
    "underline": "力",
    "options": [
-    "ちかり",
     "ちがら",
-    "ちらか",
-    "ちから"
+    "ちから",
+    "じから",
+    "じがら"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「力」は「ちから」と読みます。",
    "distractors": [
-    "wrong final kana り (ちかり)",
-    "voices か->が (ちがら)",
-    "scrambled (ちらか)",
-    "CORRECT: ちから = strength"
+    "voices か->が",
+    "CORRECT: ちから = strength",
+    "changes ち to じ",
+    "changes ち to じ, and voices か->が"
    ],
    "review_status": "automated-check-passed"
   },
@@ -120,21 +120,21 @@
    "target_word": "一言",
    "reading": "ひとこと",
    "meaning": "a single word",
-   "sentence": "先生は 一言も はなさないで、へやを 出ました。",
+   "sentence": "先生は 一言も 話さないで、へやを 出ました。",
    "underline": "一言",
    "options": [
-    "ひとこと",
-    "いちごと",
-    "ひとげん",
-    "いっこと"
+    "ひとこど",
+    "びとこど",
+    "びとこと",
+    "ひとこと"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "「一言」は「ひとこと」と読みます。",
    "distractors": [
-    "CORRECT: ひとこと = a (single) word",
-    "wrong いちごと",
-    "on げん (as in 言語), wrong here",
-    "wrong いっこと"
+    "voices と->ど",
+    "voices ひ->び, and voices と->ど",
+    "voices ひ->び",
+    "CORRECT: ひとこと = a (single) word"
    ],
    "review_status": "automated-check-passed"
   },
@@ -147,21 +147,21 @@
    "target_word": "あんしん",
    "reading": "あんしん",
    "meaning": "relief; peace of mind",
-   "sentence": "しけんに ごうかくして、あんしんしました。",
+   "sentence": "しけんが おわって、あんしんしました。",
    "underline": "あんしん",
    "options": [
-    "用心",
+    "新聞",
     "心",
-    "中心",
-    "安心"
+    "安心",
+    "親切"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "「あんしん」は「安心」と書きます。",
    "distractors": [
-    "用心 = ようじん, 'caution'",
+    "新聞 = しんぶん, 'newspaper'",
     "心 = こころ, 'heart'",
-    "中心 = ちゅうしん, 'center'",
-    "CORRECT: 安心 = relief"
+    "CORRECT: 安心 = relief",
+    "親切 = しんせつ, 'kind'"
    ]
   },
   {
@@ -177,18 +177,18 @@
    "sentence": "いもうとは しりつの 中学校に 通って います。",
    "underline": "しりつ",
    "options": [
+    "公立",
     "国立",
     "私たち",
-    "私立",
-    "公立"
+    "私立"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「しりつ」は「私立」と書きます。",
    "distractors": [
+    "公立 = こうりつ, 'public'",
     "国立 = こくりつ, 'national'",
     "私たち = わたしたち, 'we'",
-    "CORRECT: 私立 = private",
-    "公立 = こうりつ, 'public'"
+    "CORRECT: 私立 = private"
    ],
    "review_status": "automated-check-passed"
   },
@@ -204,18 +204,18 @@
    "sentence": "あには 東京で はたらく ぎんこういんです。",
    "underline": "ぎんこういん",
    "options": [
+    "会社員",
     "銀行員",
-    "駅員",
-    "店員",
-    "社員"
+    "大学生",
+    "運転手"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「ぎんこういん」は「銀行員」と書きます。",
    "distractors": [
+    "会社員 = かいしゃいん, 'company employee'",
     "CORRECT: 銀行員 = bank clerk",
-    "駅員 = えきいん, 'station staff'",
-    "店員 = てんいん, 'shop clerk'",
-    "社員 = しゃいん, 'employee'"
+    "大学生 = だいがくせい, 'university student'",
+    "運転手 = うんてんしゅ, 'driver'"
    ]
   },
   {
@@ -230,18 +230,18 @@
    "sentence": "日本語の かいわが 上手に なりました。",
    "underline": "かいわ",
    "options": [
-    "会社",
-    "会話",
     "電話",
-    "会場"
+    "会場",
+    "会社",
+    "会話"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「かいわ」は「会話」と書きます。",
    "distractors": [
-    "会社 = かいしゃ, 'company'",
-    "CORRECT: 会話 = conversation",
     "電話 = でんわ, 'telephone'",
-    "会場 = かいじょう, 'venue'"
+    "会場 = かいじょう, 'venue'",
+    "会社 = かいしゃ, 'company'",
+    "CORRECT: 会話 = conversation"
    ]
   },
   {
@@ -253,21 +253,21 @@
    "target_word": "田んぼ",
    "reading": "たんぼ",
    "meaning": "rice paddy",
-   "sentence": "水を はった（　　）で、のうかの 人が こめを つくって います。",
+   "sentence": "水の 入った（　　）で、こめを つくって います。",
    "underline": "（　　）",
    "options": [
-    "はたけ",
     "にわ",
     "田んぼ",
-    "こうえん"
+    "こうえん",
+    "広場"
    ],
-   "correct": 3,
-   "explanation": "Rice grows in a 田んぼ (rice paddy) flooded WITH WATER; a dry field, a garden or a park is not water-filled for rice.",
+   "correct": 2,
+   "explanation": "Rice grows in a 田んぼ (rice paddy) with water in it; a garden, an open square or a park has no water for rice.",
    "distractors": [
-    "dry field (not flooded with water)",
-    "garden (not for rice)",
+    "garden (no water for rice)",
     "CORRECT: 田んぼ = a water-filled rice paddy",
-    "park (not for growing)"
+    "park (not for growing)",
+    "open square (not for rice)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -283,18 +283,18 @@
    "sentence": "ころんで、みぎの（　　）に けがを して、えんぴつが 持てなく なりました。",
    "underline": "（　　）",
    "options": [
+    "手",
+    "足",
     "あたま",
-    "みみ",
-    "あし",
-    "手"
+    "目"
    ],
-   "correct": 4,
-   "explanation": "You cannot HOLD a pencil, so the injured part is your 手 (hand); a head, ear or foot would not stop you holding one.",
+   "correct": 1,
+   "explanation": "You cannot HOLD a pencil, so the injured part is your 手 (hand); a head, eye or foot would not stop you holding one.",
    "distractors": [
-    "head (you hold a pencil with a hand)",
-    "ear (you hold with a hand)",
+    "CORRECT: 手 = hand (holds the pencil)",
     "foot (you hold with a hand)",
-    "CORRECT: 手 = hand (holds the pencil)"
+    "head (you hold a pencil with a hand)",
+    "eye (you hold with a hand)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -316,7 +316,7 @@
     "ねだん"
    ],
    "correct": 2,
-   "explanation": "Taking the wrong 道 (route) makes you come out somewhere else; the weather, a name or a price cannot be 'mistaken' into a wrong place.",
+   "explanation": "Taking the wrong 道 (route) makes you come out somewhere else; getting the weather, a name or a price wrong does not take you to a different place.",
    "distractors": [
     "weather (does not lead somewhere)",
     "CORRECT: 道 = the route (taking the wrong one leads elsewhere)",
@@ -334,21 +334,21 @@
    "target_word": "安い",
    "reading": "やすい",
    "meaning": "cheap",
-   "sentence": "この カメラは とても 安いです。",
+   "sentence": "この カメラは 安いです。",
    "underline": "安い",
    "options": [
-    "この カメラは あまり お金を 出さなくても 買えます。",
-    "この カメラは とても 高いです。",
     "この カメラは あたらしいです。",
-    "この カメラは 大きいです。"
+    "この カメラは かるくないです。",
+    "この カメラは 高くないです。",
+    "この カメラは 高いです。"
    ],
-   "correct": 1,
-   "explanation": "安い means 'cheap', i.e. you can buy it without paying much money.",
+   "correct": 3,
+   "explanation": "安い means 'cheap', that is 高くない (not expensive).",
    "distractors": [
-    "CORRECT: 安い = can buy without paying much",
-    "expensive (opposite)",
     "new (unrelated)",
-    "big (unrelated)"
+    "not light (unrelated)",
+    "CORRECT: 安い = not expensive",
+    "expensive (opposite)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -361,21 +361,21 @@
    "target_word": "目",
    "reading": "め",
    "meaning": "eye",
-   "sentence": "本を 読む ときは 目を 大切に して ください。",
+   "sentence": "あの 人の 目は とても きれいです。",
    "underline": "目",
    "options": [
-    "がん",
-    "めん",
+    "みみ",
+    "て",
     "め",
-    "もう"
+    "くち"
    ],
    "correct": 3,
    "explanation": "「目」は「め」と読みます。",
    "distractors": [
-    "wrong reading がん",
-    "wrong reading めん",
+    "みみ means 'ear'",
+    "て means 'hand'",
     "CORRECT: め = eye",
-    "wrong もう"
+    "くち means 'mouth'"
    ],
    "review_status": "automated-check-passed"
   },
@@ -391,42 +391,42 @@
    "sentence": "えいがかんの 出口は こちらです。",
    "underline": "出口",
    "options": [
-    "でくち",
     "でぐち",
-    "しゅつくち",
-    "でこう"
+    "てぐち",
+    "でくち",
+    "てくち"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「出口」は「でぐち」と読みます。",
    "distractors": [
-    "kun くち; 出口 voices it to ぐち",
     "CORRECT: でぐち = exit",
-    "on しゅつ + くち",
-    "on こう (as in 人口), wrong here"
+    "unvoices で->て",
+    "kun くち for 口 without the rendaku (ぐち), wrong here",
+    "unvoices で->て, and unvoices ぐ->く"
    ],
    "review_status": "automated-check-passed"
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "にわで 子どもが あそんで います。",
-   "underline": "子ども",
+   "sentence": "あの 人は 先生です。",
+   "underline": "先生",
    "options": [
-    "おとな",
-    "こども",
     "がくせい",
-    "せんせい"
+    "せんせい",
+    "せいと",
+    "いしゃ"
    ],
    "correct": 2
   },
   "M2": {
-   "sentence": "まいにち にほんごを べんきょうします。",
-   "underline": "べんきょう",
+   "sentence": "先生の 話を ききます。",
+   "underline": "ききます",
    "options": [
-    "勉強",
-    "運動",
-    "質問",
-    "仕事"
+    "聞きます",
+    "読みます",
+    "書きます",
+    "話します"
    ],
    "correct": 1
   },
@@ -435,9 +435,9 @@
    "underline": "（　　）",
    "options": [
     "あらいます",
-    "たべます",
-    "はしります",
-    "かきます"
+    "かぶります",
+    "ききます",
+    "はきます"
    ],
    "correct": 1
   },
@@ -446,9 +446,9 @@
    "underline": "しずか",
    "options": [
     "この へやは 人が たくさん います。",
-    "この へやは とても ひろいです。",
+    "この へやは あまり 広く ありません。",
     "この へやは 音が ほとんど しません。",
-    "この へやは とても あかるいです。"
+    "この へやは とても 明るいです。"
    ],
    "correct": 3
   },

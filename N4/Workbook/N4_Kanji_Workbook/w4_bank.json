@@ -15,18 +15,18 @@
    "sentence": "世界には たくさんの 国が あります。",
    "underline": "世界",
    "options": [
-    "せいかい",
+    "せかい",
     "せがい",
-    "せかいん",
-    "せかい"
+    "ぜがい",
+    "ぜかい"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「世界」は「せかい」と読みます。",
    "distractors": [
-    "on せい (as in 世紀), wrong here",
+    "CORRECT: せかい = the world",
     "voices か->が",
-    "adds ん",
-    "CORRECT"
+    "voices せ->ぜ, and voices か->が",
+    "voices せ->ぜ"
    ]
   },
   {
@@ -41,18 +41,18 @@
    "sentence": "そぼは とても 元気です。",
    "underline": "元気",
    "options": [
-    "げんぎ",
-    "げんき",
-    "がんき",
-    "げんきい"
+    "げき",
+    "けんき",
+    "けき",
+    "げんき"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「元気」は「げんき」と読みます。",
    "distractors": [
-    "voices き->ぎ",
-    "CORRECT",
-    "on がん (as in 元日), wrong here",
-    "adds a long vowel"
+    "drops the ん after げ",
+    "unvoices げ->け",
+    "unvoices げ->け, and drops the ん after け",
+    "CORRECT: げんき = lively; well"
    ]
   },
   {
@@ -67,18 +67,18 @@
    "sentence": "まいあさ 体重を はかります。",
    "underline": "体重",
    "options": [
-    "たいちょう",
-    "たいじゅ",
     "たいじゅう",
-    "だいじゅう"
+    "だいじゅう",
+    "たいじょう",
+    "だいじょう"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「体重」は「たいじゅう」と読みます。",
    "distractors": [
-    "on ちょう (as in 貴重), wrong here",
-    "drops the long vowel じゅ",
-    "CORRECT",
-    "voices た->だ"
+    "CORRECT: たいじゅう = body weight",
+    "voices た->だ",
+    "writes ゅう as ょう",
+    "voices た->だ, and writes ゅう as ょう"
    ]
   },
   {
@@ -90,21 +90,21 @@
    "target_word": "海外",
    "reading": "かいがい",
    "meaning": "overseas; abroad",
-   "sentence": "なつやすみに 海外へ 行きます。",
+   "sentence": "なつ休みに 海外へ 行きます。",
    "underline": "海外",
    "options": [
+    "がいがい",
+    "かいかい",
     "かいがい",
-    "かいそと",
-    "うみがい",
     "がいかい"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「海外」は「かいがい」と読みます。",
    "distractors": [
-    "CORRECT",
-    "kun そと for 外",
-    "kun うみ for 海",
-    "reversed order"
+    "voices か->が",
+    "unvoices が->か",
+    "CORRECT: かいがい = overseas; abroad",
+    "voices か->が, and unvoices が->か"
    ]
   },
   {
@@ -119,18 +119,18 @@
    "sentence": "むすこが 家に かえって きて、安心しました。",
    "underline": "安心",
    "options": [
-    "あんちん",
-    "やすしん",
     "あんし",
-    "あんしん"
+    "あんしん",
+    "あしん",
+    "あし"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「安心」は「あんしん」と読みます。",
    "distractors": [
-    "wrong kana ち (しん->ちん)",
-    "kun-reading やす for 安",
-    "drops the final ん",
-    "CORRECT: あんしん = relief"
+    "drops the ん after し",
+    "CORRECT: あんしん = relief",
+    "drops the ん after あ",
+    "drops the ん after あ, and drops the ん after し"
    ]
   },
   {
@@ -145,18 +145,18 @@
    "sentence": "先生が かんじの よみかたを おしえる じゅぎょうが あります。",
    "underline": "おしえる",
    "options": [
-    "考える",
     "見える",
     "教える",
-    "開ける"
+    "開ける",
+    "考える"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「おしえる」は「教える」と書きます。",
    "distractors": [
-    "考える = かんがえる, 'think'",
     "見える = みえる, 'be visible'",
     "CORRECT: 教える = teach",
-    "開ける = あける, 'open'"
+    "開ける = あける, 'open'",
+    "考える = かんがえる, 'think'"
    ]
   },
   {
@@ -171,18 +171,18 @@
    "sentence": "テレビを 見れば、その ニュースを はやく しる ことが できます。",
    "underline": "しる",
    "options": [
-    "通る",
-    "知る",
     "入る",
-    "売る"
+    "売る",
+    "通る",
+    "知る"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「しる」は「知る」と書きます。",
    "distractors": [
-    "通る = とおる, 'pass through'",
-    "CORRECT: 知る = know",
     "入る = はいる, 'enter'",
-    "売る = うる, 'sell'"
+    "売る = うる, 'sell'",
+    "通る = とおる, 'pass through'",
+    "CORRECT: 知る = know"
    ]
   },
   {
@@ -197,18 +197,18 @@
    "sentence": "この にもつは とても おもいです。",
    "underline": "おもい",
    "options": [
-    "重い",
     "多い",
-    "高い",
-    "長い"
+    "長い",
+    "重い",
+    "高い"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「おもい」は「重い」と書きます。",
    "distractors": [
-    "CORRECT: 重い = heavy",
     "多い = おおい, 'many'",
-    "高い = たかい, 'tall'",
-    "長い = ながい, 'long'"
+    "長い = ながい, 'long'",
+    "CORRECT: 重い = heavy",
+    "高い = たかい, 'high; tall; expensive'"
    ]
   },
   {
@@ -223,18 +223,18 @@
    "sentence": "わたしの 家は 駅から ちかいです。",
    "underline": "ちかい",
    "options": [
-    "強い",
-    "高い",
     "近い",
-    "重い"
+    "高い",
+    "重い",
+    "強い"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「ちかい」は「近い」と書きます。",
    "distractors": [
-    "強い = つよい, 'strong'",
-    "高い = たかい, 'tall'",
     "CORRECT: 近い = near",
-    "重い = おもい, 'heavy'"
+    "高い = たかい, 'high; tall; expensive'",
+    "重い = おもい, 'heavy'",
+    "強い = つよい, 'strong'"
    ]
   },
   {
@@ -246,21 +246,21 @@
    "target_word": "作文",
    "reading": "さくぶん",
    "meaning": "a composition; essay",
-   "sentence": "国語の じゅぎょうで、「なつ休みの おもいで」という 題で（　　）を 書きました。",
+   "sentence": "日本語の じゅぎょうで、「なつ休みの おもいで」と いう（　　）を 書きました。",
    "underline": "（　　）",
    "options": [
     "にっき",
-    "作文",
     "てがみ",
-    "メモ"
+    "作文",
+    "名前"
    ],
-   "correct": 2,
-   "explanation": "What you write in class to a set title (だい) is a 作文 (composition); a diary, a letter or a memo is not written to a given title.",
+   "correct": 3,
+   "explanation": "What you write in a Japanese class under a title like this is a 作文 (composition); a diary, a letter or a name is not class writing with a title.",
    "distractors": [
     "diary (not a composition)",
-    "CORRECT: 作文 = composition",
     "letter (not a composition)",
-    "memo (not a composition)"
+    "CORRECT: 作文 = composition",
+    "a name (not a composition)"
    ],
    "review_status": "recheck-passed",
    "review_flag": "TC-C01/TC-C03: にっき could also be submitted to a generic contest",
@@ -277,21 +277,21 @@
    "target_word": "画家",
    "reading": "がか",
    "meaning": "a painter; artist",
-   "sentence": "えを かくのが すきなので、しょうらい（　　）に なりたいです。",
+   "sentence": "えを かく ことを しごとに したいので、しょうらい（　　）に なりたいです。",
    "underline": "（　　）",
    "options": [
-    "先生",
     "店員",
     "会社員",
+    "先生",
     "画家"
    ],
    "correct": 4,
-   "explanation": "Someone who paints pictures is a 画家 (painter); a teacher, a shop clerk, or an office worker does not match 'likes drawing'.",
+   "explanation": "Someone whose job is painting pictures is a 画家 (painter); a teacher, a shop clerk or an office worker does not paint as their job.",
    "distractors": [
-    "teacher (no)",
     "shop clerk (no)",
     "office worker (no)",
-    "CORRECT: wants to be a painter"
+    "teacher (no)",
+    "CORRECT: 画家 = painter (wants to be one)"
    ]
   },
   {
@@ -306,18 +306,18 @@
    "sentence": "デパートの おもちゃ（　　）は 五かいに あります。",
    "underline": "（　　）",
    "options": [
-    "売り場",
-    "会場",
     "駅前",
-    "入口"
+    "売り場",
+    "入口",
+    "会場"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "Where goods are sold in a store is the 売り場 (sales floor); a venue, the station front, or an entrance does not fit 'the toys are on the 5th floor'.",
    "distractors": [
-    "CORRECT: the toy sales floor",
-    "venue (no)",
     "station front (no)",
-    "entrance (no)"
+    "CORRECT: 売り場 = sales floor (the toy sales floor)",
+    "entrance (no)",
+    "venue (no)"
    ]
   },
   {
@@ -332,18 +332,18 @@
    "sentence": "あの 店では おいしい パンを 売って います。",
    "underline": "売って",
    "options": [
-    "あの 店では おいしい パンを 作って います。",
     "あの 店では おいしい パンを 食べて います。",
     "あの 店では おいしい パンが 買えます。",
-    "あの 店では おいしい パンを もらえます。"
+    "あの 店では おいしい パンを もらえます。",
+    "あの 店では おいしい パンを 作って います。"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "If a shop 売る (sells) bread, that means you can 買う (buy) it there.",
    "distractors": [
-    "makes (not the same)",
     "is eating (no)",
     "CORRECT: you can buy it = 売って いる",
-    "can get it free (no)"
+    "can get it free (no)",
+    "makes (not the same)"
    ]
   },
   {
@@ -358,18 +358,18 @@
    "sentence": "この もんだいの こたえを、じぶんで よく 考えます。",
    "underline": "考えます",
    "options": [
-    "かんがいます",
-    "こうえます",
+    "かかえます",
     "かんかえます",
-    "かんがえます"
+    "かんがえます",
+    "かがえます"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "「考えます」は「かんがえます」と読みます。",
    "distractors": [
-    "wrong okurigana",
-    "on-reading こう",
-    "wrong voicing か",
-    "CORRECT: かんがえます = think over"
+    "drops the ん after か, and unvoices が->か",
+    "unvoices が->か",
+    "CORRECT: かんがえます = think over",
+    "drops the ん after か"
    ]
   },
   {
@@ -384,24 +384,24 @@
    "sentence": "友だちの ことばを 聞いて、心が あたたかく なりました。",
    "underline": "心",
    "options": [
-    "こころう",
-    "こころ",
     "こごろ",
-    "ころこ"
+    "ごごろ",
+    "ごころ",
+    "こころ"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「心」は「こころ」と読みます。",
    "distractors": [
-    "adds a long vowel (こころう)",
-    "CORRECT: こころ = heart; feelings",
     "voices こ->ご",
-    "kana in the wrong order"
+    "voices both こ->ご",
+    "kun ごころ for 心 (only inside compounds), wrong here",
+    "CORRECT: こころ = heart; feelings"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "あおい 空が きれいです。",
+   "sentence": "きょうは 空が きれいです。",
    "underline": "空",
    "options": [
     "うみ",
@@ -412,7 +412,7 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "つくえの うえに ほんが あります。",
+   "sentence": "つくえの 上に ほんが あります。",
    "underline": "ほん",
    "options": [
     "木",
@@ -423,24 +423,24 @@
    "correct": 2
   },
   "M3": {
-   "sentence": "きょうしつで せんせいの はなしを（　　）。",
+   "sentence": "きょうしつで 先生の はなしを（　　）。",
    "underline": "（　　）",
    "options": [
-    "ききます",
-    "のみます",
-    "はしります",
-    "かいます"
+    "聞きます",
+    "飲みます",
+    "食べます",
+    "買います"
    ],
    "correct": 1
   },
   "M4": {
-   "sentence": "この みちは せまいです。",
+   "sentence": "この 道は せまいです。",
    "underline": "せまい",
    "options": [
-    "この みちは とても ながいです。",
-    "この みちは ひろく ありません。",
-    "この みちは とても ひろいです。",
-    "この みちは とても みじかいです。"
+    "この 道は 長く ありません。",
+    "この 道は ひろく ありません。",
+    "この 道は とても ひろいです。",
+    "この 道は とても みじかいです。"
    ],
    "correct": 2
   },

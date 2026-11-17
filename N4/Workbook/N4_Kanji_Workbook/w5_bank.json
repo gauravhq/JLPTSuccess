@@ -15,18 +15,18 @@
    "sentence": "しずかな へやで べんきょうに 集中します。",
    "underline": "集中",
    "options": [
-    "しゅちゅう",
+    "じゅうちゆう",
     "しゅうちゅう",
-    "じゅうちゅう",
-    "しゅうじゅう"
+    "しゅうちゆう",
+    "じゅうちゅう"
    ],
    "correct": 2,
    "explanation": "「集中」は「しゅうちゅう」と読みます。",
    "distractors": [
-    "drops the long vowel しゅ",
-    "CORRECT",
-    "voices し->じ",
-    "voices ちゅう->じゅう"
+    "voices し->じ, and writes small ゅ full-size (ゆ)",
+    "CORRECT: しゅうちゅう = concentration; focus",
+    "writes small ゅ full-size (ゆ)",
+    "voices し->じ"
    ]
   },
   {
@@ -41,18 +41,18 @@
    "sentence": "この エレベーターは いま 使用できません。",
    "underline": "使用",
    "options": [
-    "しよ",
-    "しゆう",
     "しよう",
-    "じよう"
+    "じよう",
+    "しよ",
+    "じよ"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「使用」は「しよう」と読みます。",
    "distractors": [
-    "drops the long vowel よ",
-    "ゆ instead of よ (しゆう)",
-    "CORRECT",
-    "voices し->じ"
+    "CORRECT: しよう = use",
+    "voices し->じ",
+    "drops the long vowel (よ)",
+    "voices し->じ, and drops the long vowel (よ)"
    ]
   },
   {
@@ -68,17 +68,17 @@
    "underline": "作品",
    "options": [
     "さくひ",
-    "さくしな",
-    "さくぶん",
-    "さくひん"
+    "ざくひん",
+    "さくひん",
+    "ざくひ"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "「作品」は「さくひん」と読みます。",
    "distractors": [
-    "drops ん",
-    "kun しな for 品",
-    "wrong 2nd kanji (ぶん)",
-    "CORRECT"
+    "drops the ん after ひ",
+    "voices さ->ざ",
+    "CORRECT: さくひん = a work; piece",
+    "voices さ->ざ, and drops the ん after ひ"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "わたしは 動物が すきです。",
    "underline": "動物",
    "options": [
+    "どうふつ",
     "どうぶつ",
-    "どうもつ",
     "とうぶつ",
-    "どぶつ"
+    "どふつ"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「動物」は「どうぶつ」と読みます。",
    "distractors": [
+    "unvoices ぶ->ふ",
     "CORRECT: どうぶつ = animal",
-    "on もつ (as in 荷物), wrong here",
     "unvoices ど->と",
-    "drops the long vowel (どぶつ)"
+    "drops the long vowel (ど), and unvoices ぶ->ふ"
    ]
   },
   {
@@ -119,18 +119,18 @@
    "sentence": "セミは なつの おわりに 死ぬ そうです。",
    "underline": "死ぬ",
    "options": [
-    "じぬ",
     "しぬ",
-    "しむ",
-    "しに"
+    "じぬ",
+    "しいぬ",
+    "じいぬ"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「死ぬ」は「しぬ」と読みます。",
    "distractors": [
+    "CORRECT: しぬ = to die",
     "voices し->じ",
-    "CORRECT",
-    "wrong ending む",
-    "wrong ending に"
+    "adds a long vowel (しい)",
+    "voices し->じ, and adds a long vowel (じい)"
    ]
   },
   {
@@ -142,7 +142,7 @@
    "target_word": "はじめる",
    "reading": "はじめる",
    "meaning": "to begin (something)",
-   "sentence": "そろそろ かいぎを はじめる じかんです。",
+   "sentence": "そろそろ じゅぎょうを はじめる 時間です。",
    "underline": "はじめる",
    "options": [
     "集める",
@@ -171,18 +171,18 @@
    "sentence": "この ドラマは らいしゅう おわる そうです。",
    "underline": "おわる",
    "options": [
+    "教わる",
     "作る",
-    "知る",
     "終わる",
-    "通る"
+    "代わる"
    ],
    "correct": 3,
    "explanation": "「おわる」は「終わる」と書きます。",
    "distractors": [
+    "教わる = おそわる, 'be taught'",
     "作る = つくる, 'make'",
-    "知る = しる, 'know'",
     "CORRECT: 終わる = end",
-    "通る = とおる, 'pass through'"
+    "代わる = かわる, 'take the place of'"
    ]
   },
   {
@@ -197,18 +197,18 @@
    "sentence": "えきの まえで 友だちと わかれる のは さびしいです。",
    "underline": "わかれる",
    "options": [
+    "入れる",
     "別れる",
-    "教える",
     "始める",
-    "集める"
+    "売れる"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「わかれる」は「別れる」と書きます。",
    "distractors": [
+    "入れる = いれる, 'put in'",
     "CORRECT: 別れる = part",
-    "教える = おしえる, 'teach'",
     "始める = はじめる, 'begin'",
-    "集める = あつめる, 'collect'"
+    "売れる = うれる, 'sell well'"
    ]
   },
   {
@@ -225,16 +225,16 @@
    "options": [
     "生物",
     "動物",
-    "見物",
-    "品物"
+    "品物",
+    "見物"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "「しなもの」は「品物」と書きます。",
    "distractors": [
     "生物 = せいぶつ, 'living thing'",
     "動物 = どうぶつ, 'animal'",
-    "見物 = けんぶつ, 'sightseeing'",
-    "CORRECT: 品物 = goods"
+    "CORRECT: 品物 = goods",
+    "見物 = けんぶつ, 'sightseeing'"
    ]
   },
   {
@@ -249,18 +249,18 @@
    "sentence": "なつやすみの りょこうの（　　）を たてました。",
    "underline": "（　　）",
    "options": [
-    "意見",
     "計画",
-    "用事",
-    "時間"
+    "意見",
+    "時間",
+    "用事"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "You 'make/set' a 計画 (plan) for a trip; an opinion, an errand, or time is not something you 立てる for a trip.",
    "distractors": [
+    "CORRECT: 計画 = plan (made a plan)",
     "opinion (no)",
-    "CORRECT: made a plan",
-    "errand (no)",
-    "time (no)"
+    "time (no)",
+    "errand (no)"
    ]
   },
   {
@@ -276,18 +276,18 @@
    "sentence": "きょうは たんじょうびなので、母が いつもとは ちがう（　　）ばんごはんを 作りました。",
    "underline": "（　　）",
    "options": [
-    "ふつうの",
-    "いつもの",
     "特別な",
-    "おなじ"
+    "同じ",
+    "ふつうの",
+    "いつもの"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "A dinner DIFFERENT from the usual one is a 特別な (special) dinner; 'ordinary', 'usual' and 'same' are all directly contradicted by 'いつもとは ちがう'.",
    "distractors": [
-    "ordinary (contradicts 'different from usual')",
-    "usual (directly contradicts 'different from usual')",
     "CORRECT: 特別な = special",
-    "same (contradicts 'different')"
+    "same (contradicts 'different')",
+    "ordinary (contradicts 'different from usual')",
+    "usual (directly contradicts 'different from usual')"
    ],
    "review_status": "revised"
   },
@@ -300,21 +300,21 @@
    "target_word": "朝食",
    "reading": "ちょうしょく",
    "meaning": "breakfast",
-   "sentence": "りょこうの あいだ、まいあさ 七時に ホテルで（　　）を 食べました。",
+   "sentence": "りょこうの あいだ、毎朝 七時に ホテルで（　　）を 食べました。",
    "underline": "（　　）",
    "options": [
-    "朝食",
-    "ひるごはん",
+    "おやつ",
     "ばんごはん",
-    "おやつ"
+    "ひるごはん",
+    "ちょうしょく"
    ],
-   "correct": 1,
-   "explanation": "The meal eaten every morning at seven, at the hotel on a trip, is 朝食 (breakfast); lunch, dinner and a snack are eaten at other times.",
+   "correct": 4,
+   "explanation": "The meal eaten every morning at seven, at the hotel on a trip, is ちょうしょく (breakfast); lunch, dinner and a snack are eaten at other times.",
    "distractors": [
-    "CORRECT: 朝食 = breakfast (the morning meal)",
-    "lunch (midday)",
+    "snack (between meals)",
     "dinner (evening)",
-    "snack (between meals)"
+    "lunch (midday)",
+    "CORRECT: ちょうしょく = breakfast (the morning meal)"
    ],
    "review_status": "recheck-passed",
    "review_flag": "TC-C01/TC-C03: デザート/lunch/dinner were only excluded by convention",
@@ -336,18 +336,18 @@
    "sentence": "あには まいにち こうえんで 運動して います。",
    "underline": "運動して",
    "options": [
-    "あには まいにち こうえんで 本を よんで います。",
+    "あには まいにち こうえんで ベンチに すわって 本を よんで います。",
+    "あには まいにち こうえんで からだを うごかして います。",
     "あには まいにち こうえんで ねて います。",
-    "あには まいにち こうえんで 食べて います。",
-    "あには まいにち こうえんで からだを うごかして います。"
+    "あには まいにち こうえんで 食べて います。"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "運動する means 'to exercise', which matches からだを うごかす (to move one's body).",
    "distractors": [
-    "reads books (no)",
+    "sits on a bench and reads (no)",
+    "CORRECT: moves the body = 運動する",
     "is sleeping (no)",
-    "is eating (no)",
-    "CORRECT: moves the body = 運動する"
+    "is eating (no)"
    ]
   },
   {
@@ -362,18 +362,18 @@
    "sentence": "むすこは 外国の コインを たくさん 集めて います。",
    "underline": "集めて",
    "options": [
-    "あづめて",
+    "しゅめて",
     "しゅうめて",
-    "あつめて",
-    "あつまて"
+    "じゅうめて",
+    "あつめて"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「集めて」は「あつめて」と読みます。",
    "distractors": [
-    "wrong voicing づ",
-    "on-reading しゅう",
-    "CORRECT: あつめて = collect",
-    "confused with 集まって"
+    "on しゅう for 集, plus drops the long vowel (ゅ)",
+    "on しゅう for 集, wrong here",
+    "on しゅう for 集, plus voices し->じ",
+    "CORRECT: あつめて = collect"
    ]
   },
   {
@@ -388,24 +388,24 @@
    "sentence": "父の 時計は とても 古いです。",
    "underline": "時計",
    "options": [
+    "どけ",
     "どけい",
     "とけい",
-    "じけい",
-    "ときけい"
+    "とけ"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「時計」は「とけい」と読みます。",
    "distractors": [
+    "voices と->ど, and drops the long vowel (け)",
     "voices と->ど",
     "CORRECT: とけい = clock; watch",
-    "on-reading じ for 時",
-    "kun とき for 時"
+    "drops the long vowel (け)"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "にわに 大きな 木が あります。",
+   "sentence": "あの 木を 見て ください。",
    "underline": "木",
    "options": [
     "かわ",
@@ -416,7 +416,7 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "あたらしい くるまを かいました。",
+   "sentence": "新しい くるまを かいました。",
    "underline": "くるま",
    "options": [
     "車",
@@ -431,20 +431,20 @@
    "underline": "（　　）",
    "options": [
     "見ます",
-    "のみます",
-    "はしります",
-    "かいます"
+    "飲みます",
+    "食べます",
+    "書きます"
    ],
    "correct": 1
   },
   "M4": {
-   "sentence": "この みせは よる おそくまで あいて います。",
+   "sentence": "この 店は よる おそくまで あいて います。",
    "underline": "あいて",
    "options": [
-    "この みせは よる はやく しまります。",
-    "この みせは よる おそくまで やって います。",
-    "この みせは よるは やすみです。",
-    "この みせは よる おそくまで こんで います。"
+    "この 店は よる はやく しまります。",
+    "この 店は よる おそくまで やって います。",
+    "この 店は よるは 休みです。",
+    "この 店は よる おそくまで こんで います。"
    ],
    "correct": 2
   },
@@ -455,7 +455,7 @@
     "おもい にもつを へやまで はこびます。",
     "がっこうで にほんごを はこびます。",
     "この うたを はこびます。",
-    "でんわで ともだちと はこびます。"
+    "でんわで 友だちと はこびます。"
    ],
    "correct": 1
   }

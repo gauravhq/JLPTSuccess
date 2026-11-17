@@ -2850,6 +2850,68 @@ Section-10 anti-items:
 Source: owner request 2026-11-08 ("remove em dashes"); accuracy prompt
 TYPOGRAPHY ADDENDUM; procedure manual F.72; CI JA-180.
 
+### Phase-0 answer-cue and stem-leak block (added 2026-11-15)
+
+The N4 workbook's detailed checklist runs (2026-11-15) found set-level cues that
+22 row-level rounds had passed: in 204 of 281 reading items the key was the option
+closest to all the others; reading distractors that were vowel swaps; stems that
+printed another item's answer in an inflected form (住んで, まちました) or as part of
+a compound (会社 of 会社員); kana and kanji mixed for one word in one section.
+
+Phase-0 checks (validated on the N4 workbook data, 2026-11-15; not yet run on the
+N5 question banks):
+1. `language_checks.py` (N4 workbook) AC22-AC24 -> 0 open hits; AC24 covers
+   inflected forms and compound parts, mutation-tested in bugfix_verify_20261115.py.
+2. Per reading set, count the unique centre / outlier / longest / shortest option:
+   the key holds each cue less often than the distractors (N4: centre 1 key vs 16
+   distractor, outlier 7 vs 23, longest 6 vs 20, shortest 2 vs 22).
+3. No reading distractor is a JMdict reading of the word (AC02 -> 0).
+
+Section-10 anti-items:
+- Never build every reading distractor as a one-change variant of the key; use a
+  2x2 grid of two believable slips, or on / kun mix-ups and same-field words.
+- Never use a vowel swap or a long vowel added inside a kun reading as a slip.
+- Never print another answer of the same section in a stem in any form; check the
+  inflected forms and the compound parts, not only the dictionary form.
+- Never fix a level issue by adding an exception when a level word with the same
+  tested kanji exists.
+- Never check answer order or coverage on the data order when the page prints in
+  another order (by question type, or with continuous numbering across sections).
+- Never let the key be the longest option in more than about a quarter of one
+  question type's items.
+- Never build a compound reading set that leaves the tested kanji's reading the
+  same in every option.
+- Never pair same-field word distractors with a stem that only one of them fits.
+- Never print a verb answer's noun form (通り for 通る) in another stem of its section.
+- Never keep one kanji's reading fixed in every option of a compound item when another
+  item in the unit tests that kanji (N4: reading_reveal_scan.py -> 0 pairs).
+- Never let four keys step 1-2-3-4 or 4-3-2-1.
+- Never spell one word in kana in one item and in kanji in another item of the same
+  test, worked examples and options included, unless the kana hides an answer
+  (N4: x05_scan.py -> 0 open). Rerun the scan after each fix. Match on the
+  lemma (UniDic), not the surface string, so たべます and 食べて count as one word.
+- Never let a worked example's key be its only kanji (or only kana) option.
+- Never rely on a tagger alone for the one-spelling scan: add a reading pass (JMdict
+  readings; per-kanji readings for mixed spellings like 毎ばん) and count 問題2
+  distractor spellings as printed kanji.
+- Never scan worked examples apart from the items: they obey the same rules (no
+  centre key, every option fits, no reading printed that decides a reading item).
+- Never skip an option in the centre-cue scan because it does not align to a
+  reading (よちゅ, したちょ); align only the key (N4: seg_hub check in
+  bugfix_verify_20261115.py -> 0).
+- Never use a grid corner that is itself a reading of the word (やちゅう for 夜中).
+- Never leave a card without the everyday kun form the book uses (転ぶ, 通す);
+  compare the FIRST okurigana kana, not the stem.
+- Never edit card data without rerunning tools/verify_kanji_data.py (N4 run 26:
+  two examples sharing a first gloss word passed 25 reviewer runs).
+
+Phase-0 additions (validated on the N4 workbook data, 2026-11-18; not yet run on the
+N5 question banks): bugfix_verify_20261115.py -> 0 FAIL (seg_hub, verify_kanji_data,
+counter-spelling checks included).
+
+Source: N4 detailed checklist runs 1-27 (2026-11-15 to 2026-11-18); accuracy prompt
+"Checklist runs 2-4", "Runs 7-8" and "Runs 16-26"; procedure manual F.73 points 17-18.
+
 ## LESSONS FROM PRIOR CYCLES (don't relitigate these)
 
 These lessons came from 13 audit cycles producing ~185 content fixes

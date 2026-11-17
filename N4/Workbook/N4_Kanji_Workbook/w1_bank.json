@@ -16,17 +16,17 @@
    "underline": "同時",
    "options": [
     "どじ",
-    "どうじ",
     "とうじ",
-    "どうし"
+    "どうじ",
+    "とじ"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「同時」は「どうじ」と読みます。",
    "distractors": [
-    "drops the long vowel (どう->ど)",
-    "CORRECT",
-    "unvoices the initial (どう->とう)",
-    "ends in し, not じ"
+    "drops the long vowel (ど)",
+    "unvoices ど->と",
+    "CORRECT: どうじ = same time; simultaneous",
+    "unvoices ど->と, and drops the long vowel (と)"
    ]
   },
   {
@@ -41,18 +41,18 @@
    "sentence": "火事に 気を つけて ください。",
    "underline": "火事",
    "options": [
-    "ひじ",
-    "かごと",
-    "がじ",
-    "かじ"
+    "かじ",
+    "かし",
+    "がし",
+    "がじ"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「火事」は「かじ」と読みます。",
    "distractors": [
-    "kun ひ for 火",
-    "kun こと (voiced ごと) for 事",
-    "voices か->が",
-    "CORRECT: かじ = fire"
+    "CORRECT: かじ = fire",
+    "unvoices じ->し",
+    "voices か->が, and unvoices じ->し",
+    "voices か->が"
    ]
   },
   {
@@ -68,17 +68,17 @@
    "underline": "学業",
    "options": [
     "がくぎょう",
+    "がぐぎょう",
     "がくぎょ",
-    "がっきょう",
-    "かくぎょう"
+    "がぐぎょ"
    ],
    "correct": 1,
    "explanation": "「学業」は「がくぎょう」と読みます。",
    "distractors": [
-    "CORRECT",
-    "drops the long vowel (ぎょう->ぎょ)",
-    "wrong sokuon (がっ) and unvoices ぎょう->きょう",
-    "unvoices the initial (が->か)"
+    "CORRECT: がくぎょう = schoolwork; studies",
+    "voices く->ぐ",
+    "drops the long vowel (ょ)",
+    "voices く->ぐ, and drops the long vowel (ょ)"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "コンサートの 会場は えきの 前です。",
    "underline": "会場",
    "options": [
+    "かいじよう",
+    "かいじよ",
     "かいじょ",
-    "がいじょう",
-    "かいじょう",
-    "かいしょう"
+    "かいじょう"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「会場」は「かいじょう」と読みます。",
    "distractors": [
-    "drops the long vowel (じょう->じょ)",
-    "voices the initial (かい->がい)",
-    "CORRECT",
-    "unvoices じょう->しょう"
+    "writes small ょ full-size (よ)",
+    "writes small ょ full-size (よ), and drops the long vowel (よ)",
+    "drops the long vowel (ょ)",
+    "CORRECT: かいじょう = venue; hall"
    ]
   },
   {
@@ -119,18 +119,18 @@
    "sentence": "先生の 問いに ていねいに こたえました。",
    "underline": "問い",
    "options": [
-    "とう",
+    "どうい",
     "とい",
-    "もん",
+    "とうい",
     "どい"
    ],
    "correct": 2,
    "explanation": "「問い」は「とい」と読みます。",
    "distractors": [
-    "とう = the verb 問う, not the noun 問い",
-    "CORRECT",
-    "もん = the on-reading, not this word",
-    "どい = wrong voicing"
+    "voices と->ど, and adds a long vowel (どう)",
+    "CORRECT: とい = a question; a query",
+    "adds a long vowel (とう)",
+    "voices と->ど"
    ]
   },
   {
@@ -145,17 +145,17 @@
    "sentence": "おべんとうを じぶんで つくりました。",
    "underline": "じぶん",
    "options": [
-    "自分",
     "気分",
     "半分",
+    "自分",
     "十分"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「じぶん」は「自分」と書きます。",
    "distractors": [
-    "CORRECT: 自分 = oneself",
     "気分 = きぶん, 'mood/feeling'",
     "半分 = はんぶん, 'half'",
+    "CORRECT: 自分 = oneself",
     "十分 = じゅうぶん, 'enough'"
    ]
   },
@@ -171,18 +171,18 @@
    "sentence": "これは とても だいじな しゃしんです。",
    "underline": "だいじ",
    "options": [
+    "大事",
     "火事",
     "食事",
-    "大学",
-    "大事"
+    "大学"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「だいじ」は「大事」と書きます。",
    "distractors": [
+    "CORRECT: 大事 = important",
     "火事 = かじ, 'fire'",
     "食事 = しょくじ, 'meal'",
-    "大学 = だいがく, 'university'",
-    "CORRECT: 大事 = important"
+    "大学 = だいがく, 'university'"
    ]
   },
   {
@@ -198,17 +198,17 @@
    "underline": "じだい",
    "options": [
     "時間",
-    "学校",
     "時代",
+    "学校",
     "電気"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「じだい」は「時代」と書きます。",
    "distractors": [
     "時間 = じかん, 'time'",
-    "学校 = がっこう, 'school'",
     "CORRECT: 時代 = era",
-    "電気 = でんき, 'electricity'"
+    "学校 = がっこう, 'school'",
+    "電気 = でんき, 'electricity; electric light'"
    ]
   },
   {
@@ -223,18 +223,18 @@
    "sentence": "あの かたは わたしの 日本語の 先生です。",
    "underline": "かた",
    "options": [
+    "手",
     "人",
-    "方",
     "者",
-    "手"
+    "方"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「かた」は「方」と書きます。",
    "distractors": [
+    "手 = て, 'hand', wrong reading",
     "人 = ひと, 'person', wrong reading",
-    "CORRECT: 方 = person (polite)",
     "者 = もの, 'person', wrong reading",
-    "手 = て, 'hand', wrong reading"
+    "CORRECT: 方 = person (polite)"
    ]
   },
   {
@@ -249,18 +249,18 @@
    "sentence": "すみません、えきへの（　　）を おしえて ください。",
    "underline": "（　　）",
    "options": [
-    "読み方",
-    "話し方",
     "見方",
-    "行き方"
+    "話し方",
+    "行き方",
+    "読み方"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "The way TO the station is its 行き方; the others are ways of reading/speaking/seeing and do not fit a destination.",
    "distractors": [
-    "way of reading (no)",
-    "way of speaking (no)",
     "viewpoint (no)",
-    "CORRECT: the way to the station"
+    "way of speaking (no)",
+    "CORRECT: 行き方 = the way to get there (to the station)",
+    "way of reading (no)"
    ]
   },
   {
@@ -275,18 +275,18 @@
    "sentence": "この みせは、一かいから かいだんを おりると、（　　）に あります。",
    "underline": "（　　）",
    "options": [
-    "地下",
     "二かい",
     "おくじょう",
-    "三かい"
+    "三がい",
+    "地下"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "When you go DOWN the stairs from the first floor you reach the 地下 (basement); the 2nd/3rd floor and rooftop are up, not down.",
    "distractors": [
-    "CORRECT: 地下 = basement (where the stairs down lead)",
     "2nd floor (up)",
     "rooftop (up)",
-    "3rd floor (up)"
+    "3rd floor (up)",
+    "CORRECT: 地下 = basement (where the stairs down lead)"
    ],
    "review_status": "revised"
   },
@@ -303,16 +303,16 @@
    "underline": "（　　）",
    "options": [
     "へんな人",
-    "こわい人",
     "人気者",
+    "こわい人",
     "しずかな人"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "Someone bright, funny and liked by all is the class's 人気者 (popular one); weird, scary or quiet is contradicted by the description.",
    "distractors": [
     "weird (contradicts 'liked by all')",
-    "scary (contradicts 'liked')",
     "CORRECT: 人気者 = a popular person",
+    "scary (contradicts 'liked')",
     "quiet (contradicts 'bright and funny')"
    ],
    "review_status": "revised"
@@ -329,18 +329,18 @@
    "sentence": "その ふねは あさ はやく 出発しました。",
    "underline": "出発しました",
    "options": [
-    "その ふねは あさ はやく つきました。",
+    "その ふねは あさ はやく 入りました。",
+    "その ふねは あさ はやく 出ませんでした。",
     "その ふねは あさ はやく 出ました。",
-    "その ふねは あさ はやく とまりました。",
-    "その ふねは あさ はやく もどりました。"
+    "その ふねは あさ はやく つきました。"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "出発する means 'to leave / set off', which matches 出る (出ました).",
    "distractors": [
-    "arrived (opposite)",
+    "came in (no)",
+    "did not leave (opposite)",
     "CORRECT: left = 出発",
-    "stopped (no)",
-    "returned (no)"
+    "arrived (opposite)"
    ]
   },
   {
@@ -355,18 +355,18 @@
    "sentence": "うんどうかいの ために、大きな はたを 立てました。",
    "underline": "立てました",
    "options": [
-    "たちました",
     "だてました",
-    "りつました",
-    "たてました"
+    "たてました",
+    "りゅうてました",
+    "りつてました"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「立てました」は「たてました」と読みます。",
    "distractors": [
-    "reads 立ちました (stood up), a different form",
-    "wrong voicing だ",
-    "on-reading りつ misapplied",
-    "CORRECT: たてました = put up"
+    "kun だ for 立 (only inside compounds), wrong here",
+    "CORRECT: たてました = put up",
+    "on りゅう for 立, wrong here",
+    "on りつ for 立, wrong here"
    ]
   },
   {
@@ -381,35 +381,35 @@
    "sentence": "開ける",
    "underline": "開ける",
    "options": [
-    "へやが くらいので、電気を 開けました。",
+    "へやが さむいので、ストーブを 開けました。",
     "テレビを 開けて、ニュースを 見ました。",
-    "あついので、まどを 開けました。",
-    "へやが さむいので、ストーブを 開けました。"
+    "へやが くらいので、電気を 開けました。",
+    "あついので、まどを 開けました。"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "開ける = to open (a window); a light, a TV, and a heater are all turned on with つける.",
    "distractors": [
+    "should be つけました (turn on the heater)",
+    "should be つけて (turn on the TV)",
     "should be つけました (turn on the light)",
-    "should be つけました (turn on the TV)",
-    "CORRECT: opened the window",
-    "should be つけました (turn on the heater)"
+    "CORRECT: opened the window"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "あたらしい 車を 買いました。",
+   "sentence": "父の 車は 白いです。",
    "underline": "車",
    "options": [
-    "くろま",
+    "ふね",
     "くるま",
-    "くりま",
-    "ぐるま"
+    "いえ",
+    "かばん"
    ],
    "correct": 2
   },
   "M2": {
-   "sentence": "まいあさ つめたい みずを のみます。",
+   "sentence": "つめたい みずを 飲みます。",
    "underline": "みず",
    "options": [
     "木",
@@ -442,13 +442,13 @@
    "correct": 1
   },
   "M5": {
-   "sentence": "あるく",
-   "underline": "あるく",
+   "sentence": "はく",
+   "underline": "はく",
    "options": [
-    "まいにち 学校まで あるきます。",
-    "みせで やさいを あるきます。",
-    "としょかんで 本を あるきます。",
-    "コップの みずを あるきます。"
+    "あたらしい くつを はいて 出かけました。",
+    "ぼうしを はいて 出かけました。",
+    "シャツを はいて 出かけました。",
+    "めがねを はいて 本を 読みました。"
    ],
    "correct": 1
   }

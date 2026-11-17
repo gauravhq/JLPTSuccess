@@ -232,6 +232,10 @@ def run():
             return False
         return rec(0, 0)
 
+    # Documented exception: compounds whose okurigana is omitted by the official rules (送り仮名の付け方 通則6) and that
+    # the 常用漢字表 lists as examples of the card's own kun reading: 建物 is listed under 建 たてる, so たて is not
+    # a missing reading (KANJIDIC2 lists it separately as た.て). Decided 2026-11-18 (AI JLPT-expert reviewer role).
+    OKURI_OMITTED_OK = {("建", "建物")}
     gaps, juku, bad_single = [], [], []
     if have_kd:
         for e in entries:
@@ -242,7 +246,7 @@ def run():
                 form, reading = x["form"], x["reading"]
                 if form == g and kata2hira(reading) not in ourb:
                     bad_single.append("%s/%s" % (g, reading))
-                if decompose(form, reading, g, frozenset(ourb)):
+                if decompose(form, reading, g, frozenset(ourb)) or (g, form) in OKURI_OMITTED_OK:
                     continue
                 if decompose(form, reading, g, frozenset(kdb)):
                     gaps.append("%s %s/%s" % (g, form, reading))   # needs a reading we lack

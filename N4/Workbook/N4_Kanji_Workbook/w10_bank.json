@@ -15,18 +15,18 @@
    "sentence": "大きな 台風が 近づいて います。",
    "underline": "台風",
    "options": [
+    "たいぶ",
     "たいふう",
-    "だいふう",
-    "たいかぜ",
-    "たいふ"
+    "たいふ",
+    "たいぶう"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「台風」は「たいふう」と読みます。",
    "distractors": [
-    "CORRECT",
-    "on だい (as in 一台), wrong here",
-    "kun かぜ for 風",
-    "drops the long vowel ふ"
+    "voices ふ->ぶ, and drops the long vowel (ぶ)",
+    "CORRECT: たいふう = typhoon",
+    "on ふ for 風, wrong here",
+    "voices ふ->ぶ"
    ]
   },
   {
@@ -41,44 +41,44 @@
    "sentence": "図書館で しずかに 本を 読みます。",
    "underline": "図書館",
    "options": [
-    "としょうかん",
-    "としょっかん",
-    "としょかん",
-    "としょがん"
+    "としよか",
+    "としよかん",
+    "としょか",
+    "としょかん"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「図書館」は「としょかん」と読みます。",
    "distractors": [
-    "adds a long vowel (しょう)",
-    "adds a sokuon (としょっかん)",
-    "CORRECT: としょかん = library",
-    "voices か->が"
+    "writes small ょ full-size (よ), and drops the ん after か",
+    "writes small ょ full-size (よ)",
+    "drops the ん after か",
+    "CORRECT: としょかん = library"
    ]
   },
   {
    "id": "W10-M1-Q03",
    "type": "kanji_reading",
    "target_kanji": [
-    "館"
+    "屋"
    ],
-   "target_word": "大使館",
-   "reading": "たいしかん",
-   "meaning": "embassy",
-   "sentence": "パスポートの ことで 大使館へ 行きました。",
-   "underline": "大使館",
+   "target_word": "本屋",
+   "reading": "ほんや",
+   "meaning": "bookstore",
+   "sentence": "駅の 前の 本屋で ざっしを 買いました。",
+   "underline": "本屋",
    "options": [
-    "たいしかん",
-    "だいしかん",
-    "たいしがん",
-    "たいつかいかん"
+    "ぼんおく",
+    "ぼんや",
+    "ほんや",
+    "ほや"
    ],
-   "correct": 1,
-   "explanation": "「大使館」は「たいしかん」と読みます。",
+   "correct": 3,
+   "explanation": "「本屋」は「ほんや」と読みます。",
    "distractors": [
-    "CORRECT",
-    "on だい (as in 大学), wrong here",
-    "voices か->が",
-    "kun つかい for 使"
+    "voices ほ->ぼ, and on おく for 屋",
+    "voices ほ->ぼ",
+    "CORRECT: ほんや = bookstore",
+    "drops the ん after ほ"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "この 学校の 特色は スポーツが さかんな ことです。",
    "underline": "特色",
    "options": [
-    "とくいろ",
-    "どくしょく",
-    "とくしき",
-    "とくしょく"
+    "とくしょぐ",
+    "とくしょく",
+    "とくしよぐ",
+    "とくしよく"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「特色」は「とくしょく」と読みます。",
    "distractors": [
-    "kun いろ for 色",
-    "voices と->ど",
-    "on しき (as in 景色), wrong here",
-    "CORRECT"
+    "voices く->ぐ",
+    "CORRECT: とくしょく = a characteristic; feature",
+    "writes small ょ full-size (よ), and voices く->ぐ",
+    "writes small ょ full-size (よ)"
    ]
   },
   {
@@ -119,18 +119,18 @@
    "sentence": "さいごの 走者が ゴールしました。",
    "underline": "走者",
    "options": [
+    "ぞしゃ",
     "そしゃ",
-    "そうもの",
     "そうしゃ",
-    "そうじゃ"
+    "ぞうしゃ"
    ],
    "correct": 3,
    "explanation": "「走者」は「そうしゃ」と読みます。",
    "distractors": [
-    "drops the long vowel (そう->そ)",
-    "kun もの for 者",
-    "CORRECT",
-    "voices しゃ->じゃ"
+    "voices そ->ぞ, and drops the long vowel (ぞ)",
+    "drops the long vowel (そ)",
+    "CORRECT: そうしゃ = a runner",
+    "voices そ->ぞ"
    ]
   },
   {
@@ -147,16 +147,16 @@
    "options": [
     "黒い",
     "白い",
-    "赤い",
-    "青い"
+    "青い",
+    "赤い"
    ],
    "correct": 1,
    "explanation": "「くろい」は「黒い」と書きます。",
    "distractors": [
     "CORRECT: 黒い = black",
     "白い = しろい, 'white'",
-    "赤い = あかい, 'red'",
-    "青い = あおい, 'blue'"
+    "青い = あおい, 'blue'",
+    "赤い = あかい, 'red'"
    ]
   },
   {
@@ -171,18 +171,18 @@
    "sentence": "そぼに てがみを 書きました。",
    "underline": "てがみ",
    "options": [
-    "切手",
-    "上手",
     "下手",
-    "手紙"
+    "手紙",
+    "上手",
+    "切手"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「てがみ」は「手紙」と書きます。",
    "distractors": [
-    "切手 = きって, 'stamp'",
-    "上手 = じょうず, 'skillful'",
     "下手 = へた, 'unskillful'",
-    "CORRECT: 手紙 = letter"
+    "CORRECT: 手紙 = letter",
+    "上手 = じょうず, 'skillful'",
+    "切手 = きって, 'stamp'"
    ]
   },
   {
@@ -200,16 +200,16 @@
    "options": [
     "黒い",
     "青い",
-    "赤い",
-    "明るい"
+    "明るい",
+    "赤い"
    ],
    "correct": 2,
    "explanation": "「あおい」は「青い」と書きます。",
    "distractors": [
     "黒い = くろい, 'black'",
     "CORRECT: 青い = blue",
-    "赤い = あかい, 'red'",
-    "明るい = あかるい, 'bright'"
+    "明るい = あかるい, 'bright'",
+    "赤い = あかい, 'red'"
    ]
   },
   {
@@ -224,18 +224,18 @@
    "sentence": "この シャツの いろが すきです。",
    "underline": "いろ",
    "options": [
-    "風",
     "音",
-    "色",
-    "秋"
+    "風",
+    "秋",
+    "色"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「いろ」は「色」と書きます。",
    "distractors": [
-    "風 = かぜ, 'wind'",
     "音 = おと, 'sound'",
-    "CORRECT: 色 = color",
-    "秋 = あき, 'autumn'"
+    "風 = かぜ, 'wind'",
+    "秋 = あき, 'autumn'",
+    "CORRECT: 色 = color"
    ]
   },
   {
@@ -281,17 +281,17 @@
    "sentence": "学校が ない 七月の おわりから 八月までの 長い（　　）は とても 楽しみです。",
    "underline": "（　　）",
    "options": [
-    "夏休み",
-    "週まつ",
     "日よう日",
+    "週まつ",
+    "夏休み",
     "たんじょう日"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "The long break from late July to August is 夏休み (summer vacation); a weekend, a Sunday, or a birthday is not that long summer period.",
    "distractors": [
-    "CORRECT: summer vacation",
-    "a weekend (not a summer period)",
     "a Sunday (not a summer period)",
+    "a weekend (not a summer period)",
+    "CORRECT: 夏休み = summer vacation",
     "a birthday (not a summer period)"
    ]
   },
@@ -304,21 +304,21 @@
    "target_word": "秋",
    "reading": "あき",
    "meaning": "autumn",
-   "sentence": "だんだん すずしく なり、木の はが 赤く なる きせつは（　　）です。",
+   "sentence": "だんだん すずしく なって、木の はが 赤く なる きせつは（　　）です。",
    "underline": "（　　）",
    "options": [
-    "春",
     "秋",
+    "ふゆ",
     "夏",
-    "ふゆ"
+    "春"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "The season that gets cooler with red leaves is 秋 (autumn); spring/summer/winter are the other three seasons.",
    "distractors": [
-    "spring (gets warmer)",
     "CORRECT: 秋 = autumn (gets cooler, red leaves)",
+    "winter (cold, bare trees)",
     "summer (hot, green leaves)",
-    "winter (cold, bare trees)"
+    "spring (gets warmer)"
    ],
    "review_status": "revised"
   },
@@ -334,18 +334,18 @@
    "sentence": "この ビルの 屋上から、町が よく 見えます。",
    "underline": "屋上",
    "options": [
-    "この ビルの 一かいから、町が よく 見えます。",
-    "この ビルの となりから、町が よく 見えます。",
     "この ビルの 中から、町が よく 見えます。",
-    "この ビルの いちばん 上から、町が よく 見えます。"
+    "この ビルの 一かいから、町が よく 見えます。",
+    "この ビルの となりの 店から、町が よく 見えます。",
+    "この ビルの いちばん 高い ところから、町が よく 見えます。"
    ],
    "correct": 4,
-   "explanation": "屋上 = the rooftop, i.e. the top of a building; the first floor, next to it, or inside are different places.",
+   "explanation": "屋上 = the rooftop, i.e. the highest place of a building; the first floor, a shop next door, or inside are different places.",
    "distractors": [
-    "the first floor (a different place)",
-    "next to the building (different)",
     "inside the building (different)",
-    "CORRECT: the top of the building = the rooftop (屋上)"
+    "the first floor (a different place)",
+    "a shop next to the building (different)",
+    "CORRECT: the highest place of the building = the rooftop (屋上)"
    ]
   },
   {
@@ -360,18 +360,18 @@
    "sentence": "うんどうかいで 百メートル 走りました。",
    "underline": "走りました",
    "options": [
-    "はしました",
     "はしりました",
-    "そうりました",
-    "わしりました"
+    "はじりました",
+    "ばじりました",
+    "ばしりました"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「走りました」は「はしりました」と読みます。",
    "distractors": [
-    "missing り",
     "CORRECT: はしりました = ran",
-    "on-reading そう",
-    "wrong first kana わ"
+    "voices し->じ",
+    "voices は->ば, and voices し->じ",
+    "voices は->ば"
    ]
   },
   {
@@ -384,27 +384,27 @@
    "reading": "あかく",
    "meaning": "red",
    "grammar_note": "i-adjective",
-   "sentence": "あきに なって、にわの りんごが 赤く なりました。",
+   "sentence": "はずかしくて、かおが 赤く なりました。",
    "underline": "赤く",
    "options": [
-    "あがく",
     "せきく",
+    "あがく",
     "あかく",
-    "あこく"
+    "あおく"
    ],
    "correct": 3,
    "explanation": "「赤く」は「あかく」と読みます。",
    "distractors": [
-    "wrong voicing が",
-    "on-reading せき",
+    "on せき for 赤, wrong here",
+    "voices か->が",
     "CORRECT: あかく = red",
-    "wrong vowel こ"
+    "あおく means 'blue'"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "山の うえに ゆきが あります。",
+   "sentence": "まどから 山が 見えます。",
    "underline": "山",
    "options": [
     "かわ",
@@ -415,10 +415,10 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "あさ ろくじに おきます。",
-   "underline": "おきます",
+   "sentence": "ねる 前に 本を よみます。",
+   "underline": "よみます",
    "options": [
-    "起きます",
+    "読みます",
     "休みます",
     "動きます",
     "開きます"
@@ -429,10 +429,10 @@
    "sentence": "のどが かわいたので、つめたい 水を（　　）。",
    "underline": "（　　）",
    "options": [
-    "のみます",
-    "たべます",
-    "よみます",
-    "ききます"
+    "飲みます",
+    "食べます",
+    "読みます",
+    "聞きます"
    ],
    "correct": 1
   },
@@ -440,10 +440,10 @@
    "sentence": "この かばんは かるいです。",
    "underline": "かるい",
    "options": [
-    "この かばんは とても おもいです。",
-    "この かばんは おもく ないです。",
+    "この かばんは とても 重いです。",
+    "この かばんは 重く ないです。",
     "この かばんは とても 高いです。",
-    "この かばんは とても 大きいです。"
+    "この かばんは あまり 大きく ないです。"
    ],
    "correct": 2
   },
@@ -452,9 +452,9 @@
    "underline": "つかう",
    "options": [
     "りょうりに この なべを つかいます。",
-    "そらが あおく つかいます。",
+    "そらが 青く つかいます。",
     "あめが たくさん つかいます。",
-    "かぜが つよく つかいます。"
+    "風が つよく つかいます。"
    ],
    "correct": 1
   }

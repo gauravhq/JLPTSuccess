@@ -9,24 +9,24 @@
    "target_kanji": [
     "足"
    ],
-   "target_word": "足",
-   "reading": "あし",
-   "meaning": "foot; leg",
-   "sentence": "サッカーで 足を けがしました。",
-   "underline": "足",
+   "target_word": "足りません",
+   "reading": "たりません",
+   "meaning": "is not enough",
+   "sentence": "お金が 少し 足りません。",
+   "underline": "足りません",
    "options": [
-    "あす",
-    "あし",
-    "たし",
-    "あじ"
+    "そぐりません",
+    "たりません",
+    "だりません",
+    "そくりません"
    ],
    "correct": 2,
-   "explanation": "「足」は「あし」と読みます。",
+   "explanation": "「足りません」は「たりません」と読みます。",
    "distractors": [
-    "wrong あす",
-    "CORRECT: あし = foot/leg",
-    "kun た(す) (足す), not this word",
-    "wrong あじ"
+    "on そく for 足, plus voices く->ぐ",
+    "CORRECT: たりません = is not enough",
+    "voices た->だ",
+    "on そく for 足, wrong here"
    ],
    "review_status": "automated-check-passed"
   },
@@ -42,18 +42,18 @@
    "sentence": "兄は 身長が 高いです。",
    "underline": "身長",
    "options": [
-    "みちょう",
-    "しんなが",
-    "しんちょ",
-    "しんちょう"
+    "じんちゅう",
+    "しんちょう",
+    "しんちゅう",
+    "じんちょう"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「身長」は「しんちょう」と読みます。",
    "distractors": [
-    "kun み for 身",
-    "kun なが for 長",
-    "drops the long vowel (ちょ)",
-    "CORRECT: しんちょう = (body) height"
+    "voices し->じ, and writes ょう as ゅう",
+    "CORRECT: しんちょう = (body) height",
+    "writes ょう as ゅう",
+    "voices し->じ"
    ]
   },
   {
@@ -68,18 +68,18 @@
    "sentence": "来週 家族と りょこうに 行きます。",
    "underline": "来週",
    "options": [
-    "らいしゅう",
     "らいしゅ",
-    "くしゅう",
-    "らいちょう"
+    "らいしゆ",
+    "らいしゅう",
+    "らいしゆう"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「来週」は「らいしゅう」と読みます。",
    "distractors": [
+    "drops the long vowel (ゅ)",
+    "writes small ゅ full-size (ゆ), and drops the long vowel (ゆ)",
     "CORRECT: らいしゅう = next week",
-    "drops the long vowel しゅ",
-    "kun く (as in 来る), not the on らい",
-    "wrong ちょう for 週"
+    "writes small ゅ full-size (ゆ)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -95,18 +95,18 @@
    "sentence": "つぎの テストは 何曜日ですか。",
    "underline": "何曜日",
    "options": [
-    "なんように",
-    "なんようひ",
     "なんようび",
-    "なんよび"
+    "なんゆび",
+    "なんよび",
+    "なんゆうび"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「何曜日」は「なんようび」と読みます。",
    "distractors": [
-    "wrong ending ように",
-    "kun ひ; 何曜日 voices it to び",
-    "CORRECT: なんようび = what day",
-    "drops う (なんよび)"
+    "CORRECT: なんようび = what day of the week",
+    "writes よう as ゆう, and drops the long vowel (ゆ)",
+    "drops the long vowel (よ)",
+    "writes よう as ゆう"
    ],
    "review_status": "automated-check-passed"
   },
@@ -119,21 +119,21 @@
    "target_word": "駅",
    "reading": "えき",
    "meaning": "station",
-   "sentence": "駅の まえで 友だちを まって います。",
+   "sentence": "駅の 前で 友だちを まって います。",
    "underline": "駅",
    "options": [
-    "えけ",
-    "えき",
-    "やく",
-    "えぎ"
+    "えいぎ",
+    "えぎ",
+    "えいき",
+    "えき"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「駅」は「えき」と読みます。",
    "distractors": [
-    "wrong えけ",
-    "CORRECT: えき = station",
-    "やく is the reading of 訳, not 駅",
-    "voiced えぎ"
+    "adds a long vowel (えい), and voices き->ぎ",
+    "voices き->ぎ",
+    "adds a long vowel (えい)",
+    "CORRECT: えき = station"
    ],
    "review_status": "automated-check-passed"
   },
@@ -149,18 +149,18 @@
    "sentence": "デパートで たくさん かいものを しました。",
    "underline": "かいもの",
    "options": [
-    "飲み物",
     "食べ物",
-    "品物",
-    "買い物"
+    "買い物",
+    "言い方",
+    "飲み物"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「かいもの」は「買い物」と書きます。",
    "distractors": [
-    "飲み物 = のみもの, 'drink'",
     "食べ物 = たべもの, 'food'",
-    "品物 = しなもの, 'goods'",
-    "CORRECT: 買い物 = shopping"
+    "CORRECT: 買い物 = shopping",
+    "言い方 = いいかた, 'way of saying'",
+    "飲み物 = のみもの, 'drink'"
    ],
    "review_status": "automated-check-passed"
   },
@@ -185,7 +185,7 @@
    "explanation": "「ふるい」は「古い」と書きます。",
    "distractors": [
     "新しい = あたらしい, 'new'",
-    "広い = ひろい, 'wide'",
+    "広い = ひろい, 'wide; spacious'",
     "CORRECT: 古い = old",
     "長い = ながい, 'long'"
    ],
@@ -203,18 +203,18 @@
    "sentence": "てんいんに 品物の ばしょを ききました。",
    "underline": "てんいん",
    "options": [
+    "銀行員",
     "店員",
-    "駅員",
     "会員",
-    "銀行員"
+    "駅員"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「てんいん」は「店員」と書きます。",
    "distractors": [
+    "銀行員 = ぎんこういん, 'bank clerk'",
     "CORRECT: 店員 = shop clerk",
-    "駅員 = えきいん, 'station staff'",
     "会員 = かいいん, 'member'",
-    "銀行員 = ぎんこういん, 'bank clerk'"
+    "駅員 = えきいん, 'station staff'"
    ],
    "review_status": "automated-check-passed"
   },
@@ -230,18 +230,18 @@
    "sentence": "こうえんの きれいな はなを 見ました。",
    "underline": "はな",
    "options": [
+    "花",
     "山",
-    "木",
     "空",
-    "花"
+    "木"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「はな」は「花」と書きます。",
    "distractors": [
+    "CORRECT: 花 = flower",
     "山 = やま, 'mountain'",
-    "木 = き, 'tree'",
     "空 = そら, 'sky'",
-    "CORRECT: 花 = flower"
+    "木 = き, 'tree'"
    ],
    "review_status": "automated-check-passed"
   },
@@ -257,16 +257,16 @@
    "sentence": "ごはんの あとの（　　）は、つめたい お茶に しました。",
    "underline": "（　　）",
    "options": [
-    "食べ物",
     "飲み物",
+    "食べ物",
     "のりもの",
     "くだもの"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "Cold tea is a 飲み物 (drink); tea is not food, a vehicle or fruit.",
    "distractors": [
-    "food (tea is not food)",
     "CORRECT: 飲み物 = a drink",
+    "food (tea is not food)",
     "a vehicle (no)",
     "fruit (tea is not fruit)"
    ],
@@ -281,21 +281,21 @@
    "target_word": "中身",
    "reading": "なかみ",
    "meaning": "contents",
-   "sentence": "はこを ふらないで ください。（　　）が こわれます。",
+   "sentence": "はこを おとさないで ください。（　　）が こわれます。",
    "underline": "（　　）",
    "options": [
-    "なまえ",
+    "おもて",
     "ねだん",
     "中身",
-    "おもて"
+    "名前"
    ],
    "correct": 3,
-   "explanation": "Shaking the box breaks what is inside - its 中身 (contents); a name, price or the surface does not break when shaken.",
+   "explanation": "Dropping the box breaks what is inside - its 中身 (contents); a name, a price or the surface does not break when the box is dropped.",
    "distractors": [
-    "name (does not break)",
+    "the surface (does not break)",
     "price (does not break)",
-    "CORRECT: 中身 = the contents (break if shaken)",
-    "the surface (does not break from shaking)"
+    "CORRECT: 中身 = the contents (break if dropped)",
+    "name (does not break)"
    ],
    "review_status": "automated-check-passed"
   },
@@ -308,21 +308,21 @@
    "target_word": "空",
    "reading": "そら",
    "meaning": "sky",
-   "sentence": "あめが やんで、あたまの 上の（　　）に にじが かかりました。",
+   "sentence": "あめが やんで、あたまの 上の（　　）が あかるく なりました。",
    "underline": "（　　）",
    "options": [
-    "空",
-    "海",
+    "川",
     "土",
-    "川"
+    "海",
+    "空"
    ],
-   "correct": 1,
-   "explanation": "A rainbow spans the 空 (sky) OVERHEAD; the sea, ground or a river is not above your head.",
+   "correct": 4,
+   "explanation": "After the rain stops, the 空 (sky) overhead gets bright; the sea, ground or a river is not above your head.",
    "distractors": [
-    "CORRECT: 空 = the sky overhead",
-    "sea (not overhead)",
+    "river (not overhead)",
     "ground (not overhead)",
-    "river (not overhead)"
+    "sea (not overhead)",
+    "CORRECT: 空 = the sky overhead"
    ],
    "review_status": "automated-check-passed"
   },
@@ -338,17 +338,17 @@
    "sentence": "これは 古本です。",
    "underline": "古本",
    "options": [
-    "これは 新しい 本です。",
-    "これは とても 高い 本です。",
     "これは 大きい 本です。",
+    "これは だれも まだ 読んで いない 本です。",
+    "これは とても 高い 本です。",
     "これは だれかが 前に 使った 本です。"
    ],
    "correct": 4,
    "explanation": "古本 means a second-hand book: a book someone used before.",
    "distractors": [
-    "new (opposite)",
-    "expensive (unrelated)",
     "big (unrelated)",
+    "nobody has read it yet (opposite)",
+    "expensive (unrelated)",
     "CORRECT: someone used it before = 古本"
    ],
    "review_status": "automated-check-passed"
@@ -365,18 +365,18 @@
    "sentence": "この りょこうの 目的は、おんせんに 入ることです。",
    "underline": "目的",
    "options": [
-    "もくでき",
+    "もってぎ",
+    "もくてぎ",
     "もくてき",
-    "めてき",
-    "もくじ"
+    "もってき"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「目的」は「もくてき」と読みます。",
    "distractors": [
-    "voiced でき",
+    "contracts く to a small っ, and voices き->ぎ",
+    "voices き->ぎ",
     "CORRECT: もくてき = purpose",
-    "kun め for 目",
-    "wrong もくじ"
+    "contracts く to a small っ"
    ],
    "review_status": "automated-check-passed"
   },
@@ -389,45 +389,45 @@
    "target_word": "不可",
    "reading": "ふか",
    "meaning": "not allowed",
-   "sentence": "わたしの アパートは ペット不可です。",
+   "sentence": "うちの アパートは ペット不可です。",
    "underline": "不可",
    "options": [
-    "ふが",
-    "ふうか",
     "ふか",
-    "ふっか"
+    "ふが",
+    "ぶか",
+    "ぶが"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「不可」は「ふか」と読みます。",
    "distractors": [
-    "voices か->が",
-    "adds a long vowel (ふう)",
     "CORRECT: ふか = not allowed",
-    "adds a small っ (ふっか)"
+    "voices か->が",
+    "on ぶ for 不, wrong here",
+    "on ぶ for 不, and voices か->が"
    ],
    "review_status": "automated-check-passed"
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "にわで 子どもが あそんで います。",
-   "underline": "子ども",
+   "sentence": "あの 人は 先生です。",
+   "underline": "先生",
    "options": [
-    "おとな",
-    "こども",
     "がくせい",
-    "せんせい"
+    "せんせい",
+    "せいと",
+    "いしゃ"
    ],
    "correct": 2
   },
   "M2": {
-   "sentence": "まいにち にほんごを べんきょうします。",
-   "underline": "べんきょう",
+   "sentence": "先生の 話を ききます。",
+   "underline": "ききます",
    "options": [
-    "勉強",
-    "運動",
-    "質問",
-    "仕事"
+    "聞きます",
+    "読みます",
+    "書きます",
+    "話します"
    ],
    "correct": 1
   },
@@ -436,9 +436,9 @@
    "underline": "（　　）",
    "options": [
     "あらいます",
-    "たべます",
-    "はしります",
-    "かきます"
+    "かぶります",
+    "ききます",
+    "はきます"
    ],
    "correct": 1
   },
@@ -457,7 +457,7 @@
    "sentence": "およぐ",
    "underline": "およぐ",
    "options": [
-    "なつに うみで およぎます。",
+    "なつに 海で およぎます。",
     "へやを きれいに およぎます。",
     "ごはんを たくさん およぎます。",
     "つめたい 水を およいで のみます。"

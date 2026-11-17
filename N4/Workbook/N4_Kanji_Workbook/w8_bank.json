@@ -17,17 +17,17 @@
    "underline": "試験",
    "options": [
     "しけん",
-    "しげん",
-    "じけん",
-    "ためけん"
+    "じけ",
+    "しけ",
+    "じけん"
    ],
    "correct": 1,
    "explanation": "「試験」は「しけん」と読みます。",
    "distractors": [
-    "CORRECT",
-    "voices け->げ",
-    "voices し->じ",
-    "kun ため for 試"
+    "CORRECT: しけん = examination; test",
+    "voices し->じ, and drops the ん after け",
+    "drops the ん after け",
+    "voices し->じ"
    ]
   },
   {
@@ -39,21 +39,21 @@
    "target_word": "銀行",
    "reading": "ぎんこう",
    "meaning": "bank",
-   "sentence": "お金を 銀行に あずけます。",
+   "sentence": "えきの 前に 銀行が あります。",
    "underline": "銀行",
    "options": [
-    "ぎんぎょう",
-    "きんこう",
-    "ぎんい",
+    "ぎんごう",
+    "ぎこう",
+    "ぎごう",
     "ぎんこう"
    ],
    "correct": 4,
    "explanation": "「銀行」は「ぎんこう」と読みます。",
    "distractors": [
-    "on ぎょう (as in 行事), wrong here",
-    "unvoices ぎ->き",
-    "kun い (as in 行く), wrong here",
-    "CORRECT"
+    "voices こ->ご",
+    "drops the ん after ぎ",
+    "drops the ん after ぎ, and voices こ->ご",
+    "CORRECT: ぎんこう = bank"
    ]
   },
   {
@@ -68,18 +68,18 @@
    "sentence": "わたしは 英語を べんきょうして います。",
    "underline": "英語",
    "options": [
-    "えいご",
     "えいこ",
+    "えこ",
     "えご",
-    "えいぎょ"
+    "えいご"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "「英語」は「えいご」と読みます。",
    "distractors": [
-    "CORRECT",
     "unvoices ご->こ",
-    "drops the long vowel え",
-    "wrong reading ぎょ"
+    "drops the long vowel (え), and unvoices ご->こ",
+    "drops the long vowel (え)",
+    "CORRECT: えいご = English (language)"
    ]
   },
   {
@@ -94,18 +94,18 @@
    "sentence": "父は まいにち おそくまで 仕事を します。",
    "underline": "仕事",
    "options": [
-    "しじ",
-    "じごと",
+    "じごど",
+    "しごど",
     "しごと",
-    "しこと"
+    "じごと"
    ],
    "correct": 3,
    "explanation": "「仕事」は「しごと」と読みます。",
    "distractors": [
-    "on じ (as in 大事), wrong here",
-    "voices し->じ",
-    "CORRECT",
-    "kun こと; 仕事 voices it to ごと"
+    "voices し->じ, and voices と->ど",
+    "voices と->ど",
+    "CORRECT: しごと = work; job",
+    "voices し->じ"
    ]
   },
   {
@@ -120,18 +120,18 @@
    "sentence": "土よう日に 友だちと 映画を 見ます。",
    "underline": "映画",
    "options": [
-    "えが",
+    "えいか",
     "えいが",
-    "うつが",
-    "えいかく"
+    "えか",
+    "えが"
    ],
    "correct": 2,
    "explanation": "「映画」は「えいが」と読みます。",
    "distractors": [
-    "drops the long vowel (えが)",
+    "unvoices が->か",
     "CORRECT: えいが = movie",
-    "kun うつ (映る) misapplied",
-    "on かく (as in 計画), wrong here"
+    "drops the long vowel (え), and unvoices が->か",
+    "drops the long vowel (え)"
    ]
   },
   {
@@ -146,17 +146,17 @@
    "sentence": "けさは いつもより はやい 時間に えきへ 行きました。",
    "underline": "はやい",
    "options": [
-    "早い",
     "多い",
     "高い",
+    "早い",
     "長い"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「はやい」は「早い」と書きます。",
    "distractors": [
-    "CORRECT: 早い = early",
     "多い = おおい, 'many'",
-    "高い = たかい, 'tall'",
+    "高い = たかい, 'high; tall; expensive'",
+    "CORRECT: 早い = early",
     "長い = ながい, 'long'"
    ]
   },
@@ -173,17 +173,17 @@
    "underline": "うつる",
    "options": [
     "知る",
-    "売る",
     "通る",
-    "映る"
+    "映る",
+    "売る"
    ],
-   "correct": 4,
+   "correct": 3,
    "explanation": "「うつる」は「映る」と書きます。",
    "distractors": [
     "知る = しる, 'know'",
-    "売る = うる, 'sell'",
     "通る = とおる, 'pass through'",
-    "CORRECT: 映る = be reflected"
+    "CORRECT: 映る = be reflected",
+    "売る = うる, 'sell'"
    ]
   },
   {
@@ -199,17 +199,17 @@
    "underline": "いみ",
    "options": [
     "意見",
-    "用意",
     "意味",
-    "意外"
+    "気分",
+    "用意"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「いみ」は「意味」と書きます。",
    "distractors": [
     "意見 = いけん, 'opinion'",
-    "用意 = ようい, 'preparation'",
     "CORRECT: 意味 = meaning",
-    "意外 = いがい, 'unexpected'"
+    "気分 = きぶん, 'mood'",
+    "用意 = ようい, 'preparation'"
    ]
   },
   {
@@ -224,18 +224,18 @@
    "sentence": "にちようびは かぞくで こうえんに 行きます。",
    "underline": "かぞく",
    "options": [
-    "家事",
     "家族",
-    "国家",
-    "親族"
+    "家",
+    "家事",
+    "作家"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「かぞく」は「家族」と書きます。",
    "distractors": [
-    "家事 = かじ, 'housework'",
     "CORRECT: 家族 = family",
-    "国家 = こっか, 'nation'",
-    "親族 = しんぞく, 'relatives'"
+    "家 = いえ, 'house'",
+    "家事 = かじ, 'housework'",
+    "作家 = さっか, 'writer'"
    ]
   },
   {
@@ -250,18 +250,18 @@
    "sentence": "ねつが 下がらないので、（　　）に みて もらいました。",
    "underline": "（　　）",
    "options": [
-    "コック",
+    "医者",
     "店員",
     "画家",
-    "医者"
+    "運転手"
    ],
-   "correct": 4,
-   "explanation": "When a fever won't go down you see a 医者 (doctor); a cook, a clerk, or a painter does not examine a patient.",
+   "correct": 1,
+   "explanation": "When a fever won't go down you see a 医者 (doctor); a driver, a clerk or a painter does not examine a patient.",
    "distractors": [
-    "cook (no)",
+    "CORRECT: 医者 = doctor (had a doctor examine me)",
     "clerk (no)",
     "painter (no)",
-    "CORRECT: had a doctor examine me"
+    "driver (no)"
    ]
   },
   {
@@ -274,20 +274,20 @@
    "reading": "しんせつ",
    "meaning": "kind",
    "grammar_note": "na-adjective",
-   "sentence": "あの 店の 人は だれにでも とても（　　）です。",
+   "sentence": "あの 店の 人は、わすれものを とどけて くれたり、道を おしえて くれたり して、だれにでも とても（　　）です。",
    "underline": "（　　）",
    "options": [
+    "有名",
     "親切",
     "元気",
-    "有名",
     "大切"
    ],
-   "correct": 1,
-   "explanation": "Someone kind to everyone is 親切; lively, famous, or precious does not fit 'kind to everyone'.",
+   "correct": 2,
+   "explanation": "Someone who brings back what you left behind and shows you the way, for anyone, is 親切 (kind); lively, famous or precious does not fit that.",
    "distractors": [
-    "CORRECT: kind to everyone",
-    "lively (no)",
     "famous (no)",
+    "CORRECT: 親切 = kind (helps everyone)",
+    "lively (no)",
     "precious (no)"
    ]
   },
@@ -300,20 +300,20 @@
    "target_word": "英会話",
    "reading": "えいかいわ",
    "meaning": "English conversation",
-   "sentence": "外国人の 友だちと もっと おしゃべりしたいので、まいしゅう（　　）を ならって います。",
+   "sentence": "外国人の 友だちと もっと はなしたいので、まいしゅう（　　）を ならって います。",
    "underline": "（　　）",
    "options": [
+    "英会話",
     "料理",
     "運動",
-    "英会話",
     "そうじ"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "Wanting to chat more with foreign friends, you learn 英会話 (English conversation); cooking, exercise, or cleaning is not about talking.",
    "distractors": [
+    "CORRECT: 英会話 = English conversation",
     "cooking (no)",
     "exercise (no)",
-    "CORRECT: English conversation",
     "cleaning (no)"
    ]
   },
@@ -329,17 +329,17 @@
    "sentence": "わたしは 去年 日本に 来ました。",
    "underline": "去年",
    "options": [
+    "わたしは 先月 日本に 来ました。",
     "わたしは 十年前に 日本に 来ました。",
     "わたしは 前の 年に 日本に 来ました。",
-    "わたしは 先月 日本に 来ました。",
     "わたしは 来年 日本に 来ます。"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "去年 = last year, i.e. the previous year (前の年); ten years ago, last month, or next year are different times.",
    "distractors": [
+    "last month (no)",
     "ten years ago (no)",
     "CORRECT: the previous year = 去年",
-    "last month (no)",
     "will come next year, not last year (no)"
    ],
    "review_flag": "TC-G13/TC-P04/TC-SA04/TC-NAT01/TC-JLPT04: future 来年 conflicted with past-tense 来ました.",
@@ -354,20 +354,20 @@
    "target_word": "味",
    "reading": "あじ",
    "meaning": "taste; flavor",
-   "sentence": "母が 作った スープは 味が とても いいです。",
+   "sentence": "母は この ケーキの 味が すきです。",
    "underline": "味",
    "options": [
-    "あぢ",
-    "あし",
-    "わじ",
+    "いろ",
+    "におい",
+    "かたち",
     "あじ"
    ],
    "correct": 4,
    "explanation": "「味」は「あじ」と読みます。",
    "distractors": [
-    "wrong kana ぢ",
-    "wrong voicing し",
-    "wrong first kana わ",
+    "いろ means 'color'",
+    "におい means 'smell'",
+    "かたち means 'shape'",
     "CORRECT: あじ = taste"
    ]
   },
@@ -377,30 +377,30 @@
    "target_kanji": [
     "親"
    ],
-   "target_word": "父親",
-   "reading": "ちちおや",
-   "meaning": "father",
-   "sentence": "わたしの 父親は 会社員です。",
-   "underline": "父親",
+   "target_word": "親",
+   "reading": "おや",
+   "meaning": "parent",
+   "sentence": "親に 電話を かけました。",
+   "underline": "親",
    "options": [
-    "ちちしん",
-    "ちちいや",
-    "ちちおや",
-    "ふおや"
+    "おば",
+    "おや",
+    "ちち",
+    "あに"
    ],
-   "correct": 3,
-   "explanation": "「父親」は「ちちおや」と読みます。",
+   "correct": 2,
+   "explanation": "「親」は「おや」と読みます。",
    "distractors": [
-    "on-reading しん misapplied",
-    "wrong kana い for お",
-    "CORRECT: ちちおや = father",
-    "on-reading ふ for 父"
+    "おば means 'aunt'",
+    "CORRECT: おや = parent",
+    "ちち means 'father'",
+    "あに means 'older brother'"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "にわに きれいな 花が さいて います。",
+   "sentence": "にわに 花が あります。",
    "underline": "花",
    "options": [
     "き",
@@ -411,24 +411,24 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "あかるい へやで ほんを よみます。",
+   "sentence": "あかるい へやで 本を よみます。",
    "underline": "よみます",
    "options": [
     "読みます",
-    "書きます",
-    "見ます",
-    "話します"
+    "飲みます",
+    "休みます",
+    "住みます"
    ],
    "correct": 1
   },
   "M3": {
-   "sentence": "ATMで お金を（　　）。",
+   "sentence": "銀行で お金を（　　）。",
    "underline": "（　　）",
    "options": [
     "おろします",
-    "たべます",
-    "はしります",
-    "ねます"
+    "食べます",
+    "よみます",
+    "飲みます"
    ],
    "correct": 1
   },
@@ -438,7 +438,7 @@
    "options": [
     "きのうは ひまでした。",
     "きのうは やる ことが 多かったです。",
-    "きのうは たのしかったです。",
+    "きのうは 楽しかったです。",
     "きのうは しずかでした。"
    ],
    "correct": 2

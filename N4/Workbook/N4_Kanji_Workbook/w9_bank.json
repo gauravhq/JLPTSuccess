@@ -15,18 +15,18 @@
    "sentence": "英語の 発音は むずかしいです。",
    "underline": "発音",
    "options": [
-    "はついん",
-    "はつね",
-    "はつおん",
-    "はっおん"
+    "はつお",
+    "ばつおん",
+    "ばつお",
+    "はつおん"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「発音」は「はつおん」と読みます。",
    "distractors": [
-    "on いん (as in 母音), wrong here",
-    "kun ね for 音",
-    "CORRECT",
-    "wrong sokuon はっ"
+    "drops the ん after お",
+    "voices は->ば",
+    "voices は->ば, and drops the ん after お",
+    "CORRECT: はつおん = pronunciation"
    ]
   },
   {
@@ -42,17 +42,17 @@
    "underline": "注意",
    "options": [
     "ちゅうい",
-    "ちゅい",
-    "ちゅうき",
-    "じゅうい"
+    "ちょい",
+    "ちょうい",
+    "ちゅい"
    ],
    "correct": 1,
    "explanation": "「注意」は「ちゅうい」と読みます。",
    "distractors": [
-    "CORRECT",
-    "drops the long vowel ちゅ",
-    "wrong reading き for 意",
-    "voices ち->じ"
+    "CORRECT: ちゅうい = caution; care",
+    "writes ゅう as ょう, and drops the long vowel (ょ)",
+    "writes ゅう as ょう",
+    "drops the long vowel (ゅ)"
    ]
   },
   {
@@ -64,21 +64,21 @@
    "target_word": "帰国",
    "reading": "きこく",
    "meaning": "returning to one's country",
-   "sentence": "りゅうがくを おえて、らいげつ 帰国します。",
+   "sentence": "りゅうがくが おわって、らいげつ 帰国します。",
    "underline": "帰国",
    "options": [
-    "きくに",
-    "きっこく",
-    "きごく",
-    "きこく"
+    "きこく",
+    "ぎこく",
+    "きこぐ",
+    "ぎこぐ"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「帰国」は「きこく」と読みます。",
    "distractors": [
-    "kun くに for 国",
-    "adds a sokuon (きっこく)",
-    "voices こ->ご",
-    "CORRECT"
+    "CORRECT: きこく = returning to one's country",
+    "voices き->ぎ",
+    "voices く->ぐ",
+    "voices き->ぎ, and voices く->ぐ"
    ]
   },
   {
@@ -90,21 +90,21 @@
    "target_word": "夜中",
    "reading": "よなか",
    "meaning": "the middle of the night",
-   "sentence": "夜中に 目が さめました。",
+   "sentence": "夜中に 一度 おきました。",
    "underline": "夜中",
    "options": [
-    "よるなか",
-    "よなか",
     "よちゅう",
-    "よなが"
+    "やなか",
+    "よなか",
+    "よるちゅう"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「夜中」は「よなか」と読みます。",
    "distractors": [
-    "kun よる for 夜 (here よ)",
+    "on ちゅう for 中, wrong here",
+    "on や for 夜, wrong here",
     "CORRECT: よなか = the middle of the night",
-    "kun よ + on ちゅう",
-    "voices か->が"
+    "kun よる for 夜 and on ちゅう for 中, wrong here"
    ]
   },
   {
@@ -119,17 +119,17 @@
    "sentence": "となりの 教室で 音楽の じゅぎょうを して います。",
    "underline": "教室",
    "options": [
-    "きょうし",
-    "きょしつ",
+    "きようじつ",
     "きょうしつ",
+    "きようしつ",
     "きょうじつ"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「教室」は「きょうしつ」と読みます。",
    "distractors": [
-    "drops しつ->し",
-    "drops the long vowel きょ",
-    "CORRECT",
+    "writes small ょ full-size (よ), and voices し->じ",
+    "CORRECT: きょうしつ = classroom",
+    "writes small ょ full-size (よ)",
     "voices し->じ"
    ]
   },
@@ -145,18 +145,18 @@
    "sentence": "先生が 書いた 字を ノートに うつす ことに しました。",
    "underline": "うつす",
    "options": [
+    "通す",
     "話す",
     "写す",
-    "出す",
-    "通す"
+    "出す"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「うつす」は「写す」と書きます。",
    "distractors": [
+    "通す = とおす, 'let pass'",
     "話す = はなす, 'speak'",
     "CORRECT: 写す = copy",
-    "出す = だす, 'put out'",
-    "通す = とおす, 'let pass'"
+    "出す = だす, 'take out; send'"
    ]
   },
   {
@@ -171,18 +171,18 @@
    "sentence": "先生の しつもんに こたえる ことが できました。",
    "underline": "こたえる",
    "options": [
-    "答える",
-    "教える",
     "考える",
-    "見える"
+    "見える",
+    "教える",
+    "答える"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "「こたえる」は「答える」と書きます。",
    "distractors": [
-    "CORRECT: 答える = answer",
-    "教える = おしえる, 'teach'",
     "考える = かんがえる, 'think'",
-    "見える = みえる, 'be visible'"
+    "見える = みえる, 'be visible'",
+    "教える = おしえる, 'teach'",
+    "CORRECT: 答える = answer"
    ]
   },
   {
@@ -198,17 +198,17 @@
    "underline": "うたう",
    "options": [
     "買う",
-    "思う",
+    "歌う",
     "会う",
-    "歌う"
+    "思う"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「うたう」は「歌う」と書きます。",
    "distractors": [
     "買う = かう, 'buy'",
-    "思う = おもう, 'think'",
+    "CORRECT: 歌う = sing",
     "会う = あう, 'meet'",
-    "CORRECT: 歌う = sing"
+    "思う = おもう, 'think'"
    ]
   },
   {
@@ -223,18 +223,18 @@
    "sentence": "まいにち えきまで あるく ことに して います。",
    "underline": "あるく",
    "options": [
-    "書く",
     "開く",
+    "書く",
     "歩く",
     "聞く"
    ],
    "correct": 3,
    "explanation": "「あるく」は「歩く」と書きます。",
    "distractors": [
-    "書く = かく, 'write'",
     "開く = あく, 'open'",
+    "書く = かく, 'write'",
     "CORRECT: 歩く = walk",
-    "聞く = きく, 'listen'"
+    "聞く = きく, 'listen; hear; ask'"
    ]
   },
   {
@@ -246,21 +246,21 @@
    "target_word": "文字",
    "reading": "もじ",
    "meaning": "characters; letters",
-   "sentence": "この てがみは、書いて ある（　　）が 小さくて、とても よみにくいです。",
+   "sentence": "この てがみは、書いて ある（　　）が 小さくて、とても 読みにくいです。",
    "underline": "（　　）",
    "options": [
-    "文字",
     "え",
-    "写真",
-    "いろ"
+    "文字",
+    "いろ",
+    "写真"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "What is written and hard to read is the 文字 (characters); a picture, photo or color is not 'read'.",
    "distractors": [
-    "CORRECT: 文字 = the written characters",
     "a picture",
-    "a photo",
-    "a color"
+    "CORRECT: 文字 = the written characters",
+    "a color",
+    "a photo"
    ],
    "review_status": "revised"
   },
@@ -276,18 +276,18 @@
    "sentence": "町の 道や えきの ばしょが 書いて ある（　　）を 見ながら、えきを さがしました。",
    "underline": "（　　）",
    "options": [
-    "写真",
+    "地図",
     "てがみ",
     "カレンダー",
-    "地図"
+    "写真"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "What shows the town's roads and station locations is a 地図 (map); you do not look at a photo, a letter or a calendar to find your way.",
    "distractors": [
-    "a photo",
+    "CORRECT: 地図 = a map (shows the roads and station locations)",
     "a letter",
     "a calendar",
-    "CORRECT: 地図 = a map (shows the roads and station locations)"
+    "a photo"
    ],
    "review_status": "revised"
   },
@@ -303,18 +303,18 @@
    "sentence": "あしたは 朝 はやいので、（　　）は はやく ねます。",
    "underline": "（　　）",
    "options": [
-    "毎朝",
     "去年",
-    "今夜",
-    "来年"
+    "来年",
+    "毎朝",
+    "今夜"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "Getting up early tomorrow means going to bed early 今夜 (tonight); every morning, last year and next year do not fit.",
    "distractors": [
-    "every morning",
     "last year",
-    "CORRECT: 今夜 = tonight",
-    "next year"
+    "next year",
+    "every morning",
+    "CORRECT: 今夜 = tonight"
    ],
    "review_status": "revised"
   },
@@ -332,17 +332,17 @@
    "underline": "悪い",
    "options": [
     "きょうは 朝から てんきが とても いいです。",
-    "きょうは 朝から てんきが よくないです。",
     "きょうは 朝から よく はれて います。",
-    "きょうは 朝から すずしいです。"
+    "きょうは 朝から 雨が ふって いません。",
+    "きょうは 朝から てんきが よくないです。"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "てんきが 悪い means the weather is bad, i.e. てんきが よくない (not good).",
    "distractors": [
     "is very good (opposite)",
-    "CORRECT: is not good = 悪い",
     "it has been sunny since morning (no)",
-    "it has been cool since morning (no)"
+    "it has not rained since morning (no)",
+    "CORRECT: is not good = 悪い"
    ],
    "review_flag": "TC-G01/TC-G10/TC-P02/TC-NAT01/TC-NAT06/TC-JLPT04: 天気があつい／天気がすずしい are unnatural predicates in these options.",
    "review_fix": "Replaced the two awkward weather options with natural weather sentences (よく はれて います / すずしいです); option 2 (よくない) stays the sole paraphrase of 悪い."
@@ -359,18 +359,18 @@
    "sentence": "よるに なると、そとから 大きな 音が 聞こえます。",
    "underline": "音",
    "options": [
+    "いん",
     "おと",
-    "おど",
-    "おそ",
-    "おのと"
+    "こえ",
+    "おど"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「音」は「おと」と読みます。",
    "distractors": [
+    "on いん for 音, wrong here",
     "CORRECT: おと = sound",
-    "wrong voicing ど",
-    "wrong kana そ",
-    "extra kana"
+    "こえ means 'voice'",
+    "voices と->ど"
    ]
   },
   {
@@ -386,23 +386,23 @@
    "underline": "帰ります",
    "options": [
     "きります",
+    "ぎります",
     "かえります",
-    "かいります",
-    "かえめます"
+    "がえります"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「帰ります」は「かえります」と読みます。",
    "distractors": [
-    "on-reading き",
+    "on き for 帰, wrong here",
+    "on き for 帰, plus voices き->ぎ",
     "CORRECT: かえります = go home",
-    "wrong vowel い",
-    "wrong kana め"
+    "voices か->が"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "あしたは 雨が ふるでしょう。",
+   "sentence": "わたしは 雨が すきです。",
    "underline": "雨",
    "options": [
     "ゆき",
@@ -413,7 +413,7 @@
    "correct": 2
   },
   "M2": {
-   "sentence": "ともだちに てがみを かきます。",
+   "sentence": "友だちに てがみを かきます。",
    "underline": "かきます",
    "options": [
     "書きます",
@@ -427,10 +427,10 @@
    "sentence": "レストランで ばんごはんを（　　）。",
    "underline": "（　　）",
    "options": [
-    "たべます",
-    "はしります",
-    "およぎます",
-    "ねます"
+    "食べます",
+    "読みます",
+    "あらいます",
+    "書きます"
    ],
    "correct": 1
   },

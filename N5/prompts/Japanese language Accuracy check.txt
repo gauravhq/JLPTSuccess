@@ -6689,6 +6689,39 @@ ONE-ROUND REVIEW PROTOCOL (added 2026-11-08): before a language review, (1) reco
      random kana changes instead of believable slips; kanji outside the book's list in explanations;
      an on reading highlighted where a basic kun word is met first. Check these per test unit, not per
      row. Cross-ref: F.73 point 17.
+     Checklist runs 2-4 (added 2026-11-15): when every reading distractor is a one-change variant of
+     the key, the key is the option closest to all the others, and a test-wise learner picks it
+     without reading the kanji (204 of the 281 N4 reading items scanned). Build a reading set as a 2x2
+     grid of two believable slips (key, A, B, A+B); for a short reading use on / kun mix-ups and
+     look-alike or same-field words (目: て / みみ / くち). Count per set how often the key, against a
+     distractor, is the unique centre, outlier, longest or shortest option. Not believable: vowel
+     swaps (あっぽ for いっぽ, わじ for あじ), a long vowel added inside a kun reading (おうもに). A
+     distractor that is itself a JMdict reading of the word (りょく for 力, もく for 目) is a second key.
+     A stem must not print another item's answer in an inflected form (住んで for 住む, まちました for
+     まつ) or a word that is part of it (会社 of 会社員). Keep one kana / kanji choice per word in a
+     whole test, worked examples and options included, unless the kana hides an answer (run 9 found 18
+     mixes across sections of one test; a section-only scan misses them; run 10 found 9 more in
+     worked-example options and conjugated forms, so match words on their lemma: たべます = 食べて; run 11
+     found mixed spellings (毎ばん / まいばん), pronouns (わたし / 私) and 問題2 distractor spellings a tagger
+     misses, so add a reading pass). Not a defect: an on'yomi distractor for a kun word (急いで:
+     きゅういで) when it does not decide another item. Replace an above-level tested compound with a level word
+     on the same kanji, or record why none exists. Check answer order and section coverage on the
+     printed sequence (a test may print by question type), count key-is-longest per question type, and
+     test a special reading only when the book prints it. In a compound reading item, at least two
+     distractors must change the tested kanji's reading. Same-field word distractors need a stem that
+     fits all four. Key order: also no three pairs in a row (1,1,3,3,2,2) and no run of three blocks
+     that are each a permutation of 1-4, and no 1-2-3-4 / 4-3-2-1 staircase. Runs 7-8 (2026-11-16):
+     a verb answer's noun form (通り for 通る) leaks like its conjugations; a compound whose options
+     all keep one kanji's reading gives that reading away when another item tests the kanji. Not a defect: a single kanji of another answer printed in a
+     stem (only multi-character parts are hidden). Runs 16-26 (2026-11-17/18): worked examples obey
+     the item rules of their section (no centre key, every option fits, no reading printed that decides
+     a reading item, 表記 key shape shared with a distractor); the centre cue is checked per character
+     and per kanji segment, and a truncated slip (よちゅ) counts as changing one segment; a grid corner
+     that is itself a reading of the word (やちゅう for 夜中) is a second key; every 問題3 CORRECT label
+     names the key; a card shows the everyday kun form the book uses (転ぶ, 通す; compare the first
+     okurigana kana); 三階 = 三がい in kana (三かい is 三回). Not a defect: the key being the
+     cleanest option when measured at chance level (N4: 30% vs 25%); 建物 as an example of 建 た(てる)
+     (常用漢字表). Cross-ref: F.73 point 18.
 ================================================================================
 A78 ADDENDUM (CI recovery round 2, 2026-11-08): playwright-p0-smoke was red on every master push
      from at least 2026-06-03. Four classes, in the A78 frame:

@@ -15,18 +15,18 @@
    "sentence": "もう 一度 言って ください。",
    "underline": "一度",
    "options": [
-    "いちど",
+    "いちとう",
     "いちどう",
-    "いっと",
+    "いちど",
     "いちと"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「一度」は「いちど」と読みます。",
    "distractors": [
-    "CORRECT",
-    "adds a long vowel (ど->どう)",
-    "wrong sokuon いっと",
-    "unvoices ど->と"
+    "unvoices ど->と, and adds a long vowel (とう)",
+    "adds a long vowel (どう)",
+    "CORRECT: いちど = once; one time",
+    "on と for 度 (rare), wrong here"
    ]
   },
   {
@@ -41,18 +41,18 @@
    "sentence": "母は まいにち 家事で いそがしいです。",
    "underline": "家事",
    "options": [
-    "いえじ",
-    "けじ",
     "かじ",
-    "やじ"
+    "がじ",
+    "かし",
+    "がし"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「家事」は「かじ」と読みます。",
    "distractors": [
-    "kun いえ, not the on か",
-    "on け (as in 山田家), wrong here",
-    "CORRECT",
-    "kun や, wrong here"
+    "CORRECT: かじ = housework",
+    "voices か->が",
+    "unvoices じ->し",
+    "voices か->が, and unvoices じ->し"
    ]
   },
   {
@@ -69,16 +69,16 @@
    "options": [
     "ぶんの",
     "ぶんや",
-    "ぶや",
-    "ふんや"
+    "ふんや",
+    "ふんの"
    ],
    "correct": 2,
    "explanation": "「分野」は「ぶんや」と読みます。",
    "distractors": [
-    "kun の, not the on や",
-    "CORRECT",
-    "drops ん",
-    "on ふん (as in 五分), wrong here"
+    "kun の for 野, wrong here",
+    "CORRECT: ぶんや = field; area",
+    "on ふん for 分, wrong here",
+    "on ふん for 分 and kun の for 野, wrong here"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "正月に かぞくで あつまります。",
    "underline": "正月",
    "options": [
-    "せいがつ",
-    "しょがつ",
-    "まさつき",
-    "しょうがつ"
+    "しょうかつ",
+    "しょうがつ",
+    "しゅうかつ",
+    "しゅうがつ"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "「正月」は「しょうがつ」と読みます。",
    "distractors": [
-    "on せい, wrong here",
-    "drops the long vowel しょ",
-    "kun まさ + つき",
-    "CORRECT"
+    "unvoices が->か",
+    "CORRECT: しょうがつ = New Year",
+    "writes ょう as ゅう, and unvoices が->か",
+    "writes ょう as ゅう"
    ]
   },
   {
@@ -119,18 +119,18 @@
    "sentence": "そふが びょうきで 入院しました。",
    "underline": "入院",
    "options": [
-    "にゅうえん",
+    "にゅい",
     "にゅいん",
-    "にゅういん",
-    "じゅういん"
+    "にゅうい",
+    "にゅういん"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「入院」は「にゅういん」と読みます。",
    "distractors": [
-    "wrong えん for いん",
-    "drops the long vowel にゅ",
-    "CORRECT",
-    "wrong initial じゅ"
+    "drops the long vowel (ゅ), and drops the ん after い",
+    "drops the long vowel (ゅ)",
+    "drops the ん after い",
+    "CORRECT: にゅういん = being admitted to hospital"
    ]
   },
   {
@@ -145,44 +145,44 @@
    "sentence": "きょうは かぜが とても つよいです。",
    "underline": "つよい",
    "options": [
-    "強い",
-    "新しい",
+    "明るい",
     "古い",
-    "明るい"
+    "新しい",
+    "強い"
    ],
-   "correct": 1,
+   "correct": 4,
    "explanation": "「つよい」は「強い」と書きます。",
    "distractors": [
-    "CORRECT: 強い = strong",
-    "新しい = あたらしい, 'new'",
+    "明るい = あかるい, 'bright'",
     "古い = ふるい, 'old'",
-    "明るい = あかるい, 'bright'"
+    "新しい = あたらしい, 'new'",
+    "CORRECT: 強い = strong"
    ]
   },
   {
    "id": "W03-M2-Q07",
    "type": "orthography",
    "target_kanji": [
-    "持"
+    "家"
    ],
-   "target_word": "きもち",
-   "reading": "きもち",
-   "meaning": "feeling",
-   "sentence": "プレゼントを もらって、うれしい きもちに なりました。",
-   "underline": "きもち",
+   "target_word": "いえ",
+   "reading": "いえ",
+   "meaning": "house; home",
+   "sentence": "ともだちの いえに あそびに 行きました。",
+   "underline": "いえ",
    "options": [
-    "自分",
-    "金持ち",
-    "気分",
-    "気持ち"
+    "家",
+    "店",
+    "国",
+    "道"
    ],
-   "correct": 4,
-   "explanation": "「きもち」は「気持ち」と書きます。",
+   "correct": 1,
+   "explanation": "「いえ」は「家」と書きます。",
    "distractors": [
-    "自分 = じぶん, 'oneself'",
-    "金持ち = かねもち, 'rich person'",
-    "気分 = きぶん, 'mood'",
-    "CORRECT: 気持ち = feeling"
+    "CORRECT: 家 = house; home",
+    "店 = みせ, 'shop'",
+    "国 = くに, 'country'",
+    "道 = みち, 'road'"
    ]
   },
   {
@@ -197,18 +197,18 @@
    "sentence": "あしたは 雨が ふると おもう ので、かさを わすれないで ください。",
    "underline": "おもう",
    "options": [
-    "買う",
-    "思う",
     "言う",
-    "会う"
+    "会う",
+    "思う",
+    "買う"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「おもう」は「思う」と書きます。",
    "distractors": [
-    "買う = かう, 'buy'",
-    "CORRECT: 思う = think",
     "言う = いう, 'say'",
-    "会う = あう, 'meet'"
+    "会う = あう, 'meet'",
+    "CORRECT: 思う = think",
+    "買う = かう, 'buy'"
    ]
   },
   {
@@ -223,18 +223,18 @@
    "sentence": "この こうえんは 木が おおいです。",
    "underline": "おおい",
    "options": [
-    "長い",
     "高い",
     "多い",
-    "強い"
+    "強い",
+    "長い"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「おおい」は「多い」と書きます。",
    "distractors": [
-    "長い = ながい, 'long'",
-    "高い = たかい, 'tall'",
+    "高い = たかい, 'high; tall; expensive'",
     "CORRECT: 多い = many",
-    "強い = つよい, 'strong'"
+    "強い = つよい, 'strong'",
+    "長い = ながい, 'long'"
    ]
   },
   {
@@ -246,21 +246,21 @@
    "target_word": "主人公",
    "reading": "しゅじんこう",
    "meaning": "main character; protagonist",
-   "sentence": "この えいがの（　　）は、話の ちゅうしんに なる わかい 女の人です。",
+   "sentence": "この えいがの（　　）は、げんきな 女の子です。",
    "underline": "（　　）",
    "options": [
-    "名前",
-    "天気",
     "時間",
-    "主人公"
+    "名前",
+    "主人公",
+    "天気"
    ],
-   "correct": 4,
-   "explanation": "The character the story centers on is the 主人公 (protagonist); a name, the weather or the running time is not a person in the story.",
+   "correct": 3,
+   "explanation": "The main character of a film is its 主人公 (protagonist); a name, the weather or the running time is not a person in the story.",
    "distractors": [
-    "a name (not a person)",
-    "the weather (not a person)",
     "the running time (not a person)",
-    "CORRECT: 主人公 = the story's protagonist"
+    "a name (not a person)",
+    "CORRECT: 主人公 = the story's protagonist",
+    "the weather (not a person)"
    ],
    "review_status": "revised"
   },
@@ -276,18 +276,18 @@
    "sentence": "土よう日と 日よう日（　　）は、学校が あります。",
    "underline": "（　　）",
    "options": [
-    "以外",
     "以上",
     "以下",
-    "一度"
+    "以前",
+    "以外"
    ],
-   "correct": 1,
-   "explanation": "'Other than Saturday and Sunday there is school' takes 以外 (other than); 以上 (X or more) / 以下 (X or less) / 一度 (once) do not fit.",
+   "correct": 4,
+   "explanation": "'Other than Saturday and Sunday there is school' takes 以外 (other than); 以上 (X or more) / 以下 (X or less) / 以前 (before) do not fit.",
    "distractors": [
-    "CORRECT: other than Sat and Sun",
-    "X or more (no)",
-    "X or less (no)",
-    "once (no)"
+    "以上 = いじょう, X or more (no)",
+    "以下 = いか, X or less (no)",
+    "以前 = いぜん, before (no)",
+    "CORRECT: 以外 = other than (Saturday and Sunday)"
    ]
   },
   {
@@ -302,18 +302,18 @@
    "sentence": "まいにち いぬの（　　）を して います。",
    "underline": "（　　）",
    "options": [
-    "用事",
     "世話",
+    "意見",
     "家事",
-    "意見"
+    "用事"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "Looking after a dog is its 世話 (care); an errand, housework, or an opinion does not fit 'looking after a dog'.",
    "distractors": [
-    "errand (no)",
-    "CORRECT: taking care of the dog",
+    "CORRECT: 世話 = care (taking care of the dog)",
+    "opinion (no)",
     "housework (no)",
-    "opinion (no)"
+    "errand (no)"
    ]
   },
   {
@@ -328,18 +328,18 @@
    "sentence": "テストの こたえは ぜんぶ 正しかったです。",
    "underline": "正しかった",
    "options": [
+    "テストの こたえは ぜんぶ あって いました。",
     "テストの こたえは ぜんぶ まちがって いました。",
-    "テストの こたえは いくつか まちがって いました。",
     "テストの こたえは まだ 書いて ありませんでした。",
-    "テストの こたえは ぜんぶ あって いました。"
+    "テストの こたえは いくつか まちがって いました。"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "正しい means 'correct', which matches あって いる (to be right).",
    "distractors": [
+    "CORRECT: all were right = 正しかった",
     "all were wrong (opposite)",
-    "some were wrong (no)",
     "not written yet (no)",
-    "CORRECT: all were right = 正しかった"
+    "some were wrong (no)"
    ],
    "review_flag": "TC-G01/TC-G10/TC-P02/TC-NAT01/TC-NAT03/TC-JLPT04: むずかしかった／やさしかった do not naturally predicate テストのこたえ.",
    "review_fix": "Replaced options 2 and 3 with natural statements about the answers; option 4 (ぜんぶあっていました) stays the sole paraphrase of 正しかった."
@@ -356,18 +356,18 @@
    "sentence": "この にもつを 持って ください。",
    "underline": "持って",
    "options": [
-    "まって",
-    "もって",
+    "じいって",
     "じって",
+    "もって",
     "もうって"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「持って」は「もって」と読みます。",
    "distractors": [
-    "wrong kana ま for も (まって = wait)",
+    "on じ for 持, and adds a long vowel (じい)",
+    "on じ for 持, wrong here",
     "CORRECT: もって = hold; carry",
-    "on-reading じ misapplied",
-    "adds a long vowel (もうって)"
+    "adds a long vowel (もう)"
    ]
   },
   {
@@ -382,24 +382,24 @@
    "sentence": "あしたは 多分 雨でしょう。",
    "underline": "多分",
    "options": [
-    "たふん",
-    "おおぶん",
+    "だぶ",
     "たぶん",
+    "たぶ",
     "だぶん"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「多分」は「たぶん」と読みます。",
    "distractors": [
-    "on ふん (as in 五分), wrong here",
-    "kun おお for 多",
+    "voices た->だ, and drops the ん after ぶ",
     "CORRECT: たぶん = probably",
+    "on ぶ for 分, wrong here",
     "voices た->だ"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "あかい 花が さいて います。",
+   "sentence": "あの 花を 見て ください。",
    "underline": "花",
    "options": [
     "やま",
@@ -421,13 +421,13 @@
    "correct": 1
   },
   "M3": {
-   "sentence": "あめが ふって いるので、かさを（　　）。",
+   "sentence": "雨が ふって いるので、かさを（　　）。",
    "underline": "（　　）",
    "options": [
     "さします",
     "たべます",
     "ききます",
-    "はしります"
+    "のみます"
    ],
    "correct": 1
   },
@@ -435,10 +435,10 @@
    "sentence": "この かばんは 高いです。",
    "underline": "高い",
    "options": [
-    "この かばんは ねだんが やすいです。",
-    "この かばんは ねだんが やすく ありません。",
+    "この かばんは ねだんが 安いです。",
+    "この かばんは ねだんが 安く ありません。",
     "この かばんは とても かるいです。",
-    "この かばんは とても 大きいです。"
+    "この かばんは あまり 大きく ありません。"
    ],
    "correct": 2
   },
@@ -446,9 +446,9 @@
    "sentence": "ならう",
    "underline": "ならう",
    "options": [
-    "がっこうで ピアノを ならって います。",
+    "学校で ピアノを ならって います。",
     "へやを きれいに ならって ください。",
-    "この ペンを ならって ください。",
+    "この 本を ならって ください。",
     "おなかが すいたので、ごはんを ならいます。"
    ],
    "correct": 1

@@ -15,17 +15,17 @@
    "sentence": "もう 少し ゆっくり 話して ください。",
    "underline": "少し",
    "options": [
-    "すくし",
-    "しょうし",
+    "ずごし",
     "すこし",
+    "ずこし",
     "すごし"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「少し」は「すこし」と読みます。",
    "distractors": [
-    "kun すく (少ない) misapplied",
-    "on-reading しょう misapplied",
+    "voices す->ず, and voices こ->ご",
     "CORRECT: すこし = a little",
+    "voices す->ず",
     "voices こ->ご"
    ]
   },
@@ -41,18 +41,18 @@
    "sentence": "母は 日本料理を 作るのが とても 上手です。",
    "underline": "料理",
    "options": [
+    "りょうり",
+    "りゅうり",
     "りょり",
-    "りようり",
-    "りょうじ",
-    "りょうり"
+    "りゅり"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「料理」は「りょうり」と読みます。",
    "distractors": [
-    "drops the long vowel りょ",
-    "full-size よ instead of small ょ",
-    "wrong reading じ for 理",
-    "CORRECT"
+    "CORRECT: りょうり = cooking; dish",
+    "writes ょう as ゅう",
+    "drops the long vowel (ょ)",
+    "writes ょう as ゅう, and drops the long vowel (ゅ)"
    ]
   },
   {
@@ -67,18 +67,18 @@
    "sentence": "急行は つぎの えきに とまりません。",
    "underline": "急行",
    "options": [
-    "きゅこう",
-    "きゅうこう",
-    "きゅうぎょう",
-    "きゅこ"
+    "きょうこう",
+    "きょうこ",
+    "きゅうこ",
+    "きゅうこう"
    ],
-   "correct": 2,
+   "correct": 4,
    "explanation": "「急行」は「きゅうこう」と読みます。",
    "distractors": [
-    "drops the long vowel きゅ",
-    "CORRECT",
-    "on ぎょう (as in 行事), wrong here",
-    "short reading"
+    "writes ゅう as ょう",
+    "writes ゅう as ょう, and drops the long vowel (こ)",
+    "drops the long vowel (こ)",
+    "CORRECT: きゅうこう = express (train)"
    ]
   },
   {
@@ -93,18 +93,18 @@
    "sentence": "一日で ぜんぶ おぼえるのは 無理です。",
    "underline": "無理",
    "options": [
+    "なり",
     "むり",
     "ぶり",
-    "むりょう",
-    "むじ"
+    "ふり"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「無理」は「むり」と読みます。",
    "distractors": [
-    "CORRECT",
-    "on ぶ (as in 無事), wrong here",
-    "むりょう = 無料 (free), wrong here",
-    "wrong reading じ for 理"
+    "kun な for 無, wrong here",
+    "CORRECT: むり = impossible; unreasonable",
+    "on ぶ for 無, wrong here",
+    "on ぶ for 無, plus unvoices ぶ->ふ"
    ]
   },
   {
@@ -116,21 +116,21 @@
    "target_word": "少年",
    "reading": "しょうねん",
    "meaning": "boy",
-   "sentence": "その 本は 少年が しゅじんこうの ものがたりです。",
+   "sentence": "その 本は ある 少年の 話です。",
    "underline": "少年",
    "options": [
-    "すくねん",
-    "しょねん",
     "しょうねん",
-    "しょうとし"
+    "じょうねん",
+    "しょねん",
+    "じょねん"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "「少年」は「しょうねん」と読みます。",
    "distractors": [
-    "kun すく for 少",
-    "drops the long vowel しょ",
-    "CORRECT",
-    "kun とし for 年"
+    "CORRECT: しょうねん = boy",
+    "voices し->じ",
+    "drops the long vowel (ょ)",
+    "voices し->じ, and drops the long vowel (ょ)"
    ]
   },
   {
@@ -145,18 +145,18 @@
    "sentence": "この こうえんは とても ひろいです。",
    "underline": "ひろい",
    "options": [
+    "広い",
     "多い",
-    "高い",
     "長い",
-    "広い"
+    "高い"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「ひろい」は「広い」と書きます。",
    "distractors": [
+    "CORRECT: 広い = spacious",
     "多い = おおい, 'many'",
-    "高い = たかい, 'tall'",
     "長い = ながい, 'long'",
-    "CORRECT: 広い = spacious"
+    "高い = たかい, 'high; tall; expensive'"
    ]
   },
   {
@@ -171,18 +171,18 @@
    "sentence": "らいねん 東京に すむ よていです。",
    "underline": "すむ",
    "options": [
-    "住む",
-    "読む",
+    "休む",
     "飲む",
-    "休む"
+    "住む",
+    "読む"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「すむ」は「住む」と書きます。",
    "distractors": [
-    "CORRECT: 住む = live",
-    "読む = よむ, 'read'",
+    "休む = やすむ, 'rest'",
     "飲む = のむ, 'drink'",
-    "休む = やすむ, 'rest'"
+    "CORRECT: 住む = live",
+    "読む = よむ, 'read'"
    ]
   },
   {
@@ -215,26 +215,26 @@
    "id": "W06-M2-Q09",
    "type": "orthography",
    "target_kanji": [
-    "料"
+    "建"
    ],
-   "target_word": "りょうきん",
-   "reading": "りょうきん",
-   "meaning": "fee; charge",
-   "sentence": "バスの りょうきんは いくらですか。",
-   "underline": "りょうきん",
+   "target_word": "たてもの",
+   "reading": "たてもの",
+   "meaning": "building",
+   "sentence": "えきの 前に 大きな たてものが できました。",
+   "underline": "たてもの",
    "options": [
-    "料理",
-    "無料",
-    "有料",
-    "料金"
+    "品物",
+    "動物",
+    "見物",
+    "建物"
    ],
    "correct": 4,
-   "explanation": "「りょうきん」は「料金」と書きます。",
+   "explanation": "「たてもの」は「建物」と書きます。",
    "distractors": [
-    "料理 = りょうり, 'cooking'",
-    "無料 = むりょう, 'free of charge'",
-    "有料 = ゆうりょう, 'not free'",
-    "CORRECT: 料金 = fee; charge"
+    "品物 = しなもの, 'goods'",
+    "動物 = どうぶつ, 'animal'",
+    "見物 = けんぶつ, 'sightseeing'",
+    "CORRECT: 建物 = building"
    ]
   },
   {
@@ -249,18 +249,18 @@
    "sentence": "きょうしつに パソコンが 二（　　）あります。",
    "underline": "（　　）",
    "options": [
-    "まい",
-    "ひき",
     "台",
-    "さつ"
+    "ひき",
+    "本",
+    "まい"
    ],
-   "correct": 3,
-   "explanation": "Computers are counted with 台 (for machines); 枚 is for flat things, 匹 for animals, 冊 for books.",
+   "correct": 1,
+   "explanation": "Computers are counted with 台 (for machines); まい is for flat things, ひき for animals, 本 for long thin things.",
    "distractors": [
-    "まい (flat things)",
-    "ひき (animals)",
     "CORRECT: 台 for machines",
-    "さつ (books)"
+    "ひき (animals)",
+    "本 (long thin things)",
+    "まい (flat things)"
    ]
   },
   {
@@ -275,18 +275,18 @@
    "sentence": "みちの（　　）を あるくと あぶないです。",
    "underline": "（　　）",
    "options": [
-    "真ん中",
     "入口",
     "前",
-    "後ろ"
+    "後ろ",
+    "真ん中"
    ],
-   "correct": 1,
-   "explanation": "Walking in the 真ん中 (middle) of the road, where cars drive, is dangerous; みちの 入口 (entrance), 前 (front) or 後ろ (back) does not say where on the road you are walking.",
+   "correct": 4,
+   "explanation": "Walking in the 真ん中 (middle) of the road, where cars drive, is dangerous; 入口 (entrance), 前 (front) and 後ろ (back) are not the natural way to name the part of a road you walk on.",
    "distractors": [
-    "CORRECT: 真ん中 = the middle of the road",
-    "入口 = entrance; does not say where on the road you walk",
-    "前 = front; does not say where on the road you walk",
-    "後ろ = back; does not say where on the road you walk"
+    "入口 = entrance (not a part of the road you walk on)",
+    "前 = front (not a part of the road you walk on)",
+    "後ろ = back (not a part of the road you walk on)",
+    "CORRECT: 真ん中 = the middle of the road"
    ],
    "review_status": "revised"
   },
@@ -299,21 +299,21 @@
    "target_word": "町",
    "reading": "まち",
    "meaning": "town",
-   "sentence": "東京の 町を さんぽしました。",
+   "sentence": "わたしは この 町が すきです。",
    "underline": "町",
    "options": [
-    "まじ",
-    "あち",
+    "うち",
+    "いち",
     "まち",
-    "まつ"
+    "みち"
    ],
    "correct": 3,
    "explanation": "「町」は「まち」と読みます。",
    "distractors": [
-    "wrong final kana: ち -> じ",
-    "wrong first kana: ま -> あ",
+    "うち means 'home'",
+    "いち means 'market', as in いちば",
     "CORRECT: まち = town",
-    "wrong final kana: ち -> つ"
+    "みち means 'road'"
    ],
    "review_status": "revised"
   },
@@ -330,18 +330,18 @@
    "sentence": "あの かしゅは 日本中で とても 有名です。",
    "underline": "有名です",
    "options": [
-    "あの かしゅを だれも しりません。",
-    "あの かしゅは あまり 人気が ありません。",
     "あの かしゅは うたが 下手です。",
-    "あの かしゅは みんなが よく しって います。"
+    "あの かしゅは みんなが よく しって います。",
+    "あの かしゅを だれも しりません。",
+    "あの かしゅは 日本では あまり 人気が ありません。"
    ],
-   "correct": 4,
+   "correct": 2,
    "explanation": "有名 means 'famous', which matches みんなが よく しって いる (everyone knows).",
    "distractors": [
-    "nobody knows (opposite)",
-    "not very popular (opposite)",
     "sings badly (no)",
-    "CORRECT: everyone knows = 有名"
+    "CORRECT: everyone knows = 有名",
+    "nobody knows (opposite)",
+    "not very popular in Japan (not what 有名 says)"
    ]
   },
   {
@@ -356,18 +356,18 @@
    "sentence": "時間が ないので、急いで ください。",
    "underline": "急いで",
    "options": [
+    "いぞいで",
+    "きゅいで",
     "いそいで",
-    "きゅういで",
-    "いそうで",
-    "いぞいで"
+    "きゅういで"
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": "「急いで」は「いそいで」と読みます。",
    "distractors": [
+    "voices そ->ぞ",
+    "on きゅう for 急, plus drops the long vowel (ゅ)",
     "CORRECT: いそいで = hurry",
-    "on-reading きゅう misapplied",
-    "wrong kana う (いそうで)",
-    "voices そ->ぞ"
+    "on きゅう for 急, wrong here"
    ]
   },
   {
@@ -382,41 +382,41 @@
    "sentence": "建てる",
    "underline": "建てる",
    "options": [
-    "こうえんに はたを 高く 建てました。",
-    "おじいさんが この 山に 大きな 家を 建てました。",
     "げんかんに かさを 建てて おきました。",
-    "らいねんの もくひょうを 建てました。"
+    "こうえんに はたを 高く 建てました。",
+    "らいねんの 計画を 建てました。",
+    "おじいさんが この 山に 大きな 家を 建てました。"
    ],
-   "correct": 2,
-   "explanation": "建てる = to build a structure (a house); raising a flag, standing an umbrella, or setting a goal all use 立てる (same sound, たてる).",
+   "correct": 4,
+   "explanation": "建てる = to build a structure (a house); raising a flag, standing an umbrella, or making a plan all use 立てる (same sound, たてる).",
    "distractors": [
-    "should be 立てました (raise a flag)",
-    "CORRECT: built a large house on this mountain",
     "should be 立てて (stand the umbrella)",
-    "should be 立てました (set a goal)"
+    "should be 立てました (raise a flag)",
+    "should be 立てました (make a plan)",
+    "CORRECT: built a large house on this mountain"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "つめたい 水を のみます。",
+   "sentence": "つめたい 水を 飲みます。",
    "underline": "水",
    "options": [
-    "みす",
+    "おちゃ",
     "みず",
-    "みつ",
-    "むず"
+    "こうちゃ",
+    "ぎゅうにゅう"
    ],
    "correct": 2
   },
   "M2": {
-   "sentence": "あたらしい ようふくを かいました。",
-   "underline": "かいました",
+   "sentence": "母に てがみを かきました。",
+   "underline": "かきました",
    "options": [
-    "買いました",
-    "売りました",
-    "作りました",
-    "使いました"
+    "書きました",
+    "聞きました",
+    "行きました",
+    "開きました"
    ],
    "correct": 1
   },
@@ -424,9 +424,9 @@
    "sentence": "としょかんで 本を（　　）。",
    "underline": "（　　）",
    "options": [
-    "よみます",
-    "のみます",
-    "はしります",
+    "読みます",
+    "飲みます",
+    "あらいます",
     "たべます"
    ],
    "correct": 1
@@ -436,20 +436,20 @@
    "underline": "かんたん",
    "options": [
     "この もんだいは とても むずかしいです。",
-    "この もんだいは やさしいです。",
-    "この もんだいは よく でます。",
+    "この もんだいは とても やさしいです。",
+    "この もんだいは よく 出ます。",
     "この もんだいは おもしろいです。"
    ],
    "correct": 2
   },
   "M5": {
-   "sentence": "うる",
-   "underline": "うる",
+   "sentence": "売る",
+   "underline": "売る",
    "options": [
-    "この 店では やさいを うって います。",
-    "がっこうで にほんごを うります。",
-    "そらを うります。",
-    "つめたい 水を うって のみます。"
+    "この 店では やさいを 売って います。",
+    "学校で 日本語を 売ります。",
+    "雨が たくさん 売ります。",
+    "かぜが つよく 売ります。"
    ],
    "correct": 1
   }

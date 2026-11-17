@@ -17,16 +17,16 @@
    "options": [
     "うんてん",
     "うんでん",
-    "うんてい",
-    "うてん"
+    "うてん",
+    "うでん"
    ],
    "correct": 1,
    "explanation": "「運転」は「うんてん」と読みます。",
    "distractors": [
-    "CORRECT",
+    "CORRECT: うんてん = driving",
     "voices て->で",
-    "wrong ending てい",
-    "drops ん"
+    "drops the ん after う",
+    "drops the ん after う, and voices て->で"
    ]
   },
   {
@@ -42,18 +42,18 @@
    "sentence": "だいがくで 日本語の 研究を して います。",
    "underline": "研究",
    "options": [
-    "けんきゅ",
+    "けきゆう",
+    "けきゅう",
     "けんきゅう",
-    "げんきゅう",
-    "けんぎゅう"
+    "けんきゆう"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「研究」は「けんきゅう」と読みます。",
    "distractors": [
-    "drops the long vowel きゅ",
-    "CORRECT",
-    "voices け->げ",
-    "voices きゅう->ぎゅう"
+    "drops the ん after け, and writes small ゅ full-size (ゆ)",
+    "drops the ん after け",
+    "CORRECT: けんきゅう = research",
+    "writes small ゅ full-size (ゆ)"
    ]
   },
   {
@@ -68,18 +68,18 @@
    "sentence": "病気の ときは ゆっくり 休みましょう。",
    "underline": "病気",
    "options": [
+    "びよき",
     "びょき",
-    "へいき",
-    "びょうぎ",
+    "びようき",
     "びょうき"
    ],
    "correct": 4,
    "explanation": "「病気」は「びょうき」と読みます。",
    "distractors": [
-    "drops the long vowel びょ",
-    "on へい (rare), wrong here",
-    "voices き->ぎ",
-    "CORRECT"
+    "writes small ょ full-size (よ), and drops the long vowel (よ)",
+    "drops the long vowel (ょ)",
+    "writes small ょ full-size (よ)",
+    "CORRECT: びょうき = illness"
    ]
   },
   {
@@ -94,18 +94,18 @@
    "sentence": "わからない ときは 先生に 質問します。",
    "underline": "質問",
    "options": [
-    "しちもん",
-    "しつぶん",
+    "じつもん",
+    "じつも",
     "しつもん",
-    "じつもん"
+    "しつも"
    ],
    "correct": 3,
    "explanation": "「質問」は「しつもん」と読みます。",
    "distractors": [
-    "on しち (as in 質屋), wrong here",
-    "ぶん is a reading of 聞, not 問",
-    "CORRECT",
-    "voices し->じ"
+    "voices し->じ",
+    "voices し->じ, and drops the ん after も",
+    "CORRECT: しつもん = question",
+    "drops the ん after も"
    ]
   },
   {
@@ -120,18 +120,18 @@
    "sentence": "この いすは すわると 楽です。",
    "underline": "楽",
    "options": [
-    "らく",
     "らぐ",
-    "ろく",
-    "らあく"
+    "らく",
+    "たの",
+    "がぐ"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「楽」は「らく」と読みます。",
    "distractors": [
-    "CORRECT: らく = comfortable; easy",
     "voices く->ぐ",
-    "wrong vowel ろ",
-    "adds a long vowel (らあく)"
+    "CORRECT: らく = comfortable; easy",
+    "kun たの for 楽 (from 楽しい), wrong here",
+    "on がく for 楽, plus voices く->ぐ"
    ]
   },
   {
@@ -146,18 +146,18 @@
    "sentence": "車を 店の まえに とめる ことが できます。",
    "underline": "とめる",
    "options": [
-    "集める",
+    "教える",
     "始める",
-    "止める",
-    "教える"
+    "集める",
+    "止める"
    ],
-   "correct": 3,
+   "correct": 4,
    "explanation": "「とめる」は「止める」と書きます。",
    "distractors": [
-    "集める = あつめる, 'collect'",
+    "教える = おしえる, 'teach'",
     "始める = はじめる, 'begin'",
-    "CORRECT: 止める = stop",
-    "教える = おしえる, 'teach'"
+    "集める = あつめる, 'collect'",
+    "CORRECT: 止める = stop"
    ]
   },
   {
@@ -172,18 +172,18 @@
    "sentence": "いなかの そぼに にもつを おくる つもりです。",
    "underline": "おくる",
    "options": [
-    "作る",
     "送る",
     "売る",
-    "知る"
+    "知る",
+    "作る"
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": "「おくる」は「送る」と書きます。",
    "distractors": [
-    "作る = つくる, 'make'",
     "CORRECT: 送る = send",
     "売る = うる, 'sell'",
-    "知る = しる, 'know'"
+    "知る = しる, 'know'",
+    "作る = つくる, 'make'"
    ]
   },
   {
@@ -198,18 +198,18 @@
    "sentence": "さむいので、あたたかい セーターを きる ことに しました。",
    "underline": "きる",
    "options": [
-    "見る",
-    "知る",
+    "着る",
     "売る",
-    "着る"
+    "知る",
+    "見る"
    ],
-   "correct": 4,
+   "correct": 1,
    "explanation": "「きる」は「着る」と書きます。",
    "distractors": [
-    "見る = みる, 'see'",
-    "知る = しる, 'know'",
+    "CORRECT: 着る = wear",
     "売る = うる, 'sell'",
-    "CORRECT: 着る = wear"
+    "知る = しる, 'know'",
+    "見る = みる, 'see'"
    ]
   },
   {
@@ -221,21 +221,21 @@
    "target_word": "まつ",
    "reading": "まつ",
    "meaning": "to wait",
-   "sentence": "えきの まえで 友だちを まつ ことに しました。",
+   "sentence": "駅の まえで 友だちを まつ ことに しました。",
    "underline": "まつ",
    "options": [
+    "建つ",
     "待つ",
     "持つ",
-    "立つ",
-    "建つ"
+    "立つ"
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": "「まつ」は「待つ」と書きます。",
    "distractors": [
+    "建つ = たつ, 'be built'",
     "CORRECT: 待つ = wait",
     "持つ = もつ, 'hold'",
-    "立つ = たつ, 'stand'",
-    "建つ = たつ, 'be built'"
+    "立つ = たつ, 'stand'"
    ]
   },
   {
@@ -247,21 +247,21 @@
    "target_word": "楽しい",
    "reading": "たのしい",
    "meaning": "fun; enjoyable",
-   "sentence": "みんなで たくさん あそんで、とても（　　）えんそくでした。",
+   "sentence": "みんなで たくさん あそんで、とても（　　）一日でした。",
    "underline": "（　　）",
    "options": [
-    "かなしい",
     "むずかしい",
     "つまらない",
-    "楽しい"
+    "かなしい",
+    "たのしい"
    ],
    "correct": 4,
-   "explanation": "Playing a lot makes it a 楽しい (fun) excursion; it was not sad, difficult or boring.",
+   "explanation": "Playing a lot makes it a たのしい (fun) day; it was not sad, difficult or boring.",
    "distractors": [
-    "sad",
     "difficult",
     "boring",
-    "CORRECT: 楽しい = fun (after playing a lot)"
+    "sad",
+    "CORRECT: たのしい = fun (after playing a lot)"
    ],
    "review_status": "revised"
   },
@@ -279,16 +279,16 @@
    "options": [
     "ねて",
     "起きて",
-    "かえって",
-    "はしって"
+    "はしって",
+    "休んで"
    ],
    "correct": 2,
-   "explanation": "Before getting out of bed you 起きて (wake up); you do not sleep, return or run before getting out of bed.",
+   "explanation": "Waking up (起きて) is what comes right before getting out of bed; going to sleep (ねて), running or resting does not.",
    "distractors": [
     "sleep (no)",
     "CORRECT: 起きて = wake up (then get out of bed)",
-    "return (no)",
-    "run (no)"
+    "run (no)",
+    "rest (no)"
    ],
    "review_status": "revised"
   },
@@ -304,18 +304,18 @@
    "sentence": "高い ねつが あるので、おいしゃさんに みて もらう ために、（　　）に 行きます。",
    "underline": "（　　）",
    "options": [
-    "学校",
-    "駅",
     "病院",
-    "みせ"
+    "店",
+    "駅",
+    "学校"
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": "To have a doctor examine a high fever you go to the 病院 (hospital); not a school, station or shop.",
    "distractors": [
-    "school",
-    "station",
     "CORRECT: 病院 = hospital (to be seen by a doctor)",
-    "shop"
+    "shop",
+    "station",
+    "school"
    ],
    "review_status": "revised"
   },
@@ -332,17 +332,17 @@
    "sentence": "この 時計は 父に もらった もので、とても 大切です。",
    "underline": "大切です",
    "options": [
+    "この 時計は とても 古いです。",
     "この 時計は とても べんりです。",
-    "この 時計は とても ふるいです。",
-    "この 時計は とても ゆうめいです。",
+    "この 時計は とても 大きいです。",
     "この 時計は とても 大事です。"
    ],
    "correct": 4,
    "explanation": "大切 means 'precious/important', which matches 大事.",
    "distractors": [
-    "convenient (no)",
     "old (no)",
-    "famous (no)",
+    "convenient (no)",
+    "big (no)",
     "CORRECT: precious = 大切 <-> 大事"
    ]
   },
@@ -358,18 +358,18 @@
    "sentence": "電車は 九時に 駅に 着きました。",
    "underline": "着きました",
    "options": [
-    "つぎました",
+    "ちゃくきました",
+    "ぎきました",
     "つきました",
-    "ちゃくました",
-    "づきました"
+    "ききました"
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": "「着きました」は「つきました」と読みます。",
    "distractors": [
-    "voices き->ぎ",
+    "on ちゃく for 着, wrong here",
+    "kun き for 着 (from 着る), plus voices き->ぎ",
     "CORRECT: つきました = arrived",
-    "on-reading ちゃく misapplied",
-    "voices つ->づ"
+    "kun き for 着 (from 着る), wrong here"
    ]
   },
   {
@@ -384,24 +384,24 @@
    "sentence": "毎日 自転車で 学校へ 行きます。",
    "underline": "自転車",
    "options": [
-    "じってんしゃ",
-    "じてんじゃ",
+    "じてしゃ",
     "じてんしゃ",
-    "じころしゃ"
+    "じてんしや",
+    "じてしや"
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": "「自転車」は「じてんしゃ」と読みます。",
    "distractors": [
-    "adds a sokuon (じってんしゃ)",
-    "voices しゃ->じゃ",
+    "drops the ん after て",
     "CORRECT: じてんしゃ = bicycle",
-    "kun ころ (転ぶ) misapplied"
+    "writes small ゃ full-size (や)",
+    "drops the ん after て, and writes small ゃ full-size (や)"
    ]
   }
  ],
  "examples": {
   "M1": {
-   "sentence": "川で こどもが およいで います。",
+   "sentence": "川で 子どもが あそんで います。",
    "underline": "川",
    "options": [
     "やま",
@@ -416,9 +416,9 @@
    "underline": "のみます",
    "options": [
     "飲みます",
-    "食べます",
-    "買います",
-    "作ります"
+    "休みます",
+    "読みます",
+    "住みます"
    ],
    "correct": 1
   },
@@ -427,9 +427,9 @@
    "underline": "（　　）",
    "options": [
     "みがきます",
-    "たべます",
-    "よみます",
-    "はしります"
+    "食べます",
+    "読みます",
+    "のみます"
    ],
    "correct": 1
   },
@@ -439,8 +439,8 @@
    "options": [
     "きのうの えいがは とても おもしろかったです。",
     "きのうの えいがは ぜんぜん おもしろくなかったです。",
-    "きのうの えいがは とても こわかったです。",
-    "きのうの えいがは とても ながかったです。"
+    "きのうの えいがは あまり こわくなかったです。",
+    "きのうの えいがは とても 長かったです。"
    ],
    "correct": 2
   },
@@ -451,7 +451,7 @@
     "あめが やっと やみました。",
     "へやを きれいに やみました。",
     "ごはんを たくさん やみました。",
-    "がっこうまで あるいて やみました。"
+    "学校まで あるいて やみました。"
    ],
    "correct": 1
   }
